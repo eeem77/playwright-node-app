@@ -41,16 +41,14 @@ const seccionFooterPage = async (page, numPage) => {
 const updateProducts = async (ids) => {
   for await (const id of ids) {
     await page.goto(`https://www.apprinting.com/admin/product_description.php?product_id=${id}`)
-    await page.screenshot({path: 'one.png'})
     const btnHTML = await page.$('#cke_134')
     await btnHTML.click()
-    await page.waitForTimeout(3000)
+    await page.waitForTimeout(1000)
     await page.locator('#cke_3_contents').focus()
     await page.locator('#cke_3_contents').click()
     await page.locator('#cke_3_contents').press('Control+a')
     await page.locator('#cke_3_contents').press('Control+x')
     await page.locator('#cke_3_contents').type(html)
-    await page.screenshot({path:'one.png'})
     await page.click('#btn-action-save')
     await page.waitForTimeout(3000)
     console.log(id)
