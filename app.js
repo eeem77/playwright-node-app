@@ -43,7 +43,7 @@ const updateProducts = async (page, ids) => {
     await page.goto(`https://www.apprinting.com/admin/product_description.php?product_id=${id}`)
     const btnHTML = await page.$('#cke_134')
     await btnHTML.click()
-    await page.waitForTimeout(3000)
+    await page.waitForTimeout(7000)
     await page.locator('#cke_3_contents').focus()
     await page.locator('#cke_3_contents').click()
     await page.locator('#cke_3_contents').press('Control+a')
@@ -64,8 +64,8 @@ const web = async () => {
   // const numPage = num.filter(data => data.length === 1).length
   
   // ACTIVATE EXTRACT IDS PRODUCTS
-  await page.goto('https://www.apprinting.com/boarding-pass-wedding-invitations/products/')
-  const ids = await seccionFooterPage(page, 4)
+  await page.goto('https://www.apprinting.com/simple-flat-5x7-wedding-invitations/products/')
+  const ids = await seccionFooterPage(page, 31)
   console.log(ids)
 
   // CHANGE PRICE PRODUCTS
