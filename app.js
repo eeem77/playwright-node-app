@@ -14,7 +14,6 @@ const login = async (page) => {
 }
 
 const extractIds = async (page) => {
-  //await page.goto(url)
   const html = await page.$$eval('.card-aligned', node => node.map(n => n.innerHTML))
   const body = html[0].split('">')
   const filter = body.filter(data => data.includes('product-box'))
