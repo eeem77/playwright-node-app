@@ -1,7 +1,8 @@
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" rel="stylesheet" />
-<link href="https://dl.dropboxusercontent.com/s/t6l3o59zesl1wi4/style.css?dl=0" rel="stylesheet" />
-<div class="body-content-product justify-content-center">
+const html =`
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" rel="stylesheet" />
+  <link href="https://dl.dropboxusercontent.com/s/t6l3o59zesl1wi4/style.css?dl=0" rel="stylesheet" />
+  <div class="body-content-product justify-content-center">
   <!-- menu template dl.dropboxusercontent.com -->
   <div class="text-center d-none d-sm-none d-md-none d-lg-block d-xl-block" id="nav-scrollspy-product">
     <hr />
@@ -11,9 +12,11 @@
 
   <!-- product details -->
   <!-- <div class="card text-center" id="scrollspyHeading1" style="border: none"></div> -->
-  <div class="card-body">
-    <span class="titleBody">PRODUCT DETAILS</span>
-    <p class="card-text pt-3">eeem77</p>
+  <div class="card text-center" id="scrollspyHeading1" style="border: none">
+    <div class="card-body">
+      <span class="titleBody">PRODUCT DETAILS</span>
+      <p class="card-text pt-3">eeem77</p>
+    </div>
   </div>
 
   <!-- paper and material -->
@@ -78,7 +81,10 @@
 
   <div class="timeline pt-5" id="accordionExample"></div>
 
-</div>
+  </div>
 
-<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
-<script type="text/javascript" src="https://dl.dropboxusercontent.com/s/rlwsq8uyp1giha9/index.js?dl=0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+  <script type="text/javascript" src="https://dl.dropboxusercontent.com/s/rlwsq8uyp1giha9/index.js?dl=0"></script>
+`
+
+export default html
