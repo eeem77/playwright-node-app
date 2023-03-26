@@ -1,6 +1,7 @@
-const { chromium, firefox, webkit } = require('playwright')
-const html = require('./utils.js')
-require('dotenv').config()
+import { chromium, firefox, webkit } from 'playwright'
+import {html} from './utils.js'
+import * as dotenv from 'dotenv'
+dotenv.config()
 
 const login = async (page) => {
   const user = await page.$('#username')
@@ -37,7 +38,7 @@ const seccionFooterPage = async (page, numPage) => {
   return ids
 }
 
-const updateProducts = async (ids) => {
+const updateProducts = async (page, ids) => {
   for await (const id of ids) {
     await page.goto(`https://www.apprinting.com/admin/product_description.php?product_id=${id}`)
     const btnHTML = await page.$('#cke_134')
@@ -70,7 +71,7 @@ const web = async () => {
   // CHANGE PRICE PRODUCTS
   await page.goto('https://www.apprinting.com/admin/')
   await login(page)
-  await updateProducts(ids)
+  await updateProducts(page, ids)
   
   // END PROCCESS
   console.log('END')

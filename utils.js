@@ -1,4 +1,4 @@
-const html =`
+export const html =`
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" rel="stylesheet" />
   <link href="https://dl.dropboxusercontent.com/s/t6l3o59zesl1wi4/style.css?dl=0" rel="stylesheet" />
@@ -15,7 +15,9 @@ const html =`
   <div class="card text-center" id="scrollspyHeading1" style="border: none">
     <div class="card-body">
       <span class="titleBody">PRODUCT DETAILS</span>
-      <p class="card-text pt-3">eeem77</p>
+      <p class="card-text pt-3">
+        Our boarding passes are designed to provide you with all the essential details you need to know about your flight. With clear and concise information about your flight number, departure and arrival airports, date and time of the flight, boarding gate, seat number, and baggage allowance, you can easily plan your travel itinerary and stay on track. We take pride in the quality and accuracy of our boarding passes. Our printing technology ensures that each boarding pass is crisp, legible, and easy to read. We use high-quality paper to ensure that your boarding pass stays intact throughout your journey, even if it gets wet or crumpled.
+      </p>
     </div>
   </div>
 
@@ -86,5 +88,3 @@ const html =`
   <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
   <script type="text/javascript" src="https://dl.dropboxusercontent.com/s/rlwsq8uyp1giha9/index.js?dl=0"></script>
 `
-
-export default html
