@@ -44,14 +44,16 @@ const updateProducts = async (page, ids) => {
     await page.goto(`https://www.apprinting.com/admin/product_description.php?product_id=${id}`)
     const btnHTML = await page.$('#cke_134')
     await btnHTML.click()
-    await page.waitForTimeout(7000)
+    //await page.waitForTimeout(10000)
+    const btnSave = await page.$('#btn-action-save')
+    await btnSave.waitForElementState("visible")
     await page.locator('#cke_3_contents').focus()
     await page.locator('#cke_3_contents').click()
     await page.locator('#cke_3_contents').press('Control+a')
     await page.locator('#cke_3_contents').press('Control+x')
     await page.locator('#cke_3_contents').type(html)
     await page.click('#btn-action-save')
-    await page.waitForTimeout(3000)
+    //await page.waitForTimeout(3000)
     fs.writeFileSync('id.txt', id)
     console.log(id)
   }
@@ -66,25 +68,26 @@ const web = async () => {
   // const numPage = num.filter(data => data.length === 1).length
   
   // ACTIVATE EXTRACT IDS PRODUCTS
-  await page.goto('https://www.apprinting.com/a7-himalaya-pockets-wedding-invitation/products/')
+  // await page.goto('https://www.apprinting.com/a7-atlas-pockets-wedding-invitation/products/')
+  
   const ids = [
-    '1642', '1654', '1655', '1656', '1666', '1668',
-    '1670', '1671', '1672', '1675', '1677', '1678', '1679',
-    '1681', '1683', '1684', '1686', '1688', '1691', '1693',
-    '1695', '1697', '1721', '1724', '3097', '1729', '1731',
-    '1734', '1736', '1739', '1719', '1741', '1835', '1838',
-    '1839', '1840', '1841', '1843', '1844', '1846', '1848',
-    '1850', '1851', '1854', '1856', '1858', '1859', '1860',
-    '1862', '1863', '1864', '1865', '1866', '1867', '1868',
-    '1870', '1871', '1872', '1873', '1874', '1875', '1876',
-    '1877', '1879', '1881', '1882', '1883', '1885', '1887',
-    '1888', '1890', '1898', '1901', '1904', '1905', '1908',
-    '1910', '1912', '1914', '1915', '1918', '1925', '1927',
-    '1929', '1934', '1937', '1940', '3082', '3083', '3084',
-    '3085', '3086', '3087'
+    '1619', '1685', '1689', '1651', '1701', '1707',
+    '1713', '1718', '1727', '1728', '1732', '1738',
+    '1740', '1742', '1822', '1824', '1830', '1832',
+    '1834', '1842', '1845', '1847', '1849', '1869',
+    '1880', '1891', '1896', '1909', '1924', '1928',
+    '1939', '1942', '1944', '1946', '1948', '1953',
+    '1955', '1957', '1959', '1962', '1967', '1968',
+    '1969', '1972', '1975', '1978', '1982', '1984',
+    '1989', '1993', '1996', '1997', '2003', '2007',
+    '2018', '2020', '2042', '2046', '2056', '2062',
+    '2071', '2077', '2078', '2081', '2084', '2086',
+    '2089', '2094', '2100', '2102'
   ]
-  // await seccionFooterPage(page, 7)
-  console.log(ids)
+  
+  // await seccionFooterPage(page, 5)
+  // fs.writeFileSync('ids.txt', ids.toString())
+  // console.log(ids)
 
   // CHANGE PRICE PRODUCTS
   await page.goto('https://www.apprinting.com/admin/')
