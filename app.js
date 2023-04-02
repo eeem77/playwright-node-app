@@ -70,30 +70,51 @@ const web = async () => {
   // ACTIVATE EXTRACT IDS PRODUCTS
   // await page.goto('https://www.apprinting.com/a7-atlas-pockets-wedding-invitation/products/')
   
-  const ids = [
-    '1619', '1685', '1689', '1651', '1701', '1707',
-    '1713', '1718', '1727', '1728', '1732', '1738',
-    '1740', '1742', '1822', '1824', '1830', '1832',
-    '1834', '1842', '1845', '1847', '1849', '1869',
-    '1880', '1891', '1896', '1909', '1924', '1928',
-    '1939', '1942', '1944', '1946', '1948', '1953',
-    '1955', '1957', '1959', '1962', '1967', '1968',
-    '1969', '1972', '1975', '1978', '1982', '1984',
-    '1989', '1993', '1996', '1997', '2003', '2007',
-    '2018', '2020', '2042', '2046', '2056', '2062',
-    '2071', '2077', '2078', '2081', '2084', '2086',
-    '2089', '2094', '2100', '2102'
-  ]
+  // const ids = [
+  //   '1619', '1685', '1689', '1651', '1701', '1707',
+  //   '1713', '1718', '1727', '1728', '1732', '1738',
+  //   '1740', '1742', '1822', '1824', '1830', '1832',
+  //   '1834', '1842', '1845', '1847', '1849', '1869',
+  //   '1880', '1891', '1896', '1909', '1924', '1928',
+  //   '1939', '1942', '1944', '1946', '1948', '1953',
+  //   '1955', '1957', '1959', '1962', '1967', '1968',
+  //   '1969', '1972', '1975', '1978', '1982', '1984',
+  //   '1989', '1993', '1996', '1997', '2003', '2007',
+  //   '2018', '2020', '2042', '2046', '2056', '2062',
+  //   '2071', '2077', '2078', '2081', '2084', '2086',
+  //   '2089', '2094', '2100', '2102'
+  // ]
   
   // await seccionFooterPage(page, 5)
   // fs.writeFileSync('ids.txt', ids.toString())
   // console.log(ids)
 
   // CHANGE PRICE PRODUCTS
-  await page.goto('https://www.apprinting.com/admin/')
-  await login(page)
-  await updateProducts(page, ids)
+  // await page.goto('https://www.apprinting.com/admin/')
+  // await login(page)
+  // await updateProducts(page, ids)
+
+  // EXTRACT PRICE UPPRINTING CARBONLESS FORMS PRODUCT
+  await page.goto('https://www.uprinting.com/carbonless-form-printing.html?aind=prod_up_products&aqid=60fa4a8065344044df3bfa43231dce50&aoid=e7951be6aec0ef054ca1c41757ee4df6b27a2db46e866d4cccbbcef7fd4cb7c4&apos=1&aut=c30d118e-cf21-11ed-b44b-0242ac110002-1680197943&asrc=results_page&akywd=invoice&stype=algolia&mdl=products')
+  const menu = await page.$('#product_calculator_form')
+  const buttonsArray = await menu.$$('button')
+  await buttonsArray[0].click()
+  const subMenu = await menu.$$('.dropdown-menu')
+  const linkSubmenu = await subMenu[0].$$('a')
+  await linkSubmenu[0].click()
+  await page.waitForTimeout(3000)
+  await page.screenshot({path: 'prueba.jpg'})
+  const menuBase = await menu.$$eval('button', node => node.map(n => n.innerText))
+  const price = await menu.$eval('.subtotal-price', node => node.innerText)
+
+  //const option = await prueba.getByRole('link').allInnerTexts()
   
+  // const box = page.getByRole('button').filter({hasText: '8.5" x 11" (Letter Size)'})
+  // await box.click()
+  // const option = await page.getByRole('link').allInnerTexts()
+  //await page.screenshot({path: 'prueba.jpg'})
+  console.log(menuBase);
+  console.log(price);
   // END PROCCESS
   console.log('END')
   await browser.close()
