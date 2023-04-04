@@ -59,9 +59,98 @@ const updateProducts = async (page, ids) => {
   }
 }
 
+// FUNCTIONS FOR EXTRACT PRICE, UPPRINTING
+const numbersButtons = async (menu) => {
+  const buttonsArray = await menu.$$('button')
+  return buttonsArray
+}
+
+const writeTable = async (array) => {
+  fs.appendFileSync('table.txt', array.toString() + '\n')
+}
+
+const baseForm = async (page, menu) => {
+  let modal = 0
+  const buttonsArray = await numbersButtons(menu)
+  for await (const button of buttonsArray){
+    if (modal < 7){
+      await button.click()
+      const subMenu = await menu.$$('.dropdown-menu') 
+      const linkSubmenu = await subMenu[modal].$$('a')
+      await linkSubmenu[0].click()
+      await button.waitForElementState("visible")
+      console.log(modal)
+      modal++
+    }
+  }
+  await page.waitForTimeout(3000)
+  const menuFormBase = await menu.$$eval('button', node => node.map(n => n.innerText))
+  const priceBase = await menu.$eval('.subtotal-price', node => node.innerText)
+  await menuFormBase.push(priceBase)
+  //await writeTable(menuFormBase)
+  console.log(menuFormBase, Number(priceBase.substring(1)))
+  return Number(priceBase.substring(1))
+}
+
+const linksUpdate = async (page, button, menu, modal) => {
+  console.log('button --->',  button);
+  await button.click()
+  const subMenu = await menu.$$('.dropdown-menu')
+  const linkSubmenu = await subMenu[modal].$$('a')
+  return linkSubmenu
+}
+
+// const resetButtons = async(page, menu) => {
+//   await page.goto('https://www.uprinting.com/carbonless-form-printing.html?aind=prod_up_products&aqid=60fa4a8065344044df3bfa43231dce50&aoid=e7951be6aec0ef054ca1c41757ee4df6b27a2db46e866d4cccbbcef7fd4cb7c4&apos=1&aut=c30d118e-cf21-11ed-b44b-0242ac110002-1680197943&asrc=results_page&akywd=invoice&stype=algolia&mdl=products')
+//   menu = await page.$('#product_calculator_form')
+//   const pricebase = await baseForm(page, menu)
+// }
+
+const stepByStep = async (page, menu, buttonsArray, pricebase) => {
+  let modal = 0
+  for await (const button of buttonsArray){
+    console.log('bucle step principal')
+    const linkSubmenu = await linksUpdate(page, button, menu, modal)
+    await linkSubmenu[0].waitForElementState('visible')
+    await linkSubmenu[0].click()
+    //let stepOne = true
+    let links = 0
+    const repeatForButton = linkSubmenu.length - 1
+    for await (const link of linkSubmenu){
+      let linkSubmenuNew = await linksUpdate(page, button, menu, modal)
+      if(links <= repeatForButton){
+        if(await linkSubmenuNew[links].innerText() !== 'Custom Size'){
+          await linkSubmenuNew[links].click()
+          await page.waitForTimeout(3000)
+          const menuForm = await menu.$$eval('button', node => node.map(n => n.innerText))
+          const price = await menu.$eval('.subtotal-price', node => node.innerText)
+          await menuForm.push(price)
+          await menuForm.push(Number(price.substring(1)) - pricebase)
+          await writeTable(menuForm)
+          linkSubmenuNew = await linksUpdate(page, button, menu, modal)
+          await linkSubmenuNew[0].click()
+          await page.waitForTimeout(3000)
+          links++
+        } else {
+          await linkSubmenuNew[0].click()
+          await page.waitForTimeout(3000)
+        }
+      } else {
+        await linkSubmenuNew[0].click()
+        await page.waitForTimeout(3000)
+      }
+      console.log('bucle step segundo')
+    }
+    modal++
+    links = 0
+    // await button.click()
+    // await linkSubmenu[0].click()
+  }
+}
+
 const web = async () => {
   const browser = await chromium.launch()
-  const page = await browser.newPage()  
+  const page = await browser.newPage()
   
   // EXTRACT NUM FOOTER PAGE
   // const num = await page.getByRole('link', {class: 'page-link'}).allInnerTexts()
@@ -97,15 +186,21 @@ const web = async () => {
   // EXTRACT PRICE UPPRINTING CARBONLESS FORMS PRODUCT
   await page.goto('https://www.uprinting.com/carbonless-form-printing.html?aind=prod_up_products&aqid=60fa4a8065344044df3bfa43231dce50&aoid=e7951be6aec0ef054ca1c41757ee4df6b27a2db46e866d4cccbbcef7fd4cb7c4&apos=1&aut=c30d118e-cf21-11ed-b44b-0242ac110002-1680197943&asrc=results_page&akywd=invoice&stype=algolia&mdl=products')
   const menu = await page.$('#product_calculator_form')
-  const buttonsArray = await menu.$$('button')
-  await buttonsArray[0].click()
-  const subMenu = await menu.$$('.dropdown-menu')
-  const linkSubmenu = await subMenu[0].$$('a')
-  await linkSubmenu[0].click()
-  await page.waitForTimeout(3000)
-  await page.screenshot({path: 'prueba.jpg'})
-  const menuBase = await menu.$$eval('button', node => node.map(n => n.innerText))
-  const price = await menu.$eval('.subtotal-price', node => node.innerText)
+  
+
+  const pricebase = await baseForm(page, menu)
+  const buttonsArray = await numbersButtons(menu)
+  const step = await stepByStep(page, menu, buttonsArray, pricebase)
+  console.log(buttonsArray.length)
+
+  // await buttonsArray[0].click()
+  // const subMenu = await menu.$$('.dropdown-menu')
+  // const linkSubmenu = await subMenu[0].$$('a')
+  // await linkSubmenu[0].click()
+  // await page.waitForTimeout(3000)
+  // await page.screenshot({path: 'prueba.jpg'})
+  // const menuBase = await menu.$$eval('button', node => node.map(n => n.innerText))
+  // const price = await menu.$eval('.subtotal-price', node => node.innerText)
 
   //const option = await prueba.getByRole('link').allInnerTexts()
   
@@ -113,8 +208,8 @@ const web = async () => {
   // await box.click()
   // const option = await page.getByRole('link').allInnerTexts()
   //await page.screenshot({path: 'prueba.jpg'})
-  console.log(menuBase);
-  console.log(price);
+  // console.log(menuBase);
+  // console.log(price);
   // END PROCCESS
   console.log('END')
   await browser.close()
