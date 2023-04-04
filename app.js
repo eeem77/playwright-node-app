@@ -1,8 +1,13 @@
+import express from 'express'
+import path from 'path'
 import { chromium, firefox, webkit } from 'playwright'
 import { html } from './utils.js'
 import fs from 'fs'
 import * as dotenv from 'dotenv'
 dotenv.config()
+
+const app = express()
+const port = 3000
 
 const login = async (page) => {
   const user = await page.$('#username')
@@ -65,11 +70,11 @@ const numbersButtons = async (menu) => {
   return buttonsArray
 }
 
-const writeTable = async (array) => {
-  fs.appendFileSync('table.txt', array.toString() + '\n')
+const writeTable = async (array, url) => {
+  fs.appendFileSync(`${url}.txt`, array.toString() + '\n')
 }
 
-const baseForm = async (page, menu) => {
+const baseForm = async (page, menu, title) => {
   let modal = 0
   const buttonsArray = await numbersButtons(menu)
   for await (const button of buttonsArray){
@@ -85,15 +90,15 @@ const baseForm = async (page, menu) => {
   }
   await page.waitForTimeout(3000)
   const menuFormBase = await menu.$$eval('button', node => node.map(n => n.innerText))
-  const priceBase = await menu.$eval('.subtotal-price', node => node.innerText)
+  const priceBaseold = await menu.$eval('.subtotal-price', node => node.innerText)
+  const priceBase = priceBaseold.replace(',','')
   await menuFormBase.push(priceBase)
-  //await writeTable(menuFormBase)
+  fs.writeFileSync(`${title}.txt`,'\n')
   console.log(menuFormBase, Number(priceBase.substring(1)))
   return Number(priceBase.substring(1))
 }
 
 const linksUpdate = async (page, button, menu, modal) => {
-  console.log('button --->',  button);
   await button.click()
   const subMenu = await menu.$$('.dropdown-menu')
   const linkSubmenu = await subMenu[modal].$$('a')
@@ -105,6 +110,45 @@ const linksUpdate = async (page, button, menu, modal) => {
 //   menu = await page.$('#product_calculator_form')
 //   const pricebase = await baseForm(page, menu)
 // }
+
+const stepByStepForOneButton = async (page, menu, button, pricebase, modal, title, porcent) => {
+  const linkSubmenu = await linksUpdate(page, button, menu, modal)
+  await linkSubmenu[0].waitForElementState('visible')
+  await linkSubmenu[0].click()
+  let links = 0
+  const repeatForButton = linkSubmenu.length - 1
+  for await (const link of linkSubmenu){
+    let linkSubmenuNew = await linksUpdate(page, button, menu, modal)
+    if(links <= repeatForButton){
+      if(await linkSubmenuNew[links].innerText() !== 'Custom Size'){
+        await linkSubmenuNew[links].click()
+        await page.waitForTimeout(3000)
+        const menuForm = await menu.$$eval('button', node => node.map(n => n.innerText))
+        const priceOld = await menu.$eval('.subtotal-price', node => node.innerText)
+        const price = priceOld.replace(',', '')
+        const priceReduce = Number(price.substring(1)) - pricebase
+        const pricePorcent = porcent * priceReduce / 100
+        const priceTotal = priceReduce + pricePorcent
+        await menuForm.push(price)
+        await menuForm.push(priceReduce)
+        await menuForm.push(pricePorcent)
+        await menuForm.push(priceTotal)
+        await writeTable(menuForm, title)
+        linkSubmenuNew = await linksUpdate(page, button, menu, modal)
+        await linkSubmenuNew[0].click()
+        await page.waitForTimeout(3000)
+        links++
+      } else {
+        await linkSubmenuNew[0].click()
+        await page.waitForTimeout(3000)
+      }
+    } else {
+      await linkSubmenuNew[0].click()
+      await page.waitForTimeout(3000)
+    }
+    console.log('fin bucle step segundo')
+  }
+}
 
 const stepByStep = async (page, menu, buttonsArray, pricebase) => {
   let modal = 0
@@ -148,7 +192,7 @@ const stepByStep = async (page, menu, buttonsArray, pricebase) => {
   }
 }
 
-const web = async () => {
+const web = async (url, modal, porcent) => {
   const browser = await chromium.launch()
   const page = await browser.newPage()
   
@@ -184,14 +228,16 @@ const web = async () => {
   // await updateProducts(page, ids)
 
   // EXTRACT PRICE UPPRINTING CARBONLESS FORMS PRODUCT
-  await page.goto('https://www.uprinting.com/carbonless-form-printing.html?aind=prod_up_products&aqid=60fa4a8065344044df3bfa43231dce50&aoid=e7951be6aec0ef054ca1c41757ee4df6b27a2db46e866d4cccbbcef7fd4cb7c4&apos=1&aut=c30d118e-cf21-11ed-b44b-0242ac110002-1680197943&asrc=results_page&akywd=invoice&stype=algolia&mdl=products')
+  // await page.goto('https://www.uprinting.com/carbonless-form-printing.html?aind=prod_up_products&aqid=60fa4a8065344044df3bfa43231dce50&aoid=e7951be6aec0ef054ca1c41757ee4df6b27a2db46e866d4cccbbcef7fd4cb7c4&apos=1&aut=c30d118e-cf21-11ed-b44b-0242ac110002-1680197943&asrc=results_page&akywd=invoice&stype=algolia&mdl=products')
+  await page.goto(url)
   const menu = await page.$('#product_calculator_form')
-  
-
-  const pricebase = await baseForm(page, menu)
+  const titleSpaces = await page.$eval('#main_content', node => node.innerText)
+  const title = titleSpaces.replace(' ', '_')
+  const pricebase = await baseForm(page, menu, title)
   const buttonsArray = await numbersButtons(menu)
-  const step = await stepByStep(page, menu, buttonsArray, pricebase)
-  console.log(buttonsArray.length)
+  await stepByStepForOneButton(page, menu, buttonsArray[modal], pricebase, modal, title, porcent)
+   
+  // const step = await stepByStep(page, menu, buttonsArray, pricebase)
 
   // await buttonsArray[0].click()
   // const subMenu = await menu.$$('.dropdown-menu')
@@ -213,6 +259,33 @@ const web = async () => {
   // END PROCCESS
   console.log('END')
   await browser.close()
+  return `${title}.txt`
 }
 
-web()
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
+app.get('/', (req, res) => {
+  const {pathname: root} = new URL('./views/index.html', import.meta.url)
+  //res.sendFile(path.join(__dirname, './views/index.html'))
+  res.sendFile(root)
+})
+
+app.post('/submit', async (req, res) => {
+  // const {pathname: root} = new URL('table.txt', import.meta.url)
+  try {
+    const title = await web(req.body.url, Number(req.body.modal), Number(req.body.porcent))
+    const {pathname: root} = new URL(title, import.meta.url)
+    res.sendFile(root)
+  } catch (error) {
+    res.send('403')
+  }
+  
+  //res.sendFile(root)
+})
+
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`)
+})
+
+// web(7)
