@@ -1,0 +1,21 @@
+
+3.5" x 8.5",70 lb. Paper Uncoated,None,Front Only,None,25
+$0.49 per piece,3 Business Days,$12.19,0,0,0
+5.5" x 8.5",70 lb. Paper Uncoated,Half Fold,Outside Only,None,25
+$0.92 per piece,3 Business Days,$22.96,10.770000000000001,0,10.770000000000001
+5.5" x 8.5",70 lb. Paper Uncoated,Tri-Fold/Letter Fold,Outside Only,None,25
+$0.92 per piece,3 Business Days,$22.96,10.770000000000001,0,10.770000000000001
+5.5" x 8.5",70 lb. Paper Uncoated,Z-Fold,Outside Only,None,25
+$0.92 per piece,3 Business Days,$22.96,10.770000000000001,0,10.770000000000001
+8.5" x 11",70 lb. Paper Uncoated,Gate Fold,Outside Only,None,25
+$1.28 per piece,3 Business Days,$32.09,19.900000000000006,0,19.900000000000006
+8.5" x 11",70 lb. Paper Uncoated,Accordion Fold (4 panels),Outside Only,None,25
+$1.14 per piece,3 Business Days,$28.52,16.33,0,16.33
+8.5" x 11",70 lb. Paper Uncoated,Double Gate Fold,Outside Only,None,25
+$1.28 per piece,3 Business Days,$32.09,19.900000000000006,0,19.900000000000006
+8.5" x 11",70 lb. Paper Uncoated,Double Parallel Fold,Outside Only,None,25
+$1.14 per piece,3 Business Days,$28.52,16.33,0,16.33
+8.5" x 11",70 lb. Paper Uncoated,French Fold,Outside Only,None,25
+$1.14 per piece,3 Business Days,$28.52,16.33,0,16.33
+8.5" x 11",70 lb. Paper Uncoated,Roll Fold (4 panels),Outside Only,None,25
+$1.14 per piece,3 Business Days,$28.52,16.33,0,16.33

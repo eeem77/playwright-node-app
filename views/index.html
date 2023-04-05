@@ -35,16 +35,29 @@
     <hr>
     <div>    
         <form action="submit" method="post">
-            <input placeholder="Paste here url" type="text" name="url" id="url">
-            <input placeholder="Paste number of dropdown" type="text" name="modal" id="modal">
-            <input placeholder="Paste porcent +" type="text" name="porcent" id="porcent">
-            <input id="btn-submit" type="submit" value="Send">
-            <input id="btn-clean" type="button" value="Clean" onclick="cleanForm()">
+            <div>
+                <input placeholder="Numbers dropdown" type="text" name="numDropdown" id="numDropdown">
+                <input placeholder="Modal dropdown" type="text" name="modalDropdown" id="modalDropdown">
+                <input placeholder="Modal click" type="text" name="clickModal" id="clickModal">
+                <input placeholder="Modal dropdown two" type="text" name="modalDropdownTwo" id="modalDropdownTwo">
+                <input placeholder="Modal click two" type="text" name="clickModalTwo" id="clickModalTwo">
+                <input placeholder="Paste here url" type="text" name="url" id="url">
+                <input placeholder="Number dropdown" type="text" name="modal" id="modal">
+            </div>
+            <div>
+                <input id="btn-submit" type="submit" value="Send">
+                <input id="btn-clean" type="button" value="Clean" onclick="cleanForm()">
+            </div>
         </form>
     </div>
 
     <script>
         const cleanForm = () => {
+            document.querySelector('#numDropdown').value = ''
+            document.querySelector('#modalDropdown').value = ''
+            document.querySelector('#clickModal').value = ''
+            document.querySelector('#modalDropdownTwo').value = ''
+            document.querySelector('#clickModalTwo').value = ''
             document.querySelector('#url').value = ''
             document.querySelector('#modal').value = ''
         }

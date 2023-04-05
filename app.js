@@ -74,15 +74,49 @@ const writeTable = async (array, url) => {
   fs.appendFileSync(`${url}.txt`, array.toString() + '\n')
 }
 
-const baseForm = async (page, menu, title) => {
+// const baseForm = async (page, menu, title) => {
+//   let modal = 0
+//   const buttonsArray = await numbersButtons(menu)
+//   for await (const button of buttonsArray){
+//     if (modal < 7){
+//       await button.click()
+//       const subMenu = await menu.$$('.dropdown-menu') 
+//       const linkSubmenu = await subMenu[modal].$$('a')
+//       await linkSubmenu[0].click()
+//       await button.waitForElementState("visible")
+//       console.log(modal)
+//       modal++
+//     }
+//   }
+//   await page.waitForTimeout(3000)
+//   const menuFormBase = await menu.$$eval('button', node => node.map(n => n.innerText))
+//   const priceBaseold = await menu.$eval('.subtotal-price', node => node.innerText)
+//   const priceBase = priceBaseold.replace(',','')
+//   await menuFormBase.push(priceBase)
+//   fs.writeFileSync(`${title}.txt`,'\n')
+//   console.log(menuFormBase, Number(priceBase.substring(1)))
+//   return Number(priceBase.substring(1))
+// }
+
+const baseForm = async (page, menu, title, numDropdown, modalDropdown, clickModal, modalDropdownTwo, clickModalTwo) => {
   let modal = 0
+  let click = 0
   const buttonsArray = await numbersButtons(menu)
   for await (const button of buttonsArray){
-    if (modal < 7){
+    if(modal === modalDropdown || modal === modalDropdownTwo){
+      if(modal === modalDropdown){
+        click = clickModal
+      } else {
+        click = clickModalTwo
+      }
+    } else {
+      click = 0
+    }
+    if (modal <= numDropdown){
       await button.click()
       const subMenu = await menu.$$('.dropdown-menu') 
       const linkSubmenu = await subMenu[modal].$$('a')
-      await linkSubmenu[0].click()
+      await linkSubmenu[click].click()
       await button.waitForElementState("visible")
       console.log(modal)
       modal++
@@ -98,7 +132,18 @@ const baseForm = async (page, menu, title) => {
   return Number(priceBase.substring(1))
 }
 
+// const postBaseForm = async (page, menu, link, buttonModal) => {
+//   console.log(link, buttonModal);
+//   const buttonsArray = await numbersButtons(menu)
+//   await buttonsArray[buttonModal].click()
+//   const subMenu = await menu.$$('.dropdown-menu') 
+//   const linkSubmenu = await subMenu[buttonModal].$$('a')
+//   await linkSubmenu[link].click()
+//   await page.waitForTimeout(3000)
+// }
+
 const linksUpdate = async (page, button, menu, modal) => {
+  //await page.waitForTimeout(3000)
   await button.click()
   const subMenu = await menu.$$('.dropdown-menu')
   const linkSubmenu = await subMenu[modal].$$('a')
@@ -126,13 +171,13 @@ const stepByStepForOneButton = async (page, menu, button, pricebase, modal, titl
         const menuForm = await menu.$$eval('button', node => node.map(n => n.innerText))
         const priceOld = await menu.$eval('.subtotal-price', node => node.innerText)
         const price = priceOld.replace(',', '')
-        const priceReduce = Number(price.substring(1)) - pricebase
-        const pricePorcent = porcent * priceReduce / 100
-        const priceTotal = priceReduce + pricePorcent
+        //const priceReduce = Number(price.substring(1)) - pricebase
+        //const pricePorcent = porcent * priceReduce / 100
+        //const priceTotal = priceReduce + pricePorcent
         await menuForm.push(price)
-        await menuForm.push(priceReduce)
-        await menuForm.push(pricePorcent)
-        await menuForm.push(priceTotal)
+        //await menuForm.push(priceReduce)
+        //await menuForm.push(pricePorcent)
+        //await menuForm.push(priceTotal)
         await writeTable(menuForm, title)
         linkSubmenuNew = await linksUpdate(page, button, menu, modal)
         await linkSubmenuNew[0].click()
@@ -192,7 +237,7 @@ const stepByStep = async (page, menu, buttonsArray, pricebase) => {
   }
 }
 
-const web = async (url, modal, porcent) => {
+const web = async (url, modal, numDropdown, modalDropdown, clickModal, modalDropdownTwo, clickModalTwo) => {
   const browser = await chromium.launch()
   const page = await browser.newPage()
   
@@ -233,9 +278,10 @@ const web = async (url, modal, porcent) => {
   const menu = await page.$('#product_calculator_form')
   const titleSpaces = await page.$eval('#main_content', node => node.innerText)
   const title = titleSpaces.replace(' ', '_')
-  const pricebase = await baseForm(page, menu, title)
+  const pricebase = await baseForm(page, menu, title, numDropdown, modalDropdown, clickModal, modalDropdownTwo, clickModalTwo)
   const buttonsArray = await numbersButtons(menu)
-  await stepByStepForOneButton(page, menu, buttonsArray[modal], pricebase, modal, title, porcent)
+  // const postBase = await postBaseForm(page, menu, link, buttonModal)
+  await stepByStepForOneButton(page, menu, buttonsArray[modal], pricebase, modal, title)
    
   // const step = await stepByStep(page, menu, buttonsArray, pricebase)
 
@@ -274,7 +320,7 @@ app.get('/', (req, res) => {
 app.post('/submit', async (req, res) => {
   // const {pathname: root} = new URL('table.txt', import.meta.url)
   try {
-    const title = await web(req.body.url, Number(req.body.modal), Number(req.body.porcent))
+    const title = await web(req.body.url, Number(req.body.modal), Number(req.body.numDropdown), Number(req.body.modalDropdown), Number(req.body.clickModal), Number(req.body.modalDropdownTwo), Number(req.body.clickModalTwo))
     const {pathname: root} = new URL(title, import.meta.url)
     res.sendFile(root)
   } catch (error) {
