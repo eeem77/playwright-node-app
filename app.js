@@ -132,15 +132,32 @@ const baseForm = async (page, menu, title, numDropdown, modalDropdown, clickModa
   return Number(priceBase.substring(1))
 }
 
-// const postBaseForm = async (page, menu, link, buttonModal) => {
-//   console.log(link, buttonModal);
-//   const buttonsArray = await numbersButtons(menu)
-//   await buttonsArray[buttonModal].click()
-//   const subMenu = await menu.$$('.dropdown-menu') 
-//   const linkSubmenu = await subMenu[buttonModal].$$('a')
-//   await linkSubmenu[link].click()
-//   await page.waitForTimeout(3000)
-// }
+const postBaseForm = async (page, menu, modalDropdown, clickModal, modalDropdownTwo, clickModalTwo) => {
+  //console.log(link, buttonModal);
+  const repeats = [0,1]
+  for await (const repeat of repeats){
+    let modal = 0
+    let click = 0
+    if (repeat === 0){
+      modal = modalDropdown
+      click = clickModal
+    } else {
+      modal = modalDropdownTwo
+      click = clickModalTwo
+    }
+    const buttonsArray = await numbersButtons(menu)
+    await buttonsArray[modal].click()
+    const subMenu = await menu.$$('.dropdown-menu') 
+    const linkSubmenu = await subMenu[modal].$$('a')
+    await linkSubmenu[click].click()
+    await page.waitForTimeout(3000)
+  }
+  const menuFormBase = await menu.$$eval('button', node => node.map(n => n.innerText))
+  const priceBaseold = await menu.$eval('.subtotal-price', node => node.innerText)
+  const priceBase = priceBaseold.replace(',','')
+  await menuFormBase.push(priceBase)
+  console.log(menuFormBase, Number(priceBase.substring(1)))
+}
 
 const linksUpdate = async (page, button, menu, modal) => {
   //await page.waitForTimeout(3000)
@@ -277,10 +294,10 @@ const web = async (url, modal, numDropdown, modalDropdown, clickModal, modalDrop
   await page.goto(url)
   const menu = await page.$('#product_calculator_form')
   const titleSpaces = await page.$eval('#main_content', node => node.innerText)
-  const title = titleSpaces.replace(' ', '_')
+  const title = titleSpaces.replaceAll(' ', '_')
   const pricebase = await baseForm(page, menu, title, numDropdown, modalDropdown, clickModal, modalDropdownTwo, clickModalTwo)
+  await postBaseForm(page, menu, modalDropdown, clickModal, modalDropdownTwo, clickModalTwo)
   const buttonsArray = await numbersButtons(menu)
-  // const postBase = await postBaseForm(page, menu, link, buttonModal)
   await stepByStepForOneButton(page, menu, buttonsArray[modal], pricebase, modal, title)
    
   // const step = await stepByStep(page, menu, buttonsArray, pricebase)
