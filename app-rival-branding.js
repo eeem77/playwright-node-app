@@ -112,32 +112,33 @@ const web = async () => {
     await collapseTrue(form)
     await formBase(page, form)
 
-    for (let i = 1; i <= 12; i++){
-        const cicloPapel = i
-        for (let i = 1; i <= 1; i++){
-            const ciclo = i
-            for (let i = 0; i <= 3; i++){
-                await changeThreeOptions(page, form, 0, cicloPapel, 1, i, 12, ciclo)
-                //await changeOptions(page, form, 1)
-                //fs.appendFileSync(`list.txt`, '\n\n\n')
-            }
-            fs.appendFileSync(`list.txt`, '\n\n\n')
-        }
-    }
+    // for (let i = 1; i <= 12; i++){
+    //     const cicloPapel = i
+    //     for (let i = 1; i <= 1; i++){
+    //         const ciclo = i
+    //         for (let i = 0; i <= 3; i++){
+    //             await changeThreeOptions(page, form, 0, cicloPapel, 1, i, 12, ciclo)
+    //             //await changeOptions(page, form, 1)
+    //             //fs.appendFileSync(`list.txt`, '\n\n\n')
+    //         }
+    //         fs.appendFileSync(`list.txt`, '\n\n\n')
+    //     }
+    // }
+
     // for (let i = 1; i <= 1; i++){
     //     await changeTwoOptions(page, form, 0, 1, 12, i)
     //     await changeOptions(page, form, 1)
     //     fs.appendFileSync(`list.txt`, '\n\n\n')
     // }
 
-    // for (let i = 1; i <= 1; i++){
-    //     const ciclo = i
-    //     for (let i = 0; i <= 0; i++){
-    //         await changeTwoOptions(page, form, 0, ciclo, 12, i)
-    //         await changeOptions(page, form, 1)
-    //         fs.appendFileSync(`list.txt`, '\n\n\n')
-    //     }
-    // }
+    for (let i = 1; i <= 1; i++){
+        const ciclo = i
+        for (let i = 0; i <= 0; i++){
+            await changeTwoOptions(page, form, 0, ciclo, 12, i)
+            await changeOptions(page, form, 1)
+            fs.appendFileSync(`list.txt`, '\n\n\n')
+        }
+    }
 
     console.log('END')
     await browser.close()
