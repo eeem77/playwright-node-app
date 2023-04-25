@@ -12,7 +12,7 @@ const formBase = async (page, form) => {
         const menuBtn = await menu.$$('a.dropdown-item')
         await menuBtn[btn].click()
         console.log(await btns[i].innerText())
-        await page.waitForTimeout(6000)
+        await page.waitForTimeout(11000)
     }
 }
 
@@ -54,12 +54,12 @@ const changeOptions = async (page, form, button) => {
     for (let i = 0; i < menuBtn.length; i++){
         if (i === 0) {
             await menuBtn[i].click()
-            await page.waitForTimeout(6000)
+            await page.waitForTimeout(11000)
             await writeList(form)
         } else {
             const menuBtnElse = await openList(form, button)
             await menuBtnElse[i].click()
-            await page.waitForTimeout(6000)
+            await page.waitForTimeout(11000)
             await writeList(form)
         }
     }
@@ -70,11 +70,11 @@ const changeTwoOptions = async (page, form, button, option, buttonTwo, optionTwo
         if (i === 0) {
             const menuBtn = await openList(form, button)
             await menuBtn[option].click()
-            await page.waitForTimeout(6000)
+            await page.waitForTimeout(11000)
         } else {
             const menuBtnElse = await openList(form, buttonTwo)
             await menuBtnElse[optionTwo].click()
-            await page.waitForTimeout(6000)
+            await page.waitForTimeout(11000)
         }
     }
     const buttonsLabel = await form.$$eval('button.btn.btn-dropdown', node => node.map(n => n.innerText))
@@ -87,21 +87,27 @@ const changeThreeOptions = async (page, form, button, option, buttonTwo, optionT
             case 0:
                 const menuBtn = await openList(form, button)
                 await menuBtn[option].click()
-                await page.waitForTimeout(6000)
+                await page.waitForTimeout(11000)
                 break
             case 1:
                 const menuBtnTwo = await openList(form, buttonTwo)
                 await menuBtnTwo[optionTwo].click()
-                await page.waitForTimeout(6000)
+                await page.waitForTimeout(11000)
                 break
             case 2:
                 const menuBtnThree = await openList(form, buttonThree)
                 await menuBtnThree[optionThree].click()
-                await page.waitForTimeout(6000)
+                await page.waitForTimeout(11000)
                 break
         }
     }
     await writeListTotal(form)
+}
+
+const bindingElementsOptions = async (page, form, option) => {
+    const bindingElements = await form.$$('.custom-control.custom-radio.element_class')
+    await bindingElements[option].click()
+    await page.waitForTimeout(11000)
 }
 
 const web = async () => {
@@ -111,7 +117,17 @@ const web = async () => {
     const form = await page.$('form')
     await collapseTrue(form)
     await formBase(page, form)
+    //await bindingElementsOptions(page, form, 2)
 
+    for (let i = 2; i <= 12; i++){
+        const ciclo = i
+        for (let i = 0; i <= 21; i++){
+            await changeTwoOptions(page, form, 0, ciclo, 2, i)
+            await changeOptions(page, form, 1)
+            fs.appendFileSync(`list.txt`, '\n\n\n')
+        }
+    }
+    
     // for (let i = 1; i <= 12; i++){
     //     const cicloPapel = i
     //     for (let i = 1; i <= 1; i++){
@@ -131,14 +147,14 @@ const web = async () => {
     //     fs.appendFileSync(`list.txt`, '\n\n\n')
     // }
 
-    for (let i = 1; i <= 1; i++){
-        const ciclo = i
-        for (let i = 0; i <= 0; i++){
-            await changeTwoOptions(page, form, 0, ciclo, 12, i)
-            await changeOptions(page, form, 1)
-            fs.appendFileSync(`list.txt`, '\n\n\n')
-        }
-    }
+    // for (let i = 1; i <= 1; i++){
+    //     const ciclo = i
+    //     for (let i = 0; i <= 0; i++){
+    //         await changeTwoOptions(page, form, 0, ciclo, 12, i)
+    //         await changeOptions(page, form, 1)
+    //         fs.appendFileSync(`list.txt`, '\n\n\n')
+    //     }
+    // }
 
     console.log('END')
     await browser.close()
