@@ -5,7 +5,7 @@ dotenv.config()
 import listPrice from './listPrice.js'
 
 const url = 'https://www.apprinting.com/admin/'
-const urlProductUpdatePrice = 'https://www.apprinting.com/admin/product_additionalinfo_price.php?product_id=3201&prod_add_opt_id=86046&sel_product_size=3463'
+const urlProductUpdatePrice = 'https://www.apprinting.com/admin/product_additionalinfo_price.php?product_id=3201&prod_add_opt_id=93735&sel_product_size=3455'
 
 const qtys = [10,25,50,100,250,500,750,1000,1500,2000,2500,3000,4000,5000,6000,7000]
 
@@ -20,31 +20,20 @@ const login = async (page) => {
     await page.waitForTimeout(3000)
     console.log('login: OK')
 }
-// txtprice[10_1829044_9384514]
+// txtprice[10_1943198_]  txtprice[10_1943200_]
 const inputFillToPrice = async (page) => {
     await page.goto(urlProductUpdatePrice)
     let price = 0
-    let postNumber = 9386866
-    for (let i = 44; i <= 64; i++){
+    //let postNumber = 9386866  ${postNumber}
+    for (let i = 198; i <= 200; i++){
         for await (const qty of qtys){
-            const id = `txtprice[${qty}_18290${i}_${postNumber}]`
+            const id = `txtprice[${qty}_1943${i}_]`
             const inputPrice = await page.$(`[id="${id}" ]`)
             await inputPrice.fill(listPrice[price].toString())
             console.log(listPrice[price].toString());
-            console.log(postNumber);
             price++
-            postNumber++ 
-            // if(postNumber === 9332248){
-            //     postNumber = 9332744
-            // }else if(postNumber === 9332759) {
-            //     postNumber = 9332914
-            // } else if(postNumber === 9333073) {
-            //     postNumber = 9333083
-            // } else if(postNumber === 9333114) {
-            //     postNumber = 9333151
-            // } else {
-            //     postNumber++ 
-            // }
+            //console.log(postNumber);
+            //postNumber++ 
         }
     }
     const btnSave = await page.$('#btn-action-save')
@@ -52,16 +41,10 @@ const inputFillToPrice = async (page) => {
     await page.waitForTimeout(5000)
 }
 
-// const resetPrice = async (page) => {
-//     const inputs = await page.$$eval('#txtprice', node => node.map(n => n.innerHTML))
-//     console.log(inputs)
-// }
-
 const updatePrice = async () => {
     const browser = await chromium.launch()
     const page = await browser.newPage()
     await login(page)
-    //await resetPrice(page)
     await inputFillToPrice(page)
     console.log('END')
     await browser.close()
