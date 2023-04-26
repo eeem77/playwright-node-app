@@ -12,7 +12,7 @@ const formBase = async (page, form) => {
         const menuBtn = await menu.$$('a.dropdown-item')
         await menuBtn[btn].click()
         console.log(await btns[i].innerText())
-        await page.waitForTimeout(7000)
+        await page.waitForTimeout(5000)
     }
 }
 
@@ -54,12 +54,12 @@ const changeOptions = async (page, form, button) => {
     for (let i = 0; i < menuBtn.length; i++){
         if (i === 0) {
             await menuBtn[i].click()
-            await page.waitForTimeout(7000)
+            await page.waitForTimeout(5000)
             await writeList(form)
         } else {
             const menuBtnElse = await openList(form, button)
             await menuBtnElse[i].click()
-            await page.waitForTimeout(7000)
+            await page.waitForTimeout(5000)
             await writeList(form)
         }
     }
@@ -70,11 +70,11 @@ const changeTwoOptions = async (page, form, button, option, buttonTwo, optionTwo
         if (i === 0) {
             const menuBtn = await openList(form, button)
             await menuBtn[option].click()
-            await page.waitForTimeout(7000)
+            await page.waitForTimeout(5000)
         } else {
             const menuBtnElse = await openList(form, buttonTwo)
             await menuBtnElse[optionTwo].click()
-            await page.waitForTimeout(7000)
+            await page.waitForTimeout(5000)
         }
     }
     const buttonsLabel = await form.$$eval('button.btn.btn-dropdown', node => node.map(n => n.innerText))
@@ -87,17 +87,17 @@ const changeThreeOptions = async (page, form, button, option, buttonTwo, optionT
             case 0:
                 const menuBtn = await openList(form, button)
                 await menuBtn[option].click()
-                await page.waitForTimeout(7000)
+                await page.waitForTimeout(5000)
                 break
             case 1:
                 const menuBtnTwo = await openList(form, buttonTwo)
                 await menuBtnTwo[optionTwo].click()
-                await page.waitForTimeout(7000)
+                await page.waitForTimeout(5000)
                 break
             case 2:
                 const menuBtnThree = await openList(form, buttonThree)
                 await menuBtnThree[optionThree].click()
-                await page.waitForTimeout(7000)
+                await page.waitForTimeout(5000)
                 break
         }
     }
@@ -107,7 +107,7 @@ const changeThreeOptions = async (page, form, button, option, buttonTwo, optionT
 const bindingElementsOptions = async (page, form, option) => {
     const bindingElements = await form.$$('.custom-control.custom-radio.element_class')
     await bindingElements[option].click()
-    await page.waitForTimeout(7000)
+    await page.waitForTimeout(5000)
 }
 
 const web = async () => {
@@ -119,10 +119,10 @@ const web = async () => {
     await formBase(page, form)
     //await bindingElementsOptions(page, form, 2)
 
-    for (let i = 10; i <= 12; i++){
+    for (let i = 8; i <= 12; i++){
         const ciclo = i
-        for (let i = 0; i <= 21; i++){
-            await changeTwoOptions(page, form, 0, ciclo, 2, i)
+        for (let i = 0; i <= 2; i++){
+            await changeTwoOptions(page, form, 0, ciclo, 13, i)
             await changeOptions(page, form, 1)
             fs.appendFileSync(`list.txt`, '\n\n\n')
         }
