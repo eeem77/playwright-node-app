@@ -44,7 +44,7 @@ const writeListTotal = async (form) => {
 }
 
 const openList = async (page, form, button) => {
-    const buttons = await form.$$('button.btn.dropdown-toggle.val-wrap')
+    const buttons = await form.$$('button')
     await buttons[button].click()
     const menu = await form.$('div.site-dropdown.dropdown.expanded')
     const menuBtn = await menu.$$('a.val-wrap.ng-scope') 
@@ -117,7 +117,6 @@ const web = async () => {
     const browser = await firefox.launch()
     const page = await browser.newPage()
     await page.goto('https://www.uprinting.com/brochure-printing.html')
-    await page.waitForTimeout(10000)
     const form = await page.$('#product_calculator_form')
     // await collapseTrue(form)
     await formBase(page, form)

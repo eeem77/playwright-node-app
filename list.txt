@@ -1,0 +1,70 @@
+4.25" x 5.5",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,250,3 Business Days,77.10
+4.25" x 5.5",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,500,3 Business Days,78.65
+4.25" x 5.5",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,1,000,3 Business Days,81.80
+4.25" x 5.5",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,2,000,3 Business Days,120.80
+4.25" x 5.5",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,2,500,3 Business Days,152.75
+4.25" x 5.5",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,3,000,3 Business Days,155.70
+4.25" x 5.5",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,4,000,3 Business Days,188.80
+4.25" x 5.5",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,5,000,3 Business Days,222.00
+4.25" x 5.5",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,6,000,3 Business Days,252.60
+4.25" x 5.5",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,7,000,3 Business Days,281.40
+4.25" x 5.5",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,7,500,3 Business Days,307.50
+4.25" x 5.5",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,8,000,3 Business Days,311.20
+4.25" x 5.5",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,9,000,3 Business Days,340.20
+4.25" x 5.5",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,10,000,3 Business Days,369.00
+4.25" x 5.5",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,15,000,3 Business Days,513.00
+4.25" x 5.5",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,20,000,3 Business Days,654.00
+4.25" x 5.5",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,25,000,3 Business Days,787.50
+4.25" x 5.5",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,35,000,3 Business Days,1057.00
+4.25" x 5.5",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,30,000,3 Business Days,921.00
+4.25" x 5.5",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,40,000,3 Business Days,1192.00
+4.25" x 5.5",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,45,000,3 Business Days,1323.00
+4.25" x 5.5",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,50,000,3 Business Days,1460.00
+4.25" x 5.5",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,55,000,3 Business Days,1595.00
+4.25" x 5.5",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,60,000,3 Business Days,1728.00
+4.25" x 5.5",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,65,000,3 Business Days,1859.00
+4.25" x 5.5",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,70,000,3 Business Days,1995.00
+4.25" x 5.5",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,75,000,3 Business Days,2130.00
+4.25" x 5.5",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,80,000,3 Business Days,2264.00
+4.25" x 5.5",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,85,000,3 Business Days,2397.00
+4.25" x 5.5",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,90,000,3 Business Days,2529.00
+4.25" x 5.5",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,95,000,3 Business Days,2660.00
+4.25" x 5.5",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,100,000,3 Business Days,2800.00
+
+
+
+4.25" x 11",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,250,3 Business Days,138.40
+4.25" x 11",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,500,3 Business Days,141.50
+4.25" x 11",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,1,000,3 Business Days,147.80
+4.25" x 11",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,2,000,3 Business Days,205.00
+4.25" x 11",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,2,500,3 Business Days,255.25
+4.25" x 11",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,3,000,3 Business Days,261.30
+4.25" x 11",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,4,000,3 Business Days,310.00
+4.25" x 11",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,5,000,3 Business Days,357.00
+4.25" x 11",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,6,000,3 Business Days,400.80
+4.25" x 11",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,7,000,3 Business Days,442.40
+4.25" x 11",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,7,500,3 Business Days,477.75
+4.25" x 11",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,8,000,3 Business Days,484.00
+4.25" x 11",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,9,000,3 Business Days,525.60
+4.25" x 11",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,10,000,3 Business Days,567.00
+4.25" x 11",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,15,000,3 Business Days,768.00
+4.25" x 11",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,20,000,3 Business Days,966.00
+4.25" x 11",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,25,000,3 Business Days,1150.00
+4.25" x 11",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,35,000,3 Business Days,1515.50
+4.25" x 11",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,30,000,3 Business Days,1332.00
+4.25" x 11",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,40,000,3 Business Days,1700.00
+4.25" x 11",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,45,000,3 Business Days,1885.50
+4.25" x 11",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,50,000,3 Business Days,2065.00
+4.25" x 11",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,55,000,3 Business Days,2249.50
+4.25" x 11",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,60,000,3 Business Days,2436.00
+4.25" x 11",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,65,000,3 Business Days,2619.50
+4.25" x 11",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,70,000,3 Business Days,2800.00
+4.25" x 11",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,75,000,3 Business Days,2985.00
+4.25" x 11",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,80,000,3 Business Days,3168.00
+4.25" x 11",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,85,000,3 Business Days,3349.00
+4.25" x 11",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,90,000,3 Business Days,3537.00
+4.25" x 11",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,95,000,3 Business Days,3714.50
+4.25" x 11",70 lb. Paper Uncoated,Half Fold,Outside and Inside,None,None,100,000,3 Business Days,3900.00
+
+
+
