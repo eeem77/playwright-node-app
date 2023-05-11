@@ -175,7 +175,9 @@ const linksUpdate = async (page, button, menu, modal) => {
 
 const stepByStepForOneButton = async (page, menu, button, pricebase, modal, title, porcent) => {
   const linkSubmenu = await linksUpdate(page, button, menu, modal)
-  await linkSubmenu[0].waitForElementState('visible')
+  //await linkSubmenu[0].waitForElementState('visible')
+  await page.waitForTimeout(3000)
+  console.log(linkSubmenu.length);
   await linkSubmenu[0].click()
   let links = 0
   const repeatForButton = linkSubmenu.length - 1

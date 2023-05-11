@@ -1,18 +1,17 @@
 import { chromium, firefox, webkit } from 'playwright'
 import fs from 'fs'
+import path from 'path'
 
 const formBase = async (page, form) => {
-    for (let i = 0; i <= 6; i++){
-        if(i !== 4){
-            const buttons = await form.$$('button.btn.dropdown-toggle.val-wrap')
-            await buttons[i].click()
-            const buttonListActive = await form.$('div.site-dropdown.dropdown.expanded')
-            //const listActive = await buttonListActive.$$('a.val-wrap.ng-scope') 
-            const listActive = await buttonListActive.$$('li.dropdown-menu-item')
-            await listActive[0].click()
-            console.log(await buttons[i].innerText())
-            await page.waitForTimeout(3000)
-        }
+    for (let i = 0; i <= 1; i++){
+        const buttons = await form.$$('button.btn.dropdown-toggle.val-wrap')
+        await buttons[i].click()
+        const buttonListActive = await form.$('div.site-dropdown.dropdown.expanded')
+        const listActive = await buttonListActive.$$('a.val-wrap.ng-scope') 
+        //const listActive = await buttonListActive.$$('li.dropdown-menu-item')
+        await listActive[0].click()
+        console.log(await buttons[i].innerText())
+        await page.waitForTimeout(3000)
         
         // const btns = await form.$$('button.btn.btn-dropdown')
         // await btns[i].click()
@@ -34,8 +33,8 @@ const formBase = async (page, form) => {
 // }
 
 const writeList = async (form) => {
-    const buttonsLabel = await form.$$eval('button.btn.btn-dropdown', node => node.map(n => n.innerText))
-    const price = await form.$eval('#disp_product_price', node => node.innerText)
+    const buttonsLabel = await form.$$eval('button.btn.dropdown-toggle.val-wrap', node => node.map(n => n.innerText))
+    const price = await form.$eval('.ng-binding.subtotal-price', node => node.innerText)
     const priceSubtotal = await price.replace(',', '')
     const priceTotal = await priceSubtotal.replace('$', '')
     await buttonsLabel.push(priceTotal)
@@ -43,31 +42,32 @@ const writeList = async (form) => {
 }
 
 const writeListTotal = async (form) => {
-    const buttonsLabel = await form.$$eval('button.btn.btn-dropdown', node => node.map(n => n.innerText))
-    const price = await form.$eval('#disp_printing_price', node => node.innerText)
+    const buttonsLabel = await form.$$eval('button.btn.dropdown-toggle.val-wrap', node => node.map(n => n.innerText))
+    const price = await form.$eval('.ng-binding.subtotal-price', node => node.innerText)
     const priceSubtotal = await price.replace(',', '')
     const priceTotal = await priceSubtotal.replace('$', '')
     await buttonsLabel.push(priceTotal)
     fs.appendFileSync(`list.txt`, buttonsLabel.toString() + '\n')
 }
 
-const openList = async (form, button) => {
-    const buttons = await form.$$('button.btn.dropdown-toggle.btn-dropdown')
+const openList = async (page, form, button) => {
+    const buttons = await form.$$('button')
     await buttons[button].click()
-    const menu = await form.$('div.dropdown-menu.show')
-    const menuBtn = await menu.$$('a.dropdown-item') 
+    const menu = await form.$('div.site-dropdown.dropdown.expanded')
+    const menuBtn = await menu.$$('a.val-wrap.ng-scope') 
+    console.log('working');
     return menuBtn
 }
 
 const changeOptions = async (page, form, button) => {
-    const menuBtn = await openList(form, button)
+    const menuBtn = await openList(page, form, button)
     for (let i = 0; i < menuBtn.length; i++){
         if (i === 0) {
             await menuBtn[i].click()
             await page.waitForTimeout(5000)
             await writeList(form)
         } else {
-            const menuBtnElse = await openList(form, button)
+            const menuBtnElse = await openList(page, form, button)
             await menuBtnElse[i].click()
             await page.waitForTimeout(5000)
             await writeList(form)
@@ -78,16 +78,16 @@ const changeOptions = async (page, form, button) => {
 const changeTwoOptions = async (page, form, button, option, buttonTwo, optionTwo) => {
     for (let i = 0; i < 2; i++){
         if (i === 0) {
-            const menuBtn = await openList(form, button)
+            const menuBtn = await openList(page, form, button)
             await menuBtn[option].click()
             await page.waitForTimeout(5000)
         } else {
-            const menuBtnElse = await openList(form, buttonTwo)
+            const menuBtnElse = await openList(page, form, buttonTwo)
             await menuBtnElse[optionTwo].click()
             await page.waitForTimeout(5000)
         }
     }
-    const buttonsLabel = await form.$$eval('button.btn.btn-dropdown', node => node.map(n => n.innerText))
+    const buttonsLabel = await form.$$eval('button.btn.dropdown-toggle.val-wrap', node => node.map(n => n.innerText))
     console.log(buttonsLabel)
 }
 
@@ -121,7 +121,7 @@ const bindingElementsOptions = async (page, form, option) => {
 }
 
 const web = async () => {
-    const browser = await chromium.launch()
+    const browser = await firefox.launch()
     const page = await browser.newPage()
     await page.goto('https://www.uprinting.com/brochure-printing.html')
     const form = await page.$('#product_calculator_form')
@@ -129,14 +129,14 @@ const web = async () => {
     await formBase(page, form)
     //await bindingElementsOptions(page, form, 2)
 
-    // for (let i = 8; i <= 12; i++){
-    //     const ciclo = i
-    //     for (let i = 0; i <= 2; i++){
-    //         await changeTwoOptions(page, form, 0, ciclo, 13, i)
-    //         await changeOptions(page, form, 1)
-    //         fs.appendFileSync(`list.txt`, '\n\n\n')
-    //     }
-    // }
+    for (let i = 0; i <= 8; i++){
+        const ciclo = i
+        for (let i = 0; i <= 7; i++){
+            await changeTwoOptions(page, form, 0, ciclo, 1, i)
+            await changeOptions(page, form, 5)
+            fs.appendFileSync(`list.txt`, '\n\n\n')
+        }
+    }
     
     // for (let i = 1; i <= 12; i++){
     //     const cicloPapel = i
@@ -151,9 +151,9 @@ const web = async () => {
     //     }
     // }
 
-    // for (let i = 1; i <= 1; i++){
-    //     await changeTwoOptions(page, form, 0, 1, 12, i)
-    //     await changeOptions(page, form, 1)
+    // for (let i = 0; i <= 8; i++){
+    //     await changeTwoOptions(page, form, 0, 0, 0, i)
+    //     await changeOptions(page, form, 5)
     //     fs.appendFileSync(`list.txt`, '\n\n\n')
     // }
 
