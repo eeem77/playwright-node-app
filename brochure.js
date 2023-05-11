@@ -7,19 +7,10 @@ const formBase = async (page, form) => {
         const buttons = await form.$$('button.btn.dropdown-toggle.val-wrap')
         await buttons[i].click()
         const buttonListActive = await form.$('div.site-dropdown.dropdown.expanded')
-        const listActive = await buttonListActive.$$('a.val-wrap.ng-scope') 
-        //const listActive = await buttonListActive.$$('li.dropdown-menu-item')
+        const listActive = await buttonListActive.$$('a.val-wrap.ng-scope')
         await listActive[0].click()
         console.log(await buttons[i].innerText())
         await page.waitForTimeout(3000)
-        
-        // const btns = await form.$$('button.btn.btn-dropdown')
-        // await btns[i].click()
-        // const menu = await form.$('div.dropdown-menu.show')
-        // const menuBtn = await menu.$$('a.dropdown-item')
-        // await menuBtn[btn].click()
-        // console.log(await btns[i].innerText())
-        // await page.waitForTimeout(5000)
     }
     const buttonsInnerText = await form.$$eval('button.btn.dropdown-toggle.val-wrap', node => node.map(n => n.innerText))
     console.log(buttonsInnerText)
@@ -129,10 +120,10 @@ const web = async () => {
     await formBase(page, form)
     //await bindingElementsOptions(page, form, 2)
 
-    for (let i = 0; i <= 8; i++){
+    for (let i = 3; i <= 8; i++){
         const ciclo = i
-        for (let i = 0; i <= 7; i++){
-            await changeTwoOptions(page, form, 0, ciclo, 1, i)
+        for (let i = 1; i <= 1; i++){
+            await changeTwoOptions(page, form, 0, ciclo, 3, i)
             await changeOptions(page, form, 5)
             fs.appendFileSync(`list.txt`, '\n\n\n')
         }
