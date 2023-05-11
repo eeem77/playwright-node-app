@@ -120,7 +120,7 @@ const web = async () => {
     await formBase(page, form)
     //await bindingElementsOptions(page, form, 2)
 
-    for (let i = 3; i <= 8; i++){
+    for (let i = 4; i <= 8; i++){
         const ciclo = i
         for (let i = 1; i <= 1; i++){
             await changeTwoOptions(page, form, 0, ciclo, 3, i)
