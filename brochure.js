@@ -3,12 +3,14 @@ import fs from 'fs'
 import path from 'path'
 
 const formBase = async (page, form) => {
-    for (let i = 0; i <= 1; i++){
+    let clickList = 0
+    for (let i = 0; i <= 2; i++){
+        i === 2 ? clickList = 1 : clickList = 0
         const buttons = await form.$$('button.btn.dropdown-toggle.val-wrap')
         await buttons[i].click()
         const buttonListActive = await form.$('div.site-dropdown.dropdown.expanded')
         const listActive = await buttonListActive.$$('a.val-wrap.ng-scope')
-        await listActive[0].click()
+        await listActive[clickList].click()
         console.log(await buttons[i].innerText())
         await page.waitForTimeout(3000)
     }
@@ -120,10 +122,10 @@ const web = async () => {
     await formBase(page, form)
     //await bindingElementsOptions(page, form, 2)
 
-    for (let i = 3; i <= 8; i++){
+    for (let i = 0; i <= 7; i++){
         const ciclo = i
         for (let i = 1; i <= 1; i++){
-            await changeTwoOptions(page, form, 0, ciclo, 2, i)
+            await changeTwoOptions(page, form, 0, ciclo, 3, i)
             await changeOptions(page, form, 6)
             fs.appendFileSync(`list.txt`, '\n\n\n')
         }
