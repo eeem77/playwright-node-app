@@ -4,15 +4,22 @@ import path from 'path'
 
 const formBase = async (page, form) => {
     let clickList = 0
-    for (let i = 0; i <= 2; i++){
-        i === 2 ? clickList = 1 : clickList = 0
+    for (let i = 0; i <= 1; i++){
+        switch (i) {
+            case 2:
+                clickList = 1
+            break;
+            case 3:
+                clickList = 1
+            break;
+        }
         const buttons = await form.$$('button.btn.dropdown-toggle.val-wrap')
         await buttons[i].click()
         const buttonListActive = await form.$('div.site-dropdown.dropdown.expanded')
         const listActive = await buttonListActive.$$('a.val-wrap.ng-scope')
         await listActive[clickList].click()
         console.log(await buttons[i].innerText())
-        await page.waitForTimeout(3000)
+        await page.waitForTimeout(5000)
     }
     const buttonsInnerText = await form.$$eval('button.btn.dropdown-toggle.val-wrap', node => node.map(n => n.innerText))
     console.log(buttonsInnerText)
@@ -43,43 +50,51 @@ const writeListTotal = async (form) => {
     fs.appendFileSync(`list.txt`, buttonsLabel.toString() + '\n')
 }
 
-const openList = async (page, form, button) => {
-    const buttons = await form.$$('button.btn.dropdown-toggle.val-wrap')
+const openList = async (form, button) => {
+    const buttons = await form.$$('button.btn.dropdown-toggle')
     await buttons[button].click()
     const menu = await form.$('div.site-dropdown.dropdown.expanded')
-    const menuBtn = await menu.$$('a.val-wrap.ng-scope') 
-    console.log('working');
+    const menuBtn = await menu.$$('a.val-wrap.ng-scope')
+    console.log('Working');
     return menuBtn
 }
 
 const changeOptions = async (page, form, button) => {
-    const menuBtn = await openList(page, form, button)
+    const menuBtn = await openList(form, button)
     for (let i = 0; i < menuBtn.length; i++){
         if (i === 0) {
             await menuBtn[i].click()
-            await page.waitForTimeout(10000)
+            await page.waitForTimeout(5000)
             await writeList(form)
         } else {
-            const menuBtnElse = await openList(page, form, button)
+            const menuBtnElse = await openList(form, button)
             await menuBtnElse[i].click()
-            await page.waitForTimeout(10000)
+            await page.waitForTimeout(5000)
             await writeList(form)
         }
     }
 }
 
+const changeOneOptions = async (page, form, button, option) => {
+    const menuBtn = await openList(form, button)
+    await menuBtn[option].click()
+    await page.waitForTimeout(5000)
+}
+
 const changeTwoOptions = async (page, form, button, option, buttonTwo, optionTwo) => {
+    
     for (let i = 0; i < 2; i++){
         if (i === 0) {
-            const menuBtn = await openList(page, form, button)
+            const menuBtn = await openList(form, button)
             await menuBtn[option].click()
-            await page.waitForTimeout(10000)
+            await page.waitForTimeout(5000)
         } else {
-            const menuBtnElse = await openList(page, form, buttonTwo)
+            const menuBtnElse = await openList(form, buttonTwo)
             await menuBtnElse[optionTwo].click()
-            await page.waitForTimeout(10000)
+            await page.waitForTimeout(5000)
         }
     }
+    
     const buttonsLabel = await form.$$eval('button.btn.dropdown-toggle.val-wrap', node => node.map(n => n.innerText))
     console.log(buttonsLabel)
 }
@@ -90,17 +105,17 @@ const changeThreeOptions = async (page, form, button, option, buttonTwo, optionT
             case 0:
                 const menuBtn = await openList(form, button)
                 await menuBtn[option].click()
-                await page.waitForTimeout(10000)
+                await page.waitForTimeout(5000)
                 break
             case 1:
                 const menuBtnTwo = await openList(form, buttonTwo)
                 await menuBtnTwo[optionTwo].click()
-                await page.waitForTimeout(10000)
+                await page.waitForTimeout(5000)
                 break
             case 2:
                 const menuBtnThree = await openList(form, buttonThree)
                 await menuBtnThree[optionThree].click()
-                await page.waitForTimeout(10000)
+                await page.waitForTimeout(5000)
                 break
         }
     }
@@ -110,23 +125,25 @@ const changeThreeOptions = async (page, form, button, option, buttonTwo, optionT
 const bindingElementsOptions = async (page, form, option) => {
     const bindingElements = await form.$$('.custom-control.custom-radio.element_class')
     await bindingElements[option].click()
-    await page.waitForTimeout(10000)
+    await page.waitForTimeout(5000)
 }
 
 const web = async () => {
     const browser = await firefox.launch()
     const page = await browser.newPage()
     await page.goto('https://www.uprinting.com/brochure-printing.html')
-    await page.waitForTimeout(10000)
+    await page.waitForTimeout(5000)
     const form = await page.$('#product_calculator_form')
     // await collapseTrue(form)
     await formBase(page, form)
     //await bindingElementsOptions(page, form, 2)
 
-    for (let i = 2; i <= 7; i++){
+    //await changeTwoOptions(page, form, 2, 1, 3, 1)
+    //await changeOneOptions(page, form, 2, 1)
+    for (let i = 4; i <= 7; i++){
         const ciclo = i
-        for (let i = 1; i <= 1; i++){
-            await changeTwoOptions(page, form, 0, ciclo, 3, i)
+        for (let i = 1; i <= 9; i++){
+            await changeTwoOptions(page, form, 0, ciclo, 2, i)
             await changeOptions(page, form, 6)
             fs.appendFileSync(`list.txt`, '\n\n\n')
         }
