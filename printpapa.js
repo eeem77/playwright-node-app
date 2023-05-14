@@ -157,59 +157,74 @@ const bindingElementsOptions = async (page, form, option) => {
 const web = async () => {
     const browser = await firefox.launch()
     const page = await browser.newPage()
-    await page.goto('https://www.uprinting.com/brochure-printing.html')
-    await page.waitForTimeout(5000)
-    const form = await page.$('#product_calculator_form')
+    await page.goto('https://www.printpapa.com/eshop/pc/2-Part-Carbonless-Form-Letter-172p3771.htm')
+    const form = await page.$('.product-details')
+
+
+    const options = await form.$$eval('.single-prod-optn', node => node.map(n => n.innerText))
+    const qty = await form.$('[name="quantity"]')
+    const price = await form.$('#txtTotalAfterShip')
+    const optionsQty = await qty.$$eval('option', node => node.map(n => n.innerText))
+    console.log(options)
+    console.log(await qty.inputValue())
+    console.log(await price.inputValue())
+    console.log(optionsQty)
     // await collapseTrue(form)
     //await formBase(page, form)
     //await bindingElementsOptions(page, form, 2)
+
+    // for (let i = 0; i <= 0; i++){
+    //     await changeTwoOptions(page, form, 0, 0, 0, i)
+    //     await changeOptions(page, form, 5)
+    //     fs.appendFileSync(`list.txt`, '\n\n\n')
+    // }
 
     //await changeTwoOptions(page, form, 2, 1, 3, 1)
     //const menuBtn = await openList(form, button)
     //menuBtn.length
     //for (let i = 2; i <= 2; i++){
     //const ciclo = i
-    let count = 1
-    for (let i = 8; i <= 8; i++){
-        const ciclo = i
-        for (let i = 0; i <= count; i++){
-            switch (i) {
-                case 0:
-                    await changeTwoOptions(page, form, 0, ciclo, 6, 0)
-                    //await changeOptions(page, form, 5)
-                    const menuBtn = await openList(form, 6)
-                    await menuBtn[0].click()
-                    await page.waitForTimeout(5000)
-                    count = menuBtn.length - 1
-                    //fs.appendFileSync(`list.txt`, '\n\n\n')
-                break
+    // let count = 1
+    // for (let i = 8; i <= 8; i++){
+    //     const ciclo = i
+    //     for (let i = 0; i <= count; i++){
+    //         switch (i) {
+    //             case 0:
+    //                 await changeTwoOptions(page, form, 0, ciclo, 6, 0)
+    //                 //await changeOptions(page, form, 5)
+    //                 const menuBtn = await openList(form, 6)
+    //                 await menuBtn[0].click()
+    //                 await page.waitForTimeout(5000)
+    //                 count = menuBtn.length - 1
+    //                 //fs.appendFileSync(`list.txt`, '\n\n\n')
+    //             break
 
-                case 1:                
-                break
-                // case 2:                
-                // break
-                // case 3:
-                // break
-                // case 4:
-                // break
-                // case 5:
-                // break
-                // case 6:
-                // break
-                // case 7:
-                // break
-                // case 8:
-                // break
+    //             case 1:                
+    //             break
+    //             // case 2:                
+    //             // break
+    //             // case 3:
+    //             // break
+    //             // case 4:
+    //             // break
+    //             // case 5:
+    //             // break
+    //             // case 6:
+    //             // break
+    //             // case 7:
+    //             // break
+    //             // case 8:
+    //             // break
             
-                default:
-                    await changeOneOptions(page, form, 6, i)
-                    await changeOptions(page, form, 5)
-                    fs.appendFileSync(`list.txt`, '\n\n\n') 
-                break
-            }
-        }
-        count = 1
-    }
+    //             default:
+    //                 await changeOneOptions(page, form, 6, i)
+    //                 await changeOptions(page, form, 5)
+    //                 fs.appendFileSync(`list.txt`, '\n\n\n') 
+    //             break
+    //         }
+    //     }
+    //     count = 1
+    // }
     // for (let i = 1; i <= 10; i++){
         
     //     await changeTwoOptions(page, form, 0, 4, 2, i)
