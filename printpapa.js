@@ -187,16 +187,24 @@ const extraxtData = async (form, qty, optionsQty, optionString) => {
     }
 }
 
+const changeSelectOptions = async (form, idSelect, option) => {
+    const select = await form.$(idSelect)
+    await select.selectOption(option)
+}
+
 const web = async () => {
     const browser = await firefox.launch()
     const page = await browser.newPage()
-    await page.goto('https://www.printpapa.com/eshop/pc/2-Part-Carbonless-Form-Half-Page-172p3762.htm')
+    await page.goto('https://www.printpapa.com/eshop/pc/4-Part-Carbonless-Form-Letter-174p3837.htm')
     const form = await page.$('.product-details')
     const qty = await form.$('[name="quantity"]')
     const optionsQty = await qty.$$eval('option', node => node.map(n => n.innerText))
 
-    await changePrintedSideColor(form, 6)
-    await extraxtData(form, qty, optionsQty, '500')
+    //await changePrintedSideColor(form, 3)
+
+    //await changeSelectOptions(form, '#CAG133', 'Yes, Provide Starting No. & Position')
+
+    await extraxtData(form, qty, optionsQty, '250')
     
 
 
