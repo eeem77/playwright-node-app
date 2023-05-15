@@ -5,9 +5,48 @@ dotenv.config()
 import listPrice from './listPrice.js'
 
 const url = 'https://www.apprinting.com/admin/'
-const urlProductUpdatePrice = 'https://www.apprinting.com/admin/product_additionalinfo_price.php?product_id=3201&prod_add_opt_id=93735&sel_product_size=3463'
+const urlProductUpdatePrice = 'https://www.apprinting.com/admin/product_additionalinfo_price.php?product_id=3666&prod_add_opt_id=95759&sel_product_size=4118'
 
-const qtys = [10,25,50,100,250,500,750,1000,1500,2000,2500,3000,4000,5000,6000,7000]
+const qtys = [
+    25,
+    50,
+    75,
+    100,
+    150,
+    200,
+    250,
+    500,
+    1000,
+    2000,
+    2500,
+    3000,
+    4000,
+    5000,
+    6000,
+    7000,
+    7500,
+    8000,
+    9000,
+    10000,
+    15000,
+    20000,
+    25000,
+    35000,
+    30000,
+    40000,
+    45000,
+    50000,
+    55000,
+    60000,
+    65000,
+    70000,
+    75000,
+    80000,
+    85000,
+    90000,
+    95000,
+    100000,
+]
 
 const login = async (page) => {
     await page.goto(url)
@@ -20,14 +59,14 @@ const login = async (page) => {
     await page.waitForTimeout(3000)
     console.log('login: OK')
 }
-// txtprice[10_1943198_]  txtprice[10_1943200_]
+// txtprice[25_1971188_] txtprice[25_1971195_]
 const inputFillToPrice = async (page) => {
     await page.goto(urlProductUpdatePrice)
     let price = 0
     //let postNumber = 9386866  ${postNumber}
-    for (let i = 198; i <= 200; i++){
+    for (let i = 88; i <= 95; i++){
         for await (const qty of qtys){
-            const id = `txtprice[${qty}_1943${i}_]`
+            const id = `txtprice[${qty}_19711${i}_]`
             const inputPrice = await page.$(`[id="${id}" ]`)
             await inputPrice.fill(listPrice[price].toString())
             console.log(listPrice[price].toString());
