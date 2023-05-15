@@ -41,15 +41,6 @@ const writeList = async (form) => {
     fs.appendFileSync(`list.txt`, buttonsLabel.toString() + '\n')
 }
 
-const writeListTotal = async (form) => {
-    const buttonsLabel = await form.$$eval('button.btn.dropdown-toggle.val-wrap', node => node.map(n => n.innerText))
-    const price = await form.$eval('.ng-binding.subtotal-price', node => node.innerText)
-    const priceSubtotal = await price.replace(',', '')
-    const priceTotal = await priceSubtotal.replace('$', '')
-    await buttonsLabel.push(priceTotal)
-    fs.appendFileSync(`list.txt`, buttonsLabel.toString() + '\n')
-}
-
 const openList = async (form, button) => {
     const buttons = await form.$$('button.btn.dropdown-toggle')
     await buttons[button].click()
@@ -154,21 +145,69 @@ const bindingElementsOptions = async (page, form, option) => {
     await page.waitForTimeout(5000)
 }
 
-const web = async () => {
-    const browser = await firefox.launch()
-    const page = await browser.newPage()
-    await page.goto('https://www.printpapa.com/eshop/pc/2-Part-Carbonless-Form-Letter-172p3771.htm')
-    const form = await page.$('.product-details')
+const optionsValue = [
+    '250',  '500',
+    '1000', '1500',
+    '2000', '2500',
+    '3000', '4000',
+    '5000',
+    '6000', '7000',
+    '7500', '8000',
+    '9000', '10000'
+]
 
-
+const writeListTotal = async (form) => {
     const options = await form.$$eval('.single-prod-optn', node => node.map(n => n.innerText))
     const qty = await form.$('[name="quantity"]')
     const price = await form.$('#txtTotalAfterShip')
+    const qtyValue = await qty.inputValue()
+    const priceValue = await price.inputValue()
+    const priceSubtotal = await priceValue.replace(',', '')
+    const priceTotal = await priceSubtotal.replace('$', '')
+    await options.push(qtyValue, priceTotal)
+    fs.appendFileSync(`list.txt`, options.toString() + '\n')
+}
+
+const changePrintedSideColor = async (form, option) => {
+    const div = await form.$('.ddTitle.borderRadiusTp')
+    await div.click()
+    const divChild = await form.$('#CAG26_child')
+    const optionsDivChild = await divChild.$$('li')
+    await optionsDivChild[option].click()
+}
+
+const extraxtData = async (form, qty, optionsQty, optionString) => {
+    for await (const option of optionsQty){
+        if(option === optionString){
+            await writeListTotal(form)
+        } else{
+            await qty.selectOption(option)
+            await writeListTotal(form)
+        }
+    }
+}
+
+const web = async () => {
+    const browser = await firefox.launch()
+    const page = await browser.newPage()
+    await page.goto('https://www.printpapa.com/eshop/pc/2-Part-Carbonless-Form-Half-Page-172p3762.htm')
+    const form = await page.$('.product-details')
+    const qty = await form.$('[name="quantity"]')
     const optionsQty = await qty.$$eval('option', node => node.map(n => n.innerText))
-    console.log(options)
-    console.log(await qty.inputValue())
-    console.log(await price.inputValue())
-    console.log(optionsQty)
+
+    await changePrintedSideColor(form, 6)
+    await extraxtData(form, qty, optionsQty, '500')
+    
+
+
+    // const options = await form.$$eval('.single-prod-optn', node => node.map(n => n.innerText))
+    // const qty = await form.$('[name="quantity"]')
+    // const price = await form.$('#txtTotalAfterShip')
+    // const optionsQty = await qty.$$eval('option', node => node.map(n => n.innerText))
+    // console.log(options)
+    // console.log(await qty.inputValue())
+    // console.log(await price.inputValue())
+    // console.log(optionsQty)
     // await collapseTrue(form)
     //await formBase(page, form)
     //await bindingElementsOptions(page, form, 2)
