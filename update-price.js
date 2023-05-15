@@ -5,15 +5,15 @@ dotenv.config()
 import listPrice from './listPrice.js'
 
 const url = 'https://www.apprinting.com/admin/'
-const urlProductUpdatePrice = 'https://www.apprinting.com/admin/product_additionalinfo_price.php?product_id=3666&prod_add_opt_id=95759&sel_product_size=4118'
+const urlProductUpdatePrice = 'https://www.apprinting.com/admin/product_additionalinfo_price.php?product_id=3666&prod_add_opt_id=95760&sel_product_size=4126'
 
 const qtys = [
-    25,
-    50,
-    75,
-    100,
-    150,
-    200,
+    // 25,
+    // 50,
+    // 75,
+    // 100,
+    // 150,
+    // 200,
     250,
     500,
     1000,
@@ -59,14 +59,18 @@ const login = async (page) => {
     await page.waitForTimeout(3000)
     console.log('login: OK')
 }
-// txtprice[25_1971188_] txtprice[25_1971195_]
+// 197txtprice[25_1971197_] txtprice[100000_1971197_] Setup Attribute Price For - Half Fold
+// 198 Setup Attribute Price For - Trifold/Letter Fold 
+// 199 Setup Attribute Price For - Z-Fold
+// 205 Setup Attribute Price For - Roll Fold (4 panels) 
+//txtprice[25_1971206_]
 const inputFillToPrice = async (page) => {
     await page.goto(urlProductUpdatePrice)
     let price = 0
     //let postNumber = 9386866  ${postNumber}
-    for (let i = 88; i <= 95; i++){
+    for (let i = 206; i <= 206; i++){
         for await (const qty of qtys){
-            const id = `txtprice[${qty}_19711${i}_]`
+            const id = `txtprice[${qty}_1971${i}_]`
             const inputPrice = await page.$(`[id="${id}" ]`)
             await inputPrice.fill(listPrice[price].toString())
             console.log(listPrice[price].toString());
