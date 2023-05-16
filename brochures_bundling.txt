@@ -1,6 +1,6 @@
-4.25" x 5.5",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,25,3 Business Days,22.32
+4.25" x 5.5",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,25,25,3 Business Days,22.32
 4.25" x 5.5",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,25,50,3 Business Days,25.52
-4.25" x 5.5",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,75,3 Business Days,28.72
+4.25" x 5.5",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,25,75,3 Business Days,28.72
 4.25" x 5.5",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,25,100,3 Business Days,31.92
 4.25" x 5.5",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,25,150,3 Business Days,37.46
 4.25" x 5.5",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,25,200,3 Business Days,43.04
@@ -39,9 +39,9 @@
 
 
 
-4.25" x 11",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,25,3 Business Days,25.81
+4.25" x 11",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,25,25,3 Business Days,25.81
 4.25" x 11",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,25,50,3 Business Days,31.38
-4.25" x 11",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,75,3 Business Days,36.95
+4.25" x 11",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,25,75,3 Business Days,36.95
 4.25" x 11",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,25,100,3 Business Days,42.52
 4.25" x 11",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,25,150,3 Business Days,51.95
 4.25" x 11",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,25,200,3 Business Days,61.42
@@ -80,9 +80,9 @@
 
 
 
-5.5" x 8.5",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,25,3 Business Days,25.81
+5.5" x 8.5",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,25,25,3 Business Days,25.81
 5.5" x 8.5",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,25,50,3 Business Days,31.38
-5.5" x 8.5",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,75,3 Business Days,36.95
+5.5" x 8.5",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,25,75,3 Business Days,36.95
 5.5" x 8.5",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,25,100,3 Business Days,42.52
 5.5" x 8.5",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,25,150,3 Business Days,51.95
 5.5" x 8.5",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,25,200,3 Business Days,61.42
@@ -121,9 +121,9 @@
 
 
 
-8" x 9",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,25,3 Business Days,31.66
+8" x 9",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,25,25,3 Business Days,31.66
 8" x 9",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,25,50,3 Business Days,41.97
-8" x 9",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,75,3 Business Days,52.29
+8" x 9",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,25,75,3 Business Days,52.29
 8" x 9",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,25,100,3 Business Days,62.60
 8" x 9",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,25,150,3 Business Days,79.80
 8" x 9",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,25,200,3 Business Days,97.08
@@ -162,9 +162,9 @@
 
 
 
-8.5" x 11",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,25,3 Business Days,34.83
+8.5" x 11",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,25,25,3 Business Days,34.83
 8.5" x 11",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,25,50,3 Business Days,46.17
-8.5" x 11",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,75,3 Business Days,57.52
+8.5" x 11",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,25,75,3 Business Days,57.52
 8.5" x 11",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,25,100,3 Business Days,68.86
 8.5" x 11",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,25,150,3 Business Days,91.77
 8.5" x 11",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,25,200,3 Business Days,111.64
@@ -203,9 +203,9 @@
 
 
 
-8.5" x 14",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,25,3 Business Days,47.72
+8.5" x 14",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,25,25,3 Business Days,47.72
 8.5" x 14",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,25,50,3 Business Days,69.49
-8.5" x 14",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,75,3 Business Days,91.26
+8.5" x 14",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,25,75,3 Business Days,91.26
 8.5" x 14",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,25,100,3 Business Days,113.03
 8.5" x 14",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,25,150,3 Business Days,155.84
 8.5" x 14",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,25,200,3 Business Days,193.66
@@ -244,9 +244,9 @@
 
 
 
-9" x 12",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,25,3 Business Days,43.38
+9" x 12",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,25,25,3 Business Days,43.38
 9" x 12",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,25,50,3 Business Days,63.17
-9" x 12",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,75,3 Business Days,82.96
+9" x 12",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,25,75,3 Business Days,82.96
 9" x 12",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,25,100,3 Business Days,102.75
 9" x 12",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,25,150,3 Business Days,135.51
 9" x 12",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,25,200,3 Business Days,168.40
@@ -285,9 +285,9 @@
 
 
 
-11" x 17",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,25,3 Business Days,47.72
+11" x 17",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,25,25,3 Business Days,47.72
 11" x 17",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,25,50,3 Business Days,69.49
-11" x 17",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,75,3 Business Days,91.26
+11" x 17",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,25,75,3 Business Days,91.26
 11" x 17",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,25,100,3 Business Days,113.03
 11" x 17",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,25,150,3 Business Days,155.84
 11" x 17",100 lb. Paper Gloss,None,Front Only,Shrink Wrapping,25,200,3 Business Days,193.66
