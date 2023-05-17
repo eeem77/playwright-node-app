@@ -19,7 +19,7 @@ const formBase = async (page, form) => {
         const listActive = await buttonListActive.$$('a.val-wrap.ng-scope')
         await listActive[clickList].click()
         console.log(await buttons[i].innerText())
-        await page.waitForTimeout(5000)
+        await page.waitForTimeout(15000)
     }
     const buttonsInnerText = await form.$$eval('button.btn.dropdown-toggle.val-wrap', node => node.map(n => n.innerText))
     console.log(buttonsInnerText)
@@ -68,40 +68,42 @@ const changeOptions = async (page, form, button) => {
             switch (i) {
                 case 0:
                     await menuBtn[i].click()
-                    await page.waitForTimeout(5000)
+                    await form.waitForSelector('.ng-binding.subtotal-price', { state: 'attached' })
+                    //await page.waitForTimeout(15000)
                     await writeList(form)
                     //newButton = button - 1
                 break
                 // case 1:
                 //     const menuBtnElse = await openList(form, newButton)
                 //     await menuBtnElse[i].click()
-                //     await page.waitForTimeout(5000)
+                //     await page.waitForTimeout(15000)
                 //     await writeList(form)
                 // break
                 // case 3:
                 //     const menuBtnCase = await openList(form, newButton)
                 //     await menuBtnCase[i].click()
-                //     await page.waitForTimeout(5000)
+                //     await page.waitForTimeout(15000)
                 //     await writeList(form)
                 // break            
                 default:
                     const menuBtnDefault= await openList(form, button)
                     await menuBtnDefault[i].click()
-                    await page.waitForTimeout(5000)
+                    await form.waitForSelector('.ng-binding.subtotal-price', { state: 'attached' })
+                    //await page.waitForTimeout(15000)
                     await writeList(form)
                 break
             }
         }
     // }else{
     //     await menuBtn[0].click()
-    //     await page.waitForTimeout(5000)
+    //     await page.waitForTimeout(15000)
     // }
 }
 
 const changeOneOptions = async (page, form, button, option) => {
     const menuBtn = await openList(form, button)
     await menuBtn[option].click()
-    await page.waitForTimeout(5000)
+    await page.waitForTimeout(15000)
 }
 
 const changeTwoOptions = async (page, form, button, option, buttonTwo, optionTwo) => {
@@ -111,12 +113,12 @@ const changeTwoOptions = async (page, form, button, option, buttonTwo, optionTwo
             case 0:
                 const menuBtn = await openList(form, button)
                 await menuBtn[option].click()
-                await page.waitForTimeout(5000)
+                await page.waitForTimeout(15000)
             break;
             case 1:
                 const menuBtnElse = await openList(form, buttonTwo)
                 await menuBtnElse[optionTwo].click()
-                await page.waitForTimeout(5000)
+                await page.waitForTimeout(15000)
             break;
         }
     }
@@ -131,17 +133,19 @@ const changeThreeOptions = async (page, form, button, option, buttonTwo, optionT
             case 0:
                 const menuBtn = await openList(form, button)
                 await menuBtn[option].click()
-                await page.waitForTimeout(5000)
+                await form.waitForSelector('.ng-binding.subtotal-price', { state: 'attached' })
+                //await page.waitForTimeout(15000)
                 break
             case 1:
                 const menuBtnTwo = await openList(form, buttonTwo)
                 await menuBtnTwo[optionTwo].click()
-                await page.waitForTimeout(5000)
+                await page.waitForTimeout(15000)
                 break
             case 2:
                 const menuBtnThree = await openList(form, buttonThree)
                 await menuBtnThree[optionThree].click()
-                await page.waitForTimeout(5000)
+                await form.waitForSelector('.ng-binding.subtotal-price', { state: 'attached' })
+                //await page.waitForTimeout(15000)
                 break
         }
     }
@@ -151,14 +155,14 @@ const changeThreeOptions = async (page, form, button, option, buttonTwo, optionT
 const bindingElementsOptions = async (page, form, option) => {
     const bindingElements = await form.$$('.custom-control.custom-radio.element_class')
     await bindingElements[option].click()
-    await page.waitForTimeout(5000)
+    await page.waitForTimeout(15000)
 }
 
 const web = async () => {
     const browser = await firefox.launch()
     const page = await browser.newPage()
-    await page.goto('https://www.uprinting.com/brochure-printing.html')
-    await page.waitForTimeout(5000)
+    await page.goto('https://www.uprinting.com/brochure-printing.html?aind=prod_up_products&aqid=8bbe53b9109da0ca451e1c5ca4d9673c&aoid=f311abf1852c234fea09c658f20da85d421bf69e5dae6af4064f45dae18405f3&apos=1&aut=f9183f70-f3f6-11ed-9894-0242ac110003-1684247758&asrc=results_page&akywd=brocs&stype=algolia&mdl=products', {timeout:120000})
+    //await page.waitForTimeout(15000)
     const form = await page.$('#product_calculator_form')
     // await collapseTrue(form)
     //await formBase(page, form)
@@ -169,47 +173,48 @@ const web = async () => {
     //menuBtn.length
     //for (let i = 2; i <= 2; i++){
     //const ciclo = i
-    let count = 1
-    for (let i = 8; i <= 8; i++){
-        const ciclo = i
-        for (let i = 0; i <= count; i++){
-            switch (i) {
-                case 0:
-                    await changeTwoOptions(page, form, 0, ciclo, 6, 0)
-                    //await changeOptions(page, form, 5)
-                    const menuBtn = await openList(form, 6)
-                    await menuBtn[0].click()
-                    await page.waitForTimeout(5000)
-                    count = menuBtn.length - 1
-                    //fs.appendFileSync(`list.txt`, '\n\n\n')
-                break
+    // let count = 1
+    // for (let i = 0; i <= 7; i++){
+    //     const ciclo = i
+    //     for (let i = 0; i <= count; i++){
+    //         switch (i) {
+    //             case 0:
+    //                 //await changeTwoOptions(page, form, 0, ciclo, 6, 0)
+    //                 //await changeOptions(page, form, 5)
+    //                 await changeThreeOptions(page, form, 0, ciclo, 2, 1, 3, i)
+    //                 const menuBtn = await openList(form, 3)
+    //                 await menuBtn[0].click()
+    //                 await page.waitForTimeout(15000)
+    //                 count = menuBtn.length - 1
+    //                 //fs.appendFileSync(`list.txt`, '\n\n\n')
+    //             break
 
-                case 1:                
-                break
-                // case 2:                
-                // break
-                // case 3:
-                // break
-                // case 4:
-                // break
-                // case 5:
-                // break
-                // case 6:
-                // break
-                // case 7:
-                // break
-                // case 8:
-                // break
+    //             // case 1:                
+    //             // break
+    //             // case 2:                
+    //             // break
+    //             // case 3:
+    //             // break
+    //             // case 4:
+    //             // break
+    //             // case 5:
+    //             // break
+    //             // case 6:
+    //             // break
+    //             // case 7:
+    //             // break
+    //             // case 8:
+    //             // break
             
-                default:
-                    await changeOneOptions(page, form, 6, i)
-                    await changeOptions(page, form, 5)
-                    fs.appendFileSync(`list.txt`, '\n\n\n') 
-                break
-            }
-        }
-        count = 1
-    }
+    //             default:
+    //                 await changeOneOptions(page, form, 3, i)
+    //                 await changeOptions(page, form, 6)
+    //                 fs.appendFileSync(`list.txt`, '\n\n\n') 
+    //             break
+    //         }
+    //     }
+    //     count = 1
+    // }
     // for (let i = 1; i <= 10; i++){
         
     //     await changeTwoOptions(page, form, 0, 4, 2, i)
@@ -238,15 +243,12 @@ const web = async () => {
     //     fs.appendFileSync(`list.txt`, '\n\n\n')
     // }
 
-    // await changeTwoOptions(page, form, 0, 0, 2, 1)
-    // for (let i = 0; i <= 7; i++){
-    //     const ciclo = i
-    //     for (let i = 1; i <= 2; i++){
-    //         changeOneOptions(page, form, 5, i)
-    //         await changeOptions(page, form, 6)
-    //         fs.appendFileSync(`list.txt`, '\n\n\n')
-    //     }
-    // }
+    //await changeOneOptions(page, form, 6, 0)
+    for (let i = 5; i <= 7; i++){
+        await changeThreeOptions(page, form, 0, i, 2, 1, 3, 1)
+        await changeOptions(page, form, 6)
+        fs.appendFileSync(`list.txt`, '\n\n\n')
+    }
 
     console.log('END')
     await browser.close()
