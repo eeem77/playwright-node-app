@@ -6,36 +6,36 @@
 4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,200,3 Business Days,35.12
 4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,250,3 Business Days,126.60
 4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,500,3 Business Days,128.30
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,1,000,3 Business Days,131.60
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,2,000,3 Business Days,235.40
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,2,500,3 Business Days,331.25
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,3,000,3 Business Days,334.80
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,4,000,3 Business Days,432.80
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,5,000,3 Business Days,497.50
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,6,000,3 Business Days,559.80
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,7,000,3 Business Days,620.90
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,7,500,3 Business Days,678.75
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,8,000,3 Business Days,682.40
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,9,000,3 Business Days,743.40
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,10,000,3 Business Days,798.00
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,15,000,3 Business Days,1069.50
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,20,000,3 Business Days,1338.00
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,25,000,3 Business Days,1605.00
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,35,000,3 Business Days,2135.00
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,30,000,3 Business Days,1869.00
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,40,000,3 Business Days,2400.00
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,45,000,3 Business Days,2668.50
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,50,000,3 Business Days,2930.00
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,55,000,3 Business Days,3195.50
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,60,000,3 Business Days,3462.00
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,65,000,3 Business Days,3731.00
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,70,000,3 Business Days,3997.00
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,75,000,3 Business Days,4260.00
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,80,000,3 Business Days,4528.00
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,85,000,3 Business Days,4794.00
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,90,000,3 Business Days,5058.00
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,95,000,3 Business Days,5320.00
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,100,000,3 Business Days,5580.00
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,1000,3 Business Days,131.60
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,2000,3 Business Days,235.40
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,2500,3 Business Days,331.25
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,3000,3 Business Days,334.80
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,4000,3 Business Days,432.80
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,5000,3 Business Days,497.50
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,6000,3 Business Days,559.80
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,7000,3 Business Days,620.90
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,7500,3 Business Days,678.75
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,8000,3 Business Days,682.40
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,9000,3 Business Days,743.40
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,10000,3 Business Days,798.00
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,15000,3 Business Days,1069.50
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,20000,3 Business Days,1338.00
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,25000,3 Business Days,1605.00
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,35000,3 Business Days,2135.00
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,30000,3 Business Days,1869.00
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,40000,3 Business Days,2400.00
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,45000,3 Business Days,2668.50
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,50000,3 Business Days,2930.00
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,55000,3 Business Days,3195.50
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,60000,3 Business Days,3462.00
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,65000,3 Business Days,3731.00
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,70000,3 Business Days,3997.00
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,75000,3 Business Days,4260.00
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,80000,3 Business Days,4528.00
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,85000,3 Business Days,4794.00
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,90000,3 Business Days,5058.00
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,95000,3 Business Days,5320.00
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,100000,3 Business Days,5580.00
 
 
 
@@ -47,36 +47,36 @@
 4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),200,3 Business Days,35.12
 4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),250,3 Business Days,146.70
 4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),500,3 Business Days,148.35
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),1,000,3 Business Days,151.70
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),2,000,3 Business Days,275.60
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),2,500,3 Business Days,391.50
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),3,000,3 Business Days,394.80
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),4,000,3 Business Days,513.20
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),5,000,3 Business Days,598.00
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),6,000,3 Business Days,679.80
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),7,000,3 Business Days,761.60
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),7,500,3 Business Days,839.25
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),8,000,3 Business Days,842.40
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),9,000,3 Business Days,924.30
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),10,000,3 Business Days,999.00
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),15,000,3 Business Days,1369.50
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),20,000,3 Business Days,1740.00
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),25,000,3 Business Days,2107.50
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),35,000,3 Business Days,2838.50
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),30,000,3 Business Days,2472.00
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),40,000,3 Business Days,3204.00
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),45,000,3 Business Days,3568.50
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),50,000,3 Business Days,3935.00
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),55,000,3 Business Days,4301.00
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),60,000,3 Business Days,4668.00
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),65,000,3 Business Days,5031.00
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),70,000,3 Business Days,5397.00
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),75,000,3 Business Days,5767.50
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),80,000,3 Business Days,6128.00
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),85,000,3 Business Days,6494.00
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),90,000,3 Business Days,6867.00
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),95,000,3 Business Days,7229.50
-4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),100,000,3 Business Days,7590.00
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),1000,3 Business Days,151.70
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),2000,3 Business Days,275.60
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),2500,3 Business Days,391.50
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),3000,3 Business Days,394.80
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),4000,3 Business Days,513.20
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),5000,3 Business Days,598.00
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),6000,3 Business Days,679.80
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),7000,3 Business Days,761.60
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),7500,3 Business Days,839.25
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),8000,3 Business Days,842.40
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),9000,3 Business Days,924.30
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),10000,3 Business Days,999.00
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),15000,3 Business Days,1369.50
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),20000,3 Business Days,1740.00
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),25000,3 Business Days,2107.50
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),35000,3 Business Days,2838.50
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),30000,3 Business Days,2472.00
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),40000,3 Business Days,3204.00
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),45000,3 Business Days,3568.50
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),50000,3 Business Days,3935.00
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),55000,3 Business Days,4301.00
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),60000,3 Business Days,4668.00
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),65000,3 Business Days,5031.00
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),70000,3 Business Days,5397.00
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),75000,3 Business Days,5767.50
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),80000,3 Business Days,6128.00
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),85000,3 Business Days,6494.00
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),90000,3 Business Days,6867.00
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),95000,3 Business Days,7229.50
+4.25" x 5.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),100000,3 Business Days,7590.00
 
 
 
@@ -88,36 +88,36 @@
 4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,200,3 Business Days,53.52
 4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,250,3 Business Days,169.48
 4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,500,3 Business Days,172.85
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,1,000,3 Business Days,179.50
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,2,000,3 Business Days,298.60
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,2,500,3 Business Days,410.00
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,3,000,3 Business Days,416.70
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,4,000,3 Business Days,528.40
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,5,000,3 Business Days,604.00
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,6,000,3 Business Days,677.40
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,7,000,3 Business Days,749.00
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,7,500,3 Business Days,813.75
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,8,000,3 Business Days,820.80
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,9,000,3 Business Days,892.80
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,10,000,3 Business Days,957.00
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,15,000,3 Business Days,1278.00
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,20,000,3 Business Days,1598.00
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,25,000,3 Business Days,1907.50
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,35,000,3 Business Days,2527.00
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,30,000,3 Business Days,2217.00
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,40,000,3 Business Days,2840.00
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,45,000,3 Business Days,3150.00
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,50,000,3 Business Days,3460.00
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,55,000,3 Business Days,3767.50
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,60,000,3 Business Days,4080.00
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,65,000,3 Business Days,4387.50
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,70,000,3 Business Days,4697.00
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,75,000,3 Business Days,5010.00
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,80,000,3 Business Days,5320.00
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,85,000,3 Business Days,5627.00
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,90,000,3 Business Days,5940.00
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,95,000,3 Business Days,6251.00
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,100,000,3 Business Days,6560.00
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,1000,3 Business Days,179.50
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,2000,3 Business Days,298.60
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,2500,3 Business Days,410.00
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,3000,3 Business Days,416.70
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,4000,3 Business Days,528.40
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,5000,3 Business Days,604.00
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,6000,3 Business Days,677.40
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,7000,3 Business Days,749.00
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,7500,3 Business Days,813.75
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,8000,3 Business Days,820.80
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,9000,3 Business Days,892.80
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,10000,3 Business Days,957.00
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,15000,3 Business Days,1278.00
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,20000,3 Business Days,1598.00
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,25000,3 Business Days,1907.50
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,35000,3 Business Days,2527.00
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,30000,3 Business Days,2217.00
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,40000,3 Business Days,2840.00
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,45000,3 Business Days,3150.00
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,50000,3 Business Days,3460.00
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,55000,3 Business Days,3767.50
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,60000,3 Business Days,4080.00
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,65000,3 Business Days,4387.50
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,70000,3 Business Days,4697.00
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,75000,3 Business Days,5010.00
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,80000,3 Business Days,5320.00
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,85000,3 Business Days,5627.00
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,90000,3 Business Days,5940.00
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,95000,3 Business Days,6251.00
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,100000,3 Business Days,6560.00
 
 
 
@@ -129,36 +129,36 @@
 4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),200,3 Business Days,53.52
 4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),250,3 Business Days,189.55
 4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),500,3 Business Days,192.90
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),1,000,3 Business Days,199.60
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),2,000,3 Business Days,338.60
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),2,500,3 Business Days,470.25
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),3,000,3 Business Days,477.00
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),4,000,3 Business Days,608.80
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),5,000,3 Business Days,704.50
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),6,000,3 Business Days,798.00
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),7,000,3 Business Days,889.70
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),7,500,3 Business Days,975.00
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),8,000,3 Business Days,981.60
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),9,000,3 Business Days,1072.80
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),10,000,3 Business Days,1158.00
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),15,000,3 Business Days,1579.50
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),20,000,3 Business Days,2000.00
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),25,000,3 Business Days,2410.00
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),35,000,3 Business Days,3230.50
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),30,000,3 Business Days,2820.00
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),40,000,3 Business Days,3640.00
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),45,000,3 Business Days,4050.00
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),50,000,3 Business Days,4460.00
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),55,000,3 Business Days,4873.00
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),60,000,3 Business Days,5286.00
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),65,000,3 Business Days,5694.00
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),70,000,3 Business Days,6104.00
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),75,000,3 Business Days,6517.50
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),80,000,3 Business Days,6928.00
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),85,000,3 Business Days,7335.50
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),90,000,3 Business Days,7749.00
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),95,000,3 Business Days,8160.50
-4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),100,000,3 Business Days,8560.00
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),1000,3 Business Days,199.60
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),2000,3 Business Days,338.60
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),2500,3 Business Days,470.25
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),3000,3 Business Days,477.00
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),4000,3 Business Days,608.80
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),5000,3 Business Days,704.50
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),6000,3 Business Days,798.00
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),7000,3 Business Days,889.70
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),7500,3 Business Days,975.00
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),8000,3 Business Days,981.60
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),9000,3 Business Days,1072.80
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),10000,3 Business Days,1158.00
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),15000,3 Business Days,1579.50
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),20000,3 Business Days,2000.00
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),25000,3 Business Days,2410.00
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),35000,3 Business Days,3230.50
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),30000,3 Business Days,2820.00
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),40000,3 Business Days,3640.00
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),45000,3 Business Days,4050.00
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),50000,3 Business Days,4460.00
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),55000,3 Business Days,4873.00
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),60000,3 Business Days,5286.00
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),65000,3 Business Days,5694.00
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),70000,3 Business Days,6104.00
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),75000,3 Business Days,6517.50
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),80000,3 Business Days,6928.00
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),85000,3 Business Days,7335.50
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),90000,3 Business Days,7749.00
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),95000,3 Business Days,8160.50
+4.25" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),100000,3 Business Days,8560.00
 
 
 
@@ -170,36 +170,36 @@
 5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,200,3 Business Days,53.52
 5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,250,3 Business Days,158.78
 5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,500,3 Business Days,162.10
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,1,000,3 Business Days,168.80
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,2,000,3 Business Days,287.80
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,2,500,3 Business Days,399.25
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,3,000,3 Business Days,405.90
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,4,000,3 Business Days,517.60
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,5,000,3 Business Days,593.50
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,6,000,3 Business Days,666.60
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,7,000,3 Business Days,738.50
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,7,500,3 Business Days,803.25
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,8,000,3 Business Days,810.40
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,9,000,3 Business Days,882.00
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,10,000,3 Business Days,947.00
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,15,000,3 Business Days,1267.50
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,20,000,3 Business Days,1586.00
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,25,000,3 Business Days,1897.50
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,35,000,3 Business Days,2516.50
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,30,000,3 Business Days,2208.00
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,40,000,3 Business Days,2828.00
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,45,000,3 Business Days,3136.50
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,50,000,3 Business Days,3450.00
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,55,000,3 Business Days,3756.50
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,60,000,3 Business Days,4068.00
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,65,000,3 Business Days,4381.00
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,70,000,3 Business Days,4690.00
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,75,000,3 Business Days,4995.00
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,80,000,3 Business Days,5312.00
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,85,000,3 Business Days,5618.50
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,90,000,3 Business Days,5931.00
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,95,000,3 Business Days,6241.50
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,100,000,3 Business Days,6550.00
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,1000,3 Business Days,168.80
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,2000,3 Business Days,287.80
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,2500,3 Business Days,399.25
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,3000,3 Business Days,405.90
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,4000,3 Business Days,517.60
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,5000,3 Business Days,593.50
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,6000,3 Business Days,666.60
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,7000,3 Business Days,738.50
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,7500,3 Business Days,803.25
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,8000,3 Business Days,810.40
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,9000,3 Business Days,882.00
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,10000,3 Business Days,947.00
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,15000,3 Business Days,1267.50
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,20000,3 Business Days,1586.00
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,25000,3 Business Days,1897.50
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,35000,3 Business Days,2516.50
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,30000,3 Business Days,2208.00
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,40000,3 Business Days,2828.00
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,45000,3 Business Days,3136.50
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,50000,3 Business Days,3450.00
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,55000,3 Business Days,3756.50
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,60000,3 Business Days,4068.00
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,65000,3 Business Days,4381.00
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,70000,3 Business Days,4690.00
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,75000,3 Business Days,4995.00
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,80000,3 Business Days,5312.00
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,85000,3 Business Days,5618.50
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,90000,3 Business Days,5931.00
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,95000,3 Business Days,6241.50
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,100000,3 Business Days,6550.00
 
 
 
@@ -211,36 +211,36 @@
 5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),200,3 Business Days,53.52
 5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),250,3 Business Days,178.85
 5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),500,3 Business Days,182.20
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),1,000,3 Business Days,188.90
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),2,000,3 Business Days,328.00
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),2,500,3 Business Days,459.50
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),3,000,3 Business Days,466.20
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),4,000,3 Business Days,598.00
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),5,000,3 Business Days,694.00
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),6,000,3 Business Days,787.20
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),7,000,3 Business Days,879.20
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),7,500,3 Business Days,963.75
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),8,000,3 Business Days,970.40
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),9,000,3 Business Days,1062.00
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),10,000,3 Business Days,1147.00
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),15,000,3 Business Days,1569.00
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),20,000,3 Business Days,1988.00
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),25,000,3 Business Days,2400.00
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),35,000,3 Business Days,3220.00
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),30,000,3 Business Days,2811.00
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),40,000,3 Business Days,3632.00
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),45,000,3 Business Days,4041.00
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),50,000,3 Business Days,4450.00
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),55,000,3 Business Days,4862.00
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),60,000,3 Business Days,5274.00
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),65,000,3 Business Days,5681.00
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),70,000,3 Business Days,6097.00
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),75,000,3 Business Days,6502.50
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),80,000,3 Business Days,6912.00
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),85,000,3 Business Days,7327.00
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),90,000,3 Business Days,7740.00
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),95,000,3 Business Days,8141.50
-5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),100,000,3 Business Days,8550.00
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),1000,3 Business Days,188.90
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),2000,3 Business Days,328.00
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),2500,3 Business Days,459.50
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),3000,3 Business Days,466.20
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),4000,3 Business Days,598.00
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),5000,3 Business Days,694.00
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),6000,3 Business Days,787.20
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),7000,3 Business Days,879.20
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),7500,3 Business Days,963.75
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),8000,3 Business Days,970.40
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),9000,3 Business Days,1062.00
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),10000,3 Business Days,1147.00
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),15000,3 Business Days,1569.00
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),20000,3 Business Days,1988.00
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),25000,3 Business Days,2400.00
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),35000,3 Business Days,3220.00
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),30000,3 Business Days,2811.00
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),40000,3 Business Days,3632.00
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),45000,3 Business Days,4041.00
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),50000,3 Business Days,4450.00
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),55000,3 Business Days,4862.00
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),60000,3 Business Days,5274.00
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),65000,3 Business Days,5681.00
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),70000,3 Business Days,6097.00
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),75000,3 Business Days,6502.50
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),80000,3 Business Days,6912.00
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),85000,3 Business Days,7327.00
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),90000,3 Business Days,7740.00
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),95000,3 Business Days,8141.50
+5.5" x 8.5",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),100000,3 Business Days,8550.00
 
 
 
@@ -252,36 +252,36 @@
 8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,200,3 Business Days,89.18
 8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,250,3 Business Days,198.68
 8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,500,3 Business Days,203.70
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,1,000,3 Business Days,213.70
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,2,000,3 Business Days,348.80
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,2,500,3 Business Days,469.25
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,3,000,3 Business Days,479.10
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,4,000,3 Business Days,606.40
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,5,000,3 Business Days,700.00
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,6,000,3 Business Days,784.20
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,7,000,3 Business Days,866.60
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,7,500,3 Business Days,938.25
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,8,000,3 Business Days,948.80
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,9,000,3 Business Days,1030.50
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,10,000,3 Business Days,1106.00
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,15,000,3 Business Days,1477.50
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,20,000,3 Business Days,1846.00
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,25,000,3 Business Days,2200.00
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,35,000,3 Business Days,2908.50
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,30,000,3 Business Days,2556.00
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,40,000,3 Business Days,3264.00
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,45,000,3 Business Days,3618.00
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,50,000,3 Business Days,3975.00
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,55,000,3 Business Days,4328.50
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,60,000,3 Business Days,4686.00
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,65,000,3 Business Days,5037.50
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,70,000,3 Business Days,5390.00
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,75,000,3 Business Days,5745.00
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,80,000,3 Business Days,6104.00
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,85,000,3 Business Days,6460.00
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,90,000,3 Business Days,6813.00
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,95,000,3 Business Days,7163.00
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,100,000,3 Business Days,7520.00
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,1000,3 Business Days,213.70
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,2000,3 Business Days,348.80
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,2500,3 Business Days,469.25
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,3000,3 Business Days,479.10
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,4000,3 Business Days,606.40
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,5000,3 Business Days,700.00
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,6000,3 Business Days,784.20
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,7000,3 Business Days,866.60
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,7500,3 Business Days,938.25
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,8000,3 Business Days,948.80
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,9000,3 Business Days,1030.50
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,10000,3 Business Days,1106.00
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,15000,3 Business Days,1477.50
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,20000,3 Business Days,1846.00
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,25000,3 Business Days,2200.00
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,35000,3 Business Days,2908.50
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,30000,3 Business Days,2556.00
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,40000,3 Business Days,3264.00
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,45000,3 Business Days,3618.00
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,50000,3 Business Days,3975.00
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,55000,3 Business Days,4328.50
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,60000,3 Business Days,4686.00
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,65000,3 Business Days,5037.50
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,70000,3 Business Days,5390.00
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,75000,3 Business Days,5745.00
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,80000,3 Business Days,6104.00
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,85000,3 Business Days,6460.00
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,90000,3 Business Days,6813.00
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,95000,3 Business Days,7163.00
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,100000,3 Business Days,7520.00
 
 
 
@@ -293,36 +293,36 @@
 8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),200,3 Business Days,89.18
 8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),250,3 Business Days,218.75
 8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),500,3 Business Days,223.75
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),1,000,3 Business Days,233.80
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),2,000,3 Business Days,388.80
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),2,500,3 Business Days,529.50
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),3,000,3 Business Days,539.40
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),4,000,3 Business Days,686.80
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),5,000,3 Business Days,800.50
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),6,000,3 Business Days,904.80
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),7,000,3 Business Days,1007.30
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),7,500,3 Business Days,1099.50
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),8,000,3 Business Days,1109.60
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),9,000,3 Business Days,1211.40
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),10,000,3 Business Days,1307.00
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),15,000,3 Business Days,1779.00
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),20,000,3 Business Days,2248.00
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),25,000,3 Business Days,2702.50
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),35,000,3 Business Days,3612.00
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),30,000,3 Business Days,3159.00
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),40,000,3 Business Days,4068.00
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),45,000,3 Business Days,4522.50
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),50,000,3 Business Days,4980.00
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),55,000,3 Business Days,5434.00
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),60,000,3 Business Days,5886.00
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),65,000,3 Business Days,6344.00
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),70,000,3 Business Days,6797.00
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),75,000,3 Business Days,7252.50
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),80,000,3 Business Days,7712.00
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),85,000,3 Business Days,8160.00
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),90,000,3 Business Days,8622.00
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),95,000,3 Business Days,9072.50
-8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),100,000,3 Business Days,9520.00
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),1000,3 Business Days,233.80
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),2000,3 Business Days,388.80
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),2500,3 Business Days,529.50
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),3000,3 Business Days,539.40
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),4000,3 Business Days,686.80
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),5000,3 Business Days,800.50
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),6000,3 Business Days,904.80
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),7000,3 Business Days,1007.30
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),7500,3 Business Days,1099.50
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),8000,3 Business Days,1109.60
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),9000,3 Business Days,1211.40
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),10000,3 Business Days,1307.00
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),15000,3 Business Days,1779.00
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),20000,3 Business Days,2248.00
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),25000,3 Business Days,2702.50
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),35000,3 Business Days,3612.00
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),30000,3 Business Days,3159.00
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),40000,3 Business Days,4068.00
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),45000,3 Business Days,4522.50
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),50000,3 Business Days,4980.00
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),55000,3 Business Days,5434.00
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),60000,3 Business Days,5886.00
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),65000,3 Business Days,6344.00
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),70000,3 Business Days,6797.00
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),75000,3 Business Days,7252.50
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),80000,3 Business Days,7712.00
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),85000,3 Business Days,8160.00
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),90000,3 Business Days,8622.00
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),95000,3 Business Days,9072.50
+8" x 9",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),100000,3 Business Days,9520.00
 
 
 
@@ -334,36 +334,36 @@
 8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,200,3 Business Days,102.56
 8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,250,3 Business Days,162.85
 8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,500,3 Business Days,201.45
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,1,000,3 Business Days,237.20
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,2,000,3 Business Days,386.80
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,2,500,3 Business Days,528.00
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,3,000,3 Business Days,541.50
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,4,000,3 Business Days,682.80
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,5,000,3 Business Days,789.50
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,6,000,3 Business Days,894.00
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,7,000,3 Business Days,992.60
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,7,500,3 Business Days,1073.25
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,8,000,3 Business Days,1087.20
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,9,000,3 Business Days,1181.70
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,10,000,3 Business Days,1269.00
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,15,000,3 Business Days,1699.50
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,20,000,3 Business Days,2124.00
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,25,000,3 Business Days,2532.50
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,35,000,3 Business Days,3346.00
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,30,000,3 Business Days,2940.00
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,40,000,3 Business Days,3756.00
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,45,000,3 Business Days,4162.50
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,50,000,3 Business Days,4570.00
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,55,000,3 Business Days,4977.50
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,60,000,3 Business Days,5382.00
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,65,000,3 Business Days,5791.50
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,70,000,3 Business Days,6195.00
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,75,000,3 Business Days,6607.50
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,80,000,3 Business Days,7016.00
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,85,000,3 Business Days,7420.50
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,90,000,3 Business Days,7830.00
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,95,000,3 Business Days,8236.50
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,100,000,3 Business Days,8640.00
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,1000,3 Business Days,237.20
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,2000,3 Business Days,386.80
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,2500,3 Business Days,528.00
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,3000,3 Business Days,541.50
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,4000,3 Business Days,682.80
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,5000,3 Business Days,789.50
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,6000,3 Business Days,894.00
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,7000,3 Business Days,992.60
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,7500,3 Business Days,1073.25
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,8000,3 Business Days,1087.20
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,9000,3 Business Days,1181.70
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,10000,3 Business Days,1269.00
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,15000,3 Business Days,1699.50
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,20000,3 Business Days,2124.00
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,25000,3 Business Days,2532.50
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,35000,3 Business Days,3346.00
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,30000,3 Business Days,2940.00
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,40000,3 Business Days,3756.00
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,45000,3 Business Days,4162.50
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,50000,3 Business Days,4570.00
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,55000,3 Business Days,4977.50
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,60000,3 Business Days,5382.00
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,65000,3 Business Days,5791.50
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,70000,3 Business Days,6195.00
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,75000,3 Business Days,6607.50
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,80000,3 Business Days,7016.00
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,85000,3 Business Days,7420.50
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,90000,3 Business Days,7830.00
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,95000,3 Business Days,8236.50
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,100000,3 Business Days,8640.00
 
 
 
@@ -375,36 +375,36 @@
 8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),200,3 Business Days,102.56
 8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),250,3 Business Days,177.93
 8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),500,3 Business Days,219.55
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),1,000,3 Business Days,257.30
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),2,000,3 Business Days,426.80
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),2,500,3 Business Days,589.50
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),3,000,3 Business Days,603.00
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),4,000,3 Business Days,764.80
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),5,000,3 Business Days,892.00
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),6,000,3 Business Days,1017.00
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),7,000,3 Business Days,1136.10
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),7,500,3 Business Days,1237.50
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),8,000,3 Business Days,1251.20
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),9,000,3 Business Days,1366.20
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),10,000,3 Business Days,1474.00
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),15,000,3 Business Days,2007.00
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),20,000,3 Business Days,2534.00
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),25,000,3 Business Days,3045.00
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),35,000,3 Business Days,4063.50
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),30,000,3 Business Days,3555.00
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),40,000,3 Business Days,4572.00
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),45,000,3 Business Days,5085.00
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),50,000,3 Business Days,5595.00
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),55,000,3 Business Days,6105.00
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),60,000,3 Business Days,6612.00
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),65,000,3 Business Days,7124.00
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),70,000,3 Business Days,7630.00
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),75,000,3 Business Days,8145.00
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),80,000,3 Business Days,8648.00
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),85,000,3 Business Days,9163.00
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),90,000,3 Business Days,9675.00
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),95,000,3 Business Days,10184.00
-8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),100,000,3 Business Days,10680.00
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),1000,3 Business Days,257.30
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),2000,3 Business Days,426.80
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),2500,3 Business Days,589.50
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),3000,3 Business Days,603.00
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),4000,3 Business Days,764.80
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),5000,3 Business Days,892.00
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),6000,3 Business Days,1017.00
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),7000,3 Business Days,1136.10
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),7500,3 Business Days,1237.50
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),8000,3 Business Days,1251.20
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),9000,3 Business Days,1366.20
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),10000,3 Business Days,1474.00
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),15000,3 Business Days,2007.00
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),20000,3 Business Days,2534.00
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),25000,3 Business Days,3045.00
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),35000,3 Business Days,4063.50
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),30000,3 Business Days,3555.00
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),40000,3 Business Days,4572.00
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),45000,3 Business Days,5085.00
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),50000,3 Business Days,5595.00
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),55000,3 Business Days,6105.00
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),60000,3 Business Days,6612.00
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),65000,3 Business Days,7124.00
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),70000,3 Business Days,7630.00
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),75000,3 Business Days,8145.00
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),80000,3 Business Days,8648.00
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),85000,3 Business Days,9163.00
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),90000,3 Business Days,9675.00
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),95000,3 Business Days,10184.00
+8.5" x 11",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),100000,3 Business Days,10680.00
 
 
 
@@ -416,36 +416,36 @@
 8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,200,3 Business Days,184.58
 8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,250,3 Business Days,201.63
 8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,500,3 Business Days,251.00
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,1,000,3 Business Days,299.00
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,2,000,3 Business Days,479.60
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,2,500,3 Business Days,646.25
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,3,000,3 Business Days,666.90
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,4,000,3 Business Days,832.80
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,5,000,3 Business Days,962.50
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,6,000,3 Business Days,1089.60
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,7,000,3 Business Days,1211.70
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,7,500,3 Business Days,1314.00
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,8,000,3 Business Days,1334.40
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,9,000,3 Business Days,1457.10
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,10,000,3 Business Days,1572.00
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,15,000,3 Business Days,2104.50
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,20,000,3 Business Days,2630.00
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,25,000,3 Business Days,3130.00
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,35,000,3 Business Days,4126.50
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,30,000,3 Business Days,3627.00
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,40,000,3 Business Days,4624.00
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,45,000,3 Business Days,5121.00
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,50,000,3 Business Days,5620.00
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,55,000,3 Business Days,6121.50
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,60,000,3 Business Days,6618.00
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,65,000,3 Business Days,7117.50
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,70,000,3 Business Days,7616.00
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,75,000,3 Business Days,8115.00
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,80,000,3 Business Days,8608.00
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,85,000,3 Business Days,9112.00
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,90,000,3 Business Days,9612.00
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,95,000,3 Business Days,10108.00
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,100,000,3 Business Days,10600.00
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,1000,3 Business Days,299.00
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,2000,3 Business Days,479.60
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,2500,3 Business Days,646.25
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,3000,3 Business Days,666.90
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,4000,3 Business Days,832.80
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,5000,3 Business Days,962.50
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,6000,3 Business Days,1089.60
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,7000,3 Business Days,1211.70
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,7500,3 Business Days,1314.00
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,8000,3 Business Days,1334.40
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,9000,3 Business Days,1457.10
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,10000,3 Business Days,1572.00
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,15000,3 Business Days,2104.50
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,20000,3 Business Days,2630.00
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,25000,3 Business Days,3130.00
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,35000,3 Business Days,4126.50
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,30000,3 Business Days,3627.00
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,40000,3 Business Days,4624.00
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,45000,3 Business Days,5121.00
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,50000,3 Business Days,5620.00
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,55000,3 Business Days,6121.50
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,60000,3 Business Days,6618.00
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,65000,3 Business Days,7117.50
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,70000,3 Business Days,7616.00
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,75000,3 Business Days,8115.00
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,80000,3 Business Days,8608.00
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,85000,3 Business Days,9112.00
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,90000,3 Business Days,9612.00
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,95000,3 Business Days,10108.00
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,100000,3 Business Days,10600.00
 
 
 
@@ -457,36 +457,36 @@
 8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),200,3 Business Days,184.58
 8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),250,3 Business Days,216.70
 8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),500,3 Business Days,269.05
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),1,000,3 Business Days,319.00
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),2,000,3 Business Days,519.80
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),2,500,3 Business Days,707.75
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),3,000,3 Business Days,728.10
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),4,000,3 Business Days,914.80
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),5,000,3 Business Days,1065.00
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),6,000,3 Business Days,1212.60
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),7,000,3 Business Days,1355.20
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),7,500,3 Business Days,1477.50
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),8,000,3 Business Days,1498.40
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),9,000,3 Business Days,1641.60
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),10,000,3 Business Days,1777.00
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),15,000,3 Business Days,2412.00
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),20,000,3 Business Days,3040.00
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),25,000,3 Business Days,3640.00
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),35,000,3 Business Days,4844.00
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),30,000,3 Business Days,4242.00
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),40,000,3 Business Days,5444.00
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),45,000,3 Business Days,6043.50
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),50,000,3 Business Days,6645.00
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),55,000,3 Business Days,7243.50
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),60,000,3 Business Days,7848.00
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),65,000,3 Business Days,8450.00
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),70,000,3 Business Days,9051.00
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),75,000,3 Business Days,9645.00
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),80,000,3 Business Days,10248.00
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),85,000,3 Business Days,10846.00
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),90,000,3 Business Days,11448.00
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),95,000,3 Business Days,12055.50
-8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),100,000,3 Business Days,12650.00
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),1000,3 Business Days,319.00
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),2000,3 Business Days,519.80
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),2500,3 Business Days,707.75
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),3000,3 Business Days,728.10
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),4000,3 Business Days,914.80
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),5000,3 Business Days,1065.00
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),6000,3 Business Days,1212.60
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),7000,3 Business Days,1355.20
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),7500,3 Business Days,1477.50
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),8000,3 Business Days,1498.40
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),9000,3 Business Days,1641.60
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),10000,3 Business Days,1777.00
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),15000,3 Business Days,2412.00
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),20000,3 Business Days,3040.00
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),25000,3 Business Days,3640.00
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),35000,3 Business Days,4844.00
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),30000,3 Business Days,4242.00
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),40000,3 Business Days,5444.00
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),45000,3 Business Days,6043.50
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),50000,3 Business Days,6645.00
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),55000,3 Business Days,7243.50
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),60000,3 Business Days,7848.00
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),65000,3 Business Days,8450.00
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),70000,3 Business Days,9051.00
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),75000,3 Business Days,9645.00
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),80000,3 Business Days,10248.00
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),85000,3 Business Days,10846.00
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),90000,3 Business Days,11448.00
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),95000,3 Business Days,12055.50
+8.5" x 14",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),100000,3 Business Days,12650.00
 
 
 
@@ -498,36 +498,36 @@
 9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,200,3 Business Days,160.50
 9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,250,3 Business Days,217.15
 9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,500,3 Business Days,223.85
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,1,000,3 Business Days,237.20
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,2,000,3 Business Days,386.80
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,2,500,3 Business Days,517.50
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,3,000,3 Business Days,531.00
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,4,000,3 Business Days,669.20
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,5,000,3 Business Days,774.00
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,6,000,3 Business Days,876.60
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,7,000,3 Business Days,973.00
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,7,500,3 Business Days,1052.25
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,8,000,3 Business Days,1065.60
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,9,000,3 Business Days,1158.30
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,10,000,3 Business Days,1244.00
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,15,000,3 Business Days,1666.50
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,20,000,3 Business Days,2084.00
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,25,000,3 Business Days,2482.50
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,35,000,3 Business Days,3279.50
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,30,000,3 Business Days,2883.00
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,40,000,3 Business Days,3680.00
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,45,000,3 Business Days,4081.50
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,50,000,3 Business Days,4480.00
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,55,000,3 Business Days,4878.50
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,60,000,3 Business Days,5280.00
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,65,000,3 Business Days,5674.50
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,70,000,3 Business Days,6076.00
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,75,000,3 Business Days,6472.50
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,80,000,3 Business Days,6872.00
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,85,000,3 Business Days,7276.00
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,90,000,3 Business Days,7677.00
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,95,000,3 Business Days,8075.00
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,100,000,3 Business Days,8470.00
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,1000,3 Business Days,237.20
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,2000,3 Business Days,386.80
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,2500,3 Business Days,517.50
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,3000,3 Business Days,531.00
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,4000,3 Business Days,669.20
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,5000,3 Business Days,774.00
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,6000,3 Business Days,876.60
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,7000,3 Business Days,973.00
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,7500,3 Business Days,1052.25
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,8000,3 Business Days,1065.60
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,9000,3 Business Days,1158.30
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,10000,3 Business Days,1244.00
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,15000,3 Business Days,1666.50
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,20000,3 Business Days,2084.00
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,25000,3 Business Days,2482.50
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,35000,3 Business Days,3279.50
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,30000,3 Business Days,2883.00
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,40000,3 Business Days,3680.00
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,45000,3 Business Days,4081.50
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,50000,3 Business Days,4480.00
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,55000,3 Business Days,4878.50
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,60000,3 Business Days,5280.00
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,65000,3 Business Days,5674.50
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,70000,3 Business Days,6076.00
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,75000,3 Business Days,6472.50
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,80000,3 Business Days,6872.00
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,85000,3 Business Days,7276.00
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,90000,3 Business Days,7677.00
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,95000,3 Business Days,8075.00
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,100000,3 Business Days,8470.00
 
 
 
@@ -539,36 +539,36 @@
 9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),200,3 Business Days,160.50
 9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),250,3 Business Days,237.23
 9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),500,3 Business Days,243.90
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),1,000,3 Business Days,257.30
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),2,000,3 Business Days,426.80
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),2,500,3 Business Days,577.75
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),3,000,3 Business Days,591.30
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),4,000,3 Business Days,749.60
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),5,000,3 Business Days,874.50
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),6,000,3 Business Days,996.60
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),7,000,3 Business Days,1113.70
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),7,500,3 Business Days,1212.75
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),8,000,3 Business Days,1226.40
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),9,000,3 Business Days,1339.20
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),10,000,3 Business Days,1445.00
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),15,000,3 Business Days,1966.50
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),20,000,3 Business Days,2484.00
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),25,000,3 Business Days,2985.00
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),35,000,3 Business Days,3983.00
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),30,000,3 Business Days,3483.00
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),40,000,3 Business Days,4484.00
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),45,000,3 Business Days,4981.50
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),50,000,3 Business Days,5485.00
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),55,000,3 Business Days,5984.00
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),60,000,3 Business Days,6480.00
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),65,000,3 Business Days,6981.00
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),70,000,3 Business Days,7483.00
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),75,000,3 Business Days,7980.00
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),80,000,3 Business Days,8480.00
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),85,000,3 Business Days,8984.50
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),90,000,3 Business Days,9477.00
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),95,000,3 Business Days,9984.50
-9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),100,000,3 Business Days,10470.00
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),1000,3 Business Days,257.30
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),2000,3 Business Days,426.80
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),2500,3 Business Days,577.75
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),3000,3 Business Days,591.30
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),4000,3 Business Days,749.60
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),5000,3 Business Days,874.50
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),6000,3 Business Days,996.60
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),7000,3 Business Days,1113.70
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),7500,3 Business Days,1212.75
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),8000,3 Business Days,1226.40
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),9000,3 Business Days,1339.20
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),10000,3 Business Days,1445.00
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),15000,3 Business Days,1966.50
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),20000,3 Business Days,2484.00
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),25000,3 Business Days,2985.00
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),35000,3 Business Days,3983.00
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),30000,3 Business Days,3483.00
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),40000,3 Business Days,4484.00
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),45000,3 Business Days,4981.50
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),50000,3 Business Days,5485.00
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),55000,3 Business Days,5984.00
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),60000,3 Business Days,6480.00
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),65000,3 Business Days,6981.00
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),70000,3 Business Days,7483.00
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),75000,3 Business Days,7980.00
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),80000,3 Business Days,8480.00
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),85000,3 Business Days,8984.50
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),90000,3 Business Days,9477.00
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),95000,3 Business Days,9984.50
+9" x 12",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),100000,3 Business Days,10470.00
 
 
 
@@ -580,36 +580,36 @@
 11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,200,3 Business Days,184.58
 11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,250,3 Business Days,266.70
 11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,500,3 Business Days,325.30
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,1,000,3 Business Days,391.50
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,2,000,3 Business Days,615.80
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,2,500,3 Business Days,815.75
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,3,000,3 Business Days,846.60
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,4,000,3 Business Days,1051.20
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,5,000,3 Business Days,1222.00
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,6,000,3 Business Days,1383.00
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,7,000,3 Business Days,1537.20
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,7,500,3 Business Days,1661.25
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,8,000,3 Business Days,1692.00
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,9,000,3 Business Days,1845.90
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,10,000,3 Business Days,1993.00
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,15,000,3 Business Days,2713.50
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,20,000,3 Business Days,3390.00
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,25,000,3 Business Days,4025.00
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,35,000,3 Business Days,5295.50
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,30,000,3 Business Days,4659.00
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,40,000,3 Business Days,5928.00
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,45,000,3 Business Days,6565.50
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,50,000,3 Business Days,7200.00
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,55,000,3 Business Days,7832.00
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,60,000,3 Business Days,8466.00
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,65,000,3 Business Days,9106.50
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,70,000,3 Business Days,9737.00
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,75,000,3 Business Days,10372.50
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,80,000,3 Business Days,11008.00
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,85,000,3 Business Days,11645.00
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,90,000,3 Business Days,12276.00
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,95,000,3 Business Days,12910.50
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,100,000,3 Business Days,13550.00
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,1000,3 Business Days,391.50
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,2000,3 Business Days,615.80
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,2500,3 Business Days,815.75
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,3000,3 Business Days,846.60
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,4000,3 Business Days,1051.20
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,5000,3 Business Days,1222.00
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,6000,3 Business Days,1383.00
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,7000,3 Business Days,1537.20
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,7500,3 Business Days,1661.25
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,8000,3 Business Days,1692.00
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,9000,3 Business Days,1845.90
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,10000,3 Business Days,1993.00
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,15000,3 Business Days,2713.50
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,20000,3 Business Days,3390.00
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,25000,3 Business Days,4025.00
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,35000,3 Business Days,5295.50
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,30000,3 Business Days,4659.00
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,40000,3 Business Days,5928.00
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,45000,3 Business Days,6565.50
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,50000,3 Business Days,7200.00
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,55000,3 Business Days,7832.00
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,60000,3 Business Days,8466.00
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,65000,3 Business Days,9106.50
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,70000,3 Business Days,9737.00
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,75000,3 Business Days,10372.50
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,80000,3 Business Days,11008.00
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,85000,3 Business Days,11645.00
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,90000,3 Business Days,12276.00
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,95000,3 Business Days,12910.50
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,1 tab,100000,3 Business Days,13550.00
 
 
 
@@ -621,106 +621,106 @@
 11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),200,3 Business Days,184.58
 11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),250,3 Business Days,282.15
 11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),500,3 Business Days,343.35
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),1,000,3 Business Days,411.60
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),2,000,3 Business Days,656.00
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),2,500,3 Business Days,877.25
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),3,000,3 Business Days,908.10
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),4,000,3 Business Days,1133.20
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),5,000,3 Business Days,1324.50
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),6,000,3 Business Days,1506.00
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),7,000,3 Business Days,1680.70
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),7,500,3 Business Days,1824.75
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),8,000,3 Business Days,1855.20
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),9,000,3 Business Days,2030.40
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),10,000,3 Business Days,2198.00
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),15,000,3 Business Days,3021.00
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),20,000,3 Business Days,3800.00
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),25,000,3 Business Days,4537.50
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),35,000,3 Business Days,6009.50
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),30,000,3 Business Days,5274.00
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),40,000,3 Business Days,6748.00
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),45,000,3 Business Days,7483.50
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),50,000,3 Business Days,8225.00
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),55,000,3 Business Days,8959.50
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),60,000,3 Business Days,9696.00
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),65,000,3 Business Days,10432.50
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),70,000,3 Business Days,11172.00
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),75,000,3 Business Days,11910.00
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),80,000,3 Business Days,12648.00
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),85,000,3 Business Days,13387.50
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),90,000,3 Business Days,14121.00
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),95,000,3 Business Days,14858.00
-11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),100,000,3 Business Days,15590.00
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),1000,3 Business Days,411.60
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),2000,3 Business Days,656.00
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),2500,3 Business Days,877.25
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),3000,3 Business Days,908.10
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),4000,3 Business Days,1133.20
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),5000,3 Business Days,1324.50
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),6000,3 Business Days,1506.00
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),7000,3 Business Days,1680.70
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),7500,3 Business Days,1824.75
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),8000,3 Business Days,1855.20
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),9000,3 Business Days,2030.40
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),10000,3 Business Days,2198.00
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),15000,3 Business Days,3021.00
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),20000,3 Business Days,3800.00
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),25000,3 Business Days,4537.50
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),35000,3 Business Days,6009.50
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),30000,3 Business Days,5274.00
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),40000,3 Business Days,6748.00
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),45000,3 Business Days,7483.50
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),50000,3 Business Days,8225.00
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),55000,3 Business Days,8959.50
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),60000,3 Business Days,9696.00
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),65000,3 Business Days,10432.50
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),70000,3 Business Days,11172.00
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),75000,3 Business Days,11910.00
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),80000,3 Business Days,12648.00
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),85000,3 Business Days,13387.50
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),90000,3 Business Days,14121.00
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),95000,3 Business Days,14858.00
+11" x 17",100 lb. Paper Gloss,Half Fold,Outside Only,None,2 tabs (required for mailing),100000,3 Business Days,15590.00
 
 
 
 11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,250,3 Business Days,399.83
 11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,500,3 Business Days,441.05
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,1,000,3 Business Days,494.80
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,2,000,3 Business Days,755.80
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,2,500,3 Business Days,986.50
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,3,000,3 Business Days,1027.20
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,4,000,3 Business Days,1263.60
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,5,000,3 Business Days,1466.50
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,6,000,3 Business Days,1666.80
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,7,000,3 Business Days,1855.70
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,7,500,3 Business Days,1999.50
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,8,000,3 Business Days,2040.00
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,9,000,3 Business Days,2223.90
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,10,000,3 Business Days,2402.00
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,15,000,3 Business Days,3267.00
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,20,000,3 Business Days,4118.00
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,25,000,3 Business Days,4882.50
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,35,000,3 Business Days,6408.50
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,30,000,3 Business Days,5646.00
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,40,000,3 Business Days,7176.00
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,45,000,3 Business Days,7938.00
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,50,000,3 Business Days,8700.00
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,55,000,3 Business Days,9465.50
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,60,000,3 Business Days,10230.00
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,65,000,3 Business Days,10991.50
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,70,000,3 Business Days,11760.00
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,75,000,3 Business Days,12517.50
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,80,000,3 Business Days,13288.00
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,85,000,3 Business Days,14050.50
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,90,000,3 Business Days,14814.00
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,95,000,3 Business Days,15580.00
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,100,000,3 Business Days,16340.00
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,1000,3 Business Days,494.80
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,2000,3 Business Days,755.80
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,2500,3 Business Days,986.50
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,3000,3 Business Days,1027.20
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,4000,3 Business Days,1263.60
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,5000,3 Business Days,1466.50
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,6000,3 Business Days,1666.80
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,7000,3 Business Days,1855.70
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,7500,3 Business Days,1999.50
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,8000,3 Business Days,2040.00
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,9000,3 Business Days,2223.90
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,10000,3 Business Days,2402.00
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,15000,3 Business Days,3267.00
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,20000,3 Business Days,4118.00
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,25000,3 Business Days,4882.50
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,35000,3 Business Days,6408.50
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,30000,3 Business Days,5646.00
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,40000,3 Business Days,7176.00
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,45000,3 Business Days,7938.00
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,50000,3 Business Days,8700.00
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,55000,3 Business Days,9465.50
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,60000,3 Business Days,10230.00
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,65000,3 Business Days,10991.50
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,70000,3 Business Days,11760.00
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,75000,3 Business Days,12517.50
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,80000,3 Business Days,13288.00
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,85000,3 Business Days,14050.50
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,90000,3 Business Days,14814.00
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,95000,3 Business Days,15580.00
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,1 tab,100000,3 Business Days,16340.00
 
 
 
 11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),250,3 Business Days,418.30
 11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),500,3 Business Days,460.50
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),1,000,3 Business Days,514.90
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),2,000,3 Business Days,796.00
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),2,500,3 Business Days,1047.25
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),3,000,3 Business Days,1087.80
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),4,000,3 Business Days,1344.80
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),5,000,3 Business Days,1568.00
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),6,000,3 Business Days,1788.00
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),7,000,3 Business Days,1997.10
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),7,500,3 Business Days,2161.50
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),8,000,3 Business Days,2201.60
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),9,000,3 Business Days,2406.60
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),10,000,3 Business Days,2604.00
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),15,000,3 Business Days,3571.50
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),20,000,3 Business Days,4524.00
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),25,000,3 Business Days,5390.00
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),35,000,3 Business Days,7119.00
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),30,000,3 Business Days,6255.00
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),40,000,3 Business Days,7984.00
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),45,000,3 Business Days,8851.50
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),50,000,3 Business Days,9715.00
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),55,000,3 Business Days,10582.00
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),60,000,3 Business Days,11448.00
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),65,000,3 Business Days,12311.00
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),70,000,3 Business Days,13174.00
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),75,000,3 Business Days,14040.00
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),80,000,3 Business Days,14904.00
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),85,000,3 Business Days,15776.00
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),90,000,3 Business Days,16641.00
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),95,000,3 Business Days,17499.00
-11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),100,000,3 Business Days,18360.00
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),1000,3 Business Days,514.90
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),2000,3 Business Days,796.00
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),2500,3 Business Days,1047.25
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),3000,3 Business Days,1087.80
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),4000,3 Business Days,1344.80
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),5000,3 Business Days,1568.00
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),6000,3 Business Days,1788.00
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),7000,3 Business Days,1997.10
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),7500,3 Business Days,2161.50
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),8000,3 Business Days,2201.60
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),9000,3 Business Days,2406.60
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),10000,3 Business Days,2604.00
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),15000,3 Business Days,3571.50
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),20000,3 Business Days,4524.00
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),25000,3 Business Days,5390.00
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),35000,3 Business Days,7119.00
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),30000,3 Business Days,6255.00
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),40000,3 Business Days,7984.00
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),45000,3 Business Days,8851.50
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),50000,3 Business Days,9715.00
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),55000,3 Business Days,10582.00
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),60000,3 Business Days,11448.00
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),65000,3 Business Days,12311.00
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),70000,3 Business Days,13174.00
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),75000,3 Business Days,14040.00
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),80000,3 Business Days,14904.00
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),85000,3 Business Days,15776.00
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),90000,3 Business Days,16641.00
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),95000,3 Business Days,17499.00
+11" x 25.5",100 lb. Paper Gloss,Trifold/Letter Fold,Outside Only,None,2 tabs (required for mailing),100000,3 Business Days,18360.00
 
 
 
