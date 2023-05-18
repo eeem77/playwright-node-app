@@ -136,7 +136,7 @@ const changeThreeOptions = async (page, form, button, option, buttonTwo, optionT
                 break
         }
     }
-    await writeListTotal(form)
+    //await writeListTotal(form)
 }
 
 const bindingElementsOptions = async (page, form, option) => {
@@ -169,13 +169,19 @@ const web = async () => {
     //     }
     // }
     //await changeOneOptions(page, form, 4, 1)
-    for (let i = 10; i <= 11; i++){
-        for( let a = 1; a <= 2; a++){
-            await changeTwoOptions(page, form, 0, i, 6, a)
-            await changeOptions(page, form, 5)
-            fs.appendFileSync(`list.txt`, '\n\n\n')
-        }
+    //const sizes = [8,9,10,11]
+    for (let i = 11; i <= 11; i++){
+        await changeThreeOptions(page, form, 0, i, 2, 1, 3, 1)
+        await changeOptions(page, form, 5)
+        fs.appendFileSync(`list.txt`, '\n\n\n')
     }
+    // for (let i = 10; i <= 11; i++){
+    //     for( let a = 1; a <= 2; a++){
+    //         await changeTwoOptions(page, form, 0, i, 6, a)
+    //         await changeOptions(page, form, 5)
+    //         fs.appendFileSync(`list.txt`, '\n\n\n')
+    //     }
+    // }
     
  
     console.log('END')
