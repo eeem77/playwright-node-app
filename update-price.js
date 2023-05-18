@@ -55,7 +55,7 @@ const login = async (page) => {
     await page.waitForTimeout(5000)
     console.log('login: OK')
 }
-// txtprice[100_1971221_]
+// txtprice[100_1971221_] txtprice[100_1971221_9603282]
 const inputFillToPrice = async (page) => {
     await page.goto(urlProductUpdatePrice)
     let price = 0
