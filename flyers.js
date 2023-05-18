@@ -155,19 +155,23 @@ const searchLen = async (page, form, option) => {
 const web = async () => {
     const browser = await chromium.launch()
     const page = await browser.newPage()
-    await page.goto('https://www.uprinting.com/business-flyers-printing.html?aind=prod_up_products&aqid=7bf96f9d338305ea57e1b805dd59a128&aoid=f331c17e6a882f29f01fad7e1f17782493060fd80603ce009d25930af8722460&apos=1&aut=87a96bd2-f4e3-11ed-be23-0242ac110002-1684349358&asrc=results_page&akywd=Flyers&stype=algolia&mdl=products')
+    await page.goto('https://www.uprinting.com/business-flyers-printing.html?aind=prod_up_products&aqid=7bf96f9d338305ea57e1b805dd59a128&aoid=f331c17e6a882f29f01fad7e1f17782493060fd80603ce009d25930af8722460&apos=1&aut=87a96bd2-f4e3-11ed-be23-0242ac110002-1684349358&asrc=results_page&akywd=Flyers&stype=algolia&mdl=products', {timeout:90000})
     const form = await page.$('#product_calculator_form')
     
     
-    for (let index = 10; index <= 10; index++) {
-        await changeOneOptions(page, form, 2, index)
-        let size = await searchLen(page, form, 0)
-        for (let i = 0; i < size - 1; i++){
-            await changeOneOptions(page, form, 0, i)
-            await changeOptions(page, form, 5)
-            fs.appendFileSync(`list.txt`, '\n\n\n')
-        }
-    }
+    // for (let index = 10; index <= 10; index++) {
+    //     await changeOneOptions(page, form, 2, index)
+    //     let size = await searchLen(page, form, 0)
+    //     for (let i = 0; i < size - 1; i++){
+    //         await changeOneOptions(page, form, 0, i)
+    //         await changeOptions(page, form, 5)
+    //         fs.appendFileSync(`list.txt`, '\n\n\n')
+    //     }
+    // }
+
+    await changeTwoOptions(page, form, 0, 11, 2, 10)
+    await changeOptions(page, form, 5)
+    fs.appendFileSync(`list.txt`, '\n\n\n')
     
  
     console.log('END')
