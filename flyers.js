@@ -61,9 +61,9 @@ const openList = async (form, button) => {
 
 const changeOptions = async (page, form, button) => {
     const menuBtn = await openList(form, button)
-    for (let i = 0; i < menuBtn.length; i++){
+    for (let i = 3; i < menuBtn.length; i++){
         switch (i) {
-            case 0:
+            case 3:
                 await menuBtn[i].click()
                 await form.waitForSelector('.ng-binding.subtotal-price', { state: 'attached' })
                 //await page.waitForTimeout(5000)
@@ -83,22 +83,28 @@ const changeOptions = async (page, form, button) => {
 const changeOneOptions = async (page, form, button, option) => {
     const menuBtn = await openList(form, button)
     await menuBtn[option].click()
-    await page.waitForTimeout(5000)
+    await form.waitForSelector('.ng-binding.subtotal-price', { state: 'attached' })
+    //await page.waitForTimeout(5000)
 }
 
 const changeTwoOptions = async (page, form, button, option, buttonTwo, optionTwo) => {
-    
+    if(option === undefined || optionTwo === undefined){
+        option = 0
+        optionTwo = 0
+    }
     for (let i = 0; i < 2; i++){
         switch (i) {
             case 0:
                 const menuBtn = await openList(form, button)
                 await menuBtn[option].click()
-                await page.waitForTimeout(5000)
+                await form.waitForSelector('.ng-binding.subtotal-price', { state: 'attached' })
+                //await page.waitForTimeout(5000)
             break;
             case 1:
                 const menuBtnElse = await openList(form, buttonTwo)
                 await menuBtnElse[optionTwo].click()
-                await page.waitForTimeout(5000)
+                await form.waitForSelector('.ng-binding.subtotal-price', { state: 'attached' })
+                //await page.waitForTimeout(5000)
             break;
         }
     }
@@ -142,12 +148,17 @@ const bindingElementsOptions = async (page, form, option) => {
 const web = async () => {
     const browser = await chromium.launch()
     const page = await browser.newPage()
-    await page.goto('https://www.uprinting.com/brochure-printing.html')
+    await page.goto('https://www.uprinting.com/business-flyers-printing.html?aind=prod_up_products&aqid=7bf96f9d338305ea57e1b805dd59a128&aoid=f331c17e6a882f29f01fad7e1f17782493060fd80603ce009d25930af8722460&apos=1&aut=87a96bd2-f4e3-11ed-be23-0242ac110002-1684349358&asrc=results_page&akywd=Flyers&stype=algolia&mdl=products')
     const form = await page.$('#product_calculator_form')
 
-    await changeThreeOptions(page, form, 0, 8, 2, 2, 3, 1)
-    await changeOptions(page, form, 6)
-    fs.appendFileSync(`list.txt`, '\n\n\n')
+    for (let index = 8; index <= 11; index++) {
+        for (let i = 0; i <= 7; i++){
+            await changeTwoOptions(page, form, 0, index, 1, i)
+            await changeOptions(page, form, 5)
+            fs.appendFileSync(`list.txt`, '\n\n\n')
+        }
+    }
+    
  
     console.log('END')
     await browser.close()
