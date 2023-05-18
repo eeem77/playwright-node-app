@@ -168,9 +168,10 @@ const web = async () => {
     //         fs.appendFileSync(`list.txt`, '\n\n\n')
     //     }
     // }
-    for (let i = 7; i <= 11; i++){
-        await changeTwoOptions(page, form, 0, i, 3, 1)
-        await changeOptions(page, form, 5)
+    await changeOneOptions(page, form, 4, 1)
+    for (let i = 0; i <= 11; i++){
+        await changeOneOptions(page, form, 0, i)
+        await changeOptions(page, form, 6)
         fs.appendFileSync(`list.txt`, '\n\n\n')
     }
     
