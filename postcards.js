@@ -166,9 +166,12 @@ const web = async () => {
     // }
     //await changeOneOptions(page, form, 4, 1)
     //const sizes = [8,9,10,11]
-    for (let i = 0; i <= 8; i++){
-        await changeOneOptions(page, form, 0, i)
+    const paper = await searchLen(page, form, 1)
+    await changeOneOptions(page, form, 5, 0)
+    for(let a = 0; a < paper; a++){
+        await changeTwoOptions(page, form, 0, 8, 1, a)
         await changeOptions(page, form, 5)
+        await changeOneOptions(page, form, 5, 0)
         fs.appendFileSync(`list.txt`, '\n\n\n')
     }
     // for (let i = 10; i <= 11; i++){
