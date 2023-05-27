@@ -63,19 +63,19 @@ const changeOptions = async (page, form, button) => {
     const menuBtn = await openList(form, button)
     for (let i = 0; i < menuBtn.length; i++){
         switch (i) {
-            // case 0:
-            // break
-            // case 1:
-            // break
-            // case 1:
-            // break
+            case 0:
+            break
+            case 1:
+            break
+            case 2:
+            break
             // case 3:
             // break
             // case 4:
             // break
             // case 5:
             // break
-            case 0:
+            case 3:
                 await menuBtn[i].click()
                 await form.waitForSelector('.ng-binding.subtotal-price', { state: 'attached' })
                 //await page.waitForTimeout(5000)
@@ -182,14 +182,14 @@ const web = async () => {
     // await changeOneOptions(page, form, 5, 6)
     // const service = await form.$('.checkbox-icon-override')
     // await service.click()
-    for(let i = 6; i <= 8; i++){
-        for(let a = 1; a <= 2; a++){
-            await changeTwoOptions(page, form, 0, i, 6, a)
-            await changeOptions(page, form, 5)
-            await changeOneOptions(page, form, 5, 0)
+    //for(let i = 6; i <= 8; i++){
+        for(let a = 3; a <= 3; a++){
+            await changeTwoOptions(page, form, 0, a, 4, 1)
+            await changeOptions(page, form, 6)
+            //await changeOneOptions(page, form, 5, 0)
             fs.appendFileSync(`list.txt`, '\n\n\n')
         }
-    }
+    //}
     // for (let i = 10; i <= 11; i++){
     //     for( let a = 1; a <= 2; a++){
     //         await changeTwoOptions(page, form, 0, i, 6, a)
