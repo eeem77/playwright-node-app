@@ -198,7 +198,7 @@ const web = async () => {
     // console.log(options)
     const options = await searchLen(form, 1)
     
-    await changeOneOptions(form, 0, 5) //size
+    await changeOneOptions(form, 0, 6) //size
     //console.log(options)
     for (let i = 1; i < options; i++) {
         await changeOneOptions(form, 1, i)
