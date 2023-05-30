@@ -33,17 +33,19 @@ const formBase = async (page, form) => {
 // }
 
 const writeList = async (form) => {
-    const buttonsLabel = await form.$$eval('button.btn.dropdown-toggle.val-wrap', node => node.map(n => n.innerText))
-    const price = await form.$eval('.ng-binding.subtotal-price', node => node.innerText)
+    const buttonsLabel = await form.$$eval('.btn.dropdown-toggle.btn-dropdown', node => node.map(n => n.innerText))
+    const qty = await form.$('#prdqty')
+    const price = await form.$eval('#disp_product_price', node => node.innerText)
     const priceSubtotal = await price.replace(',', '')
     const priceTotal = await priceSubtotal.replace('$', '')
+    await buttonsLabel.push(await qty.inputValue())
     await buttonsLabel.push(priceTotal)
     fs.appendFileSync(`list.txt`, buttonsLabel.toString() + '\n')
 }
 
 const writeListTotal = async (form) => {
     const buttonsLabel = await form.$$eval('button.btn.dropdown-toggle.val-wrap', node => node.map(n => n.innerText))
-    const price = await form.$eval('.ng-binding.subtotal-price', node => node.innerText)
+    const price = await form.$eval('.div_calculator.ld-over.running', node => node.innerText)
     const priceSubtotal = await price.replace(',', '')
     const priceTotal = await priceSubtotal.replace('$', '')
     await buttonsLabel.push(priceTotal)
@@ -51,10 +53,10 @@ const writeListTotal = async (form) => {
 }
 
 const openList = async (form, button) => {
-    const buttons = await form.$$('button.btn.dropdown-toggle')
+    const buttons = await form.$$('.btn.dropdown-toggle.btn-dropdown')
     await buttons[button].click()
-    const menu = await form.$('div.site-dropdown.dropdown.expanded')
-    const menuBtn = await menu.$$('a.val-wrap.ng-scope')
+    const menu = await form.$('.dropdown-menu.inner.show')
+    const menuBtn = await menu.$$('a.dropdown-item')
     console.log('Working');
     return menuBtn
 }
@@ -77,14 +79,14 @@ const changeOptions = async (page, form, button) => {
             // break
             case 3:
                 await menuBtn[i].click()
-                await form.waitForSelector('.ng-binding.subtotal-price', { state: 'attached' })
+                await form.waitForSelector('.div_calculator.ld-over.running', { state: 'detached' })
                 //await page.waitForTimeout(5000)
                 await writeList(form)
             break          
             default:
                 const menuBtnDefault= await openList(form, button)
                 await menuBtnDefault[i].click()
-                await form.waitForSelector('.ng-binding.subtotal-price', { state: 'attached' })
+                await form.waitForSelector('.div_calculator.ld-over.running', { state: 'detached' })
                 //await page.waitForTimeout(5000)
                 await writeList(form)
             break
@@ -92,10 +94,10 @@ const changeOptions = async (page, form, button) => {
     }
 }
 
-const changeOneOptions = async (page, form, button, option) => {
+const changeOneOptions = async (form, button, option) => {
     const menuBtn = await openList(form, button)
     await menuBtn[option].click()
-    await form.waitForSelector('.ng-binding.subtotal-price', { state: 'attached' })
+    await form.waitForSelector('.div_calculator.ld-over.running', { state: 'detached' })
     //await page.waitForTimeout(5000)
 }
 
@@ -105,13 +107,13 @@ const changeTwoOptions = async (page, form, button, option, buttonTwo, optionTwo
             case 0:
                 const menuBtn = await openList(form, button)
                 await menuBtn[option].click()
-                await form.waitForSelector('.ng-binding.subtotal-price', { state: 'attached' })
+                await form.waitForSelector('.div_calculator.ld-over.running', { state: 'detached' })
                 //await page.waitForTimeout(5000)
             break;
             case 1:
                 const menuBtnElse = await openList(form, buttonTwo)
                 await menuBtnElse[optionTwo].click()
-                await form.waitForSelector('.ng-binding.subtotal-price', { state: 'attached' })
+                await form.waitForSelector('.div_calculator.ld-over.running', { state: 'detached' })
                 //await page.waitForTimeout(5000)
             break;
         }
@@ -127,19 +129,19 @@ const changeThreeOptions = async (page, form, button, option, buttonTwo, optionT
             case 0:
                 const menuBtn = await openList(form, button)
                 await menuBtn[option].click()
-                await form.waitForSelector('.ng-binding.subtotal-price', { state: 'attached' })
+                await form.waitForSelector('.div_calculator.ld-over.running', { state: 'detached' })
                 //await page.waitForTimeout(5000)
                 break
             case 1:
                 const menuBtnTwo = await openList(form, buttonTwo)
                 await menuBtnTwo[optionTwo].click()
-                await form.waitForSelector('.ng-binding.subtotal-price', { state: 'attached' })
+                await form.waitForSelector('.div_calculator.ld-over.running', { state: 'detached' })
                 //await page.waitForTimeout(5000)
                 break
             case 2:
                 const menuBtnThree = await openList(form, buttonThree)
                 await menuBtnThree[optionThree].click()
-                await form.waitForSelector('.ng-binding.subtotal-price', { state: 'attached' })
+                await form.waitForSelector('.div_calculator.ld-over.running', { state: 'detached' })
                 //await page.waitForTimeout(5000)
                 break
         }
@@ -153,51 +155,59 @@ const bindingElementsOptions = async (page, form, option) => {
     await page.waitForTimeout(5000)
 }
 
-const searchLen = async (page, form, option) => {
+const searchLen = async (form, option) => {
     const menuBtn = await openList(form, option)
     await menuBtn[0].click()
-    await form.waitForSelector('.ng-binding.subtotal-price', { state: 'attached' })
+    await form.waitForSelector('.div_calculator.ld-over.running', { state: 'detached' })
     return menuBtn.length
 }
+
+const quantitys = [
+    100,
+    200,
+    300,
+    400,
+    500,
+    1000,
+    2000,
+    3000,
+    4000,
+    5000,
+    6000,
+    7000,
+    8000,
+    9000,
+    10000,
+    20000,
+    30000,
+    40000,
+    50000,
+    60000,
+    70000,
+    80000,
+    90000,
+    100000,
+]
 
 const web = async () => {
     const browser = await chromium.launch()
     const page = await browser.newPage()
-    await page.goto('https://www.uprinting.com/standard-postcard-printing.html?aind=prod_up_products&aqid=f671b45b0c490500b647a1c717c1b93e&aoid=eb7880b560987090e1d8b381587f02a6740bfe43a9825fadd7626c89ecaeb880&apos=1&aut=3c3b1ac8-f8d6-11ed-8d65-0242ac110002-1684783453&asrc=lookahead&akywd=posca&stype=algolia&mdl=products', {timeout:150000})
-    const form = await page.$('#product_calculator_form')
+    await page.goto('https://www.rivalbranding.com/rectangle-roll-labels-stock-sizes/', {timeout:150000})
+    const form = await page.$('#price_calculator')
     
-    
-    // for (let index = 10; index <= 10; index++) {
-    //     await changeOneOptions(page, form, 2, index)
-    //     let size = await searchLen(page, form, 0)
-    //     for (let i = 0; i < size - 1; i++){
-    //         await changeOneOptions(page, form, 0, i)
-    //         await changeOptions(page, form, 5)
-    //         fs.appendFileSync(`list.txt`, '\n\n\n')
-    //     }
-    // }
-    //await changeOneOptions(page, form, 4, 1)
-    //const sizes = [8,9,10,11]
-    //const paper = await searchLen(page, form, 1)
-    // await changeOneOptions(page, form, 5, 6)
-    // const service = await form.$('.checkbox-icon-override')
-    // await service.click()
-    //for(let i = 6; i <= 8; i++){
-        for(let a = 3; a <= 3; a++){
-            await changeTwoOptions(page, form, 0, a, 4, 1)
-            await changeOptions(page, form, 6)
-            //await changeOneOptions(page, form, 5, 0)
-            fs.appendFileSync(`list.txt`, '\n\n\n')
+    const options = await searchLen(form, 0)
+
+    for (let i = 0; i < options; i++) {
+        await changeOneOptions(form, 0, i)
+        for await (const quantity of quantitys) {
+            const qty = await form.$('#prdqty')
+            await qty.fill(quantity.toString())
+            await qty.press('Enter')
+            await form.waitForSelector('.div_calculator.ld-over.running', { state: 'detached' })
+            await writeList(form)
         }
-    //}
-    // for (let i = 10; i <= 11; i++){
-    //     for( let a = 1; a <= 2; a++){
-    //         await changeTwoOptions(page, form, 0, i, 6, a)
-    //         await changeOptions(page, form, 5)
-    //         fs.appendFileSync(`list.txt`, '\n\n\n')
-    //     }
-    // }
-    
+        fs.appendFileSync(`list.txt`, '\n\n\n')
+    }  
  
     console.log('END')
     await browser.close()
