@@ -197,7 +197,7 @@ const web = async () => {
     
     const options = await searchLen(form, 0)
 
-    for (let i = 0; i < options; i++) {
+    for (let i = 79; i < options; i++) {
         await changeOneOptions(form, 0, i)
         for await (const quantity of quantitys) {
             const qty = await form.$('#prdqty')
@@ -205,6 +205,7 @@ const web = async () => {
             await qty.press('Enter')
             await form.waitForSelector('.div_calculator.ld-over.running', { state: 'detached' })
             await writeList(form)
+            console.log(i)
         }
         fs.appendFileSync(`list.txt`, '\n\n\n')
     }  
