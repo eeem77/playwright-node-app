@@ -55,9 +55,8 @@ const writeListTotal = async (form) => {
 const openList = async (form, button) => {
     const buttons = await form.$$('.btn.dropdown-toggle.btn-dropdown')
     await buttons[button].click()
-    const menu = await form.$('.dropdown-menu.inner.show')
-    const menuBtn = await menu.$$('a.dropdown-item')
-    console.log('Working');
+    const menuBtn = await form.$$('a.dropdown-item')
+    console.log('Working')
     return menuBtn
 }
 
@@ -190,15 +189,19 @@ const quantitys = [
 ]
 
 const web = async () => {
-    const browser = await chromium.launch()
+    const browser = await firefox.launch()
     const page = await browser.newPage()
     await page.goto('https://www.rivalbranding.com/rectangle-roll-labels-stock-sizes/', {timeout:150000})
     const form = await page.$('#price_calculator')
-    
-    const options = await searchLen(form, 0)
 
-    for (let i = 79; i < options; i++) {
-        await changeOneOptions(form, 0, i)
+    // const options = await form.$$eval('.filter-option-inner-inner', node => node.map(n => n.innerText))
+    // console.log(options)
+    const options = await searchLen(form, 1)
+    
+    await changeOneOptions(form, 0, 3) //size
+    //console.log(options)
+    for (let i = 13; i < options; i++) {
+        await changeOneOptions(form, 1, i)
         for await (const quantity of quantitys) {
             const qty = await form.$('#prdqty')
             await qty.fill(quantity.toString())
