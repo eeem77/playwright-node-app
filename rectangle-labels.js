@@ -189,18 +189,25 @@ const quantitys = [
 ]
 
 const web = async () => {
-    const browser = await firefox.launch()
+    // const browser = await chromium.launch({
+    //     proxy: {
+    //       server: '65.20.171.253:8080'
+    //       //username: 'usr',
+    //       //password: 'pwd'
+    //     }
+    // })
+    
+    const browser = await chromium.launch()
     const page = await browser.newPage()
-    await page.goto('https://www.rivalbranding.com/rectangle-roll-labels-stock-sizes/', {timeout:150000})
+    await page.goto('https://www.rivalbranding.com/rectangle-roll-labels-stock-sizes/')
+    
     const form = await page.$('#price_calculator')
 
-    // const options = await form.$$eval('.filter-option-inner-inner', node => node.map(n => n.innerText))
-    // console.log(options)
     const options = await searchLen(form, 1)
     
     await changeOneOptions(form, 0, 6) //size
     //console.log(options)
-    for (let i = 1; i < options; i++) {
+    for (let i = 4; i < options; i++) {
         await changeOneOptions(form, 1, i)
         for await (const quantity of quantitys) {
             const qty = await form.$('#prdqty')
