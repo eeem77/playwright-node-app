@@ -4751,3 +4751,192 @@
 
 
 
+1 x 2 inch rectangle,White gloss paper,Gloss lamination,1,Hand applied,118,Select State ,100, 126.18
+1 x 2 inch rectangle,White gloss paper,Gloss lamination,1,Hand applied,118,Select State ,200, 252.35
+1 x 2 inch rectangle,White gloss paper,Gloss lamination,1,Hand applied,118,Select State ,300, 160.68
+1 x 2 inch rectangle,White gloss paper,Gloss lamination,1,Hand applied,118,Select State ,400, 214.24
+1 x 2 inch rectangle,White gloss paper,Gloss lamination,1,Hand applied,118,Select State ,500, 149.35
+1 x 2 inch rectangle,White gloss paper,Gloss lamination,1,Hand applied,118,Select State ,1000, 183.86
+1 x 2 inch rectangle,White gloss paper,Gloss lamination,1,Hand applied,118,Select State ,2000, 214.24
+1 x 2 inch rectangle,White gloss paper,Gloss lamination,1,Hand applied,118,Select State ,3000, 259.56
+1 x 2 inch rectangle,White gloss paper,Gloss lamination,1,Hand applied,118,Select State ,4000, 346.08
+1 x 2 inch rectangle,White gloss paper,Gloss lamination,1,Hand applied,118,Select State ,5000, 309.00
+1 x 2 inch rectangle,White gloss paper,Gloss lamination,1,Hand applied,118,Select State ,6000, 370.80
+1 x 2 inch rectangle,White gloss paper,Gloss lamination,1,Hand applied,118,Select State ,7000, 432.60
+1 x 2 inch rectangle,White gloss paper,Gloss lamination,1,Hand applied,118,Select State ,8000, 494.40
+1 x 2 inch rectangle,White gloss paper,Gloss lamination,1,Hand applied,118,Select State ,9000, 556.20
+1 x 2 inch rectangle,White gloss paper,Gloss lamination,1,Hand applied,118,Select State ,10000, 339.90
+1 x 2 inch rectangle,White gloss paper,Gloss lamination,1,Hand applied,118,Select State ,20000, 679.80
+1 x 2 inch rectangle,White gloss paper,Gloss lamination,1,Hand applied,118,Select State ,30000, 1019.70
+1 x 2 inch rectangle,White gloss paper,Gloss lamination,1,Hand applied,118,Select State ,40000, 1359.60
+1 x 2 inch rectangle,White gloss paper,Gloss lamination,1,Hand applied,118,Select State ,50000, 1699.50
+1 x 2 inch rectangle,White gloss paper,Gloss lamination,1,Hand applied,118,Select State ,60000, 2039.40
+1 x 2 inch rectangle,White gloss paper,Gloss lamination,1,Hand applied,118,Select State ,70000, 2379.30
+1 x 2 inch rectangle,White gloss paper,Gloss lamination,1,Hand applied,118,Select State ,80000, 2719.20
+1 x 2 inch rectangle,White gloss paper,Gloss lamination,1,Hand applied,118,Select State ,90000, 3059.10
+1 x 2 inch rectangle,White gloss paper,Gloss lamination,1,Hand applied,118,Select State ,100000, 3399.00
+
+
+
+1 x 2 inch rectangle,White matte litho coated paper,Gloss lamination,1,Hand applied,118,Select State ,100, 126.18
+1 x 2 inch rectangle,White matte litho coated paper,Gloss lamination,1,Hand applied,118,Select State ,200, 252.35
+1 x 2 inch rectangle,White matte litho coated paper,Gloss lamination,1,Hand applied,118,Select State ,300, 160.68
+1 x 2 inch rectangle,White matte litho coated paper,Gloss lamination,1,Hand applied,118,Select State ,400, 214.24
+1 x 2 inch rectangle,White matte litho coated paper,Gloss lamination,1,Hand applied,118,Select State ,500, 149.35
+1 x 2 inch rectangle,White matte litho coated paper,Gloss lamination,1,Hand applied,118,Select State ,1000, 183.86
+1 x 2 inch rectangle,White matte litho coated paper,Gloss lamination,1,Hand applied,118,Select State ,2000, 214.24
+1 x 2 inch rectangle,White matte litho coated paper,Gloss lamination,1,Hand applied,118,Select State ,3000, 259.56
+1 x 2 inch rectangle,White matte litho coated paper,Gloss lamination,1,Hand applied,118,Select State ,4000, 346.08
+1 x 2 inch rectangle,White matte litho coated paper,Gloss lamination,1,Hand applied,118,Select State ,5000, 309.00
+1 x 2 inch rectangle,White matte litho coated paper,Gloss lamination,1,Hand applied,118,Select State ,6000, 370.80
+1 x 2 inch rectangle,White matte litho coated paper,Gloss lamination,1,Hand applied,118,Select State ,7000, 432.60
+1 x 2 inch rectangle,White matte litho coated paper,Gloss lamination,1,Hand applied,118,Select State ,8000, 494.40
+1 x 2 inch rectangle,White matte litho coated paper,Gloss lamination,1,Hand applied,118,Select State ,9000, 556.20
+1 x 2 inch rectangle,White matte litho coated paper,Gloss lamination,1,Hand applied,118,Select State ,10000, 339.90
+1 x 2 inch rectangle,White matte litho coated paper,Gloss lamination,1,Hand applied,118,Select State ,20000, 679.80
+1 x 2 inch rectangle,White matte litho coated paper,Gloss lamination,1,Hand applied,118,Select State ,30000, 1019.70
+1 x 2 inch rectangle,White matte litho coated paper,Gloss lamination,1,Hand applied,118,Select State ,40000, 1359.60
+1 x 2 inch rectangle,White matte litho coated paper,Gloss lamination,1,Hand applied,118,Select State ,50000, 1699.50
+1 x 2 inch rectangle,White matte litho coated paper,Gloss lamination,1,Hand applied,118,Select State ,60000, 2039.40
+1 x 2 inch rectangle,White matte litho coated paper,Gloss lamination,1,Hand applied,118,Select State ,70000, 2379.30
+1 x 2 inch rectangle,White matte litho coated paper,Gloss lamination,1,Hand applied,118,Select State ,80000, 2719.20
+1 x 2 inch rectangle,White matte litho coated paper,Gloss lamination,1,Hand applied,118,Select State ,90000, 3059.10
+1 x 2 inch rectangle,White matte litho coated paper,Gloss lamination,1,Hand applied,118,Select State ,100000, 3399.00
+
+
+
+1 x 2 inch rectangle,White uncoated paper,Gloss lamination,1,Hand applied,118,Select State ,100, 123.73
+1 x 2 inch rectangle,White uncoated paper,Gloss lamination,1,Hand applied,118,Select State ,200, 247.45
+1 x 2 inch rectangle,White uncoated paper,Gloss lamination,1,Hand applied,118,Select State ,300, 157.56
+1 x 2 inch rectangle,White uncoated paper,Gloss lamination,1,Hand applied,118,Select State ,400, 210.08
+1 x 2 inch rectangle,White uncoated paper,Gloss lamination,1,Hand applied,118,Select State ,500, 146.45
+1 x 2 inch rectangle,White uncoated paper,Gloss lamination,1,Hand applied,118,Select State ,1000, 180.29
+1 x 2 inch rectangle,White uncoated paper,Gloss lamination,1,Hand applied,118,Select State ,2000, 210.08
+1 x 2 inch rectangle,White uncoated paper,Gloss lamination,1,Hand applied,118,Select State ,3000, 254.52
+1 x 2 inch rectangle,White uncoated paper,Gloss lamination,1,Hand applied,118,Select State ,4000, 339.36
+1 x 2 inch rectangle,White uncoated paper,Gloss lamination,1,Hand applied,118,Select State ,5000, 303.00
+1 x 2 inch rectangle,White uncoated paper,Gloss lamination,1,Hand applied,118,Select State ,6000, 363.60
+1 x 2 inch rectangle,White uncoated paper,Gloss lamination,1,Hand applied,118,Select State ,7000, 424.20
+1 x 2 inch rectangle,White uncoated paper,Gloss lamination,1,Hand applied,118,Select State ,8000, 484.80
+1 x 2 inch rectangle,White uncoated paper,Gloss lamination,1,Hand applied,118,Select State ,9000, 545.40
+1 x 2 inch rectangle,White uncoated paper,Gloss lamination,1,Hand applied,118,Select State ,10000, 333.30
+1 x 2 inch rectangle,White uncoated paper,Gloss lamination,1,Hand applied,118,Select State ,20000, 666.60
+1 x 2 inch rectangle,White uncoated paper,Gloss lamination,1,Hand applied,118,Select State ,30000, 999.90
+1 x 2 inch rectangle,White uncoated paper,Gloss lamination,1,Hand applied,118,Select State ,40000, 1333.20
+1 x 2 inch rectangle,White uncoated paper,Gloss lamination,1,Hand applied,118,Select State ,50000, 1666.50
+1 x 2 inch rectangle,White uncoated paper,Gloss lamination,1,Hand applied,118,Select State ,60000, 1999.80
+1 x 2 inch rectangle,White uncoated paper,Gloss lamination,1,Hand applied,118,Select State ,70000, 2333.10
+1 x 2 inch rectangle,White uncoated paper,Gloss lamination,1,Hand applied,118,Select State ,80000, 2666.40
+1 x 2 inch rectangle,White uncoated paper,Gloss lamination,1,Hand applied,118,Select State ,90000, 2999.70
+1 x 2 inch rectangle,White uncoated paper,Gloss lamination,1,Hand applied,118,Select State ,100000, 3333.00
+
+
+
+1 x 2 inch rectangle,White BOPP,Gloss lamination,1,Hand applied,118,Select State ,100, 128.63
+1 x 2 inch rectangle,White BOPP,Gloss lamination,1,Hand applied,118,Select State ,200, 257.25
+1 x 2 inch rectangle,White BOPP,Gloss lamination,1,Hand applied,118,Select State ,300, 163.80
+1 x 2 inch rectangle,White BOPP,Gloss lamination,1,Hand applied,118,Select State ,400, 218.40
+1 x 2 inch rectangle,White BOPP,Gloss lamination,1,Hand applied,118,Select State ,500, 152.25
+1 x 2 inch rectangle,White BOPP,Gloss lamination,1,Hand applied,118,Select State ,1000, 187.43
+1 x 2 inch rectangle,White BOPP,Gloss lamination,1,Hand applied,118,Select State ,2000, 218.40
+1 x 2 inch rectangle,White BOPP,Gloss lamination,1,Hand applied,118,Select State ,3000, 264.60
+1 x 2 inch rectangle,White BOPP,Gloss lamination,1,Hand applied,118,Select State ,4000, 352.80
+1 x 2 inch rectangle,White BOPP,Gloss lamination,1,Hand applied,118,Select State ,5000, 315.00
+1 x 2 inch rectangle,White BOPP,Gloss lamination,1,Hand applied,118,Select State ,6000, 378.00
+1 x 2 inch rectangle,White BOPP,Gloss lamination,1,Hand applied,118,Select State ,7000, 441.00
+1 x 2 inch rectangle,White BOPP,Gloss lamination,1,Hand applied,118,Select State ,8000, 504.00
+1 x 2 inch rectangle,White BOPP,Gloss lamination,1,Hand applied,118,Select State ,9000, 567.00
+1 x 2 inch rectangle,White BOPP,Gloss lamination,1,Hand applied,118,Select State ,10000, 346.50
+1 x 2 inch rectangle,White BOPP,Gloss lamination,1,Hand applied,118,Select State ,20000, 693.00
+1 x 2 inch rectangle,White BOPP,Gloss lamination,1,Hand applied,118,Select State ,30000, 1039.50
+1 x 2 inch rectangle,White BOPP,Gloss lamination,1,Hand applied,118,Select State ,40000, 1386.00
+1 x 2 inch rectangle,White BOPP,Gloss lamination,1,Hand applied,118,Select State ,50000, 1732.50
+1 x 2 inch rectangle,White BOPP,Gloss lamination,1,Hand applied,118,Select State ,60000, 2079.00
+1 x 2 inch rectangle,White BOPP,Gloss lamination,1,Hand applied,118,Select State ,70000, 2425.50
+1 x 2 inch rectangle,White BOPP,Gloss lamination,1,Hand applied,118,Select State ,80000, 2772.00
+1 x 2 inch rectangle,White BOPP,Gloss lamination,1,Hand applied,118,Select State ,90000, 3118.50
+1 x 2 inch rectangle,White BOPP,Gloss lamination,1,Hand applied,118,Select State ,100000, 3465.00
+
+
+
+1 x 2 inch rectangle,Clear BOPP,Gloss lamination,1,Hand applied,118,Select State ,100, 128.63
+1 x 2 inch rectangle,Clear BOPP,Gloss lamination,1,Hand applied,118,Select State ,200, 257.25
+1 x 2 inch rectangle,Clear BOPP,Gloss lamination,1,Hand applied,118,Select State ,300, 163.80
+1 x 2 inch rectangle,Clear BOPP,Gloss lamination,1,Hand applied,118,Select State ,400, 218.40
+1 x 2 inch rectangle,Clear BOPP,Gloss lamination,1,Hand applied,118,Select State ,500, 152.25
+1 x 2 inch rectangle,Clear BOPP,Gloss lamination,1,Hand applied,118,Select State ,1000, 187.43
+1 x 2 inch rectangle,Clear BOPP,Gloss lamination,1,Hand applied,118,Select State ,2000, 218.40
+1 x 2 inch rectangle,Clear BOPP,Gloss lamination,1,Hand applied,118,Select State ,3000, 264.60
+1 x 2 inch rectangle,Clear BOPP,Gloss lamination,1,Hand applied,118,Select State ,4000, 352.80
+1 x 2 inch rectangle,Clear BOPP,Gloss lamination,1,Hand applied,118,Select State ,5000, 315.00
+1 x 2 inch rectangle,Clear BOPP,Gloss lamination,1,Hand applied,118,Select State ,6000, 378.00
+1 x 2 inch rectangle,Clear BOPP,Gloss lamination,1,Hand applied,118,Select State ,7000, 441.00
+1 x 2 inch rectangle,Clear BOPP,Gloss lamination,1,Hand applied,118,Select State ,8000, 504.00
+1 x 2 inch rectangle,Clear BOPP,Gloss lamination,1,Hand applied,118,Select State ,9000, 567.00
+1 x 2 inch rectangle,Clear BOPP,Gloss lamination,1,Hand applied,118,Select State ,10000, 346.50
+1 x 2 inch rectangle,Clear BOPP,Gloss lamination,1,Hand applied,118,Select State ,20000, 693.00
+1 x 2 inch rectangle,Clear BOPP,Gloss lamination,1,Hand applied,118,Select State ,30000, 1039.50
+1 x 2 inch rectangle,Clear BOPP,Gloss lamination,1,Hand applied,118,Select State ,40000, 1386.00
+1 x 2 inch rectangle,Clear BOPP,Gloss lamination,1,Hand applied,118,Select State ,50000, 1732.50
+1 x 2 inch rectangle,Clear BOPP,Gloss lamination,1,Hand applied,118,Select State ,60000, 2079.00
+1 x 2 inch rectangle,Clear BOPP,Gloss lamination,1,Hand applied,118,Select State ,70000, 2425.50
+1 x 2 inch rectangle,Clear BOPP,Gloss lamination,1,Hand applied,118,Select State ,80000, 2772.00
+1 x 2 inch rectangle,Clear BOPP,Gloss lamination,1,Hand applied,118,Select State ,90000, 3118.50
+1 x 2 inch rectangle,Clear BOPP,Gloss lamination,1,Hand applied,118,Select State ,100000, 3465.00
+
+
+
+1 x 2 inch rectangle,Silver BOPP,Gloss lamination,1,Hand applied,118,Select State ,100, 143.33
+1 x 2 inch rectangle,Silver BOPP,Gloss lamination,1,Hand applied,118,Select State ,200, 286.65
+1 x 2 inch rectangle,Silver BOPP,Gloss lamination,1,Hand applied,118,Select State ,300, 182.52
+1 x 2 inch rectangle,Silver BOPP,Gloss lamination,1,Hand applied,118,Select State ,400, 243.36
+1 x 2 inch rectangle,Silver BOPP,Gloss lamination,1,Hand applied,118,Select State ,500, 169.65
+1 x 2 inch rectangle,Silver BOPP,Gloss lamination,1,Hand applied,118,Select State ,1000, 208.85
+1 x 2 inch rectangle,Silver BOPP,Gloss lamination,1,Hand applied,118,Select State ,2000, 243.36
+1 x 2 inch rectangle,Silver BOPP,Gloss lamination,1,Hand applied,118,Select State ,3000, 294.84
+1 x 2 inch rectangle,Silver BOPP,Gloss lamination,1,Hand applied,118,Select State ,4000, 393.12
+1 x 2 inch rectangle,Silver BOPP,Gloss lamination,1,Hand applied,118,Select State ,5000, 351.00
+1 x 2 inch rectangle,Silver BOPP,Gloss lamination,1,Hand applied,118,Select State ,6000, 421.20
+1 x 2 inch rectangle,Silver BOPP,Gloss lamination,1,Hand applied,118,Select State ,7000, 491.40
+1 x 2 inch rectangle,Silver BOPP,Gloss lamination,1,Hand applied,118,Select State ,8000, 561.60
+1 x 2 inch rectangle,Silver BOPP,Gloss lamination,1,Hand applied,118,Select State ,9000, 631.80
+1 x 2 inch rectangle,Silver BOPP,Gloss lamination,1,Hand applied,118,Select State ,10000, 386.10
+1 x 2 inch rectangle,Silver BOPP,Gloss lamination,1,Hand applied,118,Select State ,20000, 772.20
+1 x 2 inch rectangle,Silver BOPP,Gloss lamination,1,Hand applied,118,Select State ,30000, 1158.30
+1 x 2 inch rectangle,Silver BOPP,Gloss lamination,1,Hand applied,118,Select State ,40000, 1544.40
+1 x 2 inch rectangle,Silver BOPP,Gloss lamination,1,Hand applied,118,Select State ,50000, 1930.50
+1 x 2 inch rectangle,Silver BOPP,Gloss lamination,1,Hand applied,118,Select State ,60000, 2316.60
+1 x 2 inch rectangle,Silver BOPP,Gloss lamination,1,Hand applied,118,Select State ,70000, 2702.70
+1 x 2 inch rectangle,Silver BOPP,Gloss lamination,1,Hand applied,118,Select State ,80000, 3088.80
+1 x 2 inch rectangle,Silver BOPP,Gloss lamination,1,Hand applied,118,Select State ,90000, 3474.90
+1 x 2 inch rectangle,Silver BOPP,Gloss lamination,1,Hand applied,118,Select State ,100000, 3861.00
+
+
+
+1 x 2 inch rectangle,Estate 4 paper,No lamination,1,Hand applied,118,Select State ,100, 134.75
+1 x 2 inch rectangle,Estate 4 paper,No lamination,1,Hand applied,118,Select State ,200, 269.50
+1 x 2 inch rectangle,Estate 4 paper,No lamination,1,Hand applied,118,Select State ,300, 171.60
+1 x 2 inch rectangle,Estate 4 paper,No lamination,1,Hand applied,118,Select State ,400, 228.80
+1 x 2 inch rectangle,Estate 4 paper,No lamination,1,Hand applied,118,Select State ,500, 159.50
+1 x 2 inch rectangle,Estate 4 paper,No lamination,1,Hand applied,118,Select State ,1000, 196.35
+1 x 2 inch rectangle,Estate 4 paper,No lamination,1,Hand applied,118,Select State ,2000, 228.80
+1 x 2 inch rectangle,Estate 4 paper,No lamination,1,Hand applied,118,Select State ,3000, 277.20
+1 x 2 inch rectangle,Estate 4 paper,No lamination,1,Hand applied,118,Select State ,4000, 369.60
+1 x 2 inch rectangle,Estate 4 paper,No lamination,1,Hand applied,118,Select State ,5000, 330.00
+1 x 2 inch rectangle,Estate 4 paper,No lamination,1,Hand applied,118,Select State ,6000, 396.00
+1 x 2 inch rectangle,Estate 4 paper,No lamination,1,Hand applied,118,Select State ,7000, 462.00
+1 x 2 inch rectangle,Estate 4 paper,No lamination,1,Hand applied,118,Select State ,8000, 528.00
+1 x 2 inch rectangle,Estate 4 paper,No lamination,1,Hand applied,118,Select State ,9000, 594.00
+1 x 2 inch rectangle,Estate 4 paper,No lamination,1,Hand applied,118,Select State ,10000, 363.00
+1 x 2 inch rectangle,Estate 4 paper,No lamination,1,Hand applied,118,Select State ,20000, 726.00
+1 x 2 inch rectangle,Estate 4 paper,No lamination,1,Hand applied,118,Select State ,30000, 1089.00
+1 x 2 inch rectangle,Estate 4 paper,No lamination,1,Hand applied,118,Select State ,40000, 1452.00
+1 x 2 inch rectangle,Estate 4 paper,No lamination,1,Hand applied,118,Select State ,50000, 1815.00
+1 x 2 inch rectangle,Estate 4 paper,No lamination,1,Hand applied,118,Select State ,60000, 2178.00
+1 x 2 inch rectangle,Estate 4 paper,No lamination,1,Hand applied,118,Select State ,70000, 2541.00
+1 x 2 inch rectangle,Estate 4 paper,No lamination,1,Hand applied,118,Select State ,80000, 2904.00
+1 x 2 inch rectangle,Estate 4 paper,No lamination,1,Hand applied,118,Select State ,90000, 3267.00
+1 x 2 inch rectangle,Estate 4 paper,No lamination,1,Hand applied,118,Select State ,100000, 3630.00
+
+
+
