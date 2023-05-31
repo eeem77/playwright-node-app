@@ -190,7 +190,7 @@ const quantitys = [
 const web = async () => {
     const browser = await chromium.launch({
         proxy: {
-          server: '5.161.185.131:8080'
+          server: '5.161.198.166:8080'
           //username: 'usr',
           //password: 'pwd'
         }
@@ -206,7 +206,7 @@ const web = async () => {
     
     await changeOneOptions(form, 0, 7) //size
     //console.log(options)
-    for (let i = 1; i < options; i++) {
+    for (let i = 5; i < options; i++) {
         await changeOneOptions(form, 1, i)
         for await (const quantity of quantitys) {
             const qty = await form.$('#prdqty')
