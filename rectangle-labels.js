@@ -204,9 +204,9 @@ const web = async () => {
 
     const options = await searchLen(form, 2)
     
-    await changeOneOptions(form, 0, 51) //size
+    await changeOneOptions(form, 0, 80) //size
     //console.log(options)
-    for (let i = 1; i < options; i++) {
+    for (let i = 0; i < options; i++) {
         await changeOneOptions(form, 2, i)
         for await (const quantity of quantitys) {
             const qty = await form.$('#prdqty')
