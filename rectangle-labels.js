@@ -118,7 +118,7 @@ const changeTwoOptions = async (page, form, button, option, buttonTwo, optionTwo
     }
     
     const buttonsLabel = await form.$$eval('button.btn.dropdown-toggle.val-wrap', node => node.map(n => n.innerText))
-    console.log(buttonsLabel)
+    //console.log(buttonsLabel)
 }
 
 const changeThreeOptions = async (page, form, button, option, buttonTwo, optionTwo, buttonThree, optionThree) => {
@@ -190,7 +190,7 @@ const quantitys = [
 const web = async () => {
     const browser = await chromium.launch({
         proxy: {
-          server: '65.21.157.205:8080'
+          server: '62.14.234.232:443'
           //username: 'usr',
           //password: 'pwd'
         }
@@ -204,7 +204,7 @@ const web = async () => {
 
     const options = await searchLen(form, 3)
     
-    await changeOneOptions(form, 0, 0) //size
+    await changeOneOptions(form, 0, 6) //size
     //console.log(options)
     for (let i = 0; i < options; i++) {
         await changeOneOptions(form, 3, i)
