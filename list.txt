@@ -943,3 +943,435 @@
 
 
 
+1.25 x 1.5 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,123,Select State ,100, 115.99
+1.25 x 1.5 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,123,Select State ,200, 231.98
+1.25 x 1.5 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,123,Select State ,300, 147.71
+1.25 x 1.5 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,123,Select State ,400, 196.95
+1.25 x 1.5 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,123,Select State ,500, 137.31
+1.25 x 1.5 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,123,Select State ,1000, 168.97
+1.25 x 1.5 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,123,Select State ,2000, 196.95
+1.25 x 1.5 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,123,Select State ,3000, 238.76
+1.25 x 1.5 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,123,Select State ,4000, 318.35
+1.25 x 1.5 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,123,Select State ,5000, 284.32
+1.25 x 1.5 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,123,Select State ,6000, 341.18
+1.25 x 1.5 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,123,Select State ,7000, 398.04
+1.25 x 1.5 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,123,Select State ,8000, 454.90
+1.25 x 1.5 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,123,Select State ,9000, 511.77
+1.25 x 1.5 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,123,Select State ,10000, 312.09
+1.25 x 1.5 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,123,Select State ,20000, 624.18
+1.25 x 1.5 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,123,Select State ,30000, 936.27
+1.25 x 1.5 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,123,Select State ,40000, 1248.36
+1.25 x 1.5 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,123,Select State ,50000, 1560.45
+1.25 x 1.5 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,123,Select State ,60000, 1872.54
+1.25 x 1.5 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,123,Select State ,70000, 2184.63
+1.25 x 1.5 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,123,Select State ,80000, 2496.72
+1.25 x 1.5 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,123,Select State ,90000, 2808.81
+1.25 x 1.5 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,123,Select State ,100000, 3120.90
+
+
+
+1.25 x 1.75 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,124,Select State ,100, 135.32
+1.25 x 1.75 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,124,Select State ,200, 270.64
+1.25 x 1.75 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,124,Select State ,300, 172.35
+1.25 x 1.75 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,124,Select State ,400, 229.80
+1.25 x 1.75 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,124,Select State ,500, 160.19
+1.25 x 1.75 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,124,Select State ,1000, 197.15
+1.25 x 1.75 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,124,Select State ,2000, 229.88
+1.25 x 1.75 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,124,Select State ,3000, 278.46
+1.25 x 1.75 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,124,Select State ,4000, 371.28
+1.25 x 1.75 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,124,Select State ,5000, 331.28
+1.25 x 1.75 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,124,Select State ,6000, 397.54
+1.25 x 1.75 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,124,Select State ,7000, 463.79
+1.25 x 1.75 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,124,Select State ,8000, 530.05
+1.25 x 1.75 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,124,Select State ,9000, 596.30
+1.25 x 1.75 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,124,Select State ,10000, 364.61
+1.25 x 1.75 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,124,Select State ,20000, 729.22
+1.25 x 1.75 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,124,Select State ,30000, 1093.83
+1.25 x 1.75 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,124,Select State ,40000, 1458.44
+1.25 x 1.75 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,124,Select State ,50000, 1823.05
+1.25 x 1.75 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,124,Select State ,60000, 2187.66
+1.25 x 1.75 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,124,Select State ,70000, 2552.27
+1.25 x 1.75 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,124,Select State ,80000, 2916.88
+1.25 x 1.75 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,124,Select State ,90000, 3281.49
+1.25 x 1.75 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,124,Select State ,100000, 3646.10
+
+
+
+1.25 x 1.75 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,124,Select State ,100, 135.32
+1.25 x 1.75 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,124,Select State ,200, 270.64
+1.25 x 1.75 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,124,Select State ,300, 172.35
+1.25 x 1.75 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,124,Select State ,400, 229.80
+1.25 x 1.75 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,124,Select State ,500, 160.19
+1.25 x 1.75 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,124,Select State ,1000, 197.15
+1.25 x 1.75 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,124,Select State ,2000, 229.88
+1.25 x 1.75 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,124,Select State ,3000, 278.46
+1.25 x 1.75 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,124,Select State ,4000, 371.28
+1.25 x 1.75 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,124,Select State ,5000, 331.28
+1.25 x 1.75 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,124,Select State ,6000, 397.54
+1.25 x 1.75 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,124,Select State ,7000, 463.79
+1.25 x 1.75 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,124,Select State ,8000, 530.05
+1.25 x 1.75 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,124,Select State ,9000, 596.30
+1.25 x 1.75 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,124,Select State ,10000, 364.61
+1.25 x 1.75 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,124,Select State ,20000, 729.22
+1.25 x 1.75 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,124,Select State ,30000, 1093.83
+1.25 x 1.75 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,124,Select State ,40000, 1458.44
+1.25 x 1.75 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,124,Select State ,50000, 1823.05
+1.25 x 1.75 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,124,Select State ,60000, 2187.66
+1.25 x 1.75 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,124,Select State ,70000, 2552.27
+1.25 x 1.75 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,124,Select State ,80000, 2916.88
+1.25 x 1.75 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,124,Select State ,90000, 3281.49
+1.25 x 1.75 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,124,Select State ,100000, 3646.10
+
+
+
+1.25 x 2 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,125,Select State ,100, 154.66
+1.25 x 2 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,125,Select State ,200, 309.32
+1.25 x 2 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,125,Select State ,300, 196.95
+1.25 x 2 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,125,Select State ,400, 262.60
+1.25 x 2 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,125,Select State ,500, 183.06
+1.25 x 2 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,125,Select State ,1000, 225.33
+1.25 x 2 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,125,Select State ,2000, 262.60
+1.25 x 2 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,125,Select State ,3000, 318.15
+1.25 x 2 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,125,Select State ,4000, 424.20
+1.25 x 2 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,125,Select State ,5000, 378.75
+1.25 x 2 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,125,Select State ,6000, 454.50
+1.25 x 2 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,125,Select State ,7000, 530.25
+1.25 x 2 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,125,Select State ,8000, 606.00
+1.25 x 2 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,125,Select State ,9000, 681.75
+1.25 x 2 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,125,Select State ,10000, 417.13
+1.25 x 2 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,125,Select State ,20000, 834.26
+1.25 x 2 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,125,Select State ,30000, 1251.39
+1.25 x 2 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,125,Select State ,40000, 1668.52
+1.25 x 2 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,125,Select State ,50000, 2085.65
+1.25 x 2 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,125,Select State ,60000, 2502.78
+1.25 x 2 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,125,Select State ,70000, 2919.91
+1.25 x 2 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,125,Select State ,80000, 3337.04
+1.25 x 2 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,125,Select State ,90000, 3754.17
+1.25 x 2 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,125,Select State ,100000, 4171.30
+
+
+
+1.25 x 2 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,125,Select State ,100, 154.66
+1.25 x 2 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,125,Select State ,200, 309.32
+1.25 x 2 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,125,Select State ,300, 196.95
+1.25 x 2 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,125,Select State ,400, 262.60
+1.25 x 2 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,125,Select State ,500, 183.06
+1.25 x 2 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,125,Select State ,1000, 225.33
+1.25 x 2 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,125,Select State ,2000, 262.60
+1.25 x 2 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,125,Select State ,3000, 318.15
+1.25 x 2 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,125,Select State ,4000, 424.20
+1.25 x 2 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,125,Select State ,5000, 378.75
+1.25 x 2 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,125,Select State ,6000, 454.50
+1.25 x 2 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,125,Select State ,7000, 530.25
+1.25 x 2 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,125,Select State ,8000, 606.00
+1.25 x 2 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,125,Select State ,9000, 681.75
+1.25 x 2 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,125,Select State ,10000, 417.13
+1.25 x 2 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,125,Select State ,20000, 834.26
+1.25 x 2 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,125,Select State ,30000, 1251.39
+1.25 x 2 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,125,Select State ,40000, 1668.52
+1.25 x 2 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,125,Select State ,50000, 2085.65
+1.25 x 2 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,125,Select State ,60000, 2502.78
+1.25 x 2 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,125,Select State ,70000, 2919.91
+1.25 x 2 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,125,Select State ,80000, 3337.04
+1.25 x 2 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,125,Select State ,90000, 3754.17
+1.25 x 2 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,125,Select State ,100000, 4171.30
+
+
+
+1.25 x 2.5 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,126,Select State ,100, 193.32
+1.25 x 2.5 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,126,Select State ,200, 386.65
+1.25 x 2.5 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,126,Select State ,300, 246.19
+1.25 x 2.5 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,126,Select State ,400, 328.25
+1.25 x 2.5 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,126,Select State ,500, 228.82
+1.25 x 2.5 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,126,Select State ,1000, 281.69
+1.25 x 2.5 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,126,Select State ,2000, 328.25
+1.25 x 2.5 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,126,Select State ,3000, 397.84
+1.25 x 2.5 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,126,Select State ,4000, 530.45
+1.25 x 2.5 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,126,Select State ,5000, 473.69
+1.25 x 2.5 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,126,Select State ,6000, 568.43
+1.25 x 2.5 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,126,Select State ,7000, 663.17
+1.25 x 2.5 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,126,Select State ,8000, 757.90
+1.25 x 2.5 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,126,Select State ,9000, 852.64
+1.25 x 2.5 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,126,Select State ,10000, 521.16
+1.25 x 2.5 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,126,Select State ,20000, 1042.32
+1.25 x 2.5 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,126,Select State ,30000, 1563.48
+1.25 x 2.5 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,126,Select State ,40000, 2084.64
+1.25 x 2.5 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,126,Select State ,50000, 2605.80
+1.25 x 2.5 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,126,Select State ,60000, 3126.96
+1.25 x 2.5 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,126,Select State ,70000, 3648.12
+1.25 x 2.5 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,126,Select State ,80000, 4169.28
+1.25 x 2.5 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,126,Select State ,90000, 4690.44
+1.25 x 2.5 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,126,Select State ,100000, 5211.60
+
+
+
+1.25 x 2.5 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,126,Select State ,100, 193.32
+1.25 x 2.5 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,126,Select State ,200, 386.65
+1.25 x 2.5 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,126,Select State ,300, 246.19
+1.25 x 2.5 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,126,Select State ,400, 328.25
+1.25 x 2.5 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,126,Select State ,500, 228.82
+1.25 x 2.5 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,126,Select State ,1000, 281.69
+1.25 x 2.5 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,126,Select State ,2000, 328.25
+1.25 x 2.5 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,126,Select State ,3000, 397.84
+1.25 x 2.5 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,126,Select State ,4000, 530.45
+1.25 x 2.5 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,126,Select State ,5000, 473.69
+1.25 x 2.5 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,126,Select State ,6000, 568.43
+1.25 x 2.5 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,126,Select State ,7000, 663.17
+1.25 x 2.5 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,126,Select State ,8000, 757.90
+1.25 x 2.5 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,126,Select State ,9000, 852.64
+1.25 x 2.5 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,126,Select State ,10000, 521.16
+1.25 x 2.5 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,126,Select State ,20000, 1042.32
+1.25 x 2.5 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,126,Select State ,30000, 1563.48
+1.25 x 2.5 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,126,Select State ,40000, 2084.64
+1.25 x 2.5 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,126,Select State ,50000, 2605.80
+1.25 x 2.5 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,126,Select State ,60000, 3126.96
+1.25 x 2.5 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,126,Select State ,70000, 3648.12
+1.25 x 2.5 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,126,Select State ,80000, 4169.28
+1.25 x 2.5 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,126,Select State ,90000, 4690.44
+1.25 x 2.5 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,126,Select State ,100000, 5211.60
+
+
+
+1.25 x 2.875 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,58,Select State ,100, 222.32
+1.25 x 2.875 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,58,Select State ,200, 444.64
+1.25 x 2.875 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,58,Select State ,300, 283.12
+1.25 x 2.875 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,58,Select State ,400, 377.50
+1.25 x 2.875 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,58,Select State ,500, 263.16
+1.25 x 2.875 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,58,Select State ,1000, 323.91
+1.25 x 2.875 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,58,Select State ,2000, 377.54
+1.25 x 2.875 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,58,Select State ,3000, 457.23
+1.25 x 2.875 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,58,Select State ,4000, 609.64
+1.25 x 2.875 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,58,Select State ,5000, 544.39
+1.25 x 2.875 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,58,Select State ,6000, 653.27
+1.25 x 2.875 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,58,Select State ,7000, 762.15
+1.25 x 2.875 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,58,Select State ,8000, 871.02
+1.25 x 2.875 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,58,Select State ,9000, 979.90
+1.25 x 2.875 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,58,Select State ,10000, 598.93
+1.25 x 2.875 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,58,Select State ,20000, 1197.86
+1.25 x 2.875 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,58,Select State ,30000, 1796.79
+1.25 x 2.875 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,58,Select State ,40000, 2395.72
+1.25 x 2.875 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,58,Select State ,50000, 2994.65
+1.25 x 2.875 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,58,Select State ,60000, 3593.58
+1.25 x 2.875 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,58,Select State ,70000, 4192.51
+1.25 x 2.875 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,58,Select State ,80000, 4791.44
+1.25 x 2.875 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,58,Select State ,90000, 5390.37
+1.25 x 2.875 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,58,Select State ,100000, 5989.30
+
+
+
+1.25 x 2.875 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,58,Select State ,100, 222.32
+1.25 x 2.875 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,58,Select State ,200, 444.64
+1.25 x 2.875 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,58,Select State ,300, 283.12
+1.25 x 2.875 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,58,Select State ,400, 377.50
+1.25 x 2.875 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,58,Select State ,500, 263.16
+1.25 x 2.875 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,58,Select State ,1000, 323.91
+1.25 x 2.875 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,58,Select State ,2000, 377.54
+1.25 x 2.875 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,58,Select State ,3000, 457.23
+1.25 x 2.875 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,58,Select State ,4000, 609.64
+1.25 x 2.875 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,58,Select State ,5000, 544.39
+1.25 x 2.875 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,58,Select State ,6000, 653.27
+1.25 x 2.875 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,58,Select State ,7000, 762.15
+1.25 x 2.875 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,58,Select State ,8000, 871.02
+1.25 x 2.875 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,58,Select State ,9000, 979.90
+1.25 x 2.875 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,58,Select State ,10000, 598.93
+1.25 x 2.875 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,58,Select State ,20000, 1197.86
+1.25 x 2.875 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,58,Select State ,30000, 1796.79
+1.25 x 2.875 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,58,Select State ,40000, 2395.72
+1.25 x 2.875 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,58,Select State ,50000, 2994.65
+1.25 x 2.875 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,58,Select State ,60000, 3593.58
+1.25 x 2.875 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,58,Select State ,70000, 4192.51
+1.25 x 2.875 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,58,Select State ,80000, 4791.44
+1.25 x 2.875 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,58,Select State ,90000, 5390.37
+1.25 x 2.875 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,58,Select State ,100000, 5989.30
+
+
+
+1.25 x 3 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,53,Select State ,100, 231.99
+1.25 x 3 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,53,Select State ,200, 463.97
+1.25 x 3 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,53,Select State ,300, 295.43
+1.25 x 3 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,53,Select State ,400, 393.90
+1.25 x 3 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,53,Select State ,500, 274.62
+1.25 x 3 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,53,Select State ,1000, 338.05
+1.25 x 3 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,53,Select State ,2000, 393.90
+1.25 x 3 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,53,Select State ,3000, 590.85
+1.25 x 3 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,53,Select State ,4000, 787.80
+1.25 x 3 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,53,Select State ,5000, 984.75
+1.25 x 3 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,53,Select State ,6000, 1181.70
+1.25 x 3 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,53,Select State ,7000, 1378.65
+1.25 x 3 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,53,Select State ,8000, 1575.60
+1.25 x 3 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,53,Select State ,9000, 1772.55
+1.25 x 3 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,53,Select State ,10000, 1969.50
+1.25 x 3 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,53,Select State ,20000, 3939.00
+1.25 x 3 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,53,Select State ,30000, 1875.57
+1.25 x 3 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,53,Select State ,40000, 2500.76
+1.25 x 3 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,53,Select State ,50000, 3125.95
+1.25 x 3 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,53,Select State ,60000, 3751.14
+1.25 x 3 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,53,Select State ,70000, 4376.33
+1.25 x 3 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,53,Select State ,80000, 5001.52
+1.25 x 3 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,53,Select State ,90000, 5626.71
+1.25 x 3 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,53,Select State ,100000, 6251.90
+
+
+
+1.25 x 3 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,53,Select State ,100, 231.99
+1.25 x 3 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,53,Select State ,200, 463.97
+1.25 x 3 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,53,Select State ,300, 295.43
+1.25 x 3 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,53,Select State ,400, 393.90
+1.25 x 3 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,53,Select State ,500, 274.62
+1.25 x 3 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,53,Select State ,1000, 338.05
+1.25 x 3 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,53,Select State ,2000, 393.90
+1.25 x 3 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,53,Select State ,3000, 590.85
+1.25 x 3 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,53,Select State ,4000, 787.80
+1.25 x 3 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,53,Select State ,5000, 984.75
+1.25 x 3 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,53,Select State ,6000, 1181.70
+1.25 x 3 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,53,Select State ,7000, 1378.65
+1.25 x 3 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,53,Select State ,8000, 1575.60
+1.25 x 3 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,53,Select State ,9000, 1772.55
+1.25 x 3 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,53,Select State ,10000, 1969.50
+1.25 x 3 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,53,Select State ,20000, 3939.00
+1.25 x 3 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,53,Select State ,30000, 1875.57
+1.25 x 3 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,53,Select State ,40000, 2500.76
+1.25 x 3 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,53,Select State ,50000, 3125.95
+1.25 x 3 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,53,Select State ,60000, 3751.14
+1.25 x 3 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,53,Select State ,70000, 4376.33
+1.25 x 3 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,53,Select State ,80000, 5001.52
+1.25 x 3 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,53,Select State ,90000, 5626.71
+1.25 x 3 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,53,Select State ,100000, 6251.90
+
+
+
+1.3125 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,109,Select State ,100, 217.40
+1.3125 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,109,Select State ,200, 434.81
+1.3125 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,109,Select State ,300, 288.46
+1.3125 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,109,Select State ,400, 384.61
+1.3125 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,109,Select State ,500, 288.10
+1.3125 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,109,Select State ,1000, 325.22
+1.3125 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,109,Select State ,2000, 456.12
+1.3125 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,109,Select State ,3000, 546.31
+1.3125 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,109,Select State ,4000, 728.41
+1.3125 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,109,Select State ,5000, 698.42
+1.3125 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,109,Select State ,6000, 838.10
+1.3125 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,109,Select State ,7000, 977.78
+1.3125 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,109,Select State ,8000, 1117.46
+1.3125 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,109,Select State ,9000, 1257.15
+1.3125 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,109,Select State ,10000, 1114.03
+1.3125 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,109,Select State ,20000, 2228.06
+1.3125 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,109,Select State ,30000, 3342.09
+1.3125 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,109,Select State ,40000, 4456.12
+1.3125 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,109,Select State ,50000, 5570.15
+1.3125 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,109,Select State ,60000, 6684.18
+1.3125 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,109,Select State ,70000, 7798.21
+1.3125 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,109,Select State ,80000, 8912.24
+1.3125 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,109,Select State ,90000, 10026.27
+1.3125 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,109,Select State ,100000, 11140.30
+
+
+
+1.3125 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,109,Select State ,100, 217.40
+1.3125 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,109,Select State ,200, 434.81
+1.3125 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,109,Select State ,300, 288.46
+1.3125 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,109,Select State ,400, 384.61
+1.3125 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,109,Select State ,500, 288.10
+1.3125 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,109,Select State ,1000, 325.22
+1.3125 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,109,Select State ,2000, 456.12
+1.3125 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,109,Select State ,3000, 546.31
+1.3125 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,109,Select State ,4000, 728.41
+1.3125 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,109,Select State ,5000, 698.42
+1.3125 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,109,Select State ,6000, 838.10
+1.3125 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,109,Select State ,7000, 977.78
+1.3125 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,109,Select State ,8000, 1117.46
+1.3125 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,109,Select State ,9000, 1257.15
+1.3125 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,109,Select State ,10000, 1114.03
+1.3125 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,109,Select State ,20000, 2228.06
+1.3125 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,109,Select State ,30000, 3342.09
+1.3125 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,109,Select State ,40000, 4456.12
+1.3125 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,109,Select State ,50000, 5570.15
+1.3125 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,109,Select State ,60000, 6684.18
+1.3125 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,109,Select State ,70000, 7798.21
+1.3125 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,109,Select State ,80000, 8912.24
+1.3125 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,109,Select State ,90000, 10026.27
+1.3125 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,109,Select State ,100000, 11140.30
+
+
+
+1.375 x 6 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,18,Select State ,100, 220.82
+1.375 x 6 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,18,Select State ,200, 441.63
+1.375 x 6 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,18,Select State ,300, 294.97
+1.375 x 6 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,18,Select State ,400, 393.29
+1.375 x 6 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,18,Select State ,500, 288.30
+1.375 x 6 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,18,Select State ,1000, 321.69
+1.375 x 6 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,18,Select State ,2000, 466.62
+1.375 x 6 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,18,Select State ,3000, 637.51
+1.375 x 6 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,18,Select State ,4000, 850.02
+1.375 x 6 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,18,Select State ,5000, 799.92
+1.375 x 6 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,18,Select State ,6000, 959.90
+1.375 x 6 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,18,Select State ,7000, 1119.89
+1.375 x 6 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,18,Select State ,8000, 1279.87
+1.375 x 6 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,18,Select State ,9000, 1439.86
+1.375 x 6 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,18,Select State ,10000, 1241.29
+1.375 x 6 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,18,Select State ,20000, 2482.58
+1.375 x 6 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,18,Select State ,30000, 3723.87
+1.375 x 6 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,18,Select State ,40000, 4965.16
+1.375 x 6 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,18,Select State ,50000, 6206.45
+1.375 x 6 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,18,Select State ,60000, 7447.74
+1.375 x 6 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,18,Select State ,70000, 8689.03
+1.375 x 6 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,18,Select State ,80000, 9930.32
+1.375 x 6 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,18,Select State ,90000, 11171.61
+1.375 x 6 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,18,Select State ,100000, 12412.90
+
+
+
+1.375 x 6 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,18,Select State ,100, 220.82
+1.375 x 6 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,18,Select State ,200, 441.63
+1.375 x 6 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,18,Select State ,300, 294.97
+1.375 x 6 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,18,Select State ,400, 393.29
+1.375 x 6 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,18,Select State ,500, 288.30
+1.375 x 6 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,18,Select State ,1000, 321.69
+1.375 x 6 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,18,Select State ,2000, 466.62
+1.375 x 6 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,18,Select State ,3000, 637.51
+1.375 x 6 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,18,Select State ,4000, 850.02
+1.375 x 6 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,18,Select State ,5000, 799.92
+1.375 x 6 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,18,Select State ,6000, 959.90
+1.375 x 6 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,18,Select State ,7000, 1119.89
+1.375 x 6 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,18,Select State ,8000, 1279.87
+1.375 x 6 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,18,Select State ,9000, 1439.86
+1.375 x 6 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,18,Select State ,10000, 1241.29
+1.375 x 6 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,18,Select State ,20000, 2482.58
+1.375 x 6 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,18,Select State ,30000, 3723.87
+1.375 x 6 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,18,Select State ,40000, 4965.16
+1.375 x 6 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,18,Select State ,50000, 6206.45
+1.375 x 6 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,18,Select State ,60000, 7447.74
+1.375 x 6 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,18,Select State ,70000, 8689.03
+1.375 x 6 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,18,Select State ,80000, 9930.32
+1.375 x 6 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,18,Select State ,90000, 11171.61
+1.375 x 6 inch rectangle,White semigloss paper,Gloss lamination,1,Hand applied,18,Select State ,100000, 12412.90
+
+
+
+1.4 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,129,Select State ,100, 231.90
+1.4 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,129,Select State ,200, 463.79
+1.4 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,129,Select State ,300, 307.70
+1.4 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,129,Select State ,400, 410.26
+1.4 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,129,Select State ,500, 307.29
+1.4 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,129,Select State ,1000, 346.94
+1.4 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,129,Select State ,2000, 486.42
+1.4 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,129,Select State ,3000, 582.67
+1.4 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,129,Select State ,4000, 776.89
+1.4 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,129,Select State ,5000, 744.88
+1.4 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,129,Select State ,6000, 893.85
+1.4 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,129,Select State ,7000, 1042.83
+1.4 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,129,Select State ,8000, 1191.80
+1.4 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,129,Select State ,9000, 1340.78
+1.4 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,129,Select State ,10000, 1187.76
+1.4 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,129,Select State ,20000, 2375.52
+1.4 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,129,Select State ,30000, 3563.28
+1.4 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,129,Select State ,40000, 4751.04
+1.4 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,129,Select State ,50000, 5938.80
+1.4 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,129,Select State ,60000, 7126.56
+1.4 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,129,Select State ,70000, 8314.32
+1.4 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,129,Select State ,80000, 9502.08
+1.4 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,129,Select State ,90000, 10689.84
+1.4 x 4 inch rectangle,White semigloss paper,Gloss lamination,1,Machine applied,129,Select State ,100000, 11877.60
+
+
+
