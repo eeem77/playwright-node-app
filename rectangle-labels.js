@@ -188,15 +188,15 @@ const quantitys = [
 ]
 
 const web = async () => {
-    // const browser = await chromium.launch({
-    //     proxy: {
-    //       server: '135.181.25.11:8080'
-    //       //username: 'usr',
-    //       //password: 'pwd'
-    //     }
-    // })
+    const browser = await chromium.launch({
+        proxy: {
+          server: '167.86.99.172:8080'
+          //username: 'usr',
+          //password: 'pwd'
+        }
+    })
     
-    const browser = await chromium.launch()
+    //const browser = await chromium.launch()
     const page = await browser.newPage()
     await page.goto('https://www.rivalbranding.com/rectangle-roll-labels-stock-sizes/', {timeout:300000})
     //page.setDefaultTimeout(150000)
@@ -204,7 +204,7 @@ const web = async () => {
 
     const options = await searchLen(form, 4)
     
-    await changeOneOptions(form, 0, 35) //size
+    await changeOneOptions(form, 0, 80) //size
     //console.log(options)
     for (let i = 0; i < options; i++) {
         await changeOneOptions(form, 4, i)
