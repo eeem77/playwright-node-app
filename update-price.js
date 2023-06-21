@@ -5,7 +5,7 @@ dotenv.config()
 import listPrice from './listPrice.js'
 
 const url = 'https://www.apprinting.com/admin/'
-const urlProductUpdatePrice = 'https://www.apprinting.com/admin/product_additionalinfo_price.php?product_id=3686&prod_add_opt_id=96092&sel_product_size=4243'
+const urlProductUpdatePrice = 'https://www.apprinting.com/admin/product_additionalinfo_price.php?product_id=3686&prod_add_opt_id=96092&sel_product_size=4246'
 
 const qtys = [
 100,
