@@ -1,12 +1,83 @@
+3.5" x 8.5",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,250,444.60
+3.5" x 8.5",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,500,470.00
+3.5" x 8.5",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,1000,520.80
+3.5" x 8.5",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,2500,781.20
+3.5" x 8.5",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,5000,1314.72
+3.5" x 8.5",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,10000,2559.64
+3.5" x 8.5",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,15000,3620.32
+3.5" x 8.5",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,20000,4731.80
+3.5" x 8.5",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,25000,5843.28
+
+
+
+3.5" x 8.5",14PT Uncoated,4/0 (4 color front),No Coating,Standard Die Cut,250,463.72
+3.5" x 8.5",14PT Uncoated,4/0 (4 color front),No Coating,Standard Die Cut,500,489.08
+3.5" x 8.5",14PT Uncoated,4/0 (4 color front),No Coating,Standard Die Cut,1000,546.20
+3.5" x 8.5",14PT Uncoated,4/0 (4 color front),No Coating,Standard Die Cut,2500,813.00
+3.5" x 8.5",14PT Uncoated,4/0 (4 color front),No Coating,Standard Die Cut,5000,1289.36
+3.5" x 8.5",14PT Uncoated,4/0 (4 color front),No Coating,Standard Die Cut,10000,2394.52
+3.5" x 8.5",14PT Uncoated,4/0 (4 color front),No Coating,Standard Die Cut,15000,3467.88
+3.5" x 8.5",14PT Uncoated,4/0 (4 color front),No Coating,Standard Die Cut,20000,4534.96
+3.5" x 8.5",14PT Uncoated,4/0 (4 color front),No Coating,Standard Die Cut,25000,5602.00
+
+
+
 3.5" x 8.5",16PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,250,455.72
 3.5" x 8.5",16PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,500,481.72
 3.5" x 8.5",16PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,1000,533.84
 3.5" x 8.5",16PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,2500,800.72
-3.5" x 8.5",16PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,5000,1,347.60
-3.5" x 8.5",16PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,10000,2,623.64
-3.5" x 8.5",16PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,15000,3,710.80
-3.5" x 8.5",16PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,20000,4,850.08
-3.5" x 8.5",16PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,25000,5,989.36
+3.5" x 8.5",16PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,5000,1347.60
+3.5" x 8.5",16PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,10000,2623.64
+3.5" x 8.5",16PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,15000,3710.80
+3.5" x 8.5",16PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,20000,4850.08
+3.5" x 8.5",16PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,25000,5989.36
+
+
+
+3.5" x 8.5",100LB Gloss Cover,4/0 (4 color front),Aqueous Coating,Standard Die Cut,500,457.32
+3.5" x 8.5",100LB Gloss Cover,4/0 (4 color front),Aqueous Coating,Standard Die Cut,1000,508.16
+3.5" x 8.5",100LB Gloss Cover,4/0 (4 color front),Aqueous Coating,Standard Die Cut,2500,755.84
+3.5" x 8.5",100LB Gloss Cover,4/0 (4 color front),Aqueous Coating,Standard Die Cut,5000,1276.68
+3.5" x 8.5",100LB Gloss Cover,4/0 (4 color front),Aqueous Coating,Standard Die Cut,10000,2489.76
+3.5" x 8.5",100LB Gloss Cover,4/0 (4 color front),Aqueous Coating,Standard Die Cut,15000,3613.96
+3.5" x 8.5",100LB Gloss Cover,4/0 (4 color front),Aqueous Coating,Standard Die Cut,20000,4712.80
+3.5" x 8.5",100LB Gloss Cover,4/0 (4 color front),Aqueous Coating,Standard Die Cut,25000,5805.24
+
+
+
+3.5" x 8.5",100LB Gloss Book,4/0 (4 color front),Aqueous Coating,Standard Die Cut,250,425.56
+3.5" x 8.5",100LB Gloss Book,4/0 (4 color front),Aqueous Coating,Standard Die Cut,500,444.60
+3.5" x 8.5",100LB Gloss Book,4/0 (4 color front),Aqueous Coating,Standard Die Cut,1000,495.44
+3.5" x 8.5",100LB Gloss Book,4/0 (4 color front),Aqueous Coating,Standard Die Cut,2500,711.32
+3.5" x 8.5",100LB Gloss Book,4/0 (4 color front),Aqueous Coating,Standard Die Cut,5000,997.16
+3.5" x 8.5",100LB Gloss Book,4/0 (4 color front),Aqueous Coating,Standard Die Cut,10000,1848.32
+3.5" x 8.5",100LB Gloss Book,4/0 (4 color front),Aqueous Coating,Standard Die Cut,15000,2673.96
+3.5" x 8.5",100LB Gloss Book,4/0 (4 color front),Aqueous Coating,Standard Die Cut,20000,3493.32
+3.5" x 8.5",100LB Gloss Book,4/0 (4 color front),Aqueous Coating,Standard Die Cut,25000,4318.96
+
+
+
+4" x 7",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,250,444.60
+4" x 7",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,500,470.00
+4" x 7",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,1000,520.80
+4" x 7",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,2500,781.20
+4" x 7",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,5000,1333.80
+4" x 7",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,10000,2565.96
+4" x 7",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,15000,3715.56
+4" x 7",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,20000,4865.16
+4" x 7",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,25000,6014.80
+
+
+
+4" x 7",14PT Uncoated,4/0 (4 color front),No Coating,Standard Die Cut,250,425.56
+4" x 7",14PT Uncoated,4/0 (4 color front),No Coating,Standard Die Cut,500,463.72
+4" x 7",14PT Uncoated,4/0 (4 color front),No Coating,Standard Die Cut,1000,546.20
+4" x 7",14PT Uncoated,4/0 (4 color front),No Coating,Standard Die Cut,2500,813.00
+4" x 7",14PT Uncoated,4/0 (4 color front),No Coating,Standard Die Cut,5000,1289.36
+4" x 7",14PT Uncoated,4/0 (4 color front),No Coating,Standard Die Cut,10000,2394.52
+4" x 7",14PT Uncoated,4/0 (4 color front),No Coating,Standard Die Cut,15000,3467.88
+4" x 7",14PT Uncoated,4/0 (4 color front),No Coating,Standard Die Cut,20000,4534.96
+4" x 7",14PT Uncoated,4/0 (4 color front),No Coating,Standard Die Cut,25000,5602.00
 
 
 
@@ -14,11 +85,58 @@
 4" x 7",16PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,500,481.72
 4" x 7",16PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,1000,533.84
 4" x 7",16PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,2500,800.72
-4" x 7",16PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,5000,1,367.12
-4" x 7",16PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,10000,2,630.12
-4" x 7",16PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,15000,3,808.48
-4" x 7",16PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,20000,4,986.80
-4" x 7",16PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,25000,6,165.20
+4" x 7",16PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,5000,1367.12
+4" x 7",16PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,10000,2630.12
+4" x 7",16PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,15000,3808.48
+4" x 7",16PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,20000,4986.80
+4" x 7",16PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,25000,6165.20
+
+
+
+4" x 7",100LB Gloss Cover,4/0 (4 color front),Aqueous Coating,Standard Die Cut,500,457.32
+4" x 7",100LB Gloss Cover,4/0 (4 color front),Aqueous Coating,Standard Die Cut,1000,508.16
+4" x 7",100LB Gloss Cover,4/0 (4 color front),Aqueous Coating,Standard Die Cut,2500,755.84
+4" x 7",100LB Gloss Cover,4/0 (4 color front),Aqueous Coating,Standard Die Cut,5000,1295.68
+4" x 7",100LB Gloss Cover,4/0 (4 color front),Aqueous Coating,Standard Die Cut,10000,2489.76
+4" x 7",100LB Gloss Cover,4/0 (4 color front),Aqueous Coating,Standard Die Cut,15000,3613.96
+4" x 7",100LB Gloss Cover,4/0 (4 color front),Aqueous Coating,Standard Die Cut,20000,4712.80
+4" x 7",100LB Gloss Cover,4/0 (4 color front),Aqueous Coating,Standard Die Cut,25000,5805.24
+
+
+
+4" x 7",100LB Gloss Book,4/0 (4 color front),Aqueous Coating,Standard Die Cut,250,422.36
+4" x 7",100LB Gloss Book,4/0 (4 color front),Aqueous Coating,Standard Die Cut,500,444.60
+4" x 7",100LB Gloss Book,4/0 (4 color front),Aqueous Coating,Standard Die Cut,1000,495.44
+4" x 7",100LB Gloss Book,4/0 (4 color front),Aqueous Coating,Standard Die Cut,2500,711.32
+4" x 7",100LB Gloss Book,4/0 (4 color front),Aqueous Coating,Standard Die Cut,5000,997.16
+4" x 7",100LB Gloss Book,4/0 (4 color front),Aqueous Coating,Standard Die Cut,10000,1848.32
+4" x 7",100LB Gloss Book,4/0 (4 color front),Aqueous Coating,Standard Die Cut,15000,2673.96
+4" x 7",100LB Gloss Book,4/0 (4 color front),Aqueous Coating,Standard Die Cut,20000,3493.32
+4" x 7",100LB Gloss Book,4/0 (4 color front),Aqueous Coating,Standard Die Cut,25000,4318.96
+
+
+
+4.25" x 11",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,250,527.20
+4.25" x 11",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,500,558.96
+4.25" x 11",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,1000,622.44
+4.25" x 11",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,2500,971.72
+4.25" x 11",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,5000,1587.92
+4.25" x 11",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,10000,3156.68
+4.25" x 11",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,15000,4509.52
+4.25" x 11",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,20000,5906.84
+4.25" x 11",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,25000,7291.44
+
+
+
+4.25" x 11",14PT Uncoated,4/0 (4 color front),No Coating,Standard Die Cut,250,628.80
+4.25" x 11",14PT Uncoated,4/0 (4 color front),No Coating,Standard Die Cut,500,660.52
+4.25" x 11",14PT Uncoated,4/0 (4 color front),No Coating,Standard Die Cut,1000,736.76
+4.25" x 11",14PT Uncoated,4/0 (4 color front),No Coating,Standard Die Cut,2500,1028.96
+4.25" x 11",14PT Uncoated,4/0 (4 color front),No Coating,Standard Die Cut,5000,1587.92
+4.25" x 11",14PT Uncoated,4/0 (4 color front),No Coating,Standard Die Cut,10000,2991.52
+4.25" x 11",14PT Uncoated,4/0 (4 color front),No Coating,Standard Die Cut,15000,4357.08
+4.25" x 11",14PT Uncoated,4/0 (4 color front),No Coating,Standard Die Cut,20000,5722.64
+4.25" x 11",14PT Uncoated,4/0 (4 color front),No Coating,Standard Die Cut,25000,7088.20
 
 
 
@@ -26,11 +144,82 @@
 4.25" x 11",16PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,500,572.92
 4.25" x 11",16PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,1000,638.00
 4.25" x 11",16PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,2500,996.04
-4.25" x 11",16PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,5000,1,627.60
-4.25" x 11",16PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,10000,3,235.56
-4.25" x 11",16PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,15000,4,622.24
-4.25" x 11",16PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,20000,6,054.52
-4.25" x 11",16PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,25000,7,473.72
+4.25" x 11",16PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,5000,1627.60
+4.25" x 11",16PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,10000,3235.56
+4.25" x 11",16PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,15000,4622.24
+4.25" x 11",16PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,20000,6054.52
+4.25" x 11",16PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,25000,7473.72
+
+
+
+4.25" x 11",100LB Gloss Cover,4/0 (4 color front),Aqueous Coating,Standard Die Cut,500,539.84
+4.25" x 11",100LB Gloss Cover,4/0 (4 color front),Aqueous Coating,Standard Die Cut,1000,603.40
+4.25" x 11",100LB Gloss Cover,4/0 (4 color front),Aqueous Coating,Standard Die Cut,2500,940.00
+4.25" x 11",100LB Gloss Cover,4/0 (4 color front),Aqueous Coating,Standard Die Cut,5000,1384.60
+4.25" x 11",100LB Gloss Cover,4/0 (4 color front),Aqueous Coating,Standard Die Cut,10000,2527.88
+4.25" x 11",100LB Gloss Cover,4/0 (4 color front),Aqueous Coating,Standard Die Cut,15000,3671.12
+4.25" x 11",100LB Gloss Cover,4/0 (4 color front),Aqueous Coating,Standard Die Cut,20000,4877.88
+4.25" x 11",100LB Gloss Cover,4/0 (4 color front),Aqueous Coating,Standard Die Cut,25000,6084.64
+
+
+
+4.25" x 11",100LB Gloss Book,4/0 (4 color front),Aqueous Coating,Standard Die Cut,250,501.76
+4.25" x 11",100LB Gloss Book,4/0 (4 color front),Aqueous Coating,Standard Die Cut,500,527.20
+4.25" x 11",100LB Gloss Book,4/0 (4 color front),Aqueous Coating,Standard Die Cut,1000,590.68
+4.25" x 11",100LB Gloss Book,4/0 (4 color front),Aqueous Coating,Standard Die Cut,2500,851.08
+4.25" x 11",100LB Gloss Book,4/0 (4 color front),Aqueous Coating,Standard Die Cut,5000,1181.36
+4.25" x 11",100LB Gloss Book,4/0 (4 color front),Aqueous Coating,Standard Die Cut,10000,2203.96
+4.25" x 11",100LB Gloss Book,4/0 (4 color front),Aqueous Coating,Standard Die Cut,15000,3201.08
+4.25" x 11",100LB Gloss Book,4/0 (4 color front),Aqueous Coating,Standard Die Cut,20000,4192.00
+4.25" x 11",100LB Gloss Book,4/0 (4 color front),Aqueous Coating,Standard Die Cut,25000,5182.80
+
+
+
+
+4.25" x 14",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,250,1025.76
+4.25" x 14",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,500,1086.12
+4.25" x 14",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,1000,1206.76
+4.25" x 14",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,2500,1829.20
+4.25" x 14",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,5000,2883.52
+4.25" x 14",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,10000,5487.64
+4.25" x 14",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,15000,7844.04
+4.25" x 14",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,20000,10454.44
+4.25" x 14",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,25000,12385.36
+
+
+
+4.25" x 14",16PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,250,1051.40
+4.25" x 14",16PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,500,1113.24
+4.25" x 14",16PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,1000,1236.92
+4.25" x 14",16PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,2500,1874.92
+4.25" x 14",16PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,5000,2955.64
+4.25" x 14",16PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,10000,5624.80
+4.25" x 14",16PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,15000,8040.12
+4.25" x 14",16PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,20000,10715.80
+4.25" x 14",16PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,25000,12695.00
+
+
+
+4.25" x 14",100LB Gloss Cover,4/0 (4 color front),Aqueous Coating,Standard Die Cut,500,1054.32
+4.25" x 14",100LB Gloss Cover,4/0 (4 color front),Aqueous Coating,Standard Die Cut,1000,1168.64
+4.25" x 14",100LB Gloss Cover,4/0 (4 color front),Aqueous Coating,Standard Die Cut,2500,1772.04
+4.25" x 14",100LB Gloss Cover,4/0 (4 color front),Aqueous Coating,Standard Die Cut,5000,2508.84
+4.25" x 14",100LB Gloss Cover,4/0 (4 color front),Aqueous Coating,Standard Die Cut,10000,3556.80
+4.25" x 14",100LB Gloss Cover,4/0 (4 color front),Aqueous Coating,Standard Die Cut,15000,5201.84
+4.25" x 14",100LB Gloss Cover,4/0 (4 color front),Aqueous Coating,Standard Die Cut,20000,6681.72
+4.25" x 14",100LB Gloss Cover,4/0 (4 color front),Aqueous Coating,Standard Die Cut,25000,7971.04
+
+
+
+4.25" x 14",100LB Gloss Book,4/0 (4 color front),Aqueous Coating,Standard Die Cut,250,971.72
+4.25" x 14",100LB Gloss Book,4/0 (4 color front),Aqueous Coating,Standard Die Cut,500,990.84
+4.25" x 14",100LB Gloss Book,4/0 (4 color front),Aqueous Coating,Standard Die Cut,1000,1016.24
+4.25" x 14",100LB Gloss Book,4/0 (4 color front),Aqueous Coating,Standard Die Cut,2500,1333.80
+4.25" x 14",100LB Gloss Book,4/0 (4 color front),Aqueous Coating,Standard Die Cut,5000,1625.96
+4.25" x 14",100LB Gloss Book,4/0 (4 color front),Aqueous Coating,Standard Die Cut,10000,3099.52
+4.25" x 14",100LB Gloss Book,4/0 (4 color front),Aqueous Coating,Standard Die Cut,15000,4242.72
+4.25" x 14",100LB Gloss Book,4/0 (4 color front),Aqueous Coating,Standard Die Cut,20000,5386.04
+4.25" x 14",100LB Gloss Book,4/0 (4 color front),Aqueous Coating,Standard Die Cut,25000,6529.28
 
 
 

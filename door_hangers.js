@@ -1,5 +1,7 @@
 import { chromium, firefox, webkit } from 'playwright'
 import fs from 'fs'
+import * as dotenv from 'dotenv'
+dotenv.config()
 
 const formBase = async (page, form) => {
     let clickList = 2
@@ -192,8 +194,8 @@ const login = async (page) => {
     const pass = await page.$('#pdp-login-pass')
     const btn = await page.$('#send4')
     
-    await email.fill('linda@ap-printing.com')
-    await pass.fill('Latino_123')
+    await email.fill(process.env.LOGIN_USER_4OVER)
+    await pass.fill(process.env.LOGIN_KEY_4OVER)
     await btn.click()
 
     await page.waitForSelector('#attribute211', { state: 'visible' })
@@ -227,14 +229,21 @@ const web = async () => {
     
     
 
-    const loop = ['3.5" x 8.5"', '4" x 7"', '4.25" x 11"', '4.25" x 14"']
+    const loop = ['14PT C2S', '16PT C2S', '100LB Gloss Cover', '100LB Gloss Book']
 
-    for (let i = 0; i < 4; i++) {
+    for (let i = 0; i <= 4; i++) {
+        let flag = 'UV Coating Front Only'
+        if (loop[i] === '100LB Gloss Cover' || loop[i] === '100LB Gloss Book') {
+            flag = 'Aqueous Coating'
+        } 
+        if (loop[i] === '14PT Uncoated') {
+            flag = 'No Coating'
+        }
         labelArray = []
-        await changeOption(page, '#attribute211', loop[i])
-        await changeOption(page, '#attribute197', '16PT C2S')
+        await changeOption(page, '#attribute211', '4.25" x 14"')
+        await changeOption(page, '#attribute197', loop[i])
         await changeOption(page, '#attribute204', '4/0 (4 color front)')
-        await changeOption(page, '#attribute199', 'UV Coating Front Only')
+        await changeOption(page, '#attribute199', flag)
         await changeOption(page, '#attribute215', 'Standard Die Cut')
         
         if(i === 0){
@@ -252,11 +261,12 @@ const web = async () => {
 
         const markupPrice = await page.$$eval('.markup-price', node => node.map(n => n.innerText))
         const markupPriceClean = markupPrice.filter(price => price != 'Markup Price\n%')
+        
 
         //print data
-        for(let i = 0; i < 9; i++) {
+        for(let i = 0; i < runsize.length; i++) {
             let nodo = labelArray
-            let data = [... nodo, runsize[i], markupPriceClean[i]]
+            let data = [... nodo, runsize[i], markupPriceClean[i].replace(',','')]
             fs.appendFileSync(`list.txt`, data.toString() + '\n')
         }
         fs.appendFileSync(`list.txt`, '\n\n\n')
