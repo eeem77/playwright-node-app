@@ -229,21 +229,22 @@ const web = async () => {
     
     
 
-    const loop = ['14PT C2S', '16PT C2S', '100LB Gloss Cover', '100LB Gloss Book']
+    const loop = ['UV on 4-color side', 'UV Coating Front Only', 'Satin Aqueous', 'Aqueous Coating']
+    //const loop = ['UV on 4-color side', 'UV Coating Front Only']
 
-    for (let i = 0; i <= 4; i++) {
-        let flag = 'UV Coating Front Only'
-        if (loop[i] === '100LB Gloss Cover' || loop[i] === '100LB Gloss Book') {
-            flag = 'Aqueous Coating'
-        } 
-        if (loop[i] === '14PT Uncoated') {
-            flag = 'No Coating'
-        }
+    for (let i = 0; i < 4; i++) {
+        // let flag = 'UV Coating Front Only'
+        // if (loop[i] === '100LB Gloss Cover' || loop[i] === '100LB Gloss Book') {
+        //     flag = 'Aqueous Coating'
+        // } 
+        // if (loop[i] === '14PT Uncoated') {
+        //     flag = 'No Coating'
+        // }
         labelArray = []
         await changeOption(page, '#attribute211', '4.25" x 14"')
-        await changeOption(page, '#attribute197', loop[i])
+        await changeOption(page, '#attribute197', '16PT C2S')
         await changeOption(page, '#attribute204', '4/0 (4 color front)')
-        await changeOption(page, '#attribute199', flag)
+        await changeOption(page, '#attribute199', loop[i])
         await changeOption(page, '#attribute215', 'Standard Die Cut')
         
         if(i === 0){
