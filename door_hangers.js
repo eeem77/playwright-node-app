@@ -229,10 +229,10 @@ const web = async () => {
     
     
 
-    const loop = ['UV on 4-color side', 'UV Coating Front Only', 'Satin Aqueous', 'Aqueous Coating']
+    const loop = ['Standard Die Cut', 'Starburst Die Cut', 'Arch Die Cut']
     //const loop = ['UV on 4-color side', 'UV Coating Front Only']
 
-    for (let i = 0; i < 4; i++) {
+    for (let i = 0; i < 3; i++) {
         // let flag = 'UV Coating Front Only'
         // if (loop[i] === '100LB Gloss Cover' || loop[i] === '100LB Gloss Book') {
         //     flag = 'Aqueous Coating'
@@ -244,8 +244,8 @@ const web = async () => {
         await changeOption(page, '#attribute211', '4.25" x 14"')
         await changeOption(page, '#attribute197', '16PT C2S')
         await changeOption(page, '#attribute204', '4/0 (4 color front)')
-        await changeOption(page, '#attribute199', loop[i])
-        await changeOption(page, '#attribute215', 'Standard Die Cut')
+        await changeOption(page, '#attribute199', 'UV Coating Front Only')
+        await changeOption(page, '#attribute215', loop[i])
         
         if(i === 0){
             //actions moore
