@@ -34,7 +34,7 @@ const formBase = async (page, form) => {
 
 const writeList = async (form) => {
     const buttonsLabel = await form.$$eval('button.btn.dropdown-toggle.val-wrap', node => node.map(n => n.innerText))
-    const price = await form.$eval('.ng-binding.subtotal-price', node => node.innerText)
+    const price = await form.$eval('#price', node => node.innerText)
     const priceSubtotal = await price.replace(',', '')
     const priceTotal = await priceSubtotal.replace('$', '')
     await buttonsLabel.push(priceTotal)
@@ -43,7 +43,7 @@ const writeList = async (form) => {
 
 const writeListTotal = async (form) => {
     const buttonsLabel = await form.$$eval('button.btn.dropdown-toggle.val-wrap', node => node.map(n => n.innerText))
-    const price = await form.$eval('.ng-binding.subtotal-price', node => node.innerText)
+    const price = await form.$eval('#price', node => node.innerText)
     const priceSubtotal = await price.replace(',', '')
     const priceTotal = await priceSubtotal.replace('$', '')
     await buttonsLabel.push(priceTotal)
@@ -51,10 +51,12 @@ const writeListTotal = async (form) => {
 }
 
 const openList = async (form, button) => {
-    const buttons = await form.$$('button.btn.dropdown-toggle')
+    const buttons = await form.$$('.btn.dropdown-toggle')
+    //console.log(buttons);
     await buttons[button].click()
-    const menu = await form.$('div.site-dropdown.dropdown.expanded')
-    const menuBtn = await menu.$$('a.val-wrap.ng-scope')
+    const menu = await form.$('.dropdown-menu.menu-parent')
+    const menuBtn = await menu.$$('a.attr-value.val-wrap')
+    console.log(menuBtn);
     console.log('Working');
     return menuBtn
 }
@@ -63,28 +65,28 @@ const changeOptions = async (page, form, button) => {
     const menuBtn = await openList(form, button)
     for (let i = 0; i < menuBtn.length; i++){
         switch (i) {
-            case 0:
-            break
-            case 1:
-            break
-            case 2:
-            break
+            // case 0:
+            // break
+            // case 1:
+            // break
+            // case 2:
+            // break
             // case 3:
             // break
             // case 4:
             // break
             // case 5:
             // break
-            case 3:
+            case 0:
                 await menuBtn[i].click()
-                await form.waitForSelector('.ng-binding.subtotal-price', { state: 'attached' })
+                await form.waitForSelector('#price', { state: 'visible' })
                 //await page.waitForTimeout(5000)
                 await writeList(form)
             break          
             default:
                 const menuBtnDefault= await openList(form, button)
                 await menuBtnDefault[i].click()
-                await form.waitForSelector('.ng-binding.subtotal-price', { state: 'attached' })
+                await form.waitForSelector('#price', { state: 'visible' })
                 //await page.waitForTimeout(5000)
                 await writeList(form)
             break
@@ -95,8 +97,8 @@ const changeOptions = async (page, form, button) => {
 const changeOneOptions = async (page, form, button, option) => {
     const menuBtn = await openList(form, button)
     await menuBtn[option].click()
-    await form.waitForSelector('.ng-binding.subtotal-price', { state: 'attached' })
-    //await page.waitForTimeout(5000)
+    await form.waitForSelector('#price', { state: 'visible' })
+    //await page.waitForTimeout(20000)
 }
 
 const changeTwoOptions = async (page, form, button, option, buttonTwo, optionTwo) => {
@@ -105,13 +107,13 @@ const changeTwoOptions = async (page, form, button, option, buttonTwo, optionTwo
             case 0:
                 const menuBtn = await openList(form, button)
                 await menuBtn[option].click()
-                await form.waitForSelector('.ng-binding.subtotal-price', { state: 'attached' })
+                await form.waitForSelector('#price', { state: 'visible' })
                 //await page.waitForTimeout(5000)
             break;
             case 1:
                 const menuBtnElse = await openList(form, buttonTwo)
                 await menuBtnElse[optionTwo].click()
-                await form.waitForSelector('.ng-binding.subtotal-price', { state: 'attached' })
+                await form.waitForSelector('#price', { state: 'visible' })
                 //await page.waitForTimeout(5000)
             break;
         }
@@ -127,19 +129,19 @@ const changeThreeOptions = async (page, form, button, option, buttonTwo, optionT
             case 0:
                 const menuBtn = await openList(form, button)
                 await menuBtn[option].click()
-                await form.waitForSelector('.ng-binding.subtotal-price', { state: 'attached' })
+                await form.waitForSelector('#price', { state: 'visible' })
                 //await page.waitForTimeout(5000)
                 break
             case 1:
                 const menuBtnTwo = await openList(form, buttonTwo)
                 await menuBtnTwo[optionTwo].click()
-                await form.waitForSelector('.ng-binding.subtotal-price', { state: 'attached' })
+                await form.waitForSelector('#price', { state: 'visible' })
                 //await page.waitForTimeout(5000)
                 break
             case 2:
                 const menuBtnThree = await openList(form, buttonThree)
                 await menuBtnThree[optionThree].click()
-                await form.waitForSelector('.ng-binding.subtotal-price', { state: 'attached' })
+                await form.waitForSelector('#price', { state: 'visible' })
                 //await page.waitForTimeout(5000)
                 break
         }
@@ -156,15 +158,15 @@ const bindingElementsOptions = async (page, form, option) => {
 const searchLen = async (page, form, option) => {
     const menuBtn = await openList(form, option)
     await menuBtn[0].click()
-    await form.waitForSelector('.ng-binding.subtotal-price', { state: 'attached' })
+    await form.waitForSelector('#price', { state: 'visible' })
     return menuBtn.length
 }
 
 const web = async () => {
-    const browser = await chromium.launch()
+    const browser = await firefox.launch()
     const page = await browser.newPage()
-    await page.goto('https://www.uprinting.com/standard-postcard-printing.html?aind=prod_up_products&aqid=f671b45b0c490500b647a1c717c1b93e&aoid=eb7880b560987090e1d8b381587f02a6740bfe43a9825fadd7626c89ecaeb880&apos=1&aut=3c3b1ac8-f8d6-11ed-8d65-0242ac110002-1684783453&asrc=lookahead&akywd=posca&stype=algolia&mdl=products', {timeout:150000})
-    const form = await page.$('#product_calculator_form')
+    await page.goto('https://www.uprinting.com/dine-in-menu-printing.html?aind=prod_up_products&aqid=9107c71c0158d1a6749385080799b18a&aoid=fc350edfe0a29b0836717f62dc57bf1187a87baef5a0dcde64b3a49b0f6f6d16&apos=1&aut=0a9e66a4-263b-11ee-96b5-0242ac110004-1689774551&asrc=results_page&akywd=menu&stype=algolia&mdl=products', {timeout:150000})
+    const form = await page.$('.calculator-product-region')
     
     
     // for (let index = 10; index <= 10; index++) {
@@ -183,11 +185,12 @@ const web = async () => {
     // const service = await form.$('.checkbox-icon-override')
     // await service.click()
     //for(let i = 6; i <= 8; i++){
-        for(let a = 3; a <= 3; a++){
-            await changeTwoOptions(page, form, 0, a, 4, 1)
-            await changeOptions(page, form, 6)
+        for(let a = 0; a <= 4; a++){
+            await changeOneOptions(page, form, 0, a)
+            console.log('terminado');
+            //await changeOptions(page, form, 5)
             //await changeOneOptions(page, form, 5, 0)
-            fs.appendFileSync(`list.txt`, '\n\n\n')
+           // fs.appendFileSync(`list.txt`, '\n\n\n')
         }
     //}
     // for (let i = 10; i <= 11; i++){
