@@ -50,13 +50,14 @@ const writeListTotal = async (form) => {
     fs.appendFileSync(`list.txt`, buttonsLabel.toString() + '\n')
 }
 
-const openList = async (form, button) => {
-    const buttons = await form.$$('.btn.dropdown-toggle')
-    //console.log(buttons);
+const openList = async (page, form, button) => {
+    const buttons = await page.$$('.btn.dropdown-toggle')
     await buttons[button].click()
-    const menu = await form.$('.dropdown-menu.menu-parent')
+    await page.waitForTimeout(10000)
+    //await page.waitForSelector('.btn.dropdown-toggle.val-wrap.active', { state: 'visible' })
+    //await page.screenshot({path:'./eeem77.png'})
+    const menu = await page.$('.dropdown-menu.menu-parent')
     const menuBtn = await menu.$$('a.attr-value.val-wrap')
-    console.log(menuBtn);
     console.log('Working');
     return menuBtn
 }
@@ -96,8 +97,9 @@ const changeOptions = async (page, form, button) => {
 
 const changeOneOptions = async (page, form, button, option) => {
     const menuBtn = await openList(form, button)
+    //console.log('esto es lo que viene de la segunda funcion -----> ', menuBtn);
     await menuBtn[option].click()
-    await form.waitForSelector('#price', { state: 'visible' })
+    //await form.waitForSelector('#price', { state: 'visible' })
     //await page.waitForTimeout(20000)
 }
 
@@ -163,11 +165,20 @@ const searchLen = async (page, form, option) => {
 }
 
 const web = async () => {
-    const browser = await firefox.launch()
+    const browser = await chromium.launch()
     const page = await browser.newPage()
-    await page.goto('https://www.uprinting.com/dine-in-menu-printing.html?aind=prod_up_products&aqid=9107c71c0158d1a6749385080799b18a&aoid=fc350edfe0a29b0836717f62dc57bf1187a87baef5a0dcde64b3a49b0f6f6d16&apos=1&aut=0a9e66a4-263b-11ee-96b5-0242ac110004-1689774551&asrc=results_page&akywd=menu&stype=algolia&mdl=products', {timeout:150000})
-    const form = await page.$('.calculator-product-region')
+    await page.goto('https://www.uprinting.com/dine-in-menu-printing.html', {timeout:150000})
+    const form = await page.$('div.calculator-shipping-container')
     
+
+    const prueba = await openList(page, form, 0)
+    // await form.waitForSelector('.attr-value.val-wrap', { state: 'visible' })
+    // await prueba[1].click()
+
+
+    console.log(prueba.length);
+    // await changeOneOptions(page, form, 0, 0)
+    // console.log('terminado');
     
     // for (let index = 10; index <= 10; index++) {
     //     await changeOneOptions(page, form, 2, index)
@@ -185,13 +196,13 @@ const web = async () => {
     // const service = await form.$('.checkbox-icon-override')
     // await service.click()
     //for(let i = 6; i <= 8; i++){
-        for(let a = 0; a <= 4; a++){
-            await changeOneOptions(page, form, 0, a)
-            console.log('terminado');
-            //await changeOptions(page, form, 5)
-            //await changeOneOptions(page, form, 5, 0)
-           // fs.appendFileSync(`list.txt`, '\n\n\n')
-        }
+        // for(let a = 0; a <= 4; a++){
+        //     await changeOneOptions(page, form, 0, a)
+        //     console.log('terminado');
+        //     //await changeOptions(page, form, 5)
+        //     //await changeOneOptions(page, form, 5, 0)
+        //    // fs.appendFileSync(`list.txt`, '\n\n\n')
+        // }
     //}
     // for (let i = 10; i <= 11; i++){
     //     for( let a = 1; a <= 2; a++){
