@@ -32,19 +32,21 @@ const formBase = async (page, form) => {
 //     await collapse[2].click()
 // }
 
-const writeList = async (page) => {
-    const buttonsLabel = await page.$$eval('.dropdown-toggle-label', node => node.map(n => n.innerText))
-    console.log(buttonsLabel);
-    const price = await page.$eval('#price', node => node.innerText)
+const writeList = async (page, qty) => {
+    const buttonsLabel = await page.$$eval('.single-prod-optn', node => node.map(n => n.innerText))
+    const priceInit = await page.$('[name="TotalWithQD"]')
+    const price = await priceInit.inputValue()
     const priceSubtotal = await price.replace(',', '')
     const priceTotal = await priceSubtotal.replace('$', '')
+    await buttonsLabel.push(qty)
     await buttonsLabel.push(priceTotal)
     fs.appendFileSync(`list.txt`, buttonsLabel.toString() + '\n')
 }
 
 const writeListTotal = async (form) => {
     const buttonsLabel = await form.$$eval('button.btn.dropdown-toggle.val-wrap', node => node.map(n => n.innerText))
-    const price = await form.$eval('.compute-price-loader.hidden', node => node.innerText)
+    const priceInit = await page.$('[name="TotalWithQD"]')
+    const price = price.inputValue()
     const priceSubtotal = await price.replace(',', '')
     const priceTotal = await priceSubtotal.replace('$', '')
     await buttonsLabel.push(priceTotal)
@@ -67,7 +69,8 @@ const changeOptions = async (page, form, button) => {
             // case 3:
             // break
             // case 4:
-            // break
+            // breakprice
+
             // case 5:
             // break
             case 0:
@@ -170,6 +173,29 @@ const dropLinks = async (page, button) => {
     return menuBtn
 }
 
+const qtys = [
+    // '50',
+    //'100',
+    '250',
+    '500',
+    '1000',
+    '1500',
+    '2000',
+    '2500',
+    '5000',
+    '6000',
+    '7000',
+    '8000',
+    '9000',
+    '10000'
+]
+
+const changeData = [
+    'Upload Print Ready PDF (after order placed)',
+    'Design From Concept'
+    //'We Design it'
+]
+
 const web = async () => {
     // const browser = await chromium.launch({
     //     proxy: {
@@ -180,17 +206,35 @@ const web = async () => {
     // })
     const browser = await chromium.launch()
     const page = await browser.newPage()
-    await page.goto('https://www.uprinting.com/dine-in-menu-printing.html', {timeout:150000})
+    await page.goto('https://www.printpapa.com/eshop/pc/Fold-Over-Business-Cards-3-5x4-3-5x2-588p2665.htm')
+
+    // const options = await page.$$eval('.single-prod-optn', node => node.map(n => n.innerText))
+    // console.log(options)
+    // const price = await page.$('[name="TotalWithQD"]')
+    
+    // console.log(await price.inputValue());
+    const quantity = await page.$('[name="quantity"]')
+
+    for (let a = 0; a < changeData.length; a++) {
+        const change = await page.$('#CAG150')
+        await change.selectOption(changeData[a])
+    
+        for (let i = 0; i < qtys.length; i++){
+            await quantity.selectOption(qtys[i])
+            await writeList(page, qtys[i])
+        }
+        fs.appendFileSync(`list.txt`, '\n\n\n')
+    }
     //const form = await page.$('#product_calculator_wrapper')
     // const prueba = await page.$$eval('.dropdown-toggle-label', node => node.map(n => n.innerText))
     // console.log(prueba);
     //await changeOneOptions(form, 0, 1)
-    const links = await dropLinks(page, 0)
-    await links[2].click()
-    await page.waitForTimeout(5000)
+    //const links = await dropLinks(page, 0)
+    //await links[2].click()
+    //await page.waitForTimeout(5000)
     //await page.waitForSelector('#price', { state: 'visible' })
-    await writeList(page)
-    console.log(links.length);
+    //await writeList(page)
+    //console.log(links.length);
     // const openClick = open[2]
     // await openClick.click()
     // await page.waitForTimeout(5000)

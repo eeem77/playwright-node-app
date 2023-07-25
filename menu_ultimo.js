@@ -32,10 +32,9 @@ const formBase = async (page, form) => {
 //     await collapse[2].click()
 // }
 
-const writeList = async (page) => {
-    const buttonsLabel = await page.$$eval('.dropdown-toggle-label', node => node.map(n => n.innerText))
-    console.log(buttonsLabel);
-    const price = await page.$eval('#price', node => node.innerText)
+const writeList = async (form) => {
+    const buttonsLabel = await form.$$eval('btn.dropdown-toggle.val-wrap ', node => node.map(n => n.innerText))
+    const price = await form.$eval('#price', node => node.innerText)
     const priceSubtotal = await price.replace(',', '')
     const priceTotal = await priceSubtotal.replace('$', '')
     await buttonsLabel.push(priceTotal)
@@ -43,19 +42,25 @@ const writeList = async (page) => {
 }
 
 const writeListTotal = async (form) => {
-    const buttonsLabel = await form.$$eval('button.btn.dropdown-toggle.val-wrap', node => node.map(n => n.innerText))
-    const price = await form.$eval('.compute-price-loader.hidden', node => node.innerText)
+    const buttonsLabel = await form.$$eval('btn.dropdown-toggle.val-wrap ', node => node.map(n => n.innerText))
+    const price = await form.$eval('#price', node => node.innerText)
     const priceSubtotal = await price.replace(',', '')
     const priceTotal = await priceSubtotal.replace('$', '')
     await buttonsLabel.push(priceTotal)
     fs.appendFileSync(`list.txt`, buttonsLabel.toString() + '\n')
 }
 
-
+const openList = async (form, button) => {
+    const buttons = await form.$$('btn.dropdown-toggle.val-wrap ')
+    await buttons[button].click()
+    const menu = await form.$('.site-dropdown.site-dropdown-group.dropdown.expanded')
+    const menuBtn = await menu.$$('a.attr-value.val-wrap')
+    console.log('Working');
+    return menuBtn
+}
 
 const changeOptions = async (page, form, button) => {
-    const menuBtn = await openList(page, form, button)
-    //await page.waitForTimeout(5000)
+    const menuBtn = await openList(form, button)
     for (let i = 0; i < menuBtn.length; i++){
         switch (i) {
             // case 0:
@@ -72,26 +77,26 @@ const changeOptions = async (page, form, button) => {
             // break
             case 0:
                 await menuBtn[i].click()
-                //await form.waitForSelector('.compute-price-loader.hidden', { state: 'hidden' })
-                await page.waitForTimeout(10000)
-                console.log('EEEM77')
-                await writeList(page)
+                await form.waitForSelector('.compute-price-loader.hidden', { state: 'attached' })
+                //await page.waitForTimeout(5000)
+                await writeList(form)
             break          
             default:
-                const menuBtnDefault= await openList(page, form, button)
+                const menuBtnDefault= await openList(form, button)
                 await menuBtnDefault[i].click()
-                //await form.waitForSelector('.compute-price-loader.hidden', { state: 'hidden' })
-                await page.waitForTimeout(5000)
-                await writeList(page)
+                await form.waitForSelector('.compute-price-loader.hidden', { state: 'attached' })
+                //await page.waitForTimeout(5000)
+                await writeList(form)
             break
         }
     }
 }
 
-const changeOneOptions = async (page, button, option) => {
-    const menuBtn = await openList(page, button)
-    const optionFinal = menuBtn[option]
-    await optionFinal.click()
+const changeOneOptions = async (page, form, button, option) => {
+    const menuBtn = await openList(form, button)
+    await menuBtn[option].click()
+    await form.waitForSelector('.compute-price-loader.hidden', { state: 'attached' })
+    //await page.waitForTimeout(5000)
 }
 
 const changeTwoOptions = async (page, form, button, option, buttonTwo, optionTwo) => {
@@ -100,13 +105,13 @@ const changeTwoOptions = async (page, form, button, option, buttonTwo, optionTwo
             case 0:
                 const menuBtn = await openList(form, button)
                 await menuBtn[option].click()
-                await form.waitForSelector('.compute-price-loader.hidden', { state: 'hidden' })
+                await form.waitForSelector('.compute-price-loader.hidden', { state: 'attached' })
                 //await page.waitForTimeout(5000)
             break;
             case 1:
                 const menuBtnElse = await openList(form, buttonTwo)
                 await menuBtnElse[optionTwo].click()
-                await form.waitForSelector('.compute-price-loader.hidden', { state: 'hidden' })
+                await form.waitForSelector('.compute-price-loader.hidden', { state: 'attached' })
                 //await page.waitForTimeout(5000)
             break;
         }
@@ -122,19 +127,19 @@ const changeThreeOptions = async (page, form, button, option, buttonTwo, optionT
             case 0:
                 const menuBtn = await openList(form, button)
                 await menuBtn[option].click()
-                await form.waitForSelector('.compute-price-loader.hidden', { state: 'hidden' })
+                await form.waitForSelector('.compute-price-loader.hidden', { state: 'attached' })
                 //await page.waitForTimeout(5000)
                 break
             case 1:
                 const menuBtnTwo = await openList(form, buttonTwo)
                 await menuBtnTwo[optionTwo].click()
-                await form.waitForSelector('.compute-price-loader.hidden', { state: 'hidden' })
+                await form.waitForSelector('.compute-price-loader.hidden', { state: 'attached' })
                 //await page.waitForTimeout(5000)
                 break
             case 2:
                 const menuBtnThree = await openList(form, buttonThree)
                 await menuBtnThree[optionThree].click()
-                await form.waitForSelector('.compute-price-loader.hidden', { state: 'hidden' })
+                await form.waitForSelector('.compute-price-loader.hidden', { state: 'attached' })
                 //await page.waitForTimeout(5000)
                 break
         }
@@ -151,78 +156,17 @@ const bindingElementsOptions = async (page, form, option) => {
 const searchLen = async (page, form, option) => {
     const menuBtn = await openList(form, option)
     await menuBtn[0].click()
-    await form.waitForSelector('.compute-price-loader.hidden', { state: 'hidden' })
+    await form.waitForSelector('.compute-price-loader.hidden', { state: 'attached' })
     return menuBtn.length
 }
 
-const dropLinks = async (page, button) => {
-    const buttons = await page.$$('.dropdown-toggle-label')
-    await buttons[button].click()
-    await page.waitForTimeout(1000)
-    //await page.waitForSelector('.expanded', { state: 'visible' })
-    //await page.screenshot({path:'./eeem77.png'})
-    //const menu = await page.$('.site-dropdown.site-dropdown-group.dropdown.expanded')
-    //const menu = await page.$('.dropdown-menu.menu-parent')
-    const menuBtn = await page.$$('a.attr-value.val-wrap')
-    const menuBtnLabel = await page.$$eval('a.attr-value.val-wrap', node => node.map(n => n.innerText))
-    console.log('Working');
-    // console.log(menuBtn);
-    return menuBtn
-}
-
 const web = async () => {
-    // const browser = await chromium.launch({
-    //     proxy: {
-    //       server: '80.228.235.6:80'
-    //       //username: 'usr',
-    //       //password: 'pwd'
-    //     }
-    // })
     const browser = await chromium.launch()
     const page = await browser.newPage()
     await page.goto('https://www.uprinting.com/dine-in-menu-printing.html', {timeout:150000})
-    //const form = await page.$('#product_calculator_wrapper')
-    // const prueba = await page.$$eval('.dropdown-toggle-label', node => node.map(n => n.innerText))
-    // console.log(prueba);
-    //await changeOneOptions(form, 0, 1)
-    const links = await dropLinks(page, 0)
-    await links[2].click()
-    await page.waitForTimeout(5000)
-    //await page.waitForSelector('#price', { state: 'visible' })
-    await writeList(page)
-    console.log(links.length);
-    // const openClick = open[2]
-    // await openClick.click()
-    // await page.waitForTimeout(5000)
-    //await page.waitForSelector('.compute-price-loader.hidden', { state: 'hidden' })
-    // console.log(open.length);
-    //await form.screenshot({path:'./eeem77.png'})
-    //await changeOneOptions(page, 0, 1)
-    //await writeList(page)
- 
-    //const options = await openList(page, 1)
-    // for(let i = 0; i < 5; i++){
-    //     await writeList(page)
-    //     await changeOneOptions(page, 5, i)
-    //     //fs.appendFileSync(`list.txt`, '\n\n\n')
-    // }
-    // await changeOptions(page, form, 5)
-
-
-    // for (let i = 0; i < 5; i++){
-    //     
-    //     
-    //     fs.appendFileSync(`list.txt`, '\n\n\n')
-    //     console.log('finn de ciclo');
-    // }
-    //const prueba = await openList(page, form, 0)
-    // await form.waitForSelector('.attr-value.val-wrap', { state: 'hidden' })
-    // await prueba[1].click()
-
-
-    //console.log(prueba.length);
-    // await changeOneOptions(page, form, 0, 0)
-    // console.log('terminado');
+    const form = await page.$('#product_calculator_wrapper')
+    
+    await changeOneOptions(page, form, 0, 3)
     
     // for (let index = 10; index <= 10; index++) {
     //     await changeOneOptions(page, form, 2, index)
@@ -240,13 +184,6 @@ const web = async () => {
     // const service = await form.$('.checkbox-icon-override')
     // await service.click()
     //for(let i = 6; i <= 8; i++){
-        // for(let a = 0; a <= 4; a++){
-        //     await changeOneOptions(page, form, 0, a)
-        //     console.log('terminado');
-        //     //await changeOptions(page, form, 5)
-        //     //await changeOneOptions(page, form, 5, 0)
-        //    // fs.appendFileSync(`list.txt`, '\n\n\n')
-        // }
     //}
     // for (let i = 10; i <= 11; i++){
     //     for( let a = 1; a <= 2; a++){
