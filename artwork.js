@@ -174,8 +174,8 @@ const dropLinks = async (page, button) => {
 }
 
 const qtys = [
-    // '50',
-    //'100',
+    '50',
+    '100',
     '250',
     '500',
     '1000',
@@ -192,8 +192,8 @@ const qtys = [
 
 const changeData = [
     'Upload Print Ready PDF (after order placed)',
+    'Simple Typesetting',
     'Design From Concept'
-    //'We Design it'
 ]
 
 const web = async () => {
@@ -206,7 +206,7 @@ const web = async () => {
     // })
     const browser = await chromium.launch()
     const page = await browser.newPage()
-    await page.goto('https://www.printpapa.com/eshop/pc/Fold-Over-Business-Cards-3-5x4-3-5x2-588p2665.htm')
+    await page.goto('https://www.printpapa.com/eshop/pc/Kraft-Business-Cards-894p13190.htm')
 
     // const options = await page.$$eval('.single-prod-optn', node => node.map(n => n.innerText))
     // console.log(options)
