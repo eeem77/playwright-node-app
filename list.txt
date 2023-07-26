@@ -1,51 +1,30 @@
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Upload Print Ready PDF (after order placed),Select an option,3 Business Days,50,17.06
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Upload Print Ready PDF (after order placed),Select an option,3 Business Days,100,19.88
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Upload Print Ready PDF (after order placed),Select an option,3 Business Days,250,26.45
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Upload Print Ready PDF (after order placed),Select an option,3 Business Days,500,39.02
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Upload Print Ready PDF (after order placed),Select an option,3 Business Days,1000,58.10
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Upload Print Ready PDF (after order placed),Select an option,3 Business Days,1500,81.86
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Upload Print Ready PDF (after order placed),Select an option,3 Business Days,2000,105.04
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Upload Print Ready PDF (after order placed),Select an option,3 Business Days,2500,129.20
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Upload Print Ready PDF (after order placed),Select an option,3 Business Days,5000,247.89
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Upload Print Ready PDF (after order placed),Select an option,3 Business Days,6000,287.31
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Upload Print Ready PDF (after order placed),Select an option,3 Business Days,7000,333.96
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Upload Print Ready PDF (after order placed),Select an option,3 Business Days,8000,380.63
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Upload Print Ready PDF (after order placed),Select an option,3 Business Days,9000,427.28
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Upload Print Ready PDF (after order placed),Select an option,3 Business Days,10000,459.43
+FRONT: Black, BACK: None (B/0),2 Part NCR (White, Canary),Top,No,Select an option,No Hole Drilling,No, Shrinkwrap,Upload Print Ready PDF (after order placed),PDF Proof: Email,5 Business Days,250,89.50
+FRONT: Black, BACK: None (B/0),2 Part NCR (White, Canary),Top,No,Select an option,No Hole Drilling,No, Shrinkwrap,Upload Print Ready PDF (after order placed),PDF Proof: Email,5 Business Days,500,126.93
+FRONT: Black, BACK: None (B/0),2 Part NCR (White, Canary),Top,No,Select an option,No Hole Drilling,No, Shrinkwrap,Upload Print Ready PDF (after order placed),PDF Proof: Email,5 Business Days,1000,202.17
+FRONT: Black, BACK: None (B/0),2 Part NCR (White, Canary),Top,No,Select an option,No Hole Drilling,No, Shrinkwrap,Upload Print Ready PDF (after order placed),PDF Proof: Email,5 Business Days,1500,280.90
+FRONT: Black, BACK: None (B/0),2 Part NCR (White, Canary),Top,No,Select an option,No Hole Drilling,No, Shrinkwrap,Upload Print Ready PDF (after order placed),PDF Proof: Email,5 Business Days,2000,359.63
+FRONT: Black, BACK: None (B/0),2 Part NCR (White, Canary),Top,No,Select an option,No Hole Drilling,No, Shrinkwrap,Upload Print Ready PDF (after order placed),PDF Proof: Email,5 Business Days,2500,438.37
+FRONT: Black, BACK: None (B/0),2 Part NCR (White, Canary),Top,No,Select an option,No Hole Drilling,No, Shrinkwrap,Upload Print Ready PDF (after order placed),PDF Proof: Email,5 Business Days,5000,828.29
+FRONT: Black, BACK: None (B/0),2 Part NCR (White, Canary),Top,No,Select an option,No Hole Drilling,No, Shrinkwrap,Upload Print Ready PDF (after order placed),PDF Proof: Email,5 Business Days,6000,985.00
+FRONT: Black, BACK: None (B/0),2 Part NCR (White, Canary),Top,No,Select an option,No Hole Drilling,No, Shrinkwrap,Upload Print Ready PDF (after order placed),PDF Proof: Email,5 Business Days,7000,1136.49
+FRONT: Black, BACK: None (B/0),2 Part NCR (White, Canary),Top,No,Select an option,No Hole Drilling,No, Shrinkwrap,Upload Print Ready PDF (after order placed),PDF Proof: Email,5 Business Days,8000,1292.45
+FRONT: Black, BACK: None (B/0),2 Part NCR (White, Canary),Top,No,Select an option,No Hole Drilling,No, Shrinkwrap,Upload Print Ready PDF (after order placed),PDF Proof: Email,5 Business Days,9000,1448.41
+FRONT: Black, BACK: None (B/0),2 Part NCR (White, Canary),Top,No,Select an option,No Hole Drilling,No, Shrinkwrap,Upload Print Ready PDF (after order placed),PDF Proof: Email,5 Business Days,10000,1604.39
 
 
 
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Simple Typesetting,PDF Proof: Email,3 Business Days,50,59.06
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Simple Typesetting,PDF Proof: Email,3 Business Days,100,61.88
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Simple Typesetting,PDF Proof: Email,3 Business Days,250,68.45
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Simple Typesetting,PDF Proof: Email,3 Business Days,500,81.02
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Simple Typesetting,PDF Proof: Email,3 Business Days,1000,100.10
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Simple Typesetting,PDF Proof: Email,3 Business Days,1500,123.86
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Simple Typesetting,PDF Proof: Email,3 Business Days,2000,147.04
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Simple Typesetting,PDF Proof: Email,3 Business Days,2500,171.20
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Simple Typesetting,PDF Proof: Email,3 Business Days,5000,289.89
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Simple Typesetting,PDF Proof: Email,3 Business Days,6000,329.31
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Simple Typesetting,PDF Proof: Email,3 Business Days,7000,375.96
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Simple Typesetting,PDF Proof: Email,3 Business Days,8000,422.63
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Simple Typesetting,PDF Proof: Email,3 Business Days,9000,469.28
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Simple Typesetting,PDF Proof: Email,3 Business Days,10000,501.43
-
-
-
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Design From Concept,PDF Proof: Email,3 Business Days,50,101.06
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Design From Concept,PDF Proof: Email,3 Business Days,100,103.88
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Design From Concept,PDF Proof: Email,3 Business Days,250,110.45
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Design From Concept,PDF Proof: Email,3 Business Days,500,123.02
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Design From Concept,PDF Proof: Email,3 Business Days,1000,142.10
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Design From Concept,PDF Proof: Email,3 Business Days,1500,165.86
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Design From Concept,PDF Proof: Email,3 Business Days,2000,189.04
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Design From Concept,PDF Proof: Email,3 Business Days,2500,213.20
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Design From Concept,PDF Proof: Email,3 Business Days,5000,331.89
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Design From Concept,PDF Proof: Email,3 Business Days,6000,371.31
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Design From Concept,PDF Proof: Email,3 Business Days,7000,417.96
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Design From Concept,PDF Proof: Email,3 Business Days,8000,464.63
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Design From Concept,PDF Proof: Email,3 Business Days,9000,511.28
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Design From Concept,PDF Proof: Email,3 Business Days,10000,543.43
+FRONT: Black, BACK: None (B/0),2 Part NCR (White, Canary),Top,No,Select an option,No Hole Drilling,No, Shrinkwrap,We Typeset,PDF Proof: Email,5 Business Days,250,138.50
+FRONT: Black, BACK: None (B/0),2 Part NCR (White, Canary),Top,No,Select an option,No Hole Drilling,No, Shrinkwrap,We Typeset,PDF Proof: Email,5 Business Days,500,175.93
+FRONT: Black, BACK: None (B/0),2 Part NCR (White, Canary),Top,No,Select an option,No Hole Drilling,No, Shrinkwrap,We Typeset,PDF Proof: Email,5 Business Days,1000,251.17
+FRONT: Black, BACK: None (B/0),2 Part NCR (White, Canary),Top,No,Select an option,No Hole Drilling,No, Shrinkwrap,We Typeset,PDF Proof: Email,5 Business Days,1500,329.90
+FRONT: Black, BACK: None (B/0),2 Part NCR (White, Canary),Top,No,Select an option,No Hole Drilling,No, Shrinkwrap,We Typeset,PDF Proof: Email,5 Business Days,2000,408.63
+FRONT: Black, BACK: None (B/0),2 Part NCR (White, Canary),Top,No,Select an option,No Hole Drilling,No, Shrinkwrap,We Typeset,PDF Proof: Email,5 Business Days,2500,487.37
+FRONT: Black, BACK: None (B/0),2 Part NCR (White, Canary),Top,No,Select an option,No Hole Drilling,No, Shrinkwrap,We Typeset,PDF Proof: Email,5 Business Days,5000,877.29
+FRONT: Black, BACK: None (B/0),2 Part NCR (White, Canary),Top,No,Select an option,No Hole Drilling,No, Shrinkwrap,We Typeset,PDF Proof: Email,5 Business Days,6000,1034.00
+FRONT: Black, BACK: None (B/0),2 Part NCR (White, Canary),Top,No,Select an option,No Hole Drilling,No, Shrinkwrap,We Typeset,PDF Proof: Email,5 Business Days,7000,1185.49
+FRONT: Black, BACK: None (B/0),2 Part NCR (White, Canary),Top,No,Select an option,No Hole Drilling,No, Shrinkwrap,We Typeset,PDF Proof: Email,5 Business Days,8000,1341.45
+FRONT: Black, BACK: None (B/0),2 Part NCR (White, Canary),Top,No,Select an option,No Hole Drilling,No, Shrinkwrap,We Typeset,PDF Proof: Email,5 Business Days,9000,1497.41
+FRONT: Black, BACK: None (B/0),2 Part NCR (White, Canary),Top,No,Select an option,No Hole Drilling,No, Shrinkwrap,We Typeset,PDF Proof: Email,5 Business Days,10000,1653.39
 
 
 
