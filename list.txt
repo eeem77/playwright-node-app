@@ -1,51 +1,100 @@
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Upload Print Ready PDF (after order placed),Select an option,3 Business Days,50,17.06
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Upload Print Ready PDF (after order placed),Select an option,3 Business Days,100,19.88
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Upload Print Ready PDF (after order placed),Select an option,3 Business Days,250,26.45
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Upload Print Ready PDF (after order placed),Select an option,3 Business Days,500,39.02
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Upload Print Ready PDF (after order placed),Select an option,3 Business Days,1000,58.10
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Upload Print Ready PDF (after order placed),Select an option,3 Business Days,1500,81.86
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Upload Print Ready PDF (after order placed),Select an option,3 Business Days,2000,105.04
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Upload Print Ready PDF (after order placed),Select an option,3 Business Days,2500,129.20
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Upload Print Ready PDF (after order placed),Select an option,3 Business Days,5000,247.89
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Upload Print Ready PDF (after order placed),Select an option,3 Business Days,6000,287.31
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Upload Print Ready PDF (after order placed),Select an option,3 Business Days,7000,333.96
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Upload Print Ready PDF (after order placed),Select an option,3 Business Days,8000,380.63
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Upload Print Ready PDF (after order placed),Select an option,3 Business Days,9000,427.28
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Upload Print Ready PDF (after order placed),Select an option,3 Business Days,10000,459.43
-
-
-
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Simple Typesetting,PDF Proof: Email,3 Business Days,50,59.06
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Simple Typesetting,PDF Proof: Email,3 Business Days,100,61.88
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Simple Typesetting,PDF Proof: Email,3 Business Days,250,68.45
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Simple Typesetting,PDF Proof: Email,3 Business Days,500,81.02
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Simple Typesetting,PDF Proof: Email,3 Business Days,1000,100.10
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Simple Typesetting,PDF Proof: Email,3 Business Days,1500,123.86
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Simple Typesetting,PDF Proof: Email,3 Business Days,2000,147.04
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Simple Typesetting,PDF Proof: Email,3 Business Days,2500,171.20
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Simple Typesetting,PDF Proof: Email,3 Business Days,5000,289.89
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Simple Typesetting,PDF Proof: Email,3 Business Days,6000,329.31
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Simple Typesetting,PDF Proof: Email,3 Business Days,7000,375.96
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Simple Typesetting,PDF Proof: Email,3 Business Days,8000,422.63
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Simple Typesetting,PDF Proof: Email,3 Business Days,9000,469.28
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Simple Typesetting,PDF Proof: Email,3 Business Days,10000,501.43
-
-
-
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Design From Concept,PDF Proof: Email,3 Business Days,50,101.06
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Design From Concept,PDF Proof: Email,3 Business Days,100,103.88
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Design From Concept,PDF Proof: Email,3 Business Days,250,110.45
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Design From Concept,PDF Proof: Email,3 Business Days,500,123.02
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Design From Concept,PDF Proof: Email,3 Business Days,1000,142.10
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Design From Concept,PDF Proof: Email,3 Business Days,1500,165.86
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Design From Concept,PDF Proof: Email,3 Business Days,2000,189.04
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Design From Concept,PDF Proof: Email,3 Business Days,2500,213.20
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Design From Concept,PDF Proof: Email,3 Business Days,5000,331.89
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Design From Concept,PDF Proof: Email,3 Business Days,6000,371.31
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Design From Concept,PDF Proof: Email,3 Business Days,7000,417.96
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Design From Concept,PDF Proof: Email,3 Business Days,8000,464.63
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Design From Concept,PDF Proof: Email,3 Business Days,9000,511.28
-3.5" x 2", Standard,Front Side Only (4/0),Card Stock: 18pt Brown Kraft,No Corner Rounding,Design From Concept,PDF Proof: Email,3 Business Days,10000,543.43
-
-
-
+95.00
+107.04
+120.56
+134.09
+147.61
+161.13
+174.65
+188.17
+201.69
+215.22
+217.30
+230.15
+242.99
+255.84
+268.68
+281.53
+294.37
+307.22
+320.06
+332.91
+345.76
+358.60
+371.45
+384.29
+397.14
+397.04
+409.48
+421.92
+434.36
+446.80
+459.24
+471.68
+484.12
+496.56
+509.00
+521.43
+533.88
+546.32
+558.75
+571.20
+583.63
+596.08
+608.51
+620.95
+633.39
+645.83
+658.27
+670.71
+683.15
+695.59
+692.64
+704.81
+716.98
+729.15
+741.32
+753.49
+765.66
+777.83
+790.00
+802.17
+814.34
+826.50
+838.67
+850.84
+863.01
+875.18
+887.35
+899.52
+911.69
+923.86
+936.03
+948.20
+960.37
+972.54
+984.71
+974.73
+986.62
+998.52
+1010.42
+1022.32
+1034.22
+1046.12
+1058.02
+1069.92
+1081.82
+1093.71
+1105.61
+1117.51
+1129.41
+1141.31
+1153.21
+1165.11
+1177.01
+1188.91
+1200.81
+1212.70
+1224.60
+1236.50
+1248.40
+1260.30
