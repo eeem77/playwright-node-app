@@ -192,7 +192,7 @@ const web = async () => {
     for (let i = 0; i <= 4; i++) {
         await changeOneOptions(page, 0, i)
         for(let a = 0; a <= 1; a++){
-            await changeOneOptions(page, 2, a)
+            await changeOneOptions(page, 6, a)
             await changeOptions(page, 5)
             fs.appendFileSync(`list.txt`, '\n\n\n')
         }
