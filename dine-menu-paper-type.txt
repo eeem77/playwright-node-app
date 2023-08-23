@@ -1,0 +1,880 @@
+3.5" x 8.5",None,70 lb. Paper Uncoated,None,Front Only,35,6 Business Days,16.25
+3.5" x 8.5",None,70 lb. Paper Uncoated,None,Front Only,40,6 Business Days,16.98
+3.5" x 8.5",None,70 lb. Paper Uncoated,None,Front Only,50,6 Business Days,18.44
+3.5" x 8.5",None,70 lb. Paper Uncoated,None,Front Only,60,6 Business Days,19.90
+3.5" x 8.5",None,70 lb. Paper Uncoated,None,Front Only,75,6 Business Days,22.08
+3.5" x 8.5",None,70 lb. Paper Uncoated,None,Front Only,100,6 Business Days,25.73
+3.5" x 8.5",None,70 lb. Paper Uncoated,None,Front Only,150,6 Business Days,31.75
+3.5" x 8.5",None,70 lb. Paper Uncoated,None,Front Only,200,6 Business Days,37.77
+3.5" x 8.5",None,70 lb. Paper Uncoated,None,Front Only,250,6 Business Days,43.80
+3.5" x 8.5",None,70 lb. Paper Uncoated,None,Front Only,500,6 Business Days,69.85
+3.5" x 8.5",None,70 lb. Paper Uncoated,None,Front Only,1,000,6 Business Days,116.54
+3.5" x 8.5",None,70 lb. Paper Uncoated,None,Front Only,2,000,6 Business Days,217.29
+3.5" x 8.5",None,70 lb. Paper Uncoated,None,Front Only,5,000,6 Business Days,514.07
+
+
+
+3.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,35,6 Business Days,60.78
+3.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,40,6 Business Days,66.32
+3.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,50,6 Business Days,77.42
+3.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,60,6 Business Days,88.52
+3.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,75,6 Business Days,105.16
+3.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,100,6 Business Days,132.90
+3.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,150,6 Business Days,187.01
+3.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,200,6 Business Days,241.13
+3.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,250,6 Business Days,295.26
+3.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,500,6 Business Days,561.37
+3.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,1,000,6 Business Days,1088.20
+3.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,2,000,6 Business Days,2149.63
+3.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,5,000,6 Business Days,5328.17
+
+
+
+3.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,35,6 Business Days,62.22
+3.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,40,6 Business Days,68.02
+3.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,50,6 Business Days,79.63
+3.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,60,6 Business Days,91.24
+3.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,75,6 Business Days,108.66
+3.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,100,6 Business Days,137.69
+3.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,150,6 Business Days,190.87
+3.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,200,6 Business Days,244.05
+3.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,250,6 Business Days,297.23
+3.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,500,6 Business Days,563.13
+3.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,1,000,6 Business Days,1094.93
+3.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,2,000,6 Business Days,2166.31
+3.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,5,000,6 Business Days,5374.64
+
+
+
+3.5" x 8.5",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,35,6 Business Days,60.89
+3.5" x 8.5",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,40,6 Business Days,66.45
+3.5" x 8.5",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,50,6 Business Days,77.58
+3.5" x 8.5",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,60,6 Business Days,88.71
+3.5" x 8.5",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,75,6 Business Days,105.41
+3.5" x 8.5",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,100,6 Business Days,133.23
+3.5" x 8.5",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,150,6 Business Days,187.49
+3.5" x 8.5",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,200,6 Business Days,241.78
+3.5" x 8.5",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,250,6 Business Days,296.08
+3.5" x 8.5",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,500,6 Business Days,563.00
+3.5" x 8.5",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,1,000,6 Business Days,1091.45
+3.5" x 8.5",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,2,000,6 Business Days,2156.14
+3.5" x 8.5",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,5,000,6 Business Days,5344.42
+
+
+
+3.5" x 8.5",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,35,6 Business Days,66.01
+3.5" x 8.5",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,40,6 Business Days,72.32
+3.5" x 8.5",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,50,6 Business Days,84.94
+3.5" x 8.5",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,60,6 Business Days,97.56
+3.5" x 8.5",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,75,6 Business Days,116.49
+3.5" x 8.5",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,100,6 Business Days,148.04
+3.5" x 8.5",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,150,6 Business Days,203.82
+3.5" x 8.5",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,200,6 Business Days,259.60
+3.5" x 8.5",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,250,6 Business Days,315.38
+3.5" x 8.5",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,500,6 Business Days,594.29
+3.5" x 8.5",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,1,000,6 Business Days,1152.10
+3.5" x 8.5",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,2,000,6 Business Days,2275.48
+3.5" x 8.5",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,5,000,6 Business Days,5639.86
+
+
+
+3.5" x 8.5",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,35,6 Business Days,61.42
+3.5" x 8.5",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,40,6 Business Days,67.18
+3.5" x 8.5",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,50,6 Business Days,78.72
+3.5" x 8.5",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,60,6 Business Days,89.90
+3.5" x 8.5",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,75,6 Business Days,106.66
+3.5" x 8.5",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,100,6 Business Days,134.60
+3.5" x 8.5",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,150,6 Business Days,190.48
+3.5" x 8.5",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,200,6 Business Days,246.36
+3.5" x 8.5",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,250,6 Business Days,302.24
+3.5" x 8.5",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,500,6 Business Days,581.64
+3.5" x 8.5",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,1,000,6 Business Days,1140.45
+3.5" x 8.5",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,2,000,6 Business Days,2265.82
+3.5" x 8.5",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,5,000,6 Business Days,5636.16
+
+
+
+3.5" x 8.5",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,35,6 Business Days,62.71
+3.5" x 8.5",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,40,6 Business Days,68.67
+3.5" x 8.5",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,50,6 Business Days,80.57
+3.5" x 8.5",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,60,6 Business Days,92.48
+3.5" x 8.5",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,75,6 Business Days,110.34
+3.5" x 8.5",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,100,6 Business Days,140.11
+3.5" x 8.5",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,150,6 Business Days,199.65
+3.5" x 8.5",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,200,6 Business Days,259.19
+3.5" x 8.5",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,250,6 Business Days,318.72
+3.5" x 8.5",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,500,6 Business Days,616.41
+3.5" x 8.5",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,1,000,6 Business Days,1211.79
+3.5" x 8.5",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,2,000,6 Business Days,2410.30
+3.5" x 8.5",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,5,000,6 Business Days,6000.08
+
+
+
+3.5" x 8.5",None,14 pt. Cardstock High Gloss (UV),None,Front Only,35,6 Business Days,19.68
+3.5" x 8.5",None,14 pt. Cardstock High Gloss (UV),None,Front Only,40,6 Business Days,20.94
+3.5" x 8.5",None,14 pt. Cardstock High Gloss (UV),None,Front Only,50,6 Business Days,23.47
+3.5" x 8.5",None,14 pt. Cardstock High Gloss (UV),None,Front Only,60,6 Business Days,26.00
+3.5" x 8.5",None,14 pt. Cardstock High Gloss (UV),None,Front Only,75,6 Business Days,29.79
+3.5" x 8.5",None,14 pt. Cardstock High Gloss (UV),None,Front Only,100,6 Business Days,36.10
+3.5" x 8.5",None,14 pt. Cardstock High Gloss (UV),None,Front Only,150,6 Business Days,48.74
+3.5" x 8.5",None,14 pt. Cardstock High Gloss (UV),None,Front Only,200,6 Business Days,61.37
+3.5" x 8.5",None,14 pt. Cardstock High Gloss (UV),None,Front Only,250,6 Business Days,74.00
+3.5" x 8.5",None,14 pt. Cardstock High Gloss (UV),None,Front Only,500,6 Business Days,137.17
+3.5" x 8.5",None,14 pt. Cardstock High Gloss (UV),None,Front Only,1,000,6 Business Days,263.50
+3.5" x 8.5",None,14 pt. Cardstock High Gloss (UV),None,Front Only,2,000,6 Business Days,523.94
+3.5" x 8.5",None,14 pt. Cardstock High Gloss (UV),None,Front Only,5,000,6 Business Days,1299.45
+
+
+
+3.5" x 8.5",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,35,6 Business Days,73.70
+3.5" x 8.5",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,40,6 Business Days,80.62
+3.5" x 8.5",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,50,6 Business Days,94.47
+3.5" x 8.5",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,60,6 Business Days,107.88
+3.5" x 8.5",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,75,6 Business Days,127.99
+3.5" x 8.5",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,100,6 Business Days,161.52
+3.5" x 8.5",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,150,6 Business Days,228.58
+3.5" x 8.5",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,200,6 Business Days,295.63
+3.5" x 8.5",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,250,6 Business Days,362.69
+3.5" x 8.5",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,500,6 Business Days,697.97
+3.5" x 8.5",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,1,000,6 Business Days,1368.54
+3.5" x 8.5",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,2,000,6 Business Days,2718.98
+3.5" x 8.5",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,5,000,6 Business Days,6763.39
+
+
+
+3.5" x 8.5",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,35,6 Business Days,75.25
+3.5" x 8.5",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,40,6 Business Days,82.40
+3.5" x 8.5",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,50,6 Business Days,96.69
+3.5" x 8.5",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,60,6 Business Days,110.98
+3.5" x 8.5",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,75,6 Business Days,132.41
+3.5" x 8.5",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,100,6 Business Days,168.13
+3.5" x 8.5",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,150,6 Business Days,239.58
+3.5" x 8.5",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,200,6 Business Days,311.02
+3.5" x 8.5",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,250,6 Business Days,382.47
+3.5" x 8.5",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,500,6 Business Days,739.69
+3.5" x 8.5",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,1,000,6 Business Days,1454.14
+3.5" x 8.5",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,2,000,6 Business Days,2892.36
+3.5" x 8.5",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,5,000,6 Business Days,7200.09
+
+
+
+3.5" x 8.5",None,17 pt. Cardstock Uncoated,None,Front Only,35,6 Business Days,36.75
+3.5" x 8.5",None,17 pt. Cardstock Uncoated,None,Front Only,40,6 Business Days,40.46
+3.5" x 8.5",None,17 pt. Cardstock Uncoated,None,Front Only,50,6 Business Days,47.86
+3.5" x 8.5",None,17 pt. Cardstock Uncoated,None,Front Only,60,6 Business Days,53.91
+3.5" x 8.5",None,17 pt. Cardstock Uncoated,None,Front Only,75,6 Business Days,62.99
+3.5" x 8.5",None,17 pt. Cardstock Uncoated,None,Front Only,100,6 Business Days,78.11
+3.5" x 8.5",None,17 pt. Cardstock Uncoated,None,Front Only,150,6 Business Days,108.36
+3.5" x 8.5",None,17 pt. Cardstock Uncoated,None,Front Only,200,6 Business Days,138.61
+3.5" x 8.5",None,17 pt. Cardstock Uncoated,None,Front Only,250,6 Business Days,148.10
+3.5" x 8.5",None,17 pt. Cardstock Uncoated,None,Front Only,500,6 Business Days,181.96
+3.5" x 8.5",None,17 pt. Cardstock Uncoated,None,Front Only,1,000,6 Business Days,231.63
+3.5" x 8.5",None,17 pt. Cardstock Uncoated,None,Front Only,2,000,6 Business Days,338.72
+3.5" x 8.5",None,17 pt. Cardstock Uncoated,None,Front Only,5,000,6 Business Days,654.24
+
+
+
+4.25" x 11",None,70 lb. Paper Uncoated,None,Front Only,35,6 Business Days,29.43
+4.25" x 11",None,70 lb. Paper Uncoated,None,Front Only,40,6 Business Days,30.53
+4.25" x 11",None,70 lb. Paper Uncoated,None,Front Only,50,6 Business Days,32.71
+4.25" x 11",None,70 lb. Paper Uncoated,None,Front Only,60,6 Business Days,34.90
+4.25" x 11",None,70 lb. Paper Uncoated,None,Front Only,75,6 Business Days,38.18
+4.25" x 11",None,70 lb. Paper Uncoated,None,Front Only,100,6 Business Days,43.64
+4.25" x 11",None,70 lb. Paper Uncoated,None,Front Only,150,6 Business Days,52.68
+4.25" x 11",None,70 lb. Paper Uncoated,None,Front Only,200,6 Business Days,61.71
+4.25" x 11",None,70 lb. Paper Uncoated,None,Front Only,250,6 Business Days,70.75
+4.25" x 11",None,70 lb. Paper Uncoated,None,Front Only,500,6 Business Days,109.83
+4.25" x 11",None,70 lb. Paper Uncoated,None,Front Only,1,000,6 Business Days,179.85
+4.25" x 11",None,70 lb. Paper Uncoated,None,Front Only,2,000,6 Business Days,328.92
+4.25" x 11",None,70 lb. Paper Uncoated,None,Front Only,5,000,6 Business Days,769.71
+
+
+
+4.25" x 11",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,35,6 Business Days,63.91
+4.25" x 11",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,40,6 Business Days,69.85
+4.25" x 11",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,50,6 Business Days,81.71
+4.25" x 11",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,60,6 Business Days,93.57
+4.25" x 11",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,75,6 Business Days,111.37
+4.25" x 11",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,100,6 Business Days,141.03
+4.25" x 11",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,150,6 Business Days,198.28
+4.25" x 11",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,200,6 Business Days,255.57
+4.25" x 11",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,250,6 Business Days,312.86
+4.25" x 11",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,500,6 Business Days,592.50
+4.25" x 11",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,1,000,6 Business Days,1143.70
+4.25" x 11",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,2,000,6 Business Days,2255.62
+4.25" x 11",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,5,000,6 Business Days,5584.60
+
+
+
+4.25" x 11",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,35,6 Business Days,66.07
+4.25" x 11",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,40,6 Business Days,72.39
+4.25" x 11",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,50,6 Business Days,85.03
+4.25" x 11",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,60,6 Business Days,97.67
+4.25" x 11",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,75,6 Business Days,116.62
+4.25" x 11",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,100,6 Business Days,148.21
+4.25" x 11",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,150,6 Business Days,204.08
+4.25" x 11",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,200,6 Business Days,259.94
+4.25" x 11",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,250,6 Business Days,315.81
+4.25" x 11",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,500,6 Business Days,595.14
+4.25" x 11",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,1,000,6 Business Days,1153.81
+4.25" x 11",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,2,000,6 Business Days,2280.63
+4.25" x 11",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,5,000,6 Business Days,5654.31
+
+
+
+4.25" x 11",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,35,6 Business Days,64.08
+4.25" x 11",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,40,6 Business Days,70.04
+4.25" x 11",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,50,6 Business Days,81.95
+4.25" x 11",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,60,6 Business Days,93.87
+4.25" x 11",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,75,6 Business Days,111.74
+4.25" x 11",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,100,6 Business Days,141.52
+4.25" x 11",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,150,6 Business Days,199.01
+4.25" x 11",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,200,6 Business Days,256.54
+4.25" x 11",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,250,6 Business Days,314.08
+4.25" x 11",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,500,6 Business Days,594.94
+4.25" x 11",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,1,000,6 Business Days,1148.58
+4.25" x 11",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,2,000,6 Business Days,2265.37
+4.25" x 11",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,5,000,6 Business Days,5608.98
+
+
+
+4.25" x 11",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,35,6 Business Days,71.77
+4.25" x 11",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,40,6 Business Days,78.85
+4.25" x 11",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,50,6 Business Days,92.99
+4.25" x 11",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,60,6 Business Days,107.14
+4.25" x 11",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,75,6 Business Days,128.36
+4.25" x 11",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,100,6 Business Days,163.73
+4.25" x 11",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,150,6 Business Days,223.50
+4.25" x 11",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,200,6 Business Days,283.27
+4.25" x 11",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,250,6 Business Days,343.04
+4.25" x 11",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,500,6 Business Days,641.88
+4.25" x 11",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,1,000,6 Business Days,1239.55
+4.25" x 11",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,2,000,6 Business Days,2444.39
+4.25" x 11",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,5,000,6 Business Days,6052.13
+
+
+
+4.25" x 11",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,35,6 Business Days,64.87
+4.25" x 11",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,40,6 Business Days,71.14
+4.25" x 11",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,50,6 Business Days,83.66
+4.25" x 11",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,60,6 Business Days,95.64
+4.25" x 11",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,75,6 Business Days,113.62
+4.25" x 11",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,100,6 Business Days,143.58
+4.25" x 11",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,150,6 Business Days,203.49
+4.25" x 11",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,200,6 Business Days,263.41
+4.25" x 11",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,250,6 Business Days,323.33
+4.25" x 11",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,500,6 Business Days,622.91
+4.25" x 11",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,1,000,6 Business Days,1222.08
+4.25" x 11",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,2,000,6 Business Days,2429.90
+4.25" x 11",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,5,000,6 Business Days,6046.58
+
+
+
+4.25" x 11",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,35,6 Business Days,66.82
+4.25" x 11",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,40,6 Business Days,73.36
+4.25" x 11",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,50,6 Business Days,86.44
+4.25" x 11",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,60,6 Business Days,99.52
+4.25" x 11",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,75,6 Business Days,119.14
+4.25" x 11",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,100,6 Business Days,151.84
+4.25" x 11",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,150,6 Business Days,217.24
+4.25" x 11",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,200,6 Business Days,282.65
+4.25" x 11",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,250,6 Business Days,348.05
+4.25" x 11",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,500,6 Business Days,675.06
+4.25" x 11",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,1,000,6 Business Days,1329.09
+4.25" x 11",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,2,000,6 Business Days,2646.63
+4.25" x 11",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,5,000,6 Business Days,6592.46
+
+
+
+4.25" x 11",None,14 pt. Cardstock High Gloss (UV),None,Front Only,35,6 Business Days,24.10
+4.25" x 11",None,14 pt. Cardstock High Gloss (UV),None,Front Only,40,6 Business Days,26.00
+4.25" x 11",None,14 pt. Cardstock High Gloss (UV),None,Front Only,50,6 Business Days,29.79
+4.25" x 11",None,14 pt. Cardstock High Gloss (UV),None,Front Only,60,6 Business Days,33.58
+4.25" x 11",None,14 pt. Cardstock High Gloss (UV),None,Front Only,75,6 Business Days,39.26
+4.25" x 11",None,14 pt. Cardstock High Gloss (UV),None,Front Only,100,6 Business Days,48.74
+4.25" x 11",None,14 pt. Cardstock High Gloss (UV),None,Front Only,150,6 Business Days,67.69
+4.25" x 11",None,14 pt. Cardstock High Gloss (UV),None,Front Only,200,6 Business Days,86.64
+4.25" x 11",None,14 pt. Cardstock High Gloss (UV),None,Front Only,250,6 Business Days,105.59
+4.25" x 11",None,14 pt. Cardstock High Gloss (UV),None,Front Only,500,6 Business Days,200.34
+4.25" x 11",None,14 pt. Cardstock High Gloss (UV),None,Front Only,1,000,6 Business Days,389.84
+4.25" x 11",None,14 pt. Cardstock High Gloss (UV),None,Front Only,2,000,6 Business Days,778.32
+4.25" x 11",None,14 pt. Cardstock High Gloss (UV),None,Front Only,5,000,6 Business Days,1936.99
+
+
+
+4.25" x 11",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,35,6 Business Days,77.85
+4.25" x 11",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,40,6 Business Days,85.36
+4.25" x 11",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,50,6 Business Days,100.39
+4.25" x 11",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,60,6 Business Days,114.77
+4.25" x 11",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,75,6 Business Days,136.34
+4.25" x 11",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,100,6 Business Days,172.29
+4.25" x 11",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,150,6 Business Days,244.19
+4.25" x 11",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,200,6 Business Days,316.09
+4.25" x 11",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,250,6 Business Days,387.99
+4.25" x 11",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,500,6 Business Days,747.50
+4.25" x 11",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,1,000,6 Business Days,1466.50
+4.25" x 11",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,2,000,6 Business Days,2915.88
+4.25" x 11",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,5,000,6 Business Days,7255.90
+
+
+
+4.25" x 11",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,35,6 Business Days,80.18
+4.25" x 11",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,40,6 Business Days,88.03
+4.25" x 11",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,50,6 Business Days,103.73
+4.25" x 11",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,60,6 Business Days,119.42
+4.25" x 11",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,75,6 Business Days,142.97
+4.25" x 11",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,100,6 Business Days,182.21
+4.25" x 11",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,150,6 Business Days,260.69
+4.25" x 11",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,200,6 Business Days,339.18
+4.25" x 11",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,250,6 Business Days,417.66
+4.25" x 11",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,500,6 Business Days,810.07
+4.25" x 11",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,1,000,6 Business Days,1594.91
+4.25" x 11",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,2,000,6 Business Days,3175.95
+4.25" x 11",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,5,000,6 Business Days,7910.95
+
+
+
+4.25" x 11",None,17 pt. Cardstock Uncoated,None,Front Only,35,6 Business Days,59.91
+4.25" x 11",None,17 pt. Cardstock Uncoated,None,Front Only,40,6 Business Days,65.46
+4.25" x 11",None,17 pt. Cardstock Uncoated,None,Front Only,50,6 Business Days,76.57
+4.25" x 11",None,17 pt. Cardstock Uncoated,None,Front Only,60,6 Business Days,85.65
+4.25" x 11",None,17 pt. Cardstock Uncoated,None,Front Only,75,6 Business Days,99.26
+4.25" x 11",None,17 pt. Cardstock Uncoated,None,Front Only,100,6 Business Days,121.95
+4.25" x 11",None,17 pt. Cardstock Uncoated,None,Front Only,150,6 Business Days,167.33
+4.25" x 11",None,17 pt. Cardstock Uncoated,None,Front Only,200,6 Business Days,212.70
+4.25" x 11",None,17 pt. Cardstock Uncoated,None,Front Only,250,6 Business Days,226.93
+4.25" x 11",None,17 pt. Cardstock Uncoated,None,Front Only,500,6 Business Days,277.72
+4.25" x 11",None,17 pt. Cardstock Uncoated,None,Front Only,1,000,6 Business Days,352.22
+4.25" x 11",None,17 pt. Cardstock Uncoated,None,Front Only,2,000,6 Business Days,510.70
+4.25" x 11",None,17 pt. Cardstock Uncoated,None,Front Only,5,000,6 Business Days,979.37
+
+
+
+5.5" x 8.5",None,70 lb. Paper Uncoated,None,Front Only,35,6 Business Days,19.23
+5.5" x 8.5",None,70 lb. Paper Uncoated,None,Front Only,40,6 Business Days,20.33
+5.5" x 8.5",None,70 lb. Paper Uncoated,None,Front Only,50,6 Business Days,22.51
+5.5" x 8.5",None,70 lb. Paper Uncoated,None,Front Only,60,6 Business Days,24.70
+5.5" x 8.5",None,70 lb. Paper Uncoated,None,Front Only,75,6 Business Days,27.98
+5.5" x 8.5",None,70 lb. Paper Uncoated,None,Front Only,100,6 Business Days,33.44
+5.5" x 8.5",None,70 lb. Paper Uncoated,None,Front Only,150,6 Business Days,42.48
+5.5" x 8.5",None,70 lb. Paper Uncoated,None,Front Only,200,6 Business Days,51.51
+5.5" x 8.5",None,70 lb. Paper Uncoated,None,Front Only,250,6 Business Days,60.55
+5.5" x 8.5",None,70 lb. Paper Uncoated,None,Front Only,500,6 Business Days,99.63
+5.5" x 8.5",None,70 lb. Paper Uncoated,None,Front Only,1,000,6 Business Days,169.66
+5.5" x 8.5",None,70 lb. Paper Uncoated,None,Front Only,2,000,6 Business Days,318.73
+5.5" x 8.5",None,70 lb. Paper Uncoated,None,Front Only,5,000,6 Business Days,759.51
+
+
+
+5.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,35,6 Business Days,63.91
+5.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,40,6 Business Days,69.85
+5.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,50,6 Business Days,81.71
+5.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,60,6 Business Days,93.57
+5.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,75,6 Business Days,111.37
+5.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,100,6 Business Days,141.03
+5.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,150,6 Business Days,198.28
+5.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,200,6 Business Days,255.57
+5.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,250,6 Business Days,312.86
+5.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,500,6 Business Days,592.50
+5.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,1,000,6 Business Days,1143.70
+5.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,2,000,6 Business Days,2255.62
+5.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,5,000,6 Business Days,5584.60
+
+
+
+5.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,35,6 Business Days,66.07
+5.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,40,6 Business Days,72.39
+5.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,50,6 Business Days,85.03
+5.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,60,6 Business Days,97.67
+5.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,75,6 Business Days,116.62
+5.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,100,6 Business Days,148.21
+5.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,150,6 Business Days,204.08
+5.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,200,6 Business Days,259.94
+5.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,250,6 Business Days,315.81
+5.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,500,6 Business Days,595.14
+5.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,1,000,6 Business Days,1153.81
+5.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,2,000,6 Business Days,2280.63
+5.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,5,000,6 Business Days,5654.31
+
+
+
+5.5" x 8.5",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,35,6 Business Days,64.08
+5.5" x 8.5",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,40,6 Business Days,70.04
+5.5" x 8.5",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,50,6 Business Days,81.95
+5.5" x 8.5",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,60,6 Business Days,93.87
+5.5" x 8.5",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,75,6 Business Days,111.74
+5.5" x 8.5",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,100,6 Business Days,141.52
+5.5" x 8.5",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,150,6 Business Days,199.01
+5.5" x 8.5",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,200,6 Business Days,256.54
+5.5" x 8.5",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,250,6 Business Days,314.08
+5.5" x 8.5",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,500,6 Business Days,594.94
+5.5" x 8.5",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,1,000,6 Business Days,1148.58
+5.5" x 8.5",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,2,000,6 Business Days,2265.37
+5.5" x 8.5",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,5,000,6 Business Days,5608.98
+
+
+
+5.5" x 8.5",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,35,6 Business Days,71.77
+5.5" x 8.5",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,40,6 Business Days,78.85
+5.5" x 8.5",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,50,6 Business Days,92.99
+5.5" x 8.5",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,60,6 Business Days,107.14
+5.5" x 8.5",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,75,6 Business Days,128.36
+5.5" x 8.5",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,100,6 Business Days,163.73
+5.5" x 8.5",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,150,6 Business Days,223.50
+5.5" x 8.5",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,200,6 Business Days,283.27
+5.5" x 8.5",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,250,6 Business Days,343.04
+5.5" x 8.5",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,500,6 Business Days,641.88
+5.5" x 8.5",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,1,000,6 Business Days,1239.55
+5.5" x 8.5",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,2,000,6 Business Days,2444.39
+5.5" x 8.5",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,5,000,6 Business Days,6052.13
+
+
+
+5.5" x 8.5",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,35,6 Business Days,64.87
+5.5" x 8.5",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,40,6 Business Days,71.14
+5.5" x 8.5",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,50,6 Business Days,83.66
+5.5" x 8.5",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,60,6 Business Days,95.64
+5.5" x 8.5",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,75,6 Business Days,113.62
+5.5" x 8.5",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,100,6 Business Days,143.58
+5.5" x 8.5",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,150,6 Business Days,203.49
+5.5" x 8.5",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,200,6 Business Days,263.41
+5.5" x 8.5",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,250,6 Business Days,323.33
+5.5" x 8.5",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,500,6 Business Days,622.91
+5.5" x 8.5",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,1,000,6 Business Days,1222.08
+5.5" x 8.5",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,2,000,6 Business Days,2429.90
+5.5" x 8.5",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,5,000,6 Business Days,6046.58
+
+
+
+5.5" x 8.5",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,35,6 Business Days,66.82
+5.5" x 8.5",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,40,6 Business Days,73.36
+5.5" x 8.5",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,50,6 Business Days,86.44
+5.5" x 8.5",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,60,6 Business Days,99.52
+5.5" x 8.5",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,75,6 Business Days,119.14
+5.5" x 8.5",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,100,6 Business Days,151.84
+5.5" x 8.5",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,150,6 Business Days,217.24
+5.5" x 8.5",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,200,6 Business Days,282.65
+5.5" x 8.5",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,250,6 Business Days,348.05
+5.5" x 8.5",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,500,6 Business Days,675.06
+5.5" x 8.5",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,1,000,6 Business Days,1329.09
+5.5" x 8.5",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,2,000,6 Business Days,2646.63
+5.5" x 8.5",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,5,000,6 Business Days,6592.46
+
+
+
+5.5" x 8.5",None,14 pt. Cardstock High Gloss (UV),None,Front Only,35,6 Business Days,24.10
+5.5" x 8.5",None,14 pt. Cardstock High Gloss (UV),None,Front Only,40,6 Business Days,26.00
+5.5" x 8.5",None,14 pt. Cardstock High Gloss (UV),None,Front Only,50,6 Business Days,29.79
+5.5" x 8.5",None,14 pt. Cardstock High Gloss (UV),None,Front Only,60,6 Business Days,33.58
+5.5" x 8.5",None,14 pt. Cardstock High Gloss (UV),None,Front Only,75,6 Business Days,39.26
+5.5" x 8.5",None,14 pt. Cardstock High Gloss (UV),None,Front Only,100,6 Business Days,48.74
+5.5" x 8.5",None,14 pt. Cardstock High Gloss (UV),None,Front Only,150,6 Business Days,67.69
+5.5" x 8.5",None,14 pt. Cardstock High Gloss (UV),None,Front Only,200,6 Business Days,86.64
+5.5" x 8.5",None,14 pt. Cardstock High Gloss (UV),None,Front Only,250,6 Business Days,105.59
+5.5" x 8.5",None,14 pt. Cardstock High Gloss (UV),None,Front Only,500,6 Business Days,200.34
+5.5" x 8.5",None,14 pt. Cardstock High Gloss (UV),None,Front Only,1,000,6 Business Days,389.84
+5.5" x 8.5",None,14 pt. Cardstock High Gloss (UV),None,Front Only,2,000,6 Business Days,778.32
+5.5" x 8.5",None,14 pt. Cardstock High Gloss (UV),None,Front Only,5,000,6 Business Days,1936.99
+
+
+
+5.5" x 8.5",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,35,6 Business Days,77.85
+5.5" x 8.5",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,40,6 Business Days,85.36
+5.5" x 8.5",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,50,6 Business Days,100.39
+5.5" x 8.5",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,60,6 Business Days,114.77
+5.5" x 8.5",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,75,6 Business Days,136.34
+5.5" x 8.5",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,100,6 Business Days,172.29
+5.5" x 8.5",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,150,6 Business Days,244.19
+5.5" x 8.5",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,200,6 Business Days,316.09
+5.5" x 8.5",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,250,6 Business Days,387.99
+5.5" x 8.5",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,500,6 Business Days,747.50
+5.5" x 8.5",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,1,000,6 Business Days,1466.50
+5.5" x 8.5",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,2,000,6 Business Days,2915.88
+5.5" x 8.5",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,5,000,6 Business Days,7255.90
+
+
+
+5.5" x 8.5",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,35,6 Business Days,80.18
+5.5" x 8.5",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,40,6 Business Days,88.03
+5.5" x 8.5",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,50,6 Business Days,103.73
+5.5" x 8.5",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,60,6 Business Days,119.42
+5.5" x 8.5",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,75,6 Business Days,142.97
+5.5" x 8.5",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,100,6 Business Days,182.21
+5.5" x 8.5",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,150,6 Business Days,260.69
+5.5" x 8.5",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,200,6 Business Days,339.18
+5.5" x 8.5",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,250,6 Business Days,417.66
+5.5" x 8.5",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,500,6 Business Days,810.07
+5.5" x 8.5",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,1,000,6 Business Days,1594.91
+5.5" x 8.5",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,2,000,6 Business Days,3175.95
+5.5" x 8.5",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,5,000,6 Business Days,7910.95
+
+
+
+5.5" x 8.5",None,17 pt. Cardstock Uncoated,None,Front Only,35,6 Business Days,49.71
+5.5" x 8.5",None,17 pt. Cardstock Uncoated,None,Front Only,40,6 Business Days,55.27
+5.5" x 8.5",None,17 pt. Cardstock Uncoated,None,Front Only,50,6 Business Days,66.37
+5.5" x 8.5",None,17 pt. Cardstock Uncoated,None,Front Only,60,6 Business Days,75.45
+5.5" x 8.5",None,17 pt. Cardstock Uncoated,None,Front Only,75,6 Business Days,89.06
+5.5" x 8.5",None,17 pt. Cardstock Uncoated,None,Front Only,100,6 Business Days,111.75
+5.5" x 8.5",None,17 pt. Cardstock Uncoated,None,Front Only,150,6 Business Days,157.13
+5.5" x 8.5",None,17 pt. Cardstock Uncoated,None,Front Only,200,6 Business Days,202.50
+5.5" x 8.5",None,17 pt. Cardstock Uncoated,None,Front Only,250,6 Business Days,216.73
+5.5" x 8.5",None,17 pt. Cardstock Uncoated,None,Front Only,500,6 Business Days,267.52
+5.5" x 8.5",None,17 pt. Cardstock Uncoated,None,Front Only,1,000,6 Business Days,342.02
+5.5" x 8.5",None,17 pt. Cardstock Uncoated,None,Front Only,2,000,6 Business Days,500.50
+5.5" x 8.5",None,17 pt. Cardstock Uncoated,None,Front Only,5,000,6 Business Days,969.17
+
+
+
+8.5" x 11",None,70 lb. Paper Uncoated,None,Front Only,35,6 Business Days,28.17
+8.5" x 11",None,70 lb. Paper Uncoated,None,Front Only,40,6 Business Days,30.36
+8.5" x 11",None,70 lb. Paper Uncoated,None,Front Only,50,6 Business Days,34.73
+8.5" x 11",None,70 lb. Paper Uncoated,None,Front Only,60,6 Business Days,39.10
+8.5" x 11",None,70 lb. Paper Uncoated,None,Front Only,75,6 Business Days,45.66
+8.5" x 11",None,70 lb. Paper Uncoated,None,Front Only,100,6 Business Days,56.59
+8.5" x 11",None,70 lb. Paper Uncoated,None,Front Only,150,6 Business Days,74.66
+8.5" x 11",None,70 lb. Paper Uncoated,None,Front Only,200,6 Business Days,92.73
+8.5" x 11",None,70 lb. Paper Uncoated,None,Front Only,250,6 Business Days,110.80
+8.5" x 11",None,70 lb. Paper Uncoated,None,Front Only,500,6 Business Days,188.96
+8.5" x 11",None,70 lb. Paper Uncoated,None,Front Only,1,000,6 Business Days,329.02
+8.5" x 11",None,70 lb. Paper Uncoated,None,Front Only,2,000,6 Business Days,619.43
+8.5" x 11",None,70 lb. Paper Uncoated,None,Front Only,5,000,6 Business Days,1485.53
+
+
+
+8.5" x 11",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,35,6 Business Days,73.33
+8.5" x 11",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,40,6 Business Days,80.41
+8.5" x 11",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,50,6 Business Days,94.58
+8.5" x 11",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,60,6 Business Days,108.75
+8.5" x 11",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,75,6 Business Days,130.00
+8.5" x 11",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,100,6 Business Days,165.41
+8.5" x 11",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,150,6 Business Days,232.10
+8.5" x 11",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,200,6 Business Days,298.87
+8.5" x 11",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,250,6 Business Days,365.64
+8.5" x 11",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,500,6 Business Days,685.90
+8.5" x 11",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,1,000,6 Business Days,1310.23
+8.5" x 11",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,2,000,6 Business Days,2569.79
+8.5" x 11",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,5,000,6 Business Days,6343.06
+
+
+
+8.5" x 11",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,35,6 Business Days,77.65
+8.5" x 11",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,40,6 Business Days,85.50
+8.5" x 11",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,50,6 Business Days,101.22
+8.5" x 11",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,60,6 Business Days,116.93
+8.5" x 11",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,75,6 Business Days,140.49
+8.5" x 11",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,100,6 Business Days,179.77
+8.5" x 11",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,150,6 Business Days,243.70
+8.5" x 11",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,200,6 Business Days,307.62
+8.5" x 11",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,250,6 Business Days,371.55
+8.5" x 11",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,500,6 Business Days,691.18
+8.5" x 11",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,1,000,6 Business Days,1330.44
+8.5" x 11",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,2,000,6 Business Days,2619.81
+8.5" x 11",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,5,000,6 Business Days,6482.47
+
+
+
+8.5" x 11",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,35,6 Business Days,73.67
+8.5" x 11",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,40,6 Business Days,80.80
+8.5" x 11",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,50,6 Business Days,95.07
+8.5" x 11",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,60,6 Business Days,109.33
+8.5" x 11",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,75,6 Business Days,130.73
+8.5" x 11",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,100,6 Business Days,166.39
+8.5" x 11",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,150,6 Business Days,233.57
+8.5" x 11",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,200,6 Business Days,300.82
+8.5" x 11",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,250,6 Business Days,368.08
+8.5" x 11",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,500,6 Business Days,690.77
+8.5" x 11",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,1,000,6 Business Days,1319.98
+8.5" x 11",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,2,000,6 Business Days,2589.30
+8.5" x 11",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,5,000,6 Business Days,6391.82
+
+
+
+8.5" x 11",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,35,6 Business Days,89.04
+8.5" x 11",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,40,6 Business Days,98.41
+8.5" x 11",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,50,6 Business Days,117.15
+8.5" x 11",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,60,6 Business Days,135.88
+8.5" x 11",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,75,6 Business Days,163.98
+8.5" x 11",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,100,6 Business Days,210.82
+8.5" x 11",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,150,6 Business Days,282.55
+8.5" x 11",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,200,6 Business Days,354.27
+8.5" x 11",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,250,6 Business Days,426.00
+8.5" x 11",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,500,6 Business Days,784.64
+8.5" x 11",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,1,000,6 Business Days,1501.93
+8.5" x 11",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,2,000,6 Business Days,2947.33
+8.5" x 11",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,5,000,6 Business Days,7278.13
+
+
+
+8.5" x 11",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,35,6 Business Days,75.25
+8.5" x 11",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,40,6 Business Days,82.99
+8.5" x 11",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,50,6 Business Days,98.48
+8.5" x 11",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,60,6 Business Days,112.89
+8.5" x 11",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,75,6 Business Days,134.49
+8.5" x 11",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,100,6 Business Days,170.51
+8.5" x 11",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,150,6 Business Days,242.53
+8.5" x 11",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,200,6 Business Days,314.56
+8.5" x 11",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,250,6 Business Days,386.59
+8.5" x 11",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,500,6 Business Days,746.72
+8.5" x 11",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,1,000,6 Business Days,1466.98
+8.5" x 11",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,2,000,6 Business Days,2918.35
+8.5" x 11",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,5,000,6 Business Days,7267.02
+
+
+
+8.5" x 11",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,35,6 Business Days,79.13
+8.5" x 11",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,40,6 Business Days,87.43
+8.5" x 11",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,50,6 Business Days,104.03
+8.5" x 11",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,60,6 Business Days,120.63
+8.5" x 11",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,75,6 Business Days,145.53
+8.5" x 11",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,100,6 Business Days,187.03
+8.5" x 11",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,150,6 Business Days,270.03
+8.5" x 11",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,200,6 Business Days,353.03
+8.5" x 11",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,250,6 Business Days,436.03
+8.5" x 11",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,500,6 Business Days,851.02
+8.5" x 11",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,1,000,6 Business Days,1681.00
+8.5" x 11",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,2,000,6 Business Days,3351.80
+8.5" x 11",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,5,000,6 Business Days,8358.78
+
+
+
+8.5" x 11",None,14 pt. Cardstock High Gloss (UV),None,Front Only,35,6 Business Days,37.37
+8.5" x 11",None,14 pt. Cardstock High Gloss (UV),None,Front Only,40,6 Business Days,41.16
+8.5" x 11",None,14 pt. Cardstock High Gloss (UV),None,Front Only,50,6 Business Days,48.74
+8.5" x 11",None,14 pt. Cardstock High Gloss (UV),None,Front Only,60,6 Business Days,56.32
+8.5" x 11",None,14 pt. Cardstock High Gloss (UV),None,Front Only,75,6 Business Days,67.69
+8.5" x 11",None,14 pt. Cardstock High Gloss (UV),None,Front Only,100,6 Business Days,86.64
+8.5" x 11",None,14 pt. Cardstock High Gloss (UV),None,Front Only,150,6 Business Days,124.54
+8.5" x 11",None,14 pt. Cardstock High Gloss (UV),None,Front Only,200,6 Business Days,162.44
+8.5" x 11",None,14 pt. Cardstock High Gloss (UV),None,Front Only,250,6 Business Days,200.34
+8.5" x 11",None,14 pt. Cardstock High Gloss (UV),None,Front Only,500,6 Business Days,389.84
+8.5" x 11",None,14 pt. Cardstock High Gloss (UV),None,Front Only,1,000,6 Business Days,768.84
+8.5" x 11",None,14 pt. Cardstock High Gloss (UV),None,Front Only,2,000,6 Business Days,1537.67
+8.5" x 11",None,14 pt. Cardstock High Gloss (UV),None,Front Only,5,000,6 Business Days,3838.76
+
+
+
+8.5" x 11",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,35,6 Business Days,90.30
+8.5" x 11",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,40,6 Business Days,99.59
+8.5" x 11",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,50,6 Business Days,118.18
+8.5" x 11",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,60,6 Business Days,135.46
+8.5" x 11",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,75,6 Business Days,161.39
+8.5" x 11",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,100,6 Business Days,204.61
+8.5" x 11",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,150,6 Business Days,291.04
+8.5" x 11",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,200,6 Business Days,377.47
+8.5" x 11",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,250,6 Business Days,463.90
+8.5" x 11",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,500,6 Business Days,896.06
+8.5" x 11",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,1,000,6 Business Days,1760.38
+8.5" x 11",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,2,000,6 Business Days,3502.01
+8.5" x 11",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,5,000,6 Business Days,8720.42
+
+
+
+8.5" x 11",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,35,6 Business Days,94.96
+8.5" x 11",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,40,6 Business Days,104.92
+8.5" x 11",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,50,6 Business Days,124.84
+8.5" x 11",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,60,6 Business Days,144.76
+8.5" x 11",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,75,6 Business Days,174.64
+8.5" x 11",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,100,6 Business Days,224.44
+8.5" x 11",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,150,6 Business Days,324.04
+8.5" x 11",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,200,6 Business Days,423.63
+8.5" x 11",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,250,6 Business Days,523.23
+8.5" x 11",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,500,6 Business Days,1021.22
+8.5" x 11",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,1,000,6 Business Days,2017.20
+8.5" x 11",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,2,000,6 Business Days,4022.16
+8.5" x 11",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,5,000,6 Business Days,10030.53
+
+
+
+8.5" x 11",None,17 pt. Cardstock Uncoated,None,Front Only,35,6 Business Days,88.59
+8.5" x 11",None,17 pt. Cardstock Uncoated,None,Front Only,40,6 Business Days,99.69
+8.5" x 11",None,17 pt. Cardstock Uncoated,None,Front Only,50,6 Business Days,121.91
+8.5" x 11",None,17 pt. Cardstock Uncoated,None,Front Only,60,6 Business Days,140.06
+8.5" x 11",None,17 pt. Cardstock Uncoated,None,Front Only,75,6 Business Days,167.29
+8.5" x 11",None,17 pt. Cardstock Uncoated,None,Front Only,100,6 Business Days,212.66
+8.5" x 11",None,17 pt. Cardstock Uncoated,None,Front Only,150,6 Business Days,303.42
+8.5" x 11",None,17 pt. Cardstock Uncoated,None,Front Only,200,6 Business Days,394.17
+8.5" x 11",None,17 pt. Cardstock Uncoated,None,Front Only,250,6 Business Days,422.62
+8.5" x 11",None,17 pt. Cardstock Uncoated,None,Front Only,500,6 Business Days,524.21
+8.5" x 11",None,17 pt. Cardstock Uncoated,None,Front Only,1,000,6 Business Days,673.21
+8.5" x 11",None,17 pt. Cardstock Uncoated,None,Front Only,2,000,6 Business Days,982.04
+8.5" x 11",None,17 pt. Cardstock Uncoated,None,Front Only,5,000,6 Business Days,1903.13
+
+
+
+11" x 17",None,70 lb. Paper Uncoated,None,Front Only,35,6 Business Days,46.05
+11" x 17",None,70 lb. Paper Uncoated,None,Front Only,40,6 Business Days,50.42
+11" x 17",None,70 lb. Paper Uncoated,None,Front Only,50,6 Business Days,59.17
+11" x 17",None,70 lb. Paper Uncoated,None,Front Only,60,6 Business Days,67.91
+11" x 17",None,70 lb. Paper Uncoated,None,Front Only,75,6 Business Days,81.03
+11" x 17",None,70 lb. Paper Uncoated,None,Front Only,100,6 Business Days,102.89
+11" x 17",None,70 lb. Paper Uncoated,None,Front Only,150,6 Business Days,139.03
+11" x 17",None,70 lb. Paper Uncoated,None,Front Only,200,6 Business Days,175.17
+11" x 17",None,70 lb. Paper Uncoated,None,Front Only,250,6 Business Days,211.31
+11" x 17",None,70 lb. Paper Uncoated,None,Front Only,500,6 Business Days,367.62
+11" x 17",None,70 lb. Paper Uncoated,None,Front Only,1,000,6 Business Days,647.74
+11" x 17",None,70 lb. Paper Uncoated,None,Front Only,2,000,6 Business Days,1218.27
+11" x 17",None,70 lb. Paper Uncoated,None,Front Only,5,000,6 Business Days,2929.87
+
+
+
+11" x 17",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,35,6 Business Days,92.16
+11" x 17",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,40,6 Business Days,101.54
+11" x 17",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,50,6 Business Days,120.31
+11" x 17",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,60,6 Business Days,139.09
+11" x 17",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,75,6 Business Days,167.25
+11" x 17",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,100,6 Business Days,214.18
+11" x 17",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,150,6 Business Days,299.75
+11" x 17",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,200,6 Business Days,385.48
+11" x 17",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,250,6 Business Days,471.22
+11" x 17",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,500,6 Business Days,872.69
+11" x 17",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,1,000,6 Business Days,1643.28
+11" x 17",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,2,000,6 Business Days,3195.42
+11" x 17",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,5,000,6 Business Days,7851.85
+
+
+
+11" x 17",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,35,6 Business Days,100.80
+11" x 17",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,40,6 Business Days,111.73
+11" x 17",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,50,6 Business Days,133.59
+11" x 17",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,60,6 Business Days,155.45
+11" x 17",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,75,6 Business Days,188.24
+11" x 17",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,100,6 Business Days,242.89
+11" x 17",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,150,6 Business Days,322.94
+11" x 17",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,200,6 Business Days,402.98
+11" x 17",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,250,6 Business Days,483.03
+11" x 17",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,500,6 Business Days,883.25
+11" x 17",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,1,000,6 Business Days,1683.71
+11" x 17",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,2,000,6 Business Days,3295.45
+11" x 17",3 mil Gloss (Sealed),100 lb. Paper Matte,None,Front Only,5,000,6 Business Days,8130.67
+
+
+
+11" x 17",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,35,6 Business Days,92.84
+11" x 17",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,40,6 Business Days,102.32
+11" x 17",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,50,6 Business Days,121.29
+11" x 17",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,60,6 Business Days,140.26
+11" x 17",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,75,6 Business Days,168.71
+11" x 17",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,100,6 Business Days,216.13
+11" x 17",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,150,6 Business Days,302.67
+11" x 17",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,200,6 Business Days,389.38
+11" x 17",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,250,6 Business Days,476.09
+11" x 17",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,500,6 Business Days,882.44
+11" x 17",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,1,000,6 Business Days,1662.78
+11" x 17",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,2,000,6 Business Days,3234.43
+11" x 17",3 mil Gloss (Sealed),10 pt. Cardstock Gloss,None,Front Only,5,000,6 Business Days,7949.37
+
+
+
+11" x 17",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,35,6 Business Days,123.59
+11" x 17",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,40,6 Business Days,137.54
+11" x 17",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,50,6 Business Days,165.45
+11" x 17",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,60,6 Business Days,193.36
+11" x 17",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,75,6 Business Days,235.22
+11" x 17",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,100,6 Business Days,304.98
+11" x 17",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,150,6 Business Days,400.63
+11" x 17",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,200,6 Business Days,496.28
+11" x 17",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,250,6 Business Days,591.93
+11" x 17",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,500,6 Business Days,1070.18
+11" x 17",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,1,000,6 Business Days,2026.68
+11" x 17",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,2,000,6 Business Days,3950.50
+11" x 17",3 mil Gloss (Sealed),10 pt. Cardstock Matte,None,Front Only,5,000,6 Business Days,9721.99
+
+
+
+11" x 17",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,35,6 Business Days,95.99
+11" x 17",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,40,6 Business Days,106.70
+11" x 17",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,50,6 Business Days,128.12
+11" x 17",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,60,6 Business Days,147.37
+11" x 17",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,75,6 Business Days,176.24
+11" x 17",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,100,6 Business Days,224.36
+11" x 17",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,150,6 Business Days,320.61
+11" x 17",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,200,6 Business Days,416.85
+11" x 17",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,250,6 Business Days,513.10
+11" x 17",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,500,6 Business Days,994.33
+11" x 17",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,1,000,6 Business Days,1956.78
+11" x 17",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,2,000,6 Business Days,3892.53
+11" x 17",3 mil Gloss (Sealed),14 pt. Cardstock Gloss,None,Front Only,5,000,6 Business Days,9699.77
+
+
+
+11" x 17",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,35,6 Business Days,103.77
+11" x 17",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,40,6 Business Days,115.59
+11" x 17",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,50,6 Business Days,139.22
+11" x 17",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,60,6 Business Days,162.86
+11" x 17",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,75,6 Business Days,198.32
+11" x 17",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,100,6 Business Days,257.41
+11" x 17",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,150,6 Business Days,375.60
+11" x 17",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,200,6 Business Days,493.79
+11" x 17",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,250,6 Business Days,611.98
+11" x 17",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,500,6 Business Days,1202.93
+11" x 17",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,1,000,6 Business Days,2384.82
+11" x 17",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,2,000,6 Business Days,4759.43
+11" x 17",3 mil Gloss (Sealed),14 pt. Cardstock Matte,None,Front Only,5,000,6 Business Days,11883.29
+
+
+
+11" x 17",None,14 pt. Cardstock High Gloss (UV),None,Front Only,35,6 Business Days,63.90
+11" x 17",None,14 pt. Cardstock High Gloss (UV),None,Front Only,40,6 Business Days,71.48
+11" x 17",None,14 pt. Cardstock High Gloss (UV),None,Front Only,50,6 Business Days,86.64
+11" x 17",None,14 pt. Cardstock High Gloss (UV),None,Front Only,60,6 Business Days,101.80
+11" x 17",None,14 pt. Cardstock High Gloss (UV),None,Front Only,75,6 Business Days,124.54
+11" x 17",None,14 pt. Cardstock High Gloss (UV),None,Front Only,100,6 Business Days,162.44
+11" x 17",None,14 pt. Cardstock High Gloss (UV),None,Front Only,150,6 Business Days,238.24
+11" x 17",None,14 pt. Cardstock High Gloss (UV),None,Front Only,200,6 Business Days,314.04
+11" x 17",None,14 pt. Cardstock High Gloss (UV),None,Front Only,250,6 Business Days,389.84
+11" x 17",None,14 pt. Cardstock High Gloss (UV),None,Front Only,500,6 Business Days,768.84
+11" x 17",None,14 pt. Cardstock High Gloss (UV),None,Front Only,1,000,6 Business Days,1526.84
+11" x 17",None,14 pt. Cardstock High Gloss (UV),None,Front Only,2,000,6 Business Days,3053.67
+11" x 17",None,14 pt. Cardstock High Gloss (UV),None,Front Only,5,000,6 Business Days,7634.18
+
+
+
+11" x 17",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,35,6 Business Days,115.19
+11" x 17",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,40,6 Business Days,128.04
+11" x 17",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,50,6 Business Days,153.74
+11" x 17",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,60,6 Business Days,176.84
+11" x 17",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,75,6 Business Days,211.49
+11" x 17",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,100,6 Business Days,269.24
+11" x 17",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,150,6 Business Days,384.73
+11" x 17",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,200,6 Business Days,500.22
+11" x 17",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,250,6 Business Days,615.72
+11" x 17",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,500,6 Business Days,1193.19
+11" x 17",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,1,000,6 Business Days,2348.14
+11" x 17",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,2,000,6 Business Days,4671.04
+11" x 17",3 mil Gloss (Sealed),16 pt. Cardstock Gloss,None,Front Only,5,000,6 Business Days,11639.73
+
+
+
+11" x 17",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,35,6 Business Days,124.52
+11" x 17",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,40,6 Business Days,138.70
+11" x 17",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,50,6 Business Days,167.07
+11" x 17",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,60,6 Business Days,195.43
+11" x 17",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,75,6 Business Days,237.98
+11" x 17",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,100,6 Business Days,308.90
+11" x 17",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,150,6 Business Days,450.72
+11" x 17",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,200,6 Business Days,592.55
+11" x 17",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,250,6 Business Days,734.38
+11" x 17",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,500,6 Business Days,1443.51
+11" x 17",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,1,000,6 Business Days,2861.78
+11" x 17",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,2,000,6 Business Days,5711.32
+11" x 17",3 mil Gloss (Sealed),16 pt. Cardstock Matte,None,Front Only,5,000,6 Business Days,14259.95
+
+
+
+11" x 17",None,17 pt. Cardstock Uncoated,None,Front Only,35,6 Business Days,166.34
+11" x 17",None,17 pt. Cardstock Uncoated,None,Front Only,40,6 Business Days,188.55
+11" x 17",None,17 pt. Cardstock Uncoated,None,Front Only,50,6 Business Days,232.98
+11" x 17",None,17 pt. Cardstock Uncoated,None,Front Only,60,6 Business Days,269.28
+11" x 17",None,17 pt. Cardstock Uncoated,None,Front Only,75,6 Business Days,323.73
+11" x 17",None,17 pt. Cardstock Uncoated,None,Front Only,100,6 Business Days,414.49
+11" x 17",None,17 pt. Cardstock Uncoated,None,Front Only,150,6 Business Days,596.00
+11" x 17",None,17 pt. Cardstock Uncoated,None,Front Only,200,6 Business Days,777.51
+11" x 17",None,17 pt. Cardstock Uncoated,None,Front Only,250,6 Business Days,834.40
+11" x 17",None,17 pt. Cardstock Uncoated,None,Front Only,500,6 Business Days,1037.58
+11" x 17",None,17 pt. Cardstock Uncoated,None,Front Only,1,000,6 Business Days,1335.58
+11" x 17",None,17 pt. Cardstock Uncoated,None,Front Only,2,000,6 Business Days,1942.41
+11" x 17",None,17 pt. Cardstock Uncoated,None,Front Only,5,000,6 Business Days,3762.91
+
+
+
