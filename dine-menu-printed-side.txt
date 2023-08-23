@@ -1,0 +1,160 @@
+3.5" x 8.5",None,70 lb. Paper Uncoated,None,Front Only,35,6 Business Days,16.25
+3.5" x 8.5",None,70 lb. Paper Uncoated,None,Front Only,40,6 Business Days,16.98
+3.5" x 8.5",None,70 lb. Paper Uncoated,None,Front Only,50,6 Business Days,18.44
+3.5" x 8.5",None,70 lb. Paper Uncoated,None,Front Only,60,6 Business Days,19.90
+3.5" x 8.5",None,70 lb. Paper Uncoated,None,Front Only,75,6 Business Days,22.08
+3.5" x 8.5",None,70 lb. Paper Uncoated,None,Front Only,100,6 Business Days,25.73
+3.5" x 8.5",None,70 lb. Paper Uncoated,None,Front Only,150,6 Business Days,31.75
+3.5" x 8.5",None,70 lb. Paper Uncoated,None,Front Only,200,6 Business Days,37.77
+3.5" x 8.5",None,70 lb. Paper Uncoated,None,Front Only,250,6 Business Days,43.80
+3.5" x 8.5",None,70 lb. Paper Uncoated,None,Front Only,500,6 Business Days,69.85
+3.5" x 8.5",None,70 lb. Paper Uncoated,None,Front Only,1,000,6 Business Days,116.54
+3.5" x 8.5",None,70 lb. Paper Uncoated,None,Front Only,2,000,6 Business Days,217.29
+3.5" x 8.5",None,70 lb. Paper Uncoated,None,Front Only,5,000,6 Business Days,514.07
+
+
+
+3.5" x 8.5",None,70 lb. Paper Uncoated,None,Front and Back,35,6 Business Days,19.08
+3.5" x 8.5",None,70 lb. Paper Uncoated,None,Front and Back,40,6 Business Days,20.16
+3.5" x 8.5",None,70 lb. Paper Uncoated,None,Front and Back,50,6 Business Days,22.30
+3.5" x 8.5",None,70 lb. Paper Uncoated,None,Front and Back,60,6 Business Days,24.44
+3.5" x 8.5",None,70 lb. Paper Uncoated,None,Front and Back,75,6 Business Days,27.66
+3.5" x 8.5",None,70 lb. Paper Uncoated,None,Front and Back,100,6 Business Days,33.02
+3.5" x 8.5",None,70 lb. Paper Uncoated,None,Front and Back,150,6 Business Days,41.84
+3.5" x 8.5",None,70 lb. Paper Uncoated,None,Front and Back,200,6 Business Days,50.66
+3.5" x 8.5",None,70 lb. Paper Uncoated,None,Front and Back,250,6 Business Days,59.49
+3.5" x 8.5",None,70 lb. Paper Uncoated,None,Front and Back,500,6 Business Days,97.50
+3.5" x 8.5",None,70 lb. Paper Uncoated,None,Front and Back,1,000,6 Business Days,165.41
+3.5" x 8.5",None,70 lb. Paper Uncoated,None,Front and Back,2,000,6 Business Days,308.61
+3.5" x 8.5",None,70 lb. Paper Uncoated,None,Front and Back,5,000,6 Business Days,732.71
+
+
+
+4.25" x 11",None,70 lb. Paper Uncoated,None,Front Only,35,6 Business Days,29.43
+4.25" x 11",None,70 lb. Paper Uncoated,None,Front Only,40,6 Business Days,30.53
+4.25" x 11",None,70 lb. Paper Uncoated,None,Front Only,50,6 Business Days,32.71
+4.25" x 11",None,70 lb. Paper Uncoated,None,Front Only,60,6 Business Days,34.90
+4.25" x 11",None,70 lb. Paper Uncoated,None,Front Only,75,6 Business Days,38.18
+4.25" x 11",None,70 lb. Paper Uncoated,None,Front Only,100,6 Business Days,43.64
+4.25" x 11",None,70 lb. Paper Uncoated,None,Front Only,150,6 Business Days,52.68
+4.25" x 11",None,70 lb. Paper Uncoated,None,Front Only,200,6 Business Days,61.71
+4.25" x 11",None,70 lb. Paper Uncoated,None,Front Only,250,6 Business Days,70.75
+4.25" x 11",None,70 lb. Paper Uncoated,None,Front Only,500,6 Business Days,109.83
+4.25" x 11",None,70 lb. Paper Uncoated,None,Front Only,1,000,6 Business Days,179.85
+4.25" x 11",None,70 lb. Paper Uncoated,None,Front Only,2,000,6 Business Days,328.92
+4.25" x 11",None,70 lb. Paper Uncoated,None,Front Only,5,000,6 Business Days,769.71
+
+
+
+4.25" x 11",None,70 lb. Paper Uncoated,None,Front and Back,35,6 Business Days,33.68
+4.25" x 11",None,70 lb. Paper Uncoated,None,Front and Back,40,6 Business Days,35.29
+4.25" x 11",None,70 lb. Paper Uncoated,None,Front and Back,50,6 Business Days,38.50
+4.25" x 11",None,70 lb. Paper Uncoated,None,Front and Back,60,6 Business Days,41.72
+4.25" x 11",None,70 lb. Paper Uncoated,None,Front and Back,75,6 Business Days,46.54
+4.25" x 11",None,70 lb. Paper Uncoated,None,Front and Back,100,6 Business Days,54.58
+4.25" x 11",None,70 lb. Paper Uncoated,None,Front and Back,150,6 Business Days,67.81
+4.25" x 11",None,70 lb. Paper Uncoated,None,Front and Back,200,6 Business Days,81.05
+4.25" x 11",None,70 lb. Paper Uncoated,None,Front and Back,250,6 Business Days,94.28
+4.25" x 11",None,70 lb. Paper Uncoated,None,Front and Back,500,6 Business Days,151.31
+4.25" x 11",None,70 lb. Paper Uncoated,None,Front and Back,1,000,6 Business Days,253.17
+4.25" x 11",None,70 lb. Paper Uncoated,None,Front and Back,2,000,6 Business Days,465.90
+4.25" x 11",None,70 lb. Paper Uncoated,None,Front and Back,5,000,6 Business Days,1097.68
+
+
+
+5.5" x 8.5",None,70 lb. Paper Uncoated,None,Front Only,35,6 Business Days,19.23
+5.5" x 8.5",None,70 lb. Paper Uncoated,None,Front Only,40,6 Business Days,20.33
+5.5" x 8.5",None,70 lb. Paper Uncoated,None,Front Only,50,6 Business Days,22.51
+5.5" x 8.5",None,70 lb. Paper Uncoated,None,Front Only,60,6 Business Days,24.70
+5.5" x 8.5",None,70 lb. Paper Uncoated,None,Front Only,75,6 Business Days,27.98
+5.5" x 8.5",None,70 lb. Paper Uncoated,None,Front Only,100,6 Business Days,33.44
+5.5" x 8.5",None,70 lb. Paper Uncoated,None,Front Only,150,6 Business Days,42.48
+5.5" x 8.5",None,70 lb. Paper Uncoated,None,Front Only,200,6 Business Days,51.51
+5.5" x 8.5",None,70 lb. Paper Uncoated,None,Front Only,250,6 Business Days,60.55
+5.5" x 8.5",None,70 lb. Paper Uncoated,None,Front Only,500,6 Business Days,99.63
+5.5" x 8.5",None,70 lb. Paper Uncoated,None,Front Only,1,000,6 Business Days,169.66
+5.5" x 8.5",None,70 lb. Paper Uncoated,None,Front Only,2,000,6 Business Days,318.73
+5.5" x 8.5",None,70 lb. Paper Uncoated,None,Front Only,5,000,6 Business Days,759.51
+
+
+
+5.5" x 8.5",None,70 lb. Paper Uncoated,None,Front and Back,35,6 Business Days,23.48
+5.5" x 8.5",None,70 lb. Paper Uncoated,None,Front and Back,40,6 Business Days,25.09
+5.5" x 8.5",None,70 lb. Paper Uncoated,None,Front and Back,50,6 Business Days,28.30
+5.5" x 8.5",None,70 lb. Paper Uncoated,None,Front and Back,60,6 Business Days,31.52
+5.5" x 8.5",None,70 lb. Paper Uncoated,None,Front and Back,75,6 Business Days,36.34
+5.5" x 8.5",None,70 lb. Paper Uncoated,None,Front and Back,100,6 Business Days,44.38
+5.5" x 8.5",None,70 lb. Paper Uncoated,None,Front and Back,150,6 Business Days,57.62
+5.5" x 8.5",None,70 lb. Paper Uncoated,None,Front and Back,200,6 Business Days,70.85
+5.5" x 8.5",None,70 lb. Paper Uncoated,None,Front and Back,250,6 Business Days,84.08
+5.5" x 8.5",None,70 lb. Paper Uncoated,None,Front and Back,500,6 Business Days,141.11
+5.5" x 8.5",None,70 lb. Paper Uncoated,None,Front and Back,1,000,6 Business Days,242.97
+5.5" x 8.5",None,70 lb. Paper Uncoated,None,Front and Back,2,000,6 Business Days,455.70
+5.5" x 8.5",None,70 lb. Paper Uncoated,None,Front and Back,5,000,6 Business Days,1087.48
+
+
+
+8.5" x 11",None,70 lb. Paper Uncoated,None,Front Only,35,6 Business Days,28.17
+8.5" x 11",None,70 lb. Paper Uncoated,None,Front Only,40,6 Business Days,30.36
+8.5" x 11",None,70 lb. Paper Uncoated,None,Front Only,50,6 Business Days,34.73
+8.5" x 11",None,70 lb. Paper Uncoated,None,Front Only,60,6 Business Days,39.10
+8.5" x 11",None,70 lb. Paper Uncoated,None,Front Only,75,6 Business Days,45.66
+8.5" x 11",None,70 lb. Paper Uncoated,None,Front Only,100,6 Business Days,56.59
+8.5" x 11",None,70 lb. Paper Uncoated,None,Front Only,150,6 Business Days,74.66
+8.5" x 11",None,70 lb. Paper Uncoated,None,Front Only,200,6 Business Days,92.73
+8.5" x 11",None,70 lb. Paper Uncoated,None,Front Only,250,6 Business Days,110.80
+8.5" x 11",None,70 lb. Paper Uncoated,None,Front Only,500,6 Business Days,188.96
+8.5" x 11",None,70 lb. Paper Uncoated,None,Front Only,1,000,6 Business Days,329.02
+8.5" x 11",None,70 lb. Paper Uncoated,None,Front Only,2,000,6 Business Days,619.43
+8.5" x 11",None,70 lb. Paper Uncoated,None,Front Only,5,000,6 Business Days,1485.53
+
+
+
+8.5" x 11",None,70 lb. Paper Uncoated,None,Front and Back,35,6 Business Days,36.66
+8.5" x 11",None,70 lb. Paper Uncoated,None,Front and Back,40,6 Business Days,39.88
+8.5" x 11",None,70 lb. Paper Uncoated,None,Front and Back,50,6 Business Days,46.31
+8.5" x 11",None,70 lb. Paper Uncoated,None,Front and Back,60,6 Business Days,52.74
+8.5" x 11",None,70 lb. Paper Uncoated,None,Front and Back,75,6 Business Days,62.39
+8.5" x 11",None,70 lb. Paper Uncoated,None,Front and Back,100,6 Business Days,78.47
+8.5" x 11",None,70 lb. Paper Uncoated,None,Front and Back,150,6 Business Days,104.94
+8.5" x 11",None,70 lb. Paper Uncoated,None,Front and Back,200,6 Business Days,131.40
+8.5" x 11",None,70 lb. Paper Uncoated,None,Front and Back,250,6 Business Days,157.87
+8.5" x 11",None,70 lb. Paper Uncoated,None,Front and Back,500,6 Business Days,271.92
+8.5" x 11",None,70 lb. Paper Uncoated,None,Front and Back,1,000,6 Business Days,475.65
+8.5" x 11",None,70 lb. Paper Uncoated,None,Front and Back,2,000,6 Business Days,893.39
+8.5" x 11",None,70 lb. Paper Uncoated,None,Front and Back,5,000,6 Business Days,2141.47
+
+
+
+11" x 17",None,70 lb. Paper Uncoated,None,Front Only,35,6 Business Days,46.05
+11" x 17",None,70 lb. Paper Uncoated,None,Front Only,40,6 Business Days,50.42
+11" x 17",None,70 lb. Paper Uncoated,None,Front Only,50,6 Business Days,59.17
+11" x 17",None,70 lb. Paper Uncoated,None,Front Only,60,6 Business Days,67.91
+11" x 17",None,70 lb. Paper Uncoated,None,Front Only,75,6 Business Days,81.03
+11" x 17",None,70 lb. Paper Uncoated,None,Front Only,100,6 Business Days,102.89
+11" x 17",None,70 lb. Paper Uncoated,None,Front Only,150,6 Business Days,139.03
+11" x 17",None,70 lb. Paper Uncoated,None,Front Only,200,6 Business Days,175.17
+11" x 17",None,70 lb. Paper Uncoated,None,Front Only,250,6 Business Days,211.31
+11" x 17",None,70 lb. Paper Uncoated,None,Front Only,500,6 Business Days,367.62
+11" x 17",None,70 lb. Paper Uncoated,None,Front Only,1,000,6 Business Days,647.74
+11" x 17",None,70 lb. Paper Uncoated,None,Front Only,2,000,6 Business Days,1218.27
+11" x 17",None,70 lb. Paper Uncoated,None,Front Only,5,000,6 Business Days,2929.87
+
+
+
+11" x 17",None,70 lb. Paper Uncoated,None,Front and Back,35,6 Business Days,63.03
+11" x 17",None,70 lb. Paper Uncoated,None,Front and Back,40,6 Business Days,69.47
+11" x 17",None,70 lb. Paper Uncoated,None,Front and Back,50,6 Business Days,82.33
+11" x 17",None,70 lb. Paper Uncoated,None,Front and Back,60,6 Business Days,95.19
+11" x 17",None,70 lb. Paper Uncoated,None,Front and Back,75,6 Business Days,114.49
+11" x 17",None,70 lb. Paper Uncoated,None,Front and Back,100,6 Business Days,146.64
+11" x 17",None,70 lb. Paper Uncoated,None,Front and Back,150,6 Business Days,199.58
+11" x 17",None,70 lb. Paper Uncoated,None,Front and Back,200,6 Business Days,252.51
+11" x 17",None,70 lb. Paper Uncoated,None,Front and Back,250,6 Business Days,305.45
+11" x 17",None,70 lb. Paper Uncoated,None,Front and Back,500,6 Business Days,533.55
+11" x 17",None,70 lb. Paper Uncoated,None,Front and Back,1,000,6 Business Days,941.00
+11" x 17",None,70 lb. Paper Uncoated,None,Front and Back,2,000,6 Business Days,1766.18
+11" x 17",None,70 lb. Paper Uncoated,None,Front and Back,5,000,6 Business Days,4241.74
+
+
+
