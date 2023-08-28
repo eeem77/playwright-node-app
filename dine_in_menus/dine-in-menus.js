@@ -188,20 +188,22 @@ const web = async () => {
     //       //password: 'pwd'
     //     }
     // })
-    const browser = await firefox.launch()
+    const browser = await chromium.launch()
     const page = await browser.newPage()
-    await page.goto('https://www.uprinting.com/dine-in-menu-printing.html', {timeout:300000})
+    await page.goto('https://www.uprinting.com/dine-in-menu-printing.html', { timeout: 300000 })
 
     await page.waitForTimeout(10000)
+    
+    // await changeOneOptions(page, 1, 1)
+    await changeOneOptions(page, 1, 0)
 
-    // await changeOneOptions(page, 0, 4)
-    // await changeOneOptions(page, 3, 1)
-    // await changeOptions(page, 5)
+    //await changeOptions(page, 5)
 
-    for (let i = 3; i <= 4; i++) {
+    for (let i = 0; i <= 4; i++) {
         await changeOneOptions(page, 0, i)
-        const repeat = await searchLen(page, 2)
-        for (let a = 0; a <= 3; a++) {
+
+        //const repeat = await searchLen(page, 2)
+        for (let a = 0; a <= 1; a++) {
             // if (a === 0 || a === 7 || a === 10) {
             //     await changeOneOptions(page, 2, a)
             // } else {
@@ -209,13 +211,13 @@ const web = async () => {
             //     await changeOneOptions(page, 1, 1)
             // }
             //await changeOneOptions(page, 0, 3)
-            await changeOneOptions(page, 3, a)
+            await changeOneOptions(page, 4, a)
             const buttons = await page.$$eval('button.btn.dropdown-toggle', node => node.map(n => n.innerText))
             console.log(buttons);
             await changeOptions(page, 5)
             fs.appendFileSync(`list.txt`, '\n\n\n')
         }
-    }
+   }
 
 
     //const repeat = await qtyLength(page)

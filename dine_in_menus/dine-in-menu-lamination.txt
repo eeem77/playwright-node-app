@@ -1,4 +1,3 @@
-3.5" x 8.5",None,100 lb. Paper Gloss,None,Front Only,30,6 Business Days,16.34
 3.5" x 8.5",None,100 lb. Paper Gloss,None,Front Only,35,6 Business Days,17.11
 3.5" x 8.5",None,100 lb. Paper Gloss,None,Front Only,40,6 Business Days,17.88
 3.5" x 8.5",None,100 lb. Paper Gloss,None,Front Only,50,6 Business Days,19.42
@@ -9,13 +8,12 @@
 3.5" x 8.5",None,100 lb. Paper Gloss,None,Front Only,200,6 Business Days,39.71
 3.5" x 8.5",None,100 lb. Paper Gloss,None,Front Only,250,6 Business Days,46.03
 3.5" x 8.5",None,100 lb. Paper Gloss,None,Front Only,500,6 Business Days,73.10
-3.5" x 8.5",None,100 lb. Paper Gloss,None,Front Only,1,000,6 Business Days,121.85
-3.5" x 8.5",None,100 lb. Paper Gloss,None,Front Only,2,000,6 Business Days,227.15
-3.5" x 8.5",None,100 lb. Paper Gloss,None,Front Only,5,000,6 Business Days,537.24
+3.5" x 8.5",None,100 lb. Paper Gloss,None,Front Only,1000,6 Business Days,121.85
+3.5" x 8.5",None,100 lb. Paper Gloss,None,Front Only,2000,6 Business Days,227.15
+3.5" x 8.5",None,100 lb. Paper Gloss,None,Front Only,5000,6 Business Days,537.24
 
 
 
-3.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,30,6 Business Days,55.23
 3.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,35,6 Business Days,60.78
 3.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,40,6 Business Days,66.32
 3.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,50,6 Business Days,77.42
@@ -26,13 +24,12 @@
 3.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,200,6 Business Days,241.13
 3.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,250,6 Business Days,295.26
 3.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,500,6 Business Days,561.37
-3.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,1,000,6 Business Days,1088.20
-3.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,2,000,6 Business Days,2149.63
-3.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,5,000,6 Business Days,5328.17
+3.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,1000,6 Business Days,1088.20
+3.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,2000,6 Business Days,2149.63
+3.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,5000,6 Business Days,5328.17
 
 
 
-3.5" x 8.5",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,30,6 Business Days,55.23
 3.5" x 8.5",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,35,6 Business Days,60.78
 3.5" x 8.5",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,40,6 Business Days,66.32
 3.5" x 8.5",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,50,6 Business Days,77.42
@@ -43,13 +40,12 @@
 3.5" x 8.5",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,200,6 Business Days,241.13
 3.5" x 8.5",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,250,6 Business Days,295.26
 3.5" x 8.5",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,500,6 Business Days,561.37
-3.5" x 8.5",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,1,000,6 Business Days,1088.20
-3.5" x 8.5",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,2,000,6 Business Days,2149.63
-3.5" x 8.5",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,5,000,6 Business Days,5328.17
+3.5" x 8.5",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,1000,6 Business Days,1088.20
+3.5" x 8.5",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,2000,6 Business Days,2149.63
+3.5" x 8.5",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,5000,6 Business Days,5328.17
 
 
 
-4.25" x 11",None,100 lb. Paper Gloss,None,Front Only,30,6 Business Days,19.10
 4.25" x 11",None,100 lb. Paper Gloss,None,Front Only,35,6 Business Days,20.25
 4.25" x 11",None,100 lb. Paper Gloss,None,Front Only,40,6 Business Days,21.40
 4.25" x 11",None,100 lb. Paper Gloss,None,Front Only,50,6 Business Days,23.70
@@ -60,13 +56,12 @@
 4.25" x 11",None,100 lb. Paper Gloss,None,Front Only,200,6 Business Days,54.14
 4.25" x 11",None,100 lb. Paper Gloss,None,Front Only,250,6 Business Days,63.62
 4.25" x 11",None,100 lb. Paper Gloss,None,Front Only,500,6 Business Days,104.23
-4.25" x 11",None,100 lb. Paper Gloss,None,Front Only,1,000,6 Business Days,177.36
-4.25" x 11",None,100 lb. Paper Gloss,None,Front Only,2,000,6 Business Days,333.13
-4.25" x 11",None,100 lb. Paper Gloss,None,Front Only,5,000,6 Business Days,793.68
+4.25" x 11",None,100 lb. Paper Gloss,None,Front Only,1000,6 Business Days,177.36
+4.25" x 11",None,100 lb. Paper Gloss,None,Front Only,2000,6 Business Days,333.13
+4.25" x 11",None,100 lb. Paper Gloss,None,Front Only,5000,6 Business Days,793.68
 
 
 
-4.25" x 11",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,30,6 Business Days,57.98
 4.25" x 11",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,35,6 Business Days,63.91
 4.25" x 11",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,40,6 Business Days,69.85
 4.25" x 11",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,50,6 Business Days,81.71
@@ -77,13 +72,12 @@
 4.25" x 11",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,200,6 Business Days,255.57
 4.25" x 11",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,250,6 Business Days,312.86
 4.25" x 11",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,500,6 Business Days,592.50
-4.25" x 11",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,1,000,6 Business Days,1143.70
-4.25" x 11",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,2,000,6 Business Days,2255.62
-4.25" x 11",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,5,000,6 Business Days,5584.60
+4.25" x 11",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,1000,6 Business Days,1143.70
+4.25" x 11",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,2000,6 Business Days,2255.62
+4.25" x 11",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,5000,6 Business Days,5584.60
 
 
 
-4.25" x 11",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,30,6 Business Days,57.98
 4.25" x 11",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,35,6 Business Days,63.91
 4.25" x 11",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,40,6 Business Days,69.85
 4.25" x 11",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,50,6 Business Days,81.71
@@ -94,13 +88,12 @@
 4.25" x 11",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,200,6 Business Days,255.57
 4.25" x 11",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,250,6 Business Days,312.86
 4.25" x 11",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,500,6 Business Days,592.50
-4.25" x 11",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,1,000,6 Business Days,1143.70
-4.25" x 11",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,2,000,6 Business Days,2255.62
-4.25" x 11",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,5,000,6 Business Days,5584.60
+4.25" x 11",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,1000,6 Business Days,1143.70
+4.25" x 11",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,2000,6 Business Days,2255.62
+4.25" x 11",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,5000,6 Business Days,5584.60
 
 
 
-5.5" x 8.5",None,100 lb. Paper Gloss,None,Front Only,30,6 Business Days,19.10
 5.5" x 8.5",None,100 lb. Paper Gloss,None,Front Only,35,6 Business Days,20.25
 5.5" x 8.5",None,100 lb. Paper Gloss,None,Front Only,40,6 Business Days,21.40
 5.5" x 8.5",None,100 lb. Paper Gloss,None,Front Only,50,6 Business Days,23.70
@@ -111,13 +104,12 @@
 5.5" x 8.5",None,100 lb. Paper Gloss,None,Front Only,200,6 Business Days,54.14
 5.5" x 8.5",None,100 lb. Paper Gloss,None,Front Only,250,6 Business Days,63.62
 5.5" x 8.5",None,100 lb. Paper Gloss,None,Front Only,500,6 Business Days,104.23
-5.5" x 8.5",None,100 lb. Paper Gloss,None,Front Only,1,000,6 Business Days,177.36
-5.5" x 8.5",None,100 lb. Paper Gloss,None,Front Only,2,000,6 Business Days,333.13
-5.5" x 8.5",None,100 lb. Paper Gloss,None,Front Only,5,000,6 Business Days,793.68
+5.5" x 8.5",None,100 lb. Paper Gloss,None,Front Only,1000,6 Business Days,177.36
+5.5" x 8.5",None,100 lb. Paper Gloss,None,Front Only,2000,6 Business Days,333.13
+5.5" x 8.5",None,100 lb. Paper Gloss,None,Front Only,5000,6 Business Days,793.68
 
 
 
-5.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,30,6 Business Days,57.98
 5.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,35,6 Business Days,63.91
 5.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,40,6 Business Days,69.85
 5.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,50,6 Business Days,81.71
@@ -128,14 +120,13 @@
 5.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,200,6 Business Days,255.57
 5.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,250,6 Business Days,312.86
 5.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,500,6 Business Days,592.50
-5.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,1,000,6 Business Days,1143.70
-5.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,2,000,6 Business Days,2255.62
-5.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,5,000,6 Business Days,5584.60
+5.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,1000,6 Business Days,1143.70
+5.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,2000,6 Business Days,2255.62
+5.5" x 8.5",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,5000,6 Business Days,5584.60
 
 
 
 
-5.5" x 8.5",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,30,6 Business Days,57.98
 5.5" x 8.5",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,35,6 Business Days,63.91
 5.5" x 8.5",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,40,6 Business Days,69.85
 5.5" x 8.5",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,50,6 Business Days,81.71
@@ -146,13 +137,12 @@
 5.5" x 8.5",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,200,6 Business Days,255.57
 5.5" x 8.5",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,250,6 Business Days,312.86
 5.5" x 8.5",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,500,6 Business Days,592.50
-5.5" x 8.5",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,1,000,6 Business Days,1143.70
-5.5" x 8.5",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,2,000,6 Business Days,2255.62
-5.5" x 8.5",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,5,000,6 Business Days,5584.60
+5.5" x 8.5",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,1000,6 Business Days,1143.70
+5.5" x 8.5",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,2000,6 Business Days,2255.62
+5.5" x 8.5",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,5000,6 Business Days,5584.60
 
 
 
-8.5" x 11",None,100 lb. Paper Gloss,None,Front Only,30,6 Business Days,27.36
 8.5" x 11",None,100 lb. Paper Gloss,None,Front Only,35,6 Business Days,29.66
 8.5" x 11",None,100 lb. Paper Gloss,None,Front Only,40,6 Business Days,31.97
 8.5" x 11",None,100 lb. Paper Gloss,None,Front Only,50,6 Business Days,36.57
@@ -163,13 +153,12 @@
 8.5" x 11",None,100 lb. Paper Gloss,None,Front Only,200,6 Business Days,97.45
 8.5" x 11",None,100 lb. Paper Gloss,None,Front Only,250,6 Business Days,116.41
 8.5" x 11",None,100 lb. Paper Gloss,None,Front Only,500,6 Business Days,197.63
-8.5" x 11",None,100 lb. Paper Gloss,None,Front Only,1,000,6 Business Days,343.88
-8.5" x 11",None,100 lb. Paper Gloss,None,Front Only,2,000,6 Business Days,647.30
-8.5" x 11",None,100 lb. Paper Gloss,None,Front Only,5,000,6 Business Days,1552.13
+8.5" x 11",None,100 lb. Paper Gloss,None,Front Only,1000,6 Business Days,343.88
+8.5" x 11",None,100 lb. Paper Gloss,None,Front Only,2000,6 Business Days,647.30
+8.5" x 11",None,100 lb. Paper Gloss,None,Front Only,5000,6 Business Days,1552.13
 
 
 
-8.5" x 11",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,30,6 Business Days,66.24
 8.5" x 11",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,35,6 Business Days,73.33
 8.5" x 11",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,40,6 Business Days,80.41
 8.5" x 11",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,50,6 Business Days,94.58
@@ -180,13 +169,12 @@
 8.5" x 11",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,200,6 Business Days,298.87
 8.5" x 11",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,250,6 Business Days,365.64
 8.5" x 11",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,500,6 Business Days,685.90
-8.5" x 11",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,1,000,6 Business Days,1310.23
-8.5" x 11",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,2,000,6 Business Days,2569.79
-8.5" x 11",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,5,000,6 Business Days,6343.06
+8.5" x 11",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,1000,6 Business Days,1310.23
+8.5" x 11",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,2000,6 Business Days,2569.79
+8.5" x 11",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,5000,6 Business Days,6343.06
 
 
 
-8.5" x 11",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,30,6 Business Days,66.24
 8.5" x 11",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,35,6 Business Days,73.33
 8.5" x 11",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,40,6 Business Days,80.41
 8.5" x 11",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,50,6 Business Days,94.58
@@ -197,13 +185,12 @@
 8.5" x 11",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,200,6 Business Days,298.87
 8.5" x 11",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,250,6 Business Days,365.64
 8.5" x 11",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,500,6 Business Days,685.90
-8.5" x 11",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,1,000,6 Business Days,1310.23
-8.5" x 11",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,2,000,6 Business Days,2569.79
-8.5" x 11",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,5,000,6 Business Days,6343.06
+8.5" x 11",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,1000,6 Business Days,1310.23
+8.5" x 11",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,2000,6 Business Days,2569.79
+8.5" x 11",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,5000,6 Business Days,6343.06
 
 
 
-11" x 17",None,100 lb. Paper Gloss,None,Front Only,30,6 Business Days,43.89
 11" x 17",None,100 lb. Paper Gloss,None,Front Only,35,6 Business Days,48.49
 11" x 17",None,100 lb. Paper Gloss,None,Front Only,40,6 Business Days,53.10
 11" x 17",None,100 lb. Paper Gloss,None,Front Only,50,6 Business Days,62.31
@@ -214,13 +201,12 @@
 11" x 17",None,100 lb. Paper Gloss,None,Front Only,200,6 Business Days,184.05
 11" x 17",None,100 lb. Paper Gloss,None,Front Only,250,6 Business Days,221.98
 11" x 17",None,100 lb. Paper Gloss,None,Front Only,500,6 Business Days,384.42
-11" x 17",None,100 lb. Paper Gloss,None,Front Only,1,000,6 Business Days,676.93
-11" x 17",None,100 lb. Paper Gloss,None,Front Only,2,000,6 Business Days,1272.93
-11" x 17",None,100 lb. Paper Gloss,None,Front Only,5,000,6 Business Days,3060.92
+11" x 17",None,100 lb. Paper Gloss,None,Front Only,1000,6 Business Days,676.93
+11" x 17",None,100 lb. Paper Gloss,None,Front Only,2000,6 Business Days,1272.93
+11" x 17",None,100 lb. Paper Gloss,None,Front Only,5000,6 Business Days,3060.92
 
 
 
-11" x 17",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,30,6 Business Days,82.77
 11" x 17",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,35,6 Business Days,92.16
 11" x 17",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,40,6 Business Days,101.54
 11" x 17",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,50,6 Business Days,120.31
@@ -231,13 +217,12 @@
 11" x 17",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,200,6 Business Days,385.48
 11" x 17",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,250,6 Business Days,471.22
 11" x 17",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,500,6 Business Days,872.69
-11" x 17",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,1,000,6 Business Days,1643.28
-11" x 17",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,2,000,6 Business Days,3195.42
-11" x 17",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,5,000,6 Business Days,7851.85
+11" x 17",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,1000,6 Business Days,1643.28
+11" x 17",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,2000,6 Business Days,3195.42
+11" x 17",3 mil Gloss (Sealed),100 lb. Paper Gloss,None,Front Only,5000,6 Business Days,7851.85
 
 
 
-11" x 17",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,30,6 Business Days,82.77
 11" x 17",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,35,6 Business Days,92.16
 11" x 17",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,40,6 Business Days,101.54
 11" x 17",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,50,6 Business Days,120.31
@@ -248,9 +233,9 @@
 11" x 17",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,200,6 Business Days,385.48
 11" x 17",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,250,6 Business Days,471.22
 11" x 17",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,500,6 Business Days,872.69
-11" x 17",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,1,000,6 Business Days,1643.28
-11" x 17",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,2,000,6 Business Days,3195.42
-11" x 17",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,5,000,6 Business Days,7851.85
+11" x 17",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,1000,6 Business Days,1643.28
+11" x 17",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,2000,6 Business Days,3195.42
+11" x 17",3 mil Matte (Sealed),100 lb. Paper Gloss,None,Front Only,5000,6 Business Days,7851.85
 
 
 

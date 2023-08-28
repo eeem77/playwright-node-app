@@ -8,9 +8,9 @@
 8.5" x 11",None,70 lb. Paper Uncoated,None,Front Only,200,6 Business Days,92.73
 8.5" x 11",None,70 lb. Paper Uncoated,None,Front Only,250,6 Business Days,110.80
 8.5" x 11",None,70 lb. Paper Uncoated,None,Front Only,500,6 Business Days,188.96
-8.5" x 11",None,70 lb. Paper Uncoated,None,Front Only,1,000,6 Business Days,329.02
-8.5" x 11",None,70 lb. Paper Uncoated,None,Front Only,2,000,6 Business Days,619.43
-8.5" x 11",None,70 lb. Paper Uncoated,None,Front Only,5,000,6 Business Days,1485.53
+8.5" x 11",None,70 lb. Paper Uncoated,None,Front Only,1000,6 Business Days,329.02
+8.5" x 11",None,70 lb. Paper Uncoated,None,Front Only,2000,6 Business Days,619.43
+8.5" x 11",None,70 lb. Paper Uncoated,None,Front Only,5000,6 Business Days,1485.53
 
 
 
@@ -24,9 +24,9 @@
 8.5" x 11",None,70 lb. Paper Uncoated,Half Fold,Outside Only,200,6 Business Days,103.57
 8.5" x 11",None,70 lb. Paper Uncoated,Half Fold,Outside Only,250,6 Business Days,121.64
 8.5" x 11",None,70 lb. Paper Uncoated,Half Fold,Outside Only,500,6 Business Days,199.79
-8.5" x 11",None,70 lb. Paper Uncoated,Half Fold,Outside Only,1,000,6 Business Days,339.85
-8.5" x 11",None,70 lb. Paper Uncoated,Half Fold,Outside Only,2,000,6 Business Days,641.10
-8.5" x 11",None,70 lb. Paper Uncoated,Half Fold,Outside Only,5,000,6 Business Days,1539.72
+8.5" x 11",None,70 lb. Paper Uncoated,Half Fold,Outside Only,1000,6 Business Days,339.85
+8.5" x 11",None,70 lb. Paper Uncoated,Half Fold,Outside Only,2000,6 Business Days,641.10
+8.5" x 11",None,70 lb. Paper Uncoated,Half Fold,Outside Only,5000,6 Business Days,1539.72
 
 
 
@@ -40,9 +40,9 @@
 8.5" x 11",None,70 lb. Paper Uncoated,Tri-Fold/Letter Fold,Outside Only,200,6 Business Days,103.57
 8.5" x 11",None,70 lb. Paper Uncoated,Tri-Fold/Letter Fold,Outside Only,250,6 Business Days,121.64
 8.5" x 11",None,70 lb. Paper Uncoated,Tri-Fold/Letter Fold,Outside Only,500,6 Business Days,199.79
-8.5" x 11",None,70 lb. Paper Uncoated,Tri-Fold/Letter Fold,Outside Only,1,000,6 Business Days,339.85
-8.5" x 11",None,70 lb. Paper Uncoated,Tri-Fold/Letter Fold,Outside Only,2,000,6 Business Days,641.10
-8.5" x 11",None,70 lb. Paper Uncoated,Tri-Fold/Letter Fold,Outside Only,5,000,6 Business Days,1539.72
+8.5" x 11",None,70 lb. Paper Uncoated,Tri-Fold/Letter Fold,Outside Only,1000,6 Business Days,339.85
+8.5" x 11",None,70 lb. Paper Uncoated,Tri-Fold/Letter Fold,Outside Only,2000,6 Business Days,641.10
+8.5" x 11",None,70 lb. Paper Uncoated,Tri-Fold/Letter Fold,Outside Only,5000,6 Business Days,1539.72
 
 
 
@@ -56,9 +56,9 @@
 8.5" x 11",None,70 lb. Paper Uncoated,Z-Fold,Outside Only,200,6 Business Days,103.57
 8.5" x 11",None,70 lb. Paper Uncoated,Z-Fold,Outside Only,250,6 Business Days,121.64
 8.5" x 11",None,70 lb. Paper Uncoated,Z-Fold,Outside Only,500,6 Business Days,199.79
-8.5" x 11",None,70 lb. Paper Uncoated,Z-Fold,Outside Only,1,000,6 Business Days,339.85
-8.5" x 11",None,70 lb. Paper Uncoated,Z-Fold,Outside Only,2,000,6 Business Days,641.10
-8.5" x 11",None,70 lb. Paper Uncoated,Z-Fold,Outside Only,5,000,6 Business Days,1539.72
+8.5" x 11",None,70 lb. Paper Uncoated,Z-Fold,Outside Only,1000,6 Business Days,339.85
+8.5" x 11",None,70 lb. Paper Uncoated,Z-Fold,Outside Only,2000,6 Business Days,641.10
+8.5" x 11",None,70 lb. Paper Uncoated,Z-Fold,Outside Only,5000,6 Business Days,1539.72
 
 
 
@@ -72,9 +72,9 @@
 11" x 17",None,70 lb. Paper Uncoated,None,Front Only,200,6 Business Days,175.17
 11" x 17",None,70 lb. Paper Uncoated,None,Front Only,250,6 Business Days,211.31
 11" x 17",None,70 lb. Paper Uncoated,None,Front Only,500,6 Business Days,367.62
-11" x 17",None,70 lb. Paper Uncoated,None,Front Only,1,000,6 Business Days,647.74
-11" x 17",None,70 lb. Paper Uncoated,None,Front Only,2,000,6 Business Days,1218.27
-11" x 17",None,70 lb. Paper Uncoated,None,Front Only,5,000,6 Business Days,2929.87
+11" x 17",None,70 lb. Paper Uncoated,None,Front Only,1000,6 Business Days,647.74
+11" x 17",None,70 lb. Paper Uncoated,None,Front Only,2000,6 Business Days,1218.27
+11" x 17",None,70 lb. Paper Uncoated,None,Front Only,5000,6 Business Days,2929.87
 
 
 
@@ -88,9 +88,9 @@
 11" x 17",None,70 lb. Paper Uncoated,Half Fold,Outside Only,200,6 Business Days,186.01
 11" x 17",None,70 lb. Paper Uncoated,Half Fold,Outside Only,250,6 Business Days,222.14
 11" x 17",None,70 lb. Paper Uncoated,Half Fold,Outside Only,500,6 Business Days,378.46
-11" x 17",None,70 lb. Paper Uncoated,Half Fold,Outside Only,1,000,6 Business Days,658.58
-11" x 17",None,70 lb. Paper Uncoated,Half Fold,Outside Only,2,000,6 Business Days,1239.94
-11" x 17",None,70 lb. Paper Uncoated,Half Fold,Outside Only,5,000,6 Business Days,2984.05
+11" x 17",None,70 lb. Paper Uncoated,Half Fold,Outside Only,1000,6 Business Days,658.58
+11" x 17",None,70 lb. Paper Uncoated,Half Fold,Outside Only,2000,6 Business Days,1239.94
+11" x 17",None,70 lb. Paper Uncoated,Half Fold,Outside Only,5000,6 Business Days,2984.05
 
 
 
@@ -104,9 +104,9 @@
 11" x 17",None,70 lb. Paper Uncoated,Tri-Fold/Letter Fold,Outside Only,200,6 Business Days,186.01
 11" x 17",None,70 lb. Paper Uncoated,Tri-Fold/Letter Fold,Outside Only,250,6 Business Days,222.14
 11" x 17",None,70 lb. Paper Uncoated,Tri-Fold/Letter Fold,Outside Only,500,6 Business Days,378.46
-11" x 17",None,70 lb. Paper Uncoated,Tri-Fold/Letter Fold,Outside Only,1,000,6 Business Days,658.58
-11" x 17",None,70 lb. Paper Uncoated,Tri-Fold/Letter Fold,Outside Only,2,000,6 Business Days,1239.94
-11" x 17",None,70 lb. Paper Uncoated,Tri-Fold/Letter Fold,Outside Only,5,000,6 Business Days,2984.05
+11" x 17",None,70 lb. Paper Uncoated,Tri-Fold/Letter Fold,Outside Only,1000,6 Business Days,658.58
+11" x 17",None,70 lb. Paper Uncoated,Tri-Fold/Letter Fold,Outside Only,2000,6 Business Days,1239.94
+11" x 17",None,70 lb. Paper Uncoated,Tri-Fold/Letter Fold,Outside Only,5000,6 Business Days,2984.05
 
 
 
@@ -120,9 +120,9 @@
 11" x 17",None,70 lb. Paper Uncoated,Z-Fold,Outside Only,200,6 Business Days,186.01
 11" x 17",None,70 lb. Paper Uncoated,Z-Fold,Outside Only,250,6 Business Days,222.14
 11" x 17",None,70 lb. Paper Uncoated,Z-Fold,Outside Only,500,6 Business Days,378.46
-11" x 17",None,70 lb. Paper Uncoated,Z-Fold,Outside Only,1,000,6 Business Days,658.58
-11" x 17",None,70 lb. Paper Uncoated,Z-Fold,Outside Only,2,000,6 Business Days,1239.94
-11" x 17",None,70 lb. Paper Uncoated,Z-Fold,Outside Only,5,000,6 Business Days,2984.05
+11" x 17",None,70 lb. Paper Uncoated,Z-Fold,Outside Only,1000,6 Business Days,658.58
+11" x 17",None,70 lb. Paper Uncoated,Z-Fold,Outside Only,2000,6 Business Days,1239.94
+11" x 17",None,70 lb. Paper Uncoated,Z-Fold,Outside Only,5000,6 Business Days,2984.05
 
 
 

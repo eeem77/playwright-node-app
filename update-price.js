@@ -5,110 +5,22 @@ dotenv.config()
 import listPrice from './listPrice.js'
 
 const url = 'https://www.apprinting.com/admin/'
-const urlProductUpdatePrice = 'https://www.apprinting.com/admin/product_additionalinfo_price.php?product_id=24&prod_add_opt_id=96449&sel_product_size=40'
+const urlProductUpdatePrice = 'https://www.apprinting.com/admin/product_additionalinfo_price.php?product_id=3147&prod_add_opt_id=96563&sel_product_size=4427'
 
 const qtys = [
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    18,
-    19,
-    20,
-    21,
-    22,
-    23,
-    24,
-    25,
-    26,
-    27,
-    28,
-    29,
-    30,
-    31,
-    32,
-    33,
-    34,
     35,
-    36,
-    37,
-    38,
-    39,
     40,
-    41,
-    42,
-    43,
-    44,
-    45,
-    46,
-    47,
-    48,
-    49,
     50,
-    51,
-    52,
-    53,
-    54,
-    55,
-    56,
-    57,
-    58,
-    59,
     60,
-    61,
-    62,
-    63,
-    64,
-    65,
-    66,
-    67,
-    68,
-    69,
-    70,
-    71,
-    72,
-    73,
-    74,
     75,
-    76,
-    77,
-    78,
-    79,
-    80,
-    81,
-    82,
-    83,
-    84,
-    85,
-    86,
-    87,
-    88,
-    89,
-    90,
-    91,
-    92,
-    93,
-    94,
-    95,
-    96,
-    97,
-    98,
-    99,
     100,
-
+    150,
+    200,
+    250,
+    500,
+    1000,
+    2000,
+    5000
 ]
 
 const login = async (page) => {
@@ -122,21 +34,23 @@ const login = async (page) => {
     await page.waitForTimeout(5000)
     console.log('login: OK')
 }
-// txtprice[1_1979957_]
+// txtprice[35_1980256_]   txtprice[5000_1980263_]
 const inputFillToPrice = async (page) => {
     await page.goto(urlProductUpdatePrice, { timeout: 300000 })
     let price = 0
     //let postNumber = 9607838  ${postNumber}
-    for (let i = 959; i <= 959; i++) {
-        for await (const qty of qtys) {
-            const id = `txtprice[${qty}_1979${i}_]`
-            const inputPrice = await page.$(`[id="${id}" ]`)
-            await inputPrice.fill(listPrice[price].toString())
-            console.log(listPrice[price].toString());
-            price++
-            //console.log(postNumber);
-            //postNumber++ 
-        }
+    for (let i = 259; i <= 262; i++) {
+        //if( i !== 244){
+            for await (const qty of qtys) {
+                const id = `txtprice[${qty}_1980${i}_]`
+                const inputPrice = await page.$(`[id="${id}" ]`)
+                await inputPrice.fill(listPrice[price].toString())
+                console.log(listPrice[price].toString());
+                price++
+                //console.log(postNumber);
+                //postNumber++ 
+            }
+        //}
     }
     const btnSave = await page.$('#btn-action-save')
     await btnSave.click()
