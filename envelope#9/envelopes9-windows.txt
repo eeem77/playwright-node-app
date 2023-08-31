@@ -1,0 +1,36 @@
+#9 (3.875" x 8.875"),Commercial,70 lb. Paper Uncoated,No,Outside Only,250,6 Business Days,124.23
+#9 (3.875" x 8.875"),Commercial,70 lb. Paper Uncoated,No,Outside Only,500,6 Business Days,130.21
+#9 (3.875" x 8.875"),Commercial,70 lb. Paper Uncoated,No,Outside Only,1000,6 Business Days,147.49
+#9 (3.875" x 8.875"),Commercial,70 lb. Paper Uncoated,No,Outside Only,2000,6 Business Days,213.00
+#9 (3.875" x 8.875"),Commercial,70 lb. Paper Uncoated,No,Outside Only,2500,6 Business Days,257.85
+#9 (3.875" x 8.875"),Commercial,70 lb. Paper Uncoated,No,Outside Only,3000,6 Business Days,269.77
+#9 (3.875" x 8.875"),Commercial,70 lb. Paper Uncoated,No,Outside Only,4000,6 Business Days,321.28
+#9 (3.875" x 8.875"),Commercial,70 lb. Paper Uncoated,No,Outside Only,5000,6 Business Days,372.78
+#9 (3.875" x 8.875"),Commercial,70 lb. Paper Uncoated,No,Outside Only,6000,6 Business Days,424.29
+#9 (3.875" x 8.875"),Commercial,70 lb. Paper Uncoated,No,Outside Only,7000,6 Business Days,471.18
+#9 (3.875" x 8.875"),Commercial,70 lb. Paper Uncoated,No,Outside Only,8000,6 Business Days,514.12
+#9 (3.875" x 8.875"),Commercial,70 lb. Paper Uncoated,No,Outside Only,9000,6 Business Days,557.06
+#9 (3.875" x 8.875"),Commercial,70 lb. Paper Uncoated,No,Outside Only,10000,6 Business Days,600.01
+#9 (3.875" x 8.875"),Commercial,70 lb. Paper Uncoated,No,Outside Only,15000,6 Business Days,808.13
+#9 (3.875" x 8.875"),Commercial,70 lb. Paper Uncoated,No,Outside Only,20000,6 Business Days,1012.30
+
+
+
+#9 (3.875" x 8.875"),Commercial,70 lb. Paper Uncoated,Yes,Outside Only,250,6 Business Days,127.34
+#9 (3.875" x 8.875"),Commercial,70 lb. Paper Uncoated,Yes,Outside Only,500,6 Business Days,133.47
+#9 (3.875" x 8.875"),Commercial,70 lb. Paper Uncoated,Yes,Outside Only,1000,6 Business Days,151.18
+#9 (3.875" x 8.875"),Commercial,70 lb. Paper Uncoated,Yes,Outside Only,2000,6 Business Days,218.33
+#9 (3.875" x 8.875"),Commercial,70 lb. Paper Uncoated,Yes,Outside Only,2500,6 Business Days,264.30
+#9 (3.875" x 8.875"),Commercial,70 lb. Paper Uncoated,Yes,Outside Only,3000,6 Business Days,276.52
+#9 (3.875" x 8.875"),Commercial,70 lb. Paper Uncoated,Yes,Outside Only,4000,6 Business Days,329.31
+#9 (3.875" x 8.875"),Commercial,70 lb. Paper Uncoated,Yes,Outside Only,5000,6 Business Days,382.10
+#9 (3.875" x 8.875"),Commercial,70 lb. Paper Uncoated,Yes,Outside Only,6000,6 Business Days,434.89
+#9 (3.875" x 8.875"),Commercial,70 lb. Paper Uncoated,Yes,Outside Only,7000,6 Business Days,482.96
+#9 (3.875" x 8.875"),Commercial,70 lb. Paper Uncoated,Yes,Outside Only,8000,6 Business Days,526.98
+#9 (3.875" x 8.875"),Commercial,70 lb. Paper Uncoated,Yes,Outside Only,9000,6 Business Days,570.99
+#9 (3.875" x 8.875"),Commercial,70 lb. Paper Uncoated,Yes,Outside Only,10000,6 Business Days,615.01
+#9 (3.875" x 8.875"),Commercial,70 lb. Paper Uncoated,Yes,Outside Only,15000,6 Business Days,828.33
+#9 (3.875" x 8.875"),Commercial,70 lb. Paper Uncoated,Yes,Outside Only,20000,6 Business Days,1037.60
+
+
+
