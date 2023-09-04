@@ -5,35 +5,31 @@ dotenv.config()
 import listPrice from './listPrice.js'
 
 const url = 'https://www.apprinting.com/admin/'
-const urlProductUpdatePrice = 'https://www.apprinting.com/admin/product_additionalinfo_price.php?product_id=3165&prod_add_opt_id=96615&sel_product_size=4499'
+const urlProductUpdatePrice = 'https://www.apprinting.com/admin/product_additionalinfo_price.php?product_id=1635&prod_add_opt_id=96633'
 
 const qtys = [
-    25,
     50,
     75,
     100,
+    125,
     150,
+    175,
     200,
     250,
+    300,
+    350,
+    400,
+    450,
     500,
+    600,
+    700,
+    800,
+    900,
     1000,
-    2000,
-    3000,
-    4000,
-    5000,
-    6000,
-    7000,
-    8000,
-    9000,
-    10000,
-    15000,
-    20000,
-    25000,
-    30000,
-    35000,
-    40000,
-    45000,
-    50000
+    1250,
+    1500,
+    1750,
+    2000    
 ]
 
 const login = async (page) => {
@@ -52,7 +48,7 @@ const inputFillToPrice = async (page) => {
     await page.goto(urlProductUpdatePrice, { timeout: 300000 })
     let price = 0
     //let postNumber = 9607838  ${postNumber}
-    for (let i = 418; i <= 422; i++) {
+    for (let i = 451; i <= 453; i++) {
         //if( i !== 405){
             for await (const qty of qtys) {
                 const id = `txtprice[${qty}_1980${i}_]`

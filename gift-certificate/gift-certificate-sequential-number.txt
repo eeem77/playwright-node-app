@@ -1,0 +1,100 @@
+7" x 3",10 pt. Cardstock Gloss,Front Only,None,Top Left,N/A,None,50,3 Business Days,23.03
+7" x 3",10 pt. Cardstock Gloss,Front Only,None,Top Left,N/A,None,75,3 Business Days,27.64
+7" x 3",10 pt. Cardstock Gloss,Front Only,None,Top Left,N/A,None,100,3 Business Days,32.25
+7" x 3",10 pt. Cardstock Gloss,Front Only,None,Top Left,N/A,None,125,3 Business Days,36.04
+7" x 3",10 pt. Cardstock Gloss,Front Only,None,Top Left,N/A,None,150,3 Business Days,39.85
+7" x 3",10 pt. Cardstock Gloss,Front Only,None,Top Left,N/A,None,175,3 Business Days,43.66
+7" x 3",10 pt. Cardstock Gloss,Front Only,None,Top Left,N/A,None,200,3 Business Days,47.48
+7" x 3",10 pt. Cardstock Gloss,Front Only,None,Top Left,N/A,None,250,3 Business Days,55.11
+7" x 3",10 pt. Cardstock Gloss,Front Only,None,Top Left,N/A,None,300,3 Business Days,61.65
+7" x 3",10 pt. Cardstock Gloss,Front Only,None,Top Left,N/A,None,350,3 Business Days,68.22
+7" x 3",10 pt. Cardstock Gloss,Front Only,None,Top Left,N/A,None,400,3 Business Days,74.78
+7" x 3",10 pt. Cardstock Gloss,Front Only,None,Top Left,N/A,None,450,3 Business Days,81.35
+7" x 3",10 pt. Cardstock Gloss,Front Only,None,Top Left,N/A,None,500,3 Business Days,87.91
+7" x 3",10 pt. Cardstock Gloss,Front Only,None,Top Left,N/A,None,600,3 Business Days,99.76
+7" x 3",10 pt. Cardstock Gloss,Front Only,None,Top Left,N/A,None,700,3 Business Days,111.61
+7" x 3",10 pt. Cardstock Gloss,Front Only,None,Top Left,N/A,None,800,3 Business Days,123.47
+7" x 3",10 pt. Cardstock Gloss,Front Only,None,Top Left,N/A,None,900,3 Business Days,135.32
+7" x 3",10 pt. Cardstock Gloss,Front Only,None,Top Left,N/A,None,1000,3 Business Days,147.18
+7" x 3",10 pt. Cardstock Gloss,Front Only,None,Top Left,N/A,None,1250,3 Business Days,185.96
+7" x 3",10 pt. Cardstock Gloss,Front Only,None,Top Left,N/A,None,1500,3 Business Days,215.60
+7" x 3",10 pt. Cardstock Gloss,Front Only,None,Top Left,N/A,None,1750,3 Business Days,245.24
+7" x 3",10 pt. Cardstock Gloss,Front Only,None,Top Left,N/A,None,2000,3 Business Days,274.88
+
+
+
+7" x 3",10 pt. Cardstock Gloss,Front Only,Black Ink,Top Left,00001,None,50,3 Business Days,80.40
+7" x 3",10 pt. Cardstock Gloss,Front Only,Black Ink,Top Left,00001,None,75,3 Business Days,85.01
+7" x 3",10 pt. Cardstock Gloss,Front Only,Black Ink,Top Left,00001,None,100,3 Business Days,89.62
+7" x 3",10 pt. Cardstock Gloss,Front Only,Black Ink,Top Left,00001,None,125,3 Business Days,93.40
+7" x 3",10 pt. Cardstock Gloss,Front Only,Black Ink,Top Left,00001,None,150,3 Business Days,97.22
+7" x 3",10 pt. Cardstock Gloss,Front Only,Black Ink,Top Left,00001,None,175,3 Business Days,101.03
+7" x 3",10 pt. Cardstock Gloss,Front Only,Black Ink,Top Left,00001,None,200,3 Business Days,104.85
+7" x 3",10 pt. Cardstock Gloss,Front Only,Black Ink,Top Left,00001,None,250,3 Business Days,112.47
+7" x 3",10 pt. Cardstock Gloss,Front Only,Black Ink,Top Left,00001,None,300,3 Business Days,119.02
+7" x 3",10 pt. Cardstock Gloss,Front Only,Black Ink,Top Left,00001,None,350,3 Business Days,125.58
+7" x 3",10 pt. Cardstock Gloss,Front Only,Black Ink,Top Left,00001,None,400,3 Business Days,132.15
+7" x 3",10 pt. Cardstock Gloss,Front Only,Black Ink,Top Left,00001,None,450,3 Business Days,138.72
+7" x 3",10 pt. Cardstock Gloss,Front Only,Black Ink,Top Left,00001,None,500,3 Business Days,145.28
+7" x 3",10 pt. Cardstock Gloss,Front Only,Black Ink,Top Left,00001,None,600,3 Business Days,157.12
+7" x 3",10 pt. Cardstock Gloss,Front Only,Black Ink,Top Left,00001,None,700,3 Business Days,168.98
+7" x 3",10 pt. Cardstock Gloss,Front Only,Black Ink,Top Left,00001,None,800,3 Business Days,180.84
+7" x 3",10 pt. Cardstock Gloss,Front Only,Black Ink,Top Left,00001,None,900,3 Business Days,192.69
+7" x 3",10 pt. Cardstock Gloss,Front Only,Black Ink,Top Left,00001,None,1000,3 Business Days,204.55
+7" x 3",10 pt. Cardstock Gloss,Front Only,Black Ink,Top Left,00001,None,1250,3 Business Days,262.45
+7" x 3",10 pt. Cardstock Gloss,Front Only,Black Ink,Top Left,00001,None,1500,3 Business Days,292.09
+7" x 3",10 pt. Cardstock Gloss,Front Only,Black Ink,Top Left,00001,None,1750,3 Business Days,321.73
+7" x 3",10 pt. Cardstock Gloss,Front Only,Black Ink,Top Left,00001,None,2000,3 Business Days,351.37
+
+
+
+8.5" x 3.5",10 pt. Cardstock Gloss,Front Only,None,Top Left,N/A,None,50,3 Business Days,23.03
+8.5" x 3.5",10 pt. Cardstock Gloss,Front Only,None,Top Left,N/A,None,75,3 Business Days,27.64
+8.5" x 3.5",10 pt. Cardstock Gloss,Front Only,None,Top Left,N/A,None,100,3 Business Days,32.25
+8.5" x 3.5",10 pt. Cardstock Gloss,Front Only,None,Top Left,N/A,None,125,3 Business Days,36.04
+8.5" x 3.5",10 pt. Cardstock Gloss,Front Only,None,Top Left,N/A,None,150,3 Business Days,39.85
+8.5" x 3.5",10 pt. Cardstock Gloss,Front Only,None,Top Left,N/A,None,175,3 Business Days,43.66
+8.5" x 3.5",10 pt. Cardstock Gloss,Front Only,None,Top Left,N/A,None,200,3 Business Days,47.48
+8.5" x 3.5",10 pt. Cardstock Gloss,Front Only,None,Top Left,N/A,None,250,3 Business Days,55.11
+8.5" x 3.5",10 pt. Cardstock Gloss,Front Only,None,Top Left,N/A,None,300,3 Business Days,61.65
+8.5" x 3.5",10 pt. Cardstock Gloss,Front Only,None,Top Left,N/A,None,350,3 Business Days,68.22
+8.5" x 3.5",10 pt. Cardstock Gloss,Front Only,None,Top Left,N/A,None,400,3 Business Days,74.78
+8.5" x 3.5",10 pt. Cardstock Gloss,Front Only,None,Top Left,N/A,None,450,3 Business Days,81.35
+8.5" x 3.5",10 pt. Cardstock Gloss,Front Only,None,Top Left,N/A,None,500,3 Business Days,87.91
+8.5" x 3.5",10 pt. Cardstock Gloss,Front Only,None,Top Left,N/A,None,600,3 Business Days,99.76
+8.5" x 3.5",10 pt. Cardstock Gloss,Front Only,None,Top Left,N/A,None,700,3 Business Days,111.61
+8.5" x 3.5",10 pt. Cardstock Gloss,Front Only,None,Top Left,N/A,None,800,3 Business Days,123.47
+8.5" x 3.5",10 pt. Cardstock Gloss,Front Only,None,Top Left,N/A,None,900,3 Business Days,135.32
+8.5" x 3.5",10 pt. Cardstock Gloss,Front Only,None,Top Left,N/A,None,1000,3 Business Days,147.18
+8.5" x 3.5",10 pt. Cardstock Gloss,Front Only,None,Top Left,N/A,None,1250,3 Business Days,185.96
+8.5" x 3.5",10 pt. Cardstock Gloss,Front Only,None,Top Left,N/A,None,1500,3 Business Days,215.60
+8.5" x 3.5",10 pt. Cardstock Gloss,Front Only,None,Top Left,N/A,None,1750,3 Business Days,245.24
+8.5" x 3.5",10 pt. Cardstock Gloss,Front Only,None,Top Left,N/A,None,2000,3 Business Days,274.88
+
+
+
+8.5" x 3.5",10 pt. Cardstock Gloss,Front Only,Black Ink,Top Left,00001,None,50,3 Business Days,80.40
+8.5" x 3.5",10 pt. Cardstock Gloss,Front Only,Black Ink,Top Left,00001,None,75,3 Business Days,85.01
+8.5" x 3.5",10 pt. Cardstock Gloss,Front Only,Black Ink,Top Left,00001,None,100,3 Business Days,89.62
+8.5" x 3.5",10 pt. Cardstock Gloss,Front Only,Black Ink,Top Left,00001,None,125,3 Business Days,93.40
+8.5" x 3.5",10 pt. Cardstock Gloss,Front Only,Black Ink,Top Left,00001,None,150,3 Business Days,97.22
+8.5" x 3.5",10 pt. Cardstock Gloss,Front Only,Black Ink,Top Left,00001,None,175,3 Business Days,101.03
+8.5" x 3.5",10 pt. Cardstock Gloss,Front Only,Black Ink,Top Left,00001,None,200,3 Business Days,104.85
+8.5" x 3.5",10 pt. Cardstock Gloss,Front Only,Black Ink,Top Left,00001,None,250,3 Business Days,112.47
+8.5" x 3.5",10 pt. Cardstock Gloss,Front Only,Black Ink,Top Left,00001,None,300,3 Business Days,119.02
+8.5" x 3.5",10 pt. Cardstock Gloss,Front Only,Black Ink,Top Left,00001,None,350,3 Business Days,125.58
+8.5" x 3.5",10 pt. Cardstock Gloss,Front Only,Black Ink,Top Left,00001,None,400,3 Business Days,132.15
+8.5" x 3.5",10 pt. Cardstock Gloss,Front Only,Black Ink,Top Left,00001,None,450,3 Business Days,138.72
+8.5" x 3.5",10 pt. Cardstock Gloss,Front Only,Black Ink,Top Left,00001,None,500,3 Business Days,145.28
+8.5" x 3.5",10 pt. Cardstock Gloss,Front Only,Black Ink,Top Left,00001,None,600,3 Business Days,157.12
+8.5" x 3.5",10 pt. Cardstock Gloss,Front Only,Black Ink,Top Left,00001,None,700,3 Business Days,168.98
+8.5" x 3.5",10 pt. Cardstock Gloss,Front Only,Black Ink,Top Left,00001,None,800,3 Business Days,180.84
+8.5" x 3.5",10 pt. Cardstock Gloss,Front Only,Black Ink,Top Left,00001,None,900,3 Business Days,192.69
+8.5" x 3.5",10 pt. Cardstock Gloss,Front Only,Black Ink,Top Left,00001,None,1000,3 Business Days,204.55
+8.5" x 3.5",10 pt. Cardstock Gloss,Front Only,Black Ink,Top Left,00001,None,1250,3 Business Days,262.45
+8.5" x 3.5",10 pt. Cardstock Gloss,Front Only,Black Ink,Top Left,00001,None,1500,3 Business Days,292.09
+8.5" x 3.5",10 pt. Cardstock Gloss,Front Only,Black Ink,Top Left,00001,None,1750,3 Business Days,321.73
+8.5" x 3.5",10 pt. Cardstock Gloss,Front Only,Black Ink,Top Left,00001,None,2000,3 Business Days,351.37
+
+
+
