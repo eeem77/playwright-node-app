@@ -1,0 +1,198 @@
+#10 (4.125" x 9.5"),Black,Front Only,250,3 Business Days,53.45
+#10 (4.125" x 9.5"),Black,Front Only,500,3 Business Days,63.81
+#10 (4.125" x 9.5"),Black,Front Only,1000,3 Business Days,84.52
+#10 (4.125" x 9.5"),Black,Front Only,2000,3 Business Days,164.07
+#10 (4.125" x 9.5"),Black,Front Only,3000,3 Business Days,243.63
+#10 (4.125" x 9.5"),Black,Front Only,4000,3 Business Days,323.18
+#10 (4.125" x 9.5"),Black,Front Only,5000,3 Business Days,402.73
+#10 (4.125" x 9.5"),Black,Front Only,6000,3 Business Days,477.31
+#10 (4.125" x 9.5"),Black,Front Only,7000,3 Business Days,551.89
+#10 (4.125" x 9.5"),Black,Front Only,8000,3 Business Days,626.47
+#10 (4.125" x 9.5"),Black,Front Only,9000,3 Business Days,701.05
+#10 (4.125" x 9.5"),Black,Front Only,10000,3 Business Days,775.62
+#10 (4.125" x 9.5"),Black,Front Only,15000,3 Business Days,1148.52
+#10 (4.125" x 9.5"),Black,Front Only,20000,3 Business Days,1521.42
+#10 (4.125" x 9.5"),Black,Front Only,25000,3 Business Days,1894.31
+#10 (4.125" x 9.5"),Black,Front Only,30000,3 Business Days,2267.21
+#10 (4.125" x 9.5"),Black,Front Only,35000,3 Business Days,2640.11
+#10 (4.125" x 9.5"),Black,Front Only,40000,3 Business Days,3013.00
+#10 (4.125" x 9.5"),Black,Front Only,45000,3 Business Days,3385.90
+#10 (4.125" x 9.5"),Black,Front Only,50000,3 Business Days,3758.80
+#10 (4.125" x 9.5"),Black,Front Only,55000,3 Business Days,4131.69
+#10 (4.125" x 9.5"),Black,Front Only,60000,3 Business Days,4504.59
+#10 (4.125" x 9.5"),Black,Front Only,65000,3 Business Days,4877.49
+#10 (4.125" x 9.5"),Black,Front Only,70000,3 Business Days,5250.38
+#10 (4.125" x 9.5"),Black,Front Only,75000,3 Business Days,5623.28
+#10 (4.125" x 9.5"),Black,Front Only,80000,3 Business Days,5996.18
+#10 (4.125" x 9.5"),Black,Front Only,85000,3 Business Days,6369.07
+#10 (4.125" x 9.5"),Black,Front Only,90000,3 Business Days,6741.97
+#10 (4.125" x 9.5"),Black,Front Only,95000,3 Business Days,7114.87
+#10 (4.125" x 9.5"),Black,Front Only,100000,3 Business Days,7487.76
+
+
+
+#10 (4.125" x 9.5"),Reflex Blue,Front Only,250,3 Business Days,78.31
+#10 (4.125" x 9.5"),Reflex Blue,Front Only,500,3 Business Days,88.67
+#10 (4.125" x 9.5"),Reflex Blue,Front Only,1000,3 Business Days,109.38
+#10 (4.125" x 9.5"),Reflex Blue,Front Only,2000,3 Business Days,188.93
+#10 (4.125" x 9.5"),Reflex Blue,Front Only,3000,3 Business Days,268.49
+#10 (4.125" x 9.5"),Reflex Blue,Front Only,4000,3 Business Days,348.04
+#10 (4.125" x 9.5"),Reflex Blue,Front Only,5000,3 Business Days,427.59
+#10 (4.125" x 9.5"),Reflex Blue,Front Only,6000,3 Business Days,502.17
+#10 (4.125" x 9.5"),Reflex Blue,Front Only,7000,3 Business Days,576.75
+#10 (4.125" x 9.5"),Reflex Blue,Front Only,8000,3 Business Days,651.33
+#10 (4.125" x 9.5"),Reflex Blue,Front Only,9000,3 Business Days,725.91
+#10 (4.125" x 9.5"),Reflex Blue,Front Only,10000,3 Business Days,800.48
+#10 (4.125" x 9.5"),Reflex Blue,Front Only,15000,3 Business Days,1173.38
+#10 (4.125" x 9.5"),Reflex Blue,Front Only,20000,3 Business Days,1546.28
+#10 (4.125" x 9.5"),Reflex Blue,Front Only,25000,3 Business Days,1919.17
+#10 (4.125" x 9.5"),Reflex Blue,Front Only,30000,3 Business Days,2292.07
+#10 (4.125" x 9.5"),Reflex Blue,Front Only,35000,3 Business Days,2664.97
+#10 (4.125" x 9.5"),Reflex Blue,Front Only,40000,3 Business Days,3037.86
+#10 (4.125" x 9.5"),Reflex Blue,Front Only,45000,3 Business Days,3410.76
+#10 (4.125" x 9.5"),Reflex Blue,Front Only,50000,3 Business Days,3783.66
+#10 (4.125" x 9.5"),Reflex Blue,Front Only,55000,3 Business Days,4156.55
+#10 (4.125" x 9.5"),Reflex Blue,Front Only,60000,3 Business Days,4529.45
+#10 (4.125" x 9.5"),Reflex Blue,Front Only,65000,3 Business Days,4902.35
+#10 (4.125" x 9.5"),Reflex Blue,Front Only,70000,3 Business Days,5275.24
+#10 (4.125" x 9.5"),Reflex Blue,Front Only,75000,3 Business Days,5648.14
+#10 (4.125" x 9.5"),Reflex Blue,Front Only,80000,3 Business Days,6021.04
+#10 (4.125" x 9.5"),Reflex Blue,Front Only,85000,3 Business Days,6393.93
+#10 (4.125" x 9.5"),Reflex Blue,Front Only,90000,3 Business Days,6766.83
+#10 (4.125" x 9.5"),Reflex Blue,Front Only,95000,3 Business Days,7139.73
+#10 (4.125" x 9.5"),Reflex Blue,Front Only,100000,3 Business Days,7512.62
+
+
+
+#10 (4.125" x 9.5"),Standard Red,Front Only,250,3 Business Days,78.31
+#10 (4.125" x 9.5"),Standard Red,Front Only,500,3 Business Days,88.67
+#10 (4.125" x 9.5"),Standard Red,Front Only,1000,3 Business Days,109.38
+#10 (4.125" x 9.5"),Standard Red,Front Only,2000,3 Business Days,188.93
+#10 (4.125" x 9.5"),Standard Red,Front Only,3000,3 Business Days,268.49
+#10 (4.125" x 9.5"),Standard Red,Front Only,4000,3 Business Days,348.04
+#10 (4.125" x 9.5"),Standard Red,Front Only,5000,3 Business Days,427.59
+#10 (4.125" x 9.5"),Standard Red,Front Only,6000,3 Business Days,502.17
+#10 (4.125" x 9.5"),Standard Red,Front Only,7000,3 Business Days,576.75
+#10 (4.125" x 9.5"),Standard Red,Front Only,8000,3 Business Days,651.33
+#10 (4.125" x 9.5"),Standard Red,Front Only,9000,3 Business Days,725.91
+#10 (4.125" x 9.5"),Standard Red,Front Only,10000,3 Business Days,800.48
+#10 (4.125" x 9.5"),Standard Red,Front Only,15000,3 Business Days,1173.38
+#10 (4.125" x 9.5"),Standard Red,Front Only,20000,3 Business Days,1546.28
+#10 (4.125" x 9.5"),Standard Red,Front Only,25000,3 Business Days,1919.17
+#10 (4.125" x 9.5"),Standard Red,Front Only,30000,3 Business Days,2292.07
+#10 (4.125" x 9.5"),Standard Red,Front Only,35000,3 Business Days,2664.97
+#10 (4.125" x 9.5"),Standard Red,Front Only,40000,3 Business Days,3037.86
+#10 (4.125" x 9.5"),Standard Red,Front Only,45000,3 Business Days,3410.76
+#10 (4.125" x 9.5"),Standard Red,Front Only,50000,3 Business Days,3783.66
+#10 (4.125" x 9.5"),Standard Red,Front Only,55000,3 Business Days,4156.55
+#10 (4.125" x 9.5"),Standard Red,Front Only,60000,3 Business Days,4529.45
+#10 (4.125" x 9.5"),Standard Red,Front Only,65000,3 Business Days,4902.35
+#10 (4.125" x 9.5"),Standard Red,Front Only,70000,3 Business Days,5275.24
+#10 (4.125" x 9.5"),Standard Red,Front Only,75000,3 Business Days,5648.14
+#10 (4.125" x 9.5"),Standard Red,Front Only,80000,3 Business Days,6021.04
+#10 (4.125" x 9.5"),Standard Red,Front Only,85000,3 Business Days,6393.93
+#10 (4.125" x 9.5"),Standard Red,Front Only,90000,3 Business Days,6766.83
+#10 (4.125" x 9.5"),Standard Red,Front Only,95000,3 Business Days,7139.73
+#10 (4.125" x 9.5"),Standard Red,Front Only,100000,3 Business Days,7512.62
+
+
+
+#10 (4.125" x 9.5") Window,Black,Front Only,250,3 Business Days,55.52
+#10 (4.125" x 9.5") Window,Black,Front Only,500,3 Business Days,67.95
+#10 (4.125" x 9.5") Window,Black,Front Only,1000,3 Business Days,92.81
+#10 (4.125" x 9.5") Window,Black,Front Only,2000,3 Business Days,180.65
+#10 (4.125" x 9.5") Window,Black,Front Only,3000,3 Business Days,268.49
+#10 (4.125" x 9.5") Window,Black,Front Only,4000,3 Business Days,356.32
+#10 (4.125" x 9.5") Window,Black,Front Only,5000,3 Business Days,444.16
+#10 (4.125" x 9.5") Window,Black,Front Only,6000,3 Business Days,527.03
+#10 (4.125" x 9.5") Window,Black,Front Only,7000,3 Business Days,609.89
+#10 (4.125" x 9.5") Window,Black,Front Only,8000,3 Business Days,692.76
+#10 (4.125" x 9.5") Window,Black,Front Only,9000,3 Business Days,775.62
+#10 (4.125" x 9.5") Window,Black,Front Only,10000,3 Business Days,858.49
+#10 (4.125" x 9.5") Window,Black,Front Only,15000,3 Business Days,1272.82
+#10 (4.125" x 9.5") Window,Black,Front Only,20000,3 Business Days,1687.15
+#10 (4.125" x 9.5") Window,Black,Front Only,25000,3 Business Days,2101.48
+#10 (4.125" x 9.5") Window,Black,Front Only,30000,3 Business Days,2515.81
+#10 (4.125" x 9.5") Window,Black,Front Only,35000,3 Business Days,2930.14
+#10 (4.125" x 9.5") Window,Black,Front Only,40000,3 Business Days,3344.47
+#10 (4.125" x 9.5") Window,Black,Front Only,45000,3 Business Days,3758.80
+#10 (4.125" x 9.5") Window,Black,Front Only,50000,3 Business Days,4173.13
+#10 (4.125" x 9.5") Window,Black,Front Only,55000,3 Business Days,4587.46
+#10 (4.125" x 9.5") Window,Black,Front Only,60000,3 Business Days,5001.79
+#10 (4.125" x 9.5") Window,Black,Front Only,65000,3 Business Days,5416.12
+#10 (4.125" x 9.5") Window,Black,Front Only,70000,3 Business Days,5830.44
+#10 (4.125" x 9.5") Window,Black,Front Only,75000,3 Business Days,6244.77
+#10 (4.125" x 9.5") Window,Black,Front Only,80000,3 Business Days,6659.10
+#10 (4.125" x 9.5") Window,Black,Front Only,85000,3 Business Days,7073.43
+#10 (4.125" x 9.5") Window,Black,Front Only,90000,3 Business Days,7487.76
+#10 (4.125" x 9.5") Window,Black,Front Only,95000,3 Business Days,7902.09
+#10 (4.125" x 9.5") Window,Black,Front Only,100000,3 Business Days,8316.42
+
+
+
+#10 (4.125" x 9.5") Window,Reflex Blue,Front Only,250,3 Business Days,80.38
+#10 (4.125" x 9.5") Window,Reflex Blue,Front Only,500,3 Business Days,92.81
+#10 (4.125" x 9.5") Window,Reflex Blue,Front Only,1000,3 Business Days,117.67
+#10 (4.125" x 9.5") Window,Reflex Blue,Front Only,2000,3 Business Days,205.51
+#10 (4.125" x 9.5") Window,Reflex Blue,Front Only,3000,3 Business Days,293.35
+#10 (4.125" x 9.5") Window,Reflex Blue,Front Only,4000,3 Business Days,381.18
+#10 (4.125" x 9.5") Window,Reflex Blue,Front Only,5000,3 Business Days,469.02
+#10 (4.125" x 9.5") Window,Reflex Blue,Front Only,6000,3 Business Days,551.89
+#10 (4.125" x 9.5") Window,Reflex Blue,Front Only,7000,3 Business Days,634.75
+#10 (4.125" x 9.5") Window,Reflex Blue,Front Only,8000,3 Business Days,717.62
+#10 (4.125" x 9.5") Window,Reflex Blue,Front Only,9000,3 Business Days,800.48
+#10 (4.125" x 9.5") Window,Reflex Blue,Front Only,10000,3 Business Days,883.35
+#10 (4.125" x 9.5") Window,Reflex Blue,Front Only,15000,3 Business Days,1297.68
+#10 (4.125" x 9.5") Window,Reflex Blue,Front Only,20000,3 Business Days,1712.01
+#10 (4.125" x 9.5") Window,Reflex Blue,Front Only,25000,3 Business Days,2126.34
+#10 (4.125" x 9.5") Window,Reflex Blue,Front Only,30000,3 Business Days,2540.67
+#10 (4.125" x 9.5") Window,Reflex Blue,Front Only,35000,3 Business Days,2955.00
+#10 (4.125" x 9.5") Window,Reflex Blue,Front Only,40000,3 Business Days,3369.33
+#10 (4.125" x 9.5") Window,Reflex Blue,Front Only,45000,3 Business Days,3783.66
+#10 (4.125" x 9.5") Window,Reflex Blue,Front Only,50000,3 Business Days,4197.99
+#10 (4.125" x 9.5") Window,Reflex Blue,Front Only,55000,3 Business Days,4612.32
+#10 (4.125" x 9.5") Window,Reflex Blue,Front Only,60000,3 Business Days,5026.65
+#10 (4.125" x 9.5") Window,Reflex Blue,Front Only,65000,3 Business Days,5440.97
+#10 (4.125" x 9.5") Window,Reflex Blue,Front Only,70000,3 Business Days,5855.30
+#10 (4.125" x 9.5") Window,Reflex Blue,Front Only,75000,3 Business Days,6269.63
+#10 (4.125" x 9.5") Window,Reflex Blue,Front Only,80000,3 Business Days,6683.96
+#10 (4.125" x 9.5") Window,Reflex Blue,Front Only,85000,3 Business Days,7098.29
+#10 (4.125" x 9.5") Window,Reflex Blue,Front Only,90000,3 Business Days,7512.62
+#10 (4.125" x 9.5") Window,Reflex Blue,Front Only,95000,3 Business Days,7926.95
+#10 (4.125" x 9.5") Window,Reflex Blue,Front Only,100000,3 Business Days,8341.28
+
+
+
+#10 (4.125" x 9.5") Window,Standard Red,Front Only,250,3 Business Days,80.38
+#10 (4.125" x 9.5") Window,Standard Red,Front Only,500,3 Business Days,92.81
+#10 (4.125" x 9.5") Window,Standard Red,Front Only,1000,3 Business Days,117.67
+#10 (4.125" x 9.5") Window,Standard Red,Front Only,2000,3 Business Days,205.51
+#10 (4.125" x 9.5") Window,Standard Red,Front Only,3000,3 Business Days,293.35
+#10 (4.125" x 9.5") Window,Standard Red,Front Only,4000,3 Business Days,381.18
+#10 (4.125" x 9.5") Window,Standard Red,Front Only,5000,3 Business Days,469.02
+#10 (4.125" x 9.5") Window,Standard Red,Front Only,6000,3 Business Days,551.89
+#10 (4.125" x 9.5") Window,Standard Red,Front Only,7000,3 Business Days,634.75
+#10 (4.125" x 9.5") Window,Standard Red,Front Only,8000,3 Business Days,717.62
+#10 (4.125" x 9.5") Window,Standard Red,Front Only,9000,3 Business Days,800.48
+#10 (4.125" x 9.5") Window,Standard Red,Front Only,10000,3 Business Days,883.35
+#10 (4.125" x 9.5") Window,Standard Red,Front Only,15000,3 Business Days,1297.68
+#10 (4.125" x 9.5") Window,Standard Red,Front Only,20000,3 Business Days,1712.01
+#10 (4.125" x 9.5") Window,Standard Red,Front Only,25000,3 Business Days,2126.34
+#10 (4.125" x 9.5") Window,Standard Red,Front Only,30000,3 Business Days,2540.67
+#10 (4.125" x 9.5") Window,Standard Red,Front Only,35000,3 Business Days,2955.00
+#10 (4.125" x 9.5") Window,Standard Red,Front Only,40000,3 Business Days,3369.33
+#10 (4.125" x 9.5") Window,Standard Red,Front Only,45000,3 Business Days,3783.66
+#10 (4.125" x 9.5") Window,Standard Red,Front Only,50000,3 Business Days,4197.99
+#10 (4.125" x 9.5") Window,Standard Red,Front Only,55000,3 Business Days,4612.32
+#10 (4.125" x 9.5") Window,Standard Red,Front Only,60000,3 Business Days,5026.65
+#10 (4.125" x 9.5") Window,Standard Red,Front Only,65000,3 Business Days,5440.97
+#10 (4.125" x 9.5") Window,Standard Red,Front Only,70000,3 Business Days,5855.30
+#10 (4.125" x 9.5") Window,Standard Red,Front Only,75000,3 Business Days,6269.63
+#10 (4.125" x 9.5") Window,Standard Red,Front Only,80000,3 Business Days,6683.96
+#10 (4.125" x 9.5") Window,Standard Red,Front Only,85000,3 Business Days,7098.29
+#10 (4.125" x 9.5") Window,Standard Red,Front Only,90000,3 Business Days,7512.62
+#10 (4.125" x 9.5") Window,Standard Red,Front Only,95000,3 Business Days,7926.95
+#10 (4.125" x 9.5") Window,Standard Red,Front Only,100000,3 Business Days,8341.28
+
+
+
