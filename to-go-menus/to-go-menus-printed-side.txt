@@ -1,0 +1,256 @@
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front Only,500,3 Business Days,81.80
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front Only,1000,3 Business Days,88.50
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front Only,2000,3 Business Days,127.20
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front Only,3000,3 Business Days,165.00
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front Only,4000,3 Business Days,196.40
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front Only,5000,3 Business Days,225.50
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front Only,6000,3 Business Days,254.40
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front Only,7000,3 Business Days,282.10
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front Only,8000,3 Business Days,309.60
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front Only,9000,3 Business Days,336.60
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front Only,10000,3 Business Days,364.00
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front Only,15000,3 Business Days,498.00
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front Only,20000,3 Business Days,630.00
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front Only,25000,3 Business Days,752.50
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front Only,30000,3 Business Days,876.00
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front Only,35000,3 Business Days,997.50
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front Only,40000,3 Business Days,1120.00
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front Only,45000,3 Business Days,1242.00
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front Only,50000,3 Business Days,1365.00
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front Only,55000,3 Business Days,1490.50
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front Only,60000,3 Business Days,1614.00
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front Only,65000,3 Business Days,1735.50
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front Only,70000,3 Business Days,1855.00
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front Only,75000,3 Business Days,1980.00
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front Only,80000,3 Business Days,2104.00
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front Only,85000,3 Business Days,2227.00
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front Only,90000,3 Business Days,2349.00
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front Only,95000,3 Business Days,2470.00
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front Only,100000,3 Business Days,2590.00
+
+
+
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front and Back,500,3 Business Days,125.50
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front and Back,1000,3 Business Days,132.20
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front and Back,2000,3 Business Days,179.20
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front and Back,3000,3 Business Days,225.60
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front and Back,4000,3 Business Days,263.60
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front and Back,5000,3 Business Days,299.00
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front and Back,6000,3 Business Days,334.80
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front and Back,7000,3 Business Days,368.20
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front and Back,8000,3 Business Days,400.80
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front and Back,9000,3 Business Days,433.80
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front and Back,10000,3 Business Days,467.00
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front and Back,15000,3 Business Days,625.50
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front and Back,20000,3 Business Days,782.00
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front and Back,25000,3 Business Days,920.00
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front and Back,30000,3 Business Days,1059.00
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front and Back,35000,3 Business Days,1200.50
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front and Back,40000,3 Business Days,1340.00
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front and Back,45000,3 Business Days,1480.50
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front and Back,50000,3 Business Days,1620.00
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front and Back,55000,3 Business Days,1760.00
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front and Back,60000,3 Business Days,1896.00
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front and Back,65000,3 Business Days,2034.50
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front and Back,70000,3 Business Days,2177.00
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front and Back,75000,3 Business Days,2317.50
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front and Back,80000,3 Business Days,2456.00
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front and Back,85000,3 Business Days,2592.50
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front and Back,90000,3 Business Days,2736.00
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front and Back,95000,3 Business Days,2869.00
+5.5" x 8.5",5.5",4",100 lb. Paper Gloss,None,Front and Back,100000,3 Business Days,3010.00
+
+
+
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front Only,500,3 Business Days,143.55
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front Only,1000,3 Business Days,156.90
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front Only,2000,3 Business Days,226.00
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front Only,3000,3 Business Days,290.10
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front Only,4000,3 Business Days,348.00
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front Only,5000,3 Business Days,406.00
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front Only,6000,3 Business Days,463.80
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front Only,7000,3 Business Days,516.60
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front Only,8000,3 Business Days,564.80
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front Only,9000,3 Business Days,613.80
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front Only,10000,3 Business Days,662.00
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front Only,15000,3 Business Days,895.50
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front Only,20000,3 Business Days,1126.00
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front Only,25000,3 Business Days,1337.50
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front Only,30000,3 Business Days,1551.00
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front Only,35000,3 Business Days,1760.50
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front Only,40000,3 Business Days,1972.00
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front Only,45000,3 Business Days,2187.00
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front Only,50000,3 Business Days,2400.00
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front Only,55000,3 Business Days,2607.00
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front Only,60000,3 Business Days,2820.00
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front Only,65000,3 Business Days,3035.50
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front Only,70000,3 Business Days,3248.00
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front Only,75000,3 Business Days,3457.50
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front Only,80000,3 Business Days,3672.00
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front Only,85000,3 Business Days,3884.50
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front Only,90000,3 Business Days,4095.00
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front Only,95000,3 Business Days,4303.50
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front Only,100000,3 Business Days,4520.00
+
+
+
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front and Back,500,3 Business Days,230.90
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front and Back,1000,3 Business Days,244.30
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front and Back,2000,3 Business Days,330.20
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front and Back,3000,3 Business Days,411.00
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front and Back,4000,3 Business Days,482.40
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front and Back,5000,3 Business Days,553.50
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front and Back,6000,3 Business Days,625.20
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front and Back,7000,3 Business Days,688.80
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front and Back,8000,3 Business Days,748.80
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front and Back,9000,3 Business Days,808.20
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front and Back,10000,3 Business Days,867.00
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front and Back,15000,3 Business Days,1152.00
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front and Back,20000,3 Business Days,1428.00
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front and Back,25000,3 Business Days,1675.00
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front and Back,30000,3 Business Days,1920.00
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front and Back,35000,3 Business Days,2166.50
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front and Back,40000,3 Business Days,2412.00
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front and Back,45000,3 Business Days,2655.00
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front and Back,50000,3 Business Days,2900.00
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front and Back,55000,3 Business Days,3146.00
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front and Back,60000,3 Business Days,3390.00
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front and Back,65000,3 Business Days,3640.00
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front and Back,70000,3 Business Days,3885.00
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front and Back,75000,3 Business Days,4125.00
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front and Back,80000,3 Business Days,4376.00
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front and Back,85000,3 Business Days,4615.50
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front and Back,90000,3 Business Days,4860.00
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front and Back,95000,3 Business Days,5111.00
+8.5" x 11",5.5",4",100 lb. Paper Gloss,None,Front and Back,100000,3 Business Days,5360.00
+
+
+
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front Only,500,3 Business Days,198.55
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front Only,1000,3 Business Days,218.60
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front Only,2000,3 Business Days,319.00
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front Only,3000,3 Business Days,412.80
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front Only,4000,3 Business Days,495.20
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front Only,5000,3 Business Days,575.50
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front Only,6000,3 Business Days,655.80
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front Only,7000,3 Business Days,731.50
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front Only,8000,3 Business Days,808.00
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front Only,9000,3 Business Days,883.80
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front Only,10000,3 Business Days,959.00
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front Only,15000,3 Business Days,1294.50
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front Only,20000,3 Business Days,1622.00
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front Only,25000,3 Business Days,1922.50
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front Only,30000,3 Business Days,2223.00
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front Only,35000,3 Business Days,2527.00
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front Only,40000,3 Business Days,2828.00
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front Only,45000,3 Business Days,3127.50
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front Only,50000,3 Business Days,3430.00
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front Only,55000,3 Business Days,3729.00
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front Only,60000,3 Business Days,4032.00
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front Only,65000,3 Business Days,4335.50
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front Only,70000,3 Business Days,4634.00
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front Only,75000,3 Business Days,4935.00
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front Only,80000,3 Business Days,5240.00
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front Only,85000,3 Business Days,5533.50
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front Only,90000,3 Business Days,5841.00
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front Only,95000,3 Business Days,6137.00
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front Only,100000,3 Business Days,6440.00
+
+
+
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front and Back,500,3 Business Days,329.65
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front and Back,1000,3 Business Days,349.70
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front and Back,2000,3 Business Days,475.20
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front and Back,3000,3 Business Days,594.00
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front and Back,4000,3 Business Days,696.80
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front and Back,5000,3 Business Days,797.00
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front and Back,6000,3 Business Days,897.60
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front and Back,7000,3 Business Days,989.80
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front and Back,8000,3 Business Days,1082.40
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front and Back,9000,3 Business Days,1175.40
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front and Back,10000,3 Business Days,1268.00
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front and Back,15000,3 Business Days,1677.00
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front and Back,20000,3 Business Days,2076.00
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front and Back,25000,3 Business Days,2427.50
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front and Back,30000,3 Business Days,2778.00
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front and Back,35000,3 Business Days,3129.00
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front and Back,40000,3 Business Days,3480.00
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front and Back,45000,3 Business Days,3834.00
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front and Back,50000,3 Business Days,4185.00
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front and Back,55000,3 Business Days,4537.50
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front and Back,60000,3 Business Days,4890.00
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front and Back,65000,3 Business Days,5239.00
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front and Back,70000,3 Business Days,5593.00
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front and Back,75000,3 Business Days,5940.00
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front and Back,80000,3 Business Days,6296.00
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front and Back,85000,3 Business Days,6647.00
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front and Back,90000,3 Business Days,6993.00
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front and Back,95000,3 Business Days,7343.50
+8.5" x 14",5.5",4",100 lb. Paper Gloss,None,Front and Back,100000,3 Business Days,7700.00
+
+
+
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front Only,500,3 Business Days,281.10
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front Only,1000,3 Business Days,311.20
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front Only,2000,3 Business Days,455.20
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front Only,3000,3 Business Days,588.90
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front Only,4000,3 Business Days,709.60
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front Only,5000,3 Business Days,830.00
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front Only,6000,3 Business Days,943.80
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front Only,7000,3 Business Days,1050.70
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front Only,8000,3 Business Days,1157.60
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front Only,9000,3 Business Days,1265.40
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front Only,10000,3 Business Days,1372.00
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front Only,15000,3 Business Days,1891.50
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front Only,20000,3 Business Days,2366.00
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front Only,25000,3 Business Days,2800.00
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front Only,30000,3 Business Days,3237.00
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front Only,35000,3 Business Days,3671.50
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front Only,40000,3 Business Days,4108.00
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front Only,45000,3 Business Days,4540.50
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front Only,50000,3 Business Days,4975.00
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front Only,55000,3 Business Days,5412.00
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front Only,60000,3 Business Days,5844.00
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front Only,65000,3 Business Days,6279.00
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front Only,70000,3 Business Days,6713.00
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front Only,75000,3 Business Days,7155.00
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front Only,80000,3 Business Days,7584.00
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front Only,85000,3 Business Days,8024.00
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front Only,90000,3 Business Days,8460.00
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front Only,95000,3 Business Days,8892.00
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front Only,100000,3 Business Days,9330.00
+
+
+
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front and Back,500,3 Business Days,477.70
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front and Back,1000,3 Business Days,507.80
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front and Back,2000,3 Business Days,689.40
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front and Back,3000,3 Business Days,861.00
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front and Back,4000,3 Business Days,1011.60
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front and Back,5000,3 Business Days,1162.00
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front and Back,6000,3 Business Days,1306.20
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front and Back,7000,3 Business Days,1438.50
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front and Back,8000,3 Business Days,1570.40
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front and Back,9000,3 Business Days,1702.80
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front and Back,10000,3 Business Days,1835.00
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front and Back,15000,3 Business Days,2466.00
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front and Back,20000,3 Business Days,3048.00
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front and Back,25000,3 Business Days,3557.50
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front and Back,30000,3 Business Days,4068.00
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front and Back,35000,3 Business Days,4578.00
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front and Back,40000,3 Business Days,5088.00
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front and Back,45000,3 Business Days,5598.00
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front and Back,50000,3 Business Days,6110.00
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front and Back,55000,3 Business Days,6622.00
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front and Back,60000,3 Business Days,7128.00
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front and Back,65000,3 Business Days,7637.50
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front and Back,70000,3 Business Days,8148.00
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front and Back,75000,3 Business Days,8662.50
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front and Back,80000,3 Business Days,9168.00
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front and Back,85000,3 Business Days,9681.50
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front and Back,90000,3 Business Days,10188.00
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front and Back,95000,3 Business Days,10706.50
+11" x 17",5.5",4",100 lb. Paper Gloss,None,Front and Back,100000,3 Business Days,11210.00
+
+
+
