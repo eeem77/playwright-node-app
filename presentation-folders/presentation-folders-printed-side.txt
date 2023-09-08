@@ -1,0 +1,32 @@
+6" x 9",16 pt. Cardstock,Silk,Front Only,No,Outside Only,Single - Right Only,None,250,6 Business Days,1444.99
+6" x 9",16 pt. Cardstock,Silk,Front Only,No,Outside Only,Single - Right Only,None,500,6 Business Days,1528.33
+6" x 9",16 pt. Cardstock,Silk,Front Only,No,Outside Only,Single - Right Only,None,1000,6 Business Days,1759.94
+6" x 9",16 pt. Cardstock,Silk,Front Only,No,Outside Only,Single - Right Only,None,2500,6 Business Days,3285.16
+6" x 9",16 pt. Cardstock,Silk,Front Only,No,Outside Only,Single - Right Only,None,5000,6 Business Days,5142.94
+
+
+
+6" x 9",16 pt. Cardstock,Silk,Front and Back,No,Outside Only,Single - Right Only,None,250,6 Business Days,1587.33
+6" x 9",16 pt. Cardstock,Silk,Front and Back,No,Outside Only,Single - Right Only,None,500,6 Business Days,1647.37
+6" x 9",16 pt. Cardstock,Silk,Front and Back,No,Outside Only,Single - Right Only,None,1000,6 Business Days,1835.00
+6" x 9",16 pt. Cardstock,Silk,Front and Back,No,Outside Only,Single - Right Only,None,2500,6 Business Days,3422.32
+6" x 9",16 pt. Cardstock,Silk,Front and Back,No,Outside Only,Single - Right Only,None,5000,6 Business Days,5647.59
+
+
+
+9" x 12",16 pt. Cardstock,Silk,Front Only,No,Outside Only,Single - Right Only,None,250,6 Business Days,2144.72
+9" x 12",16 pt. Cardstock,Silk,Front Only,No,Outside Only,Single - Right Only,None,500,6 Business Days,2615.48
+9" x 12",16 pt. Cardstock,Silk,Front Only,No,Outside Only,Single - Right Only,None,1000,6 Business Days,3322.17
+9" x 12",16 pt. Cardstock,Silk,Front Only,No,Outside Only,Single - Right Only,None,2500,6 Business Days,7173.84
+9" x 12",16 pt. Cardstock,Silk,Front Only,No,Outside Only,Single - Right Only,None,5000,6 Business Days,11273.18
+
+
+
+9" x 12",16 pt. Cardstock,Silk,Front and Back,No,Outside Only,Single - Right Only,None,250,6 Business Days,2144.72
+9" x 12",16 pt. Cardstock,Silk,Front and Back,No,Outside Only,Single - Right Only,None,500,6 Business Days,2615.48
+9" x 12",16 pt. Cardstock,Silk,Front and Back,No,Outside Only,Single - Right Only,None,1000,6 Business Days,3322.17
+9" x 12",16 pt. Cardstock,Silk,Front and Back,No,Outside Only,Single - Right Only,None,2500,6 Business Days,7173.84
+9" x 12",16 pt. Cardstock,Silk,Front and Back,No,Outside Only,Single - Right Only,None,5000,6 Business Days,11273.18
+
+
+
