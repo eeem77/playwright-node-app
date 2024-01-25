@@ -2,36 +2,6 @@ import { chromium, firefox, webkit } from 'playwright'
 import fs from 'fs'
 import path from 'path'
 
-const formBase = async (page, form) => {
-    let clickList = 2
-    for (let i = 0; i < 1; i++) {
-        switch (i) {
-            case 2:
-                clickList = 1
-                break;
-            case 3:
-                clickList = 1
-                break;
-        }
-        const buttons = await form.$$('button.btn.dropdown-toggle.val-wrap')
-        await buttons[i].click()
-        const buttonListActive = await form.$('div.site-dropdown.dropdown.expanded')
-        const listActive = await buttonListActive.$$('a.val-wrap.ng-scope')
-        await listActive[clickList].click()
-        console.log(await buttons[i].innerText())
-        await page.waitForTimeout(5000)
-    }
-    const buttonsInnerText = await form.$$eval('button.btn.dropdown-toggle.val-wrap', node => node.map(n => n.innerText))
-    console.log(buttonsInnerText)
-}
-
-// const collapseTrue = async (form) => {
-//     const collapse = await form.$$('a.group-collapse-button')
-//     await collapse[0].click()
-//     await collapse[1].click()
-//     await collapse[2].click()
-// }
-
 const writeList = async (page) => {
     const buttonsLabel = await page.$$eval('button.btn.dropdown-toggle.val-wrap', node => node.map(n => n.innerText))
     const price = await page.$eval('.calc-price.subtotal-price', node => node.innerText)
@@ -41,20 +11,16 @@ const writeList = async (page) => {
     fs.appendFileSync(`list.txt`, buttonsLabel.toString() + '\n')
 }
 
-const writeListTotal = async (form) => {
-    const buttonsLabel = await form.$$eval('button.btn.dropdown-toggle.val-wrap', node => node.map(n => n.innerText))
-    const price = await form.$eval('.ng-binding.subtotal-price', node => node.innerText)
-    const priceSubtotal = await price.replace(',', '')
-    const priceTotal = await priceSubtotal.replace('$', '')
-    await buttonsLabel.push(priceTotal)
-    fs.appendFileSync(`list.txt`, buttonsLabel.toString() + '\n')
-}
-
-const openList = async (form, button) => {
-    const buttons = await form.$$('button.btn.dropdown-toggle')
+const openList = async (page, button) => {
+    console.log('entro en la funcion openList');
+    const buttons = await page.$$('button.btn.dropdown-toggle')
     await buttons[button].click()
-    const menu = await form.$('div.site-dropdown.dropdown.expanded')
+    //await page.screenshot({path:'./eeem77.jpg'})
+    const menu = await page.$('div.site-dropdown.dropdown.expanded')
     const menuBtn = await menu.$$('a.attr-value.val-wrap')
+    const menuBtnText = await menu.$$eval('a.attr-value.val-wrap', node => node.map(n => n.innerText))
+
+    console.log(menuBtnText)
     console.log('Working');
     return menuBtn
 }
@@ -79,7 +45,7 @@ const changeOptions = async (page, button) => {
                 //console.log(menuBtn.length);
                 await menuBtn[i].click()
                 //await page.waitForSelector('#price')
-                await page.waitForTimeout(5000)
+                await page.waitForTimeout(1000)
                 //await page.screenshot({ path: './pepa.jpg' })
                 await writeList(page)
                 break
@@ -87,7 +53,7 @@ const changeOptions = async (page, button) => {
                 const menuBtnDefault = await openList(page, button)
                 await menuBtnDefault[i].click()
                 //await page.waitForSelector('#price')
-                await page.waitForTimeout(5000)
+                await page.waitForTimeout(1000)
                 await writeList(page)
                 break
         }
@@ -95,89 +61,12 @@ const changeOptions = async (page, button) => {
 }
 
 const changeOneOptions = async (page, button, option) => {
+    console.log('entro en la funcion changeOneOptions');
     const menuBtn = await openList(page, button)
+    //await page.screenshot({path:'./eeem77.jpg'})
     await menuBtn[option].click()
-    //await page.waitForSelector('#price')
-    await page.waitForTimeout(10000)
-}
-
-const changeTwoOptions = async (form, button, option, buttonTwo, optionTwo) => {
-    for (let i = 0; i < 2; i++) {
-        switch (i) {
-            case 0:
-                const menuBtn = await openList(form, button)
-                await menuBtn[option].click()
-                //await form.waitForSelector('#price')
-                await form.waitForTimeout(5000)
-                break;
-            case 1:
-                const menuBtnElse = await openList(form, buttonTwo)
-                await menuBtnElse[optionTwo].click()
-                //await form.waitForSelector('#price')
-                await page.waitForTimeout(5000)
-                break;
-        }
-    }
-
-    const buttonsLabel = await form.$$eval('button.btn.dropdown-toggle.val-wrap', node => node.map(n => n.innerText))
-    console.log(buttonsLabel)
-}
-
-const changeThreeOptions = async (page, form, button, option, buttonTwo, optionTwo, buttonThree, optionThree) => {
-    for (let i = 0; i <= 2; i++) {
-        switch (i) {
-            case 0:
-                const menuBtn = await openList(form, button)
-                await menuBtn[option].click()
-                await form.waitForSelector('.ng-binding.subtotal-price', { state: 'attached' })
-                //await page.waitForTimeout(5000)
-                break
-            case 1:
-                const menuBtnTwo = await openList(form, buttonTwo)
-                await menuBtnTwo[optionTwo].click()
-                await form.waitForSelector('.ng-binding.subtotal-price', { state: 'attached' })
-                //await page.waitForTimeout(5000)
-                break
-            case 2:
-                const menuBtnThree = await openList(form, buttonThree)
-                await menuBtnThree[optionThree].click()
-                await form.waitForSelector('.ng-binding.subtotal-price', { state: 'attached' })
-                //await page.waitForTimeout(5000)
-                break
-        }
-    }
-    //await writeListTotal(form)
-}
-
-const bindingElementsOptions = async (page, form, option) => {
-    const bindingElements = await form.$$('.custom-control.custom-radio.element_class')
-    await bindingElements[option].click()
-    await page.waitForTimeout(5000)
-}
-
-const searchLen = async (form, option) => {
-    const menuBtn = await openList(form, option)
-    await menuBtn[0].click()
-    await form.waitForSelector('#price')
-    return menuBtn.length
-}
-
-const qtyActions = async (page, button) => {
-    const btn = await page.$('[name="attr5"]')
-    await btn.click()
-    const options = await page.$('.dropdown-attr-5')
-    const optionsList = await options.$$('a.attr-value.val-wrap')
-    await optionsList[button].click()
     await page.waitForSelector('#price')
-    await writeList(page)
-}
-
-const qtyLength = async (page) => {
-    const btn = await page.$('[name="attr5"]')
-    await btn.click()
-    const options = await page.$('.dropdown-attr-5')
-    const optionsList = await options.$$('a.attr-value.val-wrap')
-    return optionsList.length
+    //await page.waitForTimeout(3000)
 }
 
 const web = async () => {
@@ -190,14 +79,24 @@ const web = async () => {
     // })
     const browser = await firefox.launch()
     const page = await browser.newPage()
-    await page.goto('https://www.uprinting.com/yard-signs.html', { timeout: 300000 })
+    await page.goto('https://www.uprinting.com/yard-signs.html')
+    
 
     await page.waitForTimeout(10000)
+
+
+    //await page.getByLabel('12" x 18"').selectOption('18" x 24"');
+
+    //await page.screenshot({path:'./eeem77.jpg'})
     //await frame.waitForURL('https://www.uprinting.com/10-envelopes.html')
     //await changeTwoOptions(page, 2, 1, 1, 4)
-    await changeOneOptions(page, 2, 1)
+
+    //await changeOneOptions(page, 0, 0)
+    //await changeOneOptions(page, 0, 1)
     await changeOneOptions(page, 1, 4)
-    // const optionsOne = await page.$$eval('.btn.dropdown-toggle.val-wrap ', node => node.map(n => n.innerText))
+    await changeOneOptions(page, 2, 7)
+    await changeOneOptions(page, 5, 2)
+    // const optionsOne = await page.$$eval('.btn.dropdown-toggle.val-wrap', node => node.map(n => n.innerText))
     // console.log(optionsOne);
     // await changeOneOptions(page, 2, 1)
     // await page.waitForTimeout(10000)
