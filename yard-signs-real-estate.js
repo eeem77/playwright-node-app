@@ -199,7 +199,7 @@ const web = async () => {
     
     //await changeOneOptions(page, 0, 1)
     await changeOneOptions(page, 1, 3)
-    await changeOneOptions(page, 3, 1)
+    await changeOneOptions(page, 5, 2)
     await changeOptions(page, 6)
 
     //const inkColor = await page.$('.multi-calc-panel.even')
