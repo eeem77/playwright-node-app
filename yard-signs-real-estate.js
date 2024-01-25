@@ -79,7 +79,7 @@ const changeOptions = async (page, button) => {
                 //console.log(menuBtn.length);
                 await menuBtn[i].click()
                 //await page.waitForSelector('#price')
-                await page.waitForTimeout(3000)
+                await page.waitForTimeout(5000)
                 //await page.screenshot({ path: './pepa.jpg' })
                 await writeList(page)
                 break
@@ -87,18 +87,18 @@ const changeOptions = async (page, button) => {
                 const menuBtnDefault = await openList(page, button)
                 await menuBtnDefault[i].click()
                 //await page.waitForSelector('#price')
-                await page.waitForTimeout(3000)
+                await page.waitForTimeout(5000)
                 await writeList(page)
                 break
         }
     }
 }
 
-const changeOneOptions = async (form, button, option) => {
-    const menuBtn = await openList(form, button)
+const changeOneOptions = async (page, button, option) => {
+    const menuBtn = await openList(page, button)
     await menuBtn[option].click()
-    await form.waitForSelector('#price')
-    //await page.waitForTimeout(5000)
+    //await page.waitForSelector('#price')
+    await page.waitForTimeout(10000)
 }
 
 const changeTwoOptions = async (form, button, option, buttonTwo, optionTwo) => {
@@ -107,14 +107,14 @@ const changeTwoOptions = async (form, button, option, buttonTwo, optionTwo) => {
             case 0:
                 const menuBtn = await openList(form, button)
                 await menuBtn[option].click()
-                await form.waitForSelector('#price')
-                //await page.waitForTimeout(5000)
+                //await form.waitForSelector('#price')
+                await form.waitForTimeout(5000)
                 break;
             case 1:
                 const menuBtnElse = await openList(form, buttonTwo)
                 await menuBtnElse[optionTwo].click()
-                await form.waitForSelector('#price')
-                //await page.waitForTimeout(2000)
+                //await form.waitForSelector('#price')
+                await page.waitForTimeout(5000)
                 break;
         }
     }
@@ -183,23 +183,30 @@ const qtyLength = async (page) => {
 const web = async () => {
     // const browser = await firefox.launch({
     //     proxy: {
-    //       server: '64.225.8.142:10010'
+    //       server: '195.154.184.80:8080'
     //       //username: 'usr',
     //       //password: 'pwd'
     //     }
     // })
     const browser = await firefox.launch()
     const page = await browser.newPage()
-    await page.goto('https://www.uprinting.com/yard-signs.html', { timeout: 30000 })
+    await page.goto('https://www.uprinting.com/yard-signs.html', { timeout: 300000 })
 
-    await page.waitForTimeout(15000)
+    await page.waitForTimeout(10000)
     //await frame.waitForURL('https://www.uprinting.com/10-envelopes.html')
-    const options = await page.$$eval('.btn.dropdown-toggle.val-wrap ', node => node.map(n => n.innerText))
-    console.log(options);
-    
-    //await changeOneOptions(page, 0, 1)
-    await changeOneOptions(page, 1, 3)
-    await changeOneOptions(page, 5, 2)
+    //await changeTwoOptions(page, 2, 1, 1, 4)
+    await changeOneOptions(page, 2, 1)
+    await changeOneOptions(page, 1, 4)
+    // const optionsOne = await page.$$eval('.btn.dropdown-toggle.val-wrap ', node => node.map(n => n.innerText))
+    // console.log(optionsOne);
+    // await changeOneOptions(page, 2, 1)
+    // await page.waitForTimeout(10000)
+    // console.log("termine primer bloque");
+    // await changeOneOptions(page, 1, 4)
+    // await page.waitForTimeout(10000)
+    // console.log("termine segundo bloque");
+    // const optionsTwo = await page.$$eval('.btn.dropdown-toggle.val-wrap ', node => node.map(n => n.innerText))
+    // console.log(optionsTwo);
     await changeOptions(page, 6)
 
     //const inkColor = await page.$('.multi-calc-panel.even')
