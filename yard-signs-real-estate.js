@@ -197,8 +197,9 @@ const web = async () => {
     const options = await page.$$eval('.btn.dropdown-toggle.val-wrap ', node => node.map(n => n.innerText))
     console.log(options);
     
-    await changeOneOptions(page, 0, 1)
+    //await changeOneOptions(page, 0, 1)
     await changeOneOptions(page, 1, 3)
+    await changeOneOptions(page, 3, 1)
     await changeOptions(page, 6)
 
     //const inkColor = await page.$('.multi-calc-panel.even')
