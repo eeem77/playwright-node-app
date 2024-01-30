@@ -2,9 +2,38 @@ import { chromium, firefox, webkit } from 'playwright'
 import fs from 'fs'
 import path from 'path'
 
+const formBase = async (page, form) => {
+    let clickList = 2
+    for (let i = 0; i < 1; i++) {
+        switch (i) {
+            case 2:
+                clickList = 1
+                break;
+            case 3:
+                clickList = 1
+                break;
+        }
+        const buttons = await form.$$('button.btn.dropdown-toggle.val-wrap')
+        await buttons[i].click()
+        const buttonListActive = await form.$('div.site-dropdown.dropdown.expanded')
+        const listActive = await buttonListActive.$$('a.val-wrap.ng-scope')
+        await listActive[clickList].click()
+        console.log(await buttons[i].innerText())
+        await page.waitForTimeout(5000)
+    }
+    const buttonsInnerText = await form.$$eval('button.btn.dropdown-toggle.val-wrap', node => node.map(n => n.innerText))
+    console.log(buttonsInnerText)
+}
+
+// const collapseTrue = async (form) => {
+//     const collapse = await form.$$('a.group-collapse-button')
+//     await collapse[0].click()
+//     await collapse[1].click()
+//     await collapse[2].click()
+// }
 
 const writeList = async (page) => {
-    const buttonsLabel = await page.$$eval('.btn.dropdown-toggle.val-wrap', node => node.map(n => n.innerText))
+    const buttonsLabel = await page.$$eval('.site-dropdown.dropdown', node => node.map(n => n.innerText))
     const price = await page.$eval('.calc-price.subtotal-price', node => node.innerText)
     const priceSubtotal = await price.replace(',', '')
     const priceTotal = await priceSubtotal.replace('$', '')
@@ -12,12 +41,11 @@ const writeList = async (page) => {
     fs.appendFileSync(`list.txt`, buttonsLabel.toString() + '\n')
 }
 
-const openList = async (page, button) => {
-    const buttonsLabel = await page.$$eval('.btn.dropdown-toggle.val-wrap', node => node.map(n => n.innerText))
-    console.log(buttonsLabel);
-    const buttons = await page.$$('.btn.dropdown-toggle.val-wrap')
+const openList = async (form, button) => {
+    await page.waitForSelector('.site-dropdown.dropdown',{state: 'attached'})
+    const buttons = await form.$$('.site-dropdown.dropdown')
     await buttons[button].click()
-    const menu = await page.$('div.site-dropdown.dropdown.expanded')
+    const menu = await form.$('div.site-dropdown.dropdown.expanded')
     const menuBtn = await menu.$$('a.attr-value.val-wrap')
     console.log('Working');
     return menuBtn
@@ -58,90 +86,11 @@ const changeOptions = async (page, button) => {
     }
 }
 
-const changeOneOptions = async (page, button, option) => {
-    const menuBtn = await openList(page, button)
+const changeOneOptions = async (form, button, option) => {
+    const menuBtn = await openList(form, button)
     await menuBtn[option].click()
-    //await page.waitForSelector('#price')
+    //await form.waitForSelector('#price')
     await page.waitForTimeout(5000)
-}
-
-const changeTwoOptions = async (form, button, option, buttonTwo, optionTwo) => {
-    for (let i = 0; i < 2; i++) {
-        switch (i) {
-            case 0:
-                const menuBtn = await openList(form, button)
-                await menuBtn[option].click()
-                await form.waitForSelector('#price')
-                //await page.waitForTimeout(5000)
-                break;
-            case 1:
-                const menuBtnElse = await openList(form, buttonTwo)
-                await menuBtnElse[optionTwo].click()
-                await form.waitForSelector('#price')
-                //await page.waitForTimeout(5000)
-                break;
-        }
-    }
-
-    const buttonsLabel = await form.$$eval('button.btn.dropdown-toggle.val-wrap', node => node.map(n => n.innerText))
-    console.log(buttonsLabel)
-}
-
-const changeThreeOptions = async (page, form, button, option, buttonTwo, optionTwo, buttonThree, optionThree) => {
-    for (let i = 0; i <= 2; i++) {
-        switch (i) {
-            case 0:
-                const menuBtn = await openList(form, button)
-                await menuBtn[option].click()
-                await form.waitForSelector('.ng-binding.subtotal-price', { state: 'attached' })
-                //await page.waitForTimeout(5000)
-                break
-            case 1:
-                const menuBtnTwo = await openList(form, buttonTwo)
-                await menuBtnTwo[optionTwo].click()
-                await form.waitForSelector('.ng-binding.subtotal-price', { state: 'attached' })
-                //await page.waitForTimeout(5000)
-                break
-            case 2:
-                const menuBtnThree = await openList(form, buttonThree)
-                await menuBtnThree[optionThree].click()
-                await form.waitForSelector('.ng-binding.subtotal-price', { state: 'attached' })
-                //await page.waitForTimeout(5000)
-                break
-        }
-    }
-    //await writeListTotal(form)
-}
-
-const bindingElementsOptions = async (page, form, option) => {
-    const bindingElements = await form.$$('.custom-control.custom-radio.element_class')
-    await bindingElements[option].click()
-    await page.waitForTimeout(5000)
-}
-
-const searchLen = async (form, option) => {
-    const menuBtn = await openList(form, option)
-    await menuBtn[0].click()
-    await form.waitForSelector('#price')
-    return menuBtn.length
-}
-
-const qtyActions = async (page, button) => {
-    const btn = await page.$('[name="attr5"]')
-    await btn.click()
-    const options = await page.$('.dropdown-attr-5')
-    const optionsList = await options.$$('a.attr-value.val-wrap')
-    await optionsList[button].click()
-    await page.waitForSelector('#price')
-    await writeList(page)
-}
-
-const qtyLength = async (page) => {
-    const btn = await page.$('[name="attr5"]')
-    await btn.click()
-    const options = await page.$('.dropdown-attr-5')
-    const optionsList = await options.$$('a.attr-value.val-wrap')
-    return optionsList.length
 }
 
 const web = async () => {
@@ -154,14 +103,14 @@ const web = async () => {
     // })
     const browser = await firefox.launch()
     const page = await browser.newPage()
-    await page.goto('https://www.uprinting.com/real-estate-a-frame-signs.html', { timeout: 300000 })
+    await page.goto('https://www.uprinting.com/deluxe-signicade-a-frame-signs.html', { timeout: 300000 })
 
     await page.waitForTimeout(15000)
     //await frame.waitForURL('https://www.uprinting.com/10-envelopes.html')
     // await changeOneOptions(page, 1, 1)
-    await changeOneOptions(page, 5, 2)
-    //await changeOneOptions(page, 3, 0)
-    await changeOptions(page, 9)
+    // await changeOneOptions(page, 0, 5)
+    // await changeOneOptions(page, 3, 0)
+    await changeOptions(page, 6)
 
     //const inkColor = await page.$('.multi-calc-panel.even')
     //await inkColor.click()
