@@ -1,39 +1,10 @@
 import { chromium, firefox, webkit } from 'playwright'
 import fs from 'fs'
 import path from 'path'
-
-const formBase = async (page, form) => {
-    let clickList = 2
-    for (let i = 0; i < 1; i++) {
-        switch (i) {
-            case 2:
-                clickList = 1
-                break;
-            case 3:
-                clickList = 1
-                break;
-        }
-        const buttons = await form.$$('button.btn.dropdown-toggle.val-wrap')
-        await buttons[i].click()
-        const buttonListActive = await form.$('div.site-dropdown.dropdown.expanded')
-        const listActive = await buttonListActive.$$('a.val-wrap.ng-scope')
-        await listActive[clickList].click()
-        console.log(await buttons[i].innerText())
-        await page.waitForTimeout(5000)
-    }
-    const buttonsInnerText = await form.$$eval('button.btn.dropdown-toggle.val-wrap', node => node.map(n => n.innerText))
-    console.log(buttonsInnerText)
-}
-
-// const collapseTrue = async (form) => {
-//     const collapse = await form.$$('a.group-collapse-button')
-//     await collapse[0].click()
-//     await collapse[1].click()
-//     await collapse[2].click()
-// }
+import { waitForDebugger } from 'inspector'
 
 const writeList = async (page) => {
-    const buttonsLabel = await page.$$eval('.site-dropdown.dropdown', node => node.map(n => n.innerText))
+    const buttonsLabel = await page.$$eval('button.btn.dropdown-toggle.val-wrap', node => node.map(n => n.innerText))
     const price = await page.$eval('.calc-price.subtotal-price', node => node.innerText)
     const priceSubtotal = await price.replace(',', '')
     const priceTotal = await priceSubtotal.replace('$', '')
@@ -42,8 +13,9 @@ const writeList = async (page) => {
 }
 
 const openList = async (form, button) => {
-    await page.waitForSelector('.site-dropdown.dropdown',{state: 'attached'})
-    const buttons = await form.$$('.site-dropdown.dropdown')
+    const buttons = await form.$$('button.btn.dropdown-toggle.val-wrap')
+    const buttonsLabel = await form.$$eval('button.btn.dropdown-toggle.val-wrap', node => node.map(n => n.innerText))
+    console.log(buttonsLabel);
     await buttons[button].click()
     const menu = await form.$('div.site-dropdown.dropdown.expanded')
     const menuBtn = await menu.$$('a.attr-value.val-wrap')
@@ -110,7 +82,7 @@ const web = async () => {
     // await changeOneOptions(page, 1, 1)
     // await changeOneOptions(page, 0, 5)
     // await changeOneOptions(page, 3, 0)
-    await changeOptions(page, 6)
+    await changeOptions(page, 9)
 
     //const inkColor = await page.$('.multi-calc-panel.even')
     //await inkColor.click()
