@@ -264,8 +264,8 @@ const web = async () => {
   // const paper = await page.$("#CAG132");
   // await paper.selectOption("2689_0_0_0.47_0_0_0");
 
-  // const time = await page.$("#CAG15");
-  // await time.selectOption("18284_0_0_0_0_3_1");
+  const time = await page.$("#CAG150");
+  await time.selectOption("4432_83_0_83_0_3_0");
 
   // const x = await page.$('#SPLINPDROP_PPLabelWidth_X')
   // await x.fill("18.00")
