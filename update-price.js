@@ -6,7 +6,7 @@ import listPrice from "./listPrice.js";
 
 const url = "https://www.apprinting.com/admin/";
 const urlProductUpdatePrice =
-  "https://www.apprinting.com/admin/product_additionalinfo_price.php?product_id=4410&prod_add_opt_id=100438&sel_product_size=6440";
+  "https://www.apprinting.com/admin/product_additionalinfo_price.php?product_id=4531&prod_add_opt_id=101097";
 
 const qtys = [
   1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22,
@@ -30,10 +30,10 @@ const inputFillToPrice = async (page) => {
   await page.goto(urlProductUpdatePrice, { timeout: 300000 });
   let price = 0;
   //let postNumber = 9607838  ${postNumber}
-  for (let i = 79; i <= 79; i++) {
+  for (let i = 93; i <= 93; i++) {
     //if( i == 39 || i == 41){
     for await (const qty of qtys) {
-      const id = `txtprice[${qty}_20056${i}_]`;
+      const id = `txtprice[${qty}_20105${i}_]`;
       const inputPrice = await page.$(`[id="${id}" ]`);
       await inputPrice.fill(listPrice[price].toString());
       console.log(listPrice[price].toString());
