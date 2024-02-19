@@ -1,300 +1,144 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+3.5" x 8.5",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,250,113.37
+3.5" x 8.5",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,500,119.85
+3.5" x 8.5",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,1000,132.81
+3.5" x 8.5",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,2500,199.21
+3.5" x 8.5",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,5000,335.26
+3.5" x 8.5",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,10000,652.71
+3.5" x 8.5",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,15000,923.18
+3.5" x 8.5",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,20000,1206.61
+3.5" x 8.5",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,25000,1490.04
+
+
+
+3.5" x 8.5",14PT C2S,4/0 (4 color front),UV Coating Front Only,Starburst Die Cut,250,113.37
+3.5" x 8.5",14PT C2S,4/0 (4 color front),UV Coating Front Only,Starburst Die Cut,500,119.85
+3.5" x 8.5",14PT C2S,4/0 (4 color front),UV Coating Front Only,Starburst Die Cut,1000,132.81
+3.5" x 8.5",14PT C2S,4/0 (4 color front),UV Coating Front Only,Starburst Die Cut,2500,199.21
+3.5" x 8.5",14PT C2S,4/0 (4 color front),UV Coating Front Only,Starburst Die Cut,5000,335.26
+3.5" x 8.5",14PT C2S,4/0 (4 color front),UV Coating Front Only,Starburst Die Cut,10000,652.71
+3.5" x 8.5",14PT C2S,4/0 (4 color front),UV Coating Front Only,Starburst Die Cut,15000,923.18
+3.5" x 8.5",14PT C2S,4/0 (4 color front),UV Coating Front Only,Starburst Die Cut,20000,1206.61
+3.5" x 8.5",14PT C2S,4/0 (4 color front),UV Coating Front Only,Starburst Die Cut,25000,1490.04
+
+
+
+3.5" x 8.5",14PT C2S,4/0 (4 color front),UV Coating Front Only,Arch Die Cut,250,113.37
+3.5" x 8.5",14PT C2S,4/0 (4 color front),UV Coating Front Only,Arch Die Cut,500,119.85
+3.5" x 8.5",14PT C2S,4/0 (4 color front),UV Coating Front Only,Arch Die Cut,1000,132.81
+3.5" x 8.5",14PT C2S,4/0 (4 color front),UV Coating Front Only,Arch Die Cut,2500,199.21
+3.5" x 8.5",14PT C2S,4/0 (4 color front),UV Coating Front Only,Arch Die Cut,5000,335.26
+3.5" x 8.5",14PT C2S,4/0 (4 color front),UV Coating Front Only,Arch Die Cut,10000,652.71
+3.5" x 8.5",14PT C2S,4/0 (4 color front),UV Coating Front Only,Arch Die Cut,15000,923.18
+3.5" x 8.5",14PT C2S,4/0 (4 color front),UV Coating Front Only,Arch Die Cut,20000,1206.61
+3.5" x 8.5",14PT C2S,4/0 (4 color front),UV Coating Front Only,Arch Die Cut,25000,1490.04
+
+
+
+4" x 7",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,250,113.37
+4" x 7",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,500,119.85
+4" x 7",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,1000,132.81
+4" x 7",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,2500,199.21
+4" x 7",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,5000,340.12
+4" x 7",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,10000,654.32
+4" x 7",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,15000,947.47
+4" x 7",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,20000,1240.62
+4" x 7",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,25000,1533.78
+
+
+
+4" x 7",14PT C2S,4/0 (4 color front),UV Coating Front Only,Starburst Die Cut,250,113.37
+4" x 7",14PT C2S,4/0 (4 color front),UV Coating Front Only,Starburst Die Cut,500,119.85
+4" x 7",14PT C2S,4/0 (4 color front),UV Coating Front Only,Starburst Die Cut,1000,132.81
+4" x 7",14PT C2S,4/0 (4 color front),UV Coating Front Only,Starburst Die Cut,2500,199.21
+4" x 7",14PT C2S,4/0 (4 color front),UV Coating Front Only,Starburst Die Cut,5000,340.12
+4" x 7",14PT C2S,4/0 (4 color front),UV Coating Front Only,Starburst Die Cut,10000,654.32
+4" x 7",14PT C2S,4/0 (4 color front),UV Coating Front Only,Starburst Die Cut,15000,947.47
+4" x 7",14PT C2S,4/0 (4 color front),UV Coating Front Only,Starburst Die Cut,20000,1240.62
+4" x 7",14PT C2S,4/0 (4 color front),UV Coating Front Only,Starburst Die Cut,25000,1533.78
+
+
+
+4" x 7",14PT C2S,4/0 (4 color front),UV Coating Front Only,Arch Die Cut,250,113.37
+4" x 7",14PT C2S,4/0 (4 color front),UV Coating Front Only,Arch Die Cut,500,119.85
+4" x 7",14PT C2S,4/0 (4 color front),UV Coating Front Only,Arch Die Cut,1000,132.81
+4" x 7",14PT C2S,4/0 (4 color front),UV Coating Front Only,Arch Die Cut,2500,199.21
+4" x 7",14PT C2S,4/0 (4 color front),UV Coating Front Only,Arch Die Cut,5000,340.12
+4" x 7",14PT C2S,4/0 (4 color front),UV Coating Front Only,Arch Die Cut,10000,654.32
+4" x 7",14PT C2S,4/0 (4 color front),UV Coating Front Only,Arch Die Cut,15000,947.47
+4" x 7",14PT C2S,4/0 (4 color front),UV Coating Front Only,Arch Die Cut,20000,1240.62
+4" x 7",14PT C2S,4/0 (4 color front),UV Coating Front Only,Arch Die Cut,25000,1533.78
+
+
+
+4.25" x 11",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,250,134.43
+4.25" x 11",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,500,142.54
+4.25" x 11",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,1000,158.73
+4.25" x 11",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,2500,247.79
+4.25" x 11",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,5000,404.92
+4.25" x 11",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,10000,804.95
+4.25" x 11",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,15000,1149.92
+4.25" x 11",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,20000,1506.24
+4.25" x 11",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,25000,1859.32
+
+
+
+4.25" x 11",14PT C2S,4/0 (4 color front),UV Coating Front Only,Starburst Die Cut,250,134.43
+4.25" x 11",14PT C2S,4/0 (4 color front),UV Coating Front Only,Starburst Die Cut,500,142.54
+4.25" x 11",14PT C2S,4/0 (4 color front),UV Coating Front Only,Starburst Die Cut,1000,158.73
+4.25" x 11",14PT C2S,4/0 (4 color front),UV Coating Front Only,Starburst Die Cut,2500,247.79
+4.25" x 11",14PT C2S,4/0 (4 color front),UV Coating Front Only,Starburst Die Cut,5000,404.92
+4.25" x 11",14PT C2S,4/0 (4 color front),UV Coating Front Only,Starburst Die Cut,10000,804.95
+4.25" x 11",14PT C2S,4/0 (4 color front),UV Coating Front Only,Starburst Die Cut,15000,1149.92
+4.25" x 11",14PT C2S,4/0 (4 color front),UV Coating Front Only,Starburst Die Cut,20000,1506.24
+4.25" x 11",14PT C2S,4/0 (4 color front),UV Coating Front Only,Starburst Die Cut,25000,1859.32
+
+
+
+4.25" x 11",14PT C2S,4/0 (4 color front),UV Coating Front Only,Arch Die Cut,250,134.43
+4.25" x 11",14PT C2S,4/0 (4 color front),UV Coating Front Only,Arch Die Cut,500,142.54
+4.25" x 11",14PT C2S,4/0 (4 color front),UV Coating Front Only,Arch Die Cut,1000,158.73
+4.25" x 11",14PT C2S,4/0 (4 color front),UV Coating Front Only,Arch Die Cut,2500,247.79
+4.25" x 11",14PT C2S,4/0 (4 color front),UV Coating Front Only,Arch Die Cut,5000,404.92
+4.25" x 11",14PT C2S,4/0 (4 color front),UV Coating Front Only,Arch Die Cut,10000,804.95
+4.25" x 11",14PT C2S,4/0 (4 color front),UV Coating Front Only,Arch Die Cut,15000,1149.92
+4.25" x 11",14PT C2S,4/0 (4 color front),UV Coating Front Only,Arch Die Cut,20000,1506.24
+4.25" x 11",14PT C2S,4/0 (4 color front),UV Coating Front Only,Arch Die Cut,25000,1859.32
+
+
+
+4.25" x 14",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,250,261.57
+4.25" x 14",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,500,276.96
+4.25" x 14",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,1000,307.72
+4.25" x 14",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,2500,466.45
+4.25" x 14",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,5000,735.30
+4.25" x 14",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,10000,1399.34
+4.25" x 14",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,15000,2000.23
+4.25" x 14",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,20000,2665.88
+4.25" x 14",14PT C2S,4/0 (4 color front),UV Coating Front Only,Standard Die Cut,25000,3158.26
+
+
+
+4.25" x 14",14PT C2S,4/0 (4 color front),UV Coating Front Only,Starburst Die Cut,250,261.57
+4.25" x 14",14PT C2S,4/0 (4 color front),UV Coating Front Only,Starburst Die Cut,500,276.96
+4.25" x 14",14PT C2S,4/0 (4 color front),UV Coating Front Only,Starburst Die Cut,1000,307.72
+4.25" x 14",14PT C2S,4/0 (4 color front),UV Coating Front Only,Starburst Die Cut,2500,466.45
+4.25" x 14",14PT C2S,4/0 (4 color front),UV Coating Front Only,Starburst Die Cut,5000,735.30
+4.25" x 14",14PT C2S,4/0 (4 color front),UV Coating Front Only,Starburst Die Cut,10000,1399.34
+4.25" x 14",14PT C2S,4/0 (4 color front),UV Coating Front Only,Starburst Die Cut,15000,2000.23
+4.25" x 14",14PT C2S,4/0 (4 color front),UV Coating Front Only,Starburst Die Cut,20000,2665.88
+4.25" x 14",14PT C2S,4/0 (4 color front),UV Coating Front Only,Starburst Die Cut,25000,3158.26
+
+
+
+4.25" x 14",14PT C2S,4/0 (4 color front),UV Coating Front Only,Arch Die Cut,250,261.57
+4.25" x 14",14PT C2S,4/0 (4 color front),UV Coating Front Only,Arch Die Cut,500,276.96
+4.25" x 14",14PT C2S,4/0 (4 color front),UV Coating Front Only,Arch Die Cut,1000,307.72
+4.25" x 14",14PT C2S,4/0 (4 color front),UV Coating Front Only,Arch Die Cut,2500,466.45
+4.25" x 14",14PT C2S,4/0 (4 color front),UV Coating Front Only,Arch Die Cut,5000,735.30
+4.25" x 14",14PT C2S,4/0 (4 color front),UV Coating Front Only,Arch Die Cut,10000,1399.34
+4.25" x 14",14PT C2S,4/0 (4 color front),UV Coating Front Only,Arch Die Cut,15000,2000.23
+4.25" x 14",14PT C2S,4/0 (4 color front),UV Coating Front Only,Arch Die Cut,20000,2665.88
+4.25" x 14",14PT C2S,4/0 (4 color front),UV Coating Front Only,Arch Die Cut,25000,3158.26
 
 
 

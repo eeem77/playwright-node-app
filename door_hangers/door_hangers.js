@@ -228,11 +228,11 @@ const web = async () => {
     await login(page)
     
     
-
-    const loop = ['Standard Die Cut', 'Starburst Die Cut', 'Arch Die Cut']
+    const loop = ['3.5" x 8.5"','4" x 7"','4.25" x 11"','4.25" x 14"']
+    //const loop = ['Standard Die Cut', 'Starburst Die Cut', 'Arch Die Cut']
     //const loop = ['UV on 4-color side', 'UV Coating Front Only']
 
-    for (let i = 0; i < 3; i++) {
+    for (let i = 0; i < 4; i++) {
         // let flag = 'UV Coating Front Only'
         // if (loop[i] === '100LB Gloss Cover' || loop[i] === '100LB Gloss Book') {
         //     flag = 'Aqueous Coating'
@@ -241,11 +241,11 @@ const web = async () => {
         //     flag = 'No Coating'
         // }
         labelArray = []
-        await changeOption(page, '#attribute211', '4.25" x 14"')
-        await changeOption(page, '#attribute197', '16PT C2S')
+        await changeOption(page, '#attribute211', loop[i])
+        await changeOption(page, '#attribute197', '14PT C2S')
         await changeOption(page, '#attribute204', '4/0 (4 color front)')
         await changeOption(page, '#attribute199', 'UV Coating Front Only')
-        await changeOption(page, '#attribute215', loop[i])
+        await changeOption(page, '#attribute215', 'Standard Die Cut')
         
         if(i === 0){
             //actions moore
@@ -253,8 +253,8 @@ const web = async () => {
             await btnMoore.click()
     
             //%
-            const porcent = await page.$('.product-4over-input')
-            await porcent.fill('300')
+            // const porcent = await page.$('.product-4over-input')
+            // await porcent.fill('300')
         }
 
         //prices
