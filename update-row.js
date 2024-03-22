@@ -10,30 +10,18 @@ const urlProductUpdatePrice =
 
 const qtys = [250, 500, 1000, 2500, 5000, 10000, 15000, 20000, 25000];
 const idProducts = [
-  "1189",
-  "1394",
-  "1335",
-  "1259",
-  "1507",
-  "1584",
-  "1560",
-  "1453",
-  "1195",
-  "1401",
-  "1342",
-  "1265",
-  "1512",
-  "1292",
-  "1552",
-  "1187",
-  "1392",
-  "1333",
-  "1257",
-  "1505",
-  "1456",
-  "1403",
-  "1344",
-  "1268",
+  "4140",
+  "4135",
+  "4136",
+  "4143",
+  "4133",
+  "4144",
+  "4137",
+  "4142",
+  "4134",
+  "4139",
+  "4141",
+  "4138",
 ];
 
 const login = async (page) => {
@@ -93,9 +81,28 @@ const inputFillToRow = async (page) => {
   // await page.waitForTimeout(5000);
 };
 
+const categoryDefaultSelect = async (page) => {
+  for await (let id of idProducts) {
+    await page.goto(
+      `https://www.apprinting.com/admin/product_action.php?product_id=${id}`,
+      { timeout: 300000 }
+    );
+    const btnCategory = await page.$('[data-id="category_id_1"]');
+    await btnCategory.click();
+    await page.waitForTimeout(2000);
+    const btnCategorySelect = await page.$("#bs-select-2-134");
+    await btnCategorySelect.click();
+    await page.waitForTimeout(3000);
+    const btnSave = await page.$("#btn-action-save");
+    await btnSave.click();
+    await page.waitForTimeout(3000);
+    console.log("Working ---> ", id);
+  }
+};
+
 const getidProducts = async (page) => {
   await page.goto(
-    `https://www.apprinting.com/pockets-and-folds-wedding-invitations/products/`,
+    `https://www.apprinting.com/posters-hair-nails-products/products/`,
     { timeout: 300000 }
   );
   const products = await page.$$eval(".product-box", (node) =>
@@ -108,9 +115,10 @@ const updatePrice = async () => {
   const browser = await chromium.launch();
   const page = await browser.newPage();
   await login(page);
-  await inputFillToRow(page);
-  //await getidProducts(page);
+  //await inputFillToRow(page);
   //await inputFillToPrice(page);
+  //await getidProducts(page);
+  await categoryDefaultSelect(page);
   console.log("END");
   await browser.close();
 };
