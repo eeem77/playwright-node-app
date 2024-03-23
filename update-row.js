@@ -10,18 +10,26 @@ const urlProductUpdatePrice =
 
 const qtys = [250, 500, 1000, 2500, 5000, 10000, 15000, 20000, 25000];
 const idProducts = [
-  "4140",
-  "4135",
-  "4136",
-  "4143",
-  "4133",
-  "4144",
-  "4137",
-  "4142",
-  "4134",
-  "4139",
-  "4141",
-  "4138",
+  "4394",
+  "4405",
+  "4389",
+  "4386",
+  "4397",
+  "4395",
+  "4323",
+  "4403",
+  "4387",
+  "4402",
+  "4391",
+  "4388",
+  "4398",
+  "4396",
+  "4392",
+  "4399",
+  "4400",
+  "4404",
+  "4401",
+  "4385",
 ];
 
 const login = async (page) => {
@@ -87,10 +95,11 @@ const categoryDefaultSelect = async (page) => {
       `https://www.apprinting.com/admin/product_action.php?product_id=${id}`,
       { timeout: 300000 }
     );
+    //await page.waitForTimeout(2000);
     const btnCategory = await page.$('[data-id="category_id_1"]');
     await btnCategory.click();
-    await page.waitForTimeout(2000);
-    const btnCategorySelect = await page.$("#bs-select-2-134");
+    await page.waitForTimeout(3000);
+    const btnCategorySelect = await page.$("#bs-select-2-198");
     await btnCategorySelect.click();
     await page.waitForTimeout(3000);
     const btnSave = await page.$("#btn-action-save");
@@ -102,8 +111,10 @@ const categoryDefaultSelect = async (page) => {
 
 const getidProducts = async (page) => {
   await page.goto(
-    `https://www.apprinting.com/posters-hair-nails-products/products/`,
-    { timeout: 300000 }
+    `https://www.apprinting.com/dine-in-menus-restaurant-products/products/`,
+    {
+      timeout: 300000,
+    }
   );
   const products = await page.$$eval(".product-box", (node) =>
     node.map((n) => n.className)
