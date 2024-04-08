@@ -9,28 +9,7 @@ const urlProductUpdatePrice =
   "https://www.apprinting.com/bilingual-wedding-invitations/products/#category_product_list";
 
 const qtys = [250, 500, 1000, 2500, 5000, 10000, 15000, 20000, 25000];
-const idProducts = [
-  "4394",
-  "4405",
-  "4389",
-  "4386",
-  "4397",
-  "4395",
-  "4323",
-  "4403",
-  "4387",
-  "4402",
-  "4391",
-  "4388",
-  "4398",
-  "4396",
-  "4392",
-  "4399",
-  "4400",
-  "4404",
-  "4401",
-  "4385",
-];
+const idProducts = ["4437", "4450", "4434", "4438", "4452"];
 
 const login = async (page) => {
   await page.goto(url, { timeout: 300000 });
@@ -99,7 +78,7 @@ const categoryDefaultSelect = async (page) => {
     const btnCategory = await page.$('[data-id="category_id_1"]');
     await btnCategory.click();
     await page.waitForTimeout(3000);
-    const btnCategorySelect = await page.$("#bs-select-2-198");
+    const btnCategorySelect = await page.$("#bs-select-2-115");
     await btnCategorySelect.click();
     await page.waitForTimeout(3000);
     const btnSave = await page.$("#btn-action-save");
@@ -111,7 +90,7 @@ const categoryDefaultSelect = async (page) => {
 
 const getidProducts = async (page) => {
   await page.goto(
-    `https://www.apprinting.com/dine-in-menus-restaurant-products/products/`,
+    `https://www.apprinting.com/-exp-realty-real-estate-yard-sign-275/products/`,
     {
       timeout: 300000,
     }
