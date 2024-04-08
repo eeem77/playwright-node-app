@@ -107,8 +107,8 @@ const updatePrice = async () => {
   await login(page);
   //await inputFillToRow(page);
   //await inputFillToPrice(page);
-  //await getidProducts(page);
-  await categoryDefaultSelect(page);
+  await getidProducts(page);
+  //await categoryDefaultSelect(page);
   console.log("END");
   await browser.close();
 };
