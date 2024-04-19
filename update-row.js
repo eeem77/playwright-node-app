@@ -1,4 +1,5 @@
 import { chromium, firefox, webkit } from "playwright";
+import fs from "fs";
 import * as dotenv from "dotenv";
 dotenv.config();
 
@@ -9,7 +10,29 @@ const urlProductUpdatePrice =
   "https://www.apprinting.com/bilingual-wedding-invitations/products/#category_product_list";
 
 const qtys = [250, 500, 1000, 2500, 5000, 10000, 15000, 20000, 25000];
-const idProducts = ["4437", "4450", "4434", "4438", "4452"];
+const idProducts = [
+  1653, 1657, 1667, 1669, 1673, 1674, 1676, 1680, 1682, 1690, 1692, 1694, 1696,
+  1735, 1705, 1709, 1712, 1714, 1717, 1720, 1722, 1723, 1730, 1737, 1829, 3056,
+  1833, 1852, 1853, 1855, 1857, 1861, 1884, 1886, 1889, 1892, 1897, 1899, 1902,
+  1907, 1911, 1913, 1921, 1923, 1926, 1930, 1936, 1938, 1941, 1943, 1945, 1947,
+  1949, 1950, 1954, 1956, 1958, 1960, 1961, 1963, 1964, 1970, 1971, 1973, 1974,
+  1976, 1977, 1979, 1980, 1981, 1983, 1985, 1986, 1991, 1995, 1998, 2005, 2006,
+  2009, 2013, 2017, 2019, 2023, 2031, 2035, 2040, 2118, 2060, 2106, 2110, 2115,
+  2127, 2129, 2195, 2207, 2221, 2271, 2610, 2627, 2635, 2639, 2643, 2644, 2670,
+  2679, 2680, 2681, 2682, 2683, 2696, 2697, 2305, 2315, 2318, 2334, 2337, 2341,
+  2344, 2346, 2355, 2365, 2389, 2404, 2424, 2648, 2669, 2674, 2675, 2676, 2677,
+  2678, 2694, 2695, 2698, 2701, 2700, 2722, 2723, 2724, 2725, 2726, 2727, 2728,
+  2729, 2730, 2731, 2732, 2733, 2735, 2734, 2736, 2737, 2738, 2739, 2740, 2741,
+  2704, 2705, 2707, 2710, 2711, 2716, 2719, 2720, 2742, 2746, 2747, 2748, 2751,
+  2753, 2755, 2756, 2771, 2774, 2788, 2817, 2699, 2703, 2708, 2712, 2709, 2717,
+  2721, 2743, 2749, 2757, 2744, 2772, 2752, 2776, 2777, 2778, 2781, 2779, 2783,
+  2802, 2800, 2784, 2803, 2807, 2805, 2808, 2789, 2810, 2815, 2811, 2813, 2745,
+  2750, 2754, 2773, 2801, 2804, 2806, 2809, 2812, 2830, 2814, 2834, 2836, 2838,
+  2840, 2842, 2844, 2848, 2846, 2850, 2866, 2868, 2870, 2872, 3671, 3672, 3673,
+  3674, 3675, 2816, 2831, 2833, 2835, 2837, 2839, 2841, 2843, 2845, 2847, 2849,
+  2851, 2867, 2888, 2889, 2939, 3057, 3060, 3072, 3051, 3048, 3045, 3669, 3063,
+  2980, 2983, 2989, 2992, 2995, 3001, 3004, 3007, 3010, 3013, 3041, 2935, 2948,
+];
 const urlsProducts = [
   "https://www.apprinting.com/minimalist-design-with-hamburger-13oz.-standard-vinyl-banner",
   "https://www.apprinting.com/elegant-and-simple-design-presentation-folders/",
@@ -353,7 +376,7 @@ const categoryDefaultSelect = async (page) => {
 
 const getidProducts = async (page) => {
   await page.goto(
-    `https://www.apprinting.com/-exp-realty-real-estate-yard-sign-275/products/`,
+    `https://www.apprinting.com/simple-flat-5x7-wedding-invitations/products/`,
     {
       timeout: 300000,
     }
@@ -361,6 +384,7 @@ const getidProducts = async (page) => {
   const products = await page.$$eval(".product-box", (node) =>
     node.map((n) => n.className)
   );
+  fs.appendFileSync(`list.txt`, products.toString() + "\n");
   console.log(products);
 };
 
@@ -383,6 +407,27 @@ const redirectionUrl = async (page) => {
   }
 };
 
+const getTitleProduct = async (page) => {
+  for await (let id of idProducts) {
+    await page.goto(
+      `https://www.apprinting.com/admin/product_action.php?product_id=${id}`,
+      { timeout: 300000 }
+    );
+    const btnSave = await page.$("#btn-action-save");
+    const title = await page.$("#products_title_1");
+    const valueInput = await title.inputValue();
+    const newTitle = await valueInput.replace("Wedding Invitation", "");
+    const newTitleTwo = await newTitle.replace("Simple Flat", "");
+    const newTitleThree = await newTitleTwo.replace("Simple Flat 5x7", "");
+    const newTitleFinal = (await newTitleThree) + "Simple Flat 5x7";
+    await title.fill(newTitleFinal);
+    await btnSave.click();
+    await page.waitForTimeout(3000);
+    console.log("Working ---> ", id, " ------> ", newTitleFinal);
+    //console.log(newTitle);
+  }
+};
+
 const updatePrice = async () => {
   const browser = await chromium.launch();
   const page = await browser.newPage();
@@ -392,7 +437,8 @@ const updatePrice = async () => {
   //await inputFillToPrice(page);
   //await getidProducts(page);
   //await categoryDefaultSelect(page);
-  await redirectionUrl(page);
+  //await redirectionUrl(page);
+  await getTitleProduct(page);
 
   console.log("END");
   await browser.close();
