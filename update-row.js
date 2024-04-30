@@ -11,12 +11,12 @@ const urlProductUpdatePrice =
 
 const qtys = [250, 500, 1000, 2500, 5000, 10000, 15000, 20000, 25000];
 const idProducts = [
-  1685, 1689, 1651, 1701, 3670, 1713, 1718, 1727, 1728, 1732, 1738, 1740, 1742,
-  1822, 1824, 1830, 1832, 1834, 1842, 1845, 1847, 1849, 1869, 1880, 1891, 1896,
-  1909, 1924, 1928, 1939, 1942, 1944, 1946, 1948, 1953, 1955, 1957, 1959, 1962,
-  1967, 1968, 1969, 1972, 1975, 1978, 1982, 1984, 1989, 1993, 1996, 1997, 2003,
-  2007, 2018, 2020, 2042, 3914, 2046, 2056, 2062, 2071, 2077, 3915, 2078, 2081,
-  2084, 2086, 2089, 2094, 2100, 2102,
+  1708, 1652, 2183, 1747, 1748, 1753, 1756, 1759, 1762, 1765, 1767, 1772, 2000,
+  2004, 2016, 2021, 2029, 2047, 2185, 2072, 2075, 2083, 2088, 2091, 2099, 2101,
+  2103, 2104, 2105, 2107, 2111, 2112, 2113, 2116, 2121, 2122, 2128, 2130, 2131,
+  2132, 2133, 2134, 2135, 2136, 2137, 2138, 2139, 2140, 2141, 2142, 2143, 2144,
+  2145, 2147, 2148, 2152, 2154, 2156, 2160, 2161, 2165, 2167, 2169, 2173, 2175,
+  2176, 2178, 2180, 2181,
 ];
 // const idProducts = [
 //   893, 894, 895, 897, 901, 902, 903, 904, 905, 906, 907, 908, 910, 911, 912,
@@ -389,7 +389,7 @@ const getAssociatedCategoryProduct = async (page) => {
 
 const getidProducts = async (page) => {
   await page.goto(
-    `https://www.apprinting.com/a7-atlas-pockets-wedding-invitation/products/`,
+    `https://www.apprinting.com/a7-cascade-pockets-wedding-invitation/products/`,
     {
       timeout: 300000,
     }
@@ -431,7 +431,7 @@ const getChanguedTitleProduct = async (page) => {
     const valueInput = await title.inputValue();
     const newTitle = await valueInput.replace(
       "Pocket Wedding Invitation",
-      "A7 Atlas Pocket"
+      "A7 Cascade Pocket"
     );
     //const newTitle = valueInput + " Laser Cut Wedding Invitation";
     // const newTitleTwo = await newTitle.replace("Simple Flat", "");
