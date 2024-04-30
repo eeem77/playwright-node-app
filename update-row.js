@@ -10,23 +10,32 @@ const urlProductUpdatePrice =
   "https://www.apprinting.com/bilingual-wedding-invitations/products/#category_product_list";
 
 const qtys = [250, 500, 1000, 2500, 5000, 10000, 15000, 20000, 25000];
-const idProducts = [
-  1790, 1792, 1795, 1797, 1800, 1801, 1803, 1806, 1808, 1811, 1812, 1814, 2269,
-  2270, 2273, 2276, 2293, 2294, 2295, 2296, 2298, 2299, 2304, 2307, 2312, 2333,
-  2335, 2336, 2353, 2356, 2364, 2372, 2375, 4988, 2390, 2394, 2396, 2397, 2400,
-  2401, 2418, 2435, 2438, 2441, 4990, 2457, 2466, 2469, 2470, 2473, 2487, 2493,
-  2505, 2507, 4987, 2536, 2542, 2591, 2594, 2665, 2666, 2673, 2689, 2690, 2691,
-  2693, 2702, 2692, 2706,
-];
 // const idProducts = [
-//   893, 894, 895, 897, 901, 902, 903, 904, 905, 906, 907, 908, 910, 911, 912,
-//   913, 914, 915, 916, 917, 918, 919, 920, 921, 922, 925, 926, 927, 928, 931,
-//   932, 933, 934, 935, 936, 937, 938, 939, 940, 941, 942, 943, 946, 947, 948,
-//   949, 950, 951, 952, 953, 954, 955, 1104, 1095, 1063, 1059, 1064, 1056, 1070,
-//   1053, 1074, 1057, 1102, 1098, 1066, 1045, 1067, 1080, 1076, 1069, 1065, 1075,
-//   1058, 1061, 1022, 1062, 1024, 1071, 1047, 1019, 1031, 1036, 1021, 1018, 1009,
-//   1068, 1072, 1073, 1044, 1023, 1020, 710, 819, 823, 835, 836, 861, 821, 876,
+//   800, 801, 606, 610, 611, 648, 620, 626, 885, 731, 3172, 893, 894, 895, 901,
+//   898, 903, 1775, 1654, 1791, 3363, 1685, 3174, 1708, 1790, 906, 908, 910, 911,
+//   914, 1779, 3175, 1689, 1655, 1793, 1792, 1743, 1652, 3364, 916, 918, 920, 921,
+//   925, 927, 1651, 3176, 1796, 1656, 2183, 3365, 1795, 1782, 931, 932, 933, 935,
+//   936, 937, 938, 939, 1701, 3180, 940, 1747, 3366, 3685, 1794, 1797, 947, 948,
+//   950, 951, 952, 3181, 3367, 1802, 1748, 1800, 1668, 3670, 953, 3368, 3182,
+//   1801, 1816, 1807, 1753, 1670, 1713, 1671, 1821, 1813, 3369, 3184, 1756, 1718,
+//   1803, 3185, 1672, 1727, 1823, 1759, 1760, 1806, 3370, 1815, 1817, 1728, 3187,
+//   1675, 1808, 1825, 1762, 3372, 1765, 1811, 1826, 1677, 1769, 3189, 3375, 1818,
+//   1732, 1819, 1812, 3190, 1767, 1827, 1678, 1788, 3384, 1738, 1828, 1820, 1772,
+//   1789, 3378, 1777, 1814, 3193, 1679, 1740, 2211, 2000, 3194, 2269, 2146, 1742,
+//   1988, 1681, 3406, 3411, 1822, 3195, 1992, 1683, 2270, 2213, 2004, 3418, 2273,
+//   2214, 1824, 2016, 1684, 2179, 1994, 3196, 2001, 3420, 3197, 1830, 2276, 1686,
+//   2021, 2216, 3198, 2218, 2008, 1688, 2293, 2029, 2184, 3434, 2012, 3477, 2047,
+//   2294, 2246, 2186, 1691, 3208, 2295, 2248, 3534, 2398, 1842, 2187, 2014, 1693,
+//   2185, 3210, 2251, 2296, 3539, 1695, 2072, 3213, 3322, 2075, 3548, 1114, 1115,
+//   3214, 1697, 2298, 3555, 1721, 2299, 2190, 2304, 3216, 2083, 3217, 3583, 2262,
+//   2088, 1724, 3588, 2192, 3097, 2307, 3221, 2431, 3591, 3222, 1729, 3225, 2333,
+//   1731, 3600, 3606, 3230, 1734, 2197, 2054, 3244, 1736, 3612, 1928, 1739, 2353,
+//   3247, 3707, 3621, 3251, 1719, 3622, 3252, 1741, 2203, 3255, 1835, 3581, 3628,
+//   3258, 1838, 1839, 3260, 2414, 3630, 2205, 1840, 1953, 2472, 3263, 3637, 3641,
+//   1841, 2208, 3264, 2483, 3267, 3644, 2506, 3645, 1844, 3271, 3648, 3275, 1846,
+//   3281, 1848, 3652, 3284, 3658, 1850, 2117, 1851,
 // ];
+const idProducts = [800, 801, 606, 610, 611, 648, 620, 626, 885, 731];
 const urlsProducts = [
   "https://www.apprinting.com/minimalist-design-with-hamburger-13oz.-standard-vinyl-banner",
   "https://www.apprinting.com/elegant-and-simple-design-presentation-folders/",
@@ -389,7 +398,7 @@ const getAssociatedCategoryProduct = async (page) => {
 
 const getidProducts = async (page) => {
   await page.goto(
-    `https://www.apprinting.com/6-1-4-square-denali-pockets-wedding-invitation/products/`,
+    `https://www.apprinting.com/chinese-wedding-invitations/products/`,
     {
       timeout: 300000,
     }
@@ -429,11 +438,11 @@ const getChanguedTitleProduct = async (page) => {
     const btnSave = await page.$("#btn-action-save");
     const title = await page.$("#products_title_1");
     const valueInput = await title.inputValue();
-    const newTitle = await valueInput.replace(
-      "Pocket Wedding Invitation",
-      "6 1/4 Square Denali Pocket"
-    );
-    //const newTitle = valueInput + " Laser Cut Wedding Invitation";
+    // const newTitle = await valueInput.replace(
+    //   "Wedding Invitation",
+    //   "Fancy Luxury"
+    // );
+    const newTitle = valueInput + " V/E";
     // const newTitleTwo = await newTitle.replace("Simple Flat", "");
     // const newTitleThree = await newTitleTwo.replace("Simple Flat 5x7", "");
     // const newTitleFinal = (await newTitleThree) + "Simple Flat 5x7";
@@ -460,7 +469,7 @@ const getTitleProduct = async (page) => {
     );
     const title = await page.$("#products_title_1");
     const valueInput = await title.inputValue();
-    if ((await valueInput.search("Pocket Wedding Invitation")) == -1)
+    if ((await valueInput.search("]")) !== -1)
       fs.appendFileSync(`list.txt`, id.toString() + "\n");
     console.log("Working ---> ", id, " ------> ", valueInput);
   }
@@ -476,8 +485,8 @@ const updatePrice = async () => {
   //await getidProducts(page);
   //await categoryDefaultSelect(page);
   //await redirectionUrl(page);
-  await getChanguedTitleProduct(page);
-  //await getTitleProduct(page);
+  //await getChanguedTitleProduct(page);
+  await getTitleProduct(page);
   //await getAssociatedCategoryProduct(page);
   console.log("END");
   await browser.close();
