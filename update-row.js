@@ -10,32 +10,11 @@ const urlProductUpdatePrice =
   "https://www.apprinting.com/bilingual-wedding-invitations/products/#category_product_list";
 
 const qtys = [250, 500, 1000, 2500, 5000, 10000, 15000, 20000, 25000];
-// const idProducts = [
-//   800, 801, 606, 610, 611, 648, 620, 626, 885, 731, 3172, 893, 894, 895, 901,
-//   898, 903, 1775, 1654, 1791, 3363, 1685, 3174, 1708, 1790, 906, 908, 910, 911,
-//   914, 1779, 3175, 1689, 1655, 1793, 1792, 1743, 1652, 3364, 916, 918, 920, 921,
-//   925, 927, 1651, 3176, 1796, 1656, 2183, 3365, 1795, 1782, 931, 932, 933, 935,
-//   936, 937, 938, 939, 1701, 3180, 940, 1747, 3366, 3685, 1794, 1797, 947, 948,
-//   950, 951, 952, 3181, 3367, 1802, 1748, 1800, 1668, 3670, 953, 3368, 3182,
-//   1801, 1816, 1807, 1753, 1670, 1713, 1671, 1821, 1813, 3369, 3184, 1756, 1718,
-//   1803, 3185, 1672, 1727, 1823, 1759, 1760, 1806, 3370, 1815, 1817, 1728, 3187,
-//   1675, 1808, 1825, 1762, 3372, 1765, 1811, 1826, 1677, 1769, 3189, 3375, 1818,
-//   1732, 1819, 1812, 3190, 1767, 1827, 1678, 1788, 3384, 1738, 1828, 1820, 1772,
-//   1789, 3378, 1777, 1814, 3193, 1679, 1740, 2211, 2000, 3194, 2269, 2146, 1742,
-//   1988, 1681, 3406, 3411, 1822, 3195, 1992, 1683, 2270, 2213, 2004, 3418, 2273,
-//   2214, 1824, 2016, 1684, 2179, 1994, 3196, 2001, 3420, 3197, 1830, 2276, 1686,
-//   2021, 2216, 3198, 2218, 2008, 1688, 2293, 2029, 2184, 3434, 2012, 3477, 2047,
-//   2294, 2246, 2186, 1691, 3208, 2295, 2248, 3534, 2398, 1842, 2187, 2014, 1693,
-//   2185, 3210, 2251, 2296, 3539, 1695, 2072, 3213, 3322, 2075, 3548, 1114, 1115,
-//   3214, 1697, 2298, 3555, 1721, 2299, 2190, 2304, 3216, 2083, 3217, 3583, 2262,
-//   2088, 1724, 3588, 2192, 3097, 2307, 3221, 2431, 3591, 3222, 1729, 3225, 2333,
-//   1731, 3600, 3606, 3230, 1734, 2197, 2054, 3244, 1736, 3612, 1928, 1739, 2353,
-//   3247, 3707, 3621, 3251, 1719, 3622, 3252, 1741, 2203, 3255, 1835, 3581, 3628,
-//   3258, 1838, 1839, 3260, 2414, 3630, 2205, 1840, 1953, 2472, 3263, 3637, 3641,
-//   1841, 2208, 3264, 2483, 3267, 3644, 2506, 3645, 1844, 3271, 3648, 3275, 1846,
-//   3281, 1848, 3652, 3284, 3658, 1850, 2117, 1851,
-// ];
-const idProducts = [800, 801, 606, 610, 611, 648, 620, 626, 885, 731];
+const idProducts = [
+  576, 799, 577, 578, 582, 585, 587, 598, 609, 624, 627, 977, 978, 979, 628,
+  980, 629, 639, 640, 641, 643, 644, 647, 651, 652, 704, 705, 708, 718, 720,
+  724, 730, 809, 822, 828, 840, 865, 881, 1083, 1125,
+];
 const urlsProducts = [
   "https://www.apprinting.com/minimalist-design-with-hamburger-13oz.-standard-vinyl-banner",
   "https://www.apprinting.com/elegant-and-simple-design-presentation-folders/",
@@ -397,12 +376,9 @@ const getAssociatedCategoryProduct = async (page) => {
 };
 
 const getidProducts = async (page) => {
-  await page.goto(
-    `https://www.apprinting.com/chinese-wedding-invitations/products/`,
-    {
-      timeout: 300000,
-    }
-  );
+  await page.goto(`https://www.apprinting.com/flowers/products/`, {
+    timeout: 300000,
+  });
   const products = await page.$$eval(".product-box", (node) =>
     node.map((n) => n.className)
   );
@@ -438,15 +414,12 @@ const getChanguedTitleProduct = async (page) => {
     const btnSave = await page.$("#btn-action-save");
     const title = await page.$("#products_title_1");
     const valueInput = await title.inputValue();
-    // const newTitle = await valueInput.replace(
-    //   "Wedding Invitation",
-    //   "Fancy Luxury"
-    // );
-    const newTitle = valueInput + " V/E";
+    //const newTitle = await valueInput.replace("Wedding Invitations", "");
+    const newTitleAddSection = valueInput + " Flowers";
     // const newTitleTwo = await newTitle.replace("Simple Flat", "");
     // const newTitleThree = await newTitleTwo.replace("Simple Flat 5x7", "");
     // const newTitleFinal = (await newTitleThree) + "Simple Flat 5x7";
-    await title.fill(newTitle);
+    await title.fill(newTitleAddSection);
     await btnSave.click();
     await page.waitForTimeout(3000);
     console.log(
@@ -455,7 +428,7 @@ const getChanguedTitleProduct = async (page) => {
       " Old Title ---> ",
       valueInput,
       " New Title ---> ",
-      newTitle
+      newTitleAddSection
     );
     //console.log(newTitle);
   }
@@ -469,7 +442,7 @@ const getTitleProduct = async (page) => {
     );
     const title = await page.$("#products_title_1");
     const valueInput = await title.inputValue();
-    if ((await valueInput.search("]")) !== -1)
+    if ((await valueInput.search("V/E V/E")) !== -1)
       fs.appendFileSync(`list.txt`, id.toString() + "\n");
     console.log("Working ---> ", id, " ------> ", valueInput);
   }
@@ -485,8 +458,8 @@ const updatePrice = async () => {
   //await getidProducts(page);
   //await categoryDefaultSelect(page);
   //await redirectionUrl(page);
-  //await getChanguedTitleProduct(page);
-  await getTitleProduct(page);
+  await getChanguedTitleProduct(page);
+  //await getTitleProduct(page);
   //await getAssociatedCategoryProduct(page);
   console.log("END");
   await browser.close();
