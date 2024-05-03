@@ -11,9 +11,16 @@ const urlProductUpdatePrice =
 
 const qtys = [250, 500, 1000, 2500, 5000, 10000, 15000, 20000, 25000];
 const idProducts = [
-  576, 799, 577, 578, 582, 585, 587, 598, 609, 624, 627, 977, 978, 979, 628,
-  980, 629, 639, 640, 641, 643, 644, 647, 651, 652, 704, 705, 708, 718, 720,
-  724, 730, 809, 822, 828, 840, 865, 881, 1083, 1125,
+  1616, 1661, 1660, 893, 894, 895, 1662, 896, 897, 901, 902, 903, 904, 905, 906,
+  907, 908, 910, 911, 912, 913, 914, 915, 916, 917, 918, 919, 920, 921, 922,
+  925, 926, 927, 928, 931, 932, 933, 934, 935, 936, 937, 938, 939, 940, 941,
+  942, 943, 946, 947, 948, 949, 950, 951, 952, 953, 954, 955, 1104, 1095, 1027,
+  1029, 1052, 1063, 1046, 1059, 1042, 1064, 1039, 1035, 1060, 1043, 1056, 1070,
+  1053, 1074, 1057, 1102, 1098, 1066, 1045, 1026, 1025, 1067, 1028, 1034, 1080,
+  1076, 1069, 1065, 1037, 1075, 1058, 1040, 1041, 1010, 1077, 1078, 1051, 1061,
+  1054, 1049, 1022, 1062, 1055, 1024, 1071, 1048, 1047, 1050, 1032, 1019, 1031,
+  1038, 1036, 1021, 1018, 1009, 1030, 1079, 1068, 1072, 1073, 1044, 1023, 1033,
+  1020, 710, 819, 823, 835, 836, 861, 821, 876,
 ];
 const urlsProducts = [
   "https://www.apprinting.com/minimalist-design-with-hamburger-13oz.-standard-vinyl-banner",
@@ -346,13 +353,14 @@ const categoryDefaultSelect = async (page) => {
     const btnCategory = await page.$('[data-id="category_id_1"]');
     await btnCategory.click();
     await page.waitForTimeout(3000);
-    const btnCategorySelect = await page.$("#bs-select-2-16");
+    const btnCategorySelect = await page.$("#bs-select-2-142");
     await btnCategorySelect.click();
     await page.waitForTimeout(3000);
     const btnSave = await page.$("#btn-action-save");
     await btnSave.click();
     await page.waitForTimeout(3000);
     console.log("Working ---> ", id);
+    fs.appendFileSync(`list.txt`, id.toString() + "\n");
   }
 };
 
@@ -376,9 +384,12 @@ const getAssociatedCategoryProduct = async (page) => {
 };
 
 const getidProducts = async (page) => {
-  await page.goto(`https://www.apprinting.com/flowers/products/`, {
-    timeout: 300000,
-  });
+  await page.goto(
+    `https://www.apprinting.com/laser-cut-wedding-invitations/products/`,
+    {
+      timeout: 300000,
+    }
+  );
   const products = await page.$$eval(".product-box", (node) =>
     node.map((n) => n.className)
   );
@@ -456,9 +467,9 @@ const updatePrice = async () => {
   //await inputFillToRow(page);
   //await inputFillToPrice(page);
   //await getidProducts(page);
-  //await categoryDefaultSelect(page);
+  // await categoryDefaultSelect(page);
   //await redirectionUrl(page);
-  await getChanguedTitleProduct(page);
+  //await getChanguedTitleProduct(page);
   //await getTitleProduct(page);
   //await getAssociatedCategoryProduct(page);
   console.log("END");
