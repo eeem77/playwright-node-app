@@ -13,7 +13,7 @@ const web = async () => {
   const browser = await chromium.launch();
   const page = await browser.newPage();
   await page.goto(
-    "https://www.printpapa.com/eshop/pc/Save-the-Date-Card-3-5x5-872p12959.htm",
+    "https://www.printpapa.com/eshop/pc/Save-the-Date-Card-5x7-872p12962.htm",
     {
       timeout: 300000,
     }
