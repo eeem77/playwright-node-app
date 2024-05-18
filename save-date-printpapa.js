@@ -25,26 +25,22 @@ const web = async () => {
   // await selectSize.selectOption("Save-the-Date-Card-4x6-872p12961.htm"); //Save the Date Card - 4x6
 
   // await page.waitForTimeout(5000);
-  const papers = [
-    "Card Stock: 100lb Matte (11pt)",
-    "Card Stock: 90lb White Linen Uncoated (11.5pt)",
-    "Card Stock: 110lb Matte (13pt)",
-    "Card Stock: 14Pt. Gloss (14pt)",
-    "Card Stock: 110lb Pearl ICE (14pt)",
-    "Card Stock: 14Pt. Uncoated (15pt)",
-    "Card Stock: 16 Pt. Matte (16pt)",
-    "Card Stock: 16 Pt. Uncoated (16pt)",
+  const options = [
+    "Upload Print Ready PDF",
+    "We Check & Fix your art",
+    "Simple Logo & Text Setup",
+    "We Design it",
   ];
 
-  for await (const elementPaper of papers) {
+  for await (const option of options) {
     //PRINTED SIDES/COLOR
     const printedSide = await page.$("#CAG26");
     await printedSide.selectOption("Front Side Only (4/0)"); //Front Side Only (4/0)
     //await printedSide.selectOption("Both Sides (4/4)"); //Both Sides (4/4)
 
     //PAPER
-    const paper = await page.$("#CAG132");
-    await paper.selectOption(elementPaper); //Card Stock: 100lb Matte (11pt)
+    //const paper = await page.$("#CAG132");
+    //await paper.selectOption(option); //Card Stock: 100lb Matte (11pt)
     // await paper.selectOption("8157_0.23_0_0.95_0_0_0"); //Card Stock: 90lb White Linen Uncoated (11.5pt)
     // await paper.selectOption("9217_0.02_0_0.74_0_0_0"); //CCard Stock: 110lb Matte (13pt)
     // await paper.selectOption("2697_0.01_0_0.73_0_0_0"); //Card Stock: 14Pt. Gloss (14pt)
@@ -55,18 +51,18 @@ const web = async () => {
 
     //UV COATING
     const coating = await page.$("#CAG231");
-    //await coating.selectOption("2050_0.00_0_0_0_0_0"); //No UV Coating
+    await coating.selectOption("No UV Coating"); //No UV Coating
     // await coating.selectOption("2216_1.05_0_1.05_0_0_0"); //Gloss UV Coating on Front Only
     // await coating.selectOption("22060_1.05_0_1.05_0_0_0"); //Matte UV Coating on Front Only
 
     //CORNER ROUNDING
     const corner = await page.$("#CAG262");
-    //await corner.selectOption("2314_0.00_0_0_0_0_0"); //No Corner Rounding
+    await corner.selectOption("No Corner Rounding"); //No Corner Rounding
     //await corner.selectOption("2350_0.04_0_0.04_0_0_0"); //Round All 4 Corners
 
     //CORNER ARTWORK
     const artwork = await page.$("#CAG150");
-    //await artwork.selectOption("2186_0.00_0_0_0_0_0"); //Upload Print Ready PDF
+    await artwork.selectOption(option); //Upload Print Ready PDF
     // await artwork.selectOption("5137_28_0_28_0_1_0"); //We Check & Fix your art
     // await artwork.selectOption("5136_50_0_50_0_2_0"); //Simple Logo & Text Setup
     // await artwork.selectOption("2877_164_0_164_0_3_0"); //We Design it
@@ -83,7 +79,7 @@ const web = async () => {
       1000, 1250, 1500, 1750, 2000, 2500, 3000, 3500, 4000, 4500, 5000,
     ];
 
-    fs.appendFileSync(`list.txt`, elementPaper + "\n");
+    fs.appendFileSync(`list.txt`, option + "\n");
 
     for await (const elementQty of qty) {
       let number = elementQty.toString();

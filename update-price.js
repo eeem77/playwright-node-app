@@ -6,9 +6,12 @@ import listPrice from "./listPrice.js";
 
 const url = "https://www.apprinting.com/admin/";
 const urlProductUpdatePrice =
-  "https://www.apprinting.com/admin/product_additionalinfo_price.php?product_id=4776&prod_add_opt_id=102669&sel_product_size=7233";
+  "https://www.apprinting.com/admin/product_additionalinfo_price.php?product_id=5128&prod_add_opt_id=105134&sel_product_size=9959";
 
-const qtys = [250, 500, 1000, 2500, 5000, 10000, 15000, 20000, 25000];
+const qtys = [
+  10, 20, 30, 40, 50, 100, 150, 200, 250, 300, 400, 500, 600, 700, 800, 900,
+  1000, 1250, 1500, 1750, 2000, 2500, 3000, 3500, 4000, 4500, 5000,
+];
 
 const login = async (page) => {
   await page.goto(url, { timeout: 300000 });
@@ -21,15 +24,15 @@ const login = async (page) => {
   await page.waitForTimeout(5000);
   console.log("login: OK");
 };
-// txtprice[250_2020635_]
+// txtprice[10_2034754_]    txtprice[10_2034755_]
 const inputFillToPrice = async (page) => {
   await page.goto(urlProductUpdatePrice, { timeout: 300000 });
   let price = 0;
   //let postNumber = 9607838  ${postNumber}
-  for (let i = 37; i <= 39; i++) {
+  for (let i = 68; i <= 68; i++) {
     //if( i == 39 || i == 41){
     for await (const qty of qtys) {
-      const id = `txtprice[${qty}_20206${i}_]`;
+      const id = `txtprice[${qty}_20347${i}_]`;
       const inputPrice = await page.$(`[id="${id}" ]`);
       await inputPrice.fill(listPrice[price].toString());
       console.log(listPrice[price].toString());
