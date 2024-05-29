@@ -12,12 +12,8 @@ const urlProductUpdatePrice =
 
 const qtys = [250, 500, 1000, 2500, 5000, 10000, 15000, 20000, 25000];
 const idProducts = [
-  1775, 1779, 1782, 1794, 1802, 1807, 1813, 1815, 1817, 1818, 1819, 1820, 2211,
-  2213, 2214, 2216, 2218, 2246, 2248, 2251, 2253, 2259, 2262, 2278, 2279, 2283,
-  2291, 2366, 2360, 2402, 2405, 2408, 2411, 2414, 2423, 3689, 2429, 2430, 2432,
-  2434, 2437, 2439, 2442, 2443, 2444, 2445, 2449, 2452, 2455, 2456, 2459, 2460,
-  2504, 2508, 2521, 2535, 2546, 2552, 2561, 2555, 2566, 2569, 2575, 2588, 2589,
-  2608, 2640, 2651, 2672, 1664, 2684, 2685, 2686, 2687, 2688,
+  838, 815, 850, 879, 723, 848, 798, 839,
+  837, 843, 863, 864, 849, 866, 875, 857, 878, 818, 834,
 ];
 
 const urlsProducts = [
@@ -351,7 +347,7 @@ const categoryDefaultSelect = async (page) => {
     const btnCategory = await page.$('[data-id="category_id_1"]');
     await btnCategory.click();
     await page.waitForTimeout(3000);
-    const btnCategorySelect = await page.$("#bs-select-2-2");
+    const btnCategorySelect = await page.$("#bs-select-2-59");
     await btnCategorySelect.click();
     await page.waitForTimeout(3000);
     const btnSave = await page.$("#btn-action-save");
@@ -484,7 +480,7 @@ const updatePrice = async () => {
   await login(page);
   
   //FUNCTIONS GROUPS
-  //filterDataListArray("6 1/4 Square Himalaya");  // FUNCTION FILTER DATA LIST.JS
+  //filterDataListArray("Fancy Luxury");  // FUNCTION FILTER DATA LIST.JS
   //await inputFillToRow(page);
   //await inputFillToPrice(page);
   //await getidProducts(page);
