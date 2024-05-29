@@ -12,8 +12,22 @@ const urlProductUpdatePrice =
 
 const qtys = [250, 500, 1000, 2500, 5000, 10000, 15000, 20000, 25000];
 const idProducts = [
-  838, 815, 850, 879, 723, 848, 798, 839,
-  837, 843, 863, 864, 849, 866, 875, 857, 878, 818, 834,
+  885, 731, 901, 898, 903, 1775, 1654, 1791, 1685, 1708, 1790, 906, 908, 910,
+  911, 914, 1779, 1689, 1655, 1793, 1792, 1743, 1652, 916, 918, 920, 921, 925,
+  927, 1651, 1796, 1656, 2183, 1795, 1782, 931, 932, 933, 935, 936, 937, 938,
+  939, 1701, 940, 1747, 3685, 1794, 1797, 947, 948, 950, 951, 952, 1802, 1748,
+  1800, 1668, 3670, 953, 1801, 1816, 1807, 1753, 1670, 1713, 1671, 1821, 1813,
+  1756, 1718, 1803, 1672, 1727, 1823, 1759, 1760, 1806, 1815, 1817, 1728, 1675,
+  1808, 1825, 1762, 1765, 1811, 1826, 1677, 1769, 1818, 1732, 1819, 1812, 1767,
+  1827, 1678, 1788, 1738, 1828, 1820, 1772, 1789, 1777, 1814, 1679, 1740, 2211,
+  2000, 2269, 2146, 1742, 1988, 1681, 1822, 1992, 1683, 2270, 2213, 2004, 2273,
+  2214, 1824, 2016, 1684, 2179, 1994, 2001, 1830, 2276, 1686, 2021, 2216, 2218,
+  2008, 1688, 2293, 2029, 2184, 2012, 2047, 2294, 2246, 2186, 1691, 2295, 2248,
+  2398, 1842, 2187, 2014, 1693, 2185, 2251, 2296, 1695, 2072, 2075, 1697, 2298,
+  1721, 2299, 2190, 2304, 2083, 2262, 2088, 1724, 2192, 3097, 2307, 2431, 1729,
+  2333, 1731, 1734, 2197, 2054, 1736, 1928, 1739, 2353, 1719, 1741, 2203, 1835,
+  1838, 1839, 2414, 2205, 1840, 1953, 2472, 1841, 2208, 2483, 2506, 1844, 1846,
+  1848, 1850, 2117, 1851,
 ];
 
 const urlsProducts = [
@@ -441,7 +455,33 @@ const getChanguedTitleProduct = async (page) => {
 
 const filterDataListArray = (filterString) => {
   dataProducts.forEach(product => {
-    if(product.title.search(filterString) !== -1) fs.appendFileSync(`list.txt`, product.id.toString() + ",\n");
+    if (
+      product.title.search(filterString) !== -1
+    ) {
+      fs.appendFileSync(
+        `list.txt`,
+        product.id.toString() + `---> ${product.title}` + ",\n"
+      );
+    } 
+    console.log(product);
+  });
+};
+
+const filtersDataListArray = (filterString) => {
+  dataProducts.forEach((product) => {
+    if (
+      product.title.search(filterString) !== -1 &&
+      product.title.search("Cascade") === -1 &&
+      product.title.search("Himalaya") === -1 &&
+      product.title.search("Sleeve") === -1 &&
+      product.title.search("Denali") === -1 &&
+      product.title.search("Atlas") === -1
+    ) {
+      fs.appendFileSync(
+        `list.txt`,
+        product.id.toString() + `---> ${product.title}` + ",\n"
+      );
+    }
     console.log(product);
   });
 };
@@ -477,20 +517,21 @@ const updatePrice = async () => {
   const browser = await chromium.launch();
   const page = await browser.newPage();
 
-  await login(page);
-  
+  //await login(page);
+
   //FUNCTIONS GROUPS
-  //filterDataListArray("Fancy Luxury");  // FUNCTION FILTER DATA LIST.JS
+  //filterDataListArray("S/E"); // FUNCTION FILTER DATA LIST.JS
+  filtersDataListArray("S/E"); // FUNCTION FILTERS DATA LIST.JS
   //await inputFillToRow(page);
   //await inputFillToPrice(page);
   //await getidProducts(page);
-  await categoryDefaultSelect(page);
+  //await categoryDefaultSelect(page);
   //await redirectionUrl(page);
   //await getChanguedTitleProduct(page);
   //await getTitleProduct(page);
   //await getTitleFilterProduct(page, "Acrylic");
   //await getAssociatedCategoryProduct(page);
-  
+
   console.log("END");
   await browser.close();
 };
