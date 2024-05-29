@@ -54,19 +54,21 @@ const web = async () => {
     fs.appendFileSync(`list.txt`, title + "\n");
 
     const options = [
-      "Upload Print Ready PDF",
-      "We Check & Fix your art",
-      "We Design it",
+      "PDF Proof",
+      "Hard Copy Pickup",
+      "Hard Copy by UPS Ground",
+      "Hard Copy by Overnight",
+      "No Proofing. Print AS IS",
     ];
 
     for await (const option of options) {
       //ARTWORK
-      const artwork = await page.$("#CAG150");
-      await artwork.selectOption(option);
+      //const artwork = await page.$("#CAG150");
+      //await artwork.selectOption(option);
 
       //PROOFING
       const proofing = await page.$("#CAG45");
-      await proofing.selectOption("PDF Proof");
+      await proofing.selectOption(option);
 
       const qty = [
         10, 25, 50, 100, 150, 200, 250, 300, 400, 500, 600, 700, 800, 900, 1000,
