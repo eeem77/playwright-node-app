@@ -49,8 +49,8 @@ const web = async () => {
     await page.waitForTimeout(3000);
     
     const searchTitle = await page.$(".prod-caption");
-    const title = searchTitle.innerText();
-    
+    const title = await searchTitle.innerText();
+
     fs.appendFileSync(`list.txt`, title + "\n");
 
     const options = [
