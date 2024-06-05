@@ -12,22 +12,23 @@ const urlProductUpdatePrice =
 
 const qtys = [250, 500, 1000, 2500, 5000, 10000, 15000, 20000, 25000];
 const idProducts = [
-  885, 731, 901, 898, 903, 1775, 1654, 1791, 1685, 1708, 1790, 906, 908, 910,
-  911, 914, 1779, 1689, 1655, 1793, 1792, 1743, 1652, 916, 918, 920, 921, 925,
-  927, 1651, 1796, 1656, 2183, 1795, 1782, 931, 932, 933, 935, 936, 937, 938,
-  939, 1701, 940, 1747, 3685, 1794, 1797, 947, 948, 950, 951, 952, 1802, 1748,
-  1800, 1668, 3670, 953, 1801, 1816, 1807, 1753, 1670, 1713, 1671, 1821, 1813,
-  1756, 1718, 1803, 1672, 1727, 1823, 1759, 1760, 1806, 1815, 1817, 1728, 1675,
-  1808, 1825, 1762, 1765, 1811, 1826, 1677, 1769, 1818, 1732, 1819, 1812, 1767,
-  1827, 1678, 1788, 1738, 1828, 1820, 1772, 1789, 1777, 1814, 1679, 1740, 2211,
-  2000, 2269, 2146, 1742, 1988, 1681, 1822, 1992, 1683, 2270, 2213, 2004, 2273,
-  2214, 1824, 2016, 1684, 2179, 1994, 2001, 1830, 2276, 1686, 2021, 2216, 2218,
-  2008, 1688, 2293, 2029, 2184, 2012, 2047, 2294, 2246, 2186, 1691, 2295, 2248,
-  2398, 1842, 2187, 2014, 1693, 2185, 2251, 2296, 1695, 2072, 2075, 1697, 2298,
-  1721, 2299, 2190, 2304, 2083, 2262, 2088, 1724, 2192, 3097, 2307, 2431, 1729,
-  2333, 1731, 1734, 2197, 2054, 1736, 1928, 1739, 2353, 1719, 1741, 2203, 1835,
-  1838, 1839, 2414, 2205, 1840, 1953, 2472, 1841, 2208, 2483, 2506, 1844, 1846,
-  1848, 1850, 2117, 1851,
+  1653, 1657, 1667, 1669, 1673, 1674, 1676, 1680, 1682, 1690, 1692, 1694, 1696,
+  1735, 1705, 1709, 1712, 1714, 1717, 1720, 1722, 1723, 1730, 1737, 1829, 3056,
+  1833, 1852, 1853, 1855, 1857, 1861, 1884, 1886, 1889, 1892, 1897, 1899, 1902,
+  1907, 1911, 1913, 1921, 1923, 1926, 1930, 1936, 1938, 1941, 1943, 1945, 1947,
+  1949, 1950, 1954, 1956, 1958, 1960, 1961, 1963, 1964, 1970, 1971, 1973, 1974,
+  1976, 1977, 1979, 1980, 1981, 1983, 1985, 1986, 1991, 1995, 1998, 2005, 2006,
+  2009, 2013, 2017, 2019, 2023, 2031, 2035, 2040, 2118, 2060, 2106, 2110, 2115,
+  2127, 2129, 2195, 2207, 2221, 2271, 2610, 2627, 2635, 2639, 2643, 2644, 2670,
+  2679, 2680, 2681, 2682, 2683, 2696, 2697, 2305, 2315, 2318, 2334, 2337, 2341,
+  2344, 2346, 2355, 2365, 2389, 2404, 2424, 2648, 2669, 2674, 2675, 2676, 2677,
+  2678, 2694, 2695, 2698, 2701, 2700, 2722, 2723, 2724, 2725, 2726, 2727, 2728,
+  2729, 2730, 2731, 2732, 2733, 2735, 2734, 2736, 2737, 2738, 2739, 2740, 2741,
+  2704, 2705, 2707, 2710, 2711, 2716, 2719, 2720, 2742, 2746, 2747, 2748, 2751,
+  2753, 2755, 2756, 2771, 2774, 2788, 2817, 2699, 2703, 2708, 2712, 2709, 2717,
+  2721, 2743, 2749, 2757, 2744, 2772, 2752, 2776, 2777, 2778, 2781, 2779, 2783,
+  2802, 2800, 2784, 2803, 2807, 2805, 2808, 2789, 2810, 2815, 2811, 2813, 2745,
+  2750, 2754, 2773, 2801, 2804, 2806, 2809, 2812, 2935, 2948,
 ];
 
 const urlsProducts = [
@@ -361,7 +362,7 @@ const categoryDefaultSelect = async (page) => {
     const btnCategory = await page.$('[data-id="category_id_1"]');
     await btnCategory.click();
     await page.waitForTimeout(3000);
-    const btnCategorySelect = await page.$("#bs-select-2-59");
+    const btnCategorySelect = await page.$("#bs-select-2-142");
     await btnCategorySelect.click();
     await page.waitForTimeout(3000);
     const btnSave = await page.$("#btn-action-save");
@@ -393,7 +394,7 @@ const getAssociatedCategoryProduct = async (page) => {
 
 const getidProducts = async (page) => {
   await page.goto(
-    `https://www.apprinting.com/wedding-invitations-category/products/`,
+    `https://www.apprinting.com/5x7-gate-fold-wedding-invitations/products/`,
     {
       timeout: 300000,
     }
@@ -460,7 +461,8 @@ const filterDataListArray = (filterString) => {
     ) {
       fs.appendFileSync(
         `list.txt`,
-        product.id.toString() + `---> ${product.title}` + ",\n"
+        //product.id.toString() + `---> ${product.title}` + ",\n"
+        product.id.toString() + ",\n"
       );
     } 
     console.log(product);
@@ -471,15 +473,22 @@ const filtersDataListArray = (filterString) => {
   dataProducts.forEach((product) => {
     if (
       product.title.search(filterString) !== -1 &&
-      product.title.search("Cascade") === -1 &&
-      product.title.search("Himalaya") === -1 &&
-      product.title.search("Sleeve") === -1 &&
-      product.title.search("Denali") === -1 &&
-      product.title.search("Atlas") === -1
+      product.title.search("Pocket Invitation Card") === -1
+      // &&
+      // product.title.search("Sleeve") === -1 &&
+      // product.title.search("Square") === -1 &&
+      // product.title.search("Cascade") === -1 &&
+      // product.title.search("Atlas") === -1 &&
+      // product.title.search("Denali") === -1 &&
+      // product.title.search("Acrylic") === -1 &&
+      // product.title.search("Bilingual") === -1 &&
+      // product.title.search("Laser Cut") === -1 &&
+      // product.title.search("Fancy Luxury") === -1
     ) {
       fs.appendFileSync(
         `list.txt`,
-        product.id.toString() + `---> ${product.title}` + ",\n"
+        //product.id.toString() + `---> ${product.title}` + ",\n"
+        product.id.toString() + ",\n"
       );
     }
     console.log(product);
@@ -517,15 +526,15 @@ const updatePrice = async () => {
   const browser = await chromium.launch();
   const page = await browser.newPage();
 
-  //await login(page);
+  await login(page);
 
   //FUNCTIONS GROUPS
-  //filterDataListArray("S/E"); // FUNCTION FILTER DATA LIST.JS
-  filtersDataListArray("S/E"); // FUNCTION FILTERS DATA LIST.JS
+  //filterDataListArray("Simple Flat 5x7"); // FUNCTION FILTER DATA LIST.JS
+  //filtersDataListArray("Bilingual"); // FUNCTION FILTERS DATA LIST.JS
   //await inputFillToRow(page);
   //await inputFillToPrice(page);
   //await getidProducts(page);
-  //await categoryDefaultSelect(page);
+  await categoryDefaultSelect(page);
   //await redirectionUrl(page);
   //await getChanguedTitleProduct(page);
   //await getTitleProduct(page);
