@@ -11,24 +11,56 @@ const urlProductUpdatePrice =
   "https://www.apprinting.com/bilingual-wedding-invitations/products/#category_product_list";
 
 const qtys = [250, 500, 1000, 2500, 5000, 10000, 15000, 20000, 25000];
+// const idProducts = [
+//   1653, 1657, 1667, 1669, 1673, 1674, 1676, 1680, 1682, 1690, 1692, 1694, 1696,
+//   1735, 1705, 1709, 1712, 1714, 1717, 1720, 1722, 1723, 1730, 1737, 1829, 3056,
+//   1833, 1852, 1853, 1855, 1857, 1861, 1884, 1886, 1889, 1892, 1897, 1899, 1902,
+//   1907, 1911, 1913, 1921, 1923, 1926, 1930, 1936, 1938, 1941, 1943, 1945, 1947,
+//   1949, 1950, 1954, 1956, 1958, 1960, 1961, 1963, 1964, 1970, 1971, 1973, 1974,
+//   1976, 1977, 1979, 1980, 1981, 1983, 1985, 1986, 1991, 1995, 1998, 2005, 2006,
+//   2009, 2013, 2017, 2019, 2023, 2031, 2035, 2040, 2118, 2060, 2106, 2110, 2115,
+//   2127, 2129, 2195, 2207, 2221, 2271, 2610, 2627, 2635, 2639, 2643, 2644, 2670,
+//   2679, 2680, 2681, 2682, 2683, 2696, 2697, 2305, 2315, 2318, 2334, 2337, 2341,
+//   2344, 2346, 2355, 2365, 2389, 2404, 2424, 2648, 2669, 2674, 2675, 2676, 2677,
+//   2678, 2694, 2695, 2698, 2701, 2700, 2722, 2723, 2724, 2725, 2726, 2727, 2728,
+//   2729, 2730, 2731, 2732, 2733, 2735, 2734, 2736, 2737, 2738, 2739, 2740, 2741,
+//   2704, 2705, 2707, 2710, 2711, 2716, 2719, 2720, 2742, 2746, 2747, 2748, 2751,
+//   2753, 2755, 2756, 2771, 2774, 2788, 2817, 2699, 2703, 2708, 2712, 2709, 2717,
+//   2721, 2743, 2749, 2757, 2744, 2772, 2752, 2776, 2777, 2778, 2781, 2779, 2783,
+//   2802, 2800, 2784, 2803, 2807, 2805, 2808, 2789, 2810, 2815, 2811, 2813, 2745,
+//   2750, 2754, 2773, 2801, 2804, 2806, 2809, 2812, 2935, 2948,
+// ];
 const idProducts = [
-  1653, 1657, 1667, 1669, 1673, 1674, 1676, 1680, 1682, 1690, 1692, 1694, 1696,
-  1735, 1705, 1709, 1712, 1714, 1717, 1720, 1722, 1723, 1730, 1737, 1829, 3056,
-  1833, 1852, 1853, 1855, 1857, 1861, 1884, 1886, 1889, 1892, 1897, 1899, 1902,
-  1907, 1911, 1913, 1921, 1923, 1926, 1930, 1936, 1938, 1941, 1943, 1945, 1947,
-  1949, 1950, 1954, 1956, 1958, 1960, 1961, 1963, 1964, 1970, 1971, 1973, 1974,
-  1976, 1977, 1979, 1980, 1981, 1983, 1985, 1986, 1991, 1995, 1998, 2005, 2006,
-  2009, 2013, 2017, 2019, 2023, 2031, 2035, 2040, 2118, 2060, 2106, 2110, 2115,
-  2127, 2129, 2195, 2207, 2221, 2271, 2610, 2627, 2635, 2639, 2643, 2644, 2670,
-  2679, 2680, 2681, 2682, 2683, 2696, 2697, 2305, 2315, 2318, 2334, 2337, 2341,
-  2344, 2346, 2355, 2365, 2389, 2404, 2424, 2648, 2669, 2674, 2675, 2676, 2677,
-  2678, 2694, 2695, 2698, 2701, 2700, 2722, 2723, 2724, 2725, 2726, 2727, 2728,
-  2729, 2730, 2731, 2732, 2733, 2735, 2734, 2736, 2737, 2738, 2739, 2740, 2741,
-  2704, 2705, 2707, 2710, 2711, 2716, 2719, 2720, 2742, 2746, 2747, 2748, 2751,
-  2753, 2755, 2756, 2771, 2774, 2788, 2817, 2699, 2703, 2708, 2712, 2709, 2717,
-  2721, 2743, 2749, 2757, 2744, 2772, 2752, 2776, 2777, 2778, 2781, 2779, 2783,
-  2802, 2800, 2784, 2803, 2807, 2805, 2808, 2789, 2810, 2815, 2811, 2813, 2745,
-  2750, 2754, 2773, 2801, 2804, 2806, 2809, 2812, 2935, 2948,
+  800, 801, 606, 611, 620, 626, 885, 731, 3172, 901, 898, 903, 1775, 1654, 1791,
+  3363, 1685, 3174, 1708, 1790, 906, 908, 910, 911, 914, 1779, 3175, 1689, 1655,
+  1793, 1792, 1743, 1652, 3364, 916, 918, 920, 921, 925, 927, 1651, 3176, 1796,
+  1656, 2183, 3365, 1795, 1782, 931, 932, 933, 935, 936, 937, 938, 939, 1701,
+  3180, 940, 1747, 3366, 3685, 1794, 1797, 947, 948, 950, 951, 952, 3181, 3367,
+  1802, 1748, 1800, 1668, 3670, 953, 3368, 3182, 1801, 1816, 1807, 1753, 1670,
+  1713, 1671, 1821, 1813, 3369, 3184, 1756, 1718, 1803, 3185, 1672, 1727, 1823,
+  1759, 1760, 1806, 3370, 1815, 1817, 1728, 3187, 1675, 1808, 1825, 1762, 3372,
+  1765, 1811, 1826, 1677, 1769, 3189, 3375, 1818, 1732, 1819, 1812, 3190, 1767,
+  1827, 1678, 1788, 3384, 1738, 1828, 1820, 1772, 1789, 3378, 1777, 1814, 3193,
+  1679, 1740, 2211, 2000, 3194, 2269, 2146, 1742, 1988, 1681, 3406, 3411, 1822,
+  3195, 1992, 1683, 2270, 2213, 2004, 3418, 2273, 2214, 1824, 2016, 1684, 2179,
+  1994, 3196, 2001, 3420, 3197, 1830, 2276, 1686, 2021, 2216, 3198, 2218, 2008,
+  1688, 2293, 2029, 2184, 3434, 2012, 3477, 2047, 2294, 2246, 2186, 1691, 3208,
+  2295, 2248, 3534, 2398, 1842, 2187, 2014, 1693, 2185, 3210, 2251, 2296, 3539,
+  1695, 2072, 3213, 3322, 2075, 3548, 3214, 1697, 2298, 3555, 1721, 2299, 2190,
+  2304, 3216, 2083, 3217, 3583, 2262, 2088, 1724, 3588, 2192, 3097, 2307, 3221,
+  2431, 3591, 3222, 1729, 3225, 2333, 1731, 3600, 3606, 3230, 1734, 2197, 2054,
+  3244, 1736, 3612, 1928, 1739, 2353, 3247, 3707, 3621, 3251, 1719, 3622, 3252,
+  1741, 2203, 3255, 1835, 3581, 3628, 3258, 1838, 1839, 3260, 2414, 3630, 2205,
+  1840, 1953, 2472, 3263, 3637, 3641, 1841, 2208, 3264, 2483, 3267, 3644, 2506,
+  3645, 1844, 3271, 3648, 3275, 1846, 3281, 1848, 3652, 3284, 3658, 1850, 2117,
+  1851, 1969, 3633, 3287, 2439, 3631, 3289, 1854, 2441, 3291, 1856, 2260, 2264,
+  3626, 3295, 1858, 3620, 3296, 1859, 2268, 3298, 1860, 3608, 2567, 3300, 3602,
+  1862, 2140, 1863, 3302, 3709, 1864, 2590, 1865, 1866, 2460, 2286, 1867, 2241,
+  2508, 2602, 1868, 3687, 2603, 1871, 1872, 2605, 1873, 2056, 2594, 1874, 2561,
+  2300, 2256, 1875, 2665, 2647, 2566, 1876, 2308, 2673, 2167, 3915, 2078, 1877,
+  2713, 1879, 2689, 1881, 2084, 1883, 1885, 2702, 1887, 1888, 1890, 1898, 1901,
+  1904, 1905, 1908, 3684, 1912, 1914, 1915, 1918, 1925, 1927, 1929, 1934, 1937,
+  1940, 2722, 2723, 2724, 2725, 2726, 2727, 2728, 2729, 2730, 2731, 2948,
 ];
 
 const urlsProducts = [
@@ -394,7 +426,7 @@ const getAssociatedCategoryProduct = async (page) => {
 
 const getidProducts = async (page) => {
   await page.goto(
-    `https://www.apprinting.com/5x7-gate-fold-wedding-invitations/products/`,
+    `https://www.apprinting.com/vietnamese-wedding-invitations/products/`,
     {
       timeout: 300000,
     }
@@ -434,12 +466,12 @@ const getChanguedTitleProduct = async (page) => {
     const btnSave = await page.$("#btn-action-save");
     const title = await page.$("#products_title_1");
     const valueInput = await title.inputValue();
-    //const newTitle = await valueInput.replace("Wedding Invitations", "");
-    const newTitleAddSection = valueInput + " Flowers";
+    const newTitle = await valueInput.replace("C/E", "");
+    //const newTitleAddSection = valueInput + " Flowers";
     // const newTitleTwo = await newTitle.replace("Simple Flat", "");
     // const newTitleThree = await newTitleTwo.replace("Simple Flat 5x7", "");
     // const newTitleFinal = (await newTitleThree) + "Simple Flat 5x7";
-    await title.fill(newTitleAddSection);
+    await title.fill(newTitle);
     await btnSave.click();
     await page.waitForTimeout(3000);
     console.log(
@@ -448,7 +480,7 @@ const getChanguedTitleProduct = async (page) => {
       " Old Title ---> ",
       valueInput,
       " New Title ---> ",
-      newTitleAddSection
+      newTitle
     );
     //console.log(newTitle);
   }
@@ -456,15 +488,20 @@ const getChanguedTitleProduct = async (page) => {
 
 const filterDataListArray = (filterString) => {
   dataProducts.forEach(product => {
-    if (
-      product.title.search(filterString) !== -1
-    ) {
-      fs.appendFileSync(
-        `list.txt`,
-        //product.id.toString() + `---> ${product.title}` + ",\n"
-        product.id.toString() + ",\n"
-      );
-    } 
+    // if (
+    //   product.title.search(filterString) !== -1
+    // ) {
+    //   fs.appendFileSync(
+    //     `list.txt`,
+    //     //product.id.toString() + `---> ${product.title}` + ",\n"
+    //     product.id.toString() + ",\n"
+    //   );
+    // } 
+    fs.appendFileSync(
+      `list.txt`,
+      //product.id.toString() + `---> ${product.title}` + ",\n"
+      product.title.toString() + ",\n"
+    );
     console.log(product);
   });
 };
@@ -522,24 +559,53 @@ const getTitleProduct = async (page) => {
   }
 };
 
+const addSetupProductPageDesigner = async (page) => {
+  for await (let id of idProducts) {
+    await page.goto(
+      `https://www.apprinting.com/admin/product_designer_action.php?product_id=${id}`,
+      { timeout: 300000 }
+    );
+    const pageName1 = await page.$("#pagename_0");
+    await pageName1.fill("English Card");
+
+    const btnAdd = await page.$('[data-tableaddrow="page_table"]');
+    await btnAdd.click();
+    await page.waitForTimeout(3000);
+
+    const pageName7 = await page.$("#pagename_7");
+    await pageName7.fill("Chinese Card");
+
+    const pageSort7 = await page.$("#pagesort_7");
+    await pageSort7.fill("15");
+
+    const tablePage = await page.$("#page_table");
+    await tablePage.screenshot({ path: "./table-page.jpg" });
+    // const title = await page.$("#products_title_1");
+    // const valueInput = await title.inputValue();
+    // fs.appendFileSync(`list.txt`, `{id:${id},title:"${valueInput}"},\n`);
+    // console.log("Working ---> ", id, " ------> ", valueInput);
+  }
+};
+
 const updatePrice = async () => {
   const browser = await chromium.launch();
   const page = await browser.newPage();
 
-  await login(page);
+  //await login(page);
 
   //FUNCTIONS GROUPS
-  //filterDataListArray("Simple Flat 5x7"); // FUNCTION FILTER DATA LIST.JS
+  filterDataListArray("Simple Flat 5x7"); // FUNCTION FILTER DATA LIST.JS
   //filtersDataListArray("Bilingual"); // FUNCTION FILTERS DATA LIST.JS
   //await inputFillToRow(page);
   //await inputFillToPrice(page);
   //await getidProducts(page);
-  await categoryDefaultSelect(page);
+  //await categoryDefaultSelect(page);
   //await redirectionUrl(page);
   //await getChanguedTitleProduct(page);
   //await getTitleProduct(page);
   //await getTitleFilterProduct(page, "Acrylic");
   //await getAssociatedCategoryProduct(page);
+  //await addSetupProductPageDesigner(page);
 
   console.log("END");
   await browser.close();
