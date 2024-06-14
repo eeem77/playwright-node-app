@@ -11,280 +11,38 @@ const urlProductUpdatePrice =
   "https://www.apprinting.com/bilingual-wedding-invitations/products/#category_product_list";
 import seoData from "./seo-data.js";
 const qtys = [250, 500, 1000, 2500, 5000, 10000, 15000, 20000, 25000];
-// const idProducts = [
-  
-// ];
-// const idProducts = [
-//   1653, 1657, 1667, 1669, 1673, 1674, 1676, 1680, 1682, 1690, 1692, 1694, 1696,
-//   1735, 1705, 1709, 1712, 1714, 1717, 1720, 1722, 1723, 1730, 1737, 1829, 3056,
-//   1833, 1852, 1853, 1855, 1857, 1861, 1884, 1886, 1889, 1892, 1897, 1899, 1902,
-//   1907, 1911, 1913, 1921, 1923, 1926, 1930, 1936, 1938, 1941, 1943, 1945, 1947,
-//   1949, 1950, 1954, 1956, 1958, 1960, 1961, 1963, 1964, 1970, 1971, 1973, 1974,
-//   1976, 1977, 1979, 1980, 1981, 1983, 1985, 1986, 1991, 1995, 1998, 2005, 2006,
-//   2009, 2013, 2017, 2019, 2023, 2031, 2035, 2040, 2118, 2060, 2106, 2110, 2115,
-//   2127, 2129, 2195, 2207, 2221, 2271, 2610, 2627, 2635, 2639, 2643, 2644, 2670,
-//   2679, 2680, 2681, 2682, 2683, 2696, 2697, 2305, 2315, 2318, 2334, 2337, 2341,
-//   2344, 2346, 2355, 2365, 2389, 2404, 2424, 2648, 2669, 2674, 2675, 2676, 2677,
-//   2678, 2694, 2695, 2698, 2701, 2700, 2722, 2723, 2724, 2725, 2726, 2727, 2728,
-//   2729, 2730, 2731, 2732, 2733, 2735, 2734, 2736, 2737, 2738, 2739, 2740, 2741,
-//   2704, 2705, 2707, 2710, 2711, 2716, 2719, 2720, 2742, 2746, 2747, 2748, 2751,
-//   2753, 2755, 2756, 2771, 2774, 2788, 2817, 2699, 2703, 2708, 2712, 2709, 2717,
-//   2721, 2743, 2749, 2757, 2744, 2772, 2752, 2776, 2777, 2778, 2781, 2779, 2783,
-//   2802, 2800, 2784, 2803, 2807, 2805, 2808, 2789, 2810, 2815, 2811, 2813, 2745,
-//   2750, 2754, 2773, 2801, 2804, 2806, 2809, 2812, 2935, 2948,
-// ];
 const idProducts = [
-  800, 801, 606, 611, 620, 626, 885, 731, 3172, 901, 898, 903, 1775, 1654, 1791,
-  3363, 1685, 3174, 1708, 1790, 906, 908, 910, 911, 914, 1779, 3175, 1689, 1655,
-  1793, 1792, 1743, 1652, 3364, 916, 918, 920, 921, 925, 927, 1651, 3176, 1796,
-  1656, 2183, 3365, 1795, 1782, 931, 932, 933, 935, 936, 937, 938, 939, 1701,
-  3180, 940, 1747, 3366, 3685, 1794, 1797, 947, 948, 950, 951, 952, 3181, 3367,
-  1802, 1748, 1800, 1668, 3670, 953, 3368, 3182, 1801, 1816, 1807, 1753, 1670,
-  1713, 1671, 1821, 1813, 3369, 3184, 1756, 1718, 1803, 3185, 1672, 1727, 1823,
-  1759, 1760, 1806, 3370, 1815, 1817, 1728, 3187, 1675, 1808, 1825, 1762, 3372,
-  1765, 1811, 1826, 1677, 1769, 3189, 3375, 1818, 1732, 1819, 1812, 3190, 1767,
-  1827, 1678, 1788, 3384, 1738, 1828, 1820, 1772, 1789, 3378, 1777, 1814, 3193,
-  1679, 1740, 2211, 2000, 3194, 2269, 2146, 1742, 1988, 1681, 3406, 3411, 1822,
-  3195, 1992, 1683, 2270, 2213, 2004, 3418, 2273, 2214, 1824, 2016, 1684, 2179,
-  1994, 3196, 2001, 3420, 3197, 1830, 2276, 1686, 2021, 2216, 3198, 2218, 2008,
-  1688, 2293, 2029, 2184, 3434, 2012, 3477, 2047, 2294, 2246, 2186, 1691, 3208,
-  2295, 2248, 3534, 2398, 1842, 2187, 2014, 1693, 2185, 3210, 2251, 2296, 3539,
-  1695, 2072, 3213, 3322, 2075, 3548, 3214, 1697, 2298, 3555, 1721, 2299, 2190,
-  2304, 3216, 2083, 3217, 3583, 2262, 2088, 1724, 3588, 2192, 3097, 2307, 3221,
-  2431, 3591, 3222, 1729, 3225, 2333, 1731, 3600, 3606, 3230, 1734, 2197, 2054,
-  3244, 1736, 3612, 1928, 1739, 2353, 3247, 3707, 3621, 3251, 1719, 3622, 3252,
-  1741, 2203, 3255, 1835, 3581, 3628, 3258, 1838, 1839, 3260, 2414, 3630, 2205,
-  1840, 1953, 2472, 3263, 3637, 3641, 1841, 2208, 3264, 2483, 3267, 3644, 2506,
-  3645, 1844, 3271, 3648, 3275, 1846, 3281, 1848, 3652, 3284, 3658, 1850, 2117,
-  1851, 1969, 3633, 3287, 2439, 3631, 3289, 1854, 2441, 3291, 1856, 2260, 2264,
-  3626, 3295, 1858, 3620, 3296, 1859, 2268, 3298, 1860, 3608, 2567, 3300, 3602,
-  1862, 2140, 1863, 3302, 3709, 1864, 2590, 1865, 1866, 2460, 2286, 1867, 2241,
-  2508, 2602, 1868, 3687, 2603, 1871, 1872, 2605, 1873, 2056, 2594, 1874, 2561,
-  2300, 2256, 1875, 2665, 2647, 2566, 1876, 2308, 2673, 2167, 3915, 2078, 1877,
-  2713, 1879, 2689, 1881, 2084, 1883, 1885, 2702, 1887, 1888, 1890, 1898, 1901,
-  1904, 1905, 1908, 3684, 1912, 1914, 1915, 1918, 1925, 1927, 1929, 1934, 1937,
-  1940, 2722, 2723, 2724, 2725, 2726, 2727, 2728, 2729, 2730, 2731, 2948,
+  3304, 3306, 3308, 3311, 3313, 3315, 3312, 3310, 3309, 3307, 3305, 3303, 3301,
+  3299, 3290, 3283, 3262, 3259, 3256, 3253, 3250, 3243, 3231, 3212, 3200, 3199,
 ];
 
 const titlesProducts = [
-  "Blue Flowers and Leaves  Simple Flat 5x7 Wedding Invitation",
-  "Tropical Leaves  Simple Flat 5x7 Wedding Invitation",
-  "Pink Flowers Simple Flat 5x7 Wedding Invitation",
-  "Watercolor Blue Roses Simple Flat 5x7 Wedding Invitation",
-  "Inspirational Pink Flowers Simple Flat 5x7 Wedding Invitation",
-  "Blue Flowers Simple Flat 5x7 Wedding Invitation",
-  "Coffee Stained Flowers Simple Flat 5x7 Wedding Invitation",
-  "Burgundy Leaves Simple Flat 5x7 Wedding Invitation",
-  "Multicolored Rose Bouquet Simple Flat 5x7 Wedding Invitation",
-  "Blue and Gold Leaves Simple Flat 5x7 Wedding Invitation",
-  "Warm Fall Flowers Simple Flat 5x7 Wedding Invitation",
-  "Botanical Yellow Flowers Simple Flat 5x7 Wedding Invitation",
-  "Abstract Golden Waves Simple Flat 5x7 Wedding Invitation",
-  "Pastel Green Flowers Simple Flat 5x7 Wedding Invitation",
-  "Deep Blue Watercolor Simple Flat 5x7 Wedding Invitation",
-  "Bright Spring Floral Simple Flat 5x7 Wedding Invitation",
-  "Gentle Pink Bouquet Simple Flat 5x7 Wedding Invitation",
-  "Floral Soft Pink Simple Flat 5x7 Wedding Invitation",
-  "Dusty Roses Delicate Simple Flat 5x7 Wedding Invitation",
-  "Pastel Watercolor  Simple Flat 5x7 Wedding Invitation",
-  "Pink Spring Flowers Simple Flat 5x7 Wedding Invitation",
-  "Peach Flowers Simple Flat 5x7 Wedding Invitation",
-  "Rustic Floral Simple Flat 5x7 Wedding Invitation",
-  "Simple Large Cursive Simple Flat 5x7 Wedding Invitation",
-  "Elegant Green Leaves Simple Flat 5x7 Wedding Invitation",
-  "Elegant Brown Leaves Simple Flat 5x7 Wedding Invitation",
-  "Pink Paint Strokes Simple Flat 5x7 Wedding Invitation",
-  "Ashen Gray Flowers Simple Flat 5x7 Wedding Invitation",
-  "Handmade Flower Set Simple Flat 5x7 Wedding Invitation",
-  "Handmade Flower Silhouettes Simple Flat 5x7 Wedding Invitation",
-  "Soft Leaf Border Simple Flat 5x7 Wedding Invitation",
-  "Teal Watercolor Simple Flat 5x7 Wedding Invitation",
-  "Elegant Leaves Simple Flat 5x7 Wedding Invitation",
-  "Showy Spring Flowers Simple Flat 5x7 Wedding Invitation",
-  "Green and Gray Leaves Simple Flat 5x7 Wedding Invitation",
-  "Explosive Watercolor Simple Flat 5x7 Wedding Invitation",
-  "Fuchsia Lines Simple Flat 5x7 Wedding Invitation",
-  "Green and Roses Simple Flat 5x7 Wedding Invitation",
-  "Luxury Indian Frames Simple Flat 5x7 Wedding Invitation",
-  "Gold Plated Leaves Simple Flat 5x7 Wedding Invitation",
-  "Bright Flowers Simple Flat 5x7 Wedding Invitation",
-  "Sparkling Blue Watercolor Simple Flat 5x7 Wedding Invitation",
-  "Luxurious Gold Simple Flat 5x7 Wedding Invitation",
-  "Gold Frames Simple Flat 5x7 Wedding Invitation",
-  "Cloudy Blue Simple Flat 5x7 Wedding Invitation",
-  "Golden Flowers Simple Flat 5x7 Wedding Invitation",
-  "Simplicity and Elegance Simple Flat 5x7 Wedding Invitation",
-  "Golden Frame and Leaves Simple Flat 5x7 Wedding Invitation",
-  "Aztec Design Simple Flat 5x7 Wedding Invitation",
-  "Elegant Frames Simple Flat 5x7 Wedding Invitation",
-  "Golden Corner Flowers Simple Flat 5x7 Wedding Invitation",
-  "Rustic Green Leaves Simple Flat 5x7 Wedding Invitation",
-  "Golden Leaves Simple Flat 5x7 Wedding Invitation",
-  "Vintage Golden Flowers Simple Flat 5x7 Wedding Invitation",
-  "Classic Simple Flat 5x7 Wedding Invitation",
-  "Blue and Gold Watercolor Simple Flat 5x7 Wedding Invitation",
-  "Simple Flowers Gray Simple Flat 5x7 Wedding Invitation",
-  "Blue Golden Flowers Simple Flat 5x7 Wedding Invitation",
-  "Minimalist Class Simple Flat 5x7 Wedding Invitation",
-  "Vintage Geometric Flowers Simple Flat 5x7 Wedding Invitation",
-  "Elegant Golden Frame Simple Flat 5x7 Wedding Invitation",
-  "Golden Mandala Simple Flat 5x7 Wedding Invitation",
-  "Green Tropical Leaves Simple Flat 5x7 Wedding Invitation",
-  "Dark Teal Frame Simple Flat 5x7 Wedding Invitation",
-  "Elegant Blue Flowers Simple Flat 5x7 Wedding Invitation",
-  "Gold Streaked Sandy Simple Flat 5x7 Wedding Invitation",
-  "Copper Stroke Simple Flat 5x7 Wedding Invitation",
-  "Gold Trim Simple Flat 5x7 Wedding Invitation",
-  "Diffused Blue Droplets Simple Flat 5x7 Wedding Invitation",
-  "Blue Purple Brushes Simple Flat 5x7 Wedding Invitation",
-  "Glittering Desert Simple Flat 5x7 Wedding Invitation",
-  "Pink and Fuchsia  Simple Flat 5x7 Wedding Invitation",
-  "Golden Elegance Simple Flat 5x7 Wedding Invitation",
-  "Noisy Grays  Simple Flat 5x7 Wedding Invitation",
-  "Faint Green Ombre Simple Flat 5x7 Wedding Invitation",
-  "Pink and Gray Marble Simple Flat 5x7 Wedding Invitation",
-  "Deep Fose Tint Simple Flat 5x7 Wedding Invitation",
-  "Splash of Blush Simple Flat 5x7 Wedding Invitation",
-  "Abstract Blue Paint Simple Flat 5x7 Wedding Invitation",
-  "Simple Red Flowers Simple Flat 5x7 Wedding Invitation",
-  "Refined Black Floral Simple Flat 5x7 Wedding Invitation",
-  "Watercolor Sea Water Simple Flat 5x7 Wedding Invitation",
-  "Watercolor Earth Tones Simple Flat 5x7 Wedding Invitation",
-  "Green Watercolor Simple Flat 5x7 Wedding Invitation",
-  "Simple Pink Simple Flat 5x7 Wedding Invitation",
-  "Golden Leaves Simple Flat 5x7 Wedding Invitation",
-  "Classic Gold Edge Simple Flat 5x7 Wedding Invitation",
-  "White Cherry Blossoms Simple Flat 5x7 Wedding Invitation",
-  "Pink and Red Flowers Simple Flat 5x7 Wedding Invitation",
-  "Golden Chinese Lamps Simple Flat 5x7 Wedding Invitation",
-  "Blue Frame Clouds Simple Flat 5x7 Wedding Invitation",
-  "Golden Invitation Clouds Simple Flat 5x7 Wedding Invitation",
-  "Bluish Green Bamboo Simple Flat 5x7 Wedding Invitation",
-  "Golden Bamboo Stalks Simple Flat 5x7 Wedding Invitation",
-  "Festive Chinese Simple Flat 5x7 Wedding Invitation",
-  "Blooming Pink Flowers Simple Flat 5x7 Wedding Invitation",
-  "Radiating Gold Flowers Simple Flat 5x7 Wedding Invitation",
-  "Golden Lanterns and Branches Simple Flat 5x7 Wedding Invitation",
-  "Pink and Red Falling Simple Flat 5x7 Wedding Invitation",
-  "Lanterns Bright Flowers Simple Flat 5x7 Wedding Invitation",
-  "Artistic Cloud Borders Simple Flat 5x7 Wedding Invitation",
-  "Burgundy Flowers Simple Flat 5x7 Wedding Invitation",
-  "Lanterns and Celebration Flowers Simple Flat 5x7 Wedding Invitation",
-  "Soft Golden Bamboo Simple Flat 5x7 Wedding Invitation",
-  "Chinese Lamp Simple Flat 5x7 Wedding Invitation",
-  "Dark Blue Simple Flat 5x7 Wedding Invitation",
-  "Golden Borders and Tigers Simple Flat 5x7 Wedding Invitation",
-  "Faint Palace and Lanterns Simple Flat 5x7 Wedding Invitation",
-  "Ombre Lanterns Simple Flat 5x7 Wedding Invitation",
-  "Flowers and Lanterns Swaying Simple Flat 5x7 Wedding Invitation",
-  "Song Hy and Gold Borders Simple Flat 5x7 Wedding Invitation",
-  "Delicate Bamboo Art Simple Flat 5x7 Wedding Invitation",
-  "Hanging Lanterns and Charms Simple Flat 5x7 Wedding Invitation",
-  "Fan and Artistic Flowers Simple Flat 5x7 Wedding Invitation",
-  "Red Border and Clouds Simple Flat 5x7 Wedding Invitation",
-  "Printed Corners and Flowers Simple Flat 5x7 Wedding Invitation",
-  "Festive Lanterns in a Sky Simple Flat 5x7 Wedding Invitation",
-  "Bright Red and Cloud Scroll Simple Flat 5x7 Wedding Invitation",
-  "White Clouds on Dark Red Simple Flat 5x7 Wedding Invitation",
-  "Chinese Mountain and River Simple Flat 5x7 Wedding Invitation",
-  "Bright Flower Border Simple Flat 5x7 Wedding Invitation",
-  "Round Hanging Lanterns Simple Flat 5x7 Wedding Invitation",
-  "Artistic Cloud Borders Simple Flat 5x7 Wedding Invitation",
-  "Refined Edge Pattern Simple Flat 5x7 Wedding Invitation",
-  "Elegant Bouquet of Flowers Simple Flat 5x7 Wedding Invitation",
-  "Festive Flowers and Lanterns Simple Flat 5x7 Wedding Invitation",
-  "Gradient Gold and Red Simple Flat 5x7 Wedding Invitation",
-  "Modern Dragon Valances Simple Flat 5x7 Wedding Invitation",
-  "Oriental Patterned Borders Simple Flat 5x7 Wedding Invitation",
-  "Minimalist White Simple Flat 5x7 Wedding Invitation",
-  "Beautiful Red White Gold Simple Flat 5x7 Wedding Invitation",
-  "Golden Geometric Corners Simple Flat 5x7 Wedding Invitation",
-  "Chinese Lanterns Simple Flat 5x7 Wedding Invitation",
-  "Bouquets of Pink Flowers Simple Flat 5x7 Wedding Invitation",
-  "Simple Oriental Simple Flat 5x7 Wedding Invitation",
-  "Clouds and Flowers Environment Simple Flat 5x7 Wedding Invitation",
-  "Blue Snow Simple Flat 5x7 Wedding Invitation",
-  "Pink Christmas Simple Flat 5x7 Wedding Invitation",
-  "Christmas Pineapple Design Simple Flat 5x7 Wedding Invitation",
-  "Floral Winter Simple Flat 5x7 Wedding Invitation",
-  "Delicate Snow Debris Simple Flat 5x7 Wedding Invitation",
-  "Christmas Pine Branches Simple Flat 5x7 Wedding Invitation",
-  "Winter Forest Simple Flat 5x7 Wedding Invitation",
-  "Christmas Brown Branches Simple Flat 5x7 Wedding Invitation",
-  "Cold and Tender Flowers Simple Flat 5x7 Wedding Invitation",
-  "Frame Snowflakes Simple Flat 5x7 Wedding Invitation",
-  "Blue Roses Leaves Simple Flat 5x7 Wedding Invitation",
-  "Arrangement of Winter Roses Simple Flat 5x7 Wedding Invitation",
-  "Classic Christmas Design  Simple FlatSimple Flat 5x7 Wedding Invitation",
-  "Christmas Corners Simple Flat 5x7 Wedding Invitation",
-  "Realistic Pine Tree Simple Flat 5x7 Wedding Invitation",
-  "Blue Christmas Simple Flat 5x7 Wedding Invitation",
-  "Christmas Decoration Simple Flat 5x7 Wedding Invitation",
-  "Cold Watercolor Frame Simple Flat 5x7 Wedding Invitation",
-  "Roses Mary Simple Flat 5x7 Wedding Invitation",
-  "Minimalist Winter Leaves Simple Flat 5x7 Wedding Invitation",
-  "Christmas Leaves Simple Flat 5x7 Wedding Invitation",
-  "Royal Pine Frame Simple Flat 5x7 Wedding Invitation",
-  "Winter Cream Roses Simple Flat 5x7 Wedding Invitation",
-  "Elegant Watercolor Leaves Simple Flat 5x7 Wedding Invitation",
-  "Winter Festival Simple Flat 5x7 Wedding Invitation",
-  "Loving Snowflakes Simple Flat 5x7 Wedding Invitation",
-  "Purple Winter Floral Simple Flat 5x7 Wedding Invitation",
-  "Winter Roses and Leaves Simple Flat 5x7 Wedding Invitation",
-  "Modest Roses Simple Flat 5x7 Wedding Invitation",
-  "Purple Flower Arrangement Simple Flat 5x7 Wedding Invitation",
-  "Golden Leaves Simple Flat 5x7 Wedding Invitation",
-  "White Winter Roses Simple Flat 5x7 Wedding Invitation",
-  "Winter Leaves and Gradient Simple Flat 5x7 Wedding Invitation",
-  "Hexagonal Roses Arrangement Simple Flat 5x7 Wedding Invitation",
-  "Winter Pines Landscape Simple Flat 5x7 Wedding Invitation",
-  "Flowers and Cold Leaves Simple Flat 5x7 Wedding Invitation",
-  "Dark Winter Design Simple Flat 5x7 Wedding Invitation",
-  "Winter Geometric Arrangement Simple Flat 5x7 Wedding Invitation",
-  "Christmas and Gold Frame Simple Flat 5x7 Wedding Invitation",
-  "Modest White Flowers Simple Flat 5x7 Wedding Invitation",
-  "Pine and Wood Design Simple Flat 5x7 Wedding Invitation",
-  "Winter Design Photo Simple Flat 5x7 Wedding Invitation",
-  "Pine Cone and Roses Simple Flat 5x7 Wedding Invitation",
-  "Black Snowflakes Simple Flat 5x7 Wedding Invitation",
-  "Watercolor Pines Simple Flat 5x7 Wedding Invitation",
-  "Dark Invitation Snowflakes Simple Flat 5x7 Wedding Invitation",
-  "Geometric Frame Branches Simple Flat 5x7 Wedding Invitation",
-  "Dark Invitation Flowers Simple Flat 5x7 Wedding Invitation",
-  "Wooden Frame Snowflakes Simple Flat 5x7 Wedding Invitation",
-  "Blue Floral Silhouettes Simple Flat 5x7 Wedding Invitation",
-  "Brown and White Flower Simple Flat 5x7 Wedding Invitation",
-  "Simple Pine Branches Simple Flat 5x7 Wedding Invitation",
-  "Wood White Forest Simple Flat 5x7 Wedding Invitation",
-  "Purple Flowers Simple Flat 5x7 Wedding Invitation",
-  "Subtle Blue Flowers Simple Flat 5x7 Wedding Invitation",
-  "Cardboard Design Flowers Simple Flat 5x7 Wedding Invitation",
-  "Winter Flowers and Frame Simple Flat 5x7 Wedding Invitation",
-  "Wood Winter Ligths Simple Flat 5x7 Wedding Invitation",
-  "Leaves and Branches Gradient Simple Flat 5x7 Wedding Invitation",
-  "Cardboard White Branches Simple Flat 5x7 Wedding Invitation",
-  "Indian Wedding Ganesha Simple Flat 5x7 Wedding Invitation",
-  "Boho Arrows Simple Flat 5x7 Spanish & English Wedding Invitation",
-  "Golden Waves Simple Flat 5x7 Spanish & English Wedding Invitation",
-  "Eucalyptus Flower Simple Flat 5x7 Spanish & English Wedding Invitation",
-  "Laser Cut Blue Simple Flat 5x7 Spanish & English Wedding Invitation",
-  "Tropical Stationery in Peach Simple Flat 5x7 Spanish & English Wedding Invitation",
-  "Red Invitation Leaves Simple Flat 5x7 Spanish & English Wedding Invitation",
-  "Elegant Beige and Black Simple Flat 5x7 Spanish & English Wedding Invitation",
-  "Elegant Golden Mandala Simple Flat 5x7 Spanish & English Wedding Invitation",
-  "Elegant Gold Decorations Simple Flat 5x7 Spanish & English Wedding Invitation",
-  "Flowers and Turquoise Watercolor Simple Flat 5x7 Wedding Invitation",
-  "Design Boho Photo Simple Flat 5x7 Spanish & English Wedding Invitation",
-  "Cream Colored Boho Simple Flat 5x7 Spanish & English Wedding Invitation",
-  "Couple Decorative Borders Simple Flat 5x7 Spanish & English Wedding Invitation",
-  "Minimalist Pink Border Simple Flat 5x7 Spanish & English Wedding Invitation",
-  "Ornamental Invitation Photo Simple Flat 5x7 Spanish & English Wedding Invitation",
-  "Beige Abstract Shapes Simple Flat 5x7 Spanish & English Wedding Invitation",
-  "Simple Photo Invitation Simple Flat 5x7 Spanish & English Wedding Invitation",
-  "Luxury Gradient Photo Simple Flat 5x7 Spanish & English Wedding Invitation",
-  "Gatsby Style In Gold Simple Flat 5x7 Spanish & English Wedding Invitation",
-  "Elegant White and Flowers Simple Flat 5x7 Wedding Invitation",
-  "Elegant Simple Simple Flat 5x7 Wedding Invitation",
+  "Purple Floral Indian Half Fold Wedding Invitation",
+  "Elegant Abstract Indian Half Fold Wedding Invitation",
+  "Golden Elephant and Peacocks Half Fold Wedding Invitation",
+  "Red Luxurious Pattern Half Fold Wedding Invitation",
+  "Sprightly Golden Pattern Half Fold Wedding Invitation",
+  "Wedded Couple Indian Half Fold Wedding Invitation",
+  "Elegantly Jeweled Golden Half Fold Wedding Invitation",
+  "Jeweled Floral Paisley Half Fold Wedding Invitation",
+  "Pair of Glimmering Peacocks Half Fold Wedding Invitation",
+  "Golden Crystalline Paisley Half Fold Wedding Invitation",
+  "Extravagant Peacock Feathers Half Fold Wedding Invitation",
+  "Symmetrical Fanned Jeweled Half Fold Wedding Invitation",
+  "Peacock and Crystal Flowers Half Fold Wedding Invitation",
+  "Flowers Around Palace Half Fold Wedding Invitation",
+  "India Festive Purple Half Fold Wedding Invitation",
+  "Invitation Trumpets and Fire Half Fold Wedding Invitation",
+  "Faint Purple Mandala Half Fold Wedding Invitation",
+  "Original Oriental Pattern Half Fold Wedding Invitation",
+  "Luxury with Elephant Symbol Half Fold Wedding Invitation",
+  "Ornamental Indian Red Half Fold Wedding Invitation",
+  "Mandala Beautiful Gold Half Fold Wedding Invitation",
+  "Delicate Gold Edge Half Fold Wedding Invitation",
+  "Gold Frame Photo Half Fold Spanish and English Wedding Invitation",
+  "Decorations and Couple's Photo Half Fold Spanish and English Wedding Invitation",
+  "Geometric Black and Beige Half Fold Spanish and English Wedding Invitation",
+  "Lace Wedding Dress Half Fold Spanish and English Wedding Invitation",
 ];
 
 // const urlsProducts = [
@@ -650,7 +408,7 @@ const getAssociatedCategoryProduct = async (page) => {
 
 const getIdProducts = async (page) => {
   await page.goto(
-    `https://www.apprinting.com/vietnamese-wedding-invitations/products/`,
+    `https://www.apprinting.com/half-fold-wedding-invitations/products/`,
     {
       timeout: 300000,
     }
@@ -702,6 +460,29 @@ const getChangedTitleProductWithArray = async (page) => {
   }
 };
 
+const auditSeoData = async (page) => {
+  for await (let id of idProducts) {
+    await page.goto(
+      `https://www.apprinting.com/admin/product_metatags.php?product_id=${id}`,
+      { timeout: 300000 }
+    );
+    const pageTitle = await page.$("#seo_page_title_1");
+    const metaDescription = await page.$("#seo_page_description_1");
+    const markUp = await page.$("#schema_markup_1");
+    const metaAdditional = await page.$("#seo_page_metatags1");
+    const date = [
+      await pageTitle.inputValue(),
+      await metaDescription.inputValue(),
+      await markUp.inputValue(),
+      await metaAdditional.inputValue(),
+    ];
+    for await (let input of date) {
+      if (input == "") fs.appendFileSync(`list.txt`, id, +"\n");
+    }
+    console.log(`Working ---> ${id}`);
+  }
+};
+
 const changedSeoData = async (page) => {
   let i = 0;
   for await (let id of idProducts) {
@@ -722,7 +503,7 @@ const changedSeoData = async (page) => {
     await page.waitForTimeout(3000);
     fs.appendFileSync(`list.txt`, id + "\n");
     i = i + 1;
-    console.log(`Working ---> i`);
+    console.log(`Working ---> ${i}`);
   }
 };
 
@@ -736,11 +517,11 @@ const getMarkUpSchemaProducts = async (page) => {
     const productNameValue = await productName.inputValue();
     const productSku = await page.$("#products_sku");
     const productSkuValue = await productSku.inputValue();
-    const report = `{"@context":"https://schema.org/","@type":"Product","name":"${productNameValue}","description":"${productNameValue}. A high-quality product offered by AP PRINTING. Our design team ensures that every detail is perfect to meet our customers' needs.","sku":"${productSkuValue}","brand":{"@type":"Card","name":"Vietnamese & English Wedding Invitation"},"review":{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue":"4","bestRating":"5"},"author":{"@type":"Person","name":"AP PRINTING DESIGN TEAM"}},"aggregateRating":{"@type":"AggregateRating","ratingValue":"${(
+    const report = `{"@context":"https://schema.org/","@type":"Product","name":"${productNameValue}","description":"${productNameValue}. A high-quality product offered by AP PRINTING. Our design team ensures that every detail is perfect to meet our customers' needs.","sku":"${productSkuValue}","brand":{"@type":"Card","name":"Half Fold Wedding Invitations"},"review":{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue":"4","bestRating":"5"},"author":{"@type":"Person","name":"AP PRINTING DESIGN TEAM"}},"aggregateRating":{"@type":"AggregateRating","ratingValue":"${(
       Math.random() * (5 - 4.1) +
       4.1
     ).toFixed(1)}","reviewCount":"${Math.floor(
-      Math.random() * (3000 - 1000) + 1000
+      Math.random() * (1700 - 1300) + 1700
     )}"},"offers": {"@type": "Offer","url": "https://www.apprinting.com/blue-flowers-and-leaves-wedding-invitation/","priceCurrency": "USD","price": "85.00","priceValidUntil": "2024-12-24","itemCondition": "https://schema.org/UsedCondition","availability": "https://schema.org/InStock"}}`;
     fs.appendFileSync(`list.txt`, report + "\n");
     console.log(report);
@@ -830,12 +611,9 @@ const filterDataListArray = (filterString) => {
     //     product.id.toString() + ",\n"
     //   );
     // }
-    fs.appendFileSync(
-      `list.txt`,
-      //product.id.toString() + `---> ${product.title}` + ",\n"
-      product.title.toString() + ",\n"
-    );
-    console.log(product);
+    const report = `"${product.title}",\n`;
+    fs.appendFileSync(`list.txt`, report);
+    console.log(report);
   });
 };
 
@@ -887,8 +665,10 @@ const getTitleProduct = async (page) => {
     );
     const title = await page.$("#products_title_1");
     const valueInput = await title.inputValue();
-    fs.appendFileSync(`list.txt`, `{id:${id},title:"${valueInput}"},\n`);
-    console.log("Working ---> ", id, " ------> ", valueInput);
+    const report = `{id:${id},title:"${valueInput}"},\n`;
+    // const report = `${valueInput}\n`;
+    fs.appendFileSync(`list.txt`, report);
+    console.log(`working ---> ${report}`);
   }
 };
 
@@ -938,7 +718,8 @@ const updatePrice = async () => {
   //await getChangedTitleProductWithArray(page);
   //await getTitleTitleImagesGallery(page);
   //await getMarkUpSchemaProducts(page);
-  await changedSeoData(page);
+  await auditSeoData(page);
+  //await changedSeoData(page);
   //await getTitleAndChangedTitleImagesGallery(page);
   //await getTitleProduct(page);
   //await getTitleFilterProduct(page, "Acrylic");
