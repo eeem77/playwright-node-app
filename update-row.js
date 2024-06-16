@@ -12,37 +12,34 @@ const urlProductUpdatePrice =
 import seoData from "./seo-data.js";
 const qtys = [250, 500, 1000, 2500, 5000, 10000, 15000, 20000, 25000];
 const idProducts = [
-  3304, 3306, 3308, 3311, 3313, 3315, 3312, 3310, 3309, 3307, 3305, 3303, 3301,
-  3299, 3290, 3283, 3262, 3259, 3256, 3253, 3250, 3243, 3231, 3212, 3200, 3199,
+  3144, 3145, 3146, 3148, 3149, 3151, 3152, 3154, 3155, 3156, 3157, 3158, 3326,
+  3327, 3329, 3331, 3335, 3349, 3348, 3344, 3340, 3337, 3355,
 ];
 
 const titlesProducts = [
-  "Purple Floral Indian Half Fold Wedding Invitation",
-  "Elegant Abstract Indian Half Fold Wedding Invitation",
-  "Golden Elephant and Peacocks Half Fold Wedding Invitation",
-  "Red Luxurious Pattern Half Fold Wedding Invitation",
-  "Sprightly Golden Pattern Half Fold Wedding Invitation",
-  "Wedded Couple Indian Half Fold Wedding Invitation",
-  "Elegantly Jeweled Golden Half Fold Wedding Invitation",
-  "Jeweled Floral Paisley Half Fold Wedding Invitation",
-  "Pair of Glimmering Peacocks Half Fold Wedding Invitation",
-  "Golden Crystalline Paisley Half Fold Wedding Invitation",
-  "Extravagant Peacock Feathers Half Fold Wedding Invitation",
-  "Symmetrical Fanned Jeweled Half Fold Wedding Invitation",
-  "Peacock and Crystal Flowers Half Fold Wedding Invitation",
-  "Flowers Around Palace Half Fold Wedding Invitation",
-  "India Festive Purple Half Fold Wedding Invitation",
-  "Invitation Trumpets and Fire Half Fold Wedding Invitation",
-  "Faint Purple Mandala Half Fold Wedding Invitation",
-  "Original Oriental Pattern Half Fold Wedding Invitation",
-  "Luxury with Elephant Symbol Half Fold Wedding Invitation",
-  "Ornamental Indian Red Half Fold Wedding Invitation",
-  "Mandala Beautiful Gold Half Fold Wedding Invitation",
-  "Delicate Gold Edge Half Fold Wedding Invitation",
-  "Gold Frame Photo Half Fold Spanish and English Wedding Invitation",
-  "Decorations and Couple's Photo Half Fold Spanish and English Wedding Invitation",
-  "Geometric Black and Beige Half Fold Spanish and English Wedding Invitation",
-  "Lace Wedding Dress Half Fold Spanish and English Wedding Invitation",
+  "Vintage Floral 5x7 Gate Fold Wedding Invitation",
+  "Delicate Leaves 5x7 Gate Fold Wedding Invitation",
+  "Invitation Rings 5x7 Gate Fold Wedding Invitation",
+  "White Flower Lineart 5x7 Gate Fold Wedding Invitation",
+  "Luxurious Golden Mandala 5x7 Gate Fold Wedding Invitation",
+  "Cover Picture 5x7 Gate Fold Wedding Invitation",
+  "Soft Rose Bouquet 5x7 Gate Fold Wedding Invitation",
+  "Photo Covered 5x7 Gate Fold Spanish & English Wedding Invitation",
+  "Soft Pink Roses 5x7 Gate Fold Wedding Invitation",
+  "Turquoise Foliage 5x7 Gate Fold Wedding Invitation",
+  "Rose Decor 5x7 Gate Fold Wedding Invitation",
+  "Small Glimpses 5x7 Gate Fold Wedding Invitation",
+  "Refined Sunset Silhouette 5x7 Gate Fold Wedding Invitation",
+  "Soft Pink 5x7 Gate Fold Wedding Invitation",
+  "Linear Art 5x7 Gate Fold Wedding Invitation",
+  "Small Golden Flowers 5x7 Gate Fold Wedding Invitation",
+  "Sunflowers and Leaves 5x7 Gate Fold Wedding Invitation",
+  "Autumn leaf pattern 5x7 Gate Fold Wedding Invitation",
+  "Ashen Roses 5x7 Gate Fold Wedding Invitation",
+  "Delicate Emerald Leaves 5x7 Gate Fold Wedding Invitation",
+  "Winter Storm 5x7 Gate Fold Wedding Invitation",
+  "Mountain Peaks 5x7 Gate Fold Wedding Invitation",
+  "Elegant Couple's Photo 5x7 Gate Fold Spanish & English Wedding Invitation",
 ];
 
 // const urlsProducts = [
@@ -408,7 +405,7 @@ const getAssociatedCategoryProduct = async (page) => {
 
 const getIdProducts = async (page) => {
   await page.goto(
-    `https://www.apprinting.com/half-fold-wedding-invitations/products/`,
+    `https://www.apprinting.com/5x7-gate-fold-wedding-invitations/products/`,
     {
       timeout: 300000,
     }
@@ -416,7 +413,7 @@ const getIdProducts = async (page) => {
   const products = await page.$$eval(".product-box", (node) =>
     node.map((n) => n.className)
   );
-  fs.appendFileSync(`list.txt`, products.toString() + "\n");
+  fs.appendFileSync(`list.txt`, products.toString() + ",\n");
   console.log(products);
 };
 
@@ -611,6 +608,7 @@ const filterDataListArray = (filterString) => {
     //     product.id.toString() + ",\n"
     //   );
     // }
+    //const report = `${product.id}\n`;
     const report = `"${product.title}",\n`;
     fs.appendFileSync(`list.txt`, report);
     console.log(report);
@@ -718,9 +716,9 @@ const updatePrice = async () => {
   //await getChangedTitleProductWithArray(page);
   //await getTitleTitleImagesGallery(page);
   //await getMarkUpSchemaProducts(page);
-  await auditSeoData(page);
+  //await auditSeoData(page);
   //await changedSeoData(page);
-  //await getTitleAndChangedTitleImagesGallery(page);
+  await getTitleAndChangedTitleImagesGallery(page);
   //await getTitleProduct(page);
   //await getTitleFilterProduct(page, "Acrylic");
   //await getAssociatedCategoryProduct(page);
