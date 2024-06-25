@@ -11,300 +11,689 @@ const urlProductUpdatePrice =
   "https://www.apprinting.com/bilingual-wedding-invitations/products/#category_product_list";
 import seoData from "./seo-data.js";
 const qtys = [250, 500, 1000, 2500, 5000, 10000, 15000, 20000, 25000];
-const idProducts = [
-  3144, 3145, 3146, 3148, 3149, 3151, 3152, 3154, 3155, 3156, 3157, 3158, 3326,
-  3327, 3329, 3331, 3335, 3349, 3348, 3344, 3340, 3337, 3355,
-];
+
+//const idProducts = [3194, 3208];
+//3202, 3204, 3205, 3207, 3211, 3215, 3224, 3228,
+const idProducts = [1847, 1849, 1909, 1939, 1989, 3914, 2042, 2077];
 
 const titlesProducts = [
-  "Vintage Floral 5x7 Gate Fold Wedding Invitation",
-  "Delicate Leaves 5x7 Gate Fold Wedding Invitation",
-  "Invitation Rings 5x7 Gate Fold Wedding Invitation",
-  "White Flower Lineart 5x7 Gate Fold Wedding Invitation",
-  "Luxurious Golden Mandala 5x7 Gate Fold Wedding Invitation",
-  "Cover Picture 5x7 Gate Fold Wedding Invitation",
-  "Soft Rose Bouquet 5x7 Gate Fold Wedding Invitation",
-  "Photo Covered 5x7 Gate Fold Spanish & English Wedding Invitation",
-  "Soft Pink Roses 5x7 Gate Fold Wedding Invitation",
-  "Turquoise Foliage 5x7 Gate Fold Wedding Invitation",
-  "Rose Decor 5x7 Gate Fold Wedding Invitation",
-  "Small Glimpses 5x7 Gate Fold Wedding Invitation",
-  "Refined Sunset Silhouette 5x7 Gate Fold Wedding Invitation",
-  "Soft Pink 5x7 Gate Fold Wedding Invitation",
-  "Linear Art 5x7 Gate Fold Wedding Invitation",
-  "Small Golden Flowers 5x7 Gate Fold Wedding Invitation",
-  "Sunflowers and Leaves 5x7 Gate Fold Wedding Invitation",
-  "Autumn leaf pattern 5x7 Gate Fold Wedding Invitation",
-  "Ashen Roses 5x7 Gate Fold Wedding Invitation",
-  "Delicate Emerald Leaves 5x7 Gate Fold Wedding Invitation",
-  "Winter Storm 5x7 Gate Fold Wedding Invitation",
-  "Mountain Peaks 5x7 Gate Fold Wedding Invitation",
-  "Elegant Couple's Photo 5x7 Gate Fold Spanish & English Wedding Invitation",
+  "CHASE-SQ-ECRU-AI [I-12] Pocket & Folder Invitation",
+  "O2P-57-M-M Midnight Blue, Ice Silver Pocket & Folder Invitation",
+  "PAL-BL-57-MMN Crystal, Bronze, Coral Pocket & Folder Invitation",
+  "PSQ-77-MMM-2WL Botanic, Lime, Poison Ivory Pocket & Folder Invitation",
+  "PSQ-77-MNM-EF-RD6 Gold, Fizz, Poison Ivory Pocket & Folder Invitation",
+  "Paneled Heart [CC-35] Pocket & Folder Invitation",
+  "PSQ-77-NNN-2WL Coral, Cotton Candy, Bubblegum Pocket & Folder Invitation",
+  "PAL-57-MMM Sapphire, Mandarin, White Gold Pocket & Folder Invitation",
+  "PSQ-77-MMM-2WL Silver, Mars, Poison Ivory Pocket & Folder Invitation",
+  "Slider 57 MMN Onyx, Gold Linen, Natural Linen Pocket & Folder Invitation",
+  "PSQ-77-MMM-2WL Fairway, Kunzite, Quartz Pocket & Folder Invitation",
+  "PSQ-77-MMM-EF-RD6 Mars, Gold, Quartz Pocket & Folder Invitation",
+  "CHASE-SQ-ECRU-DR2 [I-12] Pocket & Folder Invitation",
+  "Happily Ever After [CC-15] Pocket & Folder Invitation",
+  "Love Grows [CC-15] Pocket & Folder Invitation",
+  "O2P-57-N-N Red, Natural, Gold Leaf Pocket & Folder Invitation",
+  "PAL-57-MMM Ruby, Silver, Silk Pocket & Folder Invitation",
+  "SLIDER-57-NMN Blue, Gold Linen, Natural Linen Pocket & Folder Invitation",
+  "Wrapped in Gold [CC-65] Pocket & Folder Invitation",
+  "Baroque Brilliance [CC-88] Pocket & Folder Invitation",
+  "PAL-57-MMM Silver, Amethyst, Ice Silver Pocket & Folder Invitation",
+  "SLIDER-66-NMM Black, Amethyst, Silk Pocket & Folder Invitation",
+  "CTF-58-MMM Azalea, Gold, Quartz Pocket & Folder Invitation",
+  "Joyful Details [CC-81] Pocket & Folder Invitation",
+  "PAL-57-MMN Gold Leaf, Bronze, White Linen Pocket & Folder Invitation",
+  "CTF-58-N-N Blue, White Pocket & Folder Invitation",
+  "CTF-58-M-M Mars, Quartz Pocket & Folder Invitation",
+  "PAL-BL-57-MMM Crystal, Azalea, White Gold Pocket & Folder Invitation",
+  "CTF-68-N-N Red, Natural Pocket & Folder Invitation",
+  "PAL-BL-57-MMM Crystal, Ionised, Crystal Pocket & Folder Invitation",
+  "Monogram Flourish, Black Pocket, White Shimmer [CC-81] Pocket & Folder Invitation",
+  "PAL-66-MMM Crystal, Ionised, Quartz Pocket & Folder Invitation",
+  "Butterfly Wishes [CC-15] Pocket & Folder Invitation",
+  "PAL-66-MMM Onyx, Flame, Quartz Pocket & Folder Invitation",
+  "Leaf Swirl Seal & Send [CC-50] Pocket & Folder Invitation",
+  "PAL-BL-57-MMM Jupiter, Ionised, Crystal Pocket & Folder Invitation",
+  "Typography Inspiration [CC-75] Pocket & Folder Invitation",
+  "Lovely Sophisticate [CC-20] Pocket & Folder Invitation",
+  "Marriage Celebration Seal & Send [CC-30] Pocket & Folder Invitation",
+  "PAL-66-MMM Quartz, Ruby, Gold Leaf Pocket & Folder Invitation",
+  "PAL-66-MMM Quartz, Violette, Serpentine Pocket & Folder Invitation",
+  "Traditional Grace [CC-02] Pocket & Folder Invitation",
+  "Retro Typography Seal & Send [CC-30] Pocket & Folder Invitation",
+  "Traditional Panel Grace [CC-02] Pocket & Folder Invitation",
+  "Tropical Sunset [CC-15] Pocket & Folder Invitation",
+  "PAL-66-MNN Amethyst, Purple, White Linen Pocket & Folder Invitation",
+  "Simply Perfect Seal & Send [CC-04] Pocket & Folder Invitation",
+  "Sophisticated Style Ecru Seal & Send [CC-20] Pocket & Folder Invitation",
+  "PAL-66-NMM Dark Grey, Purple, Silk Pocket & Folder Invitation",
+  "PAL-R-57-MMM-Band Azalea, Gold, Opal Pocket & Folder Invitation",
+  "PAL-R-57-MMM Azalea, Ionised, Ice Silver Pocket & Folder Invitation",
+  "PAL-R-57-MMM Rose Quartz, Azalea, Ice Silver Pocket & Folder Invitation",
+  "PAL-V-57-MMM Gold, Red Lacquer, Ice Gold Pocket & Folder Invitation",
+  "PAL-57-MNN-Overlay Serpentine, Salmon, Linen Pocket & Folder Invitation",
+  "Bright Spirit [CC-70] Pocket & Folder Invitation",
+  "Distinctive Dots [CC-70] Pocket & Folder Invitation",
+  "Treasured Love [CC-65] Pocket & Folder Invitation",
+  "6 1/4 Himalaya Avalanche White Felt Pocket & Folder Invitation",
+  "6 1/4 Himalaya Warm White Felt Pocket & Folder Invitation",
+  "A-7.5 Himalaya Beige Sand Metallic Pocket & Folder Invitation",
+  "A-7.5 Himalaya Bronze Metallic Pocket & Folder Invitation",
+  "A-7.5 Himalaya Chocolate Brown Solid Pocket & Folder Invitation",
+  "A-7.5 Himalaya Classic Gray Linen Pocket & Folder Invitation",
+  "A-7.5 Himalaya Classic Ivory Linen Pocket & Folder Invitation",
+  "A-7.5 Himalaya Green Fairway Metallic Pocket & Folder Invitation",
+  "A-7.5 Himalaya Kunzite Metallic Pocket & Folder Invitation",
+  "A-7.5 Himalaya Red Pepper Linen Pocket & Folder Invitation",
+  "A7 Atlas Classic Avalanche White Felt Pocket & Folder Invitation",
+  "A7 Atlas Warm White Felt Pocket & Folder Invitation",
+  "A7 Cascade Warm White Felt Pocket & Folder Invitation",
+  "A7 Denali Warm White Felt Pocket",
+  "A7 Himalaya Classic Avalanche White Felt Pocket & Folder Invitation",
+  "A7 Himalaya Warm White Felt Pocket & Folder Invitation",
+  "Aloe Mint Green Metallic Pocket & Folder Invitation Card, A-7.5 Himalaya",
+  "Aloe Mint Green Metallic Pocket & Folder Invitation Card, A7 Himalaya",
+  "Antique Gold Metallic Pocket & Folder Invitation Card, A7 Atlas",
+  "Antique Gold Metallic Pocket & Folder Invitation Card, A7 Cascade",
+  "Antique Gold Metallic Pocket & Folder Invitation Card, A7 Denali",
+  "Antique Gold Metallic Pocket & Folder Invitation Card, A7 Himalaya",
+  "Aqua Lagoon Metallic Pocket & Folder Invitation Card, 6 1/4 Denali",
+  "Aqua Lagoon Metallic Pocket & Folder Invitation Card, 6 1/4 Himalaya",
+  "Aqua Lagoon Metallic Pocket & Folder Invitation Card, A-7.5 Himalaya",
+  "Aqua Lagoon Metallic Pocket & Folder Invitation Card, A7 Atlas",
+  "Aqua Lagoon Metallic Pocket & Folder Invitation Card, A7 Cascade",
+  "Aqua Lagoon Metallic Pocket & Folder Invitation Card, A7 Denali",
+  "Aqua Lagoon Metallic Pocket & Folder Invitation Card, A7 Himalaya",
+  'Aqua Lagoon Metallic Sleeve, 5" x 7" Pocket & Folder Invitation',
+  "Banana Yellow Solid Pocket & Folder Invitation Card, A7 Denali",
+  "Banana Yellow Solid Pocket & Folder Invitation Card, A7 Himalaya",
+  'Banana Yellow Solid Sleeve, 5" x 7" Pocket & Folder Invitation',
+  "Beige Sand Metallic Pocket & Folder Invitation Card, 6 1/4 Denali",
+  "Beige Sand Metallic Pocket & Folder Invitation Card, 6 1/4 Himalaya",
+  "Beige Sand Metallic Pocket & Folder Invitation Card, A7 Atlas",
+  "Beige Sand Metallic Pocket & Folder Invitation Card, A7 Cascade",
+  "Beige Sand Metallic Pocket & Folder Invitation Card, A7 Denali",
+  "Beige Sand Metallic Pocket & Folder Invitation Card, A7 Himalaya",
+  "Black Solid Pocket & Folder Invitation Card, 6 1/4 Denali",
+  "Black Solid Pocket & Folder Invitation Card, A-7.5 Himalaya",
+  "Black Solid Pocket & Folder Invitation Card, A7 Cascade",
+  "Black Solid Pocket & Folder Invitation Card, A7 Denali",
+  'Black Solid Sleeve, 5" x 7" Pocket & Folder Invitation',
+  "Blazer Blue Linen Pocket & Folder Invitation Card, 6 1/4 Himalaya",
+  "Blazer Blue Linen Pocket & Folder Invitation Card, A-7.5 Himalaya",
+  "Blazer Blue Linen Pocket & Folder Invitation Card, A7 Atlas",
+  "Blazer Blue Linen Pocket & Folder Invitation Card, A7 Cascade",
+  "Blazer Blue Linen Pocket & Folder Invitation Card, A7 Himalaya",
+  "Blazer Blue Solid Pocket & Folder Invitation Card, 6 1/4 Himalaya",
+  "Blazer Blue Solid Pocket & Folder Invitation Card, A-7.5 Himalaya",
+  "Blazer Blue Solid Pocket & Folder Invitation Card, A7 Atlas",
+  "Blazer Blue Solid Pocket & Folder Invitation Card, A7 Cascade",
+  "Blazer Blue Solid Pocket & Folder Invitation Card, A7 Denali",
+  "Blazer Blue Solid Pocket & Folder Invitation Card, A7 Himalaya",
+  "Blue Vista Metallic Pocket & Folder Invitation Card, 6 1/4 Himalaya",
+  "Blue Vista Metallic Pocket & Folder Invitation Card, A7 Himalaya",
+  "Blueprint Blue Metallic Pocket & Folder Invitation Card, 6 1/4 Himalaya",
+  "Blueprint Blue Metallic Pocket & Folder Invitation Card, A7 Atlas",
+  "Blueprint Blue Metallic Pocket & Folder Invitation Card, A7 Cascade",
+  "Blueprint Blue Metallic Pocket & Folder Invitation Card, A7 Denali",
+  "Blueprint Blue Metallic Pocket & Folder Invitation Card, A7 Himalaya",
+  "Bright White 80 lb Linen Pocket & Folder Invitation Card, A2 Sierra",
+  "Bright White Linen Pocket & Folder Invitation Card, 6 1/4 Himalaya",
+  "Bright White Linen Pocket & Folder Invitation Card, A-7.5 Himalaya",
+  "Bright White Linen Pocket & Folder Invitation Card, A7 Atlas",
+  "Bright White Linen Pocket & Folder Invitation Card, A7 Cascade",
+  "Bright White Linen Pocket & Folder Invitation Card, A7 Denali",
+  "Bright White Linen Pocket & Folder Invitation Card, A7 Himalaya",
+  "Bronze Brown Metallic Pocket & Folder Invitation Card, 6 1/4 Denali",
+  "Bronze Brown Metallic Pocket & Folder Invitation Card, 6 1/4 Himalaya",
+  "Bronze Brown Metallic Pocket & Folder Invitation Card, A2 Sierra",
+  "Bronze Brown Metallic Pocket & Folder Invitation Card, A7 Atlas",
+  "Bronze Brown Metallic Pocket & Folder Invitation Card, A7 Cascade",
+  "Bronze Brown Metallic Pocket & Folder Invitation Card, A7 Denali",
+  "Bronze Brown Metallic Pocket & Folder Invitation Card, A7 Himalaya",
+  'Bronze Brown Metallic Sleeve, 5" x 7" Pocket & Folder Invitation',
+  "Brown Spring Bloom on Classic White Solid, A7 Himalaya",
+  "Brown Spring Bloom on Pearl White Metallic, A7 Himalaya",
+  "Brown Embossed Wood Grain Pocket & Folder Invitation Card, A7 Himalaya",
+  "Carmine Burgundy Solid Pocket & Folder Invitation Card, A-7.5 Himalaya",
+  "Carmine Burgundy Solid Pocket & Folder Invitation Card, A7 Himalaya",
+  "Champagne Cream Metallic Pocket & Folder Invitation Card, 6 1/4 Denali",
+  "Champagne Cream Metallic Pocket & Folder Invitation Card, 6 1/4 Himalaya",
+  "Champagne Cream Metallic Pocket & Folder Invitation Card, A-7.5 Himalaya",
+  "Champagne Cream Metallic Pocket & Folder Invitation Card, A2 Sierra",
+  "Champagne Cream Metallic Pocket & Folder Invitation Card, A7 Atlas",
+  "Champagne Cream Metallic Pocket & Folder Invitation Card, A7 Cascade",
+  "Champagne Cream Metallic Pocket & Folder Invitation Card, A7 Denali",
+  "Champagne Cream Metallic Pocket & Folder Invitation Card, A7 Himalaya",
+  'Champagne Cream Metallic Sleeve, 5" x 7" Pocket & Folder Invitation',
+  "CHASE-SQ-SH-HEART [I-12] Pocket & Folder Invitation",
+  "Cherry Red Solid Pocket & Folder Invitation Card, A-7.5 Himalaya",
+  "Cherry Red Solid Pocket & Folder Invitation Card, A7 Atlas",
+  "Cherry Red Solid Pocket & Folder Invitation Card, A7 Cascade",
+  "Cherry Red Solid Pocket & Folder Invitation Card, A7 Denali",
+  "Cherry Red Solid Pocket & Folder Invitation Card, A7 Himalaya",
+  'Cherry Red Solid Sleeve, 5" x 7" Pocket & Folder Invitation',
+  "Chocolate 100 lb Brown Solid Pocket & Folder Invitation Card, A2 Sierra",
+  "Chocolate Brown Solid Pocket & Folder Invitation Card, 6 1/4 Denali",
+  "Chocolate Brown Solid Pocket & Folder Invitation Card, 6 1/4 Himalaya",
+  "Chocolate Brown Solid Pocket & Folder Invitation Card, A7 Atlas",
+  "Chocolate Brown Solid Pocket & Folder Invitation Card, A7 Cascade",
+  "Chocolate Brown Solid Pocket & Folder Invitation Card, A7 Denali",
+  "Chocolate Brown Solid Pocket & Folder Invitation Card, A7 Himalaya",
+  'Chocolate Brown Solid Sleeve, 5" x 7" Pocket & Folder Invitation',
+  "Classic Gray Linen Pocket & Folder Invitation Card, A7 Atlas",
+  "Classic Gray Linen Pocket & Folder Invitation Card, A7 Cascade",
+  "Classic Gray Linen Pocket & Folder Invitation Card, A7 Himalaya",
+  "Classic Ivory Linen Pocket & Folder Invitation Card, 6 1/4 Himalaya",
+  "Classic Ivory Linen Pocket & Folder Invitation Card, A7 Atlas",
+  "Classic Ivory Linen Pocket & Folder Invitation Card, A7 Cascade",
+  "Classic Ivory Linen Pocket & Folder Invitation Card, A7 Denali",
+  "Classic Ivory Linen Pocket & Folder Invitation Card, A7 Himalaya",
+  "Classic Natural Cream 100 lb Solid Pocket & Folder Invitation Card, A2 Sierra",
+  "Classic Natural Cream Solid Pocket & Folder Invitation Card, 6 1/4 Denali",
+  "Classic Natural Cream Solid Pocket & Folder Invitation Card, 6 1/4 Himalaya",
+  "Classic Natural Cream Solid Pocket & Folder Invitation Card, A-7.5 Himalaya",
+  "Classic Natural Cream Solid Pocket & Folder Invitation Card, A7 Atlas",
+  "Classic Natural Cream Solid Pocket & Folder Invitation Card, A7 Cascade",
+  "Classic Natural Cream Solid Pocket & Folder Invitation Card, A7 Denali",
+  "Classic Natural Cream Solid Pocket & Folder Invitation Card, A7 Himalaya",
+  'Classic Natural Cream Solid Sleeve, 5" x 7" Pocket & Folder Invitation',
+  "Classic White 100 lb Solid Pocket & Folder Invitation Card, A2 Sierra",
+  "Classic White Solid Pocket & Folder Invitation Card, 6 1/4 Denali",
+  "Classic White Solid Pocket & Folder Invitation Card, 6 1/4 Himalaya",
+  "Classic White Solid Pocket & Folder Invitation Card, A-7.5 Himalaya",
+  "Classic White Solid Pocket & Folder Invitation Card, A7 Atlas",
+  "Classic White Solid Pocket & Folder Invitation Card, A7 Cascade",
+  "Classic White Solid Pocket & Folder Invitation Card, A7 Denali",
+  "Classic White Solid Pocket & Folder Invitation Card, A7 Himalaya",
+  'Classic White Solid Sleeve, 5" x 7" Pocket & Folder Invitation',
+  "Concrete Gray Kraft 100 lb Raw Recycled Pocket & Folder Invitation Card, A-7.5 Himalaya",
+  "Concrete Gray Kraft 100 lb Raw Recycled Pocket & Folder Invitation Card, A7 Atlas",
+  "Concrete Gray Kraft 100 lb Raw Recycled Pocket & Folder Invitation Card, A7 Denali",
+  "Concrete Gray Kraft 100 lb Raw Recycled Pocket & Folder Invitation Card, A7 Himalaya",
+  'Concrete Gray Kraft 100 lb Raw Recycled Sleeve, 5" x 7" Pocket & Folder Invitation',
+  "Copper Metallic Pocket & Folder Invitation Card, 6 1/4 Himalaya",
+  "Copper Metallic Pocket & Folder Invitation Card, A7 Atlas",
+  "Copper Metallic Pocket & Folder Invitation Card, A7 Cascade",
+  "Copper Metallic Pocket & Folder Invitation Card, A7 Denali",
+  "Copper Metallic Pocket & Folder Invitation Card, A7 Himalaya",
+  "Cotton Candy Pink Solid Pocket & Folder Invitation Card, A7 Denali",
+  "Cotton Candy Pink Solid Pocket & Folder Invitation Card, A7 Himalaya",
+  "Crimson Red Metallic Pocket & Folder Invitation Card, 6 1/4 Denali",
+  "Crimson Red Metallic Pocket & Folder Invitation Card, 6 1/4 Himalaya",
+  "Crimson Red Metallic Pocket & Folder Invitation Card, A2 Sierra",
+  "Crimson Red Metallic Pocket & Folder Invitation Card, A7 Atlas",
+  "Crimson Red Metallic Pocket & Folder Invitation Card, A7 Cascade",
+  "Crimson Red Metallic Pocket & Folder Invitation Card, A7 Denali",
+  "Crimson Red Metallic Pocket & Folder Invitation Card, A7 Himalaya",
+  'Crimson Red Metallic Sleeve, 5" x 7" Pocket & Folder Invitation',
+  "Dark Blue 107 lb Metallic Pocket & Folder Invitation Card, A2 Sierra",
+  "Dark Blue Metallic Pocket & Folder Invitation Card, 6 1/4 Denali",
+  "Dark Blue Metallic Pocket & Folder Invitation Card, 6 1/4 Himalaya",
+  "Dark Blue Metallic Pocket & Folder Invitation Card, A-7.5 Himalaya",
+  "Dark Blue Metallic Pocket & Folder Invitation Card, A7 Cascade",
+  "Dark Blue Metallic Pocket & Folder Invitation Card, A7 Denali",
+  "Dark Blue Metallic Pocket & Folder Invitation Card, A7 Himalaya",
+  'Dark Blue Metallic Sleeve, 5" x 7" Pocket & Folder Invitation',
+  "Dark Brown Linen Pocket & Folder Invitation Card, 6 1/4 Himalaya",
+  "Dark Brown Linen Pocket & Folder Invitation Card, A7 Atlas",
+  "Dark Brown Linen Pocket & Folder Invitation Card, A7 Cascade",
+  "Dark Brown Linen Pocket & Folder Invitation Card, A7 Denali",
+  "Dark Brown Linen Pocket & Folder Invitation Card, A7 Himalaya",
+  "Dark Purple 80 lb Solid Pocket & Folder Invitation Card, A2 Sierra",
+  "Dark Purple Solid Pocket & Folder Invitation Card, 6 1/4 Denali",
+  "Dark Purple Solid Pocket & Folder Invitation Card, 6 1/4 Himalaya",
+  "Dark Purple Solid Pocket & Folder Invitation Card, A-7.5 Himalaya",
+  "Dark Purple Solid Pocket & Folder Invitation Card, A7 Cascade",
+  "Dark Purple Solid Pocket & Folder Invitation Card, A7 Denali",
+  'Dark Purple Solid Sleeve, 5" x 7" Pocket & Folder Invitation',
+  "Dusty Steel Blue Solid Pocket & Folder Invitation Card, A7 Atlas",
+  "Dusty Steel Blue Solid Pocket & Folder Invitation Card, A7 Himalaya",
+  "Electric Blue Metallic Pocket & Folder Invitation Card, A7 Himalaya",
+  "Epic Black Linen Pocket & Folder Invitation Card, 6 1/4 Himalaya",
+  "Epic Black Linen Pocket & Folder Invitation Card, A-7.5 Himalaya",
+  "Epic Black Linen Pocket & Folder Invitation Card, A7 Cascade",
+  "Epic Black Linen Pocket & Folder Invitation Card, A7 Denali",
+  "Epic Black Linen Pocket & Folder Invitation Card, A7 Himalaya",
+  "Forest Green Solid Pocket & Folder Invitation Card, A-7.5 Himalaya",
+  "Forest Green Solid Pocket & Folder Invitation Card, A7 Himalaya",
+  "Gold Leaf 92 lb Metallic Pocket & Folder Invitation Card, A2 Sierra",
+  "Gold Leaf Metallic Pocket & Folder Invitation Card, 6 1/4 Denali",
+  "Gold Leaf Metallic Pocket & Folder Invitation Card, 6 1/4 Himalaya",
+  "Gold Leaf Metallic Pocket & Folder Invitation Card, A-7.5 Himalaya",
+  "Gold Leaf Metallic Pocket & Folder Invitation Card, A7 Atlas",
+  "Gold Leaf Metallic Pocket & Folder Invitation Card, A7 Cascade",
+  "Gold Leaf Metallic Pocket & Folder Invitation Card, A7 Himalaya",
+  "Gold Metallic Pocket & Folder Invitation Card, 6 1/4 Denali",
+  "Gold Metallic Pocket & Folder Invitation Card, 6 1/4 Himalaya",
+  "Gold Metallic Pocket & Folder Invitation Card, A-7.5 Himalaya",
+  "Gold Metallic Pocket & Folder Invitation Card, A2 Sierra",
+  "Gold Metallic Pocket & Folder Invitation Card, A7 Cascade",
+  "Gold Metallic Pocket & Folder Invitation Card, A7 Denali",
+  "Gold Metallic Pocket & Folder Invitation Card, A7 Himalaya",
+  'Gold Metallic Sleeve, 5" x 7" Pocket & Folder Invitation',
+  "Gray Simple Swirl on Classic White Solid, A7 Himalaya",
+  "Gray Smoke Solid Pocket & Folder Invitation Card, 6 1/4 Himalaya",
+  "Gray Smoke Solid Pocket & Folder Invitation Card, A-7.5 Himalaya",
+  "Gray Smoke Solid Pocket & Folder Invitation Card, A7 Atlas",
+  "Gray Smoke Solid Pocket & Folder Invitation Card, A7 Cascade",
+  "Gray Smoke Solid Pocket & Folder Invitation Card, A7 Denali",
+  "Gray Smoke Solid Pocket & Folder Invitation Card, A7 Himalaya",
+  "Green Fairway Metallic Pocket & Folder Invitation Card, 6 1/4 Denali",
+  "Green Fairway Metallic Pocket & Folder Invitation Card, 6 1/4 Himalaya",
+  "Green Fairway Metallic Pocket & Folder Invitation Card, A7 Atlas",
+  "Green Fairway Metallic Pocket & Folder Invitation Card, A7 Cascade",
+  "Green Fairway Metallic Pocket & Folder Invitation Card, A7 Denali",
+  "Green Fairway Metallic Pocket & Folder Invitation Card, A7 Himalaya",
+  'Green Fairway Metallic Sleeve, 5" x 7" Pocket & Folder Invitation',
+  "Grey Fog Solid Pocket & Folder Invitation Card, A7 Himalaya",
+  "Guardsman Red Solid Pocket & Folder Invitation Card, A-7.5 Himalaya",
+  "Iceberg Blue Metallic Pocket & Folder Invitation Card, A7 Himalaya",
+  "Jupiter Red Metallic Pocket & Folder Invitation Card, 6 1/4 Himalaya",
+  "Jupiter Red Metallic Pocket & Folder Invitation Card, A7 Atlas",
+  "Jupiter Red Metallic Pocket & Folder Invitation Card, A7 Cascade",
+  "Jupiter Red Metallic Pocket & Folder Invitation Card, A7 Denali",
+  "Jupiter Red Metallic Pocket & Folder Invitation Card, A7 Himalaya",
+  'Jupiter Red Metallic Sleeve, 5" x 7" Pocket & Folder Invitation',
+  "Kraft Brown 100 lb Raw Recycled Pocket & Folder Invitation Card, A-7.5 Himalaya",
+  "Kraft Brown 100 lb Raw Recycled Pocket & Folder Invitation Card, A7 Atlas",
+  "Kraft Brown 100 lb Raw Recycled Pocket & Folder Invitation Card, A7 Denali",
+  "Kraft Brown 100 lb Raw Recycled Pocket & Folder Invitation Card, A7 Himalaya",
+  "Kraft Brown Recycled Pocket & Folder Invitation Card 130 lb, A7 Cascade (Discontinued)",
+  "Kraft Brown Recycled Pocket & Folder Invitation Card 65 lb, A7 Cascade (Discontinued)",
+  "Kunzite Metallic Pocket & Folder Invitation Card, A7 Himalaya",
+  "Lavender Metallic Pocket & Folder Invitation Card, 6 1/4 Himalaya",
+  "Lavender Metallic Pocket & Folder Invitation Card, A7 Atlas",
+  "Lavender Metallic Pocket & Folder Invitation Card, A7 Cascade",
+  "Lavender Metallic Pocket & Folder Invitation Card, A7 Denali",
+  "Lavender Metallic Pocket & Folder Invitation Card, A7 Himalaya",
+  "Lemon Yellow Solid Pocket & Folder Invitation Card, A7 Denali",
+  "Meadow Green Solid Pocket & Folder Invitation Card, 6 1/4 Denali",
+  "Meadow Green Solid Pocket & Folder Invitation Card, 6 1/4 Himalaya",
+  "Meadow Green Solid Pocket & Folder Invitation Card, A7 Atlas",
+  "Meadow Green Solid Pocket & Folder Invitation Card, A7 Cascade",
+  "Meadow Green Solid Pocket & Folder Invitation Card, A7 Denali",
+  "Meadow Green Solid Pocket & Folder Invitation Card, A7 Himalaya",
+  'Meadow Green Solid Sleeve, 5" x 7" Pocket & Folder Invitation',
+  "Metallic Cream 84 lb Linen Pocket & Folder Invitation Card, A2 Sierra",
+  "Metallic Cream Linen Pocket & Folder Invitation Card, 6 1/4 Himalaya Bilingual",
+  "Metallic Cream Linen Pocket & Folder Invitation Card, A7 Atlas Bilingual",
+  "Metallic Cream Linen Pocket & Folder Invitation Card, A7 Cascade Bilingual",
+  "Metallic Cream Linen Pocket & Folder Invitation Card, A7 Denali Bilingual",
+  "Metallic Cream Linen Pocket & Folder Invitation Card, A7 Himalaya Bilingual",
+  "Metallic Gold 84 lb Linen Pocket & Folder Invitation Card, A2 Sierra Bilingual",
+  "Metallic Gold Linen Pocket & Folder Invitation Card, A-7.5 Himalaya Bilingual",
+  "Metallic Gold Linen Pocket & Folder Invitation Card, A7 Cascade Bilingual",
+  "Metallic Gold Linen Pocket & Folder Invitation Card, A7 Denali Bilingual",
+  "Metallic Gold Linen Pocket & Folder Invitation Card, A7 Himalaya Bilingual",
+  "Metallic White 84 lb Linen Pocket & Folder Invitation Card, A2 Sierra Bilingual",
+  "Metallic White Linen Pocket & Folder Invitation Card, 6 1/4 Himalaya Bilingual",
+  "Metallic White Linen Pocket & Folder Invitation Card, A-7.5 Himalaya Bilingual",
+  "Metallic White Linen Pocket & Folder Invitation Card, A7 Atlas Bilingual",
+  "Metallic White Linen Pocket & Folder Invitation Card, A7 Cascade Bilingual",
+  "Metallic White Linen Pocket & Folder Invitation Card, A7 Denali Bilingual",
+  "Metallic White Linen Pocket & Folder Invitation Card, A7 Himalaya Bilingual",
+  "Misty Rose Metallic Pocket & Folder Invitation Card, A7 Denali Bilingual",
+  "Misty Rose Metallic Pocket & Folder Invitation Card, A7 Himalaya",
+  "Natural Cream 80 lb Linen Pocket & Folder Invitation Card, A2 Sierra",
+  "Natural Cream Linen Pocket & Folder Invitation Card, 6 1/4 Himalaya",
+  "Natural Cream Linen Pocket & Folder Invitation Card, A7 Atlas",
+  "Natural Cream Linen Pocket & Folder Invitation Card, A7 Cascade",
+  "Natural Cream Linen Pocket & Folder Invitation Card, A7 Denali",
+  "Natural Cream Linen Pocket & Folder Invitation Card, A7 Himalaya",
+  "Old Rose Pink Solid Pocket & Folder Invitation Card, A-7.5 Himalaya",
+  "Old Rose Pink Solid Pocket & Folder Invitation Card, A7 Himalaya",
+  "Onyx Black 107 lb Metallic Pocket & Folder Invitation Card, A2 Sierra",
+  "Onyx Black Metallic Pocket & Folder Invitation Card, 6 1/4 Denali",
+  "Onyx Black Metallic Pocket & Folder Invitation Card, 6 1/4 Himalaya",
+  "Onyx Black Metallic Pocket & Folder Invitation Card, A-7.5 Himalaya",
+  "Onyx Black Metallic Pocket & Folder Invitation Card, A7 Atlas",
+  "Onyx Black Metallic Pocket & Folder Invitation Card, A7 Cascade",
+  "Onyx Black Metallic Pocket & Folder Invitation Card, A7 Himalaya",
+  "Orange Flame Metallic Pocket & Folder Invitation Card, A7 Himalaya",
+  "Orchid Solid Pocket & Folder Invitation Card, A7 Himalaya",
+  "PAL-57-MMM Amethyst, Gold Leaf Pocket & Folder Invitation",
+  "Pastel Blue Solid Pocket & Folder Invitation Card, A-7.5 Himalaya",
+  "Pastel Blue Solid Pocket & Folder Invitation Card, A7 Himalaya",
+  "Pastel Pink Solid Pocket & Folder Invitation Card, A-7.5 Himalaya",
+  "Pastel Pink Solid Pocket & Folder Invitation Card, A7 Himalaya",
+  "Peach (Coral) Metallic Pocket & Folder Invitation Card, 6 1/4 Denali",
+  "Peach (Coral) Metallic Pocket & Folder Invitation Card, 6 1/4 Himalaya",
+  "Peach (Coral) Metallic Pocket & Folder Invitation Card, A-7.5 Himalaya",
+  "Peach (Coral) Metallic Pocket & Folder Invitation Card, A7 Atlas",
+  "Peach (Coral) Metallic Pocket & Folder Invitation Card, A7 Cascade",
+  "Peach (Coral) Metallic Pocket & Folder Invitation Card, A7 Denali",
+  "Peach (Coral) Metallic Pocket & Folder Invitation Card, A7 Himalaya",
+  'Peach (Coral) Metallic Sleeve, 5" x 7" Pocket & Folder Invitation',
+  "Pearl Metallic Pocket & Folder Invitation Card, 6 1/4 Himalaya",
+  "Pearl White Metallic Pocket & Folder Invitation Card, 6 1/4 Denali",
+  "Pearl White Metallic Pocket & Folder Invitation Card, A-7.5 Himalaya",
+  "Pearl White Metallic Pocket & Folder Invitation Card, A2 Sierra",
+  "Pearl White Metallic Pocket & Folder Invitation Card, A7 Atlas",
+  "Pearl White Metallic Pocket & Folder Invitation Card, A7 Cascade",
+  "Pearl White Metallic Pocket & Folder Invitation Card, A7 Denali",
+  "Pearl White Metallic Pocket & Folder Invitation Card, A7 Himalaya",
+  'Pearl White Metallic Sleeve, 5" x 7" Pocket & Folder Invitation',
+  "Pink Azalea 105 lb Metallic Pocket & Folder Invitation Card, A2 Sierra",
+  "Pink Azalea Metallic Pocket & Folder Invitation Card, 6 1/4 Himalaya",
+  "Pink Azalea Metallic Pocket & Folder Invitation Card, A7 Atlas",
+  "Pink Azalea Metallic Pocket & Folder Invitation Card, A7 Cascade",
+  "Pink Azalea Metallic Pocket & Folder Invitation Card, A7 Denali",
+  "Pink Azalea Metallic Pocket & Folder Invitation Card, A7 Himalaya",
+  'Pink Azalea Metallic Sleeve, 5" x 7" Pocket & Folder Invitation',
+  "Purple Eggplant Solid Pocket & Folder Invitation Card, 6 1/4 Himalaya",
+  "Purple Eggplant Solid Pocket & Folder Invitation Card, A-7.5 Himalaya",
+  "Purple Eggplant Solid Pocket & Folder Invitation Card, A7 Denali",
+  "Purple Eggplant Solid Pocket & Folder Invitation Card, A7 Himalaya",
+  "Purple Punch Metallic Pocket & Folder Invitation Card, 6 1/4 Himalaya",
+  "Purple Punch Metallic Pocket & Folder Invitation Card, A7 Himalaya",
+  "Razzle Pink 100 lb Solid Pocket & Folder Invitation Card, A2 Sierra",
+  "Razzle Pink Solid Pocket & Folder Invitation Card, 6 1/4 Himalaya",
+  "Razzle Pink Solid Pocket & Folder Invitation Card, A-7.5 Himalaya",
+  "Razzle Pink Solid Pocket & Folder Invitation Card, A7 Atlas",
+  "Razzle Pink Solid Pocket & Folder Invitation Card, A7 Cascade",
+  "Razzle Pink Solid Pocket & Folder Invitation Card, A7 Denali",
+  "Razzle Pink Solid Pocket & Folder Invitation Card, A7 Himalaya",
+  'Razzle Pink Solid Sleeve, 5" x 7" Pocket & Folder Invitation',
+  "Red Pepper Linen Pocket & Folder Invitation Card, 6 1/4 Himalaya",
+  "Red Pepper Linen Pocket & Folder Invitation Card, A7 Atlas",
+  "Red Pepper Linen Pocket & Folder Invitation Card, A7 Cascade",
+  "Red Pepper Linen Pocket & Folder Invitation Card, A7 Denali",
+  "Red Pepper Linen Pocket & Folder Invitation Card, A7 Himalaya",
+  "Rose Gold Metallic Pocket & Folder Invitation Card, A-7.5 Himalaya",
+  "Rose Gold Metallic Pocket & Folder Invitation Card, A7 Himalaya",
+  "Rose Pink Metallic Pocket & Folder Invitation Card, 6 1/4 Himalaya",
+  "Rose Pink Metallic Pocket & Folder Invitation Card, A7 Atlas",
+  "Rose Pink Metallic Pocket & Folder Invitation Card, A7 Cascade",
+  "Rose Pink Metallic Pocket & Folder Invitation Card, A7 Denali",
+  "Rose Pink Metallic Pocket & Folder Invitation Card, A7 Himalaya",
+  "Rosebud Pink Solid Pocket & Folder Invitation Card, A-7.5 Himalaya",
+  "Rosebud Pink Solid Pocket & Folder Invitation Card, A7 Himalaya",
+  "Ruby Purple 105 lb Metallic Pocket & Folder Invitation Card, A2 Sierra",
+  "Ruby Purple Metallic Pocket & Folder Invitation Card, 6 1/4 Himalaya",
+  "Ruby Purple Metallic Pocket & Folder Invitation Card, A-7.5 Himalaya",
+  "Ruby Purple Metallic Pocket & Folder Invitation Card, A7 Atlas",
+  "Ruby Purple Metallic Pocket & Folder Invitation Card, A7 Cascade",
+  "Ruby Purple Metallic Pocket & Folder Invitation Card, A7 Denali",
+  "Ruby Purple Metallic Pocket & Folder Invitation Card, A7 Himalaya",
+  'Ruby Purple Metallic Sleeve, 5" x 7" Pocket & Folder Invitation',
+  "Sand Specks Recycled Pocket & Folder Invitation Card, 6 1/4 Himalaya",
+  "Sand Specks Recycled Pocket & Folder Invitation Card, A7 Atlas",
+  "Sand Specks Recycled Pocket & Folder Invitation Card, A7 Cascade",
+  "Sand Specks Recycled Pocket & Folder Invitation Card, A7 Denali",
+  "Sand Specks Recycled Pocket & Folder Invitation Card, A7 Himalaya",
+  'Sand Specks Recycled Sleeve, 5" x 7" Pocket & Folder Invitation',
+  "Silver Metallic Pocket & Folder Invitation Card, 6 1/4 Denali",
+  "Silver Metallic Pocket & Folder Invitation Card, 6 1/4 Himalaya",
+  "Silver Metallic Pocket & Folder Invitation Card, A-7.5 Himalaya",
+  "Silver Metallic Pocket & Folder Invitation Card, A2 Sierra",
+  "Silver Metallic Pocket & Folder Invitation Card, A7 Atlas",
+  "Silver Metallic Pocket & Folder Invitation Card, A7 Denali",
+  "Silver Metallic Pocket & Folder Invitation Card, A7 Himalaya",
+  'Silver Metallic Sleeve, 5" x 7" Pocket & Folder Invitation',
+  "Sky Blue Linen Pocket & Folder Invitation Card, A7 Atlas",
+  "Sky Blue Linen Pocket & Folder Invitation Card, A7 Himalaya",
+  "Sleeve Classic Avalanche White Felt Pocket & Folder Invitation",
+  "Sleeve Warm White Felt Pocket & Folder Invitation",
+  "Steel Gray 92 lb Metallic Pocket & Folder Invitation Card, A2 Sierra",
+  "Steel Gray Metallic Pocket & Folder Invitation Card, 6 1/4 Denali",
+  "Steel Gray Metallic Pocket & Folder Invitation Card, 6 1/4 Himalaya",
+  "Steel Gray Metallic Pocket & Folder Invitation Card, A-7.5 Himalaya",
+  "Steel Gray Metallic Pocket & Folder Invitation Card, A7 Atlas",
+  "Steel Gray Metallic Pocket & Folder Invitation Card, A7 Cascade",
+  "Steel Gray Metallic Pocket & Folder Invitation Card, A7 Denali",
+  "Steel Gray Metallic Pocket & Folder Invitation Card, A7 Himalaya",
+  'Steel Gray Metallic Sleeve, 5" x 7" Pocket & Folder Invitation',
+  "Sunrise Yellow Metallic Pocket & Folder Invitation Card, 6 1/4 Himalaya",
+  "Sunrise Yellow Metallic Pocket & Folder Invitation Card, A7 Himalaya",
+  "Taupe Brown Recycled Pocket & Folder Invitation Card, 6 1/4 Himalaya",
+  "Taupe Brown Recycled Pocket & Folder Invitation Card, A-7.5 Himalaya",
+  "Taupe Brown Recycled Pocket & Folder Invitation Card, A7 Atlas",
+  "Taupe Brown Recycled Pocket & Folder Invitation Card, A7 Cascade",
+  "Taupe Brown Recycled Pocket & Folder Invitation Card, A7 Denali",
+  "Taupe Brown Recycled Pocket & Folder Invitation Card, A7 Himalaya",
+  'Taupe Brown Recycled Sleeve, 5" x 7" Pocket & Folder Invitation',
+  "Tiffany Blue Solid Pocket & Folder Invitation Card, 6 1/4 Denali",
+  "Tiffany Blue Solid Pocket & Folder Invitation Card, 6 1/4 Himalaya",
+  "Tiffany Blue Solid Pocket & Folder Invitation Card, A-7.5 Himalaya",
+  "Tiffany Blue Solid Pocket & Folder Invitation Card, A7 Atlas",
+  "Tiffany Blue Solid Pocket & Folder Invitation Card, A7 Cascade",
+  "Tiffany Blue Solid Pocket & Folder Invitation Card, A7 Denali",
+  "Tiffany Blue Solid Pocket & Folder Invitation Card, A7 Himalaya",
+  'Tiffany Blue Solid Sleeve, 5" x 7" Pocket & Folder Invitation',
+  "Tindalo Brown Embossed Wood Grain Pocket & Folder Invitation Card, A7 Himalaya",
+  "White Fiber Recycled Pocket & Folder Invitation Card, 6 1/4 Himalaya",
+  "White Fiber Recycled Pocket & Folder Invitation Card, A7 Atlas",
+  "White Fiber Recycled Pocket & Folder Invitation Card, A7 Cascade",
+  "White Fiber Recycled Pocket & Folder Invitation Card, A7 Denali",
+  "White Fiber Recycled Pocket & Folder Invitation Card, A7 Himalaya",
+  'White Fiber Recycled Sleeve, 5" x 7" Pocket & Folder Invitation',
+  "Wisteria Purple Solid Pocket & Folder Invitation Card, A-7.5 Himalaya",
+  "Wisteria Purple Solid Pocket & Folder Invitation Card, A7 Cascade",
+  "Wisteria Purple Solid Pocket & Folder Invitation Card, A7 Denali",
+  "Wisteria Purple Solid Pocket & Folder Invitation Card, A7 Himalaya",
+  "A7 Cascade Classic Avalanche White Felt Pocket & Folder Invitation",
 ];
 
-// const urlsProducts = [
-//   "https://www.apprinting.com/minimalist-design-with-hamburger-13oz.-standard-vinyl-banner",
-//   "https://www.apprinting.com/elegant-and-simple-design-presentation-folders/",
-//   "https://www.apprinting.com/vibrant-orange-design-presentation-folders/",
-//   "https://www.apprinting.com/white-with-green-design-a-frame-sign/",
-//   "https://www.apprinting.com/pizzerias-design-13oz.-standard-vinyl-banner/",
-//   "https://www.apprinting.com/teal-atoll-solid-pocket-invitation-card-a7-himalaya/",
-//   "https://www.apprinting.com/standard-business-cards-ddo/products/",
-//   "https://www.apprinting.com/black-solid-pocket-invitation-card-a7-atlas/",
-//   "https://www.apprinting.com/design-with-hot-dogs-13oz.-standard-vinyl-banner/",
-//   "https://www.apprinting.com/postcards/",
-//   "https://www.apprinting.com/calendar/",
-//   "https://www.apprinting.com/design-coffee-cup-13oz.-standard-vinyl-banner/",
-//   "https://www.apprinting.com/standard-postcards-3756/",
-//   "https://www.apprinting.com/pastel-blue-solid-pocket-invitation-card-a7-cascade/",
-//   "https://www.apprinting.com/blue-vertical-stripes-flyer",
-//   "https://www.apprinting.com/blue-vertical-stripes-flyer/",
-//   "https://www.apprinting.com/turquoise-with-paste-design-13oz.-standard-vinyl-banner",
-//   "https://www.apprinting.com/standard-postcards/",
-//   "https://www.apprinting.com/tacos-with-yellows-13oz.-standard-vinyl-banner",
-//   "https://www.apprinting.com/standard-postcards-3751/",
-//   "https://www.apprinting.com/invoice/",
-//   "https://www.apprinting.com/berkshire-degraded-purple-yard-sing/",
-//   "https://www.apprinting.com/chicken-design-with-vegetables-13oz.-standard-vinyl-banner",
-//   "https://www.apprinting.com/clasic-real-estate-custom-yard-signs/",
-//   "https://www.apprinting.com/radiant-turquoise-and-black-mailing-post-card-direct-mail/",
-//   "https://www.apprinting.com/old-rose-pink-solid-pocket-invitation-card-a7-atlas/",
-//   "https://www.apprinting.com/silver-metallic-pocket-invitation-card-a7-cascade/",
-//   "https://www.apprinting.com/standard-business-cards-real-estate/products/",
-//   "https://www.apprinting.com/sky-with-photo-welcome-sign-4971/",
-//   "https://www.apprinting.com/labels-1644/",
-//   "https://www.apprinting.com/simple-black-design-presentation-folders/",
-//   "https://www.apprinting.com/realtor-real-estate-custom-yard-signs/",
-//   "https://www.apprinting.com/minimalist-design-with-hamburger-13oz.-standard-vinyl-banner/",
-//   "https://www.apprinting.com/two-simple-colors-business-cards/",
-//   "https://www.apprinting.com/marketing-materials/products/",
-//   "https://www.apprinting.com/turquoise-with-paste-design-13oz.-standard-vinyl-banner/",
-//   "https://www.apprinting.com/azure-blue-solid-pocket-invitation-card-a7-cascade/",
-//   "https://www.apprinting.com/hamburger-promotion-a-frame-sign/",
-//   "https://www.apprinting.com/design-smoothie-and-donuts.-13oz.-standard-vinyl-banner/",
-//   "https://www.apprinting.com/gold-and-black-wedding-seating-charts/",
-//   "https://www.apprinting.com/minimalist-green-design-flyer/",
-//   "https://www.apprinting.com/burger-in-black-13oz.-standard-vinyl-banner",
-//   "https://www.apprinting.com/landscaping-contractors",
-//   "https://www.apprinting.com/standard-postcards-3748/",
-//   "https://www.apprinting.com/simple-flat-wedding-invitation-template-giuliana-2851/",
-//   "https://www.apprinting.com/beautiful-olive-green-business-cards",
-//   "https://www.apprinting.com/2024-calendar/products/",
-//   "https://www.apprinting.com/mailing-post-card-eddm-template/",
-//   "https://www.apprinting.com/special-breakfast-deal-a-frame-sign/",
-//   "https://www.apprinting.com/standard-postcards-3757",
-//   "https://www.apprinting.com/standard-postcards-3757/",
-//   "https://www.apprinting.com/new-house-real-estate-custom-yard-signs/",
-//   "https://www.apprinting.com/chicken-design-with-vegetables-13oz.-standard-vinyl-banner/",
-//   "https://www.apprinting.com/tacos-with-yellows-13oz.-standard-vinyl-banner/",
-//   "https://www.apprinting.com/modern-lilac-flyer/",
-//   "https://www.apprinting.com/car-silhouette-business-cards/",
-//   "https://www.apprinting.com/azure-blue-solid-pocket-invitation-card-a7-atlas/",
-//   "https://www.apprinting.com/detailed-brown-design-business-cards/",
-//   "https://www.apprinting.com/turquoise-collage-flyer/",
-//   "https://www.apprinting.com/banners-restaurant-template/",
-//   "https://www.apprinting.com/carbonless-forms-8.5x11/",
-//   "https://www.apprinting.com/modern-red-lines-mailing-post-card-eddm/",
-//   "https://www.apprinting.com/beautiful-beige-house-mailing-post-card-direct-mail/",
-//   "https://www.apprinting.com/modern-design-flyer/",
-//   "https://www.apprinting.com/photo-collage-mailing-post-card-direct-mail/",
-//   "https://www.apprinting.com/beautiful-olive-green-business-cards/",
-//   "https://www.apprinting.com/invitation-bright-pink-wedding-invitation/",
-//   "https://www.apprinting.com/painted-edge-business-cards-restaurant-template/",
-//   "https://www.apprinting.com/standard-postcards",
-//   "https://www.apprinting.com/business-cards-furniture",
-//   "https://www.apprinting.com/blue-minimalist-paintings-presentation-folders",
-//   "https://www.apprinting.com/door-hangers-2/",
-//   "https://www.apprinting.com/burger-in-black-13oz.-standard-vinyl-banner/",
-//   "https://www.apprinting.com/blue-minimalist-paintings-presentation-folders/",
-//   "https://www.apprinting.com/pastel-pink-solid-pocket-invitation-card-a7-atlas/",
-//   "https://www.apprinting.com/elegant-gray-mailing-post-card-eddm/",
-//   "https://www.apprinting.com/minimalist-accompanied-by-houses-mailing-post-card-direct-mail/",
-//   "https://www.apprinting.com/p4842//product_info.html",
-//   "https://www.apprinting.com/berkshire-combination-of-purple-a-frame-sign-24x24-4651/",
-//   "https://www.apprinting.com/presentation-folders-template/",
-//   "https://www.apprinting.com/creative-pizza-design-business-cards/",
-//   "https://www.apprinting.com/dental-care-mail-post-card/",
-//   "https://www.apprinting.com/balck-and-white-posters/",
-//   "https://www.apprinting.com/business-flyers-real-state/",
-//   "https://www.apprinting.com/gold-metallic-pocket-invitation-card-a7-atlas/",
-//   "https://www.apprinting.com/exit-realty-blue-waves-a-frame-sign-24x24/",
-//   "https://www.apprinting.com/turquoise-curved-design-presentation-folders/",
-//   "https://www.apprinting.com/mailing-post-card-eddm-template",
-//   "https://www.apprinting.com/brochure-triptych/",
-//   "https://www.apprinting.com/traditional-wedding-entourage-in-gold-foil-wedding-invitation/",
-//   "https://www.apprinting.com/turquoise-and-salmon-flyer/",
-//   "https://www.apprinting.com/mailing-post-card-direct-mail-template/",
-//   "https://www.apprinting.com/simple-pizza-design-13oz.-standard-vinyl-banner",
-//   "https://www.apprinting.com/white-with-green-design-a-frame-sign",
-//   "https://www.apprinting.com/pizza-on-board-13oz.-standard-vinyl-banner",
-//   "https://www.apprinting.com/painted-edge-business-cards-restaurant-template",
-//   "https://www.apprinting.com/cheerful-real-estate-custom-yard-signs/",
-//   "https://www.apprinting.com/mexican-food-a-frame-sign/",
-//   "https://www.apprinting.com/wedding-dress-and-suit-wedding-invitation/",
-//   "https://www.apprinting.com/exp-realty-sophisticated-design-with-photo-metal-sidewalk-a-frame-4598/",
-//   "https://www.apprinting.com/turquoise-curved-design-presentation-folders",
-//   "https://www.apprinting.com/simple-flat-wedding-invitation-template-miguel-3052/",
-//   "https://www.apprinting.com/white-roses-arrangement-wedding-invitation-3673/",
-//   "https://www.apprinting.com/mailing-post-card-direct-mail-template-4515/",
-//   "https://www.apprinting.com/dark-blue-real-estate-custom-yard-signs",
-//   "https://www.apprinting.com/real-estate-business-cards/",
-//   "https://www.apprinting.com/real-estates-business-cards/",
-//   "https://www.apprinting.com/onyx-black-metallic-pocket-invitation-card-a7-denali/",
-//   "https://www.apprinting.com/modern-real-estate-custom-yard-signs/",
-//   "https://www.apprinting.com/real-estate-with-blue-a-frame-sign/",
-//   "https://www.apprinting.com/a-frame-real-estate-template/",
-//   "https://www.apprinting.com/new-house-real-estate-custom-yard-signs",
-//   "https://www.apprinting.com/light-blue-gradient-presentation-folders/",
-//   "https://www.apprinting.com/torn-effect-for-pizza-business-cards/",
-//   "https://www.apprinting.com/light-green-design-business-cards/",
-//   "https://www.apprinting.com/blush-shimmer-laser-cut-with-glittery-border-wedding-invitation/",
-//   "https://www.apprinting.com/pizza-on-board-13oz.-standard-vinyl-banner/",
-//   "https://www.apprinting.com/blue-minimalist-design-business-cards/",
-//   "https://www.apprinting.com/modern-dark-design-business-cards/",
-//   "https://www.apprinting.com/blue-geometric-design-presentation-folders/",
-//   "https://www.apprinting.com/dream-house-real-estate-custom-yard-signs/",
-//   "https://www.apprinting.com/standard-business-cards-restaurant-template/",
-//   "https://www.apprinting.com/dusty-steel-blue-solid-pocket-invitation-card-a7-cascade/",
-//   "https://www.apprinting.com/simple-sushi-design-business-cards/",
-//   "https://www.apprinting.com/elegant-gray-and-black-presentation-folders/",
-//   "https://www.apprinting.com/simple-flat-wedding-invitation-template-eduardo-3076/",
-//   "https://www.apprinting.com/port-wine-solid-pocket-invitation-card-a7-cascade/",
-//   "https://www.apprinting.com/vintage-celestial-sky-wedding-invitation/",
-//   "https://www.apprinting.com/productlist_category_wise.html",
-//   "https://www.apprinting.com/ice-cream-shop-a-frame-sign/",
-//   "https://www.apprinting.com/simple-flat-wedding-invitation-template-miguel-2874/",
-//   "https://www.apprinting.com/interesting-design-for-cafeteria-business-cards/",
-//   "https://www.apprinting.com/home-promotion-poster-4223/",
-//   "https://www.apprinting.com/milkshake-offer-a-frame-sign/",
-//   "https://www.apprinting.com/great-hamburger-offer-a-frame-sign/",
-//   "https://www.apprinting.com/bakery-a-frame-sign/",
-//   "https://www.apprinting.com/real-state-yellow-a-frame-sign/",
-//   "https://www.apprinting.com/colored-green-real-estate-custom-yard-signs/",
-//   "https://www.apprinting.com/dark-blue-real-estate-custom-yard-signs/",
-//   "https://www.apprinting.com/barbecue-offers-a-frame-sign/",
-//   "https://www.apprinting.com/real-state-blue-and-red-a-frame-sign/",
-//   "https://www.apprinting.com/standard-business-cards-3752/",
-//   "https://www.apprinting.com/colorful-warm-circles-business-cards/",
-//   "https://www.apprinting.com/simple-flat-wedding-invitation-template-miguel-3067/",
-//   "https://www.apprinting.com/real-state-gray-a-frame-sign/",
-//   "https://www.apprinting.com/geometric-diagonal-design-presentation-folders/",
-//   "https://www.apprinting.com/leaves-gold-frames-wedding-invitation/",
-//   "https://www.apprinting.com/brown-design-real-estate-custom-yard-signs/",
-//   "https://www.apprinting.com/minimalist-real-estate-a-frame-sign/",
-//   "https://www.apprinting.com/vibrant-gradient-colors-presentation-folders/",
-//   "https://www.apprinting.com/italian-food-a-frame-sign/",
-//   "https://www.apprinting.com/green-real-estate-a-frame-sign/",
-//   "https://www.apprinting.com/blue-yellow-letters-seating-charts-3408/",
-//   "https://www.apprinting.com/-9-envelopes/",
-//   "https://www.apprinting.com/house-in-hand-real-estate-a-frame-sign/",
-//   "https://www.apprinting.com/red-and-blue-design-a-frame-sign/",
-//   "https://www.apprinting.com/beautiful-dark-blue-presentation-folders/",
-//   "https://www.apprinting.com/coffee-shop-a-frame-sign/",
-//   "https://www.apprinting.com/pizza-special-offer-a-frame-sign/",
-//   "https://www.apprinting.com/geometric-blue-gradation-presentation-folders/",
-//   "https://www.apprinting.com/sales-agent-real-estate-custom-yard-signs/",
-//   "https://www.apprinting.com/real-estate-with-black-a-frame-sign/",
-//   "https://www.apprinting.com/minimalist-real-estate-custom-yard-signs/",
-//   "https://www.apprinting.com/classic-minimalist-seating-charts/",
-//   "https://www.apprinting.com/imagine-850-retractable-banner-stand//1000",
-//   "https://www.apprinting.com/open-house-real-estate-custom-yard-signs/",
-//   "https://www.apprinting.com/custom-yard-signs/",
-//   "https://www.apprinting.com/torn-effect-for-pizza-business-cards",
-//   "https://www.apprinting.com/simple-design-with-food-business-cards/",
-//   "https://www.apprinting.com/modern-dark-design-business-cards",
-//   "https://www.apprinting.com/minimalist-black-and-white-seating-chart//1000",
-//   "https://www.apprinting.com/simple-pizza-design-13oz.-standard-vinyl-banner/",
-//   "https://www.apprinting.com/bakery-a-frame-sign",
-//   "https://www.apprinting.com/elegant-vinotint-design-a-frame-sign/",
-//   "https://www.apprinting.com/black-and-white-pizzaria-standard-business-cards/",
-//   "https://www.apprinting.com/metallic-cream-linen-pocket-invitation-card-a-7.5-himalaya/",
-//   "https://www.apprinting.com/dream-house-real-estate-custom-yard-signs",
-//   "https://www.apprinting.com/yard-sign-real-estate-template/",
-//   "https://www.apprinting.com/earth-tones-pocket-wedding-invitation/",
-//   "https://www.apprinting.com/gold-leaf-metallic-pocket-invitation-card-a7-denali/",
-//   "https://www.apprinting.com/grey-fog-solid-pocket-invitation-card-a7-atlas/",
-//   "https://www.apprinting.com/standard-business-cards-4033/",
-//   "https://www.apprinting.com/minimalist-real-estate-custom-yard-signs",
-//   "https://www.apprinting.com/7x7-gate-fold-wedding-invitation-template-3353/",
-//   "https://www.apprinting.com/custom-yard-signs",
-//   "https://www.apprinting.com/geometric-diagonal-design-presentation-folders",
-//   "https://www.apprinting.com/open-house-real-estate-custom-yard-signs",
-//   "https://www.apprinting.com/real-estate-business-cards",
-//   "https://www.apprinting.com/floral-and-colorful-wedding-invitation/",
-//   "https://www.apprinting.com/purple-circles-brochure-4068/",
-//   "https://www.apprinting.com/purple-circles-brochure-4066/",
-//   "https://www.apprinting.com/baltic-sea-blue-solid-pocket-invitation-card-a7-denali/",
-//   "https://www.apprinting.com/banners-restaurant-template-4300/",
-//   "https://www.apprinting.com/teal-atoll-solid-pocket-invitation-card-a7-denali/",
-//   "https://www.apprinting.com/13oz.-standard-vinyl-banner-3728/",
-//   "https://www.apprinting.com/13oz.-standard-vinyl-banner-3727/",
-//   "https://www.apprinting.com/13oz.-standard-vinyl-banner-3726/",
-//   "https://www.apprinting.com/13oz.-standard-vinyl-banner-3722/",
-//   "https://www.apprinting.com/door-hangers-2",
-//   "https://www.apprinting.com/13oz.-standard-vinyl-banner-3725/",
-//   "https://www.apprinting.com/summer/products/",
-//   "https://www.apprinting.com/simple-flat-wedding-invitation-template-giuliana-2871/",
-//   "https://www.apprinting.com/corner-with-cherry-tree-wedding-invitation/",
-//   "https://www.apprinting.com/frame-purple-with-flowers-wedding-invitation/",
-//   "https://www.apprinting.com/simple-flat-wedding-invitation-template-eduardo-2893/",
-//   "https://www.apprinting.com/simple-flat-wedding-invitation-template-giuliana-2867/",
-//   "https://www.apprinting.com/chic-blue-dog-calendar/",
-//   "https://www.apprinting.com/neon-electronic-party-calendar/",
-//   "https://www.apprinting.com/standard-postcards-3755/",
-//   "https://www.apprinting.com/leaves-and-garden-party-pocket-wedding-invitation/",
-//   "https://www.apprinting.com/simple-flat-wedding-invitation-template-giuliana-2873/",
-//   "https://www.apprinting.com/13oz.-standard-vinyl-banner-3724/",
-//   "https://www.apprinting.com/simple-flat-wedding-invitation-template-miguel-2819/",
-//   "https://www.apprinting.com/vintage-mountains/products/",
-//   "https://www.apprinting.com/guardsman-red-solid-pocket-invitation-card-a7-cascade/",
-//   "https://www.apprinting.com/natural-cream-linen-pocket-invitation-card-a-7.5-himalaya/",
-//   "https://www.apprinting.com/teal-atoll-solid-pocket-invitation-card-a7-cascade/",
-//   "https://www.apprinting.com/white-and-red-flowers-wedding-invitation/",
-//   "https://www.apprinting.com/watercolor-hand-drawn-wedding-invitation/",
-//   "https://www.apprinting.com/minimalist-black-and-white-seating-charts-1985/",
-//   "https://www.apprinting.com/boho-brown-branches-wedding-invitation/",
-//   "https://www.apprinting.com/elegant-tropical-ticket-wedding-invitation-eduardo/",
-//   "https://www.apprinting.com/brochure-letterhead/",
-//   "https://www.apprinting.com/baltic-sea-blue-solid-pocket-invitation-card-a7-himalaya/",
-//   "https://www.apprinting.com/simple-flat-wedding-invitation-template-eduardo-2892/",
-//   "https://www.apprinting.com/sequoia-green-solid-pocket-invitation-card-a7-himalaya/",
-//   "https://www.apprinting.com/togo-menus/",
-//   "https://www.apprinting.com/prune-purple-solid-pocket-invitation-card-a7-himalaya/",
-//   "https://www.apprinting.com/watercolor-celestial-wedding-invitation/",
-//   "https://www.apprinting.com/half-fold-wedding-invitation/products/",
-//   "https://www.apprinting.com/tropical-leaves-wedding-invitation-3071/",
-//   "https://www.apprinting.com/teal-atoll-solid-pocket-invitation-card-a7-atlas/",
-//   "https://www.apprinting.com/gold-and-black-wedding-seating-charts",
-//   "https://www.apprinting.com/royal-blue-solid-pocket-invitation-card-a7-himalaya/",
-//   "https://www.apprinting.com/standard-postcards-3749/",
-//   "https://www.apprinting.com/hand-drawn-newlywed-wedding-invitation/",
-//   "https://www.apprinting.com/guardsman-red-solid-pocket-invitation-card-a7-himalaya/",
-//   "https://www.apprinting.com/boho-with-feathers-wedding-invitation/",
-//   "https://www.apprinting.com/violet-leaves-wedding-invitation/",
-//   "https://www.apprinting.com/moon-in-the-city-wedding-invitation/",
-//   "https://www.apprinting.com/golden-circle-with-flowers-wedding-invitation/",
-//   "https://www.apprinting.com/simple-flat-wedding-invitation-template-fiorela-3068/",
-//   "https://www.apprinting.com/azure-blue-solid-pocket-invitation-card-a7-denali/",
-//   "https://www.apprinting.com/beautiful-aquatic-flower-simple-flat-wedding-invitation/",
-//   "https://www.apprinting.com/gray-leaves-pocket-wedding-invitation-2600/",
-//   "https://www.apprinting.com/boarding-pass-wedding-invitation-template-eduardo-2761/",
-//   "https://www.apprinting.com/help/",
-//   "https://www.apprinting.com/dark-blue-metallic-pocket-invitation-card-a7-atlas/",
-//   "https://www.apprinting.com/simple-flat-wedding-invitation-template-miguel-2922/",
-//   "https://www.apprinting.com/standard-postcards-3758/",
-//   "https://www.apprinting.com/13oz.-standard-vinyl-banner-3729/",
-//   "https://www.apprinting.com/standard-postcards-3764/",
-//   "https://www.apprinting.com/wheat-leaves-wedding-invitation/",
-//   "https://www.apprinting.com/simple-flat-wedding-invitation-template-eduardo-2890/",
-//   "https://www.apprinting.com/brochure-triptych-lawyers/",
-//   "https://www.apprinting.com/simple-flat-wedding-invitation-template-miguel-2885/",
-//   "https://www.apprinting.com/simple-flat-wedding-invitation-template-eduardo-2898/",
-//   "https://www.apprinting.com/simple-flat-wedding-invitation-template-eduardo-2895/",
-//   "https://www.apprinting.com/simple-flat-wedding-invitation-template-miguel-2877/",
-//   "https://www.apprinting.com/watercolor-rose-vertical-wedding-seating-charts/",
-//   "https://www.apprinting.com/beautiful-doves-wedding-invitation/",
-// ];
+const urlsProducts = [
+  "https://www.apprinting.com/blue-flowers-and-leaves-wedding-invitation/",
+  "https://www.apprinting.com/tropical-leaves-wedding-invitation/",
+  "https://www.apprinting.com/pink-flowers-wedding-invitation/",
+  "https://www.apprinting.com/watercolor-blue-roses-wedding-invitation/",
+  "https://www.apprinting.com/inspirational-pink-flowers-wedding-invitation/",
+  "https://www.apprinting.com/blue-flowers-wedding-invitation/",
+  "https://www.apprinting.com/coffee-stained-flowers-wedding-invitation/",
+  "https://www.apprinting.com/burgundy-leaves-wedding-invitation/",
+  "https://www.apprinting.com/multicolored-rose-bouquet-wedding-invitation/",
+  "https://www.apprinting.com/blue-and-gold-leaves-wedding-invitation/",
+  "https://www.apprinting.com/warm-fall-flowers-wedding-invitation/",
+  "https://www.apprinting.com/botanical-yellow-flowers-wedding-invitation/",
+  "https://www.apprinting.com/abstract-golden-waves-wedding-invitation/",
+  "https://www.apprinting.com/pastel-green-flowers-wedding-invitation/",
+  "https://www.apprinting.com/deep-blue-watercolor-wedding-invitation/",
+  "https://www.apprinting.com/bright-spring-floral-wedding-invitation/",
+  "https://www.apprinting.com/gentle-pink-bouquet-wedding-invitation/",
+  "https://www.apprinting.com/floral-soft-pink-wedding-invitation/",
+  "https://www.apprinting.com/dusty-roses-delicate-wedding-invitation/",
+  "https://www.apprinting.com/pastel-watercolor-wedding-invitation/",
+  "https://www.apprinting.com/pink-spring-flowers-wedding-invitation/",
+  "https://www.apprinting.com/peach-flowers-wedding-invitation/",
+  "https://www.apprinting.com/rustic-floral-wedding-invitation/",
+  "https://www.apprinting.com/simple-large-cursive-wedding-invitation/",
+  "https://www.apprinting.com/elegant-green-leaves-wedding-invitation/",
+  "https://www.apprinting.com/elegant-brown-leaves-wedding-invitation/",
+  "https://www.apprinting.com/pink-paint-strokes-wedding-invitation/",
+  "https://www.apprinting.com/ashen-gray-flowers-wedding-invitation/",
+  "https://www.apprinting.com/handmade-flower-set-wedding-invitation/",
+  "https://www.apprinting.com/handmade-flower-silhouettes-wedding-invitation/",
+  "https://www.apprinting.com/soft-leaf-border-wedding-invitation/",
+  "https://www.apprinting.com/teal-watercolor-wedding-invitation/",
+  "https://www.apprinting.com/elegant-leaves-wedding-invitation/",
+  "https://www.apprinting.com/showy-spring-flowers-wedding-invitation/",
+  "https://www.apprinting.com/green-and-gray-leaves-wedding-invitation/",
+  "https://www.apprinting.com/explosive-watercolor-wedding-invitation/",
+  "https://www.apprinting.com/fuchsia-lines-wedding-invitation/",
+  "https://www.apprinting.com/green-and-roses-wedding-invitation/",
+  "https://www.apprinting.com/luxury-indian-frames-wedding-invitation/",
+  "https://www.apprinting.com/gold-plated-leaves-wedding-invitation/",
+  "https://www.apprinting.com/bright-flowers-wedding-invitation/",
+  "https://www.apprinting.com/sparkling-blue-watercolor-wedding-invitation/",
+  "https://www.apprinting.com/luxurious-gold-wedding-invitation/",
+  "https://www.apprinting.com/gold-frames-wedding-invitation/",
+  "https://www.apprinting.com/cloudy-blue-wedding-invitation/",
+  "https://www.apprinting.com/golden-flowers-wedding-invitation/",
+  "https://www.apprinting.com/simplicity-and-elegance-wedding-invitation/",
+  "https://www.apprinting.com/golden-frame-and-leaves-wedding-invitation/",
+  "https://www.apprinting.com/aztec-design-wedding-invitation/",
+  "https://www.apprinting.com/elegant-frames-wedding-invitation/",
+  "https://www.apprinting.com/golden-corner-flowers-wedding-invitation/",
+  "https://www.apprinting.com/rustic-green-leaves-wedding-invitation/",
+  "https://www.apprinting.com/golden-leaves-wedding-invitation/",
+  "https://www.apprinting.com/vintage-golden-flowers-wedding-invitation/",
+  "https://www.apprinting.com/classic-wedding-invitation/",
+  "https://www.apprinting.com/blue-and-gold-watercolor-wedding-invitation/",
+  "https://www.apprinting.com/simple-flowers-gray-wedding-invitation/",
+  "https://www.apprinting.com/blue-golden-flowers-wedding-invitation/",
+  "https://www.apprinting.com/minimalist-class-wedding-invitation/",
+  "https://www.apprinting.com/vintage-geometric-flowers-wedding-invitation/",
+  "https://www.apprinting.com/elegant-golden-frame-wedding-invitation/",
+  "https://www.apprinting.com/golden-mandala-wedding-invitation/",
+  "https://www.apprinting.com/green-tropical-leaves-wedding-invitation/",
+  "https://www.apprinting.com/dark-teal-frame-wedding-invitation/",
+  "https://www.apprinting.com/elegant-blue-flowers-wedding-invitation/",
+  "https://www.apprinting.com/gold-streaked-sandy-wedding-invitation/",
+  "https://www.apprinting.com/copper-stroke-wedding-invitation/",
+  "https://www.apprinting.com/gold-trim-wedding-invitation/",
+  "https://www.apprinting.com/diffused-blue-droplets-wedding-invitation/",
+  "https://www.apprinting.com/blue-purple-brushes-wedding-invitation/",
+  "https://www.apprinting.com/glittering-desert-wedding-invitation/",
+  "https://www.apprinting.com/pink-and-fuchsia-wedding-invitation/",
+  "https://www.apprinting.com/golden-elegance-wedding-invitation/",
+  "https://www.apprinting.com/noisy-grays-wedding-invitation/",
+  "https://www.apprinting.com/faint-green-ombre-wedding-invitation/",
+  "https://www.apprinting.com/pink-and-gray-marble-wedding-invitation/",
+  "https://www.apprinting.com/deep-fose-tint-wedding-invitation/",
+  "https://www.apprinting.com/splash-of-blush-wedding-invitation/",
+  "https://www.apprinting.com/abstract-blue-paint-wedding-invitation/",
+  "https://www.apprinting.com/simple-red-flowers-wedding-invitation/",
+  "https://www.apprinting.com/refined-black-floral-wedding-invitation/",
+  "https://www.apprinting.com/watercolor-sea-water-wedding-invitation/",
+  "https://www.apprinting.com/watercolor-earth-tones-wedding-invitation/",
+  "https://www.apprinting.com/green-watercolor-wedding-invitation/",
+  "https://www.apprinting.com/simple-pink-wedding-invitation/",
+  "https://www.apprinting.com/golden-leaves-wedding-invitation-2040/",
+  "https://www.apprinting.com/classic-gold-edge-wedding-invitation/",
+  "https://www.apprinting.com/white-cherry-blossoms-wedding-invitation/",
+  "https://www.apprinting.com/pink-and-red-flowers-wedding-invitation/",
+  "https://www.apprinting.com/golden-chinese-lamps-wedding-invitation/",
+  "https://www.apprinting.com/blue-frame-clouds-wedding-invitation/",
+  "https://www.apprinting.com/golden-invitation-clouds-wedding-invitation/",
+  "https://www.apprinting.com/bluish-green-bamboo-wedding-invitation/",
+  "https://www.apprinting.com/golden-bamboo-stalks-wedding-invitation/",
+  "https://www.apprinting.com/festive-chinese-wedding-invitation/",
+  "https://www.apprinting.com/blooming-pink-flowers-wedding-invitation/",
+  "https://www.apprinting.com/radiating-gold-flowers-wedding-invitation/",
+  "https://www.apprinting.com/golden-lanterns-and-branches-wedding-invitation/",
+  "https://www.apprinting.com/pink-and-red-falling-wedding-invitation/",
+  "https://www.apprinting.com/lanterns-bright-flowers-wedding-invitation/",
+  "https://www.apprinting.com/artistic-cloud-borders-wedding-invitation-2639/",
+  "https://www.apprinting.com/burgundy-flowers-wedding-invitation/",
+  "https://www.apprinting.com/lanterns-and-celebration-flowers-wedding-invitation/",
+  "https://www.apprinting.com/soft-golden-bamboo-wedding-invitation/",
+  "https://www.apprinting.com/chinese-lamp-wedding-invitation/",
+  "https://www.apprinting.com/dark-blue-wedding-invitation/",
+  "https://www.apprinting.com/golden-borders-and-tigers-wedding-invitation/",
+  "https://www.apprinting.com/faint-palace-and-lanterns-wedding-invitation/",
+  "https://www.apprinting.com/ombre-lanterns-wedding-invitation/",
+  "https://www.apprinting.com/flowers-and-lanterns-swaying-wedding-invitation/",
+  "https://www.apprinting.com/song-hy-and-gold-borders-wedding-invitation/",
+  "https://www.apprinting.com/delicate-bamboo-art-wedding-invitation/",
+  "https://www.apprinting.com/hanging-lanterns-and-charms-wedding-invitation/",
+  "https://www.apprinting.com/fan-and-artistic-flowers-wedding-invitation/",
+  "https://www.apprinting.com/red-border-and-clouds-wedding-invitation/",
+  "https://www.apprinting.com/printed-corners-and-flowers-wedding-invitation/",
+  "https://www.apprinting.com/festive-lanterns-in-a-sky-wedding-invitation/",
+  "https://www.apprinting.com/bright-red-and-cloud-scroll-wedding-invitation/",
+  "https://www.apprinting.com/white-clouds-on-dark-red-wedding-invitation/",
+  "https://www.apprinting.com/chinese-mountain-and-river-wedding-invitation/",
+  "https://www.apprinting.com/bright-flower-border-wedding-invitation/",
+  "https://www.apprinting.com/round-hanging-lanterns-wedding-invitation/",
+  "https://www.apprinting.com/artistic-cloud-borders-wedding-invitation/",
+  "https://www.apprinting.com/refined-edge-pattern-wedding-invitation/",
+  "https://www.apprinting.com/elegant-bouquet-of-flowers-wedding-invitation/",
+  "https://www.apprinting.com/simple-flat-wedding-invitation-template-miguel/",
+  "https://www.apprinting.com/gradient-gold-and-red-wedding-invitation/",
+  "https://www.apprinting.com/modern-dragon-valances-wedding-invitation/",
+  "https://www.apprinting.com/oriental-patterned-borders-wedding-invitation/",
+  "https://www.apprinting.com/minimalist-white-wedding-invitation/",
+  "https://www.apprinting.com/beautiful-red-white-gold-wedding-invitation/",
+  "https://www.apprinting.com/golden-geometric-corners-wedding-invitation/",
+  "https://www.apprinting.com/chinese-lanterns-wedding-invitation/",
+  "https://www.apprinting.com/bouquets-of-pink-flowers-wedding-invitation/",
+  "https://www.apprinting.com/simple-oriental-wedding-invitation/",
+  "https://www.apprinting.com/clouds-and-flowers-environment-wedding-invitation/",
+  "https://www.apprinting.com/blue-snow-wedding-invitation/",
+  "https://www.apprinting.com/pink-christmas-wedding-invitation/",
+  "https://www.apprinting.com/christmas-pineapple-design-wedding-invitation/",
+  "https://www.apprinting.com/floral-winter-wedding-invitation/",
+  "https://www.apprinting.com/delicate-snow-debris-wedding-invitation/",
+  "https://www.apprinting.com/christmas-pine-branches-wedding-invitation/",
+  "https://www.apprinting.com/winter-forest-wedding-invitation/",
+  "https://www.apprinting.com/christmas-brown-branches-wedding-invitation/",
+  "https://www.apprinting.com/cold-and-tender-flowers-wedding-invitation/",
+  "https://www.apprinting.com/frame-snowflakes-wedding-invitation/",
+  "https://www.apprinting.com/blue-roses-leaves-wedding-invitation/",
+  "https://www.apprinting.com/arrangement-of-winter-roses-wedding-invitation/",
+  "https://www.apprinting.com/classic-christmas-design-simple-flat-wedding-invitation/",
+  "https://www.apprinting.com/christmas-corners-wedding-invitation/",
+  "https://www.apprinting.com/realistic-pine-tree-wedding-invitation/",
+  "https://www.apprinting.com/blue-christmas-simple-flat-5x7/",
+  "https://www.apprinting.com/christmas-decoration-simple-flat-5x7/",
+  "https://www.apprinting.com/cold-watercolor-frame-wedding-invitation/",
+  "https://www.apprinting.com/roses-mary-wedding-invitation/",
+  "https://www.apprinting.com/minimalist-winter-leaves-wedding-invitation/",
+  "https://www.apprinting.com/christmas-leaves-wedding-invitation/",
+  "https://www.apprinting.com/royal-pine-frame-wedding-invitation/",
+  "https://www.apprinting.com/winter-cream-roses-wedding-invitation/",
+  "https://www.apprinting.com/elegant-watercolor-leaves-wedding-invitation/",
+  "https://www.apprinting.com/winter-festival-wedding-invitation/",
+  "https://www.apprinting.com/loving-snowflakes-wedding-invitation/",
+  "https://www.apprinting.com/purple-winter-floral-wedding-invitation/",
+  "https://www.apprinting.com/winter-roses-and-leaves-wedding-invitation/",
+  "https://www.apprinting.com/modest-roses-wedding-invitation/",
+  "https://www.apprinting.com/purple-flower-arrangement-wedding-invitation/",
+  "https://www.apprinting.com/golden-leaves-wedding-invitation-2747/",
+  "https://www.apprinting.com/white-winter-roses-wedding-invitation/",
+  "https://www.apprinting.com/winter-leaves-and-gradient-wedding-invitation/",
+  "https://www.apprinting.com/hexagonal-roses-arrangement-wedding-invitation/",
+  "https://www.apprinting.com/winter-pines-landscape-wedding-invitation/",
+  "https://www.apprinting.com/flowers-and-cold-leaves-wedding-invitation/",
+  "https://www.apprinting.com/dark-winter-design-wedding-invitation/",
+  "https://www.apprinting.com/winter-geometric-arrangement-wedding-invitation/",
+  "https://www.apprinting.com/christmas-and-gold-frame-wedding-invitation/",
+  "https://www.apprinting.com/modest-white-flowers-wedding-invitation/",
+  "https://www.apprinting.com/pine-and-wood-design-wedding-invitation/",
+  "https://www.apprinting.com/winter-design-photo-wedding-invitation/",
+  "https://www.apprinting.com/black-snowflakes-wedding-invitation/",
+  "https://www.apprinting.com/pine-cone-and-roses-wedding-invitation/",
+  "https://www.apprinting.com/watercolor-pines-wedding-invitation/",
+  "https://www.apprinting.com/dark-invitation-snowflakes-wedding-invitation/",
+  "https://www.apprinting.com/geometric-frame-branches-wedding-invitation/",
+  "https://www.apprinting.com/dark-invitation-flowers-wedding-invitation/",
+  "https://www.apprinting.com/wooden-frame-snowflakes-wedding-invitation/",
+  "https://www.apprinting.com/blue-floral-silhouettes-wedding-invitation/",
+  "https://www.apprinting.com/brown-and-white-flower-wedding-invitation/",
+  "https://www.apprinting.com/simple-pine-branches-wedding-invitation/",
+  "https://www.apprinting.com/wood-white-forest-wedding-invitation/",
+  "https://www.apprinting.com/purple-flowers-wedding-invitation/",
+  "https://www.apprinting.com/subtle-blue-flowers-wedding-invitation/",
+  "https://www.apprinting.com/cardboard-design-flowers-wedding-invitation/",
+  "https://www.apprinting.com/winter-flowers-and-frame-wedding-invitation/",
+  "https://www.apprinting.com/wood-winter-ligths-wedding-invitation/",
+  "https://www.apprinting.com/leaves-and-branches-gradient-wedding-invitation/",
+  "https://www.apprinting.com/cardboard-white-branches-wedding-invitation/",
+  "https://www.apprinting.com/indian-wedding-ganesha-wedding-invitation/",
+  "https://www.apprinting.com/boho-arrows-wedding-invitation/",
+  "https://www.apprinting.com/golden-waves-wedding-invitation/",
+  "https://www.apprinting.com/eucalyptus-flower-wedding-invitation/",
+  "https://www.apprinting.com/laser-cut-blue-wedding-invitation/",
+  "https://www.apprinting.com/tropical-stationery-in-peach-wedding-invitation/",
+  "https://www.apprinting.com/red-invitation-leaves-wedding-invitation/",
+  "https://www.apprinting.com/elegant-beige-and-black-wedding-invitation/",
+  "https://www.apprinting.com/elegant-golden-mandala-wedding-invitation/",
+  "https://www.apprinting.com/elegant-gold-decorations-wedding-invitation/",
+  "https://www.apprinting.com/flowers-and-turquoise-watercolor-wedding-invitation/",
+  "https://www.apprinting.com/design-boho-photo-wedding-invitation/",
+  "https://www.apprinting.com/cream-colored-boho-wedding-invitation/",
+  "https://www.apprinting.com/couple-decorative-borders-wedding-invitation/",
+  "https://www.apprinting.com/minimalist-pink-border-wedding-invitation/",
+  "https://www.apprinting.com/ornamental-invitation-photo-wedding-invitation/",
+  "https://www.apprinting.com/beige-abstract-shapes-wedding-invitation/",
+  "https://www.apprinting.com/simple-photo-invitation-wedding-invitation/",
+  "https://www.apprinting.com/luxury-gradient-photo-wedding-invitation/",
+  "https://www.apprinting.com/gatsby-style-in-gold-wedding-invitation/",
+  "https://www.apprinting.com/elegant-white-and-flowers-wedding-invitation/",
+  "https://www.apprinting.com/elegant-simple-wedding-invitation/",
+];
 
 const login = async (page) => {
   await page.goto(url, { timeout: 300000 });
@@ -405,7 +794,7 @@ const getAssociatedCategoryProduct = async (page) => {
 
 const getIdProducts = async (page) => {
   await page.goto(
-    `https://www.apprinting.com/5x7-gate-fold-wedding-invitations/products/`,
+    `https://www.apprinting.com/a7-cascade-pockets-wedding-invitation/products/`,
     {
       timeout: 300000,
     }
@@ -514,11 +903,11 @@ const getMarkUpSchemaProducts = async (page) => {
     const productNameValue = await productName.inputValue();
     const productSku = await page.$("#products_sku");
     const productSkuValue = await productSku.inputValue();
-    const report = `{"@context":"https://schema.org/","@type":"Product","name":"${productNameValue}","description":"${productNameValue}. A high-quality product offered by AP PRINTING. Our design team ensures that every detail is perfect to meet our customers' needs.","sku":"${productSkuValue}","brand":{"@type":"Card","name":"Half Fold Wedding Invitations"},"review":{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue":"4","bestRating":"5"},"author":{"@type":"Person","name":"AP PRINTING DESIGN TEAM"}},"aggregateRating":{"@type":"AggregateRating","ratingValue":"${(
+    const report = `{"@context":"https://schema.org/","@type":"Product","name":"${productNameValue}","description":"${productNameValue}. A high-quality product offered by AP PRINTING. Our design team ensures that every detail is perfect to meet our customers' needs.","sku":"${productSkuValue}","brand":{"@type":"Card","name":"A7 Himalaya Pockets Wedding Invitation"},"review":{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue":"4","bestRating":"5"},"author":{"@type":"Person","name":"AP PRINTING DESIGN TEAM"}},"aggregateRating":{"@type":"AggregateRating","ratingValue":"${(
       Math.random() * (5 - 4.1) +
       4.1
     ).toFixed(1)}","reviewCount":"${Math.floor(
-      Math.random() * (1700 - 1300) + 1700
+      Math.random() * (1950 - 2500) + 1950
     )}"},"offers": {"@type": "Offer","url": "https://www.apprinting.com/blue-flowers-and-leaves-wedding-invitation/","priceCurrency": "USD","price": "85.00","priceValidUntil": "2024-12-24","itemCondition": "https://schema.org/UsedCondition","availability": "https://schema.org/InStock"}}`;
     fs.appendFileSync(`list.txt`, report + "\n");
     console.log(report);
@@ -531,16 +920,14 @@ const getTitleTitleImagesGallery = async (page) => {
       `https://www.apprinting.com/admin/product_image_gallery_listing.php?product_id=${id}`,
       { timeout: 300000 }
     );
-    let flag = false;
+    const report = `${id},`;
     const inputsTitle = await page.$$(".form-control.input-medium");
     for await (let input of inputsTitle) {
       const titleImage = await input.inputValue();
-      if (titleImage == "") flag = true;
-    }
-    const report = `${id},`;
-    if (flag == true) {
-      fs.appendFileSync(`list.txt`, report + "\n");
-      flag = false;
+      if (titleImage == "") {
+        fs.appendFileSync(`list.txt`, report + "\n");
+        console.log(`------>`, report);
+      }
     }
     console.log(report);
   }
@@ -609,7 +996,11 @@ const filterDataListArray = (filterString) => {
     //   );
     // }
     //const report = `${product.id}\n`;
-    const report = `"${product.title}",\n`;
+    //const report = `${product.title},\n`;
+    const report = `'${product.title}',\n`;
+    //const report = `${product.id},\n`;
+    //const report = `${product.title},\n`;
+    //const report = `"${product.url}",\n`;
     fs.appendFileSync(`list.txt`, report);
     console.log(report);
   });
@@ -652,6 +1043,48 @@ const getTitleFilterProduct = async (page, filterString) => {
     if ((await valueInput.search(filterString)) !== -1)
       fs.appendFileSync(`list.txt`, id.toString() + ",\n");
     console.log("Working ---> ", id, " ------> ", valueInput);
+  }
+};
+
+const getStatusCheckboxes = async (page) => {
+  for await (let id of idProducts) {
+    await page.goto(
+      `https://www.apprinting.com/admin/product_action.php?product_id=${id}`,
+      { timeout: 300000 }
+    );
+    //await page.waitForTimeout(3000)
+    var productType = await page.$eval(
+      "#product_type_3",
+      (node) => node.inputValue
+    );
+    // const checkBox = await productType.evaluate((element) => {
+    // window.getComputedStyle(element).getPropertyValue("background-image")
+
+    // });
+    // for await (let checkbox of checkboxes) {
+    //   const titleCheckbox = await checkbox.inn
+    //   console.log(titleCheckbox);
+    // }
+    // const report = `{id:${id},url:"https://www.apprinting.com/${urlInput}/"},\n`;
+    // const report = `${urlInput}\n`;
+    // fs.appendFileSync(`list.txt`, report);
+    //console.log(`working ---> ${report}`);
+    console.log(productType);
+  }
+};
+
+const getUrlProducts = async (page) => {
+  for await (let id of idProducts) {
+    await page.goto(
+      `https://www.apprinting.com/admin/product_action.php?product_id=${id}`,
+      { timeout: 300000 }
+    );
+    const url = await page.$("#product_url_1");
+    const urlInput = await url.inputValue();
+    const report = `{id:${id},url:"https://www.apprinting.com/${urlInput}/"},\n`;
+    // const report = `${urlInput}\n`;
+    fs.appendFileSync(`list.txt`, report);
+    console.log(`working ---> ${report}`);
   }
 };
 
@@ -698,28 +1131,127 @@ const addSetupProductPageDesigner = async (page) => {
   }
 };
 
+const auditActionBtv = async (page) => {
+  for await (let data of dataProducts) {
+    await page.goto(data.url, { timeout: 300000 });
+    //await page.waitForTimeout(3000);
+    const actionsButtons = await page.$("#action-btn");
+    const actions = await actionsButtons.$$eval("a", (node) =>
+      node.map((n) => n.innerText)
+    );
+    for await (let action of actions) {
+      if (action == "Personalize") {
+        const report = `{id:${data.id},url:${data.url}},\n`;
+        fs.appendFileSync(`list.txt`, report);
+        console.log(report);
+      }
+    }
+  }
+};
+
+const auditActionBtvVerify = async (page) => {
+  for await (let data of dataProducts) {
+    await page.goto(data.url, { timeout: 300000 });
+    //await page.waitForTimeout(3000);
+    const personalizeBtn = await page.$(".browse_design");
+    await personalizeBtn.click();
+    await page.waitForTimeout(3000);
+    const getUrl = await page.url();
+    const report = `{id:${data.id},url:"${data.url}",personalizeGetUrl:"${getUrl}"},\n`;
+    fs.appendFileSync(`list.txt`, report);
+    console.log(report);
+  }
+};
+
+const filterPersonalizeBtnActions = () => {
+  dataProducts.forEach((product) => {
+    //const report = `{id:${product.id},url:"${product.url}",personalizeUrl:"${product.personalizeGetUrl}"}\n`;
+    const report = `${product.id},\n`;
+    if (
+      product.personalizeGetUrl.search("product_design_customize.php") === -1
+    ) {
+      fs.appendFileSync(`list.txt`, report);
+    }
+    console.log(report);
+  });
+};
+
+const StatusActionsBtn = async (page) => {
+  for await (let id of idProducts) {
+    await page.goto(
+      `https://www.apprinting.com/admin/product_action.php?product_id=${id}`,
+      { timeout: 300000 }
+    );
+    const productTypeBrowseDesign = await page.$("#product_type_3");
+    const inputBrowseDesign = await productTypeBrowseDesign.$("input");
+    const statusBrowseDesign = await inputBrowseDesign.isChecked();
+    const productTypeCustomDesign = await page.$("#product_type_1");
+    const inputCustomDesign = await productTypeCustomDesign.$("input");
+    const statusCustomDesign = await inputCustomDesign.isChecked();
+    const report = `{id:${id},statusBrowseDesign:${statusBrowseDesign},statusCustomDesign:${statusCustomDesign}}\n`;
+    fs.appendFileSync(`list.txt`, report);
+    console.log(report);
+  }
+};
+
+const changeActionsBtn = async (page) => {
+  for await (let id of idProducts) {
+    await page.goto(
+      `https://www.apprinting.com/admin/product_action.php?product_id=${id}`,
+      { timeout: 300000 }
+    );
+    const responsePromise = page.waitForResponse(
+      `https://www.apprinting.com/admin/product_action.php?product_id=${id}`
+    );
+    const btnSave = await page.$("#btn-action-save");
+    const productTypeBrowseDesign = await page.$("#product_type_3");
+    const inputBrowseDesign = await productTypeBrowseDesign.$("input");
+    await inputBrowseDesign.click();
+    const productTypeCustomDesign = await page.$("#product_type_1");
+    const inputCustomDesign = await productTypeCustomDesign.$("input");
+    await inputCustomDesign.click();
+    await btnSave.click();
+    const response = await responsePromise;
+    //await page.waitForTimeout(7000);
+    const report = `${id}\n`;
+    fs.appendFileSync(`list.txt`, report);
+    console.log(report);
+  }
+};
+
 const updatePrice = async () => {
   const browser = await chromium.launch();
   const page = await browser.newPage();
 
-  await login(page);
+  //LOGIN APP
+  //await login(page);
 
   //FUNCTIONS GROUPS
-  //filterDataListArray("Simple Flat 5x7"); // FUNCTION FILTER DATA LIST.JS
+  await getIdProducts(page);
+  //await getUrlProducts(page);
+  //await auditActionBtv(page);
+  //await auditActionBtvVerify(page);
+  //filterPersonalizeBtnActions();
+  //await changeActionsBtn(page);
+  //await StatusActionsBtn(page);
+
   //filtersDataListArray("Bilingual"); // FUNCTION FILTERS DATA LIST.JS
   //await inputFillToRow(page);
   //await inputFillToPrice(page);
-  //await getIdProducts(page);
   //await categoryDefaultSelect(page);
   //await redirectionUrl(page);
   //await getChangedTitleProduct(page);
+
+  //await getTitleProduct(page);
+  //filterDataListArray("Simple Flat 5x7"); // FUNCTION FILTER DATA LIST.JS
   //await getChangedTitleProductWithArray(page);
+  //await getTitleAndChangedTitleImagesGallery(page);
   //await getTitleTitleImagesGallery(page);
   //await getMarkUpSchemaProducts(page);
-  //await auditSeoData(page);
   //await changedSeoData(page);
-  await getTitleAndChangedTitleImagesGallery(page);
-  //await getTitleProduct(page);
+  //await auditSeoData(page);
+  //await getStatusCheckboxes(page);
+
   //await getTitleFilterProduct(page, "Acrylic");
   //await getAssociatedCategoryProduct(page);
   //await addSetupProductPageDesigner(page);
