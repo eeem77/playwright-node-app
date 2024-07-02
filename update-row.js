@@ -12,9 +12,13 @@ const urlProductUpdatePrice =
 import seoData from "./seo-data.js";
 const qtys = [250, 500, 1000, 2500, 5000, 10000, 15000, 20000, 25000];
 
-//const idProducts = [3194, 3208];
-//3202, 3204, 3205, 3207, 3211, 3215, 3224, 3228,
-const idProducts = [1847, 1849, 1909, 1939, 1989, 3914, 2042, 2077];
+const idProducts = [
+  5359, 5361, 5363, 5376, 5378, 5381, 5384, 5388, 5390, 5392, 5394, 5397, 5399,
+  5403, 5404, 5405, 5406, 5407, 5408, 5409, 5410, 5411, 5412, 5413, 5414, 5415,
+  5416, 5417, 5418, 5419, 5420, 5421, 5422, 5423, 5426, 5427, 5428, 5429, 5430,
+  5431, 5432, 5433, 5434, 5435, 5436, 5437, 5438, 5439, 5441, 5440, 5442, 5443,
+  5444,
+];
 
 const titlesProducts = [
   "CHASE-SQ-ECRU-AI [I-12] Pocket & Folder Invitation",
@@ -794,7 +798,7 @@ const getAssociatedCategoryProduct = async (page) => {
 
 const getIdProducts = async (page) => {
   await page.goto(
-    `https://www.apprinting.com/a7-cascade-pockets-wedding-invitation/products/`,
+    `https://www.apprinting.com/boarding-pass-wedding-invitations/products/`,
     {
       timeout: 300000,
     }
@@ -1224,16 +1228,16 @@ const updatePrice = async () => {
   const page = await browser.newPage();
 
   //LOGIN APP
-  //await login(page);
+  await login(page);
 
   //FUNCTIONS GROUPS
-  await getIdProducts(page);
+  //await getIdProducts(page);
   //await getUrlProducts(page);
   //await auditActionBtv(page);
   //await auditActionBtvVerify(page);
   //filterPersonalizeBtnActions();
   //await changeActionsBtn(page);
-  //await StatusActionsBtn(page);
+  await StatusActionsBtn(page);
 
   //filtersDataListArray("Bilingual"); // FUNCTION FILTERS DATA LIST.JS
   //await inputFillToRow(page);
