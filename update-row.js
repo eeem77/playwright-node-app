@@ -15,11 +15,7 @@ const qtys = [250, 500, 1000, 2500, 5000, 10000, 15000, 20000, 25000];
 
 */
 //-----> OJO
-const idProducts = [
-  576, 799, 577, 578, 582, 585, 587, 598, 609, 624, 627, 977, 978, 979, 628,
-  980, 629, 639, 640, 641, 643, 644, 647, 651, 652, 704, 705, 708, 718, 720,
-  724, 730, 809, 822, 840, 865,
-];
+const idProducts = [605, 610, 648, 748, 662, 741, 1105];
 
 const titlesProducts = [
   "AP-[I-14] Subtle Sophistication Flowers Wedding Invitation",
@@ -464,6 +460,9 @@ const changedSeoData = async (page) => {
       `https://www.apprinting.com/admin/product_metatags.php?product_id=${id}`,
       { timeout: 300000 }
     );
+    const responsePromise = page.waitForResponse(
+      `https://www.apprinting.com/admin/product_metatags.php?product_id=${id}`
+    );
     const btnSave = await page.$("#btn-action-save");
     const pageTitle = await page.$("#seo_page_title_1");
     const metaDescription = await page.$("#seo_page_description_1");
@@ -474,7 +473,8 @@ const changedSeoData = async (page) => {
     await markUp.fill(seoData[i][2]);
     await metaAdditional.fill(seoData[i][3]);
     await btnSave.click();
-    await page.waitForTimeout(3000);
+    const response = await responsePromise;
+    //await page.waitForTimeout(3000);
     fs.appendFileSync(`list.txt`, id + "\n");
     i = i + 1;
     console.log(`Working ---> ${i}`);
@@ -491,11 +491,11 @@ const getMarkUpSchemaProducts = async (page) => {
     const productNameValue = await productName.inputValue();
     const productSku = await page.$("#products_sku");
     const productSkuValue = await productSku.inputValue();
-    const report = `{"@context":"https://schema.org/","@type":"Product","name":"${productNameValue}","description":"${productNameValue}. A high-quality product offered by AP PRINTING. Our design team ensures that every detail is perfect to meet our customers' needs.","sku":"${productSkuValue}","brand":{"@type":"Card","name":"Pocket & Folder Invitation"},"review":{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue":"4","bestRating":"5"},"author":{"@type":"Person","name":"AP PRINTING DESIGN TEAM"}},"aggregateRating":{"@type":"AggregateRating","ratingValue":"${(
+    const report = `{"@context":"https://schema.org/","@type":"Product","name":"${productNameValue}","description":"${productNameValue}. A high-quality product offered by AP PRINTING. Our design team ensures that every detail is perfect to meet our customers' needs.","sku":"${productSkuValue}","brand":{"@type":"Card","name":"Bilingual Wedding Invitation"},"review":{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue":"4","bestRating":"5"},"author":{"@type":"Person","name":"AP PRINTING DESIGN TEAM"}},"aggregateRating":{"@type":"AggregateRating","ratingValue":"${(
       Math.random() * (5 - 4.1) +
       4.1
     ).toFixed(1)}","reviewCount":"${Math.floor(
-      Math.random() * (3900 - 4390) + 3900
+      Math.random() * (10000 - 15000) + 10000
     )}"},"offers": {"@type": "Offer","url": "https://www.apprinting.com/blue-flowers-and-leaves-wedding-invitation/","priceCurrency": "USD","price": "85.00","priceValidUntil": "2024-12-24","itemCondition": "https://schema.org/UsedCondition","availability": "https://schema.org/InStock"}}`;
     fs.appendFileSync(`list.txt`, report + "\n");
     console.log(report);
@@ -824,10 +824,10 @@ const updatePrice = async () => {
   //filterDataListArray("Simple Flat 5x7"); // FUNCTION FILTER DATA LIST.JS
   //await getChangedTitleProductWithArray(page);
   //await getTitleAndChangedTitleImagesGallery(page);
-  await getTitleTitleImagesGallery(page);
+  //await getTitleTitleImagesGallery(page);
 
   //await getMarkUpSchemaProducts(page);
-  //await changedSeoData(page);
+  await changedSeoData(page);
   //await auditSeoData(page);
 
   //await getUrlProducts(page);
