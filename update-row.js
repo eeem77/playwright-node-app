@@ -11,471 +11,54 @@ const urlProductUpdatePrice =
   "https://www.apprinting.com/bilingual-wedding-invitations/products/#category_product_list";
 import seoData from "./seo-data.js";
 const qtys = [250, 500, 1000, 2500, 5000, 10000, 15000, 20000, 25000];
+/*
 
+*/
+//-----> OJO
 const idProducts = [
-  5359, 5361, 5363, 5376, 5378, 5381, 5384, 5388, 5390, 5392, 5394, 5397, 5399,
-  5403, 5404, 5405, 5406, 5407, 5408, 5409, 5410, 5411, 5412, 5413, 5414, 5415,
-  5416, 5417, 5418, 5419, 5420, 5421, 5422, 5423, 5426, 5427, 5428, 5429, 5430,
-  5431, 5432, 5433, 5434, 5435, 5436, 5437, 5438, 5439, 5441, 5440, 5442, 5443,
-  5444,
+  576, 799, 577, 578, 582, 585, 587, 598, 609, 624, 627, 977, 978, 979, 628,
+  980, 629, 639, 640, 641, 643, 644, 647, 651, 652, 704, 705, 708, 718, 720,
+  724, 730, 809, 822, 840, 865,
 ];
 
 const titlesProducts = [
-  "CHASE-SQ-ECRU-AI [I-12] Pocket & Folder Invitation",
-  "O2P-57-M-M Midnight Blue, Ice Silver Pocket & Folder Invitation",
-  "PAL-BL-57-MMN Crystal, Bronze, Coral Pocket & Folder Invitation",
-  "PSQ-77-MMM-2WL Botanic, Lime, Poison Ivory Pocket & Folder Invitation",
-  "PSQ-77-MNM-EF-RD6 Gold, Fizz, Poison Ivory Pocket & Folder Invitation",
-  "Paneled Heart [CC-35] Pocket & Folder Invitation",
-  "PSQ-77-NNN-2WL Coral, Cotton Candy, Bubblegum Pocket & Folder Invitation",
-  "PAL-57-MMM Sapphire, Mandarin, White Gold Pocket & Folder Invitation",
-  "PSQ-77-MMM-2WL Silver, Mars, Poison Ivory Pocket & Folder Invitation",
-  "Slider 57 MMN Onyx, Gold Linen, Natural Linen Pocket & Folder Invitation",
-  "PSQ-77-MMM-2WL Fairway, Kunzite, Quartz Pocket & Folder Invitation",
-  "PSQ-77-MMM-EF-RD6 Mars, Gold, Quartz Pocket & Folder Invitation",
-  "CHASE-SQ-ECRU-DR2 [I-12] Pocket & Folder Invitation",
-  "Happily Ever After [CC-15] Pocket & Folder Invitation",
-  "Love Grows [CC-15] Pocket & Folder Invitation",
-  "O2P-57-N-N Red, Natural, Gold Leaf Pocket & Folder Invitation",
-  "PAL-57-MMM Ruby, Silver, Silk Pocket & Folder Invitation",
-  "SLIDER-57-NMN Blue, Gold Linen, Natural Linen Pocket & Folder Invitation",
-  "Wrapped in Gold [CC-65] Pocket & Folder Invitation",
-  "Baroque Brilliance [CC-88] Pocket & Folder Invitation",
-  "PAL-57-MMM Silver, Amethyst, Ice Silver Pocket & Folder Invitation",
-  "SLIDER-66-NMM Black, Amethyst, Silk Pocket & Folder Invitation",
-  "CTF-58-MMM Azalea, Gold, Quartz Pocket & Folder Invitation",
-  "Joyful Details [CC-81] Pocket & Folder Invitation",
-  "PAL-57-MMN Gold Leaf, Bronze, White Linen Pocket & Folder Invitation",
-  "CTF-58-N-N Blue, White Pocket & Folder Invitation",
-  "CTF-58-M-M Mars, Quartz Pocket & Folder Invitation",
-  "PAL-BL-57-MMM Crystal, Azalea, White Gold Pocket & Folder Invitation",
-  "CTF-68-N-N Red, Natural Pocket & Folder Invitation",
-  "PAL-BL-57-MMM Crystal, Ionised, Crystal Pocket & Folder Invitation",
-  "Monogram Flourish, Black Pocket, White Shimmer [CC-81] Pocket & Folder Invitation",
-  "PAL-66-MMM Crystal, Ionised, Quartz Pocket & Folder Invitation",
-  "Butterfly Wishes [CC-15] Pocket & Folder Invitation",
-  "PAL-66-MMM Onyx, Flame, Quartz Pocket & Folder Invitation",
-  "Leaf Swirl Seal & Send [CC-50] Pocket & Folder Invitation",
-  "PAL-BL-57-MMM Jupiter, Ionised, Crystal Pocket & Folder Invitation",
-  "Typography Inspiration [CC-75] Pocket & Folder Invitation",
-  "Lovely Sophisticate [CC-20] Pocket & Folder Invitation",
-  "Marriage Celebration Seal & Send [CC-30] Pocket & Folder Invitation",
-  "PAL-66-MMM Quartz, Ruby, Gold Leaf Pocket & Folder Invitation",
-  "PAL-66-MMM Quartz, Violette, Serpentine Pocket & Folder Invitation",
-  "Traditional Grace [CC-02] Pocket & Folder Invitation",
-  "Retro Typography Seal & Send [CC-30] Pocket & Folder Invitation",
-  "Traditional Panel Grace [CC-02] Pocket & Folder Invitation",
-  "Tropical Sunset [CC-15] Pocket & Folder Invitation",
-  "PAL-66-MNN Amethyst, Purple, White Linen Pocket & Folder Invitation",
-  "Simply Perfect Seal & Send [CC-04] Pocket & Folder Invitation",
-  "Sophisticated Style Ecru Seal & Send [CC-20] Pocket & Folder Invitation",
-  "PAL-66-NMM Dark Grey, Purple, Silk Pocket & Folder Invitation",
-  "PAL-R-57-MMM-Band Azalea, Gold, Opal Pocket & Folder Invitation",
-  "PAL-R-57-MMM Azalea, Ionised, Ice Silver Pocket & Folder Invitation",
-  "PAL-R-57-MMM Rose Quartz, Azalea, Ice Silver Pocket & Folder Invitation",
-  "PAL-V-57-MMM Gold, Red Lacquer, Ice Gold Pocket & Folder Invitation",
-  "PAL-57-MNN-Overlay Serpentine, Salmon, Linen Pocket & Folder Invitation",
-  "Bright Spirit [CC-70] Pocket & Folder Invitation",
-  "Distinctive Dots [CC-70] Pocket & Folder Invitation",
-  "Treasured Love [CC-65] Pocket & Folder Invitation",
-  "6 1/4 Himalaya Avalanche White Felt Pocket & Folder Invitation",
-  "6 1/4 Himalaya Warm White Felt Pocket & Folder Invitation",
-  "A-7.5 Himalaya Beige Sand Metallic Pocket & Folder Invitation",
-  "A-7.5 Himalaya Bronze Metallic Pocket & Folder Invitation",
-  "A-7.5 Himalaya Chocolate Brown Solid Pocket & Folder Invitation",
-  "A-7.5 Himalaya Classic Gray Linen Pocket & Folder Invitation",
-  "A-7.5 Himalaya Classic Ivory Linen Pocket & Folder Invitation",
-  "A-7.5 Himalaya Green Fairway Metallic Pocket & Folder Invitation",
-  "A-7.5 Himalaya Kunzite Metallic Pocket & Folder Invitation",
-  "A-7.5 Himalaya Red Pepper Linen Pocket & Folder Invitation",
-  "A7 Atlas Classic Avalanche White Felt Pocket & Folder Invitation",
-  "A7 Atlas Warm White Felt Pocket & Folder Invitation",
-  "A7 Cascade Warm White Felt Pocket & Folder Invitation",
-  "A7 Denali Warm White Felt Pocket",
-  "A7 Himalaya Classic Avalanche White Felt Pocket & Folder Invitation",
-  "A7 Himalaya Warm White Felt Pocket & Folder Invitation",
-  "Aloe Mint Green Metallic Pocket & Folder Invitation Card, A-7.5 Himalaya",
-  "Aloe Mint Green Metallic Pocket & Folder Invitation Card, A7 Himalaya",
-  "Antique Gold Metallic Pocket & Folder Invitation Card, A7 Atlas",
-  "Antique Gold Metallic Pocket & Folder Invitation Card, A7 Cascade",
-  "Antique Gold Metallic Pocket & Folder Invitation Card, A7 Denali",
-  "Antique Gold Metallic Pocket & Folder Invitation Card, A7 Himalaya",
-  "Aqua Lagoon Metallic Pocket & Folder Invitation Card, 6 1/4 Denali",
-  "Aqua Lagoon Metallic Pocket & Folder Invitation Card, 6 1/4 Himalaya",
-  "Aqua Lagoon Metallic Pocket & Folder Invitation Card, A-7.5 Himalaya",
-  "Aqua Lagoon Metallic Pocket & Folder Invitation Card, A7 Atlas",
-  "Aqua Lagoon Metallic Pocket & Folder Invitation Card, A7 Cascade",
-  "Aqua Lagoon Metallic Pocket & Folder Invitation Card, A7 Denali",
-  "Aqua Lagoon Metallic Pocket & Folder Invitation Card, A7 Himalaya",
-  'Aqua Lagoon Metallic Sleeve, 5" x 7" Pocket & Folder Invitation',
-  "Banana Yellow Solid Pocket & Folder Invitation Card, A7 Denali",
-  "Banana Yellow Solid Pocket & Folder Invitation Card, A7 Himalaya",
-  'Banana Yellow Solid Sleeve, 5" x 7" Pocket & Folder Invitation',
-  "Beige Sand Metallic Pocket & Folder Invitation Card, 6 1/4 Denali",
-  "Beige Sand Metallic Pocket & Folder Invitation Card, 6 1/4 Himalaya",
-  "Beige Sand Metallic Pocket & Folder Invitation Card, A7 Atlas",
-  "Beige Sand Metallic Pocket & Folder Invitation Card, A7 Cascade",
-  "Beige Sand Metallic Pocket & Folder Invitation Card, A7 Denali",
-  "Beige Sand Metallic Pocket & Folder Invitation Card, A7 Himalaya",
-  "Black Solid Pocket & Folder Invitation Card, 6 1/4 Denali",
-  "Black Solid Pocket & Folder Invitation Card, A-7.5 Himalaya",
-  "Black Solid Pocket & Folder Invitation Card, A7 Cascade",
-  "Black Solid Pocket & Folder Invitation Card, A7 Denali",
-  'Black Solid Sleeve, 5" x 7" Pocket & Folder Invitation',
-  "Blazer Blue Linen Pocket & Folder Invitation Card, 6 1/4 Himalaya",
-  "Blazer Blue Linen Pocket & Folder Invitation Card, A-7.5 Himalaya",
-  "Blazer Blue Linen Pocket & Folder Invitation Card, A7 Atlas",
-  "Blazer Blue Linen Pocket & Folder Invitation Card, A7 Cascade",
-  "Blazer Blue Linen Pocket & Folder Invitation Card, A7 Himalaya",
-  "Blazer Blue Solid Pocket & Folder Invitation Card, 6 1/4 Himalaya",
-  "Blazer Blue Solid Pocket & Folder Invitation Card, A-7.5 Himalaya",
-  "Blazer Blue Solid Pocket & Folder Invitation Card, A7 Atlas",
-  "Blazer Blue Solid Pocket & Folder Invitation Card, A7 Cascade",
-  "Blazer Blue Solid Pocket & Folder Invitation Card, A7 Denali",
-  "Blazer Blue Solid Pocket & Folder Invitation Card, A7 Himalaya",
-  "Blue Vista Metallic Pocket & Folder Invitation Card, 6 1/4 Himalaya",
-  "Blue Vista Metallic Pocket & Folder Invitation Card, A7 Himalaya",
-  "Blueprint Blue Metallic Pocket & Folder Invitation Card, 6 1/4 Himalaya",
-  "Blueprint Blue Metallic Pocket & Folder Invitation Card, A7 Atlas",
-  "Blueprint Blue Metallic Pocket & Folder Invitation Card, A7 Cascade",
-  "Blueprint Blue Metallic Pocket & Folder Invitation Card, A7 Denali",
-  "Blueprint Blue Metallic Pocket & Folder Invitation Card, A7 Himalaya",
-  "Bright White 80 lb Linen Pocket & Folder Invitation Card, A2 Sierra",
-  "Bright White Linen Pocket & Folder Invitation Card, 6 1/4 Himalaya",
-  "Bright White Linen Pocket & Folder Invitation Card, A-7.5 Himalaya",
-  "Bright White Linen Pocket & Folder Invitation Card, A7 Atlas",
-  "Bright White Linen Pocket & Folder Invitation Card, A7 Cascade",
-  "Bright White Linen Pocket & Folder Invitation Card, A7 Denali",
-  "Bright White Linen Pocket & Folder Invitation Card, A7 Himalaya",
-  "Bronze Brown Metallic Pocket & Folder Invitation Card, 6 1/4 Denali",
-  "Bronze Brown Metallic Pocket & Folder Invitation Card, 6 1/4 Himalaya",
-  "Bronze Brown Metallic Pocket & Folder Invitation Card, A2 Sierra",
-  "Bronze Brown Metallic Pocket & Folder Invitation Card, A7 Atlas",
-  "Bronze Brown Metallic Pocket & Folder Invitation Card, A7 Cascade",
-  "Bronze Brown Metallic Pocket & Folder Invitation Card, A7 Denali",
-  "Bronze Brown Metallic Pocket & Folder Invitation Card, A7 Himalaya",
-  'Bronze Brown Metallic Sleeve, 5" x 7" Pocket & Folder Invitation',
-  "Brown Spring Bloom on Classic White Solid, A7 Himalaya",
-  "Brown Spring Bloom on Pearl White Metallic, A7 Himalaya",
-  "Brown Embossed Wood Grain Pocket & Folder Invitation Card, A7 Himalaya",
-  "Carmine Burgundy Solid Pocket & Folder Invitation Card, A-7.5 Himalaya",
-  "Carmine Burgundy Solid Pocket & Folder Invitation Card, A7 Himalaya",
-  "Champagne Cream Metallic Pocket & Folder Invitation Card, 6 1/4 Denali",
-  "Champagne Cream Metallic Pocket & Folder Invitation Card, 6 1/4 Himalaya",
-  "Champagne Cream Metallic Pocket & Folder Invitation Card, A-7.5 Himalaya",
-  "Champagne Cream Metallic Pocket & Folder Invitation Card, A2 Sierra",
-  "Champagne Cream Metallic Pocket & Folder Invitation Card, A7 Atlas",
-  "Champagne Cream Metallic Pocket & Folder Invitation Card, A7 Cascade",
-  "Champagne Cream Metallic Pocket & Folder Invitation Card, A7 Denali",
-  "Champagne Cream Metallic Pocket & Folder Invitation Card, A7 Himalaya",
-  'Champagne Cream Metallic Sleeve, 5" x 7" Pocket & Folder Invitation',
-  "CHASE-SQ-SH-HEART [I-12] Pocket & Folder Invitation",
-  "Cherry Red Solid Pocket & Folder Invitation Card, A-7.5 Himalaya",
-  "Cherry Red Solid Pocket & Folder Invitation Card, A7 Atlas",
-  "Cherry Red Solid Pocket & Folder Invitation Card, A7 Cascade",
-  "Cherry Red Solid Pocket & Folder Invitation Card, A7 Denali",
-  "Cherry Red Solid Pocket & Folder Invitation Card, A7 Himalaya",
-  'Cherry Red Solid Sleeve, 5" x 7" Pocket & Folder Invitation',
-  "Chocolate 100 lb Brown Solid Pocket & Folder Invitation Card, A2 Sierra",
-  "Chocolate Brown Solid Pocket & Folder Invitation Card, 6 1/4 Denali",
-  "Chocolate Brown Solid Pocket & Folder Invitation Card, 6 1/4 Himalaya",
-  "Chocolate Brown Solid Pocket & Folder Invitation Card, A7 Atlas",
-  "Chocolate Brown Solid Pocket & Folder Invitation Card, A7 Cascade",
-  "Chocolate Brown Solid Pocket & Folder Invitation Card, A7 Denali",
-  "Chocolate Brown Solid Pocket & Folder Invitation Card, A7 Himalaya",
-  'Chocolate Brown Solid Sleeve, 5" x 7" Pocket & Folder Invitation',
-  "Classic Gray Linen Pocket & Folder Invitation Card, A7 Atlas",
-  "Classic Gray Linen Pocket & Folder Invitation Card, A7 Cascade",
-  "Classic Gray Linen Pocket & Folder Invitation Card, A7 Himalaya",
-  "Classic Ivory Linen Pocket & Folder Invitation Card, 6 1/4 Himalaya",
-  "Classic Ivory Linen Pocket & Folder Invitation Card, A7 Atlas",
-  "Classic Ivory Linen Pocket & Folder Invitation Card, A7 Cascade",
-  "Classic Ivory Linen Pocket & Folder Invitation Card, A7 Denali",
-  "Classic Ivory Linen Pocket & Folder Invitation Card, A7 Himalaya",
-  "Classic Natural Cream 100 lb Solid Pocket & Folder Invitation Card, A2 Sierra",
-  "Classic Natural Cream Solid Pocket & Folder Invitation Card, 6 1/4 Denali",
-  "Classic Natural Cream Solid Pocket & Folder Invitation Card, 6 1/4 Himalaya",
-  "Classic Natural Cream Solid Pocket & Folder Invitation Card, A-7.5 Himalaya",
-  "Classic Natural Cream Solid Pocket & Folder Invitation Card, A7 Atlas",
-  "Classic Natural Cream Solid Pocket & Folder Invitation Card, A7 Cascade",
-  "Classic Natural Cream Solid Pocket & Folder Invitation Card, A7 Denali",
-  "Classic Natural Cream Solid Pocket & Folder Invitation Card, A7 Himalaya",
-  'Classic Natural Cream Solid Sleeve, 5" x 7" Pocket & Folder Invitation',
-  "Classic White 100 lb Solid Pocket & Folder Invitation Card, A2 Sierra",
-  "Classic White Solid Pocket & Folder Invitation Card, 6 1/4 Denali",
-  "Classic White Solid Pocket & Folder Invitation Card, 6 1/4 Himalaya",
-  "Classic White Solid Pocket & Folder Invitation Card, A-7.5 Himalaya",
-  "Classic White Solid Pocket & Folder Invitation Card, A7 Atlas",
-  "Classic White Solid Pocket & Folder Invitation Card, A7 Cascade",
-  "Classic White Solid Pocket & Folder Invitation Card, A7 Denali",
-  "Classic White Solid Pocket & Folder Invitation Card, A7 Himalaya",
-  'Classic White Solid Sleeve, 5" x 7" Pocket & Folder Invitation',
-  "Concrete Gray Kraft 100 lb Raw Recycled Pocket & Folder Invitation Card, A-7.5 Himalaya",
-  "Concrete Gray Kraft 100 lb Raw Recycled Pocket & Folder Invitation Card, A7 Atlas",
-  "Concrete Gray Kraft 100 lb Raw Recycled Pocket & Folder Invitation Card, A7 Denali",
-  "Concrete Gray Kraft 100 lb Raw Recycled Pocket & Folder Invitation Card, A7 Himalaya",
-  'Concrete Gray Kraft 100 lb Raw Recycled Sleeve, 5" x 7" Pocket & Folder Invitation',
-  "Copper Metallic Pocket & Folder Invitation Card, 6 1/4 Himalaya",
-  "Copper Metallic Pocket & Folder Invitation Card, A7 Atlas",
-  "Copper Metallic Pocket & Folder Invitation Card, A7 Cascade",
-  "Copper Metallic Pocket & Folder Invitation Card, A7 Denali",
-  "Copper Metallic Pocket & Folder Invitation Card, A7 Himalaya",
-  "Cotton Candy Pink Solid Pocket & Folder Invitation Card, A7 Denali",
-  "Cotton Candy Pink Solid Pocket & Folder Invitation Card, A7 Himalaya",
-  "Crimson Red Metallic Pocket & Folder Invitation Card, 6 1/4 Denali",
-  "Crimson Red Metallic Pocket & Folder Invitation Card, 6 1/4 Himalaya",
-  "Crimson Red Metallic Pocket & Folder Invitation Card, A2 Sierra",
-  "Crimson Red Metallic Pocket & Folder Invitation Card, A7 Atlas",
-  "Crimson Red Metallic Pocket & Folder Invitation Card, A7 Cascade",
-  "Crimson Red Metallic Pocket & Folder Invitation Card, A7 Denali",
-  "Crimson Red Metallic Pocket & Folder Invitation Card, A7 Himalaya",
-  'Crimson Red Metallic Sleeve, 5" x 7" Pocket & Folder Invitation',
-  "Dark Blue 107 lb Metallic Pocket & Folder Invitation Card, A2 Sierra",
-  "Dark Blue Metallic Pocket & Folder Invitation Card, 6 1/4 Denali",
-  "Dark Blue Metallic Pocket & Folder Invitation Card, 6 1/4 Himalaya",
-  "Dark Blue Metallic Pocket & Folder Invitation Card, A-7.5 Himalaya",
-  "Dark Blue Metallic Pocket & Folder Invitation Card, A7 Cascade",
-  "Dark Blue Metallic Pocket & Folder Invitation Card, A7 Denali",
-  "Dark Blue Metallic Pocket & Folder Invitation Card, A7 Himalaya",
-  'Dark Blue Metallic Sleeve, 5" x 7" Pocket & Folder Invitation',
-  "Dark Brown Linen Pocket & Folder Invitation Card, 6 1/4 Himalaya",
-  "Dark Brown Linen Pocket & Folder Invitation Card, A7 Atlas",
-  "Dark Brown Linen Pocket & Folder Invitation Card, A7 Cascade",
-  "Dark Brown Linen Pocket & Folder Invitation Card, A7 Denali",
-  "Dark Brown Linen Pocket & Folder Invitation Card, A7 Himalaya",
-  "Dark Purple 80 lb Solid Pocket & Folder Invitation Card, A2 Sierra",
-  "Dark Purple Solid Pocket & Folder Invitation Card, 6 1/4 Denali",
-  "Dark Purple Solid Pocket & Folder Invitation Card, 6 1/4 Himalaya",
-  "Dark Purple Solid Pocket & Folder Invitation Card, A-7.5 Himalaya",
-  "Dark Purple Solid Pocket & Folder Invitation Card, A7 Cascade",
-  "Dark Purple Solid Pocket & Folder Invitation Card, A7 Denali",
-  'Dark Purple Solid Sleeve, 5" x 7" Pocket & Folder Invitation',
-  "Dusty Steel Blue Solid Pocket & Folder Invitation Card, A7 Atlas",
-  "Dusty Steel Blue Solid Pocket & Folder Invitation Card, A7 Himalaya",
-  "Electric Blue Metallic Pocket & Folder Invitation Card, A7 Himalaya",
-  "Epic Black Linen Pocket & Folder Invitation Card, 6 1/4 Himalaya",
-  "Epic Black Linen Pocket & Folder Invitation Card, A-7.5 Himalaya",
-  "Epic Black Linen Pocket & Folder Invitation Card, A7 Cascade",
-  "Epic Black Linen Pocket & Folder Invitation Card, A7 Denali",
-  "Epic Black Linen Pocket & Folder Invitation Card, A7 Himalaya",
-  "Forest Green Solid Pocket & Folder Invitation Card, A-7.5 Himalaya",
-  "Forest Green Solid Pocket & Folder Invitation Card, A7 Himalaya",
-  "Gold Leaf 92 lb Metallic Pocket & Folder Invitation Card, A2 Sierra",
-  "Gold Leaf Metallic Pocket & Folder Invitation Card, 6 1/4 Denali",
-  "Gold Leaf Metallic Pocket & Folder Invitation Card, 6 1/4 Himalaya",
-  "Gold Leaf Metallic Pocket & Folder Invitation Card, A-7.5 Himalaya",
-  "Gold Leaf Metallic Pocket & Folder Invitation Card, A7 Atlas",
-  "Gold Leaf Metallic Pocket & Folder Invitation Card, A7 Cascade",
-  "Gold Leaf Metallic Pocket & Folder Invitation Card, A7 Himalaya",
-  "Gold Metallic Pocket & Folder Invitation Card, 6 1/4 Denali",
-  "Gold Metallic Pocket & Folder Invitation Card, 6 1/4 Himalaya",
-  "Gold Metallic Pocket & Folder Invitation Card, A-7.5 Himalaya",
-  "Gold Metallic Pocket & Folder Invitation Card, A2 Sierra",
-  "Gold Metallic Pocket & Folder Invitation Card, A7 Cascade",
-  "Gold Metallic Pocket & Folder Invitation Card, A7 Denali",
-  "Gold Metallic Pocket & Folder Invitation Card, A7 Himalaya",
-  'Gold Metallic Sleeve, 5" x 7" Pocket & Folder Invitation',
-  "Gray Simple Swirl on Classic White Solid, A7 Himalaya",
-  "Gray Smoke Solid Pocket & Folder Invitation Card, 6 1/4 Himalaya",
-  "Gray Smoke Solid Pocket & Folder Invitation Card, A-7.5 Himalaya",
-  "Gray Smoke Solid Pocket & Folder Invitation Card, A7 Atlas",
-  "Gray Smoke Solid Pocket & Folder Invitation Card, A7 Cascade",
-  "Gray Smoke Solid Pocket & Folder Invitation Card, A7 Denali",
-  "Gray Smoke Solid Pocket & Folder Invitation Card, A7 Himalaya",
-  "Green Fairway Metallic Pocket & Folder Invitation Card, 6 1/4 Denali",
-  "Green Fairway Metallic Pocket & Folder Invitation Card, 6 1/4 Himalaya",
-  "Green Fairway Metallic Pocket & Folder Invitation Card, A7 Atlas",
-  "Green Fairway Metallic Pocket & Folder Invitation Card, A7 Cascade",
-  "Green Fairway Metallic Pocket & Folder Invitation Card, A7 Denali",
-  "Green Fairway Metallic Pocket & Folder Invitation Card, A7 Himalaya",
-  'Green Fairway Metallic Sleeve, 5" x 7" Pocket & Folder Invitation',
-  "Grey Fog Solid Pocket & Folder Invitation Card, A7 Himalaya",
-  "Guardsman Red Solid Pocket & Folder Invitation Card, A-7.5 Himalaya",
-  "Iceberg Blue Metallic Pocket & Folder Invitation Card, A7 Himalaya",
-  "Jupiter Red Metallic Pocket & Folder Invitation Card, 6 1/4 Himalaya",
-  "Jupiter Red Metallic Pocket & Folder Invitation Card, A7 Atlas",
-  "Jupiter Red Metallic Pocket & Folder Invitation Card, A7 Cascade",
-  "Jupiter Red Metallic Pocket & Folder Invitation Card, A7 Denali",
-  "Jupiter Red Metallic Pocket & Folder Invitation Card, A7 Himalaya",
-  'Jupiter Red Metallic Sleeve, 5" x 7" Pocket & Folder Invitation',
-  "Kraft Brown 100 lb Raw Recycled Pocket & Folder Invitation Card, A-7.5 Himalaya",
-  "Kraft Brown 100 lb Raw Recycled Pocket & Folder Invitation Card, A7 Atlas",
-  "Kraft Brown 100 lb Raw Recycled Pocket & Folder Invitation Card, A7 Denali",
-  "Kraft Brown 100 lb Raw Recycled Pocket & Folder Invitation Card, A7 Himalaya",
-  "Kraft Brown Recycled Pocket & Folder Invitation Card 130 lb, A7 Cascade (Discontinued)",
-  "Kraft Brown Recycled Pocket & Folder Invitation Card 65 lb, A7 Cascade (Discontinued)",
-  "Kunzite Metallic Pocket & Folder Invitation Card, A7 Himalaya",
-  "Lavender Metallic Pocket & Folder Invitation Card, 6 1/4 Himalaya",
-  "Lavender Metallic Pocket & Folder Invitation Card, A7 Atlas",
-  "Lavender Metallic Pocket & Folder Invitation Card, A7 Cascade",
-  "Lavender Metallic Pocket & Folder Invitation Card, A7 Denali",
-  "Lavender Metallic Pocket & Folder Invitation Card, A7 Himalaya",
-  "Lemon Yellow Solid Pocket & Folder Invitation Card, A7 Denali",
-  "Meadow Green Solid Pocket & Folder Invitation Card, 6 1/4 Denali",
-  "Meadow Green Solid Pocket & Folder Invitation Card, 6 1/4 Himalaya",
-  "Meadow Green Solid Pocket & Folder Invitation Card, A7 Atlas",
-  "Meadow Green Solid Pocket & Folder Invitation Card, A7 Cascade",
-  "Meadow Green Solid Pocket & Folder Invitation Card, A7 Denali",
-  "Meadow Green Solid Pocket & Folder Invitation Card, A7 Himalaya",
-  'Meadow Green Solid Sleeve, 5" x 7" Pocket & Folder Invitation',
-  "Metallic Cream 84 lb Linen Pocket & Folder Invitation Card, A2 Sierra",
-  "Metallic Cream Linen Pocket & Folder Invitation Card, 6 1/4 Himalaya Bilingual",
-  "Metallic Cream Linen Pocket & Folder Invitation Card, A7 Atlas Bilingual",
-  "Metallic Cream Linen Pocket & Folder Invitation Card, A7 Cascade Bilingual",
-  "Metallic Cream Linen Pocket & Folder Invitation Card, A7 Denali Bilingual",
-  "Metallic Cream Linen Pocket & Folder Invitation Card, A7 Himalaya Bilingual",
-  "Metallic Gold 84 lb Linen Pocket & Folder Invitation Card, A2 Sierra Bilingual",
-  "Metallic Gold Linen Pocket & Folder Invitation Card, A-7.5 Himalaya Bilingual",
-  "Metallic Gold Linen Pocket & Folder Invitation Card, A7 Cascade Bilingual",
-  "Metallic Gold Linen Pocket & Folder Invitation Card, A7 Denali Bilingual",
-  "Metallic Gold Linen Pocket & Folder Invitation Card, A7 Himalaya Bilingual",
-  "Metallic White 84 lb Linen Pocket & Folder Invitation Card, A2 Sierra Bilingual",
-  "Metallic White Linen Pocket & Folder Invitation Card, 6 1/4 Himalaya Bilingual",
-  "Metallic White Linen Pocket & Folder Invitation Card, A-7.5 Himalaya Bilingual",
-  "Metallic White Linen Pocket & Folder Invitation Card, A7 Atlas Bilingual",
-  "Metallic White Linen Pocket & Folder Invitation Card, A7 Cascade Bilingual",
-  "Metallic White Linen Pocket & Folder Invitation Card, A7 Denali Bilingual",
-  "Metallic White Linen Pocket & Folder Invitation Card, A7 Himalaya Bilingual",
-  "Misty Rose Metallic Pocket & Folder Invitation Card, A7 Denali Bilingual",
-  "Misty Rose Metallic Pocket & Folder Invitation Card, A7 Himalaya",
-  "Natural Cream 80 lb Linen Pocket & Folder Invitation Card, A2 Sierra",
-  "Natural Cream Linen Pocket & Folder Invitation Card, 6 1/4 Himalaya",
-  "Natural Cream Linen Pocket & Folder Invitation Card, A7 Atlas",
-  "Natural Cream Linen Pocket & Folder Invitation Card, A7 Cascade",
-  "Natural Cream Linen Pocket & Folder Invitation Card, A7 Denali",
-  "Natural Cream Linen Pocket & Folder Invitation Card, A7 Himalaya",
-  "Old Rose Pink Solid Pocket & Folder Invitation Card, A-7.5 Himalaya",
-  "Old Rose Pink Solid Pocket & Folder Invitation Card, A7 Himalaya",
-  "Onyx Black 107 lb Metallic Pocket & Folder Invitation Card, A2 Sierra",
-  "Onyx Black Metallic Pocket & Folder Invitation Card, 6 1/4 Denali",
-  "Onyx Black Metallic Pocket & Folder Invitation Card, 6 1/4 Himalaya",
-  "Onyx Black Metallic Pocket & Folder Invitation Card, A-7.5 Himalaya",
-  "Onyx Black Metallic Pocket & Folder Invitation Card, A7 Atlas",
-  "Onyx Black Metallic Pocket & Folder Invitation Card, A7 Cascade",
-  "Onyx Black Metallic Pocket & Folder Invitation Card, A7 Himalaya",
-  "Orange Flame Metallic Pocket & Folder Invitation Card, A7 Himalaya",
-  "Orchid Solid Pocket & Folder Invitation Card, A7 Himalaya",
-  "PAL-57-MMM Amethyst, Gold Leaf Pocket & Folder Invitation",
-  "Pastel Blue Solid Pocket & Folder Invitation Card, A-7.5 Himalaya",
-  "Pastel Blue Solid Pocket & Folder Invitation Card, A7 Himalaya",
-  "Pastel Pink Solid Pocket & Folder Invitation Card, A-7.5 Himalaya",
-  "Pastel Pink Solid Pocket & Folder Invitation Card, A7 Himalaya",
-  "Peach (Coral) Metallic Pocket & Folder Invitation Card, 6 1/4 Denali",
-  "Peach (Coral) Metallic Pocket & Folder Invitation Card, 6 1/4 Himalaya",
-  "Peach (Coral) Metallic Pocket & Folder Invitation Card, A-7.5 Himalaya",
-  "Peach (Coral) Metallic Pocket & Folder Invitation Card, A7 Atlas",
-  "Peach (Coral) Metallic Pocket & Folder Invitation Card, A7 Cascade",
-  "Peach (Coral) Metallic Pocket & Folder Invitation Card, A7 Denali",
-  "Peach (Coral) Metallic Pocket & Folder Invitation Card, A7 Himalaya",
-  'Peach (Coral) Metallic Sleeve, 5" x 7" Pocket & Folder Invitation',
-  "Pearl Metallic Pocket & Folder Invitation Card, 6 1/4 Himalaya",
-  "Pearl White Metallic Pocket & Folder Invitation Card, 6 1/4 Denali",
-  "Pearl White Metallic Pocket & Folder Invitation Card, A-7.5 Himalaya",
-  "Pearl White Metallic Pocket & Folder Invitation Card, A2 Sierra",
-  "Pearl White Metallic Pocket & Folder Invitation Card, A7 Atlas",
-  "Pearl White Metallic Pocket & Folder Invitation Card, A7 Cascade",
-  "Pearl White Metallic Pocket & Folder Invitation Card, A7 Denali",
-  "Pearl White Metallic Pocket & Folder Invitation Card, A7 Himalaya",
-  'Pearl White Metallic Sleeve, 5" x 7" Pocket & Folder Invitation',
-  "Pink Azalea 105 lb Metallic Pocket & Folder Invitation Card, A2 Sierra",
-  "Pink Azalea Metallic Pocket & Folder Invitation Card, 6 1/4 Himalaya",
-  "Pink Azalea Metallic Pocket & Folder Invitation Card, A7 Atlas",
-  "Pink Azalea Metallic Pocket & Folder Invitation Card, A7 Cascade",
-  "Pink Azalea Metallic Pocket & Folder Invitation Card, A7 Denali",
-  "Pink Azalea Metallic Pocket & Folder Invitation Card, A7 Himalaya",
-  'Pink Azalea Metallic Sleeve, 5" x 7" Pocket & Folder Invitation',
-  "Purple Eggplant Solid Pocket & Folder Invitation Card, 6 1/4 Himalaya",
-  "Purple Eggplant Solid Pocket & Folder Invitation Card, A-7.5 Himalaya",
-  "Purple Eggplant Solid Pocket & Folder Invitation Card, A7 Denali",
-  "Purple Eggplant Solid Pocket & Folder Invitation Card, A7 Himalaya",
-  "Purple Punch Metallic Pocket & Folder Invitation Card, 6 1/4 Himalaya",
-  "Purple Punch Metallic Pocket & Folder Invitation Card, A7 Himalaya",
-  "Razzle Pink 100 lb Solid Pocket & Folder Invitation Card, A2 Sierra",
-  "Razzle Pink Solid Pocket & Folder Invitation Card, 6 1/4 Himalaya",
-  "Razzle Pink Solid Pocket & Folder Invitation Card, A-7.5 Himalaya",
-  "Razzle Pink Solid Pocket & Folder Invitation Card, A7 Atlas",
-  "Razzle Pink Solid Pocket & Folder Invitation Card, A7 Cascade",
-  "Razzle Pink Solid Pocket & Folder Invitation Card, A7 Denali",
-  "Razzle Pink Solid Pocket & Folder Invitation Card, A7 Himalaya",
-  'Razzle Pink Solid Sleeve, 5" x 7" Pocket & Folder Invitation',
-  "Red Pepper Linen Pocket & Folder Invitation Card, 6 1/4 Himalaya",
-  "Red Pepper Linen Pocket & Folder Invitation Card, A7 Atlas",
-  "Red Pepper Linen Pocket & Folder Invitation Card, A7 Cascade",
-  "Red Pepper Linen Pocket & Folder Invitation Card, A7 Denali",
-  "Red Pepper Linen Pocket & Folder Invitation Card, A7 Himalaya",
-  "Rose Gold Metallic Pocket & Folder Invitation Card, A-7.5 Himalaya",
-  "Rose Gold Metallic Pocket & Folder Invitation Card, A7 Himalaya",
-  "Rose Pink Metallic Pocket & Folder Invitation Card, 6 1/4 Himalaya",
-  "Rose Pink Metallic Pocket & Folder Invitation Card, A7 Atlas",
-  "Rose Pink Metallic Pocket & Folder Invitation Card, A7 Cascade",
-  "Rose Pink Metallic Pocket & Folder Invitation Card, A7 Denali",
-  "Rose Pink Metallic Pocket & Folder Invitation Card, A7 Himalaya",
-  "Rosebud Pink Solid Pocket & Folder Invitation Card, A-7.5 Himalaya",
-  "Rosebud Pink Solid Pocket & Folder Invitation Card, A7 Himalaya",
-  "Ruby Purple 105 lb Metallic Pocket & Folder Invitation Card, A2 Sierra",
-  "Ruby Purple Metallic Pocket & Folder Invitation Card, 6 1/4 Himalaya",
-  "Ruby Purple Metallic Pocket & Folder Invitation Card, A-7.5 Himalaya",
-  "Ruby Purple Metallic Pocket & Folder Invitation Card, A7 Atlas",
-  "Ruby Purple Metallic Pocket & Folder Invitation Card, A7 Cascade",
-  "Ruby Purple Metallic Pocket & Folder Invitation Card, A7 Denali",
-  "Ruby Purple Metallic Pocket & Folder Invitation Card, A7 Himalaya",
-  'Ruby Purple Metallic Sleeve, 5" x 7" Pocket & Folder Invitation',
-  "Sand Specks Recycled Pocket & Folder Invitation Card, 6 1/4 Himalaya",
-  "Sand Specks Recycled Pocket & Folder Invitation Card, A7 Atlas",
-  "Sand Specks Recycled Pocket & Folder Invitation Card, A7 Cascade",
-  "Sand Specks Recycled Pocket & Folder Invitation Card, A7 Denali",
-  "Sand Specks Recycled Pocket & Folder Invitation Card, A7 Himalaya",
-  'Sand Specks Recycled Sleeve, 5" x 7" Pocket & Folder Invitation',
-  "Silver Metallic Pocket & Folder Invitation Card, 6 1/4 Denali",
-  "Silver Metallic Pocket & Folder Invitation Card, 6 1/4 Himalaya",
-  "Silver Metallic Pocket & Folder Invitation Card, A-7.5 Himalaya",
-  "Silver Metallic Pocket & Folder Invitation Card, A2 Sierra",
-  "Silver Metallic Pocket & Folder Invitation Card, A7 Atlas",
-  "Silver Metallic Pocket & Folder Invitation Card, A7 Denali",
-  "Silver Metallic Pocket & Folder Invitation Card, A7 Himalaya",
-  'Silver Metallic Sleeve, 5" x 7" Pocket & Folder Invitation',
-  "Sky Blue Linen Pocket & Folder Invitation Card, A7 Atlas",
-  "Sky Blue Linen Pocket & Folder Invitation Card, A7 Himalaya",
-  "Sleeve Classic Avalanche White Felt Pocket & Folder Invitation",
-  "Sleeve Warm White Felt Pocket & Folder Invitation",
-  "Steel Gray 92 lb Metallic Pocket & Folder Invitation Card, A2 Sierra",
-  "Steel Gray Metallic Pocket & Folder Invitation Card, 6 1/4 Denali",
-  "Steel Gray Metallic Pocket & Folder Invitation Card, 6 1/4 Himalaya",
-  "Steel Gray Metallic Pocket & Folder Invitation Card, A-7.5 Himalaya",
-  "Steel Gray Metallic Pocket & Folder Invitation Card, A7 Atlas",
-  "Steel Gray Metallic Pocket & Folder Invitation Card, A7 Cascade",
-  "Steel Gray Metallic Pocket & Folder Invitation Card, A7 Denali",
-  "Steel Gray Metallic Pocket & Folder Invitation Card, A7 Himalaya",
-  'Steel Gray Metallic Sleeve, 5" x 7" Pocket & Folder Invitation',
-  "Sunrise Yellow Metallic Pocket & Folder Invitation Card, 6 1/4 Himalaya",
-  "Sunrise Yellow Metallic Pocket & Folder Invitation Card, A7 Himalaya",
-  "Taupe Brown Recycled Pocket & Folder Invitation Card, 6 1/4 Himalaya",
-  "Taupe Brown Recycled Pocket & Folder Invitation Card, A-7.5 Himalaya",
-  "Taupe Brown Recycled Pocket & Folder Invitation Card, A7 Atlas",
-  "Taupe Brown Recycled Pocket & Folder Invitation Card, A7 Cascade",
-  "Taupe Brown Recycled Pocket & Folder Invitation Card, A7 Denali",
-  "Taupe Brown Recycled Pocket & Folder Invitation Card, A7 Himalaya",
-  'Taupe Brown Recycled Sleeve, 5" x 7" Pocket & Folder Invitation',
-  "Tiffany Blue Solid Pocket & Folder Invitation Card, 6 1/4 Denali",
-  "Tiffany Blue Solid Pocket & Folder Invitation Card, 6 1/4 Himalaya",
-  "Tiffany Blue Solid Pocket & Folder Invitation Card, A-7.5 Himalaya",
-  "Tiffany Blue Solid Pocket & Folder Invitation Card, A7 Atlas",
-  "Tiffany Blue Solid Pocket & Folder Invitation Card, A7 Cascade",
-  "Tiffany Blue Solid Pocket & Folder Invitation Card, A7 Denali",
-  "Tiffany Blue Solid Pocket & Folder Invitation Card, A7 Himalaya",
-  'Tiffany Blue Solid Sleeve, 5" x 7" Pocket & Folder Invitation',
-  "Tindalo Brown Embossed Wood Grain Pocket & Folder Invitation Card, A7 Himalaya",
-  "White Fiber Recycled Pocket & Folder Invitation Card, 6 1/4 Himalaya",
-  "White Fiber Recycled Pocket & Folder Invitation Card, A7 Atlas",
-  "White Fiber Recycled Pocket & Folder Invitation Card, A7 Cascade",
-  "White Fiber Recycled Pocket & Folder Invitation Card, A7 Denali",
-  "White Fiber Recycled Pocket & Folder Invitation Card, A7 Himalaya",
-  'White Fiber Recycled Sleeve, 5" x 7" Pocket & Folder Invitation',
-  "Wisteria Purple Solid Pocket & Folder Invitation Card, A-7.5 Himalaya",
-  "Wisteria Purple Solid Pocket & Folder Invitation Card, A7 Cascade",
-  "Wisteria Purple Solid Pocket & Folder Invitation Card, A7 Denali",
-  "Wisteria Purple Solid Pocket & Folder Invitation Card, A7 Himalaya",
-  "A7 Cascade Classic Avalanche White Felt Pocket & Folder Invitation",
+  "AP-[I-14] Subtle Sophistication Flowers Wedding Invitation",
+  "K778 [I-12] Whispers of Elegance Flowers Wedding Invitation",
+  "ART-08250 [I-10] Delicate Elegance Flowers Wedding Invitation",
+  "ART-44995 [I-11] Blossom Bells & Flowers Wedding Invitation",
+  "ART-41009 [I-11] Charming Bellflowers Wedding Invitation",
+  "ART-80494 [I-09] Flowers Wedding Invitation",
+  "ART-84044 [I-11] Flowers Wedding Invitation",
+  "K1618 [I-11] Timeless Elegance Flowers Wedding Invitation",
+  "K2615 [I-10] Flowers Sophistication Wedding Invitation",
+  "K8358 [I-12] Lavender Love Flowers Wedding Invitation",
+  "K8455 [I-11] Serenade of Flowers Wedding Invitation",
+  "Olive Garden Flowers Wedding Invitation",
+  "Olive Garden RSVP Cards Flowers Wedding Invitation",
+  "Olive Garden Enclosure Cards Flowers Wedding Invitation",
+  "K8536 [I-11] Graceful Garden Flowers Wedding Invitation",
+  "Olive Garden Seals Flowers Wedding Invitation",
+  "K8631 [I-11] Blushing Blooms Flowers Wedding Invitation",
+  "K8781 [I-11] Celebration in Flowers Wedding Invitation",
+  "K8784 [I-11] Spring Harmony Flowers Wedding Invitation",
+  "K9152 [I-11] Harmony in Bloom Flowers Wedding Invitation",
+  "K9649 [I-11] Enchanted Petals & Flowers Wedding Invitation",
+  "K9659 [I-11] Soulful Blooms Flowers Wedding Invitation",
+  "K9995 [I-10] Botanical Elegance Flowers Wedding Invitation",
+  "T1402 [I-15] Silk Flowers Beauty Wedding Invitation",
+  "K8071 [I-10] Flowers Symphony Wedding Invitation",
+  "Deco Art [CC-55] Romantic Petal Cascade Flowers Wedding Invitation",
+  "Delicate Blossoms [CC-35] Fresh Flowers Wedding Invitation",
+  "[CC-20] Figured Letters Flowers Wedding Invitation",
+  "[CC-25] Naturally Sweet Flowers Wedding Invitation",
+  "[CC-05] Pearlized Filigree Border Floral Wedding Invitation",
+  "[CC-25] Swirling Romance Flowers Wedding Invitation",
+  "[CC-20] Swirled in Silver Flowers Wedding Invitation",
+  "[CC-15] Bright White Calla Lily Floral Wedding Invitation",
+  "[CC-26] Exquisite Poetry Flowers Wedding Invitation",
+  "[CC-20] Filigree Splash Flowers Wedding Invitation",
+  "[CC-26] Lace Shimmers Flowers Wedding Invitation",
+  "[CC-26] Swirl of Gold Flowers Wedding Invitation",
 ];
 
 const urlsProducts = [
@@ -797,12 +380,9 @@ const getAssociatedCategoryProduct = async (page) => {
 };
 
 const getIdProducts = async (page) => {
-  await page.goto(
-    `https://www.apprinting.com/boarding-pass-wedding-invitations/products/`,
-    {
-      timeout: 300000,
-    }
-  );
+  await page.goto(`https://www.apprinting.com/flowers/products/`, {
+    timeout: 300000,
+  });
   const products = await page.$$eval(".product-box", (node) =>
     node.map((n) => n.className)
   );
@@ -836,13 +416,17 @@ const getChangedTitleProductWithArray = async (page) => {
       `https://www.apprinting.com/admin/product_action.php?product_id=${id}`,
       { timeout: 300000 }
     );
+    const responsePromise = page.waitForResponse(
+      `https://www.apprinting.com/admin/product_action.php?product_id=${id}`
+    );
     const btnSave = await page.$("#btn-action-save");
     const title = await page.$("#products_title_1");
     const valueInput = await title.inputValue();
     const newTitle = titlesProducts[indexTitle];
     await title.fill(newTitle);
     await btnSave.click();
-    await page.waitForTimeout(3000);
+    //await page.waitForTimeout(3000);
+    const response = await responsePromise;
     indexTitle++;
     const report = `Working ---> ${id} Old Title ---> ${valueInput} New Title ---> ${newTitle} index title -----> ${indexTitle}`;
     fs.appendFileSync(`list.txt`, report + "\n");
@@ -907,11 +491,11 @@ const getMarkUpSchemaProducts = async (page) => {
     const productNameValue = await productName.inputValue();
     const productSku = await page.$("#products_sku");
     const productSkuValue = await productSku.inputValue();
-    const report = `{"@context":"https://schema.org/","@type":"Product","name":"${productNameValue}","description":"${productNameValue}. A high-quality product offered by AP PRINTING. Our design team ensures that every detail is perfect to meet our customers' needs.","sku":"${productSkuValue}","brand":{"@type":"Card","name":"A7 Himalaya Pockets Wedding Invitation"},"review":{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue":"4","bestRating":"5"},"author":{"@type":"Person","name":"AP PRINTING DESIGN TEAM"}},"aggregateRating":{"@type":"AggregateRating","ratingValue":"${(
+    const report = `{"@context":"https://schema.org/","@type":"Product","name":"${productNameValue}","description":"${productNameValue}. A high-quality product offered by AP PRINTING. Our design team ensures that every detail is perfect to meet our customers' needs.","sku":"${productSkuValue}","brand":{"@type":"Card","name":"Pocket & Folder Invitation"},"review":{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue":"4","bestRating":"5"},"author":{"@type":"Person","name":"AP PRINTING DESIGN TEAM"}},"aggregateRating":{"@type":"AggregateRating","ratingValue":"${(
       Math.random() * (5 - 4.1) +
       4.1
     ).toFixed(1)}","reviewCount":"${Math.floor(
-      Math.random() * (1950 - 2500) + 1950
+      Math.random() * (3900 - 4390) + 3900
     )}"},"offers": {"@type": "Offer","url": "https://www.apprinting.com/blue-flowers-and-leaves-wedding-invitation/","priceCurrency": "USD","price": "85.00","priceValidUntil": "2024-12-24","itemCondition": "https://schema.org/UsedCondition","availability": "https://schema.org/InStock"}}`;
     fs.appendFileSync(`list.txt`, report + "\n");
     console.log(report);
@@ -943,6 +527,9 @@ const getTitleAndChangedTitleImagesGallery = async (page) => {
       `https://www.apprinting.com/admin/product_image_gallery_listing.php?product_id=${id}`,
       { timeout: 300000 }
     );
+    const responsePromise = page.waitForResponse(
+      `https://www.apprinting.com/admin/product_image_gallery_listing.php?product_id=${id}`
+    );
     const btnEdit = await page.$("#btn-action-edit");
     const pageHeader = await page.$(".page-header");
     const title = await pageHeader.$("small");
@@ -952,7 +539,8 @@ const getTitleAndChangedTitleImagesGallery = async (page) => {
       await input.fill(titleString);
     }
     await btnEdit.click();
-    await page.waitForTimeout(3000);
+    const response = await responsePromise;
+    //await page.waitForTimeout(3000);
     const report = `${id},`;
     fs.appendFileSync(`list.txt`, report + "\n");
     console.log(report);
@@ -1001,8 +589,8 @@ const filterDataListArray = (filterString) => {
     // }
     //const report = `${product.id}\n`;
     //const report = `${product.title},\n`;
-    const report = `'${product.title}',\n`;
-    //const report = `${product.id},\n`;
+    //const report = `"${product.title}",\n`;
+    const report = `${product.id},\n`;
     //const report = `${product.title},\n`;
     //const report = `"${product.url}",\n`;
     fs.appendFileSync(`list.txt`, report);
@@ -1232,12 +820,22 @@ const updatePrice = async () => {
 
   //FUNCTIONS GROUPS
   //await getIdProducts(page);
+  //await getTitleProduct(page);
+  //filterDataListArray("Simple Flat 5x7"); // FUNCTION FILTER DATA LIST.JS
+  //await getChangedTitleProductWithArray(page);
+  //await getTitleAndChangedTitleImagesGallery(page);
+  await getTitleTitleImagesGallery(page);
+
+  //await getMarkUpSchemaProducts(page);
+  //await changedSeoData(page);
+  //await auditSeoData(page);
+
   //await getUrlProducts(page);
   //await auditActionBtv(page);
   //await auditActionBtvVerify(page);
   //filterPersonalizeBtnActions();
   //await changeActionsBtn(page);
-  await StatusActionsBtn(page);
+  //await StatusActionsBtn(page);
 
   //filtersDataListArray("Bilingual"); // FUNCTION FILTERS DATA LIST.JS
   //await inputFillToRow(page);
@@ -1246,14 +844,6 @@ const updatePrice = async () => {
   //await redirectionUrl(page);
   //await getChangedTitleProduct(page);
 
-  //await getTitleProduct(page);
-  //filterDataListArray("Simple Flat 5x7"); // FUNCTION FILTER DATA LIST.JS
-  //await getChangedTitleProductWithArray(page);
-  //await getTitleAndChangedTitleImagesGallery(page);
-  //await getTitleTitleImagesGallery(page);
-  //await getMarkUpSchemaProducts(page);
-  //await changedSeoData(page);
-  //await auditSeoData(page);
   //await getStatusCheckboxes(page);
 
   //await getTitleFilterProduct(page, "Acrylic");
