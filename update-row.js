@@ -15,7 +15,13 @@ const qtys = [250, 500, 1000, 2500, 5000, 10000, 15000, 20000, 25000];
 
 */
 //-----> OJO
-const idProducts = [605, 610, 648, 748, 662, 741, 1105];
+const idProducts = [
+  4959, 4960, 4957, 4944, 4920, 4919, 4925, 4948, 4967, 4918, 4928, 4945, 4968,
+  4952, 4916, 4923, 4950, 4953, 4963, 4926, 4965, 4958, 4921, 4961, 4942, 4927,
+  4949, 4951, 4966, 4964, 4962, 4922, 4946, 4943, 4947, 4924, 4930, 4935, 4931,
+  4933, 4941, 4932, 4929, 4938, 4021, 4940, 4934, 4936, 4939, 4911, 4907, 4908,
+  4909, 4906, 4904, 4913, 4023, 4912, 4915, 4910, 4905, 4914,
+];
 
 const titlesProducts = [
   "AP-[I-14] Subtle Sophistication Flowers Wedding Invitation",
@@ -376,7 +382,7 @@ const getAssociatedCategoryProduct = async (page) => {
 };
 
 const getIdProducts = async (page) => {
-  await page.goto(`https://www.apprinting.com/flowers/products/`, {
+  await page.goto(`https://www.apprinting.com/law-office-178/products/`, {
     timeout: 300000,
   });
   const products = await page.$$eval(".product-box", (node) =>
@@ -588,9 +594,9 @@ const filterDataListArray = (filterString) => {
     //   );
     // }
     //const report = `${product.id}\n`;
-    //const report = `${product.title},\n`;
+    const report = `${product.title},\n`;
     //const report = `"${product.title}",\n`;
-    const report = `${product.id},\n`;
+    //const report = `${product.id},\n`;
     //const report = `${product.title},\n`;
     //const report = `"${product.url}",\n`;
     fs.appendFileSync(`list.txt`, report);
@@ -816,18 +822,18 @@ const updatePrice = async () => {
   const page = await browser.newPage();
 
   //LOGIN APP
-  await login(page);
+  //await login(page);
 
   //FUNCTIONS GROUPS
   //await getIdProducts(page);
   //await getTitleProduct(page);
-  //filterDataListArray("Simple Flat 5x7"); // FUNCTION FILTER DATA LIST.JS
+  filterDataListArray("Simple Flat 5x7"); // FUNCTION FILTER DATA LIST.JS
   //await getChangedTitleProductWithArray(page);
   //await getTitleAndChangedTitleImagesGallery(page);
   //await getTitleTitleImagesGallery(page);
 
   //await getMarkUpSchemaProducts(page);
-  await changedSeoData(page);
+  //await changedSeoData(page);
   //await auditSeoData(page);
 
   //await getUrlProducts(page);
