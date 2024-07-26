@@ -16,8 +16,14 @@ const qtys = [250, 500, 1000, 2500, 5000, 10000, 15000, 20000, 25000];
 */
 //-----> OJO
 const idProducts = [
-  5450, 24, 3781, 3784, 3785, 3786, 3787, 3789, 3791, 3793, 3794, 3820, 3822,
-  3824, 3829, 3830, 3832, 3835, 3844, 3846, 3848, 3851, 3853,
+  5131, 5133, 5136, 5138, 5139, 5140, 5142, 5144, 5146, 5147, 5151, 5152, 5154,
+  5156, 5159, 5164, 5167, 5173, 5174, 5176, 5187, 5193, 5196, 5201, 5204, 5206,
+  5211, 5266, 5267, 5269, 5274, 5277, 5299, 5301, 5302, 5304, 5305, 5307, 5308,
+  5310, 5312, 5314, 5316, 5317, 5319, 5322, 5323, 5325, 5326, 5328, 5330, 5331,
+  5332, 5333, 5334, 5335, 5336, 5337, 5338, 5339, 5341, 5342, 5343, 5345, 5346,
+  5348, 5350, 5351, 5352, 5354, 5356, 5360, 5362, 5364, 5365, 5366, 5367, 5368,
+  5369, 5370, 5372, 5374, 5375, 5377, 5379, 5380, 5382, 5383, 5385, 5386, 5387,
+  5389, 5391, 5393, 5395, 5396, 5398, 5400, 5401, 5402,
 ];
 
 const titlesProducts = [
@@ -379,7 +385,7 @@ const getAssociatedCategoryProduct = async (page) => {
 };
 
 const getIdProducts = async (page) => {
-  await page.goto(`https://www.apprinting.com/posters/products/`, {
+  await page.goto(`https://www.apprinting.com/wedding-menu/products/`, {
     timeout: 300000,
   });
   const products = await page.$$eval(".product-box", (node) =>
@@ -590,8 +596,8 @@ const filterDataListArray = (filterString) => {
     //     product.id.toString() + ",\n"
     //   );
     // }
-    //const report = `${product.id}\n`;
-    const report = `${product.title},\n`;
+    const report = `${product.id}\n`;
+    //const report = `${product.title},\n`;
     //const report = `"${product.title}",\n`;
     //const report = `${product.id},\n`;
     //const report = `${product.title},\n`;
