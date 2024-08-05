@@ -16,14 +16,8 @@ const qtys = [250, 500, 1000, 2500, 5000, 10000, 15000, 20000, 25000];
 */
 //-----> OJO
 const idProducts = [
-  5131, 5133, 5136, 5138, 5139, 5140, 5142, 5144, 5146, 5147, 5151, 5152, 5154,
-  5156, 5159, 5164, 5167, 5173, 5174, 5176, 5187, 5193, 5196, 5201, 5204, 5206,
-  5211, 5266, 5267, 5269, 5274, 5277, 5299, 5301, 5302, 5304, 5305, 5307, 5308,
-  5310, 5312, 5314, 5316, 5317, 5319, 5322, 5323, 5325, 5326, 5328, 5330, 5331,
-  5332, 5333, 5334, 5335, 5336, 5337, 5338, 5339, 5341, 5342, 5343, 5345, 5346,
-  5348, 5350, 5351, 5352, 5354, 5356, 5360, 5362, 5364, 5365, 5366, 5367, 5368,
-  5369, 5370, 5372, 5374, 5375, 5377, 5379, 5380, 5382, 5383, 5385, 5386, 5387,
-  5389, 5391, 5393, 5395, 5396, 5398, 5400, 5401, 5402,
+  4476, 4478, 4463, 4471, 4460, 4453, 4445, 4412, 4413, 4702, 4542, 4472, 4474,
+  4462, 4465, 4541, 4470, 4473, 4464, 4468, 4467, 4477, 4631, 4411,
 ];
 
 const titlesProducts = [
@@ -500,7 +494,7 @@ const getMarkUpSchemaProducts = async (page) => {
     const productNameValue = await productName.inputValue();
     const productSku = await page.$("#products_sku");
     const productSkuValue = await productSku.inputValue();
-    const report = `{"@context":"https://schema.org/","@type":"Product","name":"${productNameValue}","description":"${productNameValue}. A high-quality product offered by AP PRINTING. Our design team ensures that every detail is perfect to meet our customers' needs.","sku":"${productSkuValue}","brand":{"@type":"Card","name":"BHGRE Franchise Real Estate"},"review":{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue":"4","bestRating":"5"},"author":{"@type":"Person","name":"AP PRINTING DESIGN TEAM"}},"aggregateRating":{"@type":"AggregateRating","ratingValue":"${(
+    const report = `{"@context":"https://schema.org/","@type":"Product","name":"${productNameValue}","description":"${productNameValue}. A high-quality product offered by AP PRINTING. Our design team ensures that every detail is perfect to meet our customers' needs.","sku":"${productSkuValue}","brand":{"@type":"Card","name":"Wedding Menu | Invitations & Stationery"},"review":{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue":"4","bestRating":"5"},"author":{"@type":"Person","name":"AP PRINTING DESIGN TEAM"}},"aggregateRating":{"@type":"AggregateRating","ratingValue":"${(
       Math.random() * (5 - 4.1) +
       4.1
     ).toFixed(1)}","reviewCount":"${Math.floor(
@@ -512,22 +506,26 @@ const getMarkUpSchemaProducts = async (page) => {
 };
 
 const getTitleTitleImagesGallery = async (page) => {
+  let idArray = [];
   for await (let id of idProducts) {
     await page.goto(
       `https://www.apprinting.com/admin/product_image_gallery_listing.php?product_id=${id}`,
       { timeout: 300000 }
     );
-    const report = `${id},`;
+    const responsePromise = page.waitForResponse(
+      `https://www.apprinting.com/admin/product_image_gallery_listing.php?product_id=${id}`
+    );
+    const response = await responsePromise;
     const inputsTitle = await page.$$(".form-control.input-medium");
     for await (let input of inputsTitle) {
       const titleImage = await input.inputValue();
       if (titleImage == "") {
-        fs.appendFileSync(`list.txt`, report + "\n");
-        console.log(`------>`, report);
+        idArray.push(id);
       }
     }
-    console.log(report);
+    console.log(id);
   }
+  fs.appendFileSync(`list.txt`, idArray.toString() + "\n");
 };
 
 const getTitleAndChangedTitleImagesGallery = async (page) => {
@@ -539,17 +537,19 @@ const getTitleAndChangedTitleImagesGallery = async (page) => {
     const responsePromise = page.waitForResponse(
       `https://www.apprinting.com/admin/product_image_gallery_listing.php?product_id=${id}`
     );
-    const btnEdit = await page.$("#btn-action-edit");
+    await responsePromise;    
     const pageHeader = await page.$(".page-header");
     const title = await pageHeader.$("small");
     const titleString = await title.innerText();
-    const inputsTitle = await page.$$(".form-control.input-medium");
-    for await (let input of inputsTitle) {
-      await input.fill(titleString);
+    const inputsTitle = await page.$$(".form-control.input-medium");    
+    if (inputsTitle.length > 1) {
+      for await (let input of inputsTitle) {
+        await input.fill(titleString);
+      }
+      const btnEdit = await page.$("#btn-action-edit");
+      await btnEdit.click();
+      await responsePromise;
     }
-    await btnEdit.click();
-    const response = await responsePromise;
-    //await page.waitForTimeout(3000);
     const report = `${id},`;
     fs.appendFileSync(`list.txt`, report + "\n");
     console.log(report);
@@ -825,19 +825,19 @@ const updatePrice = async () => {
   const page = await browser.newPage();
 
   //LOGIN APP
-  //await login(page);
+  await login(page);
 
   //FUNCTIONS GROUPS
   //await getIdProducts(page);
   //await getTitleProduct(page);
-  filterDataListArray("Simple Flat 5x7"); // FUNCTION FILTER DATA LIST.JS
-  
+  //filterDataListArray("Simple Flat 5x7"); // FUNCTION FILTER DATA LIST.JS
+
   //await getChangedTitleProductWithArray(page);
 
   //await getMarkUpSchemaProducts(page);
   //await changedSeoData(page);
   //await auditSeoData(page);
-  //await getTitleAndChangedTitleImagesGallery(page);
+  await getTitleAndChangedTitleImagesGallery(page);
   //await getTitleTitleImagesGallery(page);
 
   //await getUrlProducts(page);
