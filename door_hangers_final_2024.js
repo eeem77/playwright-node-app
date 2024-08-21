@@ -262,33 +262,49 @@ const web = async () => {
   await page.waitForSelector(".block.block-login-dropdown", {
     state: "attached",
   });
-
+  // const responsePromise = page.waitForResponse(
+  //   `https://4over.com/standard-door-hangers`
+  // );
+  //await responsePromise;
   await login(page);
 
   //const loop = ['3.5" x 8.5"', '4" x 7"', '4.25" x 11"', '4.25" x 14"'];
-  //const loop = ['14PT C2S', '14PT Uncoated', '16PT C2S', '100LB Gloss Cover', '100LB Gloss Book'];
+  const loop = ['14PT C2S', '14PT Uncoated', '16PT C2S', '100LB Gloss Cover', '100LB Gloss Book'];
   //const loop = ['14PT C2S', '16PT C2S', '100LB Gloss Cover', '100LB Gloss Book'];
   //const loop = ['4/0 (4 color front)', '4/4 (4 color both sides)']
-  const loop = ['Standard Die Cut', 'Starburst Die Cut', 'Arch Die Cut']
+  //const loop = ["Standard Die Cut", "Starburst Die Cut", "Arch Die Cut"];
   //const loop = ['UV Coating Front Only','UV on 4-color side', 'Aqueous Coating']
 
-  for (let i = 0; i < 3; i++) {
-    // let flag = 'UV Coating Front Only'
-    // if (loop[i] === '100LB Gloss Cover' || loop[i] === '100LB Gloss Book') {
-    //     flag = 'Aqueous Coating'
-    // }
-    // if (loop[i] === '14PT Uncoated') {
-    //     flag = 'No Coating'
-    // }
+  for (let i = 0; i < 5; i++) {
+    let flag = 'UV Coating Front Only'
+    if (loop[i] === '100LB Gloss Cover' || loop[i] === '100LB Gloss Book') {
+        flag = 'Aqueous Coating'
+    }
+    if (loop[i] === '14PT Uncoated') {
+        flag = 'No Coating'
+    }
     labelArray = [];
-    await changeOption(page, "#attribute211", '4.25" x 14"');
-    await changeOption(page, "#attribute197", '14PT C2S');
-    await changeOption(page, "#attribute204", '4/0 (4 color front)');
-    await changeOption(page, "#attribute199", 'UV Coating Front Only');
-    await changeOption(page, "#attribute215", loop[i]);
+    await changeOption(page, "#attribute211", '4" x 7"');
+    await changeOption(page, "#attribute197", loop[i]);
+    await changeOption(page, "#attribute204", "4/0 (4 color front)");
+    await changeOption(page, "#attribute199", flag);
+    await changeOption(page, "#attribute215", "Standard Die Cut");
+
+    //await responsePromise;
+
+    await page.waitForSelector(".product-4over-input", {
+      state: "attached",
+    });
+
+    const porcentInput = await page.$(".product-4over-input");
+    await porcentInput.fill("120");
 
     const btnMoore = await page.$(".runsizes-table_actions");
-    await btnMoore.click();
+    console.log(btnMoore);
+    
+    if(btnMoore){
+      await btnMoore.click();
+    }
 
     //prices
     const runsize = await page.$$eval(".runsize", (node) =>

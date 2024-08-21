@@ -12,18 +12,11 @@ const urlProductUpdatePrice =
 import seoData from "./seo-data.js";
 const qtys = [250, 500, 1000, 2500, 5000, 10000, 15000, 20000, 25000];
 /*
-
+1653,1657,1667,1669,1673,1674,1676,1680,1682,1690,1692,1694,1696,1735,1705,1709,1712,1714,1717,1720,1722,1723,1730,1737,1829,3056,1833,1852,1853,1855,1857,1861,1884,1886,1889,1892,1897,1899,1902,1907,1911,1913,1921,1923,1926,1930,1936,1938,1941,1943,1945,1947,1949,1950,1954,1956,1958,1960,1961,1963,1964,1970,1971,1973,1974,1976,1977,1979,1980,1981,1983,1985,1986,1991,1995,1998,2005,2006,2009,2013,2017,2019,2023,2031,2035,2040,2118,2060,2106,2110,2115,2127,2129,2195,2207,2221,2271,2610,2627,2635,2639,2643,2644,2670,2679,2680,2681,2682,2683,2696,2697,2305,2315,2318,2334,2337,2341,2344,2346,2355,2365,2389,2404,2424,2648,2669,2674,2675,2676,2677,2678,2694,2695,2698,2701,2700,2722,2723,2724,2725,2726,2727,2728,2729,2730,2731,2732,2733,2735,2734,2736,2737,2738,2739,2740,2741,2704,2705,2707,2710,2711,2716,2719,2720,2742,2746,2747,2748,2751,2753,2755,2756,2771,2774,2788,2817,2699,2703,2708,2712,2709,2717,2721,2743,2749,2757,2744,2772,2752,2776,2777,2778,2781,2779,2783,2802,2800,2784,2803,2807,2805,2808,2789,2810,2815,2811,2813,2745,2750,2754,2773,2801,2804,2806,2809,2812,
 */
-//-----> OJO
+//-----> OJO 
 const idProducts = [
-  5131, 5133, 5136, 5138, 5139, 5140, 5142, 5144, 5146, 5147, 5151, 5152, 5154,
-  5156, 5159, 5164, 5167, 5173, 5174, 5176, 5187, 5193, 5196, 5201, 5204, 5206,
-  5211, 5266, 5267, 5269, 5274, 5277, 5299, 5301, 5302, 5304, 5305, 5307, 5308,
-  5310, 5312, 5314, 5316, 5317, 5319, 5322, 5323, 5325, 5326, 5328, 5330, 5331,
-  5332, 5333, 5334, 5335, 5336, 5337, 5338, 5339, 5341, 5342, 5343, 5345, 5346,
-  5348, 5350, 5351, 5352, 5354, 5356, 5360, 5362, 5364, 5365, 5366, 5367, 5368,
-  5369, 5370, 5372, 5374, 5375, 5377, 5379, 5380, 5382, 5383, 5385, 5386, 5387,
-  5389, 5391, 5393, 5395, 5396, 5398, 5400, 5401, 5402,
+  2869,2871,2873,2880,2884,2887,2902,2920,2928,2930,2929,2924,2941,2937,2936,2945,2818,2931,2949,2819,2906,2907,2908,2909,2910,2911,2913,2915,2914,2916,2917,2918,2919,2933,2923,2927,2944,2935,2948,5606,5595,5592,5452,5593,5604,5594,5605,5589,5598,5603,
 ];
 
 const titlesProducts = [
@@ -385,7 +378,7 @@ const getAssociatedCategoryProduct = async (page) => {
 };
 
 const getIdProducts = async (page) => {
-  await page.goto(`https://www.apprinting.com/wedding-menu/products/`, {
+  await page.goto(`https://www.apprinting.com/simple-flat-5x7-wedding-invitations/products/`, {
     timeout: 300000,
   });
   const products = await page.$$eval(".product-box", (node) =>
@@ -490,6 +483,27 @@ const changedSeoData = async (page) => {
   }
 };
 
+const setMarkUpData = async (page) => {
+  let i = 0;
+  for await (let id of idProducts) {
+    await page.goto(
+      `https://www.apprinting.com/admin/product_metatags.php?product_id=${id}`,
+      { timeout: 300000 }
+    );
+    const responsePromise = page.waitForResponse(
+      `https://www.apprinting.com/admin/product_metatags.php?product_id=${id}`
+    );
+    const btnSave = await page.$("#btn-action-save");
+    const markUp = await page.$("#schema_markup_1");
+    await markUp.fill(seoData[i]);
+    await btnSave.click();
+    const response = await responsePromise;
+    fs.appendFileSync(`list.txt`, id + "\n");
+    i = i + 1;
+    console.log(`Working ---> ${i}`);
+  }
+};
+
 const getMarkUpSchemaProducts = async (page) => {
   for await (let id of idProducts) {
     await page.goto(
@@ -500,12 +514,30 @@ const getMarkUpSchemaProducts = async (page) => {
     const productNameValue = await productName.inputValue();
     const productSku = await page.$("#products_sku");
     const productSkuValue = await productSku.inputValue();
-    const report = `{"@context":"https://schema.org/","@type":"Product","name":"${productNameValue}","description":"${productNameValue}. A high-quality product offered by AP PRINTING. Our design team ensures that every detail is perfect to meet our customers' needs.","sku":"${productSkuValue}","brand":{"@type":"Card","name":"Wedding Menu | Invitations & Stationery"},"review":{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue":"4","bestRating":"5"},"author":{"@type":"Person","name":"AP PRINTING DESIGN TEAM"}},"aggregateRating":{"@type":"AggregateRating","ratingValue":"${(
+    const images = [];
+
+    await page.goto(
+      `https://www.apprinting.com/admin/product_image_gallery_listing.php?product_id=${id}`,
+      { timeout: 300000 }
+    );
+    const responsePromise = page.waitForResponse(
+      `https://www.apprinting.com/admin/product_image_gallery_listing.php?product_id=${id}`
+    );
+    const response = await responsePromise;
+
+    const imageSection = await page.$("#ops-table_wrapper");
+    const imagesHtml = await imageSection.$$("img");
+    for await (let image of imagesHtml) {
+      const imageInnerHtml = await image.getAttribute("src")
+      images.push(`"${imageInnerHtml}"`);
+    }
+
+    const report = `\`{"@context":"https://schema.org/","@type":"Product","name":"${productNameValue}","image": [${images}],"description":"${productNameValue}. A high-quality product offered by AP PRINTING. Our design team ensures that every detail is perfect to meet our customers' needs.","sku":"${productSkuValue}","brand":{"@type":"Brand","name":"AP PRINTING"},"review":{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue":"4","bestRating":"5"},"author":{"@type":"Person","name":"AP PRINTING DESIGN TEAM"}},"aggregateRating":{"@type":"AggregateRating","ratingValue":"${(
       Math.random() * (5 - 4.1) +
       4.1
     ).toFixed(1)}","reviewCount":"${Math.floor(
       Math.random() * (9000 - 15000) + 9000
-    )}"},"offers": {"@type": "Offer","url": "https://www.apprinting.com/blue-flowers-and-leaves-wedding-invitation/","priceCurrency": "USD","price": "85.00","priceValidUntil": "2024-12-24","itemCondition": "https://schema.org/UsedCondition","availability": "https://schema.org/InStock"}}`;
+    )}"},"offers": {"@type": "Offer","url": "https://www.apprinting.com/blue-flowers-and-leaves-wedding-invitation/","priceCurrency": "USD","price": "85.00","priceValidUntil": "2024-12-24","itemCondition": "https://schema.org/UsedCondition","availability": "https://schema.org/InStock"}}\`,`;
     fs.appendFileSync(`list.txt`, report + "\n");
     console.log(report);
   }
@@ -834,16 +866,18 @@ const updatePrice = async () => {
   await login(page);
 
   //FUNCTIONS GROUPS
-  //await getIdProducts(page);
   //await getTitleProduct(page);
   //filterDataListArray("Simple Flat 5x7"); // FUNCTION FILTER DATA LIST.JS
-
+  
   //await getChangedTitleProductWithArray(page);
-
+  
+  //await getIdProducts(page);
   //await getMarkUpSchemaProducts(page);
+  //await setMarkUpData(page);
+  await auditSeoData(page);
+  
   //await changedSeoData(page);
-  //await auditSeoData(page);
-  await getTitleAndChangedTitleImagesGallery(page);
+  //await getTitleAndChangedTitleImagesGallery(page);
   //await getTitleTitleImagesGallery(page);
 
   //await getUrlProducts(page);
