@@ -872,9 +872,9 @@ const updatePrice = async () => {
   //await getChangedTitleProductWithArray(page);
   
   //await getIdProducts(page);
-  await getMarkUpSchemaProducts(page);
+  //await getMarkUpSchemaProducts(page);
   //await setMarkUpData(page);
-  //await auditSeoData(page);
+  await auditSeoData(page);
   
   //await changedSeoData(page);
   //await getTitleAndChangedTitleImagesGallery(page);
