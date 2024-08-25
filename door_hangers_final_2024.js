@@ -269,26 +269,37 @@ const web = async () => {
   await login(page);
 
   //const loop = ['3.5" x 8.5"', '4" x 7"', '4.25" x 11"', '4.25" x 14"'];
-  const loop = ['14PT C2S', '14PT Uncoated', '16PT C2S', '100LB Gloss Cover', '100LB Gloss Book'];
+  // const loop = [
+  //   "14PT C2S",
+  //   "14PT Uncoated",
+  //   "16PT C2S",
+  //   "100LB Gloss Cover",
+  //   "100LB Gloss Book",
+  // ];
   //const loop = ['14PT C2S', '16PT C2S', '100LB Gloss Cover', '100LB Gloss Book'];
   //const loop = ['4/0 (4 color front)', '4/4 (4 color both sides)']
-  //const loop = ["Standard Die Cut", "Starburst Die Cut", "Arch Die Cut"];
-  //const loop = ['UV Coating Front Only','UV on 4-color side', 'Aqueous Coating']
+  // const loop = [
+  //   "Aqueous Coating",
+  //   "UV Coating Front Only",
+  //   "UV on 4-color side",
+  //   "Satin Aqueous",
+  // ];
+  const loop = ["Standard Die Cut", "Starburst Die Cut", "Arch Die Cut"];
 
-  for (let i = 0; i < 5; i++) {
-    let flag = 'UV Coating Front Only'
-    if (loop[i] === '100LB Gloss Cover' || loop[i] === '100LB Gloss Book') {
-        flag = 'Aqueous Coating'
-    }
-    if (loop[i] === '14PT Uncoated') {
-        flag = 'No Coating'
-    }
+  for (let i = 0; i < 3; i++) {
+    // let flag = "UV Coating Front Only";
+    // if (loop[i] === "100LB Gloss Cover" || loop[i] === "100LB Gloss Book") {
+    //   flag = "Aqueous Coating";
+    // }
+    // if (loop[i] === "14PT Uncoated") {
+    //   flag = "No Coating";
+    // }
     labelArray = [];
-    await changeOption(page, "#attribute211", '4" x 7"');
-    await changeOption(page, "#attribute197", loop[i]);
+    await changeOption(page, "#attribute211", '3.5" x 8.5"'); // '3.5" x 8.5"', '4" x 7"', '4.25" x 11"', '4.25" x 14"'
+    await changeOption(page, "#attribute197", "16PT C2S");
     await changeOption(page, "#attribute204", "4/0 (4 color front)");
-    await changeOption(page, "#attribute199", flag);
-    await changeOption(page, "#attribute215", "Standard Die Cut");
+    await changeOption(page, "#attribute199", "UV Coating Front Only");
+    await changeOption(page, "#attribute215", loop[i]);
 
     //await responsePromise;
 
@@ -299,11 +310,11 @@ const web = async () => {
     const porcentInput = await page.$(".product-4over-input");
     await porcentInput.fill("120");
 
-    const btnMoore = await page.$(".runsizes-table_actions");
-    console.log(btnMoore);
-    
-    if(btnMoore){
+    try {
+      const btnMoore = await page.$(".runsizes-table_actions");
       await btnMoore.click();
+    } catch (error) {
+      console.log("don't btn moore show");
     }
 
     //prices
