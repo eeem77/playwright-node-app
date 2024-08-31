@@ -14,9 +14,10 @@ const qtys = [250, 500, 1000, 2500, 5000, 10000, 15000, 20000, 25000];
 /*
 
 */
-//-----> OJO 
+//-----> OJO
 const idProducts = [
-  800,801,606,611,620,626,885,731,3172,901,898,903,1775,1654,1791,3363,1685,3174,1708,1790,906,908,910,911,914,1779,3175,1689,1655,1793,1792,1743,1652,3364,916,918,920,921,925,927,1651,3176,1796,1656,2183,3365,1795,1782,931,932,933,935,936,937,938,939,3180,940,1747,3366,3685,1794,1797,1701,947,948,950,951,3181,952,3367,1802,1748,1800,1668,3670,953,3368,3182,1801,1816,1807,1753,1670,1713,1671,1821,1813,3369,3184,1756,1718,1803,3185,1672,1727,1823,1759,1760,1806,3370,1815,1817,1728,3187,1675,1808,1825,1762,3372,1765,1811,1826,1677,1769,3189,3375,1818,1732,1819,1812,3190,1767,1827,1678,1788,3384,1738,1828,1820,1772,1789,3378,1777,1814,3193,1679,1740,2211,2000,3194,2269,2146,1742,1988,1681,3406,3411,1822,3195,1992,1683,2270,2213,2004,3418,2273,2214,1824,2016,1684,2179,1994,3196,2001,3420,3197,1830,2276,1686,2021,2216,3198,2218,2008,1688,2293,2029,2184,3434,2012,3477,2047,2294,2246,2186,1691,3208,2295,2248,3534,2398,1842,2187,2014,1693,2185,3210,2251,2296,3539,1695,2072,3213,3322,2075,3548,3214,1697,2298,3555,1721,2299,2190,2304,3216,2083,3217,3583,2262,2088,1724,3588,2192,3097,2307,3221,2431,3591,3222,1729,3225,2333,1731,3600,3606,3230,1734,2197,2054,3244,1736,3612,1928,1739,2353,3247,3707,3621,3251,1719,3622,3252,1741,2203,3255,1835,3581,3628,3258,1838,1839,3260,2414,3630,2205,1840,1953,2472,3263,3637,3641,1841,2208,3264,2483,3267,3644,2506,3645,1844,3271,3648,3275,1846,3281,1848,3652,3284,3658,1850,2117,1851,1969,3633,3287,2439,3631,3289,1854,2441,3291,1856,2260,2264,3626,3295,1858,3620,3296,1859,2268,3298,1860,3608,2567,3300,3602,1862,2140,1863,3302,3709,1864,2590,1865,1866,2460,2286,1867,2241,2508,2602,1868,3687,2603,1871,1872,2605,1873,2056,2594,1874,2561,2300,2256,1875,2665,2647,2566,1876,2308,2673,2167,3915,2078,1877,2713,1879,2689,1881,2084,1883,1885,2702,1887,1888,1890,1898,1901,1904,1905,1908,3684,1912,1914,1915,1918,1925,1927,1929,1934,1937,1940,2722,2723,2724,2725,2726,2727,2728,2729,2730,2731,2948,
+  4779, 4787, 4792, 4789, 4783, 4781, 4786, 4784, 4777, 4780, 4797, 4805, 4795,
+  4796, 4778, 4790, 4794, 4782, 4793, 4807, 4799, 4798,
 ];
 
 const titlesProducts = [
@@ -369,18 +370,45 @@ const getAssociatedCategoryProduct = async (page) => {
     );
     const innerTextAssociatedCategory =
       await associatedCategorySelected.innerText();
-    if ((await innerTextAssociatedCategory.search("Acrylic")) !== -1)
-      fs.appendFileSync(`list.txt`, id.toString() + "\n");
-    console.log(await innerTextAssociatedCategory.search("Acrylic"));
-    console.log(innerTextAssociatedCategory);
+    if ((await innerTextAssociatedCategory.search("Real Estate")) === -1)
+      fs.appendFileSync(`list.txt`, id.toString() + ",\n");
+    const report = `Working ---> ${id} ---> ${innerTextAssociatedCategory} ---> ${await innerTextAssociatedCategory.search(
+      "Real Estate"
+    )}`;
+    console.log(report);
+  }
+};
+
+const changeAssociatedCategoryProduct = async (page) => {
+  for await (let id of idProducts) {
+    await page.goto(
+      `https://www.apprinting.com/admin/product_action.php?product_id=${id}`,
+      { timeout: 300000 }
+    );
+    const associatedCategorySelected = await page.$(
+      ".multiselect.dropdown-toggle"
+    );
+    await associatedCategorySelected.click();
+    const list = await page.$(".multiselect-container.dropdown-menu.show");
+    await page.waitForTimeout(2000);
+    const valueCheckList = await list.$('[title="Real Estate"]');
+    await valueCheckList.click();
+    await page.waitForTimeout(2000);
+    const btnSave = await page.$("#btn-action-save");
+    await btnSave.click();
+    await page.waitForTimeout(3000);
+    fs.appendFileSync(`list.txt`, id + "\n");
     console.log("Working ---> ", id);
   }
 };
 
 const getIdProducts = async (page) => {
-  await page.goto(`https://www.apprinting.com/vietnamese-wedding-invitations/products/`, {
-    timeout: 300000,
-  });
+  await page.goto(
+    `https://www.apprinting.com/bhgre-real-estate-category/products/`,
+    {
+      timeout: 300000,
+    }
+  );
   const products = await page.$$eval(".product-box", (node) =>
     node.map((n) => n.className)
   );
@@ -528,7 +556,7 @@ const getMarkUpSchemaProducts = async (page) => {
     const imageSection = await page.$("#ops-table_wrapper");
     const imagesHtml = await imageSection.$$("img");
     for await (let image of imagesHtml) {
-      const imageInnerHtml = await image.getAttribute("src")
+      const imageInnerHtml = await image.getAttribute("src");
       images.push(`"${imageInnerHtml}"`);
     }
 
@@ -575,11 +603,11 @@ const getTitleAndChangedTitleImagesGallery = async (page) => {
     const responsePromise = page.waitForResponse(
       `https://www.apprinting.com/admin/product_image_gallery_listing.php?product_id=${id}`
     );
-    await responsePromise;    
+    await responsePromise;
     const pageHeader = await page.$(".page-header");
     const title = await pageHeader.$("small");
     const titleString = await title.innerText();
-    const inputsTitle = await page.$$(".form-control.input-medium");    
+    const inputsTitle = await page.$$(".form-control.input-medium");
     if (inputsTitle.length > 1) {
       for await (let input of inputsTitle) {
         await input.fill(titleString);
@@ -868,14 +896,17 @@ const updatePrice = async () => {
   //FUNCTIONS GROUPS
   //await getTitleProduct(page);
   //filterDataListArray("Simple Flat 5x7"); // FUNCTION FILTER DATA LIST.JS
-  
+
   //await getChangedTitleProductWithArray(page);
-  
+
   //await getIdProducts(page);
+  //await getAssociatedCategoryProduct(page);
+  await changeAssociatedCategoryProduct(page);
+
   //await getMarkUpSchemaProducts(page);
   //await setMarkUpData(page);
-  await auditSeoData(page);
-  
+  //await auditSeoData(page);
+
   //await changedSeoData(page);
   //await getTitleAndChangedTitleImagesGallery(page);
   //await getTitleTitleImagesGallery(page);
@@ -897,7 +928,6 @@ const updatePrice = async () => {
   //await getStatusCheckboxes(page);
 
   //await getTitleFilterProduct(page, "Acrylic");
-  //await getAssociatedCategoryProduct(page);
   //await addSetupProductPageDesigner(page);
 
   console.log("END");
