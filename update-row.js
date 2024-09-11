@@ -12,12 +12,11 @@ const urlProductUpdatePrice =
 import seoData from "./seo-data.js";
 const qtys = [250, 500, 1000, 2500, 5000, 10000, 15000, 20000, 25000];
 /*
-
+1653,1657,1667,1669,1673,1674,1676,1680,1682,1690,1692,1694,1696,1735,1705,1709,1712,1714,1717,1720,1722,1723,1730,1737,1829,3056,1833,1852,1853,1855,1857,1861,1884,1886,1889,1892,1897,1899,1902,1907,1911,1913,1921,1923,1926,1930,1936,1938,1941,1943,1945,1947,1949,1950,1954,1956,1958,1960,1961,1963,1964,1970,1971,1973,1974,1976,1977,1979,1980,1981,1983,1985,1986,1991,1995,1998,2005,2006,2009,2013,2017,2019,2023,2031,2035,2040,2118,2060,2106,2110,2115,2127,2129,2195,2207,2221,2271,2610,2627,2635,2639,2643,2644,2670,2679,2680,2681,2682,2683,2696,2697,2305,2315,2318,2334,2337,2341,2344,2346,2355,2365,2389,2404,2424,2648,2669,2674,2675,2676,2677,2678,2694,2695,2698,2701,2700,2722,2723,2724,2725,2726,2727,2728,2729,2730,2731,2732,2733,2735,2734,2736,2737,2738,2739,2740,2741,2704,2705,2707,2710,2711,2716,2719,2720,2742,2746,2747,2748,2751,2753,2755,2756,2771,2774,2788,2817,2699,2703,2708,2712,2709,2717,2721,2743,2749,2757,2744,2772,2752,2776,2777,2778,2781,2779,2783,2802,2800,2784,2803,2807,2805,2808,2789,2810,2815,2811,2813,2745,2750,2754,2773,2801,2804,2806,2809,2812,2869,2871,2873,2880,2884,2887,2902,2920,2928,2930,2929,2924,2941,2937,2936,2945,2818,2931,2949,2819,2906,2907,2908,2909,2910,2911,2912,2913,2915,2914,2916,2917,2918,2919,2933,2923,2927,2944,2935,2948,5606,5595,5592,5609,5593,5604,5594,5605,5589,5598,5603,
 */
-//-----> OJO
+//-----> OJO 2912,
 const idProducts = [
-  4779, 4787, 4792, 4789, 4783, 4781, 4786, 4784, 4777, 4780, 4797, 4805, 4795,
-  4796, 4778, 4790, 4794, 4782, 4793, 4807, 4799, 4798,
+  2912
 ];
 
 const titlesProducts = [
@@ -404,7 +403,7 @@ const changeAssociatedCategoryProduct = async (page) => {
 
 const getIdProducts = async (page) => {
   await page.goto(
-    `https://www.apprinting.com/bhgre-real-estate-category/products/`,
+    `https://www.apprinting.com/simple-flat-5x7-wedding-invitations/products/`,
     {
       timeout: 300000,
     }
@@ -469,12 +468,12 @@ const auditSeoData = async (page) => {
     const pageTitle = await page.$("#seo_page_title_1");
     const metaDescription = await page.$("#seo_page_description_1");
     const markUp = await page.$("#schema_markup_1");
-    const metaAdditional = await page.$("#seo_page_metatags1");
+    //const metaAdditional = await page.$("#seo_page_metatags1");
     const date = [
       await pageTitle.inputValue(),
       await metaDescription.inputValue(),
       await markUp.inputValue(),
-      await metaAdditional.inputValue(),
+      //await metaAdditional.inputValue(),
     ];
     for await (let input of date) {
       if (input == "") fs.appendFileSync(`list.txt`, id, +"\n");
@@ -501,7 +500,7 @@ const changedSeoData = async (page) => {
     await pageTitle.fill(seoData[i][0]);
     await metaDescription.fill(seoData[i][1]);
     await markUp.fill(seoData[i][2]);
-    await metaAdditional.fill(seoData[i][3]);
+    await metaAdditional.fill('');
     await btnSave.click();
     const response = await responsePromise;
     //await page.waitForTimeout(3000);
@@ -538,6 +537,7 @@ const getMarkUpSchemaProducts = async (page) => {
       `https://www.apprinting.com/admin/product_action.php?product_id=${id}`,
       { timeout: 300000 }
     );
+
     const productName = await page.$("#products_title_1");
     const productNameValue = await productName.inputValue();
     const productSku = await page.$("#products_sku");
@@ -548,13 +548,11 @@ const getMarkUpSchemaProducts = async (page) => {
       `https://www.apprinting.com/admin/product_image_gallery_listing.php?product_id=${id}`,
       { timeout: 300000 }
     );
-    const responsePromise = page.waitForResponse(
-      `https://www.apprinting.com/admin/product_image_gallery_listing.php?product_id=${id}`
-    );
-    const response = await responsePromise;
 
     const imageSection = await page.$("#ops-table_wrapper");
+    await imageSection.waitForSelector('img');
     const imagesHtml = await imageSection.$$("img");
+
     for await (let image of imagesHtml) {
       const imageInnerHtml = await image.getAttribute("src");
       images.push(`"${imageInnerHtml}"`);
@@ -565,7 +563,8 @@ const getMarkUpSchemaProducts = async (page) => {
       4.1
     ).toFixed(1)}","reviewCount":"${Math.floor(
       Math.random() * (9000 - 15000) + 9000
-    )}"},"offers": {"@type": "Offer","url": "https://www.apprinting.com/blue-flowers-and-leaves-wedding-invitation/","priceCurrency": "USD","price": "85.00","priceValidUntil": "2024-12-24","itemCondition": "https://schema.org/UsedCondition","availability": "https://schema.org/InStock"}}\`,`;
+    )}"},"offers": {"@type": "Offer","url": "https://www.apprinting.com/blue-flowers-and-leaves-wedding-invitation/","priceCurrency": "USD","price": "85.00","priceValidUntil": "2024-12-24","itemCondition": "https://schema.org/UsedCondition","availability": "https://schema.org/InStock"}}\`],`;
+    
     fs.appendFileSync(`list.txt`, report + "\n");
     console.log(report);
   }
@@ -578,10 +577,13 @@ const getTitleTitleImagesGallery = async (page) => {
       `https://www.apprinting.com/admin/product_image_gallery_listing.php?product_id=${id}`,
       { timeout: 300000 }
     );
-    const responsePromise = page.waitForResponse(
-      `https://www.apprinting.com/admin/product_image_gallery_listing.php?product_id=${id}`
-    );
-    const response = await responsePromise;
+
+    const imageSection = await page.$("#ops-table_wrapper");
+    await imageSection.waitForSelector('img');
+    // const responsePromise = page.waitForResponse(
+    //   `https://www.apprinting.com/admin/product_image_gallery_listing.php?product_id=${id}`
+    // );
+    // const response = await responsePromise;
     const inputsTitle = await page.$$(".form-control.input-medium");
     for await (let input of inputsTitle) {
       const titleImage = await input.inputValue();
@@ -603,7 +605,11 @@ const getTitleAndChangedTitleImagesGallery = async (page) => {
     const responsePromise = page.waitForResponse(
       `https://www.apprinting.com/admin/product_image_gallery_listing.php?product_id=${id}`
     );
-    await responsePromise;
+    //const response = await responsePromise;
+
+    const imageSection = await page.$("#ops-table_wrapper");
+    await imageSection.waitForSelector('img');
+
     const pageHeader = await page.$(".page-header");
     const title = await pageHeader.$("small");
     const titleString = await title.innerText();
@@ -614,7 +620,7 @@ const getTitleAndChangedTitleImagesGallery = async (page) => {
       }
       const btnEdit = await page.$("#btn-action-edit");
       await btnEdit.click();
-      await responsePromise;
+      const response = await responsePromise;
     }
     const report = `${id},`;
     fs.appendFileSync(`list.txt`, report + "\n");
@@ -899,17 +905,18 @@ const updatePrice = async () => {
 
   //await getChangedTitleProductWithArray(page);
 
-  //await getIdProducts(page);
   //await getAssociatedCategoryProduct(page);
-  await changeAssociatedCategoryProduct(page);
-
-  //await getMarkUpSchemaProducts(page);
-  //await setMarkUpData(page);
-  //await auditSeoData(page);
-
+  //await changeAssociatedCategoryProduct(page);
+  
+  //await getIdProducts(page);
+  await getMarkUpSchemaProducts(page);
   //await changedSeoData(page);
+  //await auditSeoData(page);
   //await getTitleAndChangedTitleImagesGallery(page);
   //await getTitleTitleImagesGallery(page);
+  
+  //await setMarkUpData(page);
+
 
   //await getUrlProducts(page);
   //await auditActionBtv(page);
