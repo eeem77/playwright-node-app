@@ -933,6 +933,64 @@ const changeActionsBtn = async (page) => {
   }
 };
 
+const checkedAndSetOnUploadArtworkLaterOption = async (page) => {
+  for await (let id of idProducts) {
+    await page.goto(
+      `https://www.apprinting.com/admin/product_settings.php?product_id=${id}`,
+      { timeout: 300000 }
+    );
+
+    const btnSave = await page.$("#btn-action-save");
+    const uploadTabContent = await page.$("#tab_uploadsettings");
+
+    await uploadTabContent.click();
+
+    const options = await page.$$(".switchbutton-element");
+
+    const uploadArtworkLaterOption = await options[10].innerHTML();
+    const uploadArtworkLaterOptionChecked =
+      await uploadArtworkLaterOption.search("checked");
+
+    if (uploadArtworkLaterOptionChecked == -1) {
+      const responsePromise = page.waitForResponse(
+        `https://www.apprinting.com/admin/product_settings.php?product_id=${id}`
+      );
+      await options[10].click();
+      await btnSave.click();
+      await responsePromise;
+    }
+
+    const report = `${id}\n`;
+    fs.appendFileSync(`list.txt`, report);
+    console.log(report);
+  }
+};
+
+const checkedUploadArtworkLaterOption = async (page) => {
+  for await (let id of idProducts) {
+    await page.goto(
+      `https://www.apprinting.com/admin/product_settings.php?product_id=${id}`,
+      { timeout: 300000 }
+    );
+    const report = `${id}\n`;
+    const uploadTabContent = await page.$("#tab_uploadsettings");
+
+    await uploadTabContent.click();
+
+    const options = await page.$$(".switchbutton-element");
+
+    const uploadArtworkLaterOption = await options[10].innerHTML();
+    const uploadArtworkLaterOptionChecked =
+      await uploadArtworkLaterOption.search("checked");
+
+    if (uploadArtworkLaterOptionChecked == -1) {
+      fs.appendFileSync(`list.txt`, report);
+    }
+
+    console.log(report);
+  }
+};
+
 const updatePrice = async () => {
   const browser = await chromium.launch();
   const page = await browser.newPage();
@@ -955,8 +1013,9 @@ const updatePrice = async () => {
   //await auditSeoData(page);
   //await getTitleAndChangedTitleImagesGallery(page);
   //await getTitleTitleImagesGallery(page);
-  await setAdditionalMetaTag(page);
-
+  //await setAdditionalMetaTag(page);
+  //await checkedAndSetOnUploadArtworkLaterOption(page);
+  await checkedUploadArtworkLaterOption(page);
   //await setMarkUpData(page);
 
   //await getUrlProducts(page);
