@@ -12,11 +12,7 @@ const urlProductUpdatePrice =
 import seoData from "./seo-data.js";
 const qtys = [250, 500, 1000, 2500, 5000, 10000, 15000, 20000, 25000];
 /*
-
-*/
-//-----> OJO
-const idProducts = [
-  1653, 1657, 1667, 1669, 1673, 1674, 1676, 1680, 1682, 1690, 1692, 1694, 1696,
+1653, 1657, 1667, 1669, 1673, 1674, 1676, 1680, 1682, 1690, 1692, 1694, 1696,
   1735, 1705, 1709, 1712, 1714, 1717, 1720, 1722, 1723, 1730, 1737, 1829, 3056,
   1833, 1852, 1853, 1855, 1857, 1861, 1884, 1886, 1889, 1892, 1897, 1899, 1902,
   1907, 1911, 1913, 1921, 1923, 1926, 1930, 1936, 1938, 1941, 1943, 1945, 1947,
@@ -37,7 +33,9 @@ const idProducts = [
   2949, 2819, 2906, 2907, 2908, 2909, 2910, 2911, 2912, 2913, 2915, 2914, 2916,
   2917, 2918, 2919, 2933, 2923, 2927, 2944, 2935, 2948, 5606, 5595, 5592, 5609,
   5593, 5604, 5594, 5605, 5589, 5598, 5603,
-];
+*/
+//-----> OJO
+const idProducts = [1653];
 
 const titlesProducts = [
   "AP-[I-14] Subtle Sophistication Flowers Wedding Invitation",
@@ -991,6 +989,150 @@ const checkedUploadArtworkLaterOption = async (page) => {
   }
 };
 
+const insertPrice = async (page, tdInputs, price) => {
+  let inputPrice = [];
+  let i = 0;
+  for await (let input of tdInputs) {
+    const inputHtml = await input.innerHTML();
+    if (inputHtml.search("calulate_vendor_addoption_price") == -1) {
+      i++;
+      if (i == 3) {
+        inputPrice.push(input);
+        i = 0;
+      }
+    }
+  }
+  for await (let inputTextPrice of inputPrice) {
+    await inputTextPrice.fill(price);
+  }
+};
+
+const deleteArtworkOption = async (page, urlDelete) => {
+  await page.goto(urlDelete, {
+    timeout: 300000,
+  });
+  await page.waitForTimeout(2000);
+};
+
+const checkArtworkOptions = async (page, id) => {
+  const additionalOptionsTable = await page.$("#ops-table");
+  const tbody = await additionalOptionsTable.$("tbody");
+  const additionalOptionsTrTable = await tbody.$$("tr");
+  for await (const tr of additionalOptionsTrTable) {
+    let trHtml = await tr.innerHTML();
+    if (trHtml.search("Artwork" || "ARTWORK" || "artwork") !== -1) {
+      const actionButton = await tr.$(".dropdown-action-btn");
+      await actionButton.click();
+      await tr.waitForSelector(".dropdown-menu");
+      const dropdownMenu = await tr.$(".dropdown-menu");
+      const dropdownMenuOptions = await dropdownMenu.$$("a");
+      const buttonDelete = await dropdownMenuOptions[3].getAttribute("href");
+      await deleteArtworkOption(
+        page,
+        `https://www.apprinting.com/admin/${buttonDelete}`
+      );
+      // await page.goto(
+      //   `https://www.apprinting.com/admin/${buttonDelete}`,
+      //   { timeout: 300000 }
+      // );
+      // await page.waitForTimeout(2000);
+      //await page.waitForSelector("#ops-table");
+      //console.log(buttonDelete);
+      // const responsePromise = page.waitForResponse(
+      //   `https://www.apprinting.com/admin/${buttonDelete}`
+      // );
+      // await responsePromise;
+      //await tr.screenshot({ path: "./delete.jpg" });
+      return true;
+    }
+  }
+  console.log(urlDelete);
+
+  return false;
+};
+
+const createArtworkOption = async (page, id) => {
+  await page.goto(
+    `https://www.apprinting.com/admin/product_additionalinfo_action.php?product_id=${id}`,
+    { timeout: 300000 }
+  );
+  const titleInput = await page.$("#title1");
+  await titleInput.fill("Artwork");
+  const dropDownRadio = await page.$("#radio_combo");
+  await dropDownRadio.click();
+  const sortInput = await page.$("#addition_sort_order");
+  await sortInput.fill("700");
+  const addBulkData = await page.$("#addbulkitem");
+  await addBulkData.click();
+  const addBulkDataContainer = await page.$(".fancybox__container");
+  await addBulkDataContainer.waitForSelector("#bulktext_1");
+  const addBulkDataInput = await addBulkDataContainer.$("#bulktext_1");
+  await addBulkDataInput.fill(
+    `Upload Print Ready PDF Files,10,0\nDesign online,20,0\nWe check & adjust your art,30,0\nWe design it,40,0`
+  );
+  const addBulkDataButton = await addBulkDataContainer.$(
+    '[data-textarea="bulktext_1"]'
+  );
+  await addBulkDataButton.click();
+
+  await page.waitForSelector("#btn-action-save");
+
+  const btnActionSave = await page.$("#btn-action-save");
+  await btnActionSave.click();
+
+  await page.waitForSelector(".float-right.action_area");
+  const attributePrice = await page.$(".float-right.action_area");
+  await attributePrice.click();
+
+  await page.waitForSelector(".table-responsive");
+  const attributePriceTable = await page.$$("tbody");
+
+  const tdInputsOne = await attributePriceTable[2].$$("input");
+  const tdInputsTwo = await attributePriceTable[3].$$("input");
+
+  await insertPrice(page, tdInputsOne, "30");
+  await insertPrice(page, tdInputsTwo, "75");
+
+  const btnActionSaveTwo = await page.$("#btn-action-save");
+  await btnActionSaveTwo.click();
+  await page.waitForSelector("#frmadditionalprice");
+};
+
+const updateAndCreateArtwork = async (page) => {
+  for await (let id of idProducts) {
+    await page.goto(
+      `https://www.apprinting.com/admin/product_additionalinfo_list.php?product_id=${id}`,
+      { timeout: 300000 }
+    );
+
+    const artworkOption = await checkArtworkOptions(page, id);
+
+    if (artworkOption == false) {
+      await createArtworkOption(page, id);
+    } else {
+      console.log("ya existe artwork");
+    }
+    console.log(artworkOption);
+
+    // const report = `${id}\n`;
+    // const uploadTabContent = await page.$("#tab_uploadsettings");
+
+    // await uploadTabContent.click();
+
+    // const options = await page.$$(".switchbutton-element");
+
+    // const uploadArtworkLaterOption = await options[10].innerHTML();
+    // const uploadArtworkLaterOptionChecked =
+    //   await uploadArtworkLaterOption.search("checked");
+
+    // if (uploadArtworkLaterOptionChecked == -1) {
+    //   fs.appendFileSync(`list.txt`, report);
+    // }
+
+    //console.log(report);
+  }
+};
+
 const updatePrice = async () => {
   const browser = await chromium.launch();
   const page = await browser.newPage();
@@ -1015,8 +1157,10 @@ const updatePrice = async () => {
   //await getTitleTitleImagesGallery(page);
   //await setAdditionalMetaTag(page);
   //await checkedAndSetOnUploadArtworkLaterOption(page);
-  await checkedUploadArtworkLaterOption(page);
+  //await checkedUploadArtworkLaterOption(page);
   //await setMarkUpData(page);
+
+  await updateAndCreateArtwork(page);
 
   //await getUrlProducts(page);
   //await auditActionBtv(page);
