@@ -4,7 +4,7 @@ import { login, updateAndCreateArtwork } from './function_list.js'
 const updateRow = async () => {
   // const browser = await firefox.launch({
   //   proxy: {
-  //     server: '185.162.231.207:80'
+  //     server: '101.255.94.161:8080'
   //     // username: 'usr',
   //     // password: 'pwd'
   //   }

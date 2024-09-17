@@ -7,8 +7,8 @@ import { idProducts, urlsProducts, titlesProducts, url, urlProductUpdatePrice, q
 dotenv.config()
 
 export const login = async (page) => {
-  await page.goto(url, { timeout: 300000 })
-  await page.waitForSelector('.login-layout')
+  await page.goto(url)
+  await page.waitForSelector('.login-layout', { state: 'visible' })
   const user = await page.$('#username')
   const pass = await page.$('#password')
   const btn = await page.$('button')
@@ -754,6 +754,7 @@ const createArtworkOption = async (page, id) => {
       { timeout: 300000 }
   )
   await page.once('load', () => console.log('Page loaded!'))
+  await page.waitForSelector('#frmqadditionalfieldaction')
   const titleInput = await page.$('#title1')
   await titleInput.fill('Artwork')
   const dropDownRadio = await page.$('#radio_combo')
@@ -772,6 +773,13 @@ const createArtworkOption = async (page, id) => {
     '[data-textarea="bulktext_1"]'
   )
   await addBulkDataButton.click()
+
+  const priceCalculationType = await page.$('[for="price_calculate_type"]')
+
+  if (priceCalculationType) {
+    const priceCalculationTypeSelect = await page.$('#price_calculate_type')
+    await priceCalculationTypeSelect.selectOption('Fixed Price')
+  }
 
   await page.waitForSelector('#btn-action-save')
 
