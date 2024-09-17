@@ -1,4 +1,4 @@
-export const html =`
+export const html = `
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" rel="stylesheet" />
 <link href="https://dl.dropboxusercontent.com/s/pijxa6ix9v4boo7/style.css?dl=0" rel="stylesheet" />

@@ -12,10 +12,14 @@
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.31.2",
-    "playwright": "^1.31.2"
+    "playwright": "^1.31.2",
+    "standard": "^17.1.2"
   },
   "dependencies": {
     "dotenv": "^16.0.3",
     "express": "^5.0.0"
+  },
+  "eslintConfig": {
+    "extends": "standard"
   }
 }

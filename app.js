@@ -31,14 +31,14 @@ const extractIds = async (page) => {
 
 const seccionFooterPage = async (page, numPage) => {
   let ids = []
-  for (var i = 0; i < numPage; i++) {
-    if(i === 0){
+  for (let i = 0; i < numPage; i++) {
+    if (i === 0) {
       ids = await extractIds(page)
     }
     await page.getByText('Next  »').click()
     await page.waitForTimeout(3000)
     await page.waitForLoadState('networkidle')
-    const seccionIds = await extractIds(page) 
+    const seccionIds = await extractIds(page)
     ids = ids.concat(seccionIds)
   }
   return ids
@@ -49,16 +49,16 @@ const updateProducts = async (page, ids) => {
     await page.goto(`https://www.apprinting.com/admin/product_description.php?product_id=${id}`)
     const btnHTML = await page.$('#cke_134')
     await btnHTML.click()
-    //await page.waitForTimeout(10000)
+    // await page.waitForTimeout(10000)
     const btnSave = await page.$('#btn-action-save')
-    await btnSave.waitForElementState("visible")
+    await btnSave.waitForElementState('visible')
     await page.locator('#cke_3_contents').focus()
     await page.locator('#cke_3_contents').click()
     await page.locator('#cke_3_contents').press('Control+a')
     await page.locator('#cke_3_contents').press('Control+x')
     await page.locator('#cke_3_contents').type(html)
     await page.click('#btn-action-save')
-    //await page.waitForTimeout(3000)
+    // await page.waitForTimeout(3000)
     fs.writeFileSync('id.txt', id)
     console.log(id)
   }
@@ -80,7 +80,7 @@ const writeTable = async (array, url) => {
 //   for await (const button of buttonsArray){
 //     if (modal < 7){
 //       await button.click()
-//       const subMenu = await menu.$$('.dropdown-menu') 
+//       const subMenu = await menu.$$('.dropdown-menu')
 //       const linkSubmenu = await subMenu[modal].$$('a')
 //       await linkSubmenu[0].click()
 //       await button.waitForElementState("visible")
@@ -102,9 +102,9 @@ const baseForm = async (page, menu, title, numDropdown, modalDropdown, clickModa
   let modal = 0
   let click = 0
   const buttonsArray = await numbersButtons(menu)
-  for await (const button of buttonsArray){
-    if(modal === modalDropdown || modal === modalDropdownTwo){
-      if(modal === modalDropdown){
+  for await (const button of buttonsArray) {
+    if (modal === modalDropdown || modal === modalDropdownTwo) {
+      if (modal === modalDropdown) {
         click = clickModal
       } else {
         click = clickModalTwo
@@ -112,12 +112,12 @@ const baseForm = async (page, menu, title, numDropdown, modalDropdown, clickModa
     } else {
       click = 0
     }
-    if (modal <= numDropdown){
+    if (modal <= numDropdown) {
       await button.click()
-      const subMenu = await menu.$$('.dropdown-menu') 
+      const subMenu = await menu.$$('.dropdown-menu')
       const linkSubmenu = await subMenu[modal].$$('a')
       await linkSubmenu[click].click()
-      await button.waitForElementState("visible")
+      await button.waitForElementState('visible')
       console.log(modal)
       modal++
     }
@@ -125,20 +125,20 @@ const baseForm = async (page, menu, title, numDropdown, modalDropdown, clickModa
   await page.waitForTimeout(3000)
   const menuFormBase = await menu.$$eval('button', node => node.map(n => n.innerText))
   const priceBaseold = await menu.$eval('.subtotal-price', node => node.innerText)
-  const priceBase = priceBaseold.replace(',','')
+  const priceBase = priceBaseold.replace(',', '')
   await menuFormBase.push(priceBase)
-  fs.writeFileSync(`${title}.txt`,'\n')
+  fs.writeFileSync(`${title}.txt`, '\n')
   console.log(menuFormBase, Number(priceBase.substring(1)))
   return Number(priceBase.substring(1))
 }
 
 const postBaseForm = async (page, menu, modalDropdown, clickModal, modalDropdownTwo, clickModalTwo) => {
-  //console.log(link, buttonModal);
-  const repeats = [0,1]
-  for await (const repeat of repeats){
+  // console.log(link, buttonModal);
+  const repeats = [0, 1]
+  for await (const repeat of repeats) {
     let modal = 0
     let click = 0
-    if (repeat === 0){
+    if (repeat === 0) {
       modal = modalDropdown
       click = clickModal
     } else {
@@ -147,20 +147,20 @@ const postBaseForm = async (page, menu, modalDropdown, clickModal, modalDropdown
     }
     const buttonsArray = await numbersButtons(menu)
     await buttonsArray[modal].click()
-    const subMenu = await menu.$$('.dropdown-menu') 
+    const subMenu = await menu.$$('.dropdown-menu')
     const linkSubmenu = await subMenu[modal].$$('a')
     await linkSubmenu[click].click()
     await page.waitForTimeout(3000)
   }
   const menuFormBase = await menu.$$eval('button', node => node.map(n => n.innerText))
   const priceBaseold = await menu.$eval('.subtotal-price', node => node.innerText)
-  const priceBase = priceBaseold.replace(',','')
+  const priceBase = priceBaseold.replace(',', '')
   await menuFormBase.push(priceBase)
   console.log(menuFormBase, Number(priceBase.substring(1)))
 }
 
 const linksUpdate = async (page, button, menu, modal) => {
-  //await page.waitForTimeout(3000)
+  // await page.waitForTimeout(3000)
   await button.click()
   const subMenu = await menu.$$('.dropdown-menu')
   const linkSubmenu = await subMenu[modal].$$('a')
@@ -175,28 +175,28 @@ const linksUpdate = async (page, button, menu, modal) => {
 
 const stepByStepForOneButton = async (page, menu, button, pricebase, modal, title, porcent) => {
   const linkSubmenu = await linksUpdate(page, button, menu, modal)
-  //await linkSubmenu[0].waitForElementState('visible')
+  // await linkSubmenu[0].waitForElementState('visible')
   await page.waitForTimeout(3000)
-  console.log(linkSubmenu.length);
+  console.log(linkSubmenu.length)
   await linkSubmenu[0].click()
   let links = 0
   const repeatForButton = linkSubmenu.length - 1
-  for await (const link of linkSubmenu){
+  for await (const link of linkSubmenu) {
     let linkSubmenuNew = await linksUpdate(page, button, menu, modal)
-    if(links <= repeatForButton){
-      if(await linkSubmenuNew[links].innerText() !== 'Custom Size'){
+    if (links <= repeatForButton) {
+      if (await linkSubmenuNew[links].innerText() !== 'Custom Size') {
         await linkSubmenuNew[links].click()
         await page.waitForTimeout(3000)
         const menuForm = await menu.$$eval('button', node => node.map(n => n.innerText))
         const priceOld = await menu.$eval('.subtotal-price', node => node.innerText)
         const price = priceOld.replace(',', '')
-        //const priceReduce = Number(price.substring(1)) - pricebase
-        //const pricePorcent = porcent * priceReduce / 100
-        //const priceTotal = priceReduce + pricePorcent
+        // const priceReduce = Number(price.substring(1)) - pricebase
+        // const pricePorcent = porcent * priceReduce / 100
+        // const priceTotal = priceReduce + pricePorcent
         await menuForm.push(price)
-        //await menuForm.push(priceReduce)
-        //await menuForm.push(pricePorcent)
-        //await menuForm.push(priceTotal)
+        // await menuForm.push(priceReduce)
+        // await menuForm.push(pricePorcent)
+        // await menuForm.push(priceTotal)
         await writeTable(menuForm, title)
         linkSubmenuNew = await linksUpdate(page, button, menu, modal)
         await linkSubmenuNew[0].click()
@@ -216,18 +216,18 @@ const stepByStepForOneButton = async (page, menu, button, pricebase, modal, titl
 
 const stepByStep = async (page, menu, buttonsArray, pricebase) => {
   let modal = 0
-  for await (const button of buttonsArray){
+  for await (const button of buttonsArray) {
     console.log('bucle step principal')
     const linkSubmenu = await linksUpdate(page, button, menu, modal)
     await linkSubmenu[0].waitForElementState('visible')
     await linkSubmenu[0].click()
-    //let stepOne = true
+    // let stepOne = true
     let links = 0
     const repeatForButton = linkSubmenu.length - 1
-    for await (const link of linkSubmenu){
+    for await (const link of linkSubmenu) {
       let linkSubmenuNew = await linksUpdate(page, button, menu, modal)
-      if(links <= repeatForButton){
-        if(await linkSubmenuNew[links].innerText() !== 'Custom Size'){
+      if (links <= repeatForButton) {
+        if (await linkSubmenuNew[links].innerText() !== 'Custom Size') {
           await linkSubmenuNew[links].click()
           await page.waitForTimeout(3000)
           const menuForm = await menu.$$eval('button', node => node.map(n => n.innerText))
@@ -259,14 +259,14 @@ const stepByStep = async (page, menu, buttonsArray, pricebase) => {
 const web = async (url, modal, numDropdown, modalDropdown, clickModal, modalDropdownTwo, clickModalTwo) => {
   const browser = await chromium.launch()
   const page = await browser.newPage()
-  
+
   // EXTRACT NUM FOOTER PAGE
   // const num = await page.getByRole('link', {class: 'page-link'}).allInnerTexts()
   // const numPage = num.filter(data => data.length === 1).length
-  
+
   // ACTIVATE EXTRACT IDS PRODUCTS
   // await page.goto('https://www.apprinting.com/a7-atlas-pockets-wedding-invitation/products/')
-  
+
   // const ids = [
   //   '1619', '1685', '1689', '1651', '1701', '1707',
   //   '1713', '1718', '1727', '1728', '1732', '1738',
@@ -281,7 +281,7 @@ const web = async (url, modal, numDropdown, modalDropdown, clickModal, modalDrop
   //   '2071', '2077', '2078', '2081', '2084', '2086',
   //   '2089', '2094', '2100', '2102'
   // ]
-  
+
   // await seccionFooterPage(page, 5)
   // fs.writeFileSync('ids.txt', ids.toString())
   // console.log(ids)
@@ -301,7 +301,7 @@ const web = async (url, modal, numDropdown, modalDropdown, clickModal, modalDrop
   await postBaseForm(page, menu, modalDropdown, clickModal, modalDropdownTwo, clickModalTwo)
   const buttonsArray = await numbersButtons(menu)
   await stepByStepForOneButton(page, menu, buttonsArray[modal], pricebase, modal, title)
-   
+
   // const step = await stepByStep(page, menu, buttonsArray, pricebase)
 
   // await buttonsArray[0].click()
@@ -313,12 +313,12 @@ const web = async (url, modal, numDropdown, modalDropdown, clickModal, modalDrop
   // const menuBase = await menu.$$eval('button', node => node.map(n => n.innerText))
   // const price = await menu.$eval('.subtotal-price', node => node.innerText)
 
-  //const option = await prueba.getByRole('link').allInnerTexts()
-  
+  // const option = await prueba.getByRole('link').allInnerTexts()
+
   // const box = page.getByRole('button').filter({hasText: '8.5" x 11" (Letter Size)'})
   // await box.click()
   // const option = await page.getByRole('link').allInnerTexts()
-  //await page.screenshot({path: 'prueba.jpg'})
+  // await page.screenshot({path: 'prueba.jpg'})
   // console.log(menuBase);
   // console.log(price);
   // END PROCCESS
@@ -327,12 +327,12 @@ const web = async (url, modal, numDropdown, modalDropdown, clickModal, modalDrop
   return `${title}.txt`
 }
 
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
+app.use(express.json())
+app.use(express.urlencoded({ extended: true }))
 
 app.get('/', (req, res) => {
-  const {pathname: root} = new URL('./views/index.html', import.meta.url)
-  //res.sendFile(path.join(__dirname, './views/index.html'))
+  const { pathname: root } = new URL('./views/index.html', import.meta.url)
+  // res.sendFile(path.join(__dirname, './views/index.html'))
   res.sendFile(root)
 })
 
@@ -340,13 +340,13 @@ app.post('/submit', async (req, res) => {
   // const {pathname: root} = new URL('table.txt', import.meta.url)
   try {
     const title = await web(req.body.url, Number(req.body.modal), Number(req.body.numDropdown), Number(req.body.modalDropdown), Number(req.body.clickModal), Number(req.body.modalDropdownTwo), Number(req.body.clickModalTwo))
-    const {pathname: root} = new URL(title, import.meta.url)
+    const { pathname: root } = new URL(title, import.meta.url)
     res.sendFile(root)
   } catch (error) {
     res.send('403')
   }
-  
-  //res.sendFile(root)
+
+  // res.sendFile(root)
 })
 
 app.listen(port, () => {
