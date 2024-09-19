@@ -6,7 +6,7 @@ import seoData from './seo-data.js'
 import { idProducts, urlsProducts, titlesProducts, url, urlProductUpdatePrice, qtys } from './data.js'
 dotenv.config()
 
-export const login = async (page) => {
+export const login = async (page, ipProxy) => {
   await page.goto(url)
   await page.waitForSelector('.login-layout', { state: 'visible' })
   const user = await page.$('#username')
@@ -16,7 +16,8 @@ export const login = async (page) => {
   await pass.fill(process.env.LOGIN_SECRET_KEY)
   await btn.click()
   await page.waitForSelector('.login-layout', { state: 'hidden' })
-  // await page.waitForTimeout(5000)
+  const report = `ip secundary ---> ${ipProxy}\n`
+  fs.appendFileSync('list.txt', report)
   console.log('login: OK')
 }
 
@@ -728,6 +729,7 @@ const deleteArtworkOption = async (page, tr) => {
   const buttonAccept = await modalAcceptDelete.$('.bootbox-accept')
   await buttonAccept.click()
   await page.waitForSelector('.modal-open', { state: 'hidden' })
+  // await page.waitForTimeout(7000)
 }
 
 const checkArtworkOptions = async (page) => {
@@ -741,20 +743,22 @@ const checkArtworkOptions = async (page) => {
         trHtml.search('ARTWORK') !== -1 ||
         trHtml.search('artwork') !== -1
     ) {
+      // await page.waitForTimeout(7000)
       await deleteArtworkOption(page, tr)
       return true
     }
   }
+  // await page.waitForTimeout(7000)
   return false
 }
 
 const createArtworkOption = async (page, id) => {
   await page.goto(
-      `https://www.apprinting.com/admin/product_additionalinfo_action.php?product_id=${id}`,
-      { timeout: 300000 }
+      `https://www.apprinting.com/admin/product_additionalinfo_action.php?product_id=${id}`
   )
   await page.once('load', () => console.log('Page loaded!'))
   await page.waitForSelector('#frmqadditionalfieldaction')
+  // await page.waitForTimeout(7000)
   const titleInput = await page.$('#title1')
   await titleInput.fill('Artwork')
   const dropDownRadio = await page.$('#radio_combo')
@@ -804,22 +808,23 @@ const createArtworkOption = async (page, id) => {
   await page.waitForSelector('#frmadditionalprice')
 }
 
-export const updateAndCreateArtwork = async (page) => {
+export const updateAndCreateArtwork = async (page, ipProxy) => {
   for await (const id of idProducts) {
     await page.goto(
-        `https://www.apprinting.com/admin/product_additionalinfo_list.php?product_id=${id}`,
-        { timeout: 300000 }
+          `https://www.apprinting.com/admin/product_additionalinfo_list.php?product_id=${id}`
     )
     const artworkOption = await checkArtworkOptions(page, id)
     let report = ''
     if (artworkOption === false) {
       await createArtworkOption(page, id)
-      report = `artwork create ---> ${id}\n`
+      report = `artwork create ---> ${id} ---> ${ipProxy}\n`
     } else {
       await createArtworkOption(page, id)
-      report = `artwork update ---> ${id}\n`
+      report = `artwork update ---> ${id} ---> ${ipProxy}\n`
     }
     fs.appendFileSync('list.txt', report)
     console.log(report)
+    const index = idProducts.indexOf(id)
+    idProducts.splice(index, 1)
   }
 }

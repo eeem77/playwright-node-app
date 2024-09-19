@@ -1,0 +1,19 @@
+ip secundary ---> 47.84.82.229:8080
+artwork create ---> 4854 ---> 47.84.82.229:8080
+ip secundary ---> 208.87.243.199:9898
+artwork create ---> 4864 ---> 208.87.243.199:9898
+ip secundary ---> 167.86.99.29:3128
+artwork create ---> 4862 ---> 167.86.99.29:3128
+artwork update ---> 4825 ---> 167.86.99.29:3128
+ip secundary ---> 145.40.97.148:10001
+artwork create ---> 4865 ---> 145.40.97.148:10001
+ip secundary ---> 138.201.135.176:3129
+artwork update ---> 4820 ---> 138.201.135.176:3129
+ip secundary ---> 185.82.98.73:99
+artwork create ---> 4847 ---> 185.82.98.73:99
+ip secundary ---> 38.51.232.18:8080
+artwork create ---> 4860 ---> 38.51.232.18:8080
+ip secundary ---> 5.189.239.157:80
+artwork create ---> 4821 ---> 5.189.239.157:80
+ip secundary ---> 178.48.68.61:18080
+artwork create ---> 4824 ---> 178.48.68.61:18080

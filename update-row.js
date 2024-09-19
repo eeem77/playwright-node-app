@@ -1,19 +1,34 @@
 import { firefox } from 'playwright'
 import { login, updateAndCreateArtwork } from './function_list.js'
+import { proxys } from './data.js'
 
 const updateRow = async () => {
-  // const browser = await firefox.launch({
-  //   proxy: {
-  //     server: '101.255.94.161:8080'
-  //     // username: 'usr',
-  //     // password: 'pwd'
-  //   }
-  // })
-  const browser = await firefox.launch()
+  const proxysLen = proxys.length
+  const rand = Math.floor(Math.random() * proxysLen)
+  const ipProxy = proxys[rand]
+  const browser = await firefox.launch({
+    proxy: {
+      server: ipProxy
+      // username: '',
+      // password: ''
+    }
+  })
+  // const browser = await firefox.launch()
   const page = await browser.newPage()
 
   // LOGIN APP
-  await login(page)
+  if (proxysLen > 1) {
+    try {
+      await login(page, ipProxy)
+      await updateAndCreateArtwork(page, ipProxy)
+    } catch (error) {
+      console.log(`no connection ---> ${proxysLen}`)
+      const index = proxys.indexOf(ipProxy)
+      proxys.splice(index, 1)
+      await browser.close()
+      await updateRow()
+    }
+  }
 
   // FUNCTIONS GROUPS
   // await getTitleProduct(page);
@@ -35,8 +50,6 @@ const updateRow = async () => {
   // await setMarkUpData(page);
 
   // await getIdProducts(page);
-  await updateAndCreateArtwork(page)
-
   // await getUrlProducts(page);
   // await auditActionBtv(page);
   // await auditActionBtvVerify(page);
