@@ -16,8 +16,8 @@ export const login = async (page, ipProxy) => {
   await pass.fill(process.env.LOGIN_SECRET_KEY)
   await btn.click()
   await page.waitForSelector('.login-layout', { state: 'hidden' })
-  const report = `ip secundary ---> ${ipProxy}\n`
-  fs.appendFileSync('list.txt', report)
+  // const report = `ip secundary ---> ${ipProxy}\n`
+  // fs.appendFileSync('list.txt', report)
   console.log('login: OK')
 }
 
@@ -743,12 +743,10 @@ const checkArtworkOptions = async (page) => {
         trHtml.search('ARTWORK') !== -1 ||
         trHtml.search('artwork') !== -1
     ) {
-      // await page.waitForTimeout(7000)
       await deleteArtworkOption(page, tr)
-      return true
+      await checkArtworkOptions(page)
     }
   }
-  // await page.waitForTimeout(7000)
   return false
 }
 
@@ -818,9 +816,6 @@ export const updateAndCreateArtwork = async (page, ipProxy) => {
     if (artworkOption === false) {
       await createArtworkOption(page, id)
       report = `artwork create ---> ${id} ---> ${ipProxy}\n`
-    } else {
-      await createArtworkOption(page, id)
-      report = `artwork update ---> ${id} ---> ${ipProxy}\n`
     }
     fs.appendFileSync('list.txt', report)
     console.log(report)

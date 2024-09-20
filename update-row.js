@@ -17,18 +17,18 @@ const updateRow = async () => {
   const page = await browser.newPage()
 
   // LOGIN APP
-  if (proxysLen > 1) {
-    try {
-      await login(page, ipProxy)
-      await updateAndCreateArtwork(page, ipProxy)
-    } catch (error) {
-      console.log(`no connection ---> ${proxysLen}`)
-      const index = proxys.indexOf(ipProxy)
-      proxys.splice(index, 1)
-      await browser.close()
-      await updateRow()
-    }
+  // if (proxysLen > 0) {
+  try {
+    await login(page, ipProxy)
+    await updateAndCreateArtwork(page, ipProxy)
+  } catch (error) {
+    console.log(`no connection ---> ${proxysLen}`)
+    // const index = proxys.indexOf(ipProxy)
+    // proxys.splice(index, 1)
+    await browser.close()
+    await updateRow()
   }
+  // }
 
   // FUNCTIONS GROUPS
   // await getTitleProduct(page);
