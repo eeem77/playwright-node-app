@@ -804,6 +804,7 @@ const createArtworkOption = async (page, id) => {
   const btnActionSaveTwo = await page.$('#btn-action-save')
   await btnActionSaveTwo.click()
   await page.waitForSelector('#frmadditionalprice')
+  return true
 }
 
 export const updateAndCreateArtwork = async (page, ipProxy) => {
@@ -814,12 +815,14 @@ export const updateAndCreateArtwork = async (page, ipProxy) => {
     const artworkOption = await checkArtworkOptions(page, id)
     let report = ''
     if (artworkOption === false) {
-      await createArtworkOption(page, id)
-      report = `artwork create ---> ${id} ---> ${ipProxy}\n`
+      const createdProduct = await createArtworkOption(page, id)
+      if (createdProduct === true) {
+        report = `artwork create ---> ${id} ---> ${ipProxy}\n`
+        fs.appendFileSync('list.txt', report)
+        console.log(report)
+        const index = idProducts.indexOf(id)
+        idProducts.splice(index, 1)
+      }
     }
-    fs.appendFileSync('list.txt', report)
-    console.log(report)
-    const index = idProducts.indexOf(id)
-    idProducts.splice(index, 1)
   }
 }
