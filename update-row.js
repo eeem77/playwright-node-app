@@ -1,11 +1,12 @@
 import { firefox } from 'playwright'
 import { login, updateAndCreateArtwork } from './function_list.js'
-import { proxys } from './data.js'
+import { proxies } from './data.js'
+import fs from 'fs'
 
 const updateRow = async () => {
-  const proxysLen = proxys.length
-  const rand = Math.floor(Math.random() * proxysLen)
-  const ipProxy = proxys[rand]
+  const proxiesLen = proxies.length
+  const rand = Math.floor(Math.random() * proxiesLen)
+  const ipProxy = proxies[rand]
   const browser = await firefox.launch({
     proxy: {
       server: ipProxy
@@ -17,18 +18,19 @@ const updateRow = async () => {
   const page = await browser.newPage()
 
   // LOGIN APP
-  // if (proxysLen > 0) {
-  try {
-    await login(page, ipProxy)
-    await updateAndCreateArtwork(page, ipProxy)
-  } catch (error) {
-    console.log(`no connection ---> ${proxysLen}`)
-    // const index = proxys.indexOf(ipProxy)
-    // proxys.splice(index, 1)
-    await browser.close()
-    await updateRow()
+  if (proxiesLen >= 1) {
+    try {
+      await login(page, ipProxy)
+      await updateAndCreateArtwork(page, ipProxy)
+    } catch (error) {
+      fs.appendFileSync('bad-proxies.txt', `${ipProxy}\n`)
+      console.log(`no connection ---> ${proxiesLen}`)
+      const index = proxies.indexOf(ipProxy)
+      proxies.splice(index, 1)
+      await browser.close()
+      await updateRow()
+    }
   }
-  // }
 
   // FUNCTIONS GROUPS
   // await getTitleProduct(page);

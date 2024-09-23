@@ -16,8 +16,8 @@ export const login = async (page, ipProxy) => {
   await pass.fill(process.env.LOGIN_SECRET_KEY)
   await btn.click()
   await page.waitForSelector('.login-layout', { state: 'hidden' })
-  // const report = `ip secundary ---> ${ipProxy}\n`
-  // fs.appendFileSync('list.txt', report)
+  const report = `${ipProxy}\n`
+  fs.appendFileSync('proxies-secundary.txt', report)
   console.log('login: OK')
 }
 
@@ -817,8 +817,9 @@ export const updateAndCreateArtwork = async (page, ipProxy) => {
     if (artworkOption === false) {
       const createdProduct = await createArtworkOption(page, id)
       if (createdProduct === true) {
-        report = `artwork create ---> ${id} ---> ${ipProxy}\n`
-        fs.appendFileSync('list.txt', report)
+        report = `${id}\n`
+        fs.appendFileSync('artwork-created-list-id.txt', report)
+        fs.appendFileSync('proxies-primary.txt', `${ipProxy}\n`)
         console.log(report)
         const index = idProducts.indexOf(id)
         idProducts.splice(index, 1)
