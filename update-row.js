@@ -25,8 +25,8 @@ const updateRow = async () => {
     } catch (error) {
       fs.appendFileSync('bad-proxies.txt', `${ipProxy}\n`)
       console.log(`no connection ---> ${proxiesLen}`)
-      // const index = proxies.indexOf(ipProxy)
-      // proxies.splice(index, 1)
+      const index = proxies.indexOf(ipProxy)
+      proxies.splice(index, 1)
       await browser.close()
       await updateRow()
     }
