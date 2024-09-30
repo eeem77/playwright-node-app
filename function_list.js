@@ -765,18 +765,19 @@ const auditCheckArtworkOptions = async (page, tr) => {
 
   await page.waitForSelector('.table-responsive')
   const attributePriceTable = await page.$$('tbody')
+  try {
+    const tdInputsOne = await attributePriceTable[2].$$('input')
+    const tdInputsTwo = await attributePriceTable[3].$$('input')
 
-  const tdInputsOne = await attributePriceTable[2].$$('input')
-  const tdInputsTwo = await attributePriceTable[3].$$('input')
+    const checkPrice30 = await checkPrice(tdInputsOne, '30')
+    const checkPrice75 = await checkPrice(tdInputsTwo, '75')
 
-  const checkPrice30 = await checkPrice(tdInputsOne, '30')
-  const checkPrice75 = await checkPrice(tdInputsTwo, '75')
-
-  if (checkPrice30 === true && checkPrice75 === true) {
-    return true
+    if (checkPrice30 === true && checkPrice75 === true) {
+      return true
+    }
+  } catch (error) {
+    return false
   }
-
-  return false
 }
 
 const checkArtworkOptions = async (page) => {
@@ -813,6 +814,8 @@ const checkArtworkOptionsAudit = async (page) => {
       const auditOptionsArtwork = await auditCheckArtworkOptions(page, tr)
       if (auditOptionsArtwork === true) {
         return true
+      } else {
+        return false
       }
     }
   }
