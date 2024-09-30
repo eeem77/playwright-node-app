@@ -16,8 +16,8 @@ export const login = async (page, ipProxy) => {
   await pass.fill(process.env.LOGIN_SECRET_KEY)
   await btn.click()
   await page.waitForSelector('.login-layout', { state: 'hidden' })
-  const report = `${ipProxy}\n`
-  fs.appendFileSync('proxies-secundary.txt', report)
+  // const report = `${ipProxy}\n`
+  // fs.appendFileSync('proxies-secundary.txt', report)
   console.log('login: OK')
 }
 
@@ -716,6 +716,28 @@ const insertPrice = async (page, tdInputs, price) => {
   }
 }
 
+const checkPrice = async (tdInputs, price) => {
+  const inputPrice = []
+  let i = 0
+  for await (const input of tdInputs) {
+    const inputHtml = await input.innerHTML()
+    if (inputHtml.search('calulate_vendor_addoption_price') === -1) {
+      i++
+      if (i === 3) {
+        inputPrice.push(input)
+        i = 0
+      }
+    }
+  }
+  for await (const inputTextPrice of inputPrice) {
+    const value = await inputTextPrice.inputValue()
+    if (value !== price) {
+      return false
+    }
+  }
+  return true
+}
+
 const deleteArtworkOption = async (page, tr) => {
   const actionButton = await tr.$('.dropdown-action-btn')
   await actionButton.click()
@@ -730,6 +752,31 @@ const deleteArtworkOption = async (page, tr) => {
   await buttonAccept.click()
   await page.waitForSelector('.modal-open', { state: 'hidden' })
   // await page.waitForTimeout(7000)
+}
+
+const auditCheckArtworkOptions = async (page, tr) => {
+  const actionButton = await tr.$('.dropdown-action-btn')
+  await actionButton.click()
+  await tr.waitForSelector('.dropdown-menu')
+  const dropdownMenu = await tr.$('.dropdown-menu')
+
+  const dropdownMenuOptions = await dropdownMenu.$$('a')
+  await dropdownMenuOptions[1].click()
+
+  await page.waitForSelector('.table-responsive')
+  const attributePriceTable = await page.$$('tbody')
+
+  const tdInputsOne = await attributePriceTable[2].$$('input')
+  const tdInputsTwo = await attributePriceTable[3].$$('input')
+
+  const checkPrice30 = await checkPrice(tdInputsOne, '30')
+  const checkPrice75 = await checkPrice(tdInputsTwo, '75')
+
+  if (checkPrice30 === true && checkPrice75 === true) {
+    return true
+  }
+
+  return false
 }
 
 const checkArtworkOptions = async (page) => {
@@ -748,6 +795,30 @@ const checkArtworkOptions = async (page) => {
     }
   }
   return false
+}
+
+const checkArtworkOptionsAudit = async (page) => {
+  const additionalOptionsTable = await page.$('#ops-table')
+  const tbody = await additionalOptionsTable.$('tbody')
+  const additionalOptionsTrTable = await tbody.$$('tr')
+  let artworkLen = 0
+  for await (const tr of additionalOptionsTrTable) {
+    const trHtml = await tr.innerHTML()
+    if (
+      trHtml.search('Artwork') !== -1 ||
+        trHtml.search('ARTWORK') !== -1 ||
+        trHtml.search('artwork') !== -1
+    ) {
+      artworkLen++
+      const auditOptionsArtwork = await auditCheckArtworkOptions(page, tr)
+      if (auditOptionsArtwork === true) {
+        return true
+      }
+    }
+  }
+  if (artworkLen !== 1) {
+    return false
+  }
 }
 
 const createArtworkOption = async (page, id) => {
@@ -825,5 +896,19 @@ export const updateAndCreateArtwork = async (page, ipProxy) => {
         idProducts.splice(index, 1)
       }
     }
+  }
+}
+
+export const auditArtwork = async (page) => {
+  for await (const id of idProducts) {
+    await page.goto(
+          `https://www.apprinting.com/admin/product_additionalinfo_list.php?product_id=${id}`
+    )
+    const verifyArtwork = await checkArtworkOptionsAudit(page)
+    if (verifyArtwork === false) {
+      const report = `${id}\n`
+      fs.appendFileSync('report-audit-artwork.txt', report)
+    }
+    console.log(`${id} ---> ${verifyArtwork}`)
   }
 }
