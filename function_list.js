@@ -16,8 +16,8 @@ export const login = async (page, ipProxy) => {
   await pass.fill(process.env.LOGIN_SECRET_KEY)
   await btn.click()
   await page.waitForSelector('.login-layout', { state: 'hidden' })
-  // const report = `${ipProxy}\n`
-  // fs.appendFileSync('proxies-secundary.txt', report)
+  const report = `${ipProxy}\n`
+  fs.appendFileSync('proxies-secundary.txt', report)
   console.log('login: OK')
 }
 

@@ -1,41 +1,43 @@
-import { firefox } from 'playwright'
+import { chromium } from 'playwright'
 import {
   login,
-  auditArtwork
-  // updateAndCreateArtwork
+  // auditArtwork
+  updateAndCreateArtwork
 } from './function_list.js'
-// import { proxies } from './data.js'
-// import fs from 'fs'
+import { proxies } from './data.js'
+import fs from 'fs'
 
 const updateRow = async () => {
-  // const proxiesLen = proxies.length
-  // const rand = Math.floor(Math.random() * proxiesLen)
-  // const ipProxy = proxies[rand]
-  // const browser = await firefox.launch({
-  //   proxy: {
-  //     server: ipProxy
-  //     // username: '',
-  //     // password: ''
-  //   }
-  // })
-  const browser = await firefox.launch()
+  const proxiesLen = proxies.length
+  const rand = Math.floor(Math.random() * proxiesLen)
+  const ipProxy = proxies[rand]
+  const browser = await chromium.launch({
+    proxy: {
+      server: ipProxy
+      // username: '',
+      // password: ''
+    }
+  })
+
+  // const browser = await chromium.launch()
+
   const page = await browser.newPage()
 
   // LOGIN APP
   // CREATE AND UPDATE ARTWORK WITH PROXIES LIST
-  // if (proxiesLen >= 1) {
-  //   try {
-  //     await login(page, ipProxy)
-  //     await updateAndCreateArtwork(page, ipProxy)
-  //   } catch (error) {
-  //     fs.appendFileSync('bad-proxies.txt', `${ipProxy}\n`)
-  //     console.log(`no connection ---> ${proxiesLen}`)
-  //     const index = proxies.indexOf(ipProxy)
-  //     proxies.splice(index, 1)
-  //     await browser.close()
-  //     await updateRow()
-  //   }
-  // }
+  if (proxiesLen >= 1) {
+    try {
+      await login(page, ipProxy)
+      await updateAndCreateArtwork(page, ipProxy)
+    } catch (error) {
+      fs.appendFileSync('bad-proxies.txt', `${ipProxy}\n`)
+      console.log(`no connection ---> ${proxiesLen}`)
+      // const index = proxies.indexOf(ipProxy)
+      // proxies.splice(index, 1)
+      await browser.close()
+      await updateRow()
+    }
+  }
 
   // CREATE AND UPDATE ARTWORK
   // try {
@@ -48,8 +50,8 @@ const updateRow = async () => {
   // }
 
   // AUDIT ARTWORK OPTIONS
-  await login(page)
-  await auditArtwork(page)
+  // await login(page)
+  // await auditArtwork(page)
 
   // FUNCTIONS GROUPS
   // await getTitleProduct(page);
