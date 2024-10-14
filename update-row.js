@@ -1,12 +1,13 @@
-import { firefox } from 'playwright'
+import { firefox } from "playwright";
 import {
   login,
   auditArtwork,
   updateAndCreateArtwork,
-  getIdProducts
-} from './function_list.js'
+  getIdProducts,
+} from "./function_list.js";
 // import { proxies } from './data.js'
 // import fs from 'fs'
+import player from "play-sound";
 
 const updateRow = async () => {
   // const proxiesLen = proxies.length
@@ -20,9 +21,9 @@ const updateRow = async () => {
   //   }
   // })
 
-  const browser = await firefox.launch()
+  const browser = await firefox.launch();
 
-  const page = await browser.newPage()
+  const page = await browser.newPage();
 
   // LOGIN APP
   // CREATE AND UPDATE ARTWORK WITH PROXIES LIST
@@ -41,14 +42,23 @@ const updateRow = async () => {
   // }
 
   // await getIdProducts(page);
-  
+
   // CREATE AND UPDATE ARTWORK
-  await login(page)
-  await updateAndCreateArtwork(page)  
+  // try {
+  //   await login(page);
+  //   await updateAndCreateArtwork(page);
+  // } catch (error) {
+  //   player().play("./alarm.mp3", (err) => {
+  //     if (err) throw err;
+  //   });
+  // }
 
   // AUDIT ARTWORK OPTIONS
-  // await login(page)
-  // await auditArtwork(page)
+  await login(page);
+  await auditArtwork(page);
+  player().play("./alarm.mp3", (err) => {
+    if (err) throw err;
+  });
 
   // FUNCTIONS GROUPS
   // await getTitleProduct(page);
@@ -88,8 +98,8 @@ const updateRow = async () => {
   // await getTitleFilterProduct(page, "Acrylic");
   // await addSetupProductPageDesigner(page);
 
-  console.log('END')
-  await browser.close()
-}
+  console.log("END");
+  await browser.close();
+};
 
-updateRow()
+updateRow();
