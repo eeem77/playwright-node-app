@@ -4,6 +4,7 @@ import {
   auditArtwork,
   updateAndCreateArtwork,
   getIdProducts,
+  checkAndDeleteArtwork
 } from "./function_list.js";
 // import { proxies } from './data.js'
 // import fs from 'fs'
@@ -41,19 +42,28 @@ const updateRow = async () => {
   //   }
   // }
 
+  // GET ID PRODUCTS
   // await getIdProducts(page);
 
-  // CREATE AND UPDATE ARTWORK
+  // CHECK AND DELETE ARTWORK
   // try {
   //   await login(page);
-  //   await updateAndCreateArtwork(page);
+  //   await checkAndDeleteArtwork(page);
   // } catch (error) {
   //   console.log("Error ---> ", error);
   // }
 
+  // CREATE AND UPDATE ARTWORK
+  try {
+    await login(page);
+    await updateAndCreateArtwork(page);
+  } catch (error) {
+    console.log("Error ---> ", error);
+  }
+
   // AUDIT ARTWORK OPTIONS
-  await login(page);
-  await auditArtwork(page);
+  // await login(page);
+  // await auditArtwork(page);
 
   // FUNCTIONS GROUPS
   // await getTitleProduct(page);

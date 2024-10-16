@@ -139,7 +139,7 @@ export const changeAssociatedCategoryProduct = async (page) => {
 };
 
 export const getIdProducts = async (page) => {
-  await page.goto("https://www.apprinting.com/bilingual-wedding-invitations/products/", {
+  await page.goto("https://www.apprinting.com/wedding-menu/products/", {
     timeout: 300000,
   });
   const products = await page.$$eval(".product-box", (node) =>
@@ -795,12 +795,12 @@ const checkArtworkOptions = async (page) => {
   for await (const tr of additionalOptionsTrTable) {
     const trHtml = await tr.innerHTML();
     if (
-      trHtml.search("Artwork") !== -1 ||
-      trHtml.search("ARTWORK") !== -1 ||
-      trHtml.search("artwork") !== -1
+      trHtml.includes("Artwork") === true ||
+      trHtml.includes("ARTWORK") === true ||
+      trHtml.includes("artwork") === true
     ) {
       await deleteArtworkOption(page, tr);
-      await checkArtworkOptions(page);
+      await checkArtworkOptions(page);      
     }
   }
   return false;
@@ -810,7 +810,7 @@ const checkArtworkOptionsAudit = async (page) => {
   const additionalOptionsTable = await page.$("#ops-table");
   const tbody = await additionalOptionsTable.$("tbody");
   const additionalOptionsTrTable = await tbody.$$("tr");
-  //let artworkLen = 0
+  let artworkLen = 0
   for await (const tr of additionalOptionsTrTable) {
     const trHtml = await tr.innerHTML();
     if (
@@ -818,17 +818,17 @@ const checkArtworkOptionsAudit = async (page) => {
       trHtml.includes("ARTWORK") === true ||
       trHtml.includes("artwork") === true
     ) {
-      // artworkLen++
+      artworkLen++
       // const auditOptionsArtwork = await auditCheckArtworkOptions(page, tr)
       // if (auditOptionsArtwork === true) {
       //   return true
       // } else {
       //   return false
       // }
-      return true;
+      return artworkLen;
     }
   }
-  return false;
+  return artworkLen;
   // if (artworkLen !== 1) {
   //   return false
   // }
@@ -898,26 +898,22 @@ export const updateAndCreateArtwork = async (page, ipProxy) => {
     await page.goto(
       `https://www.apprinting.com/admin/product_additionalinfo_list.php?product_id=${id}`
     );
-    // const artworkOption = await checkArtworkOptions(page, id)
-    // await checkArtworkOptions(page, id);
+    const report = `${id}`;    
     await createArtworkOption(page, id);
-    const report = `${id}`;
-    // const index = idProducts.indexOf(id);
-    // idProducts.splice(index, 1);
-    // fs.appendFileSync("artwork-deleted.txt", `${report}\n`);
-    fs.appendFileSync("artwork-created-list-id.txt", `${report}\n`);
+    fs.appendFileSync("artwork-created-list-id.txt", `${report}\n`);    
     console.log(report);
-    // if (artworkOption === false) {
-    //   const createdProduct = await createArtworkOption(page, id)
-    //   if (createdProduct === true) {
-    //     report = `${id}\n`
-    //     fs.appendFileSync('artwork-created-list-id.txt', report)
-    //     // fs.appendFileSync('proxies-primary.txt', `${ipProxy}\n`)
-    //     console.log(report)
-    //     const index = idProducts.indexOf(id)
-    //     idProducts.splice(index, 1)
-    //   }
-    // }
+  }
+};
+
+export const checkAndDeleteArtwork = async (page, ipProxy) => {
+  for await (const id of idProducts) {
+    await page.goto(
+      `https://www.apprinting.com/admin/product_additionalinfo_list.php?product_id=${id}`
+    );
+    const report = `${id}`;    
+    await checkArtworkOptions(page, id);
+    fs.appendFileSync("artwork-deleted.txt", `${report}\n`);    
+    console.log(report);
   }
 };
 
@@ -927,11 +923,11 @@ export const auditArtwork = async (page) => {
       `https://www.apprinting.com/admin/product_additionalinfo_list.php?product_id=${id}`
     );
     const verifyArtwork = await checkArtworkOptionsAudit(page);
-    // if (verifyArtwork === false) {
-    //   const report = `${id}\n`
-    //   fs.appendFileSync('report-audit-artwork.txt', report)
-    // }
-    const report = `${id} ---> ${verifyArtwork}\n`;
+    let artwork = false
+    if (verifyArtwork > 0) {
+      artwork = true
+    }
+    const report = `${id} ---> ${artwork} ---> ${verifyArtwork}\n`;
     fs.appendFileSync("report-audit-artwork-bad-good.txt", report);
     console.log(`${id} ---> ${verifyArtwork}`);
   }
