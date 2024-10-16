@@ -48,17 +48,12 @@ const updateRow = async () => {
   //   await login(page);
   //   await updateAndCreateArtwork(page);
   // } catch (error) {
-  //   player().play("./alarm.mp3", (err) => {
-  //     if (err) throw err;
-  //   });
+  //   console.log("Error ---> ", error);
   // }
 
   // AUDIT ARTWORK OPTIONS
   await login(page);
   await auditArtwork(page);
-  player().play("./alarm.mp3", (err) => {
-    if (err) throw err;
-  });
 
   // FUNCTIONS GROUPS
   // await getTitleProduct(page);
@@ -98,8 +93,12 @@ const updateRow = async () => {
   // await getTitleFilterProduct(page, "Acrylic");
   // await addSetupProductPageDesigner(page);
 
-  console.log("END");
+  player().play("./alarm.mp3", (err) => {
+    if (err) throw err;
+  });
+
   await browser.close();
+  console.log("END");
 };
 
 updateRow();
