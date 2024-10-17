@@ -46,20 +46,20 @@ const updateRow = async () => {
   // await getIdProducts(page);
 
   // CHECK AND DELETE ARTWORK
-  // try {
-  //   await login(page);
-  //   await checkAndDeleteArtwork(page);
-  // } catch (error) {
-  //   console.log("Error ---> ", error);
-  // }
-
-  // CREATE AND UPDATE ARTWORK
   try {
     await login(page);
-    await updateAndCreateArtwork(page);
+    await checkAndDeleteArtwork(page);
   } catch (error) {
     console.log("Error ---> ", error);
   }
+
+  // CREATE AND UPDATE ARTWORK
+  // try {
+  //   await login(page);
+  //   await updateAndCreateArtwork(page);
+  // } catch (error) {
+  //   console.log("Error ---> ", error);
+  // }
 
   // AUDIT ARTWORK OPTIONS
   // await login(page);
