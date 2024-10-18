@@ -134,7 +134,11 @@ export const proxies = [
   "104.207.47.55:3128",
 ];
 
-export const idProducts = [  5670, 5649, 5650, 5651];
+export const idProducts = [
+  5602, 3710, 3703, 3714, 81, 3693, 3708, 3699, 1124, 3715, 3694, 3702, 3697,
+  3698, 3867, 3691, 3861, 3700, 3856, 3859, 5601, 5607, 3850, 3857, 3860, 3862,
+  3863, 3858, 3696, 3692, 3701, 3706,
+];
 
 export const titlesProducts = [
   "AP-[I-14] Subtle Sophistication Flowers Wedding Invitation",

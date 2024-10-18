@@ -46,12 +46,12 @@ const updateRow = async () => {
   // await getIdProducts(page);
 
   // CHECK AND DELETE ARTWORK
-  try {
-    await login(page);
-    await checkAndDeleteArtwork(page);
-  } catch (error) {
-    console.log("Error ---> ", error);
-  }
+  // try {
+  //   await login(page);
+  //   await checkAndDeleteArtwork(page);
+  // } catch (error) {
+  //   console.log("Error ---> ", error);
+  // }
 
   // CREATE AND UPDATE ARTWORK
   // try {
@@ -62,8 +62,8 @@ const updateRow = async () => {
   // }
 
   // AUDIT ARTWORK OPTIONS
-  // await login(page);
-  // await auditArtwork(page);
+  await login(page);
+  await auditArtwork(page);
 
   // FUNCTIONS GROUPS
   // await getTitleProduct(page);

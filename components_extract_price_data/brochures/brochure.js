@@ -140,7 +140,7 @@ const bindingElementsOptions = async (page, form, option) => {
 }
 
 const web = async () => {
-    const browser = await chromium.launch()
+    const browser = await firefox.launch()
     const page = await browser.newPage()
     await page.goto('https://www.uprinting.com/brochure-printing.html')
     const form = await page.$('#product_calculator_form')

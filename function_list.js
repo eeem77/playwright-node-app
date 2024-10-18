@@ -139,7 +139,7 @@ export const changeAssociatedCategoryProduct = async (page) => {
 };
 
 export const getIdProducts = async (page) => {
-  await page.goto("https://www.apprinting.com/carbonless-forms/products/", {
+  await page.goto("https://www.apprinting.com/business-cards/products/", {
     timeout: 300000,
   });
   const products = await page.$$eval(".product-box", (node) =>
