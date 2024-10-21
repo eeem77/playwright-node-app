@@ -218,8 +218,9 @@ const web = async () => {
   const form = await page.$("#calc_4_tradpricegroup");
 
   // await changeThreeOptions(page, form, 0, 8, 2, 2, 3, 1)
-  await changeOneOptions(page, form, 0, 0);
-  await changeOneOptions(page, form, 5, 0); // 1 none | 3 2-panel | 7-9 3-panel | 17-21 4-panel | 32 6-panel
+  await changeOneOptions(page, form, 0, 8);
+  // await changeOneOptions(page, form, 4, 3); // 1 none | 3 2-panel | 7-9 3-panel | 17-21 4-panel | 32 6-panel
+  await changeOneOptions(page, form, 8, 2);
   await changeOptions(page, form, 9);
   fs.appendFileSync(`list.txt`, "\n\n\n");
 

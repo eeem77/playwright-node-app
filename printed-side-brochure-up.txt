@@ -1,0 +1,726 @@
+4.25" x 5.5",100 lb. Paper Gloss,None,Front Only,None,25,None,25,3 Business Days,11.29
+4.25" x 5.5",100 lb. Paper Gloss,None,Front Only,None,25,None,50,3 Business Days,13.66
+4.25" x 5.5",100 lb. Paper Gloss,None,Front Only,None,25,None,75,3 Business Days,16.04
+4.25" x 5.5",100 lb. Paper Gloss,None,Front Only,None,25,None,100,3 Business Days,18.41
+4.25" x 5.5",100 lb. Paper Gloss,None,Front Only,None,25,None,150,3 Business Days,22.29
+4.25" x 5.5",100 lb. Paper Gloss,None,Front Only,None,25,None,200,3 Business Days,26.20
+4.25" x 5.5",100 lb. Paper Gloss,None,Front Only,None,25,None,250,3 Business Days,46.30
+4.25" x 5.5",100 lb. Paper Gloss,None,Front Only,None,25,None,500,3 Business Days,47.95
+4.25" x 5.5",100 lb. Paper Gloss,None,Front Only,None,25,None,1000,3 Business Days,51.30
+4.25" x 5.5",100 lb. Paper Gloss,None,Front Only,None,25,None,2000,3 Business Days,74.80
+4.25" x 5.5",100 lb. Paper Gloss,None,Front Only,None,25,None,2500,3 Business Days,90.25
+4.25" x 5.5",100 lb. Paper Gloss,None,Front Only,None,25,None,3000,3 Business Days,93.60
+4.25" x 5.5",100 lb. Paper Gloss,None,Front Only,None,25,None,4000,3 Business Days,111.60
+4.25" x 5.5",100 lb. Paper Gloss,None,Front Only,None,25,None,5000,3 Business Days,129.50
+4.25" x 5.5",100 lb. Paper Gloss,None,Front Only,None,25,None,6000,3 Business Days,147.00
+4.25" x 5.5",100 lb. Paper Gloss,None,Front Only,None,25,None,7000,3 Business Days,164.50
+4.25" x 5.5",100 lb. Paper Gloss,None,Front Only,None,25,None,7500,3 Business Days,177.75
+4.25" x 5.5",100 lb. Paper Gloss,None,Front Only,None,25,None,8000,3 Business Days,181.60
+4.25" x 5.5",100 lb. Paper Gloss,None,Front Only,None,25,None,9000,3 Business Days,198.90
+4.25" x 5.5",100 lb. Paper Gloss,None,Front Only,None,25,None,10000,3 Business Days,216.00
+4.25" x 5.5",100 lb. Paper Gloss,None,Front Only,None,25,None,15000,3 Business Days,300.00
+4.25" x 5.5",100 lb. Paper Gloss,None,Front Only,None,25,None,20000,3 Business Days,382.00
+4.25" x 5.5",100 lb. Paper Gloss,None,Front Only,None,25,None,25000,3 Business Days,460.00
+4.25" x 5.5",100 lb. Paper Gloss,None,Front Only,None,25,None,35000,3 Business Days,616.00
+4.25" x 5.5",100 lb. Paper Gloss,None,Front Only,None,25,None,30000,3 Business Days,537.00
+4.25" x 5.5",100 lb. Paper Gloss,None,Front Only,None,25,None,40000,3 Business Days,696.00
+4.25" x 5.5",100 lb. Paper Gloss,None,Front Only,None,25,None,45000,3 Business Days,774.00
+4.25" x 5.5",100 lb. Paper Gloss,None,Front Only,None,25,None,50000,3 Business Days,850.00
+4.25" x 5.5",100 lb. Paper Gloss,None,Front Only,None,25,None,55000,3 Business Days,929.50
+4.25" x 5.5",100 lb. Paper Gloss,None,Front Only,None,25,None,60000,3 Business Days,1008.00
+4.25" x 5.5",100 lb. Paper Gloss,None,Front Only,None,25,None,65000,3 Business Days,1085.50
+4.25" x 5.5",100 lb. Paper Gloss,None,Front Only,None,25,None,70000,3 Business Days,1162.00
+4.25" x 5.5",100 lb. Paper Gloss,None,Front Only,None,25,None,75000,3 Business Days,1237.50
+4.25" x 5.5",100 lb. Paper Gloss,None,Front Only,None,25,None,80000,3 Business Days,1320.00
+4.25" x 5.5",100 lb. Paper Gloss,None,Front Only,None,25,None,85000,3 Business Days,1394.00
+4.25" x 5.5",100 lb. Paper Gloss,None,Front Only,None,25,None,90000,3 Business Days,1476.00
+4.25" x 5.5",100 lb. Paper Gloss,None,Front Only,None,25,None,95000,3 Business Days,1548.50
+4.25" x 5.5",100 lb. Paper Gloss,None,Front Only,None,25,None,100000,3 Business Days,1630.00
+
+
+
+4.25" x 5.5",100 lb. Paper Gloss,None,Front and Back,None,25,None,25,3 Business Days,12.69
+4.25" x 5.5",100 lb. Paper Gloss,None,Front and Back,None,25,None,50,3 Business Days,16.17
+4.25" x 5.5",100 lb. Paper Gloss,None,Front and Back,None,25,None,75,3 Business Days,19.66
+4.25" x 5.5",100 lb. Paper Gloss,None,Front and Back,None,25,None,100,3 Business Days,23.15
+4.25" x 5.5",100 lb. Paper Gloss,None,Front and Back,None,25,None,150,3 Business Days,28.85
+4.25" x 5.5",100 lb. Paper Gloss,None,Front and Back,None,25,None,200,3 Business Days,34.56
+4.25" x 5.5",100 lb. Paper Gloss,None,Front and Back,None,25,None,250,3 Business Days,68.15
+4.25" x 5.5",100 lb. Paper Gloss,None,Front and Back,None,25,None,500,3 Business Days,69.80
+4.25" x 5.5",100 lb. Paper Gloss,None,Front and Back,None,25,None,1000,3 Business Days,73.20
+4.25" x 5.5",100 lb. Paper Gloss,None,Front and Back,None,25,None,2000,3 Business Days,100.80
+4.25" x 5.5",100 lb. Paper Gloss,None,Front and Back,None,25,None,2500,3 Business Days,120.50
+4.25" x 5.5",100 lb. Paper Gloss,None,Front and Back,None,25,None,3000,3 Business Days,123.90
+4.25" x 5.5",100 lb. Paper Gloss,None,Front and Back,None,25,None,4000,3 Business Days,145.20
+4.25" x 5.5",100 lb. Paper Gloss,None,Front and Back,None,25,None,5000,3 Business Days,166.50
+4.25" x 5.5",100 lb. Paper Gloss,None,Front and Back,None,25,None,6000,3 Business Days,187.80
+4.25" x 5.5",100 lb. Paper Gloss,None,Front and Back,None,25,None,7000,3 Business Days,207.20
+4.25" x 5.5",100 lb. Paper Gloss,None,Front and Back,None,25,None,7500,3 Business Days,224.25
+4.25" x 5.5",100 lb. Paper Gloss,None,Front and Back,None,25,None,8000,3 Business Days,227.20
+4.25" x 5.5",100 lb. Paper Gloss,None,Front and Back,None,25,None,9000,3 Business Days,247.50
+4.25" x 5.5",100 lb. Paper Gloss,None,Front and Back,None,25,None,10000,3 Business Days,267.00
+4.25" x 5.5",100 lb. Paper Gloss,None,Front and Back,None,25,None,15000,3 Business Days,363.00
+4.25" x 5.5",100 lb. Paper Gloss,None,Front and Back,None,25,None,20000,3 Business Days,458.00
+4.25" x 5.5",100 lb. Paper Gloss,None,Front and Back,None,25,None,25000,3 Business Days,545.00
+4.25" x 5.5",100 lb. Paper Gloss,None,Front and Back,None,25,None,35000,3 Business Days,717.50
+4.25" x 5.5",100 lb. Paper Gloss,None,Front and Back,None,25,None,30000,3 Business Days,630.00
+4.25" x 5.5",100 lb. Paper Gloss,None,Front and Back,None,25,None,40000,3 Business Days,804.00
+4.25" x 5.5",100 lb. Paper Gloss,None,Front and Back,None,25,None,45000,3 Business Days,891.00
+4.25" x 5.5",100 lb. Paper Gloss,None,Front and Back,None,25,None,50000,3 Business Days,975.00
+4.25" x 5.5",100 lb. Paper Gloss,None,Front and Back,None,25,None,55000,3 Business Days,1061.50
+4.25" x 5.5",100 lb. Paper Gloss,None,Front and Back,None,25,None,60000,3 Business Days,1152.00
+4.25" x 5.5",100 lb. Paper Gloss,None,Front and Back,None,25,None,65000,3 Business Days,1235.00
+4.25" x 5.5",100 lb. Paper Gloss,None,Front and Back,None,25,None,70000,3 Business Days,1323.00
+4.25" x 5.5",100 lb. Paper Gloss,None,Front and Back,None,25,None,75000,3 Business Days,1410.00
+4.25" x 5.5",100 lb. Paper Gloss,None,Front and Back,None,25,None,80000,3 Business Days,1496.00
+4.25" x 5.5",100 lb. Paper Gloss,None,Front and Back,None,25,None,85000,3 Business Days,1581.00
+4.25" x 5.5",100 lb. Paper Gloss,None,Front and Back,None,25,None,90000,3 Business Days,1665.00
+4.25" x 5.5",100 lb. Paper Gloss,None,Front and Back,None,25,None,95000,3 Business Days,1757.50
+4.25" x 5.5",100 lb. Paper Gloss,None,Front and Back,None,25,None,100000,3 Business Days,1840.00
+
+
+
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,25,3 Business Days,23.70
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,50,3 Business Days,28.45
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,75,3 Business Days,33.19
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,100,3 Business Days,37.93
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,150,3 Business Days,45.71
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,200,3 Business Days,53.52
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,250,3 Business Days,102.55
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,500,3 Business Days,105.90
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,1000,3 Business Days,112.60
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,2000,3 Business Days,164.60
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,2500,3 Business Days,209.25
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,3000,3 Business Days,216.00
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,4000,3 Business Days,260.40
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,5000,3 Business Days,303.00
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,6000,3 Business Days,342.60
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,7000,3 Business Days,380.80
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,7500,3 Business Days,412.50
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,8000,3 Business Days,419.20
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,9000,3 Business Days,457.20
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,10000,3 Business Days,496.00
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,15000,3 Business Days,682.50
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,20000,3 Business Days,868.00
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,25000,3 Business Days,1045.00
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,35000,3 Business Days,1396.50
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,30000,3 Business Days,1221.00
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,40000,3 Business Days,1572.00
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,45000,3 Business Days,1750.50
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,50000,3 Business Days,1925.00
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,55000,3 Business Days,2101.00
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,60000,3 Business Days,2280.00
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,65000,3 Business Days,2457.00
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,70000,3 Business Days,2632.00
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,75000,3 Business Days,2805.00
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,80000,3 Business Days,2984.00
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,85000,3 Business Days,3162.00
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,90000,3 Business Days,3339.00
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,95000,3 Business Days,3515.00
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,100000,3 Business Days,3690.00
+
+
+
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,25,3 Business Days,26.49
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,50,3 Business Days,33.47
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,75,3 Business Days,40.44
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,100,3 Business Days,47.41
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,150,3 Business Days,58.79
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,200,3 Business Days,70.24
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,250,3 Business Days,146.25
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,500,3 Business Days,149.60
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,1000,3 Business Days,156.30
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,2000,3 Business Days,216.80
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,2500,3 Business Days,269.75
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,3000,3 Business Days,276.30
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,4000,3 Business Days,327.60
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,5000,3 Business Days,377.00
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,6000,3 Business Days,423.00
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,7000,3 Business Days,466.90
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,7500,3 Business Days,504.00
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,8000,3 Business Days,510.40
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,9000,3 Business Days,554.40
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,10000,3 Business Days,598.00
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,15000,3 Business Days,811.50
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,20000,3 Business Days,1020.00
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,25000,3 Business Days,1212.50
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,35000,3 Business Days,1599.50
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,30000,3 Business Days,1404.00
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,40000,3 Business Days,1792.00
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,45000,3 Business Days,1984.50
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,50000,3 Business Days,2175.00
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,55000,3 Business Days,2370.50
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,60000,3 Business Days,2562.00
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,65000,3 Business Days,2756.00
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,70000,3 Business Days,2947.00
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,75000,3 Business Days,3142.50
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,80000,3 Business Days,3336.00
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,85000,3 Business Days,3527.50
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,90000,3 Business Days,3717.00
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,95000,3 Business Days,3914.00
+4.25" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,100000,3 Business Days,4110.00
+
+
+
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,25,3 Business Days,23.70
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,50,3 Business Days,28.45
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,75,3 Business Days,33.19
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,100,3 Business Days,37.93
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,150,3 Business Days,45.71
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,200,3 Business Days,53.52
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,250,3 Business Days,91.85
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,500,3 Business Days,95.20
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,1000,3 Business Days,101.90
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,2000,3 Business Days,154.00
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,2500,3 Business Days,198.50
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,3000,3 Business Days,205.20
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,4000,3 Business Days,250.00
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,5000,3 Business Days,292.50
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,6000,3 Business Days,331.80
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,7000,3 Business Days,370.30
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,7500,3 Business Days,402.00
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,8000,3 Business Days,408.80
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,9000,3 Business Days,446.40
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,10000,3 Business Days,485.00
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,15000,3 Business Days,672.00
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,20000,3 Business Days,858.00
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,25000,3 Business Days,1032.50
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,35000,3 Business Days,1386.00
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,30000,3 Business Days,1209.00
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,40000,3 Business Days,1564.00
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,45000,3 Business Days,1737.00
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,50000,3 Business Days,1915.00
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,55000,3 Business Days,2090.00
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,60000,3 Business Days,2268.00
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,65000,3 Business Days,2444.00
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,70000,3 Business Days,2618.00
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,75000,3 Business Days,2797.50
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,80000,3 Business Days,2976.00
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,85000,3 Business Days,3145.00
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,90000,3 Business Days,3321.00
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,95000,3 Business Days,3505.50
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,100000,3 Business Days,3680.00
+
+
+
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,25,3 Business Days,26.49
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,50,3 Business Days,33.47
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,75,3 Business Days,40.44
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,100,3 Business Days,47.41
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,150,3 Business Days,58.79
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,200,3 Business Days,70.24
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,250,3 Business Days,135.53
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,500,3 Business Days,138.90
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,1000,3 Business Days,145.60
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,2000,3 Business Days,206.00
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,2500,3 Business Days,259.00
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,3000,3 Business Days,265.80
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,4000,3 Business Days,316.80
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,5000,3 Business Days,366.00
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,6000,3 Business Days,412.20
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,7000,3 Business Days,456.40
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,7500,3 Business Days,493.50
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,8000,3 Business Days,500.00
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,9000,3 Business Days,543.60
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,10000,3 Business Days,588.00
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,15000,3 Business Days,799.50
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,20000,3 Business Days,1008.00
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,25000,3 Business Days,1202.50
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,35000,3 Business Days,1589.00
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,30000,3 Business Days,1395.00
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,40000,3 Business Days,1780.00
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,45000,3 Business Days,1975.50
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,50000,3 Business Days,2165.00
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,55000,3 Business Days,2359.50
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,60000,3 Business Days,2550.00
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,65000,3 Business Days,2743.00
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,70000,3 Business Days,2940.00
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,75000,3 Business Days,3135.00
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,80000,3 Business Days,3328.00
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,85000,3 Business Days,3519.00
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,90000,3 Business Days,3708.00
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,95000,3 Business Days,3904.50
+5.5" x 8.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,100000,3 Business Days,4100.00
+
+
+
+8" x 9",100 lb. Paper Gloss,None,Front Only,None,25,None,25,3 Business Days,20.64
+8" x 9",100 lb. Paper Gloss,None,Front Only,None,25,None,50,3 Business Days,30.12
+8" x 9",100 lb. Paper Gloss,None,Front Only,None,25,None,75,3 Business Days,39.60
+8" x 9",100 lb. Paper Gloss,None,Front Only,None,25,None,100,3 Business Days,49.08
+8" x 9",100 lb. Paper Gloss,None,Front Only,None,25,None,150,3 Business Days,64.64
+8" x 9",100 lb. Paper Gloss,None,Front Only,None,25,None,200,3 Business Days,80.26
+8" x 9",100 lb. Paper Gloss,None,Front Only,None,25,None,250,3 Business Days,118.35
+8" x 9",100 lb. Paper Gloss,None,Front Only,None,25,None,500,3 Business Days,123.35
+8" x 9",100 lb. Paper Gloss,None,Front Only,None,25,None,1000,3 Business Days,133.40
+8" x 9",100 lb. Paper Gloss,None,Front Only,None,25,None,2000,3 Business Days,188.00
+8" x 9",100 lb. Paper Gloss,None,Front Only,None,25,None,2500,3 Business Days,228.25
+8" x 9",100 lb. Paper Gloss,None,Front Only,None,25,None,3000,3 Business Days,238.20
+8" x 9",100 lb. Paper Gloss,None,Front Only,None,25,None,4000,3 Business Days,285.20
+8" x 9",100 lb. Paper Gloss,None,Front Only,None,25,None,5000,3 Business Days,332.00
+8" x 9",100 lb. Paper Gloss,None,Front Only,None,25,None,6000,3 Business Days,372.00
+8" x 9",100 lb. Paper Gloss,None,Front Only,None,25,None,7000,3 Business Days,410.20
+8" x 9",100 lb. Paper Gloss,None,Front Only,None,25,None,7500,3 Business Days,438.00
+8" x 9",100 lb. Paper Gloss,None,Front Only,None,25,None,8000,3 Business Days,448.00
+8" x 9",100 lb. Paper Gloss,None,Front Only,None,25,None,9000,3 Business Days,486.00
+8" x 9",100 lb. Paper Gloss,None,Front Only,None,25,None,10000,3 Business Days,524.00
+8" x 9",100 lb. Paper Gloss,None,Front Only,None,25,None,15000,3 Business Days,708.00
+8" x 9",100 lb. Paper Gloss,None,Front Only,None,25,None,20000,3 Business Days,888.00
+8" x 9",100 lb. Paper Gloss,None,Front Only,None,25,None,25000,3 Business Days,1055.00
+8" x 9",100 lb. Paper Gloss,None,Front Only,None,25,None,35000,3 Business Days,1389.50
+8" x 9",100 lb. Paper Gloss,None,Front Only,None,25,None,30000,3 Business Days,1224.00
+8" x 9",100 lb. Paper Gloss,None,Front Only,None,25,None,40000,3 Business Days,1556.00
+8" x 9",100 lb. Paper Gloss,None,Front Only,None,25,None,45000,3 Business Days,1723.50
+8" x 9",100 lb. Paper Gloss,None,Front Only,None,25,None,50000,3 Business Days,1895.00
+8" x 9",100 lb. Paper Gloss,None,Front Only,None,25,None,55000,3 Business Days,2062.50
+8" x 9",100 lb. Paper Gloss,None,Front Only,None,25,None,60000,3 Business Days,2226.00
+8" x 9",100 lb. Paper Gloss,None,Front Only,None,25,None,65000,3 Business Days,2392.00
+8" x 9",100 lb. Paper Gloss,None,Front Only,None,25,None,70000,3 Business Days,2562.00
+8" x 9",100 lb. Paper Gloss,None,Front Only,None,25,None,75000,3 Business Days,2730.00
+8" x 9",100 lb. Paper Gloss,None,Front Only,None,25,None,80000,3 Business Days,2896.00
+8" x 9",100 lb. Paper Gloss,None,Front Only,None,25,None,85000,3 Business Days,3060.00
+8" x 9",100 lb. Paper Gloss,None,Front Only,None,25,None,90000,3 Business Days,3231.00
+8" x 9",100 lb. Paper Gloss,None,Front Only,None,25,None,95000,3 Business Days,3401.00
+8" x 9",100 lb. Paper Gloss,None,Front Only,None,25,None,100000,3 Business Days,3570.00
+
+
+
+8" x 9",100 lb. Paper Gloss,None,Front and Back,None,25,None,25,3 Business Days,26.21
+8" x 9",100 lb. Paper Gloss,None,Front and Back,None,25,None,50,3 Business Days,40.16
+8" x 9",100 lb. Paper Gloss,None,Front and Back,None,25,None,75,3 Business Days,54.10
+8" x 9",100 lb. Paper Gloss,None,Front and Back,None,25,None,100,3 Business Days,68.05
+8" x 9",100 lb. Paper Gloss,None,Front and Back,None,25,None,150,3 Business Days,90.81
+8" x 9",100 lb. Paper Gloss,None,Front and Back,None,25,None,200,3 Business Days,113.68
+8" x 9",100 lb. Paper Gloss,None,Front and Back,None,25,None,250,3 Business Days,183.90
+8" x 9",100 lb. Paper Gloss,None,Front and Back,None,25,None,500,3 Business Days,188.90
+8" x 9",100 lb. Paper Gloss,None,Front and Back,None,25,None,1000,3 Business Days,199.00
+8" x 9",100 lb. Paper Gloss,None,Front and Back,None,25,None,2000,3 Business Days,266.20
+8" x 9",100 lb. Paper Gloss,None,Front and Back,None,25,None,2500,3 Business Days,318.75
+8" x 9",100 lb. Paper Gloss,None,Front and Back,None,25,None,3000,3 Business Days,328.80
+8" x 9",100 lb. Paper Gloss,None,Front and Back,None,25,None,4000,3 Business Days,386.00
+8" x 9",100 lb. Paper Gloss,None,Front and Back,None,25,None,5000,3 Business Days,442.50
+8" x 9",100 lb. Paper Gloss,None,Front and Back,None,25,None,6000,3 Business Days,492.60
+8" x 9",100 lb. Paper Gloss,None,Front and Back,None,25,None,7000,3 Business Days,539.00
+8" x 9",100 lb. Paper Gloss,None,Front and Back,None,25,None,7500,3 Business Days,575.25
+8" x 9",100 lb. Paper Gloss,None,Front and Back,None,25,None,8000,3 Business Days,585.60
+8" x 9",100 lb. Paper Gloss,None,Front and Back,None,25,None,9000,3 Business Days,631.80
+8" x 9",100 lb. Paper Gloss,None,Front and Back,None,25,None,10000,3 Business Days,678.00
+8" x 9",100 lb. Paper Gloss,None,Front and Back,None,25,None,15000,3 Business Days,900.00
+8" x 9",100 lb. Paper Gloss,None,Front and Back,None,25,None,20000,3 Business Days,1116.00
+8" x 9",100 lb. Paper Gloss,None,Front and Back,None,25,None,25000,3 Business Days,1307.50
+8" x 9",100 lb. Paper Gloss,None,Front and Back,None,25,None,35000,3 Business Days,1694.00
+8" x 9",100 lb. Paper Gloss,None,Front and Back,None,25,None,30000,3 Business Days,1500.00
+8" x 9",100 lb. Paper Gloss,None,Front and Back,None,25,None,40000,3 Business Days,1884.00
+8" x 9",100 lb. Paper Gloss,None,Front and Back,None,25,None,45000,3 Business Days,2079.00
+8" x 9",100 lb. Paper Gloss,None,Front and Back,None,25,None,50000,3 Business Days,2270.00
+8" x 9",100 lb. Paper Gloss,None,Front and Back,None,25,None,55000,3 Business Days,2464.00
+8" x 9",100 lb. Paper Gloss,None,Front and Back,None,25,None,60000,3 Business Days,2658.00
+8" x 9",100 lb. Paper Gloss,None,Front and Back,None,25,None,65000,3 Business Days,2847.00
+8" x 9",100 lb. Paper Gloss,None,Front and Back,None,25,None,70000,3 Business Days,3038.00
+8" x 9",100 lb. Paper Gloss,None,Front and Back,None,25,None,75000,3 Business Days,3232.50
+8" x 9",100 lb. Paper Gloss,None,Front and Back,None,25,None,80000,3 Business Days,3424.00
+8" x 9",100 lb. Paper Gloss,None,Front and Back,None,25,None,85000,3 Business Days,3621.00
+8" x 9",100 lb. Paper Gloss,None,Front and Back,None,25,None,90000,3 Business Days,3807.00
+8" x 9",100 lb. Paper Gloss,None,Front and Back,None,25,None,95000,3 Business Days,3999.50
+8" x 9",100 lb. Paper Gloss,None,Front and Back,None,25,None,100000,3 Business Days,4190.00
+
+
+
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,25,3 Business Days,32.52
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,50,3 Business Days,42.94
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,75,3 Business Days,53.37
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,100,3 Business Days,63.81
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,150,3 Business Days,84.59
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,200,3 Business Days,102.56
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,250,3 Business Days,112.68
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,500,3 Business Days,141.20
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,1000,3 Business Days,170.30
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,2000,3 Business Days,252.80
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,2500,3 Business Days,323.25
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,3000,3 Business Days,336.90
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,4000,3 Business Days,409.60
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,5000,3 Business Days,482.50
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,6000,3 Business Days,552.60
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,7000,3 Business Days,617.40
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,7500,3 Business Days,663.75
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,8000,3 Business Days,677.60
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,9000,3 Business Days,738.00
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,10000,3 Business Days,798.00
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,15000,3 Business Days,1092.00
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,20000,3 Business Days,1380.00
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,25000,3 Business Days,1652.50
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,35000,3 Business Days,2194.50
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,30000,3 Business Days,1923.00
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,40000,3 Business Days,2464.00
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,45000,3 Business Days,2736.00
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,50000,3 Business Days,3005.00
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,55000,3 Business Days,3278.00
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,60000,3 Business Days,3546.00
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,65000,3 Business Days,3815.50
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,70000,3 Business Days,4088.00
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,75000,3 Business Days,4357.50
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,80000,3 Business Days,4632.00
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,85000,3 Business Days,4904.50
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,90000,3 Business Days,5175.00
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,95000,3 Business Days,5443.50
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,100000,3 Business Days,5710.00
+
+
+
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,25,3 Business Days,38.65
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,50,3 Business Days,53.99
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,75,3 Business Days,69.33
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,100,3 Business Days,84.67
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,150,3 Business Days,114.71
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,200,3 Business Days,141.00
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,250,3 Business Days,178.20
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,500,3 Business Days,219.85
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,1000,3 Business Days,257.70
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,2000,3 Business Days,357.00
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,2500,3 Business Days,446.50
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,3000,3 Business Days,460.20
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,4000,3 Business Days,546.40
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,5000,3 Business Days,633.00
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,6000,3 Business Days,717.00
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,7000,3 Business Days,793.10
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,7500,3 Business Days,850.50
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,8000,3 Business Days,864.80
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,9000,3 Business Days,936.00
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,10000,3 Business Days,1008.00
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,15000,3 Business Days,1353.00
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,20000,3 Business Days,1690.00
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,25000,3 Business Days,1995.00
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,35000,3 Business Days,2604.00
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,30000,3 Business Days,2298.00
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,40000,3 Business Days,2908.00
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,45000,3 Business Days,3213.00
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,50000,3 Business Days,3520.00
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,55000,3 Business Days,3822.50
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,60000,3 Business Days,4128.00
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,65000,3 Business Days,4433.00
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,70000,3 Business Days,4739.00
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,75000,3 Business Days,5040.00
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,80000,3 Business Days,5352.00
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,85000,3 Business Days,5652.50
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,90000,3 Business Days,5958.00
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,95000,3 Business Days,6260.50
+8.5" x 11",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,100000,3 Business Days,6570.00
+
+
+
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,25,3 Business Days,45.40
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,50,3 Business Days,66.26
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,75,3 Business Days,87.12
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,100,3 Business Days,107.98
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,150,3 Business Days,148.65
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,200,3 Business Days,184.58
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,250,3 Business Days,151.43
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,500,3 Business Days,190.75
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,1000,3 Business Days,232.00
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,2000,3 Business Days,345.80
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,2500,3 Business Days,441.50
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,3000,3 Business Days,462.00
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,4000,3 Business Days,560.00
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,5000,3 Business Days,655.50
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,6000,3 Business Days,748.20
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,7000,3 Business Days,836.50
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,7500,3 Business Days,904.50
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,8000,3 Business Days,924.80
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,9000,3 Business Days,1013.40
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,10000,3 Business Days,1101.00
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,15000,3 Business Days,1497.00
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,20000,3 Business Days,1886.00
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,25000,3 Business Days,2247.50
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,35000,3 Business Days,2971.50
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,30000,3 Business Days,2610.00
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,40000,3 Business Days,3332.00
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,45000,3 Business Days,3694.50
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,50000,3 Business Days,4055.00
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,55000,3 Business Days,4422.00
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,60000,3 Business Days,4782.00
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,65000,3 Business Days,5141.50
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,70000,3 Business Days,5502.00
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,75000,3 Business Days,5865.00
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,80000,3 Business Days,6232.00
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,85000,3 Business Days,6587.50
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,90000,3 Business Days,6948.00
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,95000,3 Business Days,7315.00
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,100000,3 Business Days,7680.00
+
+
+
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,25,3 Business Days,57.67
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,50,3 Business Days,88.35
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,75,3 Business Days,119.02
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,100,3 Business Days,149.70
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,150,3 Business Days,208.88
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,200,3 Business Days,261.46
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,250,3 Business Days,249.75
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,500,3 Business Days,308.70
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,1000,3 Business Days,363.10
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,2000,3 Business Days,502.00
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,2500,3 Business Days,626.25
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,3000,3 Business Days,646.80
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,4000,3 Business Days,765.20
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,5000,3 Business Days,881.00
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,6000,3 Business Days,994.80
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,7000,3 Business Days,1099.70
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,7500,3 Business Days,1185.00
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,8000,3 Business Days,1205.60
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,9000,3 Business Days,1310.40
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,10000,3 Business Days,1416.00
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,15000,3 Business Days,1888.50
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,20000,3 Business Days,2350.00
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,25000,3 Business Days,2762.50
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,35000,3 Business Days,3587.50
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,30000,3 Business Days,3177.00
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,40000,3 Business Days,4000.00
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,45000,3 Business Days,4414.50
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,50000,3 Business Days,4830.00
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,55000,3 Business Days,5241.50
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,60000,3 Business Days,5652.00
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,65000,3 Business Days,6064.50
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,70000,3 Business Days,6482.00
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,75000,3 Business Days,6892.50
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,80000,3 Business Days,7304.00
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,85000,3 Business Days,7718.00
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,90000,3 Business Days,8136.00
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,95000,3 Business Days,8540.50
+8.5" x 14",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,100000,3 Business Days,8960.00
+
+
+
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,25,3 Business Days,41.27
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,50,3 Business Days,60.24
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,75,3 Business Days,79.20
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,100,3 Business Days,98.16
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,150,3 Business Days,129.26
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,200,3 Business Days,160.50
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,250,3 Business Days,150.23
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,500,3 Business Days,156.90
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,1000,3 Business Days,170.30
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,2000,3 Business Days,252.80
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,2500,3 Business Days,316.75
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,3000,3 Business Days,330.30
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,4000,3 Business Days,401.60
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,5000,3 Business Days,473.00
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,6000,3 Business Days,541.80
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,7000,3 Business Days,605.50
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,7500,3 Business Days,651.00
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,8000,3 Business Days,664.00
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,9000,3 Business Days,723.60
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,10000,3 Business Days,782.00
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,15000,3 Business Days,1069.50
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,20000,3 Business Days,1354.00
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,25000,3 Business Days,1620.00
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,35000,3 Business Days,2149.00
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,30000,3 Business Days,1884.00
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,40000,3 Business Days,2416.00
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,45000,3 Business Days,2682.00
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,50000,3 Business Days,2945.00
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,55000,3 Business Days,3212.00
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,60000,3 Business Days,3480.00
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,65000,3 Business Days,3744.00
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,70000,3 Business Days,4011.00
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,75000,3 Business Days,4275.00
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,80000,3 Business Days,4536.00
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,85000,3 Business Days,4802.50
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,90000,3 Business Days,5067.00
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,95000,3 Business Days,5339.00
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,100000,3 Business Days,5600.00
+
+
+
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,25,3 Business Days,52.43
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,50,3 Business Days,80.32
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,75,3 Business Days,108.20
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,100,3 Business Days,136.09
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,150,3 Business Days,181.64
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,200,3 Business Days,227.36
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,250,3 Business Days,237.60
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,500,3 Business Days,244.30
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,1000,3 Business Days,257.70
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,2000,3 Business Days,357.00
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,2500,3 Business Days,437.75
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,3000,3 Business Days,450.90
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,4000,3 Business Days,536.00
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,5000,3 Business Days,620.50
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,6000,3 Business Days,702.60
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,7000,3 Business Days,777.70
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,7500,3 Business Days,834.00
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,8000,3 Business Days,847.20
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,9000,3 Business Days,918.00
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,10000,3 Business Days,988.00
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,15000,3 Business Days,1326.00
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,20000,3 Business Days,1656.00
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,25000,3 Business Days,1955.00
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,35000,3 Business Days,2551.50
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,30000,3 Business Days,2253.00
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,40000,3 Business Days,2852.00
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,45000,3 Business Days,3150.00
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,50000,3 Business Days,3450.00
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,55000,3 Business Days,3751.00
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,60000,3 Business Days,4050.00
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,65000,3 Business Days,4348.50
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,70000,3 Business Days,4648.00
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,75000,3 Business Days,4942.50
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,80000,3 Business Days,5240.00
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,85000,3 Business Days,5542.00
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,90000,3 Business Days,5841.00
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,95000,3 Business Days,6137.00
+9" x 12",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,100000,3 Business Days,6440.00
+
+
+
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,25,3 Business Days,45.40
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,50,3 Business Days,66.26
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,75,3 Business Days,87.12
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,100,3 Business Days,107.98
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,150,3 Business Days,148.65
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,200,3 Business Days,184.58
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,250,3 Business Days,215.15
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,500,3 Business Days,265.05
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,1000,3 Business Days,324.60
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,2000,3 Business Days,482.00
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,2500,3 Business Days,611.00
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,3000,3 Business Days,641.70
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,4000,3 Business Days,778.40
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,5000,3 Business Days,915.00
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,6000,3 Business Days,1041.60
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,7000,3 Business Days,1162.00
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,7500,3 Business Days,1251.00
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,8000,3 Business Days,1282.40
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,9000,3 Business Days,1402.20
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,10000,3 Business Days,1522.00
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,15000,3 Business Days,2106.00
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,20000,3 Business Days,2646.00
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,25000,3 Business Days,3145.00
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,35000,3 Business Days,4140.50
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,30000,3 Business Days,3642.00
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,40000,3 Business Days,4640.00
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,45000,3 Business Days,5139.00
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,50000,3 Business Days,5635.00
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,55000,3 Business Days,6132.50
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,60000,3 Business Days,6630.00
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,65000,3 Business Days,7130.50
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,70000,3 Business Days,7630.00
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,75000,3 Business Days,8130.00
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,80000,3 Business Days,8624.00
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,85000,3 Business Days,9120.50
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,90000,3 Business Days,9621.00
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,95000,3 Business Days,10117.50
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,100000,3 Business Days,10620.00
+
+
+
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,25,3 Business Days,57.67
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,50,3 Business Days,88.35
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,75,3 Business Days,119.02
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,100,3 Business Days,149.70
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,150,3 Business Days,208.88
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,200,3 Business Days,261.46
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,250,3 Business Days,291.73
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,500,3 Business Days,374.85
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,1000,3 Business Days,463.50
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,2000,3 Business Days,644.60
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,2500,3 Business Days,719.25
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,3000,3 Business Days,796.50
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,4000,3 Business Days,936.00
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,5000,3 Business Days,1126.50
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,6000,3 Business Days,1411.20
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,7000,3 Business Days,1556.80
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,7500,3 Business Days,1671.75
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,8000,3 Business Days,1703.20
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,9000,3 Business Days,1848.60
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,10000,3 Business Days,1994.00
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,15000,3 Business Days,2692.50
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,20000,3 Business Days,3340.00
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,25000,3 Business Days,3915.00
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,35000,3 Business Days,5064.50
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,30000,3 Business Days,4491.00
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,40000,3 Business Days,5640.00
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,45000,3 Business Days,6214.50
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,50000,3 Business Days,6790.00
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,55000,3 Business Days,7364.50
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,60000,3 Business Days,7944.00
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,65000,3 Business Days,8515.00
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,70000,3 Business Days,9093.00
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,75000,3 Business Days,9667.50
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,80000,3 Business Days,10240.00
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,85000,3 Business Days,10820.50
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,90000,3 Business Days,11394.00
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,95000,3 Business Days,11970.00
+11" x 17",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,100000,3 Business Days,12540.00
+
+
+
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,250,3 Business Days,338.25
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,500,3 Business Days,376.10
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,1000,3 Business Days,427.90
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,2000,3 Business Days,622.00
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,2500,3 Business Days,783.75
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,3000,3 Business Days,824.40
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,4000,3 Business Days,993.20
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,5000,3 Business Days,1162.50
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,6000,3 Business Days,1328.40
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,7000,3 Business Days,1483.30
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,7500,3 Business Days,1593.75
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,8000,3 Business Days,1634.40
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,9000,3 Business Days,1784.70
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,10000,3 Business Days,1935.00
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,15000,3 Business Days,2665.50
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,20000,3 Business Days,3382.00
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,25000,3 Business Days,4010.00
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,35000,3 Business Days,5267.50
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,30000,3 Business Days,4638.00
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,40000,3 Business Days,5896.00
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,45000,3 Business Days,6525.00
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,50000,3 Business Days,7155.00
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,55000,3 Business Days,7782.50
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,60000,3 Business Days,8412.00
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,65000,3 Business Days,9041.50
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,70000,3 Business Days,9667.00
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,75000,3 Business Days,10297.50
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,80000,3 Business Days,10928.00
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,85000,3 Business Days,11551.50
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,90000,3 Business Days,12186.00
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,95000,3 Business Days,12815.50
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside Only,None,25,None,100000,3 Business Days,13440.00
+
+
+
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,250,3 Business Days,579.43
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,500,3 Business Days,630.40
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,1000,3 Business Days,690.10
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,2000,3 Business Days,934.40
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,2500,3 Business Days,1149.75
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,3000,3 Business Days,1190.40
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,4000,3 Business Days,1400.00
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,5000,3 Business Days,1609.50
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,6000,3 Business Days,1816.20
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,7000,3 Business Days,2005.50
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,7500,3 Business Days,2148.75
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,8000,3 Business Days,2189.60
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,9000,3 Business Days,2374.20
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,10000,3 Business Days,2558.00
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,15000,3 Business Days,3441.00
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,20000,3 Business Days,4298.00
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,25000,3 Business Days,5030.00
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,35000,3 Business Days,6489.00
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,30000,3 Business Days,5760.00
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,40000,3 Business Days,7220.00
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,45000,3 Business Days,7951.50
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,50000,3 Business Days,8680.00
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,55000,3 Business Days,9410.50
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,60000,3 Business Days,10140.00
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,65000,3 Business Days,10868.00
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,70000,3 Business Days,11599.00
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,75000,3 Business Days,12330.00
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,80000,3 Business Days,13056.00
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,85000,3 Business Days,13787.00
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,90000,3 Business Days,14517.00
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,95000,3 Business Days,15247.50
+11" x 25.5",100 lb. Paper Gloss,Tri-Fold/Letter Fold,Outside and Inside,None,25,None,100000,3 Business Days,15980.00
+
+
+
