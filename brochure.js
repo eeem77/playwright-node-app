@@ -69,14 +69,14 @@ const web = async () => {
     // '4.25" x 12"',
     // '5.5" x 17"',
 
-    // '7" x 8.5"',
-    // '7.5" x 8.5"',
-    // '8" x 9"',
+    '7" x 8.5"',
+    '7.5" x 8.5"',
+    '8" x 9"',
 
-    // '8" x 10"',
-    // '8.5" x 11"',
-    // '8.5" x 14"',
-    // '9" x 12"',
+    '8" x 10"',
+    '8.5" x 11"',
+    '8.5" x 14"',
+    '9" x 12"',
     '9" x 16"',
   ];
 
@@ -90,57 +90,68 @@ const web = async () => {
     "80LB Matte Book",
   ];
 
-  for await (const el of stock) {
-    await changeOption(page, "#attribute211", '9" x 16"');
-    await page.waitForTimeout(2000);
-    await changeOption(page, "#attribute197", el);
-    await page.waitForTimeout(2000);
-    await changeOption(page, "#attribute204", "4/4 (4 color both sides)");
-    await page.waitForTimeout(2000);
+  const colorspec = ["4/0 (4 color front)", "4/4 (4 color both sides)"];
 
-    if (el === "100LB Gloss Book" || el === "80LB Gloss Book") {
+  for await (const el of sizes) {
+    const elSize = el;
+    for await (const el of colorspec) {
+      await changeOption(page, "#attribute211", elSize);
+      await page.waitForTimeout(2000);
+      await changeOption(page, "#attribute197", "100LB Gloss Book");
+      await page.waitForTimeout(2000);
+      await changeOption(page, "#attribute204", el);
+      await page.waitForTimeout(2000);
+
       await changeOption(page, "#attribute199", "Aqueous Coating");
       await page.waitForTimeout(2000);
-    }
 
-    // if (el === "100LB Gloss Book") {
-    //   await changeOption(page, "#attribute199", "Aqueous Coating");
-    //   await page.waitForTimeout(2000);
-    // }
+      // if (el === "100LB Gloss Book" || el === "80LB Gloss Book") {
+      //   await changeOption(page, "#attribute199", "Aqueous Coating");
+      //   await page.waitForTimeout(2000);
+      // }
 
-    await changeOption(page, "#attribute205", "Double Parallel Fold");
-    // await changeOption(page, "#attribute205", "French Fold");
+      // if (el === "100LB Gloss Book") {
+      //   await changeOption(page, "#attribute199", "Aqueous Coating");
+      //   await page.waitForTimeout(2000);
+      // }
 
-    await page.waitForTimeout(2000);
+      if (elSize === '7" x 8.5"' || elSize === '7.5" x 8.5"' || elSize === '8" x 9"') {
+        await changeOption(page, "#attribute205", "French Fold");
+      } else {
+        await changeOption(page, "#attribute205", "Double Parallel Fold");
+      }
 
-    const btnMoore = await page.$(".runsizes-table_actions");
-    const btnMooreIsVisible = await btnMoore.isVisible();
-    if (btnMooreIsVisible === true) {
-      await btnMoore.click();
+      await page.waitForTimeout(2000);
+
+      const btnMoore = await page.$(".runsizes-table_actions");
+      const btnMooreIsVisible = await btnMoore.isVisible();
+      if (btnMooreIsVisible === true) {
+        await btnMoore.click();
+        await page.waitForTimeout(2000);
+      }
+
+      //prices
+      const runsize = await page.$$eval(".runsize", (node) =>
+        node.map((n) => n.innerText)
+      );
+      const markupPrice = await page.$$eval(".markup-price", (node) =>
+        node.map((n) => n.innerText)
+      );
+      const markupPriceClean = markupPrice.filter(
+        (price) => price != "Markup Price\n%"
+      );
+      console.log("runsize ---->", runsize, "price ", markupPriceClean);
+
+      // print data
+      for (let i = 0; i < runsize.length; i++) {
+        let nodo = labelArray;
+        let data = [...nodo, runsize[i], markupPriceClean[i].replace(",", "")];
+        fs.appendFileSync(`list.txt`, data.toString() + "\n");
+      }
+      fs.appendFileSync(`list.txt`, "\n\n\n");
+      labelArray = [];
       await page.waitForTimeout(2000);
     }
-
-    //prices
-    const runsize = await page.$$eval(".runsize", (node) =>
-      node.map((n) => n.innerText)
-    );
-    const markupPrice = await page.$$eval(".markup-price", (node) =>
-      node.map((n) => n.innerText)
-    );
-    const markupPriceClean = markupPrice.filter(
-      (price) => price != "Markup Price\n%"
-    );
-    console.log("runsize ---->", runsize, "price ", markupPriceClean);
-
-    // print data
-    for (let i = 0; i < runsize.length; i++) {
-      let nodo = labelArray;
-      let data = [...nodo, runsize[i], markupPriceClean[i].replace(",", "")];
-      fs.appendFileSync(`list.txt`, data.toString() + "\n");
-    }
-    fs.appendFileSync(`list.txt`, "\n\n\n");
-    labelArray = [];
-    await page.waitForTimeout(2000);
   }
 
   console.log("END");
