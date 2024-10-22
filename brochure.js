@@ -73,10 +73,10 @@ const web = async () => {
     // '7.5" x 8.5"',
     // '8" x 9"',
 
-    '8" x 10"',
-    '8.5" x 11"',
-    '8.5" x 14"',
-    '9" x 12"',
+    // '8" x 10"',
+    // '8.5" x 11"',
+    // '8.5" x 14"',
+    // '9" x 12"',
     '9" x 16"',
   ];
 
@@ -84,14 +84,14 @@ const web = async () => {
     "100LB Gloss Book",
     "100LB Matte Book",
     "100LB Dull Book",
-    // "60LB Premium Opaque",
-    // "70LB Premium Opaque",
+    "60LB Premium Opaque",
+    "70LB Premium Opaque",
     "80LB Gloss Book",
     "80LB Matte Book",
   ];
 
   for await (const el of stock) {
-    await changeOption(page, "#attribute211", '4" x 11"');
+    await changeOption(page, "#attribute211", '9" x 16"');
     await page.waitForTimeout(2000);
     await changeOption(page, "#attribute197", el);
     await page.waitForTimeout(2000);
