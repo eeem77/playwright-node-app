@@ -1,0 +1,898 @@
+10.5" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,100,285.57
+10.5" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,250,310.21
+10.5" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,500,318.87
+10.5" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,1000,353.19
+10.5" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,2500,496.21
+10.5" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,5000,709.39
+10.5" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,10000,1243.73
+10.5" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,15000,1787.34
+10.5" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,20000,2321.67
+10.5" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,25000,2852.92
+10.5" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,30000,3382.64
+10.5" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,35000,3907.74
+10.5" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,40000,4431.27
+10.5" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,45000,4951.73
+10.5" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,50000,5469.11
+10.5" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,55000,5983.40
+10.5" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,60000,6494.61
+10.5" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,65000,7002.72
+10.5" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,70000,7509.30
+10.5" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,75000,8011.26
+10.5" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,80000,8511.67
+10.5" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,85000,9008.99
+10.5" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,90000,9503.22
+10.5" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,95000,9994.38
+10.5" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,100000,10482.44
+
+
+
+10.5" x 17",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,500,328.13
+10.5" x 17",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,1000,362.43
+10.5" x 17",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,2500,510.09
+10.5" x 17",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,5000,729.45
+10.5" x 17",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,10000,1277.67
+10.5" x 17",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,15000,1836.69
+10.5" x 17",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,20000,2384.91
+10.5" x 17",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,25000,2930.06
+
+
+
+10.5" x 17",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,1000,677.11
+10.5" x 17",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,2500,894.17
+10.5" x 17",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,5000,1004.00
+10.5" x 17",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,10000,1470.48
+10.5" x 17",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,15000,2564.75
+10.5" x 17",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,20000,3355.14
+10.5" x 17",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,25000,4147.08
+
+
+
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,100,285.57
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,250,310.21
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,500,318.87
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,1000,353.19
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,2500,496.21
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,5000,709.39
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,10000,1243.73
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,15000,1787.34
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,20000,2321.67
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,25000,2852.92
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,30000,3382.64
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,35000,3907.74
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,40000,4431.27
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,45000,4951.73
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,50000,5469.11
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,55000,5983.40
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,60000,6494.61
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,65000,7002.72
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,70000,7509.30
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,75000,8011.26
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,80000,8511.67
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,85000,9008.99
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,90000,9503.22
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,95000,9994.38
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,100000,10482.44
+
+
+
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,25,66.08
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,50,95.38
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,75,118.51
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,100,140.57
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,250,268.55
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,500,453.06
+
+
+
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,500,328.13
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,750,345.28
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,1000,362.43
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,1500,400.59
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,2000,455.35
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,2500,510.09
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,3000,587.98
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,4000,670.85
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,5000,729.45
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,10000,1277.67
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,15000,1836.69
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,20000,2384.91
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,25000,2930.06
+
+
+
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,100,291.74
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,250,418.17
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,500,440.73
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,750,558.92
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,1000,677.11
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,1500,732.64
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,2000,813.40
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,2500,894.17
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,3000,941.59
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,4000,972.79
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,5000,1004.00
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,10000,1470.48
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,15000,2564.75
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,20000,2794.90
+11" x 17",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,25000,4147.08
+
+
+
+11.5" x 17.5",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,100,295.09
+11.5" x 17.5",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,250,338.65
+11.5" x 17.5",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,500,365.85
+11.5" x 17.5",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,1000,413.73
+11.5" x 17.5",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,2500,575.33
+11.5" x 17.5",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,5000,835.11
+11.5" x 17.5",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,10000,1606.22
+11.5" x 17.5",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,15000,2167.98
+11.5" x 17.5",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,20000,2819.79
+11.5" x 17.5",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,25000,3432.59
+
+
+
+11.5" x 17.5",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,25,66.08
+11.5" x 17.5",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,50,95.38
+11.5" x 17.5",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,75,118.51
+11.5" x 17.5",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,100,140.57
+11.5" x 17.5",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,250,268.55
+11.5" x 17.5",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,500,453.06
+
+
+
+11.5" x 17.5",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,500,462.33
+11.5" x 17.5",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,1000,556.78
+11.5" x 17.5",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,2500,800.08
+11.5" x 17.5",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,5000,962.35
+11.5" x 17.5",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,10000,1650.94
+11.5" x 17.5",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,15000,2472.18
+11.5" x 17.5",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,20000,3291.90
+11.5" x 17.5",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,25000,4113.15
+
+
+
+11.5" x 17.5",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,100,424.38
+11.5" x 17.5",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,250,572.41
+11.5" x 17.5",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,500,610.39
+11.5" x 17.5",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,1000,840.62
+11.5" x 17.5",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,2500,1108.58
+11.5" x 17.5",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,5000,1241.54
+11.5" x 17.5",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,10000,1811.37
+11.5" x 17.5",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,15000,3166.32
+11.5" x 17.5",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,20000,4141.81
+11.5" x 17.5",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,25000,5143.52
+
+
+
+12" x 18",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,100,315.71
+12" x 18",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,250,362.32
+12" x 18",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,500,391.33
+12" x 18",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,1000,442.31
+12" x 18",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,2500,699.67
+12" x 18",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,5000,985.49
+12" x 18",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,10000,1606.22
+12" x 18",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,15000,2404.33
+12" x 18",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,20000,3202.43
+12" x 18",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,25000,4000.53
+
+
+
+12" x 18",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,25,66.08
+12" x 18",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,50,95.38
+12" x 18",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,75,118.51
+12" x 18",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,100,140.57
+12" x 18",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,250,268.55
+12" x 18",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,500,453.06
+
+
+
+12" x 18",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,500,715.29
+12" x 18",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,1000,723.38
+12" x 18",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,2500,955.86
+12" x 18",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,5000,1073.42
+12" x 18",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,10000,1650.94
+12" x 18",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,15000,2472.18
+12" x 18",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,20000,3291.90
+12" x 18",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,25000,4113.15
+
+
+
+12" x 18",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,1000,628.04
+12" x 18",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,2500,906.17
+12" x 18",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,5000,1241.54
+12" x 18",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,10000,1811.37
+12" x 18",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,15000,2731.67
+12" x 18",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,20000,3685.65
+12" x 18",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,25000,4486.11
+
+
+
+17" x 22",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,100,589.43
+17" x 22",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,250,675.77
+17" x 22",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,500,729.17
+17" x 22",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,1000,899.22
+17" x 22",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,2500,1233.51
+17" x 22",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,5000,1633.34
+17" x 22",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,10000,2500.87
+17" x 22",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,15000,3746.29
+17" x 22",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,20000,4991.73
+17" x 22",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,25000,6237.16
+
+
+
+17" x 22",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,500,1108.63
+17" x 22",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,1000,1116.72
+17" x 22",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,2500,1509.62
+17" x 22",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,5000,1681.16
+17" x 22",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,10000,2573.35
+17" x 22",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,15000,3854.26
+17" x 22",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,20000,5135.18
+17" x 22",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,25000,6416.09
+
+
+
+17" x 22",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,1000,1334.21
+17" x 22",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,2500,1753.34
+17" x 22",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,5000,1948.02
+17" x 22",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,10000,2830.95
+17" x 22",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,15000,4969.49
+17" x 22",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,20000,6500.29
+17" x 22",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,25000,8034.15
+
+
+
+4" x 10",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,100,69.61
+4" x 10",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,250,77.29
+4" x 10",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,500,85.96
+4" x 10",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,1000,101.75
+4" x 10",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,2500,170.75
+4" x 10",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,5000,218.88
+4" x 10",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,10000,421.58
+4" x 10",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,15000,618.12
+4" x 10",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,20000,817.73
+4" x 10",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,25000,1018.90
+
+
+
+4" x 10",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,25,28.28
+4" x 10",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,50,32.14
+4" x 10",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,75,35.21
+4" x 10",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,100,40.31
+4" x 10",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,250,64.95
+4" x 10",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,500,102.93
+
+
+
+4" x 11",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,100,74.64
+4" x 11",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,250,85.55
+4" x 11",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,500,93.58
+4" x 11",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,1000,108.19
+4" x 11",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,2500,156.01
+4" x 11",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,5000,233.61
+4" x 11",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,10000,422.02
+4" x 11",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,15000,609.74
+4" x 11",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,20000,794.53
+4" x 11",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,25000,970.58
+
+
+
+4" x 11",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,25,28.28
+4" x 11",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,50,32.14
+4" x 11",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,75,35.21
+4" x 11",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,100,40.31
+4" x 11",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,250,64.95
+4" x 11",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,500,102.93
+
+
+
+4" x 11",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,500,115.27
+4" x 11",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,1000,151.11
+4" x 11",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,2500,224.72
+4" x 11",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,5000,286.75
+4" x 11",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,10000,478.65
+4" x 11",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,15000,689.07
+4" x 11",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,20000,907.21
+4" x 11",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,25000,1117.62
+
+
+
+4" x 11",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,1000,141.60
+4" x 11",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,2500,209.24
+4" x 11",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,5000,326.86
+4" x 11",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,10000,472.38
+4" x 11",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,15000,674.34
+4" x 11",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,20000,905.14
+4" x 11",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,25000,1105.23
+
+
+
+4" x 15",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,100,107.42
+4" x 15",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,250,113.99
+4" x 15",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,500,121.84
+4" x 15",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,1000,139.90
+4" x 15",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,2500,199.52
+4" x 15",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,5000,296.02
+4" x 15",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,10000,534.22
+4" x 15",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,15000,771.44
+4" x 15",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,20000,1004.68
+4" x 15",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,25000,1226.08
+
+
+
+4" x 15",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,25,30.60
+4" x 15",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,50,38.31
+4" x 15",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,75,46.03
+4" x 15",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,100,54.19
+4" x 15",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,250,97.34
+4" x 15",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,500,161.54
+
+
+
+4.25" x 11",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,100,78.49
+4.25" x 11",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,250,89.98
+4.25" x 11",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,500,112.17
+4.25" x 11",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,750,130.11
+4.25" x 11",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,1000,148.03
+4.25" x 11",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,1500,166.91
+4.25" x 11",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,2000,192.74
+4.25" x 11",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,2500,218.56
+4.25" x 11",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,3000,232.81
+4.25" x 11",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,4000,256.69
+4.25" x 11",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,5000,280.57
+4.25" x 11",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,10000,467.86
+4.25" x 11",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,15000,673.64
+4.25" x 11",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,20000,887.15
+4.25" x 11",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,25000,1013.64
+
+
+
+4.25" x 11",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,25,28.28
+4.25" x 11",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,50,32.14
+4.25" x 11",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,75,35.21
+4.25" x 11",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,100,40.31
+4.25" x 11",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,250,64.95
+4.25" x 11",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,500,102.93
+
+
+
+4.25" x 11",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,500,115.27
+4.25" x 11",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,750,133.19
+4.25" x 11",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,1000,151.11
+4.25" x 11",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,1500,170.77
+4.25" x 11",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,2000,197.76
+4.25" x 11",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,2500,224.72
+4.25" x 11",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,3000,238.99
+4.25" x 11",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,4000,262.86
+4.25" x 11",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,5000,286.75
+4.25" x 11",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,10000,478.65
+4.25" x 11",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,15000,689.07
+4.25" x 11",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,20000,907.21
+4.25" x 11",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,25000,1117.62
+
+
+
+4.25" x 11",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Roll Fold,1000,141.60
+4.25" x 11",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Roll Fold,2500,201.74
+4.25" x 11",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Roll Fold,5000,306.86
+4.25" x 11",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Roll Fold,10000,422.38
+4.25" x 11",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Roll Fold,15000,599.34
+4.25" x 11",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Roll Fold,20000,805.14
+4.25" x 11",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Roll Fold,25000,980.23
+
+
+
+4.25" x 12",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,100,84.55
+4.25" x 12",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,250,96.94
+4.25" x 12",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,500,105.83
+4.25" x 12",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,1000,121.94
+4.25" x 12",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,2500,174.89
+4.25" x 12",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,5000,260.69
+4.25" x 12",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,10000,470.67
+4.25" x 12",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,15000,679.87
+4.25" x 12",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,20000,885.68
+4.25" x 12",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,25000,1081.38
+
+
+
+4.25" x 12",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,25,28.28
+4.25" x 12",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,50,32.14
+4.25" x 12",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,75,35.21
+4.25" x 12",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,100,40.31
+4.25" x 12",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,250,64.95
+4.25" x 12",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,500,102.93
+
+
+
+4.25" x 12",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,500,139.93
+4.25" x 12",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,1000,185.05
+4.25" x 12",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,2500,270.99
+4.25" x 12",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,5000,343.81
+4.25" x 12",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,10000,571.21
+4.25" x 12",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,15000,820.18
+4.25" x 12",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,20000,1081.52
+4.25" x 12",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,25000,1332.03
+
+
+
+4.25" x 12",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,1000,155.12
+4.25" x 12",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,2500,228.60
+4.25" x 12",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,5000,353.07
+4.25" x 12",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,10000,512.65
+4.25" x 12",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,15000,731.47
+4.25" x 12",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,20000,982.36
+4.25" x 12",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,25000,1199.15
+
+
+
+5.5" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,100,128.23
+5.5" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,250,165.84
+5.5" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,500,179.94
+5.5" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,1000,205.11
+5.5" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,2500,392.86
+5.5" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,5000,453.34
+5.5" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,10000,711.57
+5.5" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,15000,1062.35
+5.5" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,20000,1413.15
+5.5" x 17",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,25000,1763.94
+
+
+
+5.5" x 17",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,25,39.85
+5.5" x 17",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,50,52.96
+5.5" x 17",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,75,62.99
+5.5" x 17",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,100,75.79
+5.5" x 17",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,250,140.53
+5.5" x 17",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,500,234.04
+
+
+
+5.5" x 17",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,500,280.31
+5.5" x 17",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,1000,302.28
+5.5" x 17",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,2500,403.65
+5.5" x 17",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,5000,465.67
+5.5" x 17",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,10000,730.08
+5.5" x 17",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,15000,1090.13
+5.5" x 17",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,20000,1448.63
+5.5" x 17",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,25000,1808.65
+
+
+
+5.5" x 17",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,100,151.38
+5.5" x 17",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,250,234.62
+5.5" x 17",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,500,270.08
+5.5" x 17",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,1000,350.10
+5.5" x 17",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,2500,463.82
+5.5" x 17",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,5000,532.01
+5.5" x 17",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,10000,791.79
+5.5" x 17",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,15000,1363.15
+5.5" x 17",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,20000,1783.34
+5.5" x 17",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,25000,2203.54
+
+
+
+7" x 8.5",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,French Fold,100,75.46
+7" x 8.5",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,French Fold,250,95.63
+7" x 8.5",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,French Fold,500,103.23
+7" x 8.5",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,French Fold,1000,111.62
+7" x 8.5",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,French Fold,2500,146.98
+7" x 8.5",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,French Fold,5000,222.88
+7" x 8.5",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,French Fold,10000,400.14
+7" x 8.5",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,French Fold,15000,584.19
+7" x 8.5",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,French Fold,20000,766.53
+7" x 8.5",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,French Fold,25000,948.86
+
+
+
+7" x 8.5",100LB Gloss Book,4/4 (4 color both sides),No Coating,French Fold,25,29.82
+7" x 8.5",100LB Gloss Book,4/4 (4 color both sides),No Coating,French Fold,50,38.31
+7" x 8.5",100LB Gloss Book,4/4 (4 color both sides),No Coating,French Fold,75,46.03
+7" x 8.5",100LB Gloss Book,4/4 (4 color both sides),No Coating,French Fold,100,54.19
+7" x 8.5",100LB Gloss Book,4/4 (4 color both sides),No Coating,French Fold,250,97.34
+7" x 8.5",100LB Gloss Book,4/4 (4 color both sides),No Coating,French Fold,500,160.77
+
+
+
+7" x 8.5",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,French Fold,500,141.48
+7" x 8.5",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,French Fold,1000,160.38
+7" x 8.5",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,French Fold,2500,257.12
+7" x 8.5",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,French Fold,5000,342.28
+7" x 8.5",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,French Fold,10000,651.42
+7" x 8.5",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,French Fold,15000,960.56
+7" x 8.5",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,French Fold,20000,1268.15
+7" x 8.5",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,French Fold,25000,1574.21
+
+
+
+7.5" x 8.5",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,French Fold,100,78.70
+7.5" x 8.5",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,French Fold,250,99.78
+7.5" x 8.5",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,French Fold,500,107.65
+7.5" x 8.5",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,French Fold,1000,116.21
+7.5" x 8.5",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,French Fold,2500,152.58
+7.5" x 8.5",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,French Fold,5000,231.03
+7.5" x 8.5",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,French Fold,10000,414.66
+7.5" x 8.5",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,French Fold,15000,605.41
+7.5" x 8.5",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,French Fold,20000,794.35
+7.5" x 8.5",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,French Fold,25000,983.32
+
+
+
+7.5" x 8.5",100LB Gloss Book,4/4 (4 color both sides),No Coating,French Fold,25,29.82
+7.5" x 8.5",100LB Gloss Book,4/4 (4 color both sides),No Coating,French Fold,50,38.31
+7.5" x 8.5",100LB Gloss Book,4/4 (4 color both sides),No Coating,French Fold,75,46.03
+7.5" x 8.5",100LB Gloss Book,4/4 (4 color both sides),No Coating,French Fold,100,54.19
+7.5" x 8.5",100LB Gloss Book,4/4 (4 color both sides),No Coating,French Fold,250,97.34
+7.5" x 8.5",100LB Gloss Book,4/4 (4 color both sides),No Coating,French Fold,500,160.77
+
+
+
+7.5" x 8.5",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,French Fold,500,141.48
+7.5" x 8.5",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,French Fold,1000,160.38
+7.5" x 8.5",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,French Fold,2500,257.12
+7.5" x 8.5",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,French Fold,5000,342.28
+7.5" x 8.5",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,French Fold,10000,651.42
+7.5" x 8.5",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,French Fold,15000,960.56
+7.5" x 8.5",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,French Fold,20000,1268.15
+7.5" x 8.5",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,French Fold,25000,1574.21
+
+
+
+7.5" x 8.5",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,French Fold,100,111.36
+7.5" x 8.5",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,French Fold,250,127.65
+7.5" x 8.5",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,French Fold,500,150.89
+7.5" x 8.5",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,French Fold,1000,247.16
+7.5" x 8.5",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,French Fold,2500,331.59
+7.5" x 8.5",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,French Fold,5000,387.09
+7.5" x 8.5",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,French Fold,10000,689.49
+7.5" x 8.5",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,French Fold,15000,999.26
+7.5" x 8.5",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,French Fold,20000,1320.60
+7.5" x 8.5",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,French Fold,25000,1622.99
+
+
+
+8" x 9",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,French Fold,100,122.06
+8" x 9",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,French Fold,250,126.64
+8" x 9",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,French Fold,500,135.32
+8" x 9",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,French Fold,1000,149.57
+8" x 9",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,French Fold,2500,241.14
+8" x 9",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,French Fold,5000,322.09
+8" x 9",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,French Fold,10000,629.82
+8" x 9",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,French Fold,15000,931.24
+8" x 9",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,French Fold,20000,1229.58
+8" x 9",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,French Fold,25000,1527.92
+
+
+
+8" x 9",100LB Gloss Book,4/4 (4 color both sides),No Coating,French Fold,25,39.85
+8" x 9",100LB Gloss Book,4/4 (4 color both sides),No Coating,French Fold,50,52.19
+8" x 9",100LB Gloss Book,4/4 (4 color both sides),No Coating,French Fold,75,62.99
+8" x 9",100LB Gloss Book,4/4 (4 color both sides),No Coating,French Fold,100,75.79
+8" x 9",100LB Gloss Book,4/4 (4 color both sides),No Coating,French Fold,250,140.53
+8" x 9",100LB Gloss Book,4/4 (4 color both sides),No Coating,French Fold,500,234.04
+
+
+
+8" x 9",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,French Fold,500,141.48
+8" x 9",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,French Fold,1000,160.38
+8" x 9",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,French Fold,2500,257.12
+8" x 9",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,French Fold,5000,342.28
+8" x 9",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,French Fold,10000,651.42
+8" x 9",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,French Fold,15000,960.56
+8" x 9",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,French Fold,20000,1268.15
+8" x 9",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,French Fold,25000,1574.21
+
+
+
+8" x 9",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,French Fold,1000,247.16
+8" x 9",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,French Fold,2500,331.58
+8" x 9",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,French Fold,5000,472.95
+8" x 9",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,French Fold,10000,712.90
+8" x 9",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,French Fold,15000,1018.86
+8" x 9",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,French Fold,20000,1366.18
+8" x 9",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,French Fold,25000,1655.24
+
+
+
+8" x 10",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,100,122.06
+8" x 10",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,250,126.64
+8" x 10",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,500,138.41
+8" x 10",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,1000,155.75
+8" x 10",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,2500,250.95
+8" x 10",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,5000,334.57
+8" x 10",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,10000,635.98
+8" x 10",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,15000,937.41
+8" x 10",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,20000,1237.30
+8" x 10",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,25000,1535.63
+
+
+
+8" x 10",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,25,39.85
+8" x 10",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,50,52.19
+8" x 10",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,75,62.99
+8" x 10",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,100,75.79
+8" x 10",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,250,140.53
+8" x 10",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,500,234.04
+
+
+
+8" x 10",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,500,141.48
+8" x 10",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,1000,160.38
+8" x 10",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,2500,257.12
+8" x 10",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,5000,342.28
+8" x 10",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,10000,651.42
+8" x 10",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,15000,960.56
+8" x 10",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,20000,1268.15
+8" x 10",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,25000,1574.21
+
+
+
+8" x 10",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,100,143.65
+8" x 10",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,250,166.74
+8" x 10",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,500,184.68
+8" x 10",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,1000,248.12
+8" x 10",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,2500,351.78
+8" x 10",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,5000,539.71
+8" x 10",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,10000,768.88
+8" x 10",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,15000,1095.15
+8" x 10",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,20000,1473.88
+8" x 10",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,25000,1796.77
+
+
+
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,100,122.06
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,250,126.64
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,500,135.32
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,1000,149.57
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,2500,241.14
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,5000,322.09
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,7500,493.77
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,10000,629.82
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,15000,931.24
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,20000,1229.58
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,25000,1527.92
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,30000,1824.73
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,35000,2119.99
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,40000,2413.70
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,45000,2705.87
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,50000,2996.49
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,55000,3285.58
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,60000,3573.13
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,65000,3860.67
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,70000,4145.12
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,75000,4429.59
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,80000,4710.97
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,85000,4992.34
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,90000,5270.61
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,95000,5550.45
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,100000,5825.65
+
+
+
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,100,122.06
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,250,126.64
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,500,135.32
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,1000,149.57
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,2500,241.14
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,5000,322.09
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,7500,493.77
+
+
+
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,100,122.06
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,250,126.64
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,500,135.32
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,1000,149.57
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,2500,241.14
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,5000,322.09
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,7500,493.77
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,10000,629.82
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,15000,931.24
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,20000,1229.58
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,25000,1527.92
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,30000,1824.73
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,35000,2119.99
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,40000,2413.70
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,45000,2705.87
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,50000,2996.49
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,55000,3285.58
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,60000,3573.13
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,65000,3860.67
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,70000,4145.12
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,75000,4429.59
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,80000,4710.97
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,85000,4992.34
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,90000,5270.61
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,95000,5550.45
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,100000,5825.65
+
+
+
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,100,122.06
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,250,126.64
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,500,135.32
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,1000,149.57
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,2500,241.14
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,5000,322.09
+8.5" x 11",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,7500,493.77
+
+
+
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,100,157.54
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,250,206.86
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,500,213.99
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,1000,235.95
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,2500,334.23
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,5000,478.01
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,10000,841.14
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,15000,1201.19
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,20000,1559.68
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,25000,1771.64
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,30000,2123.96
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,35000,2476.30
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,40000,2828.62
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,45000,3180.95
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,50000,3533.29
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,55000,3885.61
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,60000,4237.95
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,65000,4590.27
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,70000,4942.61
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,75000,5294.91
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,80000,5647.25
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,85000,5999.59
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,90000,6351.91
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,95000,6704.24
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,100000,7044.22
+
+
+
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,25,66.08
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,50,95.38
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,75,118.51
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,100,140.57
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,250,268.55
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,500,453.06
+
+
+
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,100,196.15
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,250,207.40
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,500,220.15
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,750,231.13
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,1000,242.12
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,1500,299.28
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,2000,321.40
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,2500,343.50
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,3000,378.97
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,4000,434.66
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,5000,490.35
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,10000,862.74
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,15000,1232.03
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,20000,1599.78
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,25000,1816.37
+
+
+
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,100,186.85
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,250,259.30
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,500,280.31
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,750,404.95
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,1000,425.67
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,1500,454.21
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,2000,494.48
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,2500,534.77
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,3000,597.82
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,4000,626.61
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,5000,655.39
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,10000,1183.58
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,15000,1761.10
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,20000,2040.93
+8.5" x 14",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,25000,2323.85
+
+
+
+9" x 12",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,100,160.62
+9" x 12",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,250,191.43
+9" x 12",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,500,238.65
+9" x 12",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,1000,254.47
+9" x 12",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,2500,412.91
+9" x 12",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,5000,504.24
+9" x 12",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,10000,942.93
+9" x 12",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,15000,1409.42
+9" x 12",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,20000,1841.95
+9" x 12",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,25000,2299.94
+9" x 12",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,30000,2693.14
+9" x 12",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,35000,3119.51
+9" x 12",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,40000,3547.43
+9" x 12",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,45000,3975.33
+9" x 12",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,50000,4403.25
+9" x 12",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,55000,4831.16
+9" x 12",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,60000,5257.53
+9" x 12",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,65000,5685.43
+9" x 12",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,70000,6113.35
+9" x 12",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,75000,6541.26
+9" x 12",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,80000,6969.17
+9" x 12",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,85000,7395.55
+9" x 12",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,90000,6848.47
+9" x 12",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,95000,7215.64
+9" x 12",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,100000,7578.59
+
+
+
+9" x 12",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,25,66.08
+9" x 12",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,50,95.38
+9" x 12",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,75,118.51
+9" x 12",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,100,140.57
+9" x 12",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,250,268.55
+9" x 12",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,500,453.06
+
+
+
+9" x 12",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,500,244.83
+9" x 12",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,1000,262.17
+9" x 12",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,2500,423.71
+9" x 12",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,5000,518.12
+9" x 12",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,10000,967.62
+9" x 12",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,15000,1446.44
+9" x 12",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,20000,1891.31
+9" x 12",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,25000,2360.88
+
+
+
+9" x 12",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,100,189.93
+9" x 12",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,250,226.91
+9" x 12",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,500,283.40
+9" x 12",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,1000,324.03
+9" x 12",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,2500,470.59
+9" x 12",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,5000,718.63
+9" x 12",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,10000,1015.97
+9" x 12",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,15000,1445.85
+9" x 12",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,20000,1947.82
+9" x 12",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,25000,2373.06
+
+
+
+9" x 16",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,100,245.47
+9" x 16",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,250,310.21
+9" x 16",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,500,318.87
+9" x 16",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,1000,353.19
+9" x 16",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,2500,496.21
+9" x 16",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,5000,709.39
+9" x 16",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,10000,1243.73
+9" x 16",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,15000,1787.34
+9" x 16",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,20000,2321.67
+9" x 16",100LB Gloss Book,4/4 (4 color both sides),Aqueous Coating,Double Parallel Fold,25000,2852.92
+
+
+
+9" x 16",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,25,66.08
+9" x 16",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,50,95.38
+9" x 16",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,75,118.51
+9" x 16",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,100,140.57
+9" x 16",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,250,268.55
+9" x 16",100LB Gloss Book,4/4 (4 color both sides),No Coating,Double Parallel Fold,500,453.06
+
+
+
+9" x 16",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,500,328.13
+9" x 16",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,1000,362.43
+9" x 16",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,2500,510.09
+9" x 16",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,5000,729.45
+9" x 16",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,10000,1277.67
+9" x 16",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,15000,1836.69
+9" x 16",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,20000,2384.91
+9" x 16",100LB Gloss Book,4/4 (4 color both sides),Satin Aqueous,Double Parallel Fold,25000,2930.06
+
+
+
+9" x 16",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,100,261.89
+9" x 16",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,250,300.17
+9" x 16",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,500,355.09
+9" x 16",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,1000,468.02
+9" x 16",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,2500,620.81
+9" x 16",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,5000,885.23
+9" x 16",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,10000,1317.94
+9" x 16",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,15000,1874.44
+9" x 16",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,20000,2527.10
+9" x 16",100LB Gloss Book,4/4 (4 color both sides),UV on 4-color side,Double Parallel Fold,25000,3077.41
+
+
+
