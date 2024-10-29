@@ -35,28 +35,28 @@ const web = async () => {
   const optionsProductSize = await productSize.$$eval("option", (node) =>
     node.map((n) => n.value)
   );
-  const optionsProductSizeFinal = optionsProductSize.filter((option) => {
-    if (
-      option !== "Folded-Brochure-15x5-23p17455.htm" &&
-      option !== "Folded-Brochure-8-5x5-5-23p10743.htm" &&
-      option !== "Folded-Brochure-12x9-23p10807.htm" &&
-      option !== "Folded-Brochure-15x7-23p10707.htm" &&
-      option !== "Folded-Brochure-17x5-5-23p10673.htm" &&
-      option !== "Folded-Brochure-18x12-23p10661.htm" &&
-      option !== "Tri-fold-Brochure-25-5x11-23p7574.htm" &&
-      option !== "Tri-fold-Brochure-25-5x5-5-23p18303.htm" &&
-      option !== "Folded-Brochure-Euro-A3-Size-16-54x11-69-23p6850.htm" &&
-      option !== "Folded-Brochure-Euro-A4-Size-8-27x11-69-23p6846.htm"
-    ) {
-      return true;
-    } else {
-      return false;
-    }
-  });
-  // optionsProductSize.splice(0, 11);
-  console.log(optionsProductSizeFinal);
+  // const optionsProductSizeFinal = optionsProductSize.filter((option) => {
+  //   if (
+  //     option !== "Folded-Brochure-15x5-23p17455.htm" &&
+  //     option !== "Folded-Brochure-8-5x5-5-23p10743.htm" &&
+  //     option !== "Folded-Brochure-12x9-23p10807.htm" &&
+  //     option !== "Folded-Brochure-15x7-23p10707.htm" &&
+  //     option !== "Folded-Brochure-17x5-5-23p10673.htm" &&
+  //     option !== "Folded-Brochure-18x12-23p10661.htm" &&
+  //     option !== "Tri-fold-Brochure-25-5x11-23p7574.htm" &&
+  //     option !== "Tri-fold-Brochure-25-5x5-5-23p18303.htm" &&
+  //     option !== "Folded-Brochure-Euro-A3-Size-16-54x11-69-23p6850.htm" &&
+  //     option !== "Folded-Brochure-Euro-A4-Size-8-27x11-69-23p6846.htm"
+  //   ) {
+  //     return true;
+  //   } else {
+  //     return false;
+  //   }
+  // });
+  optionsProductSize.splice(0, 6);
+  console.log(optionsProductSize);
 
-  for await (const size of optionsProductSizeFinal) {
+  for await (const size of optionsProductSize) {
     productSize = await page.$('[name="dropdown_productname"]');
     await productSize.selectOption(size);
     await page.waitForTimeout(2000);
@@ -82,17 +82,27 @@ const web = async () => {
     // console.log(optionsProductPaper);
 
     // PRINTED SIDES/COLOR
-    const productPrinted = await page.$("#CAG26");
-    const optionsProductPrinted = await productPrinted.$$eval("option", (node) =>
+    // const productPrinted = await page.$("#CAG26");
+    // const optionsProductPrinted = await productPrinted.$$eval("option", (node) =>
+    //   node.map((n) => n.value)
+    // );
+    // // const optionsProductFoldFinal = optionsProductFold.filter(
+    // //   (option) => option !== "5736_-0.012_0_0_0_0_0"
+    // // );
+    // console.log(optionsProductPrinted);
+
+    // SHRINKWRAPPING
+    const productShrinkwrapping = await page.$("#CAG203");
+    const optionsProductShrinkwrapping = await productShrinkwrapping.$$eval("option", (node) =>
       node.map((n) => n.value)
     );
     // const optionsProductFoldFinal = optionsProductFold.filter(
     //   (option) => option !== "5736_-0.012_0_0_0_0_0"
     // );
-    console.log(optionsProductPrinted);
+    console.log(optionsProductShrinkwrapping);
 
-    for await (const printed of optionsProductPrinted) {
-      await productPrinted.selectOption(printed);
+    for await (const Shrinkwrapping of optionsProductShrinkwrapping) {
+      await productShrinkwrapping.selectOption(Shrinkwrapping);
       await page.waitForTimeout(2000);
 
       // QUANTITY
