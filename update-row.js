@@ -1,10 +1,10 @@
-import { firefox } from "playwright";
+import { chromium } from "playwright";
 import {
   login,
   auditArtwork,
   updateAndCreateArtwork,
   getIdProducts,
-  checkAndDeleteArtwork
+  checkAndDeleteArtwork,
 } from "./function_list.js";
 // import { proxies } from './data.js'
 // import fs from 'fs'
@@ -22,7 +22,14 @@ const updateRow = async () => {
   //   }
   // })
 
-  const browser = await firefox.launch();
+  const userDataDir =
+    "C:\\Users\\eeem77\\AppData\\Local\\Google\\Chrome\\User Data\\Default";
+  const browser = await chromium.launchPersistentContext(userDataDir, {
+    headless: false, // Cambia a true si no quieres que se muestre la ventana
+    viewport: { width: 1440, height: 870 },
+  });
+
+  // const browser = await chromium.launch();
 
   const page = await browser.newPage();
 
@@ -43,6 +50,9 @@ const updateRow = async () => {
   // }
 
   // GET ID PRODUCTS
+  // const table = document.querySelector("tbody");
+  // const tr = table.querySelectorAll("tr");
+  // tr.forEach(element => console.log(element.getAttribute("id")))
   // await getIdProducts(page);
 
   // CHECK AND DELETE ARTWORK
@@ -55,14 +65,14 @@ const updateRow = async () => {
 
   // CREATE AND UPDATE ARTWORK
   // try {
-  //   await login(page);
+  //   // await login(page);
   //   await updateAndCreateArtwork(page);
   // } catch (error) {
   //   console.log("Error ---> ", error);
   // }
 
   // AUDIT ARTWORK OPTIONS
-  await login(page);
+  // await login(page);
   await auditArtwork(page);
 
   // FUNCTIONS GROUPS
@@ -103,12 +113,11 @@ const updateRow = async () => {
   // await getTitleFilterProduct(page, "Acrylic");
   // await addSetupProductPageDesigner(page);
 
+  await browser.close();
+  console.log("END");
   player().play("./alarm.mp3", (err) => {
     if (err) throw err;
   });
-
-  await browser.close();
-  console.log("END");
 };
 
 updateRow();
