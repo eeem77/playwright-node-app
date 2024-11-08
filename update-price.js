@@ -6,10 +6,10 @@ dotenv.config();
 
 const url = "https://www.apprinting.com/admin/";
 const urlProductUpdatePrice =
-  "https://www.apprinting.com/admin/product_additionalinfo_price.php?product_id=3676&prod_add_opt_id=122358&sel_product_size=4163";
+  "https://www.apprinting.com/admin/product_additionalinfo_price.php?product_id=3676&prod_add_opt_id=122357&sel_product_size=4163";
 
 const qtys = [
-  // 25, 50, 75, 100, 150, 200,
+  //25, 50, 75, 100, 150, 200,
   250, 500, 1000, 2000, 2500, 3000, 4000, 5000, 6000, 7000, 7500, 8000, 9000,
   10000, 15000, 20000, 25000, 35000, 30000, 40000, 45000, 50000, 55000, 60000,
   65000, 70000, 75000, 80000, 85000, 90000, 95000, 100000,
@@ -26,17 +26,24 @@ const login = async (page) => {
   await page.waitForTimeout(5000);
   console.log("login: OK");
 };
-// txtprice[25_2242496_]  txtprice[25_2242499_]
+// txtprice[25_2242485_] txtprice[25_2242495_]
 const inputFillToPrice = async (page) => {
   await page.goto(urlProductUpdatePrice, { timeout: 300000 });
   let price = 0;
   // let postNumber = 9607838  ${postNumber}
-  for (let i = 96; i <= 99; i++) {
+  for (let i = 85; i <= 95; i++) {
     if (
-      i === 96
-      // i === 97
-      // i === 98
-      //i === 99
+      i === 85 || // None
+      //i === 86 || // Half Fold
+      i === 87 || // Tri-Fold/Letter Fold
+      i === 88 || //  Z-Fold
+      //i === 89 || // Gate Fold
+      i === 90  // Accordion Fold (4 panels)
+      //i === 91 || // Double Gate Fold
+      //i === 92 || // Double Parallel Fold
+      //i === 93 || // French Fold
+      //i === 94 // Roll Fold (4 panels)
+      // i === 95 // Half Fold then Tri-Fold
     ) {
       for await (const qty of qtys) {
         const id = `txtprice[${qty}_22424${i}_]`;

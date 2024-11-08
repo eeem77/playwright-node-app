@@ -216,34 +216,120 @@ const web = async () => {
   await page.goto("https://www.uprinting.com/brochure-printing.html");
   const form = await page.$("#calc_4_tradpricegroup");
 
+  //SIZE
   for (let index = 0; index <= 8; index++) {
     await changeOneOptions(page, form, 0, index);
     await changeOneOptions(page, form, 3, 0);
-    let folding = [];
-    if (index === 0) folding = [1, 3];
-    if (index === 1) folding = [1, 3, 7, 8];
-    if (index === 2) folding = [1, 3, 7, 8, 9, 17, 18, 19, 20, 21];
-    if (index === 3) folding = [1, 3];
-    if (index === 4) folding = [1, 3, 7, 8, 9, 17, 18, 19, 20, 21];
-    if (index === 5) folding = [1, 3, 7, 8, 9, 17, 18, 19, 20, 21];
-    if (index === 6) folding = [1, 3, 7, 8, 9, 17, 18, 19, 20, 21];
-    if (index === 7) folding = [1, 3, 7, 8, 9, 17, 18, 19, 20, 21];
-    if (index === 8) folding = [1, 3, 7, 8, 9, 17, 18, 19, 20, 21];
-    for await (const fol of folding) {
-      await changeOneOptions(page, form, 4, fol);
-      if (fol === 1) {
-        await changeOneOptions(page, form, 5, 0);
-      } else {
-        await changeOneOptions(page, form, 5, 2);
-      }
-      if (index !== 8) {
-        await changeOptions(page, form, 9, 0);
-      } else {
-        await changeOptions(page, form, 9, 6);
-      }
-      fs.appendFileSync(`list.txt`, "\n\n\n");
+    await changeOneOptions(page, form, 4, 1);
+    await changeOneOptions(page, form, 5, 0);
+    if (index === 8) {
+      await changeOptions(page, form, 9, 6);
+    } else {
+      await changeOptions(page, form, 9, 0);
     }
+    fs.appendFileSync(`list.txt`, "\n\n\n");
   }
+
+  //PRINTING TIME
+  // for (let index = 0; index <= 8; index++) {
+  //   await changeOneOptions(page, form, 0, index);
+  //   await changeOneOptions(page, form, 3, 0);
+  //   await changeOneOptions(page, form, 4, 1);
+  //   await changeOneOptions(page, form, 5, 0);
+  //   for (let Y = 0; Y <= 1; Y++) {
+  //     await changeOneOptions(page, form, 10, Y);
+  //     if (index === 8) {
+  //       await changeOptions(page, form, 9, 6);
+  //     } else {
+  //       await changeOptions(page, form, 9, 0);
+  //     }
+  //     fs.appendFileSync(`list.txt`, "\n\n\n");
+  //   }
+  // }
+
+  //TABBING
+  // for (let index = 0; index <= 8; index++) {
+  //   await changeOneOptions(page, form, 0, index);
+  //   await changeOneOptions(page, form, 3, 0);
+  //   if (index === 8) {
+  //     await changeOneOptions(page, form, 4, 7);
+  //   } else {
+  //     await changeOneOptions(page, form, 4, 3);
+  //   }
+  //   await changeOneOptions(page, form, 5, 2);
+  //   for (let Y = 0; Y <= 2; Y++) {
+  //     await changeOneOptions(page, form, 8, Y);
+  //     if (index === 8) {
+  //       await changeOptions(page, form, 9, 6);
+  //     } else {
+  //       await changeOptions(page, form, 9, 0);
+  //     }
+  //     fs.appendFileSync(`list.txt`, "\n\n\n");
+  //   }
+  // }
+
+  //BUNDLING
+  // for (let index = 0; index <= 8; index++) {
+  //   await changeOneOptions(page, form, 0, index);
+  //   await changeOneOptions(page, form, 3, 0);
+  //   await changeOneOptions(page, form, 4, 1);
+  //   await changeOneOptions(page, form, 5, 0);
+  //   for (let Y = 0; Y <= 1; Y++) {
+  //     await changeOneOptions(page, form, 6, Y);
+  //     if (index === 8) {
+  //       await changeOptions(page, form, 9, 6);
+  //     } else {
+  //       await changeOptions(page, form, 9, 0);
+  //     }
+  //     fs.appendFileSync(`list.txt`, "\n\n\n");
+  //   }
+  // }
+
+  // PRINTED SIDE
+  // for (let index = 8; index <= 8; index++) {
+  //   await changeOneOptions(page, form, 0, index);
+  //   await changeOneOptions(page, form, 3, 0);
+  //   await changeOneOptions(page, form, 4, 1);
+  //   for (let Y = 0; Y <= 1; Y++) {
+  //     await changeOneOptions(page, form, 5, Y);
+  //     if (index === 8) {
+  //       await changeOptions(page, form, 9, 6);
+  //     } else {
+  //       await changeOptions(page, form, 9, 0);
+  //     }
+  //     fs.appendFileSync(`list.txt`, "\n\n\n");
+  //   }
+  // }
+
+  // FOLDING
+  // for (let index = 8; index <= 8; index++) {
+  //   await changeOneOptions(page, form, 0, index);
+  //   await changeOneOptions(page, form, 3, 0);
+  //   let folding = [];
+  //   if (index === 0) folding = [1, 3];
+  //   if (index === 1) folding = [1, 3, 7, 8];
+  //   if (index === 2) folding = [1, 3, 7, 8, 17, 21];
+  //   if (index === 3) folding = [1, 3];
+  //   if (index === 4) folding = [1, 3, 7, 8, 9, 17, 18, 19, 20, 21];
+  //   if (index === 5) folding = [1, 3, 7, 8, 9, 17, 18, 19, 20, 21];
+  //   if (index === 6) folding = [1, 3, 7, 8, 9, 17, 18, 19, 20, 21];
+  //   if (index === 7) folding = [1, 3, 7, 8, 9, 17, 18, 19, 20, 21];
+  //   if (index === 8) folding = [1, 7, 8, 17];
+  //   for await (const fol of folding) {
+  //     await changeOneOptions(page, form, 4, fol);
+  //     if (fol === 1) {
+  //       await changeOneOptions(page, form, 5, 0);
+  //     } else {
+  //       await changeOneOptions(page, form, 5, 2);
+  //     }
+  //     if (index !== 8) {
+  //       await changeOptions(page, form, 9, 0);
+  //     } else {
+  //       await changeOptions(page, form, 9, 6);
+  //     }
+  //     fs.appendFileSync(`list.txt`, "\n\n\n");
+  //   }
+  // }
 
   /*
   [
