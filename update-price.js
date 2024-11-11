@@ -6,13 +6,11 @@ dotenv.config();
 
 const url = "https://www.apprinting.com/admin/";
 const urlProductUpdatePrice =
-  "https://www.apprinting.com/admin/product_additionalinfo_price.php?product_id=3676&prod_add_opt_id=122361&sel_product_size=4163";
+  "https://www.apprinting.com/admin/product_additionalinfo_price.php?product_id=5910&prod_add_opt_id=122368&sel_product_size=11940";
 
 const qtys = [
-  //25, 50, 75, 100, 150, 200,
-  250, 500, 1000, 2000, 2500, 3000, 4000, 5000, 6000, 7000, 7500, 8000, 9000,
-  10000, 15000, 20000, 25000, 35000, 30000, 40000, 45000, 50000, 55000, 60000,
-  65000, 70000, 75000, 80000, 85000, 90000, 95000, 100000,
+  25, 50, 75, 100, 150, 200, 250, 500, 1000, 1500, 2000, 2500, 3000, 3500, 4000,
+  4500, 5000, 6000, 7000, 8000, 9000, 10000,
 ];
 
 const login = async (page) => {
@@ -26,33 +24,23 @@ const login = async (page) => {
   await page.waitForTimeout(5000);
   console.log("login: OK");
 };
-// txtprice[25_2242506_]
+// txtprice[25_2242511_]   txtprice[25_2242531_]
 const inputFillToPrice = async (page) => {
   await page.goto(urlProductUpdatePrice, { timeout: 300000 });
   let price = 0;
   // let postNumber = 9607838  ${postNumber}
-  for (let i = 6; i <= 6; i++) {
+  for (let i = 33; i <= 33; i++) {
     // if (
-    //   //PRINTED SIDE
-    //   //i === 96  //Front Only
-    //   i === 97 || //Front and Back
-    //   //i === 98  //Outside Only
-    //   i === 99 //Outside and Inside
-    //   //FOLDING
-    //   //i === 85 || // None
-    //   //i === 86 || // Half Fold
-    //   //i === 87 || // Tri-Fold/Letter Fold
-    //   //i === 88 || //  Z-Fold
-    //   //i === 89 || // Gate Fold
-    //   //i === 90  // Accordion Fold (4 panels)
-    //   //i === 91 || // Double Gate Fold
-    //   //i === 92 || // Double Parallel Fold
-    //   //i === 93 || // French Fold
-    //   //i === 94 // Roll Fold (4 panels)
-    //   // i === 95 // Half Fold then Tri-Fold
+    //   i === 11 ||
+    //   i === 12 ||
+    //   i === 27 ||
+    //   i === 28 ||
+    //   i === 29 ||
+    //   i === 30 ||
+    //   i === 31
     // ) {
     for await (const qty of qtys) {
-      const id = `txtprice[${qty}_224250${i}_]`;
+      const id = `txtprice[${qty}_22425${i}_]`;
       const inputPrice = await page.$(`[id="${id}" ]`);
       await inputPrice.fill(listPrice[price].toString());
       console.log(listPrice[price].toString());
