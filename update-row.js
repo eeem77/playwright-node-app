@@ -6,6 +6,7 @@ import {
   getIdProducts,
   checkAndDeleteArtwork,
   getIdProductsAdmin,
+  auditSeoData,
 } from "./function_list.js";
 // import { proxies } from './data.js'
 // import fs from 'fs'
@@ -56,10 +57,10 @@ const updateRow = async () => {
   // tr.forEach(element => console.log(element.getAttribute("id")))
   // await getIdProducts(page);
   // await login(page);
-  await getIdProductsAdmin(
-    page,
-    "https://www.apprinting.com/admin/product_listing.php?qfs=eyJzdGFydCI6MCwibGVuZ3RoIjoxMDAsIm9yZGVyIjpbWzQsImFzYyJdXSwic2VhcmNoIjp7InNlYXJjaCI6IiIsInNtYXJ0Ijp0cnVlLCJyZWdleCI6ZmFsc2UsImNhc2VJbnNlbnNpdGl2ZSI6dHJ1ZX0sImNvbHVtbnMiOlt7InZpc2libGUiOnRydWUsInNlYXJjaCI6eyJzZWFyY2giOiJrZXl3b3JkPSZjaWQ9ODgmcHJpY2VfZGVmaW5pbmdfbWV0aG9kPS0xJnByZWRlZmluZWRfcHJvZHVjdF90eXBlPTAiLCJzbWFydCI6dHJ1ZSwicmVnZXgiOmZhbHNlLCJjYXNlSW5zZW5zaXRpdmUiOnRydWV9fV19"
-  );
+  // await getIdProductsAdmin(
+  //   page,
+  //   "https://www.apprinting.com/admin/product_listing.php?qfs=eyJzdGFydCI6MCwibGVuZ3RoIjoxMDAsIm9yZGVyIjpbWzQsImFzYyJdXSwic2VhcmNoIjp7InNlYXJjaCI6IiIsInNtYXJ0Ijp0cnVlLCJyZWdleCI6ZmFsc2UsImNhc2VJbnNlbnNpdGl2ZSI6dHJ1ZX0sImNvbHVtbnMiOlt7InZpc2libGUiOnRydWUsInNlYXJjaCI6eyJzZWFyY2giOiJrZXl3b3JkPSZjaWQ9ODgmcHJpY2VfZGVmaW5pbmdfbWV0aG9kPS0xJnByZWRlZmluZWRfcHJvZHVjdF90eXBlPTAiLCJzbWFydCI6dHJ1ZSwicmVnZXgiOmZhbHNlLCJjYXNlSW5zZW5zaXRpdmUiOnRydWV9fV19"
+  // );
 
   // CHECK AND DELETE ARTWORK
   // try {
@@ -90,9 +91,11 @@ const updateRow = async () => {
   // await getAssociatedCategoryProduct(page);
   // await changeAssociatedCategoryProduct(page);
 
+  // SEO
+  // await login(page);
+  await auditSeoData(page);
   // await getMarkUpSchemaProducts(page);
   // await changedSeoData(page);
-  // await auditSeoData(page);
   // await getTitleAndChangedTitleImagesGallery(page);
   // await getTitleTitleImagesGallery(page);
   // await setAdditionalMetaTag(page);

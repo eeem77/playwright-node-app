@@ -250,16 +250,22 @@ export const auditSeoData = async (page) => {
     const pageTitle = await page.$("#seo_page_title_1");
     const metaDescription = await page.$("#seo_page_description_1");
     const markUp = await page.$("#schema_markup_1");
-    // const metaAdditional = await page.$("#seo_page_metatags1");
+    const metaAdditional = await page.$("#seo_page_metatags1");
     const date = [
+      id,
       await pageTitle.inputValue(),
       await metaDescription.inputValue(),
       await markUp.inputValue(),
-      // await metaAdditional.inputValue(),
+      await metaAdditional.inputValue(),
     ];
-    for await (const input of date) {
-      if (input === "") fs.appendFileSync("list.txt", id, +"\n");
-    }
+    // for await (const input of date) {
+    //   if (input === "") fs.appendFileSync("list.txt", id, +"\n");
+    // }
+    // const dateString = date.toString();
+    fs.appendFileSync(
+      "list.txt",
+      `${date[0].toString()};${date[1].toString()};${date[2].toString()};${date[3].toString()};${date[4].toString()} \n`
+    );
     console.log(`Working ---> ${id}`);
   }
 };
