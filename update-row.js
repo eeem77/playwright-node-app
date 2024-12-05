@@ -24,11 +24,12 @@ const updateRow = async () => {
   //   }
   // })
 
-  const userDataDir = "/home/eeem77/.config/google-chrome/Default";
+  const userDataDir =
+    "C:\\Users\\eeem77\\AppData\\Local\\Google\\Chrome\\User Data\\Default";
   const browser = await chromium.launchPersistentContext(userDataDir, {
     headless: false, // Cambia a true si no quieres que se muestre la ventana
-    executablePath: "/usr/bin/google-chrome",
-    viewport: { width: 1440, height: 870 },
+    // executablePath: "C:\\Program Files\\Google\\Chrome\\Application",
+    // viewport: { width: 1440, height: 870 },
   });
 
   // const browser = await chromium.launch();
@@ -92,8 +93,12 @@ const updateRow = async () => {
   // await changeAssociatedCategoryProduct(page);
 
   // SEO
-  // await login(page);
-  await auditSeoData(page);
+  await login(page);
+  await getIdProductsAdmin(
+    page,
+    "https://www.apprinting.com/admin/product_listing.php?qfs=eyJzdGFydCI6MCwibGVuZ3RoIjoxMDAsIm9yZGVyIjpbWzQsImFzYyJdXSwic2VhcmNoIjp7InNlYXJjaCI6IiIsInNtYXJ0Ijp0cnVlLCJyZWdleCI6ZmFsc2UsImNhc2VJbnNlbnNpdGl2ZSI6dHJ1ZX0sImNvbHVtbnMiOlt7InZpc2libGUiOnRydWUsInNlYXJjaCI6eyJzZWFyY2giOiJrZXl3b3JkPSZjaWQ9Mzg2JnByaWNlX2RlZmluaW5nX21ldGhvZD0tMSZwcmVkZWZpbmVkX3Byb2R1Y3RfdHlwZT0wIiwic21hcnQiOnRydWUsInJlZ2V4IjpmYWxzZSwiY2FzZUluc2Vuc2l0aXZlIjp0cnVlfX1dfQ%3D%3D"
+  );
+  // await auditSeoData(page);
   // await getMarkUpSchemaProducts(page);
   // await changedSeoData(page);
   // await getTitleAndChangedTitleImagesGallery(page);

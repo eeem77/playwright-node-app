@@ -247,10 +247,22 @@ export const auditSeoData = async (page) => {
       `https://www.apprinting.com/admin/product_metatags.php?product_id=${id}`,
       { timeout: 300000 }
     );
+
+    await page.waitForSelector(".page-header");
+    const productPageHeader = await page.$(".page-header");
+    const productLabelTitle = await productPageHeader.$("small");
+    const productTitle = await productLabelTitle.innerText();
+    const productTitleSplit = productTitle.split(" ");
+
     const pageTitle = await page.$("#seo_page_title_1");
     const metaDescription = await page.$("#seo_page_description_1");
     const markUp = await page.$("#schema_markup_1");
     const metaAdditional = await page.$("#seo_page_metatags1");
+
+    let equalsTrue = 0;
+    let equalsFalse = 0;
+    let dateNull = false;
+
     const date = [
       id,
       await pageTitle.inputValue(),
@@ -258,14 +270,24 @@ export const auditSeoData = async (page) => {
       await markUp.inputValue(),
       await metaAdditional.inputValue(),
     ];
-    // for await (const input of date) {
-    //   if (input === "") fs.appendFileSync("list.txt", id, +"\n");
-    // }
-    // const dateString = date.toString();
-    fs.appendFileSync(
-      "list.txt",
-      `${date[0].toString()};${date[1].toString()};${date[2].toString()};${date[3].toString()};${date[4].toString()} \n`
-    );
+
+    for await (const element of productTitleSplit) {
+      date[1].includes(element) === true ? equalsTrue++ : equalsFalse++;
+    }
+
+    // console.log(`equalsTrue = ${equalsTrue}`);
+    // console.log(`equalsFalse = ${equalsFalse}`);
+    
+    for await (const input of date) {
+      if (input === "") dateNull = true;
+    }
+    if (dateNull === true || equalsTrue < 2) {
+      fs.appendFileSync(
+        "list.txt",
+        `${date[0]};${productTitle};${date[1]};${date[2]};${date[3]};${date[4]} \n`
+      );
+    }
+    
     console.log(`Working ---> ${id}`);
   }
 };
