@@ -277,17 +277,27 @@ export const auditSeoData = async (page) => {
 
     // console.log(`equalsTrue = ${equalsTrue}`);
     // console.log(`equalsFalse = ${equalsFalse}`);
-    
+
     for await (const input of date) {
       if (input === "") dateNull = true;
     }
-    if (dateNull === true || equalsTrue < 2) {
+
+    const markUpImageAudit = date[3].includes(`"image":`);
+    const markUpImageEmptyAudit = date[3].includes(`"image": []`);
+
+    if (
+      // dateNull === true ||
+      // equalsTrue < 2 ||
+      date[3] === "" ||
+      markUpImageAudit === false ||
+      markUpImageEmptyAudit === true
+    ) {
       fs.appendFileSync(
         "list.txt",
         `${date[0]};${productTitle};${date[1]};${date[2]};${date[3]};${date[4]} \n`
       );
     }
-    
+
     console.log(`Working ---> ${id}`);
   }
 };
