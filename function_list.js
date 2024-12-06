@@ -391,12 +391,25 @@ export const getMarkUpSchemaProducts = async (page) => {
     );
 
     const imageSection = await page.$("#ops-table_wrapper");
-    await imageSection.waitForSelector("img");
     const imagesHtml = await imageSection.$$("img");
-
-    for await (const image of imagesHtml) {
-      const imageInnerHtml = await image.getAttribute("src");
-      images.push(`"${imageInnerHtml}"`);
+    if (imagesHtml.length !== 0) {
+      await imageSection.waitForSelector("img");
+      for await (const image of imagesHtml) {
+        const imageInnerHtml = await image.getAttribute("src");
+        images.push(`"${imageInnerHtml}"`);
+      }
+    } else {
+      await page.goto(
+        `https://www.apprinting.com/admin/product_description.php?product_id=${id}`,
+        { timeout: 300000 }
+      );
+      const imageSectionEdit = await page.$(".res-img.res-img-old");
+      if (imageSectionEdit !== null) {
+        await page.waitForSelector(".res-img.res-img-old");
+        const imageHtmlEdit = await imageSectionEdit.$("img");
+        const imageEdit = await imageHtmlEdit.getAttribute("src");
+        images.push(`"${imageEdit}"`);
+      }  
     }
 
     const report = `\`{"@context":"https://schema.org/","@type":"Product","name":"${productNameValue}","image": [${images}],"description":"${productNameValue}. A high-quality product offered by AP PRINTING. Our design team ensures that every detail is perfect to meet our customers' needs.","sku":"${productSkuValue}","brand":{"@type":"Brand","name":"AP PRINTING"},"review":{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue":"4","bestRating":"5"},"author":{"@type":"Person","name":"AP PRINTING DESIGN TEAM"}},"aggregateRating":{"@type":"AggregateRating","ratingValue":"${(
