@@ -257,7 +257,7 @@ export const auditSeoData = async (page) => {
     const pageTitle = await page.$("#seo_page_title_1");
     const metaDescription = await page.$("#seo_page_description_1");
     const markUp = await page.$("#schema_markup_1");
-    const metaAdditional = await page.$("#seo_page_metatags1");
+    // const metaAdditional = await page.$("#seo_page_metatags1");
 
     let equalsTrue = 0;
     let equalsFalse = 0;
@@ -268,7 +268,7 @@ export const auditSeoData = async (page) => {
       await pageTitle.inputValue(),
       await metaDescription.inputValue(),
       await markUp.inputValue(),
-      await metaAdditional.inputValue(),
+      // await metaAdditional.inputValue(),
     ];
 
     for await (const element of productTitleSplit) {
@@ -283,18 +283,18 @@ export const auditSeoData = async (page) => {
     }
 
     const markUpImageAudit = date[3].includes(`"image":`);
-    const markUpImageEmptyAudit = date[3].includes(`"image": []`);
+    // const markUpImageEmptyAudit = date[3].includes(`"image": []`);
 
     if (
-      // dateNull === true ||
-      // equalsTrue < 2 ||
+      dateNull === true ||
+      equalsTrue < 2 ||
       date[3] === "" ||
-      markUpImageAudit === false ||
-      markUpImageEmptyAudit === true
+      markUpImageAudit === false 
+      // markUpImageEmptyAudit === true
     ) {
       fs.appendFileSync(
         "list.txt",
-        `${date[0]};${productTitle};${date[1]};${date[2]};${date[3]};${date[4]} \n`
+        `${date[0]};${productTitle};${date[1]};${date[2]};${date[3]} \n`
       );
     }
 
