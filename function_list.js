@@ -289,7 +289,7 @@ export const auditSeoData = async (page) => {
       dateNull === true ||
       equalsTrue < 2 ||
       date[3] === "" ||
-      markUpImageAudit === false 
+      markUpImageAudit === false
       // markUpImageEmptyAudit === true
     ) {
       fs.appendFileSync(
@@ -299,6 +299,34 @@ export const auditSeoData = async (page) => {
     }
 
     console.log(`Working ---> ${id}`);
+  }
+};
+
+export const auditUploadArtworkLaterOption = async (page) => {
+  for await (const id of idProducts) {
+    await page.goto(
+      `https://www.apprinting.com/admin/product_settings.php?product_id=${id}`,
+      { timeout: 300000 }
+    );
+    await page.waitForSelector("#tab_uploadsettings");
+    const uploadSettingsBtn = await page.$("#tab_uploadsettings");
+    await uploadSettingsBtn.click();
+    await page.waitForSelector("#TabContent_uploadsettings");
+    const panel = await page.$("#TabContent_uploadsettings");
+    const checkboxes = await panel.$$('[type="checkbox"]');
+    const uploadArtworkLaterOption = await checkboxes[0].isChecked();
+    if (uploadArtworkLaterOption === false) {
+      fs.appendFileSync(
+        "list.txt",
+        `${id} ---> ${uploadArtworkLaterOption} \n`
+      );
+    } else {
+      fs.appendFileSync(
+        "list-power-off-backup.txt",
+        `${id} ---> ${uploadArtworkLaterOption} \n`
+      );
+    }
+    console.log(`${id} ---> ${uploadArtworkLaterOption}`);
   }
 };
 
@@ -409,7 +437,7 @@ export const getMarkUpSchemaProducts = async (page) => {
         const imageHtmlEdit = await imageSectionEdit.$("img");
         const imageEdit = await imageHtmlEdit.getAttribute("src");
         images.push(`"${imageEdit}"`);
-      }  
+      }
     }
 
     const report = `\`{"@context":"https://schema.org/","@type":"Product","name":"${productNameValue}","image": [${images}],"description":"${productNameValue}. A high-quality product offered by AP PRINTING. Our design team ensures that every detail is perfect to meet our customers' needs.","sku":"${productSkuValue}","brand":{"@type":"Brand","name":"AP PRINTING"},"review":{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue":"4","bestRating":"5"},"author":{"@type":"Person","name":"AP PRINTING DESIGN TEAM"}},"aggregateRating":{"@type":"AggregateRating","ratingValue":"${(
