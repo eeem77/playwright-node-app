@@ -330,6 +330,65 @@ export const auditUploadArtworkLaterOption = async (page) => {
   }
 };
 
+export const setUploadArtworkLaterOption = async (page) => {
+  for await (const id of idProducts) {
+    await page.goto(
+      `https://www.apprinting.com/admin/product_settings.php?product_id=${id}`,
+      { timeout: 300000 }
+    );
+    await page.waitForSelector("#tab_uploadsettings");
+    const uploadSettingsBtn = await page.$("#tab_uploadsettings");
+    await uploadSettingsBtn.click();
+    await page.waitForSelector("#TabContent_uploadsettings");
+    const panel = await page.$("#TabContent_uploadsettings");
+    const checkboxes = await panel.$$('[type="checkbox"]');
+    await checkboxes[0].click();
+    const saveBtn = await page.$("#btn-action-save");
+    await saveBtn.click();
+    await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
+      state: "visible",
+    });
+    fs.appendFileSync("list.txt", `${id}, \n`);
+    console.log(`${id}`);
+  }
+};
+
+export const auditProductPageDesign = async (page) => {
+  for await (const id of idProducts) {
+    await page.goto(
+      `https://www.apprinting.com/admin/product_view_details.php?product_id=${id}`,
+      { timeout: 300000 }
+    );
+    await page.waitForSelector(".profile-user-info.profile-user-info-striped", {
+      state: "visible",
+    });
+    const container = await page.$$(
+      ".profile-user-info.profile-user-info-striped"
+    );
+    const spanEditable = await container[0].$$(".editable");
+    const url = await spanEditable[1].innerText();
+    const urlFinal = `https://www.apprinting.com/${url}/`;
+    await page.goto(urlFinal, { timeout: 300000 });
+    await page.waitForSelector("#product-info", {
+      state: "visible",
+    });
+    const productInfo = await page.$("#product-info");
+    const productDetailSection = await productInfo.$("#scrollspyHeading1");
+    if (productDetailSection) {
+      fs.appendFileSync(
+        "list-product-page-design-true.txt",
+        `${id} ---> ${true} \n`
+      );
+    } else {
+      fs.appendFileSync(
+        "list-product-page-design-false.txt",
+        `${id} ---> ${false} \n`
+      );
+    }
+    console.log(`${id} ---> Working`);
+  }
+};
+
 export const changedSeoData = async (page) => {
   let i = 0;
   for await (const id of idProducts) {

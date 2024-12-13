@@ -10,6 +10,8 @@ import {
   getMarkUpSchemaProducts,
   setMarkUpData,
   auditUploadArtworkLaterOption,
+  setUploadArtworkLaterOption,
+  auditProductPageDesign,
 } from "./function_list.js";
 // import { proxies } from './data.js'
 // import fs from 'fs'
@@ -110,7 +112,9 @@ const updateRow = async () => {
   // await checkedAndSetOnUploadArtworkLaterOption(page);
   // await checkedUploadArtworkLaterOption(page);
   // await setMarkUpData(page);
-  await auditUploadArtworkLaterOption(page);
+  // await auditUploadArtworkLaterOption(page);
+  // await setUploadArtworkLaterOption(page);
+  await auditProductPageDesign(page);
 
   // await getUrlProducts(page);
   // await auditActionBtv(page);
