@@ -389,6 +389,69 @@ export const auditProductPageDesign = async (page) => {
   }
 };
 
+export const backupProductPageDesign = async (page) => {
+  for await (const id of idProducts) {
+    await page.goto(
+      `https://www.apprinting.com/admin/product_action.php?product_id=${id}`,
+      { timeout: 300000 }
+    );
+    await page.waitForSelector("#product_details", {
+      state: "visible",
+    });
+    const productDetailsContainer = await page.$("#product_details");
+    const productNameElement = await productDetailsContainer.$(
+      "#products_title_1"
+    );
+    const productName = await productNameElement.inputValue();
+    const urlProductElement = await productDetailsContainer.$("#product_url_1");
+    const urlProduct = await urlProductElement.inputValue();
+    const defaultCategoryProductElement = await productDetailsContainer.$(
+      ".filter-option-inner-inner"
+    );
+    const defaultCategoryProduct =
+      await defaultCategoryProductElement.innerText();
+    const associatedCategorySelectedElement = await productDetailsContainer.$(
+      ".multiselect-selected-text"
+    );
+    const associatedCategorySelected =
+      await associatedCategorySelectedElement.innerText();
+    await page.goto(
+      `https://www.apprinting.com/admin/product_description.php?product_id=${id}`,
+      { timeout: 300000 }
+    );
+    await page.waitForSelector(".form-horizontal", {
+      state: "visible",
+    });
+    const formHorizontalContainer = await page.$(".form-horizontal");
+    const shortDescriptionElementTextArea = await formHorizontalContainer.$(
+      "#product_description_1"
+    );
+    const shortDescriptionTextArea =
+      await shortDescriptionElementTextArea.innerText();
+    const longDescriptionElementTextArea = await formHorizontalContainer.$(
+      "#long_description_1"
+    );
+    const longDescriptionTextArea = await longDescriptionElementTextArea.innerText();
+    const longDescriptionTwoElementTextArea = await formHorizontalContainer.$(
+      "#long_description_two_1"
+    );
+    const longDescriptionTwoTextArea = await longDescriptionTwoElementTextArea.innerText();
+    const uploadCenterDescriptionElementTextArea =
+      await formHorizontalContainer.$("#upload_description_1");
+    const uploadCenterDescriptionTextArea = await uploadCenterDescriptionElementTextArea.innerText();
+    const browseDesignDescriptionElementTextArea =
+      await formHorizontalContainer.$("#browse_description_1");
+    const browseDesignDescriptionTextArea = await browseDesignDescriptionElementTextArea.innerText();
+    fs.appendFileSync(
+      "list-backup-product-false-design.txt",
+      `${id} *** ${productName} *** ${urlProduct} *** ${defaultCategoryProduct} *** ${associatedCategorySelected} *** ${shortDescriptionTextArea} *** ${longDescriptionTextArea} *** ${longDescriptionTwoTextArea} *** ${uploadCenterDescriptionTextArea} *** ${browseDesignDescriptionTextArea} \n`
+    );
+    console.log(
+      `${id}`
+    );
+  }
+};
+
 export const changedSeoData = async (page) => {
   let i = 0;
   for await (const id of idProducts) {

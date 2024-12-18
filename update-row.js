@@ -12,6 +12,7 @@ import {
   auditUploadArtworkLaterOption,
   setUploadArtworkLaterOption,
   auditProductPageDesign,
+  backupProductPageDesign,
 } from "./function_list.js";
 // import { proxies } from './data.js'
 // import fs from 'fs'
@@ -114,7 +115,8 @@ const updateRow = async () => {
   // await setMarkUpData(page);
   // await auditUploadArtworkLaterOption(page);
   // await setUploadArtworkLaterOption(page);
-  await auditProductPageDesign(page);
+  // await auditProductPageDesign(page);
+  await backupProductPageDesign(page);
 
   // await getUrlProducts(page);
   // await auditActionBtv(page);
