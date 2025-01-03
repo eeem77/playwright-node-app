@@ -6,11 +6,11 @@ dotenv.config();
 
 const url = "https://www.apprinting.com/admin/";
 const urlProductUpdatePrice =
-  "https://www.apprinting.com/admin/product_additionalinfo_price.php?product_id=5910&prod_add_opt_id=122368&sel_product_size=11940";
+  "https://www.apprinting.com/admin/product_additionalinfo_price.php?product_id=5911&prod_add_opt_id=122375&sel_product_size=0";
 
 const qtys = [
-  25, 50, 75, 100, 150, 200, 250, 500, 1000, 1500, 2000, 2500, 3000, 3500, 4000,
-  4500, 5000, 6000, 7000, 8000, 9000, 10000,
+  50, 75, 100, 125, 150, 175, 200, 250, 300, 350, 400, 450, 500, 600, 700, 800,
+  900, 1000, 1250, 1500, 1750, 2000,
 ];
 
 const login = async (page) => {
@@ -24,12 +24,12 @@ const login = async (page) => {
   await page.waitForTimeout(5000);
   console.log("login: OK");
 };
-// txtprice[25_2242511_]   txtprice[25_2242531_]
+// txtprice[50_2242542_]
 const inputFillToPrice = async (page) => {
   await page.goto(urlProductUpdatePrice, { timeout: 300000 });
   let price = 0;
   // let postNumber = 9607838  ${postNumber}
-  for (let i = 33; i <= 33; i++) {
+  for (let i = 49; i <= 50; i++) {
     // if (
     //   i === 11 ||
     //   i === 12 ||
