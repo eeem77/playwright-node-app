@@ -431,24 +431,26 @@ export const backupProductPageDesign = async (page) => {
     const longDescriptionElementTextArea = await formHorizontalContainer.$(
       "#long_description_1"
     );
-    const longDescriptionTextArea = await longDescriptionElementTextArea.innerText();
+    const longDescriptionTextArea =
+      await longDescriptionElementTextArea.innerText();
     const longDescriptionTwoElementTextArea = await formHorizontalContainer.$(
       "#long_description_two_1"
     );
-    const longDescriptionTwoTextArea = await longDescriptionTwoElementTextArea.innerText();
+    const longDescriptionTwoTextArea =
+      await longDescriptionTwoElementTextArea.innerText();
     const uploadCenterDescriptionElementTextArea =
       await formHorizontalContainer.$("#upload_description_1");
-    const uploadCenterDescriptionTextArea = await uploadCenterDescriptionElementTextArea.innerText();
+    const uploadCenterDescriptionTextArea =
+      await uploadCenterDescriptionElementTextArea.innerText();
     const browseDesignDescriptionElementTextArea =
       await formHorizontalContainer.$("#browse_description_1");
-    const browseDesignDescriptionTextArea = await browseDesignDescriptionElementTextArea.innerText();
+    const browseDesignDescriptionTextArea =
+      await browseDesignDescriptionElementTextArea.innerText();
     fs.appendFileSync(
       "list-backup-product-false-design.txt",
       `${id} *** ${productName} *** ${urlProduct} *** ${defaultCategoryProduct} *** ${associatedCategorySelected} *** ${shortDescriptionTextArea} *** ${longDescriptionTextArea} *** ${longDescriptionTwoTextArea} *** ${uploadCenterDescriptionTextArea} *** ${browseDesignDescriptionTextArea} \n`
     );
-    console.log(
-      `${id}`
-    );
+    console.log(`${id}`);
   }
 };
 
@@ -1140,6 +1142,100 @@ const createArtworkOption = async (page, id) => {
   // await btnActionSaveTwo.click()
   // await page.waitForSelector('#frmadditionalprice')
   // return true
+};
+
+export const getXmlProducts = async (page) => {
+  for await (const id of idProducts) {
+    await page.goto(
+      `https://www.apprinting.com/admin/product_action.php?product_id=${id}`,
+      { timeout: 300000 }
+    );
+
+    await page.waitForSelector("#frmproduct");
+
+    const visible = await page.$("#visible");
+    const visibleStatus = await visible.isChecked();
+
+    if (visibleStatus) {
+      const productTitle = await page.$("#products_title_1");
+      const productTitleValue = await productTitle.inputValue();
+
+      const urlProduct = await page.$("#product_url_1");
+      const urlProductValue = await urlProduct.inputValue();
+
+      const skuProduct = await page.$("#products_sku");
+      const skuProductValue = await skuProduct.inputValue();
+
+      await page.goto(
+        `https://www.apprinting.com/admin/product_description.php?product_id=${id}`,
+        { timeout: 300000 }
+      );
+
+      await page.waitForSelector("#product_description_content");
+
+      const formHorizontal = await page.$("#frmproductdesc");
+      const imagesForm = await formHorizontal.$$("img");
+
+      let images = [];
+
+      for await (const img of imagesForm) {
+        const imgSrc = await img.getAttribute("src");
+        images.push(imgSrc);
+      }
+
+      const image = images.find((img) => img.search(".png") !== -1);
+
+      const descriptionProduct = await page.$("#product_description_1");
+      const descriptionProductValue = await descriptionProduct.inputValue();
+      const descriptionProductValueFinal = await removeHtmlTags(
+        descriptionProductValue,
+        "&nbsp;"
+      );
+      await page.goto(
+        `https://www.apprinting.com/admin/product_price.php?product_id=${id}`,
+        { timeout: 300000 }
+      );
+
+      await page.waitForSelector("#frmprice");
+
+      const tableResponsive = await page.$$(".table-responsive");
+      const pricesProduct = await tableResponsive[0].$$("input");
+
+      let price = await pricesProduct[7].inputValue();
+
+      const item = `
+        <item>
+          <g:id>${id}</g:id>
+          <g:title>${productTitleValue}</g:title>
+          <g:description>${descriptionProductValueFinal}</g:description>
+          <g:link>https://www.apprinting.com/${urlProductValue}/</g:link>
+          <g:image_link>${image}</g:image_link>
+          <g:availability>in stock</g:availability>
+          <g:price>${price} USD</g:price>
+          <g:condition>new</g:condition>
+          <g:brand>AP PRINTING</g:brand>
+          <g:sku>${skuProductValue}</g:sku>
+          <g:adult>no</g:adult>
+          <g:gender>unisex</g:gender>
+          <g:identifier_exists>no</g:identifier_exists>
+        </item>
+      `;
+
+      fs.appendFileSync("list.xml", `${item}\n`);
+    }
+
+    console.log(`${id} ---> ${visibleStatus} ---> Working`);
+  }
+};
+
+const removeHtmlTags = (str) => {
+  // Delete HTML
+  let strClean = str.replace(/<\/?[^>]+(>|$)/g, "");
+  // Delete line
+  strClean = strClean.replace(/\n/g, "");
+  // Delete space
+  strClean = strClean.replaceAll("&nbsp;", "");
+  return strClean;
 };
 
 export const updateAndCreateArtwork = async (page, ipProxy) => {

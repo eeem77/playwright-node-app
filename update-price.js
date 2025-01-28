@@ -6,7 +6,7 @@ dotenv.config();
 
 const url = "https://www.apprinting.com/admin/";
 const urlProductUpdatePrice =
-  "https://www.apprinting.com/admin/product_additionalinfo_price.php?product_id=5911&prod_add_opt_id=122375&sel_product_size=0";
+  "https://www.apprinting.com/admin/product_additionalinfo_price.php?product_id=5915&prod_add_opt_id=122407&sel_product_size=0";
 
 const qtys = [
   50, 75, 100, 125, 150, 175, 200, 250, 300, 350, 400, 450, 500, 600, 700, 800,
@@ -29,7 +29,7 @@ const inputFillToPrice = async (page) => {
   await page.goto(urlProductUpdatePrice, { timeout: 300000 });
   let price = 0;
   // let postNumber = 9607838  ${postNumber}
-  for (let i = 49; i <= 50; i++) {
+  for (let i = 36; i <= 37; i++) {
     // if (
     //   i === 11 ||
     //   i === 12 ||
@@ -40,7 +40,7 @@ const inputFillToPrice = async (page) => {
     //   i === 31
     // ) {
     for await (const qty of qtys) {
-      const id = `txtprice[${qty}_22425${i}_]`;
+      const id = `txtprice[${qty}_22426${i}_]`;
       const inputPrice = await page.$(`[id="${id}" ]`);
       await inputPrice.fill(listPrice[price].toString());
       console.log(listPrice[price].toString());
