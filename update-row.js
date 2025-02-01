@@ -14,6 +14,7 @@ import {
   auditProductPageDesign,
   backupProductPageDesign,
   getXmlProducts,
+  getTitleTitleImagesGallery,
 } from "./function_list.js";
 // import { proxies } from './data.js'
 // import fs from 'fs'
