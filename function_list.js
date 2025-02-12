@@ -188,7 +188,7 @@ export const getIdProductsAdmin = async (page, url) => {
 
 export const getIdProducts = async (page) => {
   await page.goto(
-    "https://www.apprinting.com/en/foil-wedding-invitations/products/",
+    "https://www.apprinting.com/en/7x7-gate-fold-wedding-invitations/products/",
     {
       timeout: 300000,
     }
@@ -1191,12 +1191,12 @@ export const getXmlProducts = async (page) => {
     await page.waitForSelector(".page-content");
     const imgSection = await page.$$(".gridcell");
 
-    let images = [];
+    let images = '';
 
     for await (const img of imgSection) {
       const imgHtml = await img.$("img");
       const imgSrc = await imgHtml.getAttribute("src");
-      images.push(`<g:additional_image_link>${imgSrc}</g:additional_image_link>`);
+      images += `<g:additional_image_link>${imgSrc}</g:additional_image_link>`;
     }
 
     // let images = [];
@@ -1246,7 +1246,7 @@ export const getXmlProducts = async (page) => {
     //   console.log(value);
     // }
 
-    const item = `<g:id>${id}</g:id>,<g:title>${productTitleValue}</g:title>,<g:link>https://www.apprinting.com/${urlProductValue}/</g:link>,<g:image_link>${image}</g:image_link>,${images},<g:availability>in stock</g:availability>,<g:price>${price} USD</g:price>,<g:condition>new</g:condition>,<g:brand>AP PRINTING</g:brand>,<g:sku>${skuProductValue}</g:sku>,<g:adult>no</g:adult>,<g:identifier_exists>no</g:identifier_exists>`;
+    const item = `<g:id>${id}</g:id>,https://www.apprinting.com/${urlProductValue}/,${productTitleValue},<g:link>https://www.apprinting.com/${urlProductValue}/</g:link>,<g:image_link>${image}</g:image_link>,${images},<g:availability>in stock</g:availability>,<g:price>${price} USD</g:price>,<g:condition>new</g:condition>,<g:brand>AP PRINTING</g:brand>,<g:sku>${skuProductValue}</g:sku>,<g:adult>no</g:adult>,<g:identifier_exists>no</g:identifier_exists>`;
 
     // const item = `
     //   <item>
@@ -1266,7 +1266,7 @@ export const getXmlProducts = async (page) => {
     //   </item>
     // `;
     // const item = `https://www.apprinting.com/${urlProductValue}/`;
-    fs.appendFileSync("list-1-31-2025.xml", `${item}\n`);
+    fs.appendFileSync("list-test-vietnamese.xml", `${item}\n`);
     //}
     // console.log(`${id} ---> Working`);
 

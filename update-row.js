@@ -72,6 +72,7 @@ const updateRow = async () => {
   // );
 
   // GET XML PRODUCTS
+  // await getIdProducts(page);
   await login(page);
   await getXmlProducts(page);
 
