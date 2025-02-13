@@ -15,6 +15,7 @@ import {
   backupProductPageDesign,
   getXmlProducts,
   getTitleTitleImagesGallery,
+  getIdUrlClient,
 } from "./function_list.js";
 // import { proxies } from './data.js'
 // import fs from 'fs'
@@ -73,8 +74,11 @@ const updateRow = async () => {
 
   // GET XML PRODUCTS
   // await getIdProducts(page);
-  await login(page);
-  await getXmlProducts(page);
+  // await login(page);
+  // await getXmlProducts(page);
+
+  // GET ID URL'S CLIENT
+  await getIdUrlClient(page);
 
   // CHECK AND DELETE ARTWORK
   // try {

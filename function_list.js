@@ -6,6 +6,7 @@ import seoData from "./seo-data.js";
 import {
   idProducts,
   urlsProducts,
+  urlProducts,
   titlesProducts,
   url,
   urlProductUpdatePrice,
@@ -1246,7 +1247,7 @@ export const getXmlProducts = async (page) => {
     //   console.log(value);
     // }
 
-    const item = `<g:id>${id}</g:id>,https://www.apprinting.com/${urlProductValue}/,${productTitleValue},<g:link>https://www.apprinting.com/${urlProductValue}/</g:link>,<g:image_link>${image}</g:image_link>,${images},<g:availability>in stock</g:availability>,<g:price>${price} USD</g:price>,<g:condition>new</g:condition>,<g:brand>AP PRINTING</g:brand>,<g:sku>${skuProductValue}</g:sku>,<g:adult>no</g:adult>,<g:identifier_exists>no</g:identifier_exists>`;
+    const item = `https://www.apprinting.com/${urlProductValue}/,${productTitleValue},<g:id>${id}</g:id>,<g:link>https://www.apprinting.com/${urlProductValue}/</g:link>,<g:image_link>${image}</g:image_link>,${images},<g:availability>in stock</g:availability>,<g:price>${price} USD</g:price>,<g:condition>new</g:condition>,<g:brand>AP PRINTING</g:brand>,<g:sku>${skuProductValue}</g:sku>,<g:adult>no</g:adult>,<g:identifier_exists>no</g:identifier_exists>`;
 
     // const item = `
     //   <item>
@@ -1266,13 +1267,27 @@ export const getXmlProducts = async (page) => {
     //   </item>
     // `;
     // const item = `https://www.apprinting.com/${urlProductValue}/`;
-    fs.appendFileSync("list-test-vietnamese.xml", `${item}\n`);
+    fs.appendFileSync("list-test-simple-flat-2-13-2025.xml", `${item}\n`);
     //}
     // console.log(`${id} ---> Working`);
 
     console.log(`${id} ---> Working`);
   }
 };
+
+export const getIdUrlClient = async (page) => {
+  for await (const url of urlProducts) {
+    await page.goto(
+      url,
+      { timeout: 300000 }
+    );
+    const element = await page.$('[class^="col div_product_price_"]');
+    const attributeClass = await element.getAttribute('class');
+    fs.appendFileSync("list.txt", `${attributeClass}\n`);
+    console.log(attributeClass);
+    
+  }
+}
 
 const removeHtmlTags = (str) => {
   // Delete HTML

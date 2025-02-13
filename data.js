@@ -428,12 +428,30 @@ export const proxies = [
 // ];
 
 export const idProducts = [
-  1833,
-  3172,
-  2722,
-  2723,
-  2725,
-  2948
+  1657, 1667, 1673, 1674, 1676, 1680, 1682, 1690, 1692, 1694, 1696, 1735, 1705,
+  1709, 1712, 1714, 1717, 1720, 1722, 1723, 1730, 1737, 1829, 3056, 1833, 1852,
+  1853, 1855, 1857, 1861, 1884, 1886, 1889, 1892, 1897, 1899, 1902,
+];
+
+export const urlProducts = [
+  "https://www.apprinting.com/en/green-leaves-with-gold-thank-you-cards-wedding/",
+  "https://www.apprinting.com/en/vertical-font-thank-you-cards-wedding/",
+  "https://www.apprinting.com/en/bubble-glyph-design-thank-you-card-wedding/",
+  "https://www.apprinting.com/en/blank-eucalyptus-leaves-thank-you-cards-wedding/",
+  "https://www.apprinting.com/en/golden-glyphs-frame-thank-you-card-wedding/",
+  "https://www.apprinting.com/en/elegant-letter-photo-thank-you-cards-wedding/",
+  "https://www.apprinting.com/en/frame-heart-flowers-thank-you-card-wedding/",
+  "https://www.apprinting.com/en/black-and-white-photo-thank-you-cards-wedding/",
+  "https://www.apprinting.com/en/drawing-couple-flowers-thank-you-card-wedding/",
+  "https://www.apprinting.com/en/black-photo-boyfriends-thank-you-card-wedding-5072/",
+  "https://www.apprinting.com/en/elegant-with-photo-thank-you-cards-wedding/",
+  "https://www.apprinting.com/en/elegant-bride-and-groom-font-thank-you-cards-wedding-5073/",
+  "https://www.apprinting.com/en/wedding-dress-and-suit-thank-you-cards-wedding/",
+  "https://www.apprinting.com/en/golden-couple-hoop-thank-you-cards-wedding/",
+  "https://www.apprinting.com/en/silhouette-of-a-bride-and-groom-thank-you-cards-wedding/",
+  "https://www.apprinting.com/en/elegant-groom-photo-thank-you-cards-wedding-5075/",
+  "https://www.apprinting.com/en/beautiful-nature-photo-thank-you-cards-wedding/",
+  "https://www.apprinting.com/en/elegant-golden-watercolor-thank-you-cards-wedding-5076/",
 ];
 
 export const titlesProducts = [
