@@ -16,6 +16,7 @@ import {
   getXmlProducts,
   getTitleTitleImagesGallery,
   getIdUrlClient,
+  changeProductConfig,
 } from "./function_list.js";
 // import { proxies } from './data.js'
 // import fs from 'fs'
@@ -72,10 +73,14 @@ const updateRow = async () => {
   //   "https://www.apprinting.com/admin/product_listing.php?qfs=eyJzdGFydCI6MCwibGVuZ3RoIjoxMDAsIm9yZGVyIjpbWzQsImFzYyJdXSwic2VhcmNoIjp7InNlYXJjaCI6IiIsInNtYXJ0Ijp0cnVlLCJyZWdleCI6ZmFsc2UsImNhc2VJbnNlbnNpdGl2ZSI6dHJ1ZX0sImNvbHVtbnMiOlt7InZpc2libGUiOnRydWUsInNlYXJjaCI6eyJzZWFyY2giOiJrZXl3b3JkPSZjaWQ9ODgmcHJpY2VfZGVmaW5pbmdfbWV0aG9kPS0xJnByZWRlZmluZWRfcHJvZHVjdF90eXBlPTAiLCJzbWFydCI6dHJ1ZSwicmVnZXgiOmZhbHNlLCJjYXNlSW5zZW5zaXRpdmUiOnRydWV9fV19"
   // );
 
+  // CHANGE PRODUCT CONFIG
+  await login(page);
+  await changeProductConfig(page);
+
   // GET XML PRODUCTS
   // await getIdProducts(page);
-  await login(page);
-  await getXmlProducts(page);
+  // await login(page);
+  // await getXmlProducts(page);
 
   // GET ID URL'S CLIENT
   // await getIdUrlClient(page);
