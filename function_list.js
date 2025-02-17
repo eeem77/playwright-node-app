@@ -17,6 +17,12 @@ import {
   inputsPrices4x5,
   inputsPrices3x5,
   pricesAddBulk,
+  printeSidePrice,
+  printeSidePrice2,
+  printeSidePrice3,
+  paperTypePrice,
+  paperTypePrice2,
+  paperTypePrice3,
 } from "./data.js";
 dotenv.config();
 
@@ -1372,46 +1378,86 @@ export const changeProductConfig = async (page) => {
     // }
 
     // Product Price
+    // await page.goto(
+    //   `https://www.apprinting.com/admin/product_price.php?product_id=${id}`,
+    //   { timeout: 300000 }
+    // );
+    // await page.waitForSelector("#product_price_content");
+
+    // await cleanInputsPriceTag(page);
+
+    // await page.waitForSelector("#product_price_content");
+
+    // const addBulkDataBtn = await page.$$("#addbulkitem");
+    // let flagPrice = 0;
+    // for await (const btn of addBulkDataBtn) {
+    //   await btn.click();
+    //   await page.waitForSelector(".helpcontenthtml.fancybox__content");
+    //   const section = await page.$(".helpcontenthtml.fancybox__content");
+    //   const textArea = await section.$('[id^="bulktext"]');
+    //   await textArea.fill(pricesAddBulk[flagPrice]);
+    //   const addBtn = await section.$('[id^="addnewbulkprice"]');
+    //   await addBtn.click();
+    //   await page.waitForSelector(".helpcontenthtml.fancybox__content", {
+    //     state: "hidden",
+    //   });
+    //   flagPrice++;
+    // }
+    // await page.waitForSelector("#btn-action-save", {
+    //   state: "attached",
+    // });
+    // const saveBtn = await page.$("#btn-action-save");
+    // await saveBtn.click();
+    // await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
+    //   state: "visible",
+    // });
+
+    // Additional Options
     await page.goto(
-      `https://www.apprinting.com/admin/product_price.php?product_id=${id}`,
+      `https://www.apprinting.com/admin/product_additionalinfo_list.php?product_id=${id}`,
       { timeout: 300000 }
     );
-    await page.waitForSelector("#product_price_content");
+    await page.waitForSelector("#ops-table");
 
-    await cleanInputsPriceTag(page);
+    const actionBtn = await page.$(".dropdown-action-btn");
+    await actionBtn.click();
+    await page.waitForSelector(".dropdown-menu.dropdown-menu-right.show");
+    const section = await page.$("ul.dropdown-menu.dropdown-menu-right.show");
+    const editBtn = await section.$$("a");
+    await editBtn[1].click();
+    await page.waitForSelector("#sel_product_size");
 
-    await page.waitForSelector("#product_price_content");
+    await injectPrice(page, '3.5" x 5"', printeSidePrice);
+    await injectPrice(page, '4.25" x 5.5"', printeSidePrice2);
+    await injectPrice(page, '5" x 7"', printeSidePrice3);
 
-    const addBulkDataBtn = await page.$$("#addbulkitem");
-    let flagPrice = 0;
-    for await (const btn of addBulkDataBtn) {
-      await btn.click();
-      await page.waitForSelector(".helpcontenthtml.fancybox__content");
-      const section = await page.$(".helpcontenthtml.fancybox__content");
-      const textArea = await section.$('[id^="bulktext"]');
-      await textArea.fill(pricesAddBulk[flagPrice]);
-      const addBtn = await section.$('[id^="addnewbulkprice"]');
-      await addBtn.click();
-      await page.waitForSelector(".helpcontenthtml.fancybox__content", {
-        state: "hidden",
-      });
-      flagPrice++
-    }
-    await page.waitForSelector("#btn-action-save", {
-      state: "attached",
-    });
-    const saveBtn = await page.$("#btn-action-save");
-    await saveBtn.click();
-    await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
-      state: "visible",
-    });
+    const productViewOptions = await page.$("#product_view_options");
+    await productViewOptions.selectOption("Paper");
+    await page.waitForSelector("#frmadditionalprice");
 
-    // await changeInputsPriceTag(page, 1, inputsPrices4x5);
-    // await changeInputsPriceTag(page, 2, inputsPrices4x5);
-    // await changeInputsPriceTag(page, 3, inputsPrices5x7);
-    // console.log(options.length);
+    await injectPrice(page, '3.5" x 5"', paperTypePrice);
+    await injectPrice(page, '4.25" x 5.5"', paperTypePrice2);
+    await injectPrice(page, '5" x 7"', paperTypePrice3);
   }
 };
+
+const injectPrice = async (page, size, prices) => {
+  const selectSize = await page.$("#sel_product_size");
+  await selectSize.selectOption(size);
+  await page.waitForSelector("#frmadditionalprice");
+
+  const inputPriceAdditionalOption = await page.$$('[name^="txtprice"]');
+  let flagPrinteSidePrice = 0;
+  for await (const inputOption of inputPriceAdditionalOption) {
+    await inputOption.fill(prices[flagPrinteSidePrice]);
+    flagPrinteSidePrice++;
+  }
+  const saveBtn = await page.$("#btn-action-save");
+  await saveBtn.click();
+  await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
+    state: "visible",
+  });
+}
 
 const removeHtmlTags = (str) => {
   // Delete HTML
