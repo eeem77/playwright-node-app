@@ -16,6 +16,7 @@ import {
   inputsPrices5x7,
   inputsPrices4x5,
   inputsPrices3x5,
+  pricesAddBulk,
 } from "./data.js";
 dotenv.config();
 
@@ -1289,6 +1290,35 @@ export const getIdUrlClient = async (page) => {
   }
 };
 
+const cleanInputsPriceTag = async (page) => {
+  const tables = await page.$$(".table-responsive");
+
+  // const qtyFromInputs = await tables[table].$$('[name^="txtqty"]');
+  // for await (const element of qtyFromInputs) {
+  //   await element.fill();
+  //   // const inputValue = await element.inputValue();
+  //   // console.log(inputValue);
+  // }
+  // const qtyToInputs = await tables[table].$$('[name^="totxtqty"]');
+  // for await (const element of qtyToInputs) {
+  //   await element.fill();
+  //   // const inputValue = await element.inputValue();
+  //   // console.log(inputValue);
+  // }
+  for await (const table of tables) {
+    const priceInputs = await table.$$('[name^="txtprice"]');
+    for await (const element of priceInputs) {
+      await element.fill("");
+    }
+  }
+
+  const saveBtn = await page.$("#btn-action-save");
+  await saveBtn.click();
+  await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
+    state: "visible",
+  });
+};
+
 export const changeProductConfig = async (page) => {
   for await (const id of idProducts) {
     // //Price Defining Method
@@ -1348,70 +1378,37 @@ export const changeProductConfig = async (page) => {
     );
     await page.waitForSelector("#product_price_content");
 
-    const tables = await page.$$(".table-responsive");
-    let bucleTable = 0;
-    for await (const table of tables) {
-      const qtyFromInputs = await table.$$('[name^="txtqty"]');
-      let bucle = 0;
-      for await (const element of qtyFromInputs) {
-        await element.fill(qtyFromPrices[bucle]);
-        bucle++;
-        // const inputValue = await element.inputValue();
-        // console.log(inputValue);
-      }
-      bucle = 0;
-      const qtyToInputs = await table.$$('[name^="totxtqty"]');
-      for await (const element of qtyToInputs) {
-        await element.fill(qtyToPrices[bucle]);
-        bucle++;
-        // const inputValue = await element.inputValue();
-        // console.log(inputValue);
-      }
-      bucle = 0;
-      const priceInputs = await table.$$('[name^="txtprice"]');
-      if (bucleTable === 0) {
-        for await (const element of priceInputs) {
-          await element.fill(inputsPrices3x5[bucle]);
-          bucle++;
-          // const inputValue = await element.inputValue();
-          // console.log(inputValue);
-        }
-        bucle = 0;
-      } else if (bucleTable === 1) {
-        for await (const element of priceInputs) {
-          await element.fill(inputsPrices4x5[bucle]);
-          bucle++;
-          // const inputValue = await element.inputValue();
-          // console.log(inputValue);
-        }
-        bucle = 0;
-      } else if (bucleTable === 2) {
-        for await (const element of priceInputs) {
-          await element.fill(inputsPrices4x5[bucle]);
-          bucle++;
-          // const inputValue = await element.inputValue();
-          // console.log(inputValue);
-        }
-        bucle = 0;
-      } else if (bucleTable === 3) {
-        for await (const element of priceInputs) {
-          await element.fill(inputsPrices5x7[bucle]);
-          bucle++;
-          // const inputValue = await element.inputValue();
-          // console.log(inputValue);
-        }
-        bucle = 0;
-      }
-      bucleTable++;
-      const saveBtn = await page.$("#btn-action-save");
-      await saveBtn.click();
-      await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
-        state: "visible",
-        timeout: 10_000,
-      });
-    }
+    await cleanInputsPriceTag(page);
 
-    bucleTable = 0;
+    await page.waitForSelector("#product_price_content");
+
+    const addBulkDataBtn = await page.$$("#addbulkitem");
+    let flagPrice = 0;
+    for await (const btn of addBulkDataBtn) {
+      await btn.click();
+      await page.waitForSelector(".helpcontenthtml.fancybox__content");
+      const section = await page.$(".helpcontenthtml.fancybox__content");
+      const textArea = await section.$('[id^="bulktext"]');
+      await textArea.fill(pricesAddBulk[flagPrice]);
+      const addBtn = await section.$('[id^="addnewbulkprice"]');
+      await addBtn.click();
+      await page.waitForSelector(".helpcontenthtml.fancybox__content", {
+        state: "hidden",
+      });
+      flagPrice++
+    }
+    await page.waitForSelector("#btn-action-save", {
+      state: "attached",
+    });
+    const saveBtn = await page.$("#btn-action-save");
+    await saveBtn.click();
+    await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
+      state: "visible",
+    });
+
+    // await changeInputsPriceTag(page, 1, inputsPrices4x5);
+    // await changeInputsPriceTag(page, 2, inputsPrices4x5);
+    // await changeInputsPriceTag(page, 3, inputsPrices5x7);
     // console.log(options.length);
   }
 };
