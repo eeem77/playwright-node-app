@@ -23,6 +23,9 @@ import {
   paperTypePrice,
   paperTypePrice2,
   paperTypePrice3,
+  cornerRoundingPrice,
+  cornerRoundingPrice2,
+  cornerRoundingPrice3,
 } from "./data.js";
 dotenv.config();
 
@@ -1328,89 +1331,91 @@ const cleanInputsPriceTag = async (page) => {
 export const changeProductConfig = async (page) => {
   for await (const id of idProducts) {
     // //Price Defining Method
-    // await page.goto(
-    //   `https://www.apprinting.com/admin/product_action.php?product_id=${id}`,
-    //   { timeout: 300000 }
-    // );
-    // await page.waitForSelector("#product_details");
-    // const priceDefiningMethodSelect = await page.$("#price_defining_method");
-    // const priceDefiningMethodSelectValue =
-    //   await priceDefiningMethodSelect.inputValue();
-    // if (priceDefiningMethodSelectValue !== "1") {
-    //   await priceDefiningMethodSelect.selectOption("1");
-    //   const saveBtn = await page.$("#btn-action-save");
-    //   await saveBtn.click();
-    //   await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
-    //     state: "visible",
-    //   });
-    //   console.log("chague option");
-    // } else {
-    //   console.log("good option");
-    // }
-    // console.log(priceDefiningMethodSelectValue);
+    await page.goto(
+      `https://www.apprinting.com/admin/product_action.php?product_id=${id}`,
+      { timeout: 300000 }
+    );
+    await page.waitForSelector("#product_details");
+    const priceDefiningMethodSelect = await page.$("#price_defining_method");
+    const priceDefiningMethodSelectValue =
+      await priceDefiningMethodSelect.inputValue();
+    if (priceDefiningMethodSelectValue !== "1") {
+      await priceDefiningMethodSelect.selectOption("1");
+      const saveBtn = await page.$("#btn-action-save");
+      await saveBtn.click();
+      await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
+        state: "visible",
+      });
+      console.log("chague option");
+    } else {
+      console.log("good option");
+    }
+    //console.log(priceDefiningMethodSelectValue);
 
-    // // Edit Designer Option
-    // await page.goto(
-    //   `https://www.apprinting.com/admin/product_designer_action.php?product_id=${id}`,
-    //   { timeout: 300000 }
-    // );
-    // await page.waitForSelector("#frmdesigneroption");
-    // const section = await page.$("tbody");
-    // const options = await section.$$("tr");
-    // for await (const option of options) {
-    //   const sizeTitleOption = await option.$('[name^="sizetitle"]');
-    //   const sizeTitleOptionValue = await sizeTitleOption.inputValue();
-    //   if (sizeTitleOptionValue === '4" x 6"') {
-    //     let active = await option.$('[name^="sizevisible"]');
-    //     const isActive = await active.isChecked();
-    //     if (isActive === true) {
-    //       active = await option.$('[name^="sizevisible"]');
-    //       await active.click();
-    //       const saveBtn = await page.$("#btn-action-save");
-    //       await saveBtn.click();
-    //       await page.waitForTimeout(3000);
-    //       // await page.waitForNavigation("commit");
-    //       // await page.waitForSelector(".bootstrap-growl.alert.alert-success");
-    //     }
-    //     console.log(isActive);
-    //   }
-    //   console.log(sizeTitleOptionValue);
-    // }
+    // Edit Designer Option
+    await page.goto(
+      `https://www.apprinting.com/admin/product_designer_action.php?product_id=${id}`,
+      { timeout: 300000 }
+    );
+    await page.waitForSelector('[id^="sizetitle_"]');
+    // await page.waitForTimeout(3000);
+    const sectionTable = await page.$("tbody");
+    const options = await sectionTable.$$("tr");
+    for await (const option of options) {
+      try {
+        const sizeTitleOption = await option.$('[id^="sizetitle_"]');
+        const sizeTitleOptionValue = await sizeTitleOption.inputValue();
+        if (sizeTitleOptionValue === '4" x 6"') {
+          let active = await option.$('[type="checkbox"]');
+          const isActive = await active.isChecked();
+          if (isActive === true) {
+            active = await option.$('[type="checkbox"]');
+            await active.click();
+            const saveBtn = await page.$("#btn-action-save");
+            await saveBtn.click();
+            await page.waitForTimeout(3000);
+            // await page.waitForNavigation("commit");
+            // await page.waitForSelector(".bootstrap-growl.alert.alert-success");
+          }
+        }
+      } catch (error) {
+      }
+    }
 
     // Product Price
-    // await page.goto(
-    //   `https://www.apprinting.com/admin/product_price.php?product_id=${id}`,
-    //   { timeout: 300000 }
-    // );
-    // await page.waitForSelector("#product_price_content");
+    await page.goto(
+      `https://www.apprinting.com/admin/product_price.php?product_id=${id}`,
+      { timeout: 300000 }
+    );
+    await page.waitForSelector("#product_price_content");
 
-    // await cleanInputsPriceTag(page);
+    await cleanInputsPriceTag(page);
 
-    // await page.waitForSelector("#product_price_content");
+    await page.waitForSelector("#product_price_content");
 
-    // const addBulkDataBtn = await page.$$("#addbulkitem");
-    // let flagPrice = 0;
-    // for await (const btn of addBulkDataBtn) {
-    //   await btn.click();
-    //   await page.waitForSelector(".helpcontenthtml.fancybox__content");
-    //   const section = await page.$(".helpcontenthtml.fancybox__content");
-    //   const textArea = await section.$('[id^="bulktext"]');
-    //   await textArea.fill(pricesAddBulk[flagPrice]);
-    //   const addBtn = await section.$('[id^="addnewbulkprice"]');
-    //   await addBtn.click();
-    //   await page.waitForSelector(".helpcontenthtml.fancybox__content", {
-    //     state: "hidden",
-    //   });
-    //   flagPrice++;
-    // }
-    // await page.waitForSelector("#btn-action-save", {
-    //   state: "attached",
-    // });
-    // const saveBtn = await page.$("#btn-action-save");
-    // await saveBtn.click();
-    // await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
-    //   state: "visible",
-    // });
+    const addBulkDataBtn = await page.$$("#addbulkitem");
+    let flagPrice = 0;
+    for await (const btn of addBulkDataBtn) {
+      await btn.click();
+      await page.waitForSelector(".helpcontenthtml.fancybox__content");
+      const section = await page.$(".helpcontenthtml.fancybox__content");
+      const textArea = await section.$('[id^="bulktext"]');
+      await textArea.fill(pricesAddBulk[flagPrice]);
+      const addBtn = await section.$('[id^="addnewbulkprice"]');
+      await addBtn.click();
+      await page.waitForSelector(".helpcontenthtml.fancybox__content", {
+        state: "hidden",
+      });
+      flagPrice++;
+    }
+    await page.waitForSelector("#btn-action-save", {
+      state: "attached",
+    });
+    const saveBtn = await page.$("#btn-action-save");
+    await saveBtn.click();
+    await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
+      state: "visible",
+    });
 
     // Additional Options
     await page.goto(
@@ -1422,8 +1427,8 @@ export const changeProductConfig = async (page) => {
     const actionBtn = await page.$(".dropdown-action-btn");
     await actionBtn.click();
     await page.waitForSelector(".dropdown-menu.dropdown-menu-right.show");
-    const section = await page.$("ul.dropdown-menu.dropdown-menu-right.show");
-    const editBtn = await section.$$("a");
+    const section2 = await page.$("ul.dropdown-menu.dropdown-menu-right.show");
+    const editBtn = await section2.$$("a");
     await editBtn[1].click();
     await page.waitForSelector("#sel_product_size");
 
@@ -1431,13 +1436,46 @@ export const changeProductConfig = async (page) => {
     await injectPrice(page, '4.25" x 5.5"', printeSidePrice2);
     await injectPrice(page, '5" x 7"', printeSidePrice3);
 
-    const productViewOptions = await page.$("#product_view_options");
+    let productViewOptions = await page.$("#product_view_options");
     await productViewOptions.selectOption("Paper");
     await page.waitForSelector("#frmadditionalprice");
 
     await injectPrice(page, '3.5" x 5"', paperTypePrice);
     await injectPrice(page, '4.25" x 5.5"', paperTypePrice2);
     await injectPrice(page, '5" x 7"', paperTypePrice3);
+
+    await page.waitForTimeout(3000);
+    productViewOptions = await page.$("#product_view_options");
+    await productViewOptions.selectOption("Corner Rounding");
+    await page.waitForSelector("#frmadditionalprice");
+
+    await injectPrice(page, '3.5" x 5"', cornerRoundingPrice);
+    await injectPrice(page, '4.25" x 5.5"', cornerRoundingPrice2);
+    await injectPrice(page, '5" x 7"', cornerRoundingPrice3);
+
+    // Additional Options Change Status
+    await page.goto(
+      `https://www.apprinting.com/admin/product_additionalinfo_list.php?product_id=${id}`,
+      { timeout: 300000 }
+    );
+    await page.waitForSelector("#ops-table");
+
+    const sectionProductAddOption = await page.$$('[id^="prod_add_opt_id"]');
+    for await (const section of sectionProductAddOption) {
+      const title = await section.$(".text-primary");
+      const titleValue = await title.innerText();
+      if (titleValue === "Coating") {
+        const statusBtn = await section.$("#status");
+        const status = await statusBtn.isChecked();
+        if (status === true) {
+          await statusBtn.click();
+          await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
+            state: "visible",
+          });
+        }
+      }
+    }
+    console.log(`Working ---> ${id}`);
   }
 };
 
@@ -1457,7 +1495,7 @@ const injectPrice = async (page, size, prices) => {
   await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
     state: "visible",
   });
-}
+};
 
 const removeHtmlTags = (str) => {
   // Delete HTML
