@@ -26,6 +26,7 @@ import {
   cornerRoundingPrice,
   cornerRoundingPrice2,
   cornerRoundingPrice3,
+  artworkPrice,
 } from "./data.js";
 dotenv.config();
 
@@ -1350,7 +1351,6 @@ export const changeProductConfig = async (page) => {
     } else {
       console.log("good option");
     }
-    //console.log(priceDefiningMethodSelectValue);
 
     // Edit Designer Option
     await page.goto(
@@ -1374,8 +1374,6 @@ export const changeProductConfig = async (page) => {
             const saveBtn = await page.$("#btn-action-save");
             await saveBtn.click();
             await page.waitForTimeout(3000);
-            // await page.waitForNavigation("commit");
-            // await page.waitForSelector(".bootstrap-growl.alert.alert-success");
           }
         }
       } catch (error) {
@@ -1417,6 +1415,56 @@ export const changeProductConfig = async (page) => {
       state: "visible",
     });
 
+    // Change Paper Options
+    await page.goto(
+      `https://www.apprinting.com/admin/product_additionalinfo_list.php?product_id=${id}`,
+      { timeout: 300000 }
+    );
+    await page.waitForSelector("#ops-table");
+    try {
+      const sectionProductAddOption = await page.$$('[id^="prod_add_opt_id"]');
+      for await (const section of sectionProductAddOption) {
+        const title = await section.$(".text-primary");
+        const titleValue = await title.innerText();
+        console.log(titleValue);
+
+        if (titleValue === "Paper") {
+          await btnMenuAction(page, section, 0);
+          await page.waitForSelector("#option_table", {
+            state: "visible",
+          });
+
+          const deleteAttribute = await page.$$(".remove_row");
+
+          for await (const deleteBtn of deleteAttribute) {
+            await deleteBtn.click();
+          }
+
+          const attributeTitle = await page.$$('[id^="attr_label"]');
+          await attributeTitle[0].fill("Premium White Matte Cardstock");
+
+          const addBulkData = await page.$("#addbulkitem");
+          await addBulkData.click();
+          const addBulkDataContainer = await page.$(".fancybox__container");
+          await addBulkDataContainer.waitForSelector("#bulktext_1");
+          const addBulkDataInput = await addBulkDataContainer.$("#bulktext_1");
+          await addBulkDataInput.fill(
+            "Premium White Linen Cardstock - (+$0.10),20,0\nPremium Metallic Shimmer Color Paper - (+$0.20),30,0"
+          );
+          const addBulkDataButton = await addBulkDataContainer.$(
+            '[data-textarea="bulktext_1"]'
+          );
+          await addBulkDataButton.click();
+
+          const saveBtn = await page.$("#btn-action-save");
+          await saveBtn.click();
+          await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
+            state: "visible",
+          });
+        }
+      }
+    } catch (error) {}
+
     // Additional Options
     await page.goto(
       `https://www.apprinting.com/admin/product_additionalinfo_list.php?product_id=${id}`,
@@ -1453,6 +1501,15 @@ export const changeProductConfig = async (page) => {
     await injectPrice(page, '4.25" x 5.5"', cornerRoundingPrice2);
     await injectPrice(page, '5" x 7"', cornerRoundingPrice3);
 
+    await page.waitForTimeout(3000);
+    productViewOptions = await page.$("#product_view_options");
+    await productViewOptions.selectOption("Artwork");
+    await page.waitForSelector("#frmadditionalprice");
+
+    await injectPrice(page, '3.5" x 5"', artworkPrice);
+    await injectPrice(page, '4.25" x 5.5"', artworkPrice);
+    await injectPrice(page, '5" x 7"', artworkPrice);
+
     // Additional Options Change Status
     await page.goto(
       `https://www.apprinting.com/admin/product_additionalinfo_list.php?product_id=${id}`,
@@ -1460,10 +1517,11 @@ export const changeProductConfig = async (page) => {
     );
     await page.waitForSelector("#ops-table");
 
-    const sectionProductAddOption = await page.$$('[id^="prod_add_opt_id"]');
+    let sectionProductAddOption = await page.$$('[id^="prod_add_opt_id"]');
     for await (const section of sectionProductAddOption) {
       const title = await section.$(".text-primary");
       const titleValue = await title.innerText();
+
       if (titleValue === "Coating") {
         const statusBtn = await section.$("#status");
         const status = await statusBtn.isChecked();
@@ -1475,8 +1533,18 @@ export const changeProductConfig = async (page) => {
         }
       }
     }
+
     console.log(`Working ---> ${id}`);
   }
+};
+
+const btnMenuAction = async (page, section, action) => {
+  const actionBtn = await section.$(".dropdown-action-btn");
+  await actionBtn.click();
+  await page.waitForSelector(".dropdown-menu.dropdown-menu-right.show");
+  const section2 = await page.$("ul.dropdown-menu.dropdown-menu-right.show");
+  const editBtn = await section2.$$("a");
+  await editBtn[action].click();
 };
 
 const injectPrice = async (page, size, prices) => {
