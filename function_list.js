@@ -1376,8 +1376,7 @@ export const changeProductConfig = async (page) => {
             await page.waitForTimeout(3000);
           }
         }
-      } catch (error) {
-      }
+      } catch (error) {}
     }
 
     // Product Price
@@ -1533,8 +1532,9 @@ export const changeProductConfig = async (page) => {
         }
       }
     }
-
-    console.log(`Working ---> ${id}`);
+    const report = `Working ---> ${id}\n`;
+    fs.appendFileSync("list.txt", report);
+    console.log(report);
   }
 };
 
@@ -1563,6 +1563,50 @@ const injectPrice = async (page, size, prices) => {
   await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
     state: "visible",
   });
+};
+
+export const auditProductOptions = async (page) => {
+  for await (const id of idProducts) {
+    await page.goto(
+      `https://www.apprinting.com/admin/product_additionalinfo_list.php?product_id=${id}`,
+      { timeout: 300000 }
+    );
+    await page.waitForSelector("#ops-table");
+    const options = await page.$$('[id^="prod_add_opt_id"]');
+    let attributesOptions = {
+      printed: 0,
+      paper: 0,
+      coating: 0,
+      corner: 0,
+      artwork: 0,
+    };
+    for await (const option of options) {
+      const titleOption = await option.$(".text-primary");
+      const titleOptionValue = await titleOption.innerText();
+      if (titleOptionValue === "Printed Sides") {
+        const attributes = await option.$$(
+          ".badge.badge-info"
+        );
+        attributesOptions.printed = attributes.length;
+      } else if (titleOptionValue === "Paper") {
+        const attributes = await option.$$(".badge.badge-info");
+        attributesOptions.paper = attributes.length;
+      } else if (titleOptionValue === "Coating") {
+        const attributes = await option.$$(".badge.badge-info");
+        attributesOptions.coating = attributes.length;
+      } else if (titleOptionValue === "Corner Rounding") {
+        const attributes = await option.$$(".badge.badge-info");
+        attributesOptions.corner = attributes.length;
+      } else if (titleOptionValue === "Artwork") {
+        const attributes = await option.$$(".badge.badge-info");
+        attributesOptions.artwork = attributes.length;
+      }
+    }
+    const jsonString = JSON.stringify(attributesOptions, null, 2);
+    const report = `Working ---> ${id} ---> ${jsonString}\n`;
+    fs.appendFileSync("list.txt", report);
+    console.log(report);
+  }
 };
 
 const removeHtmlTags = (str) => {

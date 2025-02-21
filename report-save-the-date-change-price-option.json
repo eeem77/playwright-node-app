@@ -1,0 +1,262 @@
+***** PRINTED ******
+
+Working ---> 5189 ---> {
+  "printed": 0,
+  "paper": 4,
+  "coating": 0,
+  "corner": 2,
+  "artwork": 4
+}
+
+Working ---> 5195 ---> {
+  "printed": 0,
+  "paper": 2,
+  "coating": 0,
+  "corner": 2,
+  "artwork": 4
+}
+
+Working ---> 5199 ---> {
+  "printed": 0,
+  "paper": 2,
+  "coating": 1,
+  "corner": 2,
+  "artwork": 4
+}
+
+Working ---> 5214 ---> {
+  "printed": 1,
+  "paper": 4,
+  "coating": 3,
+  "corner": 2,
+  "artwork": 4
+}
+
+Working ---> 5217 ---> {
+  "printed": 0,
+  "paper": 2,
+  "coating": 1,
+  "corner": 2,
+  "artwork": 4
+}
+
+Working ---> 5220 ---> {
+  "printed": 0,
+  "paper": 4,
+  "coating": 1,
+  "corner": 0,
+  "artwork": 4
+}
+
+Working ---> 1093 ---> {
+  "printed": 0,
+  "paper": 0,
+  "coating": 0,
+  "corner": 0,
+  "artwork": 4
+}
+
+Working ---> 1116 ---> {
+  "printed": 0,
+  "paper": 0,
+  "coating": 0,
+  "corner": 0,
+  "artwork": 0
+}
+
+Working ---> 1139 ---> {
+  "printed": 0,
+  "paper": 0,
+  "coating": 0,
+  "corner": 0,
+  "artwork": 0
+}
+
+***** PAPER ******
+
+Working ---> 5162 ---> {
+  "printed": 2,
+  "paper": 4,
+  "coating": 3,
+  "corner": 2,
+  "artwork": 4
+}
+
+Working ---> 5171 ---> {
+  "printed": 2,
+  "paper": 4,
+  "coating": 3,
+  "corner": 2,
+  "artwork": 4
+}
+
+Working ---> 5181 ---> {
+  "printed": 2,
+  "paper": 4,
+  "coating": 3,
+  "corner": 2,
+  "artwork": 4
+}
+
+Working ---> 5184 ---> {
+  "printed": 2,
+  "paper": 4,
+  "coating": 3,
+  "corner": 2,
+  "artwork": 4
+}
+
+Working ---> 5192 ---> {
+  "printed": 2,
+  "paper": 4,
+  "coating": 3,
+  "corner": 2,
+  "artwork": 4
+}
+Working ---> 5191 ---> {
+  "printed": 2,
+  "paper": 4,
+  "coating": 3,
+  "corner": 2,
+  "artwork": 4
+}
+
+Working ---> 5209 ---> {
+  "printed": 2,
+  "paper": 4,
+  "coating": 3,
+  "corner": 2,
+  "artwork": 4
+}
+
+Working ---> 5226 ---> {
+  "printed": 2,
+  "paper": 4,
+  "coating": 3,
+  "corner": 2,
+  "artwork": 4
+}
+
+Working ---> 5228 ---> {
+  "printed": 2,
+  "paper": 4,
+  "coating": 3,
+  "corner": 2,
+  "artwork": 4
+}
+
+Working ---> 5230 ---> {
+  "printed": 2,
+  "paper": 2,
+  "coating": 3,
+  "corner": 2,
+  "artwork": 4
+}
+
+Working ---> 5234 ---> {
+  "printed": 2,
+  "paper": 4,
+  "coating": 3,
+  "corner": 2,
+  "artwork": 4
+}
+
+Working ---> 5236 ---> {
+  "printed": 2,
+  "paper": 2,
+  "coating": 3,
+  "corner": 2,
+  "artwork": 4
+}
+
+Working ---> 5150 ---> {
+  "printed": 2,
+  "paper": 4,
+  "coating": 3,
+  "corner": 2,
+  "artwork": 4
+}
+
+***** coating *******
+
+Working ---> 5188 ---> {
+  "printed": 2,
+  "paper": 3,
+  "coating": 0,
+  "corner": 0,
+  "artwork": 4
+}
+
+Working ---> 5194 ---> {
+  "printed": 2,
+  "paper": 3,
+  "coating": 0,
+  "corner": 0,
+  "artwork": 4
+}
+
+Working ---> 5198 ---> {
+  "printed": 2,
+  "paper": 3,
+  "coating": 0,
+  "corner": 0,
+  "artwork": 4
+}
+
+Working ---> 5213 ---> {
+  "printed": 2,
+  "paper": 3,
+  "coating": 1,
+  "corner": 0,
+  "artwork": 4
+}
+Working ---> 5216 ---> {
+  "printed": 2,
+  "paper": 3,
+  "coating": 0,
+  "corner": 0,
+  "artwork": 4
+}
+
+Working ---> 5219 ---> {
+  "printed": 2,
+  "paper": 3,
+  "coating": 0,
+  "corner": 1,
+  "artwork": 4
+}
+
+Working ---> 5227 ---> {
+  "printed": 2,
+  "paper": 3,
+  "coating": 2,
+  "corner": 0,
+  "artwork": 4
+}
+
+Working ---> 5233 ---> {
+  "printed": 2,
+  "paper": 3,
+  "coating": 2,
+  "corner": 0,
+  "artwork": 4
+}
+
+
+******* corner ********
+
+Working ---> 5225 ---> {
+  "printed": 2,
+  "paper": 3,
+  "coating": 3,
+  "corner": 1,
+  "artwork": 4
+}
+
+Working ---> 5208 ---> {
+  "printed": 2,
+  "paper": 3,
+  "coating": 3,
+  "corner": 1,
+  "artwork": 4
+}
