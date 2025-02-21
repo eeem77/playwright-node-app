@@ -27,6 +27,8 @@ import {
   cornerRoundingPrice2,
   cornerRoundingPrice3,
   artworkPrice,
+  envelopePrice,
+  envelopePrice2,
 } from "./data.js";
 dotenv.config();
 
@@ -1365,7 +1367,15 @@ export const changeProductConfig = async (page) => {
       try {
         const sizeTitleOption = await option.$('[id^="sizetitle_"]');
         const sizeTitleOptionValue = await sizeTitleOption.inputValue();
-        if (sizeTitleOptionValue === '4" x 6"') {
+        if (
+          sizeTitleOptionValue === '4" x 6"' ||
+          sizeTitleOptionValue === '4.5" x 6.25"' ||
+          sizeTitleOptionValue !== '5" x 7" (folds to 3.5" x 5")' ||
+          sizeTitleOptionValue !== '6" x 8" (folds to 4" x 6")' ||
+          sizeTitleOptionValue !== '7" x 10" (folds to 5" x 7")' ||
+          sizeTitleOptionValue !== '8.5" x 5.5" (folds to 4.25" x 5.5")' ||
+          sizeTitleOptionValue !== '9" x 6.25" (folds to 4.5" x 6.25")'
+        ) {
           let active = await option.$('[type="checkbox"]');
           const isActive = await active.isChecked();
           if (isActive === true) {
@@ -1427,7 +1437,7 @@ export const changeProductConfig = async (page) => {
         const titleValue = await title.innerText();
         console.log(titleValue);
 
-        if (titleValue === "Paper") {
+        if (titleValue === "Paper Type" || titleValue === "Paper") {
           await btnMenuAction(page, section, 0);
           await page.waitForSelector("#option_table", {
             state: "visible",
@@ -1479,26 +1489,26 @@ export const changeProductConfig = async (page) => {
     await editBtn[1].click();
     await page.waitForSelector("#sel_product_size");
 
-    await injectPrice(page, '3.5" x 5"', printeSidePrice);
-    await injectPrice(page, '4.25" x 5.5"', printeSidePrice2);
-    await injectPrice(page, '5" x 7"', printeSidePrice3);
-
-    let productViewOptions = await page.$("#product_view_options");
-    await productViewOptions.selectOption("Paper");
-    await page.waitForSelector("#frmadditionalprice");
-
     await injectPrice(page, '3.5" x 5"', paperTypePrice);
     await injectPrice(page, '4.25" x 5.5"', paperTypePrice2);
     await injectPrice(page, '5" x 7"', paperTypePrice3);
 
-    await page.waitForTimeout(3000);
-    productViewOptions = await page.$("#product_view_options");
-    await productViewOptions.selectOption("Corner Rounding");
+    let productViewOptions = await page.$("#product_view_options");
+    await productViewOptions.selectOption("Printed Side");
     await page.waitForSelector("#frmadditionalprice");
 
-    await injectPrice(page, '3.5" x 5"', cornerRoundingPrice);
-    await injectPrice(page, '4.25" x 5.5"', cornerRoundingPrice2);
-    await injectPrice(page, '5" x 7"', cornerRoundingPrice3);
+    await injectPrice(page, '3.5" x 5"', printeSidePrice);
+    await injectPrice(page, '4.25" x 5.5"', printeSidePrice2);
+    await injectPrice(page, '5" x 7"', printeSidePrice3);
+
+    await page.waitForTimeout(3000);
+    productViewOptions = await page.$("#product_view_options");
+    await productViewOptions.selectOption("Envelopes");
+    await page.waitForSelector("#frmadditionalprice");
+
+    // await injectPrice(page, '3.5" x 5"', envelopePrice);
+    await injectPrice(page, '4.25" x 5.5"', envelopePrice);
+    await injectPrice(page, '5" x 7"', envelopePrice2);
 
     await page.waitForTimeout(3000);
     productViewOptions = await page.$("#product_view_options");
@@ -1521,7 +1531,13 @@ export const changeProductConfig = async (page) => {
       const title = await section.$(".text-primary");
       const titleValue = await title.innerText();
 
-      if (titleValue === "Coating") {
+      if (
+        titleValue !== "Paper Type" &&
+        titleValue !== "Folding" &&
+        titleValue !== "Printed Side" &&
+        titleValue !== "Envelopes" &&
+        titleValue !== "Artwork"
+      ) {
         const statusBtn = await section.$("#status");
         const status = await statusBtn.isChecked();
         if (status === true) {
