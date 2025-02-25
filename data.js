@@ -428,30 +428,40 @@ export const proxies = [
 // ];
 
 export const idProducts = [
-  5974
+  5614, 5511, 5515, 5519, 5521, 5510, 5512, 5528, 5514, 5516, 5513, 5524, 5526,
+  5517, 5527, 5525, 5523, 5518, 5522, 5520,
 ];
 
 export const urlProducts = [
-  "https://www.apprinting.com/en/formal-flowers-elegant-welcome-sign/",
-  "https://www.apprinting.com/en/elegant-eucalyptus-welcome-sign/",
-  "https://www.apprinting.com/en/formal-wood-background-welcome-sign/",
-  "https://www.apprinting.com/en/classic-purple-flowers-welcome-sign/",
-  "https://www.apprinting.com/en/leaves-and-branches-natural-welcome-sign/",
-  "https://www.apprinting.com/en/elegant-metallic-leaves-welcome-sign/",
-  "https://www.apprinting.com/en/formal-floral-frame-welcome-sign/",
-  "https://www.apprinting.com/en/elegant-gothic-design-welcome-sign/",
-  "https://www.apprinting.com/en/natural-leaf-frame-welcome-sign/",
-  "https://www.apprinting.com/en/flowers-elegant-gold-welcome-sign/",
-  "https://www.apprinting.com/en/formal-organic-design-welcome-sign/",
-  "https://www.apprinting.com/en/blue-flowers-design-welcome-sign/",
-  "https://www.apprinting.com/en/classic-landers-welcome-sign/",
-  "https://www.apprinting.com/en/edges-with-eucalyptus-welcome-sign/",
-  "https://www.apprinting.com/en/brown-custom-design-welcome-sign/",
-  "https://www.apprinting.com/en/boders-with-autumn-branches-welcome-sign/",
-  "https://www.apprinting.com/en/simple-design-angela-welcome-sign/",
-  "https://www.apprinting.com/en/natural-background-design-welcome-sign/",
-  "https://www.apprinting.com/en/simple-howard-design-welcome-sign/",
-  "https://www.apprinting.com/en/simple-leaf-decoration-welcome-sign/",
+  "https://www.apprinting.com/en/standard-brochure/",
+  "https://www.apprinting.com/en/aqua-spa-nails-brochure/",
+  "https://www.apprinting.com/en/artistic-gold-brush-spa-nails-brochure/",
+  "https://www.apprinting.com/en/delicate-blue-and-pink-waves-spa-brochure/",
+  "https://www.apprinting.com/en/delicate-petals-nail-spa-brochure/",
+  "https://www.apprinting.com/en/elegant-nail-care-red-circle-brochure/",
+  "https://www.apprinting.com/en/elegant-wine-flower-spa-nails-brochure/",
+  "https://www.apprinting.com/en/glamorous-pink-potion-nail-spa-brochure/",
+  "https://www.apprinting.com/en/gorgeous-purple-waves-spa-nails-brochure/",
+  "https://www.apprinting.com/en/green-nature-spa-center-brochure/",
+  "https://www.apprinting.com/en/luxurious-wine-spa-nails-brochure/",
+  "https://www.apprinting.com/en/nature-and-lotus-nail-spa-brochure/",
+  "https://www.apprinting.com/en/pink-meditation-nail-spa-brochure/",
+  "https://www.apprinting.com/en/professional-purple-flowers-spa-brochure/",
+  "https://www.apprinting.com/en/pure-joy-nail-salon-brochure/",
+  "https://www.apprinting.com/en/relaxing-time-nail-spa-brochure/",
+  "https://www.apprinting.com/en/serene-green-cream-nail-spa-brochure/",
+  "https://www.apprinting.com/en/silver-purple-gradient-spa-brochure/",
+  "https://www.apprinting.com/en/spiritual-lotus-nail-spa-brochure/",
+  "https://www.apprinting.com/en/wine-flourish-nail-spa-brochure/",
+];
+
+
+
+export const designerAddBulk = [
+  `
+  4.25" x 5.5",4.5,5.75,0,20
+  5" x 7",5.25,7.25,0,30
+`,
 ];
 
 export const pricesAddBulk = [
