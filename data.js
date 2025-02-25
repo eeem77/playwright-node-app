@@ -428,31 +428,31 @@ export const proxies = [
 // ];
 
 export const idProducts = [
-  5614, 5511, 5515, 5519, 5521, 5510, 5512, 5528, 5514, 5516, 5513, 5524, 5526,
-  5517, 5527, 5525, 5523, 5518, 5522, 5520,
+  1634, 3956, 3957, 3958, 3959, 3960, 3961, 3962, 3963, 3964, 3965, 3966, 3967,
+  3968, 3970, 3971, 3972, 3973, 3974, 3975,
 ];
 
 export const urlProducts = [
-  "https://www.apprinting.com/en/standard-brochure/",
-  "https://www.apprinting.com/en/aqua-spa-nails-brochure/",
-  "https://www.apprinting.com/en/artistic-gold-brush-spa-nails-brochure/",
-  "https://www.apprinting.com/en/delicate-blue-and-pink-waves-spa-brochure/",
-  "https://www.apprinting.com/en/delicate-petals-nail-spa-brochure/",
-  "https://www.apprinting.com/en/elegant-nail-care-red-circle-brochure/",
-  "https://www.apprinting.com/en/elegant-wine-flower-spa-nails-brochure/",
-  "https://www.apprinting.com/en/glamorous-pink-potion-nail-spa-brochure/",
-  "https://www.apprinting.com/en/gorgeous-purple-waves-spa-nails-brochure/",
-  "https://www.apprinting.com/en/green-nature-spa-center-brochure/",
-  "https://www.apprinting.com/en/luxurious-wine-spa-nails-brochure/",
-  "https://www.apprinting.com/en/nature-and-lotus-nail-spa-brochure/",
-  "https://www.apprinting.com/en/pink-meditation-nail-spa-brochure/",
-  "https://www.apprinting.com/en/professional-purple-flowers-spa-brochure/",
-  "https://www.apprinting.com/en/pure-joy-nail-salon-brochure/",
-  "https://www.apprinting.com/en/relaxing-time-nail-spa-brochure/",
-  "https://www.apprinting.com/en/serene-green-cream-nail-spa-brochure/",
-  "https://www.apprinting.com/en/silver-purple-gradient-spa-brochure/",
-  "https://www.apprinting.com/en/spiritual-lotus-nail-spa-brochure/",
-  "https://www.apprinting.com/en/wine-flourish-nail-spa-brochure/",
+  "https://www.apprinting.com/en/thank-you-cards/",
+  "https://www.apprinting.com/en/sienna-christmas-thank-you-card/",
+  "https://www.apprinting.com/en/green-christmas-thank-you-card/",
+  "https://www.apprinting.com/en/creamy-yellow-lights-card/",
+  "https://www.apprinting.com/en/red-christmas-gift-card/",
+  "https://www.apprinting.com/en/white-and-gold-elegance/",
+  "https://www.apprinting.com/en/natural-holiday-ornament-card/",
+  "https://www.apprinting.com/en/creamy-postcard-style-card/",
+  "https://www.apprinting.com/en/black-floral-holiday-gratitude/",
+  "https://www.apprinting.com/en/red-christmas-tree-thanks/",
+  "https://www.apprinting.com/en/green-christmas-cookie-thanks/",
+  "https://www.apprinting.com/en/gold-ornament-elegance-card/",
+  "https://www.apprinting.com/en/christmas-tree-greeting-card/",
+  "https://www.apprinting.com/en/strawberry-christmas-branches-card/",
+  "https://www.apprinting.com/en/nature-inspired-floral-gratitude/",
+  "https://www.apprinting.com/en/wooden-elegance-gratitude-card/",
+  "https://www.apprinting.com/en/centered-festive-bough-thanks/",
+  "https://www.apprinting.com/en/natural-minimalist-thanks-card/",
+  "https://www.apprinting.com/en/pencil-sketch-elegance-card/",
+  "https://www.apprinting.com/en/black-gold-label/",
 ];
 
 

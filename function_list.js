@@ -1285,7 +1285,7 @@ export const getXmlProducts = async (page) => {
     //   </item>
     // `;
     // const item = `https://www.apprinting.com/${urlProductValue}/`;
-    fs.appendFileSync("list-test-brochure-2-25-2025.xml", `${item}\n`);
+    fs.appendFileSync("list-test-thank-you-card-marketing-2-25-2025.xml", `${item}\n`);
     //}
     // console.log(`${id} ---> Working`);
 
