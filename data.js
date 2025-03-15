@@ -428,31 +428,22 @@ export const proxies = [
 // ];
 
 export const idProducts = [
-  1634, 3956, 3957, 3958, 3959, 3960, 3961, 3962, 3963, 3964, 3965, 3966, 3967,
-  3968, 3970, 3971, 3972, 3973, 3974, 3975,
+  1648, 5613, 3721, 3722, 3723, 5446, 3724, 3725, 3726, 3727, 3728, 3729,
 ];
 
 export const urlProducts = [
-  "https://www.apprinting.com/en/thank-you-cards/",
-  "https://www.apprinting.com/en/sienna-christmas-thank-you-card/",
-  "https://www.apprinting.com/en/green-christmas-thank-you-card/",
-  "https://www.apprinting.com/en/creamy-yellow-lights-card/",
-  "https://www.apprinting.com/en/red-christmas-gift-card/",
-  "https://www.apprinting.com/en/white-and-gold-elegance/",
-  "https://www.apprinting.com/en/natural-holiday-ornament-card/",
-  "https://www.apprinting.com/en/creamy-postcard-style-card/",
-  "https://www.apprinting.com/en/black-floral-holiday-gratitude/",
-  "https://www.apprinting.com/en/red-christmas-tree-thanks/",
-  "https://www.apprinting.com/en/green-christmas-cookie-thanks/",
-  "https://www.apprinting.com/en/gold-ornament-elegance-card/",
-  "https://www.apprinting.com/en/christmas-tree-greeting-card/",
-  "https://www.apprinting.com/en/strawberry-christmas-branches-card/",
-  "https://www.apprinting.com/en/nature-inspired-floral-gratitude/",
-  "https://www.apprinting.com/en/wooden-elegance-gratitude-card/",
-  "https://www.apprinting.com/en/centered-festive-bough-thanks/",
-  "https://www.apprinting.com/en/natural-minimalist-thanks-card/",
-  "https://www.apprinting.com/en/pencil-sketch-elegance-card/",
-  "https://www.apprinting.com/en/black-gold-label/",
+  "https://www.apprinting.com/en/standard-vinyl-banner/",
+  "https://www.apprinting.com/en/grand-opening-13oz.-standard-vinyl-banner/",
+  "https://www.apprinting.com/en/dot-labor-day-13oz.-standard-vinyl-banner/",
+  "https://www.apprinting.com/en/modern-design-labor-day-13oz.-standard-vinyl-banner/",
+  "https://www.apprinting.com/en/american-labor-day-sales-13oz.-standard-vinyl-banner/",
+  "https://www.apprinting.com/en/4th-of-july-in-the-usa-13oz.-standard-vinyl-banner/",
+  "https://www.apprinting.com/en/labor-day-in-the-usa-13oz.-standard-vinyl-banner/",
+  "https://www.apprinting.com/en/colorful-labor-day-model-13oz.-standard-vinyl-banner/",
+  "https://www.apprinting.com/en/beautiful-labor-day-13oz.-standard-vinyl-banner/",
+  "https://www.apprinting.com/en/labor-day-flag-style-13oz.-standard-vinyl-banner/",
+  "https://www.apprinting.com/en/patriot-labor-day-13oz.-standard-vinyl-banner/",
+  "https://www.apprinting.com/en/stars-design-labor-day-13oz.-standard-vinyl-banner/",
 ];
 
 
