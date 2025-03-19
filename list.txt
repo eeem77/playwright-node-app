@@ -198,3 +198,31 @@ Working ---> 5975
 Working ---> 5975
 Working ---> 5976
 Working ---> 5978
+id ---> 5 qty ---> 250 price ---> 206
+id ---> 5 qty ---> 500 price ---> 212
+id ---> 5 qty ---> 1000 price ---> 256
+id ---> 5 qty ---> 1500 price ---> 385
+id ---> 5 qty ---> 2000 price ---> 462
+id ---> 5 qty ---> 2500 price ---> 513.33
+id ---> 5 qty ---> 5000 price ---> 694
+id ---> 5 qty ---> 250 price ---> 206
+id ---> 5 qty ---> 500 price ---> 212
+id ---> 5 qty ---> 1000 price ---> 256
+id ---> 5 qty ---> 1500 price ---> 385
+id ---> 5 qty ---> 2000 price ---> 462
+id ---> 5 qty ---> 2500 price ---> 513.33
+id ---> 5 qty ---> 5000 price ---> 694
+id ---> 5 qty ---> 250 price ---> 206
+id ---> 5 qty ---> 500 price ---> 212
+id ---> 5 qty ---> 1000 price ---> 256
+id ---> 5 qty ---> 1500 price ---> 385
+id ---> 5 qty ---> 2000 price ---> 462
+id ---> 5 qty ---> 2500 price ---> 513.33
+id ---> 5 qty ---> 5000 price ---> 694
+id ---> 5 qty ---> 250 price ---> 206
+id ---> 5 qty ---> 500 price ---> 212
+id ---> 5 qty ---> 1000 price ---> 256
+id ---> 5 qty ---> 1500 price ---> 385
+id ---> 5 qty ---> 2000 price ---> 462
+id ---> 5 qty ---> 2500 price ---> 513.33
+id ---> 5 qty ---> 5000 price ---> 694

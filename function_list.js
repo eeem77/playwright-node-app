@@ -165,7 +165,7 @@ const extractId = async (page, index) => {
   for await (const element of tr) {
     const id = await element.getAttribute("id");
     const idSplit = await id.split(":");
-    fs.appendFileSync("list.txt", idSplit[1].toString() + ",\n");
+    fs.appendFileSync("list-id-admin.txt", idSplit[1].toString() + ",\n");
   }
   if (index) {
     console.log(index);
@@ -1361,33 +1361,33 @@ export const changeProductConfig = async (page) => {
     // Edit Designer Option
     // let clean = false;
     // while (clean === false) {
-      await page.goto(
-        `https://www.apprinting.com/admin/product_designer_action.php?product_id=${id}`,
-        { timeout: 300000 }
-      );
-     // try {
-        await page.waitForSelector("#size_table");
-        const sizeTable = await page.$("#size_table");
-        const sizeTitle = await sizeTable.$$('[type="text"],[id^="sizetitle"]');
-        let flagBtnRemoveRow = 0;
-        for await (const size of sizeTitle) {
-          const sizeTitleValue = await size.inputValue();
-          console.log(sizeTitleValue);
-          
-          // if (size !== 0) {
-          //   await btn.click();
-          // }
-          // flagBtnRemoveRow++;
-        }
-        // let saveBtn = await page.$("#btn-action-save");
-        // await saveBtn.click();
-        // await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
-        //   state: "visible",
-        // });
-        // clean = true
-      // } catch (error) {clean = false}
+    await page.goto(
+      `https://www.apprinting.com/admin/product_designer_action.php?product_id=${id}`,
+      { timeout: 300000 }
+    );
+    // try {
+    await page.waitForSelector("#size_table");
+    const sizeTable = await page.$("#size_table");
+    const sizeTitle = await sizeTable.$$('[type="text"],[id^="sizetitle"]');
+    let flagBtnRemoveRow = 0;
+    for await (const size of sizeTitle) {
+      const sizeTitleValue = await size.inputValue();
+      console.log(sizeTitleValue);
+
+      // if (size !== 0) {
+      //   await btn.click();
+      // }
+      // flagBtnRemoveRow++;
+    }
+    // let saveBtn = await page.$("#btn-action-save");
+    // await saveBtn.click();
+    // await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
+    //   state: "visible",
+    // });
+    // clean = true
+    // } catch (error) {clean = false}
     // }
-    
+
     // const addBulkDataBtn = await page.$("#addbulkitem");
 
     // await addBulkDataBtn.click();
@@ -1673,6 +1673,61 @@ export const auditProductOptions = async (page) => {
     const report = `Working ---> ${id} ---> ${jsonString}\n`;
     fs.appendFileSync("list.txt", report);
     console.log(report);
+  }
+};
+
+export const getPricesProducts = async (page) => {
+  for await (const id of idProducts) {
+    await page.goto(
+      `https://www.apprinting.com/admin/product_price.php?product_id=${id}`,
+      { timeout: 300000 }
+    );
+    const table = await page.$(".table-responsive");
+    const qtyFromInputs = await table.$$('[data-label="Quantity From"]');
+    const prices = await table.$$('[data-label="Price"]');
+    let flag = 0;
+    for await (const element of qtyFromInputs) {
+      const inputValue = await element.inputValue();
+      const inputPrice = await prices[flag].inputValue();
+      flag++;
+      const report = `id ---> ${id} qty ---> ${inputValue} price ---> ${inputPrice} ---> `;
+      fs.appendFileSync("list-audit-prices.txt", report);
+      console.log(report);
+    }
+    await page.goto(
+      `https://www.apprinting.com/admin/product_additionalinfo_list.php?product_id=${id}`,
+      { timeout: 300000 }
+    );
+    const sectionGroup = await page.$('[id^="prod_add_opt_id:"]');
+    if(sectionGroup) await btnMenuAction(page, sectionGroup, 1);
+    await page.waitForTimeout(3000);
+    let selectSize = await page.$("#product_view_options");
+    const options = await selectSize.$$("option")
+    let optionsValue = []
+    for await (const element of options) {
+      const value = await element.getAttribute("value")
+      optionsValue.push(value)
+    }
+    for await (const element of optionsValue) {
+      selectSize = await page.$("#product_view_options");
+      await selectSize.selectOption(element)
+      try {
+        await page.waitForSelector(".table-responsive");
+      const prices = await page.$$('[id^="txtprice"]')
+      for await (const element of prices) {
+        const price = await element.inputValue()
+        if (price !== "") {
+          const report = `id ---> ${id} price ---> ${price} ---> `;
+          fs.appendFileSync("list-audit-prices.txt", report);
+          console.log(report);
+        }
+      }
+      } catch (error) {
+        
+      }
+      
+    }    
+    fs.appendFileSync("list-audit-prices.txt", `\n`);
   }
 };
 
