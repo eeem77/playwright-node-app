@@ -1686,11 +1686,12 @@ export const getPricesProducts = async (page) => {
     const qtyFromInputs = await table.$$('[data-label="Quantity From"]');
     const prices = await table.$$('[data-label="Price"]');
     let flag = 0;
+    fs.appendFileSync("list-audit-prices.txt", `${id},`);
     for await (const element of qtyFromInputs) {
       const inputValue = await element.inputValue();
       const inputPrice = await prices[flag].inputValue();
       flag++;
-      const report = `id ---> ${id} qty ---> ${inputValue} price ---> ${inputPrice} ---> `;
+      const report = `${inputPrice},`;
       fs.appendFileSync("list-audit-prices.txt", report);
       console.log(report);
     }
@@ -1717,13 +1718,14 @@ export const getPricesProducts = async (page) => {
       for await (const element of prices) {
         const price = await element.inputValue()
         if (price !== "") {
-          const report = `id ---> ${id} price ---> ${price} ---> `;
+          const report = `${price},`;
           fs.appendFileSync("list-audit-prices.txt", report);
           console.log(report);
         }
       }
       } catch (error) {
-        
+        fs.appendFileSync("list-audit-prices.txt", "ERROR PRODUCT OPTIONS");
+        console.log("ERROR PRODUCT OPTIONS");
       }
       
     }    
