@@ -1678,27 +1678,27 @@ export const auditProductOptions = async (page) => {
 
 export const getPricesProducts = async (page) => {
   for await (const id of idProducts) {
-    await page.goto(
-      `https://www.apprinting.com/admin/product_price.php?product_id=${id}`,
-      { timeout: 300000 }
-    );
-    const table = await page.$(".table-responsive");
-    const qtyFromInputs = await table.$$('[data-label="Quantity From"]');
-    const prices = await table.$$('[data-label="Price"]');
-    let flag = 0;
-    let pricesTotal = 0;
-    let totalSumPrice = 0;
+    // await page.goto(
+    //   `https://www.apprinting.com/admin/product_price.php?product_id=${id}`,
+    //   { timeout: 300000 }
+    // );
+    // const table = await page.$(".table-responsive");
+    // const qtyFromInputs = await table.$$('[data-label="Quantity From"]');
+    // const prices = await table.$$('[data-label="Price"]');
+    // let flag = 0;
+    // let pricesTotal = 0;
+    // let totalSumPrice = 0;
     let pricesModel = [];
-    fs.appendFileSync("list-audit-prices-7x7-gate-fold.txt", `${id},`);
-    for await (const element of qtyFromInputs) {
-      // const inputValue = await element.inputValue();
-      const inputPrice = await prices[flag].inputValue();
-      flag++;
-      totalSumPrice = totalSumPrice + Number(inputPrice);
-      const report = `${totalSumPrice},`;
-      // fs.appendFileSync("list-audit-prices-foil.txt", report);
-      // console.log(report);
-    }
+    // fs.appendFileSync("list-audit-prices-7x7-gate-fold.txt", `${id},`);
+    // for await (const element of qtyFromInputs) {
+    //   // const inputValue = await element.inputValue();
+    //   const inputPrice = await prices[flag].inputValue();
+    //   flag++;
+    //   totalSumPrice = totalSumPrice + Number(inputPrice);
+    //   const report = `${totalSumPrice},`;
+    //   // fs.appendFileSync("list-audit-prices-foil.txt", report);
+    //   // console.log(report);
+    // }
     await page.goto(
       `https://www.apprinting.com/admin/product_additionalinfo_list.php?product_id=${id}`,
       { timeout: 300000 }
@@ -1725,7 +1725,7 @@ export const getPricesProducts = async (page) => {
         for await (const element of prices) {
           const price = await element.inputValue();
           if (price !== "") {
-            pricesTotal = pricesTotal + Number(price);
+            // pricesTotal = pricesTotal + Number(price);
             pricesModel.push(price);
             // const report = `${pricesTotal},`;
             // const report = `${pricesModel},`;
@@ -1749,8 +1749,8 @@ export const getPricesProducts = async (page) => {
         console.log("ERROR PRODUCT OPTIONS");
       }
     }
-    let report = totalSumPrice + pricesTotal;
-    // let report = pricesModel.toString();
+    // let report = totalSumPrice + pricesTotal;
+    let report = pricesModel.toString();
     fs.appendFileSync("list-audit-prices-7x7-gate-fold.txt", `${report}\n`);
     // fs.appendFileSync("model-check-simple-flat.txt", `\n`);
   }
