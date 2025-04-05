@@ -2218,7 +2218,7 @@ export const updatePricesProducts = async (page) => {
         // console.log(report);
       }
     }
-    fs.appendFileSync("list-update-prices.txt", `${id}`);
+    fs.appendFileSync("list-update-prices.txt", `${id} \n`);
     // console.log(`${id}`);
   }
 };

@@ -134,7 +134,16 @@ export const proxies = [
   "104.207.47.55:3128",
 ];
 
-export const idProducts = [3422];
+export const idProducts = [
+  // 3462, 3463, 3465, 3466, 3467, 3469, 3470, 3472, 3475, 3478, 3479, 
+  // 3480, 3481,
+  // 3482, 3486, 3488, 3492, 3493, 3494, 3500, 3516, 3519, 3522, 3524, 
+
+  3525, 
+  
+  // 3529,
+  // 3532, 3540, 3541, 3543, 3544, 3545, 3546, 3551, 3552,
+];
 
 export const urlProducts = [
   "https://www.apprinting.com/en/standard-vinyl-banner/",
