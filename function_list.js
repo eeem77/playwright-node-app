@@ -1764,7 +1764,7 @@ export const getAttributes = async (page) => {
     );
     await page.waitForSelector(".table-responsive");
     const table = await page.$(".table-responsive");
-    const blocks = await page.$$('[id^="prod_add_opt_id"]')
+    const blocks = await table.$$('[id^="prod_add_opt_id"]')
     fs.appendFileSync("list-audit-prices-vellum.txt", `${id} ---> `);
     for await (const block of blocks) {
       const attributes = await block.$$("span.badge.badge-info");
