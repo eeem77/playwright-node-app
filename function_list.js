@@ -1756,6 +1756,25 @@ export const getPricesProducts = async (page) => {
   }
 };
 
+export const getAttributes = async (page) => {
+  for await (const id of idProducts) {
+    await page.goto(
+      `https://www.apprinting.com/admin/product_additionalinfo_list.php?product_id=${id}`,
+      { timeout: 300000 }
+    );
+    await page.waitForSelector(".table-responsive");
+    const table = await page.$(".table-responsive");
+    const blocks = await page.$$('[id^="prod_add_opt_id"]')
+    fs.appendFileSync("list-audit-prices-vellum.txt", `${id} ---> `);
+    for await (const block of blocks) {
+      const attributes = await block.$$("span.badge.badge-info");
+      const attributesLen = attributes.length;
+      fs.appendFileSync("list-audit-prices-vellum.txt", `${attributesLen},`);
+    }
+    fs.appendFileSync("list-audit-prices-vellum.txt", `\n`);
+  }
+}
+
 export const updatePricesProducts = async (page) => {
   for await (const id of idProducts) {
     await page.goto(

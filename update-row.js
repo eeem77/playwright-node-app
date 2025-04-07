@@ -20,6 +20,7 @@ import {
   auditProductOptions,
   getPricesProducts,
   updatePricesProducts,
+  getAttributes,
 } from "./function_list.js";
 // import { proxies } from './data.js'
 // import fs from 'fs'
@@ -78,7 +79,8 @@ const updateRow = async () => {
 
   // GET PRICES PRODUCTS
   await login(page);
-  await getPricesProducts(page);
+  // await getPricesProducts(page);
+  await getAttributes(page);
   // await updatePricesProducts(page)
   // await getIdProductsAdmin(
   //   page,
