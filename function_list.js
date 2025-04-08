@@ -1689,7 +1689,7 @@ export const getPricesProducts = async (page) => {
     let pricesTotal = 0;
     let totalSumPrice = 0;
     let pricesModel = [];
-    fs.appendFileSync("list-audit-prices-vellum.txt", `${id},`);
+    fs.appendFileSync("list-audit-prices-acrylic.txt", `${id},`);
     for await (const element of qtyFromInputs) {
       // const inputValue = await element.inputValue();
       const inputPrice = await prices[flag].inputValue();
@@ -1742,7 +1742,7 @@ export const getPricesProducts = async (page) => {
         }
       } catch (error) {
         fs.appendFileSync(
-          "list-audit-prices-vellum.txt",
+          "list-audit-prices-acrylic.txt",
           "ERROR PRODUCT OPTIONS"
         );
         // fs.appendFileSync("model-check-simple-flat.txt", "ERROR PRODUCT OPTIONS");
@@ -1751,7 +1751,7 @@ export const getPricesProducts = async (page) => {
     }
     let report = totalSumPrice + pricesTotal;
     // let report = pricesModel.toString();
-    fs.appendFileSync("list-audit-prices-vellum.txt", `${report}\n`);
+    fs.appendFileSync("list-audit-prices-acrylic.txt", `${report}\n`);
     // fs.appendFileSync("model-check-simple-flat.txt", `\n`);
   }
 };
@@ -1765,13 +1765,13 @@ export const getAttributes = async (page) => {
     await page.waitForSelector(".table-responsive");
     const table = await page.$(".table-responsive");
     const blocks = await table.$$('[id^="prod_add_opt_id"]')
-    fs.appendFileSync("list-audit-prices-vellum.txt", `${id} ---> `);
+    fs.appendFileSync("list-audit-prices-acrylic.txt", `${id} ---> `);
     for await (const block of blocks) {
       const attributes = await block.$$("span.badge.badge-info");
       const attributesLen = attributes.length;
-      fs.appendFileSync("list-audit-prices-vellum.txt", `${attributesLen},`);
+      fs.appendFileSync("list-audit-prices-acrylic.txt", `${attributesLen},`);
     }
-    fs.appendFileSync("list-audit-prices-vellum.txt", `\n`);
+    fs.appendFileSync("list-audit-prices-acrylic.txt", `\n`);
   }
 }
 
