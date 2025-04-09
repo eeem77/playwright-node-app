@@ -165,7 +165,9 @@ const extractId = async (page, index) => {
   for await (const element of tr) {
     const id = await element.getAttribute("id");
     const idSplit = await id.split(":");
-    fs.appendFileSync("list-id-admin.txt", idSplit[1].toString() + ",\n");
+    const nameElement = await element.$(".text-primary")
+    const name = await nameElement.innerText();
+    fs.appendFileSync("list-id-admin.txt", `${idSplit[1].toString()}, ${name}\n`);
   }
   if (index) {
     console.log(index);
