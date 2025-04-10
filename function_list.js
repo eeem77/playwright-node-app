@@ -216,7 +216,7 @@ export const getIdProductsAdmin = async (page, url) => {
 
 export const getIdProducts = async (page) => {
   await page.goto(
-    "https://www.apprinting.com/en/7x7-gate-fold-wedding-invitations/products/",
+    "https://www.apprinting.com/en/welcome-signs/products/",
     {
       timeout: 300000,
     }

@@ -1,228 +1,100 @@
-****** GOOD JSON ********
-
-{
-  "printed": 2,
-  "paper": 3,
-  "coating": 3,
-  "corner": 2,
-  "artwork": 4
-}
-
-*************************
-
-Working ---> 5128 ---> {
-  "printed": 2,
-  "paper": 3,
-  "coating": 3,
-  "corner": 2,
-  "artwork": 4
-}
-
-Working ---> 5153 ---> {
-  "printed": 2,
-  "paper": 3,
-  "coating": 3,
-  "corner": 2,
-  "artwork": 4
-}
-Working ---> 5157 ---> {
-  "printed": 2,
-  "paper": 3,
-  "coating": 3,
-  "corner": 2,
-  "artwork": 4
-}
-Working ---> 5160 ---> {
-  "printed": 2,
-  "paper": 3,
-  "coating": 3,
-  "corner": 2,
-  "artwork": 4
-}
-
-Working ---> 5165 ---> {
-  "printed": 2,
-  "paper": 3,
-  "coating": 3,
-  "corner": 2,
-  "artwork": 4
-}
-Working ---> 5168 ---> {
-  "printed": 2,
-  "paper": 3,
-  "coating": 3,
-  "corner": 2,
-  "artwork": 4
-}
-
-Working ---> 5172 ---> {
-  "printed": 2,
-  "paper": 3,
-  "coating": 3,
-  "corner": 2,
-  "artwork": 4
-}
-Working ---> 5177 ---> {
-  "printed": 2,
-  "paper": 3,
-  "coating": 3,
-  "corner": 2,
-  "artwork": 4
-}
-Working ---> 5178 ---> {
-  "printed": 2,
-  "paper": 3,
-  "coating": 3,
-  "corner": 2,
-  "artwork": 4
-}
-
-Working ---> 5182 ---> {
-  "printed": 2,
-  "paper": 3,
-  "coating": 3,
-  "corner": 2,
-  "artwork": 4
-}
-
-Working ---> 5185 ---> {
-  "printed": 2,
-  "paper": 3,
-  "coating": 3,
-  "corner": 2,
-  "artwork": 4
-}
-
-
-
-
-
-
-
-Working ---> 5221 ---> {
-  "printed": 2,
-  "paper": 3,
-  "coating": 3,
-  "corner": 2,
-  "artwork": 4
-}
-Working ---> 5222 ---> {
-  "printed": 2,
-  "paper": 3,
-  "coating": 3,
-  "corner": 2,
-  "artwork": 4
-}
-Working ---> 5223 ---> {
-  "printed": 2,
-  "paper": 3,
-  "coating": 3,
-  "corner": 2,
-  "artwork": 4
-}
-Working ---> 5224 ---> {
-  "printed": 2,
-  "paper": 3,
-  "coating": 3,
-  "corner": 2,
-  "artwork": 4
-}
-
-
-
-
-
-Working ---> 5229 ---> {
-  "printed": 2,
-  "paper": 3,
-  "coating": 3,
-  "corner": 2,
-  "artwork": 4
-}
-Working ---> 5232 ---> {
-  "printed": 2,
-  "paper": 3,
-  "coating": 3,
-  "corner": 2,
-  "artwork": 4
-}
-Working ---> 5231 ---> {
-  "printed": 2,
-  "paper": 3,
-  "coating": 3,
-  "corner": 2,
-  "artwork": 4
-}
-
-
-Working ---> 5235 ---> {
-  "printed": 2,
-  "paper": 3,
-  "coating": 3,
-  "corner": 2,
-  "artwork": 4
-}
-
-Working ---> 5237 ---> {
-  "printed": 2,
-  "paper": 3,
-  "coating": 3,
-  "corner": 2,
-  "artwork": 4
-}
-Working ---> 5238 ---> {
-  "printed": 2,
-  "paper": 3,
-  "coating": 3,
-  "corner": 2,
-  "artwork": 4
-}
-Working ---> 5239 ---> {
-  "printed": 2,
-  "paper": 3,
-  "coating": 3,
-  "corner": 2,
-  "artwork": 4
-}
-
-
-Working ---> 5974
-Working ---> 5974
-Working ---> 5974
-Working ---> 5974
-Working ---> 5974
-Working ---> 5974
-Working ---> 5974
-Working ---> 5974
-Working ---> 5975
-Working ---> 5975
-Working ---> 5976
-Working ---> 5978
-id ---> 5 qty ---> 250 price ---> 206
-id ---> 5 qty ---> 500 price ---> 212
-id ---> 5 qty ---> 1000 price ---> 256
-id ---> 5 qty ---> 1500 price ---> 385
-id ---> 5 qty ---> 2000 price ---> 462
-id ---> 5 qty ---> 2500 price ---> 513.33
-id ---> 5 qty ---> 5000 price ---> 694
-id ---> 5 qty ---> 250 price ---> 206
-id ---> 5 qty ---> 500 price ---> 212
-id ---> 5 qty ---> 1000 price ---> 256
-id ---> 5 qty ---> 1500 price ---> 385
-id ---> 5 qty ---> 2000 price ---> 462
-id ---> 5 qty ---> 2500 price ---> 513.33
-id ---> 5 qty ---> 5000 price ---> 694
-id ---> 5 qty ---> 250 price ---> 206
-id ---> 5 qty ---> 500 price ---> 212
-id ---> 5 qty ---> 1000 price ---> 256
-id ---> 5 qty ---> 1500 price ---> 385
-id ---> 5 qty ---> 2000 price ---> 462
-id ---> 5 qty ---> 2500 price ---> 513.33
-id ---> 5 qty ---> 5000 price ---> 694
-id ---> 5 qty ---> 250 price ---> 206
-id ---> 5 qty ---> 500 price ---> 212
-id ---> 5 qty ---> 1000 price ---> 256
-id ---> 5 qty ---> 1500 price ---> 385
-id ---> 5 qty ---> 2000 price ---> 462
-id ---> 5 qty ---> 2500 price ---> 513.33
-id ---> 5 qty ---> 5000 price ---> 694
+3170
+3173
+3177
+3179
+3183
+3186
+3188
+3191
+3226
+3229
+3241
+3246
+3248
+3270
+3273
+3286
+3325
+3334
+3339
+3343
+3346
+3352
+3354
+3356
+3357
+3358
+3359
+3360
+3362
+3371
+3373
+3377
+3379
+3386
+3389
+3393
+3394
+3399
+3403
+3407
+3409
+3412
+3415
+3426
+3433
+3437
+3464
+3484
+3487
+3495
+3496
+3498
+3504
+3507
+3510
+3520
+3526
+3531
+3537
+3538
+3550
+3553
+3556
+3560
+3574
+3578
+3579
+3584
+3586
+3587
+3589
+3592
+3596
+3601
+3603
+3604
+3607
+3609
+3611
+3614
+3616
+3619
+3624
+3625
+3627
+3632
+3634
+3636
+3640
+3642
+3646
+3649
+3651
+3654
+3657
+3660
+3662
+3663
+3664
+3665
