@@ -215,12 +215,9 @@ export const getIdProductsAdmin = async (page, url) => {
 };
 
 export const getIdProducts = async (page) => {
-  await page.goto(
-    "https://www.apprinting.com/en/welcome-signs/products/",
-    {
-      timeout: 300000,
-    }
-  );
+  await page.goto("https://www.apprinting.com/en/save-the-date/products/", {
+    timeout: 300000,
+  });
   const products = await page.$$eval(".product-box", (node) =>
     node.map((n) => n.className)
   );

@@ -70,7 +70,7 @@ const updateRow = async () => {
   // const table = document.querySelector("tbody");
   // const tr = table.querySelectorAll("tr");
   // tr.forEach(element => console.log(element.getAttribute("id")))
-  await getIdProducts(page);
+  // await getIdProducts(page);
   // await login(page);
   // await getIdProductsAdmin(
   //   page,
@@ -102,7 +102,7 @@ const updateRow = async () => {
   // await getXmlProducts(page);
 
   // GET ID URL'S CLIENT
-  // await getIdUrlClient(page);
+  await getIdUrlClient(page);
 
   // CHECK AND DELETE ARTWORK
   // try {
