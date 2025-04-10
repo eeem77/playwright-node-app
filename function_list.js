@@ -163,11 +163,17 @@ const extractId = async (page, index) => {
   const table = await page.$("tbody");
   const tr = await table.$$("tr");
   for await (const element of tr) {
+    
     const id = await element.getAttribute("id");
     const idSplit = await id.split(":");
-    const nameElement = await element.$(".text-primary")
-    const name = await nameElement.innerText();
-    fs.appendFileSync("list-id-admin.txt", `${idSplit[1].toString()}, ${name}\n`);
+    const nameElement = await element.$(".text-primary");
+    const name = await nameElement.innerText();    
+    const statusElement = await element.$(".change_status");
+    const status = await statusElement.getAttribute("value");
+    fs.appendFileSync(
+      "list-id-admin.txt",
+      `${idSplit[1].toString()}, ${name}, ${status}\n`
+    );
   }
   if (index) {
     console.log(index);
@@ -1736,7 +1742,7 @@ export const getPricesProducts = async (page) => {
             // console.log(report);
           } else {
             // const report = `PRICE NULL`;
-            pricesModel.push('0');
+            pricesModel.push("0");
             // fs.appendFileSync("list-audit-prices-foil.txt", report);
             // fs.appendFileSync("model-check-simple-flat.txt", report);
             // console.log(report);
@@ -1766,7 +1772,7 @@ export const getAttributes = async (page) => {
     );
     await page.waitForSelector(".table-responsive");
     const table = await page.$(".table-responsive");
-    const blocks = await table.$$('[id^="prod_add_opt_id"]')
+    const blocks = await table.$$('[id^="prod_add_opt_id"]');
     fs.appendFileSync("list-audit-prices-laser-cut.txt", `${id} ---> `);
     for await (const block of blocks) {
       const attributes = await block.$$("span.badge.badge-info");
@@ -1775,7 +1781,7 @@ export const getAttributes = async (page) => {
     }
     fs.appendFileSync("list-audit-prices-laser-cut.txt", `\n`);
   }
-}
+};
 
 export const updatePricesProducts = async (page) => {
   for await (const id of idProducts) {
