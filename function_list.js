@@ -1294,7 +1294,7 @@ export const getXmlProducts = async (page) => {
     // `;
     // const item = `https://www.apprinting.com/${urlProductValue}/`;
     fs.appendFileSync(
-      "list-test-standard-vinyl-banner-3-11-2025.xml",
+      "list-test-welcome-sign-4-10-2025.xml",
       `${item}\n`
     );
     //}
