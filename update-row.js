@@ -79,8 +79,8 @@ const updateRow = async () => {
 
   // GET PRICES PRODUCTS
   await login(page);
-  await getPricesProducts(page);
-  // await getAttributes(page);
+  // await getPricesProducts(page);
+  await getAttributes(page);
   // await updatePricesProducts(page)
   // await getIdProductsAdmin(
   //   page,
