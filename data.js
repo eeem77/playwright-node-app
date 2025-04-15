@@ -134,7 +134,12 @@ export const proxies = [
   "104.207.47.55:3128",
 ];
 
-export const idProducts = [920, 933, 914];
+export const idProducts = [
+  1009,
+  1018, 1019, 1032, 1033, 1058, 1061, 1062, 1064, 1066, 1067, 1068, 1070, 1045,
+  1027, 1029, 1010, 1022, 1025, 1026, 1034, 1035, 1063, 1074, 1076, 1080, 1072,
+  1075, 1077, 1073, 1078, 1079, 1065, 1069, 1071, 1049,
+];
 
 export const urlProducts = [
   "https://www.apprinting.com/en/green-ferns-wedding-menu-cards/",
