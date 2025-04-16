@@ -1836,7 +1836,7 @@ export const updatePricesProducts = async (page) => {
     const prices = await table.$$('[data-label="Price"]');
     let index = 0;
     for await (const inputPrice of prices) {
-      await inputPrice.inputValue(indexPrincipalNewPrices[index]);
+      await inputPrice.fill(indexPrincipalNewPrices[index].toString());
       index++;
     }
     const saveBtn = await page.$("#btn-action-save");
