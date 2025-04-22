@@ -1681,27 +1681,27 @@ export const auditProductOptions = async (page) => {
 
 export const getPricesProducts = async (page) => {
   for await (const id of idProducts) {
-    // await page.goto(
-    //   `https://www.apprinting.com/admin/product_price.php?product_id=${id}`,
-    //   { timeout: 300000 }
-    // );
-    // const table = await page.$(".table-responsive");
-    // const qtyFromInputs = await table.$$('[data-label="Quantity From"]');
-    // const prices = await table.$$('[data-label="Price"]');
-    // let flag = 0;
-    // let pricesTotal = 0;
-    // let totalSumPrice = 0;
+    await page.goto(
+      `https://www.apprinting.com/admin/product_price.php?product_id=${id}`,
+      { timeout: 300000 }
+    );
+    const table = await page.$(".table-responsive");
+    const qtyFromInputs = await table.$$('[data-label="Quantity From"]');
+    const prices = await table.$$('[data-label="Price"]');
+    let flag = 0;
+    let pricesTotal = 0;
+    let totalSumPrice = 0;
     let pricesModel = [];
-    // fs.appendFileSync("list-audit-prices-a7-atlas.txt", `${id},`);
-    // for await (const element of qtyFromInputs) {
-    //   // const inputValue = await element.inputValue();
-    //   const inputPrice = await prices[flag].inputValue();
-    //   flag++;
-    //   totalSumPrice = totalSumPrice + Number(inputPrice);
-    //   const report = `${totalSumPrice},`;
-    //   // fs.appendFileSync("list-audit-prices-foil.txt", report);
-    //   // console.log(report);
-    // }
+    fs.appendFileSync("list-audit-prices-a7-cascade.txt", `${id},`);
+    for await (const element of qtyFromInputs) {
+      // const inputValue = await element.inputValue();
+      const inputPrice = await prices[flag].inputValue();
+      flag++;
+      totalSumPrice = totalSumPrice + Number(inputPrice);
+      const report = `${totalSumPrice},`;
+      // fs.appendFileSync("list-audit-prices-foil.txt", report);
+      // console.log(report);
+    }
     await page.goto(
       `https://www.apprinting.com/admin/product_additionalinfo_list.php?product_id=${id}`,
       { timeout: 300000 }
@@ -1728,7 +1728,7 @@ export const getPricesProducts = async (page) => {
         for await (const element of prices) {
           const price = await element.inputValue();
           if (price !== "") {
-            // pricesTotal = pricesTotal + Number(price);
+            pricesTotal = pricesTotal + Number(price);
             pricesModel.push(price);
             // const report = `${pricesTotal},`;
             // const report = `${pricesModel},`;
@@ -1745,16 +1745,16 @@ export const getPricesProducts = async (page) => {
         }
       } catch (error) {
         fs.appendFileSync(
-          "list-audit-prices-a7-atlas.txt",
+          "list-audit-prices-a7-cascade.txt",
           "ERROR PRODUCT OPTIONS"
         );
         // fs.appendFileSync("model-check-simple-flat.txt", "ERROR PRODUCT OPTIONS");
         console.log("ERROR PRODUCT OPTIONS");
       }
     }
-    // let report = totalSumPrice + pricesTotal;
-    let report = pricesModel.toString();
-    fs.appendFileSync("list-audit-prices-a7-atlas.txt", `${report}\n`);
+    let report = totalSumPrice + pricesTotal;
+    // let report = pricesModel.toString();
+    fs.appendFileSync("list-audit-prices-a7-cascade.txt", `${report}\n`);
     // fs.appendFileSync("model-check-simple-flat.txt", `\n`);
   }
 };
@@ -1768,13 +1768,13 @@ export const getAttributes = async (page) => {
     await page.waitForSelector(".table-responsive");
     const table = await page.$(".table-responsive");
     const blocks = await table.$$('[id^="prod_add_opt_id"]');
-    fs.appendFileSync("list-audit-prices-a7-atlas.txt", `${id} ---> `);
+    fs.appendFileSync("list-audit-prices-a7-cascade.txt", `${id} ---> `);
     for await (const block of blocks) {
       const attributes = await block.$$("span.badge.badge-info");
       const attributesLen = attributes.length;
-      fs.appendFileSync("list-audit-prices-a7-atlas.txt", `${attributesLen},`);
+      fs.appendFileSync("list-audit-prices-a7-cascade.txt", `${attributesLen},`);
     }
-    fs.appendFileSync("list-audit-prices-a7-atlas.txt", `\n`);
+    fs.appendFileSync("list-audit-prices-a7-cascade.txt", `\n`);
   }
 };
 
