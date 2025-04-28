@@ -79,15 +79,15 @@ const updateRow = async () => {
   // );
 
   // GET PRICES PRODUCTS
-  // await login(page);
+  await login(page);
   // await getPricesProducts(page);
   // await getAttributes(page);
   // await updateOptionsPricesProducts(page);
   // await updatePricesProducts(page)
-  // await getIdProductsAdmin(
-  //   page,
-  //   "https://www.apprinting.com/admin/product_listing.php?qfs=eyJzdGFydCI6MCwibGVuZ3RoIjoxMDAsIm9yZGVyIjpbWzQsImFzYyJdXSwic2VhcmNoIjp7InNlYXJjaCI6IiIsInNtYXJ0Ijp0cnVlLCJyZWdleCI6ZmFsc2UsImNhc2VJbnNlbnNpdGl2ZSI6dHJ1ZX0sImNvbHVtbnMiOlt7InZpc2libGUiOnRydWUsInNlYXJjaCI6eyJzZWFyY2giOiJrZXl3b3JkPSZjaWQ9ODgmcHJpY2VfZGVmaW5pbmdfbWV0aG9kPS0xJnByZWRlZmluZWRfcHJvZHVjdF90eXBlPTAiLCJzbWFydCI6dHJ1ZSwicmVnZXgiOmZhbHNlLCJjYXNlSW5zZW5zaXRpdmUiOnRydWV9fV19"
-  // );
+  await getIdProductsAdmin(
+    page,
+    "https://www.apprinting.com/admin/product_listing.php?qfs=eyJzdGFydCI6MCwibGVuZ3RoIjoxMDAsIm9yZGVyIjpbWzQsImFzYyJdXSwic2VhcmNoIjp7InNlYXJjaCI6IiIsInNtYXJ0Ijp0cnVlLCJyZWdleCI6ZmFsc2UsImNhc2VJbnNlbnNpdGl2ZSI6dHJ1ZX0sImNvbHVtbnMiOlt7InZpc2libGUiOnRydWUsInNlYXJjaCI6eyJzZWFyY2giOiJrZXl3b3JkPSZjaWQ9ODcmcHJpY2VfZGVmaW5pbmdfbWV0aG9kPS0xJnByZWRlZmluZWRfcHJvZHVjdF90eXBlPTAiLCJzbWFydCI6dHJ1ZSwicmVnZXgiOmZhbHNlLCJjYXNlSW5zZW5zaXRpdmUiOnRydWV9fV19"
+  );
 
   // CHANGE PRODUCT CONFIG
   // await login(page);
@@ -100,8 +100,8 @@ const updateRow = async () => {
 
   // GET XML PRODUCTS
   // await getIdProducts(page);
-  await login(page);
-  await getXmlProducts(page);
+  // await login(page);
+  // await getXmlProducts(page);
 
   // GET ID URL'S CLIENT
   // await getIdUrlClient(page);
