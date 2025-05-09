@@ -135,8 +135,8 @@ export const proxies = [
 ];
 
 export const idProducts = [
-  // 5172, 5188, 5194, 5198, 5213, 5216, 5219, 5227, 5233
-  5153
+  5172, 5188, 5194, 5198, 5213, 5216, 5219, 5227, 5233
+  // 5153
 ];
 
 export const indexPrincipalNewPrices = [

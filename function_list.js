@@ -1706,9 +1706,11 @@ export const getPricesProducts = async (page) => {
       `https://www.apprinting.com/admin/product_additionalinfo_list.php?product_id=${id}`,
       { timeout: 300000 }
     );
+
     const sectionGroup = await page.$('[id^="prod_add_opt_id:"]');
     if (sectionGroup) await btnMenuAction(page, sectionGroup, 1);
     await page.waitForTimeout(3000);
+
     let selectSize = await page.$("#product_view_options");
     const options = await selectSize.$$("option");
     let optionsValue = [];
@@ -1754,6 +1756,108 @@ export const getPricesProducts = async (page) => {
     }
     // let report = totalSumPrice + pricesTotal;
     let report = pricesModel.toString();
+    fs.appendFileSync("list-audit-prices-is-save-date.txt", `${report}\n`);
+    // fs.appendFileSync("model-check-simple-flat.txt", `\n`);
+  }
+};
+
+export const getModelPricesProducts = async (page) => {
+  for await (const id of idProducts) {
+    await page.goto(
+      `https://www.apprinting.com/admin/product_price.php?product_id=${id}`,
+      { timeout: 300000 }
+    );
+    const table = await page.$(".table-responsive");
+    const qtyFromInputs = await table.$$('[data-label="Quantity From"]');
+    const prices = await table.$$('[data-label="Price"]');
+    let flag = 0;
+    let pricesTotal = 0;
+    let totalSumPrice = 0;
+    let pricesModel = [];
+    fs.appendFileSync("list-audit-prices-is-save-date.txt", `${id},`);
+    for await (const element of qtyFromInputs) {
+      // const inputValue = await element.inputValue();
+      const inputPrice = await prices[flag].inputValue();
+      flag++;
+      totalSumPrice = totalSumPrice + Number(inputPrice);
+      const report = `${totalSumPrice},`;
+      // fs.appendFileSync("list-audit-prices-foil.txt", report);
+      // console.log(report);
+    }
+    await page.goto(
+      `https://www.apprinting.com/admin/product_additionalinfo_list.php?product_id=${id}`,
+      { timeout: 300000 }
+    );
+
+    const sectionGroup = await page.$('[id^="prod_add_opt_id:"]');
+    if (sectionGroup) await btnMenuAction(page, sectionGroup, 1);
+    await page.waitForTimeout(3000);
+
+    let selectSize = await page.$("#sel_product_size");
+    const optionsSize = await selectSize.$$("option");
+
+    let optionsSizeValue = [];
+    for await (const size of optionsSize) {
+      const value = await size.getAttribute("value");
+      if (value !== "Common Price For All Size") {
+        optionsSizeValue.push(value);
+      }
+    }
+    
+    let selectOptions = await page.$("#product_view_options");
+    const options = await selectOptions.$$("option");
+    let optionsValue = [];
+    for await (const option of options) {
+      const value = await option.getAttribute("value");
+      optionsValue.push(value);
+    }
+console.log(optionsSizeValue, optionsValue);
+
+for (let index = 0; index < optionsSizeValue.length; index++) {
+  selectSize = await page.$("#sel_product_size");
+  await selectSize.selectOption(optionsSizeValue[index]);
+  await page.waitForTimeout(3000);
+  for await (const element of optionsValue) {
+    try {
+      await page.waitForSelector("#product_view_options");
+      selectSize = await page.$("#product_view_options");
+
+      await selectSize.selectOption(element);
+      await page.waitForSelector(".table-responsive");
+      await page.waitForTimeout(3000);
+
+      const prices = await page.$$('[id^="txtprice"]');
+
+      for await (const element of prices) {
+        const price = await element.inputValue();
+        if (price !== "") {
+          pricesTotal = pricesTotal + Number(price);
+          pricesModel.push(price);
+          // const report = `${pricesTotal},`;
+          // const report = `${pricesModel},`;
+          // fs.appendFileSync("list-audit-prices-foil.txt", report);
+          // fs.appendFileSync("model-check-simple-flat.txt", report);
+          // console.log(report);
+        } else {
+          // const report = `PRICE NULL`;
+          pricesModel.push("0");
+          // fs.appendFileSync("list-audit-prices-foil.txt", report);
+          // fs.appendFileSync("model-check-simple-flat.txt", report);
+          // console.log(report);
+        }
+      }
+    } catch (error) {
+      fs.appendFileSync(
+        "list-audit-prices-is-save-date.txt",
+        "ERROR PRODUCT OPTIONS"
+      );
+      // fs.appendFileSync("model-check-simple-flat.txt", "ERROR PRODUCT OPTIONS");
+      console.log("ERROR PRODUCT OPTIONS");
+    }
+  }
+}
+    let report = totalSumPrice + pricesTotal;
+    // let report = pricesModel.toString();
     fs.appendFileSync("list-audit-prices-is-save-date.txt", `${report}\n`);
     // fs.appendFileSync("model-check-simple-flat.txt", `\n`);
   }

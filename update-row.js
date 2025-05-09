@@ -22,6 +22,7 @@ import {
   updatePricesProducts,
   updateOptionsPricesProducts,
   getAttributes,
+  getModelPricesProducts,
 } from "./function_list.js";
 // import { proxies } from './data.js'
 // import fs from 'fs'
@@ -80,7 +81,8 @@ const updateRow = async () => {
 
   // GET PRICES PRODUCTS
   await login(page);
-  await getPricesProducts(page);
+  // await getPricesProducts(page);
+  await getModelPricesProducts(page);
   // await getAttributes(page);
   // await updateOptionsPricesProducts(page);
   // await updatePricesProducts(page)
