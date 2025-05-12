@@ -210,9 +210,12 @@ export const getIdProductsAdmin = async (page, url) => {
 };
 
 export const getIdProducts = async (page) => {
-  await page.goto("https://www.apprinting.com/en/wedding-menu/products/", {
-    timeout: 300000,
-  });
+  await page.goto(
+    "https://www.apprinting.com/en/thank-you-card-invitations-stationery/products/",
+    {
+      timeout: 300000,
+    }
+  );
   const products = await page.$$eval(".product-box", (node) =>
     node.map((n) => n.className)
   );
@@ -1686,7 +1689,7 @@ export const getPricesProducts = async (page) => {
     // let pricesTotal = 0;
     // let totalSumPrice = 0;
     let pricesModel = [];
-    // fs.appendFileSync("list-audit-prices-is-wedding-menu.txt", `${id},`);
+    // fs.appendFileSync("list-audit-prices-is-thank-you-cards.txt", `${id},`);
     // for await (const element of qtyFromInputs) {
     //   // const inputValue = await element.inputValue();
     //   const inputPrice = await prices[flag].inputValue();
@@ -1741,7 +1744,7 @@ export const getPricesProducts = async (page) => {
         }
       } catch (error) {
         fs.appendFileSync(
-          "list-audit-prices-is-wedding-menu.txt",
+          "list-audit-prices-is-thank-you-cards.txt",
           "ERROR PRODUCT OPTIONS"
         );
         // fs.appendFileSync("model-check-simple-flat.txt", "ERROR PRODUCT OPTIONS");
@@ -1750,7 +1753,7 @@ export const getPricesProducts = async (page) => {
     }
     // let report = totalSumPrice + pricesTotal;
     let report = pricesModel.toString();
-    fs.appendFileSync("list-audit-prices-is-wedding-menu.txt", `${report}\n`);
+    fs.appendFileSync("list-audit-prices-is-thank-you-cards.txt", `${report}\n`);
     // fs.appendFileSync("model-check-simple-flat.txt", `\n`);
   }
 };
@@ -1812,7 +1815,7 @@ export const getModelPricesProducts = async (page) => {
           }
         } catch (error) {
           fs.appendFileSync(
-            "list-audit-prices-is-wedding-menu.txt",
+            "list-audit-prices-is-thank-you-cards.txt",
             "ERROR PRODUCT OPTIONS"
           );
           console.log("ERROR PRODUCT OPTIONS");
@@ -1820,7 +1823,7 @@ export const getModelPricesProducts = async (page) => {
       }
     }
     let report = pricesModel.toString();
-    fs.appendFileSync("list-audit-prices-is-wedding-menu.txt", `${report}\n`);
+    fs.appendFileSync("list-audit-prices-is-thank-you-cards.txt", `${report}\n`);
   }
 };
 
@@ -1837,7 +1840,7 @@ export const getTotalModelPricesProducts = async (page) => {
     let pricesTotal = 0;
     let totalSumPrice = 0;
     let pricesModel = [];
-    fs.appendFileSync("list-audit-prices-is-wedding-menu.txt", `${id},`);
+    fs.appendFileSync("list-audit-prices-is-thank-you-cards.txt", `${id},`);
     for await (const element of qtyFromInputs) {
       const inputPrice = await prices[flag].inputValue();
       flag++;
@@ -1899,7 +1902,7 @@ export const getTotalModelPricesProducts = async (page) => {
           }
         } catch (error) {
           fs.appendFileSync(
-            "list-audit-prices-is-wedding-menu.txt",
+            "list-audit-prices-is-thank-you-cards.txt",
             "ERROR PRODUCT OPTIONS"
           );
           console.log("ERROR PRODUCT OPTIONS");
@@ -1907,7 +1910,7 @@ export const getTotalModelPricesProducts = async (page) => {
       }
     }
     let report = totalSumPrice + pricesTotal;
-    fs.appendFileSync("list-audit-prices-is-wedding-menu.txt", `${report}\n`);
+    fs.appendFileSync("list-audit-prices-is-thank-you-cards.txt", `${report}\n`);
   }
 };
 
@@ -1920,16 +1923,16 @@ export const getAttributes = async (page) => {
     await page.waitForSelector(".table-responsive");
     const table = await page.$(".table-responsive");
     const blocks = await table.$$('[id^="prod_add_opt_id"]');
-    fs.appendFileSync("list-audit-prices-is-wedding-menu.txt", `${id} ---> `);
+    fs.appendFileSync("list-audit-prices-is-thank-you-cards.txt", `${id} ---> `);
     for await (const block of blocks) {
       const attributes = await block.$$("span.badge.badge-info");
       const attributesLen = attributes.length;
       fs.appendFileSync(
-        "list-audit-prices-is-wedding-menu.txt",
+        "list-audit-prices-is-thank-you-cards.txt",
         `${attributesLen},`
       );
     }
-    fs.appendFileSync("list-audit-prices-is-wedding-menu.txt", `\n`);
+    fs.appendFileSync("list-audit-prices-is-thank-you-cards.txt", `\n`);
   }
 };
 
