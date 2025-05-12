@@ -122,13 +122,11 @@ export const getAssociatedCategoryProduct = async (page) => {
       `https://www.apprinting.com/admin/product_action.php?product_id=${id}`,
       { timeout: 300000 }
     );
-    const associatedCategorySelected = await page.$(
-      ".multiselect-selected-text"
-    );
-    const innerTextAssociatedCategory = await associatedCategorySelected.innerText();
+    // const associatedCategorySelected = await page.$('[id="category_ids_1"]');
+    // const innerTextAssociatedCategory = await associatedCategorySelected.innerText();
     const defaultCategory = await page.$('[data-id="category_id_1"]');
-    const defaultCategoryValue = defaultCategory.getAttribute("title");
-    const report = `Working ---> ${id} ---> ${defaultCategoryValue} ---> ${innerTextAssociatedCategory} \n`;
+    const defaultCategoryValue = await defaultCategory.getAttribute("title");
+    const report = `Working ---> ${id} ---> ${defaultCategoryValue} \n`;
     fs.appendFileSync("list.txt", report);
   }
 };
