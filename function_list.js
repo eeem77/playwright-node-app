@@ -125,15 +125,11 @@ export const getAssociatedCategoryProduct = async (page) => {
     const associatedCategorySelected = await page.$(
       ".multiselect-selected-text"
     );
-    const innerTextAssociatedCategory =
-      await associatedCategorySelected.innerText();
-    if ((await innerTextAssociatedCategory.search("Real Estate")) === -1) {
-      fs.appendFileSync("list.txt", id.toString() + ",\n");
-    }
-    const report = `Working ---> ${id} ---> ${innerTextAssociatedCategory} ---> ${await innerTextAssociatedCategory.search(
-      "Real Estate"
-    )}`;
-    console.log(report);
+    const innerTextAssociatedCategory = await associatedCategorySelected.innerText();
+    const defaultCategory = await page.$('[data-id="category_id_1"]');
+    const defaultCategoryValue = defaultCategory.getAttribute("title");
+    const report = `Working ---> ${id} ---> ${defaultCategoryValue} ---> ${innerTextAssociatedCategory} \n`;
+    fs.appendFileSync("list.txt", report);
   }
 };
 
@@ -1869,7 +1865,7 @@ export const getTotalModelPricesProducts = async (page) => {
         optionsSizeValue.push(value);
       }
     }
-    
+
     let selectOptions = await page.$("#product_view_options");
     const options = await selectOptions.$$("option");
     let optionsValue = [];
@@ -1877,41 +1873,41 @@ export const getTotalModelPricesProducts = async (page) => {
       const value = await option.getAttribute("value");
       optionsValue.push(value);
     }
-console.log(optionsSizeValue, optionsValue);
+    console.log(optionsSizeValue, optionsValue);
 
-for (let index = 0; index < optionsSizeValue.length; index++) {
-  selectSize = await page.$("#sel_product_size");
-  await selectSize.selectOption(optionsSizeValue[index]);
-  await page.waitForTimeout(3000);
-  for await (const element of optionsValue) {
-    try {
-      await page.waitForSelector("#product_view_options");
-      selectSize = await page.$("#product_view_options");
-
-      await selectSize.selectOption(element);
-      await page.waitForSelector(".table-responsive");
+    for (let index = 0; index < optionsSizeValue.length; index++) {
+      selectSize = await page.$("#sel_product_size");
+      await selectSize.selectOption(optionsSizeValue[index]);
       await page.waitForTimeout(3000);
+      for await (const element of optionsValue) {
+        try {
+          await page.waitForSelector("#product_view_options");
+          selectSize = await page.$("#product_view_options");
 
-      const prices = await page.$$('[id^="txtprice"]');
+          await selectSize.selectOption(element);
+          await page.waitForSelector(".table-responsive");
+          await page.waitForTimeout(3000);
 
-      for await (const element of prices) {
-        const price = await element.inputValue();
-        if (price !== "") {
-          pricesTotal = pricesTotal + Number(price);
-          pricesModel.push(price);
-        } else {
-          pricesModel.push("0");
+          const prices = await page.$$('[id^="txtprice"]');
+
+          for await (const element of prices) {
+            const price = await element.inputValue();
+            if (price !== "") {
+              pricesTotal = pricesTotal + Number(price);
+              pricesModel.push(price);
+            } else {
+              pricesModel.push("0");
+            }
+          }
+        } catch (error) {
+          fs.appendFileSync(
+            "list-audit-prices-is-wedding-menu.txt",
+            "ERROR PRODUCT OPTIONS"
+          );
+          console.log("ERROR PRODUCT OPTIONS");
         }
       }
-    } catch (error) {
-      fs.appendFileSync(
-        "list-audit-prices-is-wedding-menu.txt",
-        "ERROR PRODUCT OPTIONS"
-      );
-      console.log("ERROR PRODUCT OPTIONS");
     }
-  }
-}
     let report = totalSumPrice + pricesTotal;
     fs.appendFileSync("list-audit-prices-is-wedding-menu.txt", `${report}\n`);
   }
@@ -1930,7 +1926,10 @@ export const getAttributes = async (page) => {
     for await (const block of blocks) {
       const attributes = await block.$$("span.badge.badge-info");
       const attributesLen = attributes.length;
-      fs.appendFileSync("list-audit-prices-is-wedding-menu.txt", `${attributesLen},`);
+      fs.appendFileSync(
+        "list-audit-prices-is-wedding-menu.txt",
+        `${attributesLen},`
+      );
     }
     fs.appendFileSync("list-audit-prices-is-wedding-menu.txt", `\n`);
   }
