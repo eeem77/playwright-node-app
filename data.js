@@ -134,7 +134,11 @@ export const proxies = [
   "104.207.47.55:3128",
 ];
 
-export const idProducts = [5838, 5872];
+export const idProducts = [
+  // 5130, 5137, 5158, 5170, 5186, 5202, 5205, 5210, 5295, 5315, 5318, 5321, 5329,
+  // 5179,
+  5129,
+];
 
 export const indexPrincipalNewPrices = [
   3.4, 3.2, 3.1, 2.8, 2.8, 2.7, 2.7, 2.6, 2.6, 2.5, 2.5, 2.29, 2.29, 2.29, 2.29,
