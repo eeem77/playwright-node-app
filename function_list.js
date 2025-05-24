@@ -1245,8 +1245,8 @@ export const getXmlProducts = async (page) => {
     await page.waitForSelector("#frmprice");
 
     const priceInput = await page.$('[data-label="Price"]');
-    const price = await priceInput.inputValue();
-
+    const priceTotal = await priceInput.inputValue();
+    const price = Number(priceTotal/100).toFixed(2);
     // for await (const element of pricesProduct) {
     //   const input = await element.innerHTML();
     //   console.log(input);
@@ -1288,7 +1288,7 @@ export const getXmlProducts = async (page) => {
     //   </item>
     // `;
     // const item = `https://www.apprinting.com/${urlProductValue}/`;
-    fs.appendFileSync("list-test-simple-flat-5-17-2025.xml", `${item}\n`);
+    fs.appendFileSync("list-test-vietnamese-5-24-2025.xml", `${item}\n`);
     //}
     // console.log(`${id} ---> Working`);
 
