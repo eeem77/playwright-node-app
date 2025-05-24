@@ -33,6 +33,7 @@ import {
   envelopePrice2,
   newPrices,
 } from "./data.js";
+import { log } from "console";
 dotenv.config();
 
 export const login = async (page, ipProxy) => {
@@ -1237,16 +1238,24 @@ export const getXmlProducts = async (page) => {
     //   descriptionProductValue,
     //   "&nbsp;"
     // );
-    await page.goto(
-      `https://www.apprinting.com/admin/product_price.php?product_id=${id}`,
-      { timeout: 300000 }
-    );
 
-    await page.waitForSelector("#frmprice");
+      await page.goto(`https://www.apprinting.com/en/${urlProductValue}`, {
+        timeout: 300000,
+      });
+      const priceSpan = await page.$("#disp_product_price");
+      const priceSpanValue = await priceSpan.innerText();
+      const price = await priceSpanValue.replace("$","");
 
-    const priceInput = await page.$('[data-label="Price"]');
-    const priceTotal = await priceInput.inputValue();
-    const price = Number(priceTotal/100).toFixed(2);
+    // await page.goto(
+    //   `https://www.apprinting.com/admin/product_price.php?product_id=${id}`,
+    //   { timeout: 300000 }
+    // );
+
+    // await page.waitForSelector("#frmprice");
+
+    // const priceInput = await page.$('[data-label="Price"]');
+    // const price = await priceInput.inputValue();
+    //const price = Number(priceTotal/100).toFixed(2);
     // for await (const element of pricesProduct) {
     //   const input = await element.innerHTML();
     //   console.log(input);
