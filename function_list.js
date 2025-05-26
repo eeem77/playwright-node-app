@@ -1698,7 +1698,7 @@ export const getPricesProducts = async (page) => {
     // let pricesTotal = 0;
     // let totalSumPrice = 0;
     let pricesModel = [];
-    // fs.appendFileSync("list-audit-prices-a7-cascade.txt", `${id},`);
+    // fs.appendFileSync("list-audit-prices-a7-denali.txt", `${id},`);
     // for await (const element of qtyFromInputs) {
     //   // const inputValue = await element.inputValue();
     //   const inputPrice = await prices[flag].inputValue();
@@ -1753,7 +1753,7 @@ export const getPricesProducts = async (page) => {
         }
       } catch (error) {
         fs.appendFileSync(
-          "list-audit-prices-a7-cascade.txt",
+          "list-audit-prices-a7-denali.txt",
           "ERROR PRODUCT OPTIONS"
         );
         // fs.appendFileSync("model-check-simple-flat.txt", "ERROR PRODUCT OPTIONS");
@@ -1762,7 +1762,7 @@ export const getPricesProducts = async (page) => {
     }
     // let report = totalSumPrice + pricesTotal;
     let report = pricesModel.toString();
-    fs.appendFileSync("list-audit-prices-a7-cascade.txt", `${report}\n`);
+    fs.appendFileSync("list-audit-prices-a7-denali.txt", `${report}\n`);
     // fs.appendFileSync("model-check-simple-flat.txt", `\n`);
   }
 };
@@ -1824,7 +1824,7 @@ export const getModelPricesProducts = async (page) => {
           }
         } catch (error) {
           fs.appendFileSync(
-            "list-audit-prices-a7-cascade.txt",
+            "list-audit-prices-a7-denali.txt",
             "ERROR PRODUCT OPTIONS"
           );
           console.log("ERROR PRODUCT OPTIONS");
@@ -1832,7 +1832,7 @@ export const getModelPricesProducts = async (page) => {
       }
     }
     let report = pricesModel.toString();
-    fs.appendFileSync("list-audit-prices-a7-cascade.txt", `${report}\n`);
+    fs.appendFileSync("list-audit-prices-a7-denali.txt", `${report}\n`);
   }
 };
 
@@ -1849,7 +1849,7 @@ export const getTotalModelPricesProducts = async (page) => {
     let pricesTotal = 0;
     let totalSumPrice = 0;
     let pricesModel = [];
-    fs.appendFileSync("list-audit-prices-a7-cascade.txt", `${id},`);
+    fs.appendFileSync("list-audit-prices-a7-denali.txt", `${id},`);
     for await (const element of qtyFromInputs) {
       const inputPrice = await prices[flag].inputValue();
       flag++;
@@ -1911,7 +1911,7 @@ export const getTotalModelPricesProducts = async (page) => {
           }
         } catch (error) {
           fs.appendFileSync(
-            "list-audit-prices-a7-cascade.txt",
+            "list-audit-prices-a7-denali.txt",
             "ERROR PRODUCT OPTIONS"
           );
           console.log("ERROR PRODUCT OPTIONS");
@@ -1919,7 +1919,7 @@ export const getTotalModelPricesProducts = async (page) => {
       }
     }
     let report = totalSumPrice + pricesTotal;
-    fs.appendFileSync("list-audit-prices-a7-cascade.txt", `${report}\n`);
+    fs.appendFileSync("list-audit-prices-a7-denali.txt", `${report}\n`);
   }
 };
 
@@ -1932,16 +1932,16 @@ export const getAttributes = async (page) => {
     await page.waitForSelector(".table-responsive");
     const table = await page.$(".table-responsive");
     const blocks = await table.$$('[id^="prod_add_opt_id"]');
-    fs.appendFileSync("list-audit-prices-a7-cascade.txt", `${id} ---> `);
+    fs.appendFileSync("list-audit-prices-a7-denali.txt", `${id} ---> `);
     for await (const block of blocks) {
       const attributes = await block.$$("span.badge.badge-info");
       const attributesLen = attributes.length;
       fs.appendFileSync(
-        "list-audit-prices-a7-cascade.txt",
+        "list-audit-prices-a7-denali.txt",
         `${attributesLen},`
       );
     }
-    fs.appendFileSync("list-audit-prices-a7-cascade.txt", `\n`);
+    fs.appendFileSync("list-audit-prices-a7-denali.txt", `\n`);
   }
 };
 
