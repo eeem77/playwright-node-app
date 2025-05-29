@@ -1277,7 +1277,7 @@ export const getXmlProducts = async (page) => {
     //   console.log(value);
     // }
 
-    const item = `https://www.apprinting.com/${urlProductValue}/,${productTitleValue},<g:id>${id}</g:id>,<g:link>https://www.apprinting.com/${urlProductValue}/</g:link>,<g:image_link>${image}</g:image_link>,${images},<g:availability>in stock</g:availability>,<g:price>${price} USD</g:price>,<g:condition>new</g:condition>,<g:brand>AP PRINTING</g:brand>,<g:sku>${skuProductValue}</g:sku>,<g:adult>no</g:adult>,<g:identifier_exists>no</g:identifier_exists>`;
+    const item = `https://www.apprinting.com/en/${urlProductValue}/,${productTitleValue},<g:id>${id}</g:id>,<g:link>https://www.apprinting.com/${urlProductValue}/</g:link>,<g:image_link>${image}</g:image_link>,${images},<g:availability>in stock</g:availability>,<g:price>${price} USD</g:price>,<g:condition>new</g:condition>,<g:brand>AP PRINTING</g:brand>,<g:sku>${skuProductValue}</g:sku>,<g:adult>no</g:adult>,<g:identifier_exists>no</g:identifier_exists>`;
 
     // const item = `
     //   <item>
