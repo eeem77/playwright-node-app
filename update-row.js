@@ -86,7 +86,7 @@ const updateRow = async () => {
   // await getAssociatedCategoryProduct(page);
   // await getPricesProducts(page); ---> old version
   // await getModelPricesProducts(page);
-  await getTotalModelPricesProducts(page);
+  // await getTotalModelPricesProducts(page);
   // await getAttributes(page);
   // await updateOptionsPricesProducts(page);
   // await updatePricesProducts(page)
@@ -108,7 +108,7 @@ const updateRow = async () => {
   // GET XML PRODUCTS
   // await getIdProducts(page);
   // await login(page);
-  // await getXmlProducts(page);
+  await getXmlProducts(page);
 
   // GET ID URL'S CLIENT
   // await getIdUrlClient(page);
