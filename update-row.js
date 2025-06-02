@@ -86,9 +86,9 @@ const updateRow = async () => {
   // await getAssociatedCategoryProduct(page);
   // await getPricesProducts(page); ---> old version
   // await getModelPricesProducts(page);
-  await getTotalModelPricesProducts(page);
+  // await getTotalModelPricesProducts(page);
   // await getAttributes(page);
-  // await updateOptionsPricesProducts(page);
+  await updateOptionsPricesProducts(page);
   // await updatePricesProducts(page)
   // await getIdProducts(page);
   // await getIdProductsAdmin(
