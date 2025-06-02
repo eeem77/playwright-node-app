@@ -212,7 +212,7 @@ export const getIdProductsAdmin = async (page, url) => {
 
 export const getIdProducts = async (page) => {
   await page.goto(
-    "https://www.apprinting.com/en/welcome-signs/products/",
+    "https://www.apprinting.com/en/fancy-luxury-wedding-invitations/products/",
     {
       timeout: 300000,
     }

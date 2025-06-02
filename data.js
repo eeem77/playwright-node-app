@@ -135,7 +135,7 @@ export const proxies = [
 ];
 
 export const idProducts = [
-  // 2397, 2690, 
+  2397, 2690, 
   2390, 2435, 2591
 ];
 
