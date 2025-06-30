@@ -558,6 +558,9 @@ export const getMarkUpSchemaProducts = async (page) => {
       { timeout: 300000 }
     );
 
+    const urlProduct = await page.$("#product_url_1");
+    const urlProductValue = await urlProduct.inputValue();
+
     const productName = await page.$("#products_title_1");
     const productNameValue = await productName.inputValue();
     const productSku = await page.$("#products_sku");
@@ -591,15 +594,22 @@ export const getMarkUpSchemaProducts = async (page) => {
       }
     }
 
+    await page.goto(`https://www.apprinting.com/en/${urlProductValue}`, {
+      timeout: 300000,
+    });
+    const priceSpan = await page.$("#disp_product_price");
+    const priceSpanValue = await priceSpan.innerText();
+    const price = await priceSpanValue.replace("$", "");
+
     const report = `\`{"@context":"https://schema.org/","@type":"Product","name":"${productNameValue}","image": [${images}],"description":"${productNameValue}. A high-quality product offered by AP PRINTING. Our design team ensures that every detail is perfect to meet our customers' needs.","sku":"${productSkuValue}","brand":{"@type":"Brand","name":"AP PRINTING"},"review":{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue":"4","bestRating":"5"},"author":{"@type":"Person","name":"AP PRINTING DESIGN TEAM"}},"aggregateRating":{"@type":"AggregateRating","ratingValue":"${(
       Math.random() * (5 - 4.1) +
       4.1
     ).toFixed(1)}","reviewCount":"${Math.floor(
       Math.random() * (9000 - 15000) + 9000
-    )}"},"offers": {"@type": "Offer","url": "https://www.apprinting.com/blue-flowers-and-leaves-wedding-invitation/","priceCurrency": "USD","price": "85.00","priceValidUntil": "2024-12-24","itemCondition": "https://schema.org/UsedCondition","availability": "https://schema.org/InStock"}}\`],`;
+    )}"},"offers": {"@type": "Offer","url": "https://www.apprinting.com/blue-flowers-and-leaves-wedding-invitation/","priceCurrency": "USD","price": ${price},"priceValidUntil": "2025-12-25","itemCondition": "https://schema.org/UsedCondition","availability": "https://schema.org/InStock"}}\`,`;
 
     fs.appendFileSync("list.txt", report + "\n");
-    console.log(report);
+    // console.log(report);
   }
 };
 
