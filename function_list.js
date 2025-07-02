@@ -281,47 +281,47 @@ export const auditSeoData = async (page) => {
     const productTitle = await productLabelTitle.innerText();
     const productTitleSplit = productTitle.split(" ");
 
-    const pageTitle = await page.$("#seo_page_title_1");
-    const metaDescription = await page.$("#seo_page_description_1");
+    // const pageTitle = await page.$("#seo_page_title_1");
+    // const metaDescription = await page.$("#seo_page_description_1");
     const markUp = await page.$("#schema_markup_1");
     // const metaAdditional = await page.$("#seo_page_metatags1");
 
-    let equalsTrue = 0;
-    let equalsFalse = 0;
-    let dateNull = false;
-
-    const date = [
+    // let equalsTrue = 0;
+    // let equalsFalse = 0;
+    // let dateNull = false;
+    //
+    const data = [
       id,
-      await pageTitle.inputValue(),
-      await metaDescription.inputValue(),
+      // await pageTitle.inputValue(),
+      // await metaDescription.inputValue(),
       await markUp.inputValue(),
       // await metaAdditional.inputValue(),
     ];
 
-    for await (const element of productTitleSplit) {
-      date[1].includes(element) === true ? equalsTrue++ : equalsFalse++;
-    }
-
+    // for await (const element of productTitleSplit) {
+    //   date[1].includes(element) === true ? equalsTrue++ : equalsFalse++;
+    // }
+    //
     // console.log(`equalsTrue = ${equalsTrue}`);
     // console.log(`equalsFalse = ${equalsFalse}`);
 
-    for await (const input of date) {
-      if (input === "") dateNull = true;
-    }
-
-    const markUpImageAudit = date[3].includes(`"image":`);
+    // for await (const input of date) {
+    //   if (input === "") dateNull = true;
+    // }
+    //
+    const markUpAudit = data[1].includes(`2025`);
     // const markUpImageEmptyAudit = date[3].includes(`"image": []`);
 
     if (
-      dateNull === true ||
-      equalsTrue < 2 ||
-      date[3] === "" ||
-      markUpImageAudit === false
+      // dataNull === true ||
+      // equalsTrue < 2 ||
+      data[1] === "" ||
+      markUpAudit === false
       // markUpImageEmptyAudit === true
     ) {
       fs.appendFileSync(
         "list.txt",
-        `${date[0]};${productTitle};${date[1]};${date[2]};${date[3]} \n`
+        `${data[0]};${productTitle};${data[1]}; \n`
       );
     }
 
@@ -609,7 +609,7 @@ export const getMarkUpSchemaProducts = async (page) => {
     )}"},"offers": {"@type": "Offer","url": "https://www.apprinting.com/blue-flowers-and-leaves-wedding-invitation/","priceCurrency": "USD","price": ${price},"priceValidUntil": "2025-12-25","itemCondition": "https://schema.org/UsedCondition","availability": "https://schema.org/InStock"}}\`,`;
 
     fs.appendFileSync("list.txt", report + "\n");
-    // console.log(report);
+    console.log(`working ---> ${id}`);
   }
 };
 
