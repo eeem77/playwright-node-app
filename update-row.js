@@ -145,6 +145,10 @@ const updateRow = async () => {
 
   // SEO
   await login(page);
+  // await getIdProducts(
+  //   page,
+  //   ""
+  // );
   // await getIdProductsAdmin(
   //   page,
   //   ""

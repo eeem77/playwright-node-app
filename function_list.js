@@ -210,13 +210,10 @@ export const getIdProductsAdmin = async (page, url) => {
   }
 };
 
-export const getIdProducts = async (page) => {
-  await page.goto(
-    "https://www.apprinting.com/en/vietnamese-wedding-invitations/products/",
-    {
-      timeout: 300000,
-    }
-  );
+export const getIdProducts = async (page, url) => {
+  await page.goto(url, {
+    timeout: 300000,
+  });
   const products = await page.$$eval(".product-box", (node) =>
     node.map((n) => n.className)
   );
@@ -594,13 +591,20 @@ export const getMarkUpSchemaProducts = async (page) => {
       }
     }
 
-    await page.goto(`https://www.apprinting.com/en/${urlProductValue}`, {
-      timeout: 300000,
-    });
-    const priceSpan = await page.$("#disp_product_price");
-    const priceSpanValue = await priceSpan.innerText();
-    const price = await priceSpanValue.replace("$", "");
+    let price = "";
 
+    if (
+      urlProductValue !== "" &&
+      urlProductValue !== null &&
+      urlProductValue !== undefined
+    ) {
+      await page.goto(`https://www.apprinting.com/en/${urlProductValue}`, {
+        timeout: 300000,
+      });
+      const priceSpan = await page.$("#disp_product_price");
+      const priceSpanValue = await priceSpan.innerText();
+      price = await priceSpanValue.replace("$", "");
+    }
     const report = `\`{"@context":"https://schema.org/","@type":"Product","name":"${productNameValue}","image": [${images}],"description":"${productNameValue}. A high-quality product offered by AP PRINTING. Our design team ensures that every detail is perfect to meet our customers' needs.","sku":"${productSkuValue}","brand":{"@type":"Brand","name":"AP PRINTING"},"review":{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue":"4","bestRating":"5"},"author":{"@type":"Person","name":"AP PRINTING DESIGN TEAM"}},"aggregateRating":{"@type":"AggregateRating","ratingValue":"${(
       Math.random() * (5 - 4.1) +
       4.1
