@@ -1,6 +1,9 @@
 export const url = "https://www.apprinting.com/admin/";
 
-export const idProducts = [5624, 5625, 5626, 5627];
+export const idProducts = [
+  5641, 5646, 5544, 5529, 5534, 5545, 5530, 5539, 5532, 5542, 5535, 5541, 5543,
+  5533, 5536, 5537, 5538, 5540, 5546, 5531,
+];
 
 export const urlProductUpdatePrice =
   "https://www.apprinting.com/bilingual-wedding-invitations/products/#category_product_list";
