@@ -598,12 +598,17 @@ export const getMarkUpSchemaProducts = async (page) => {
       urlProductValue !== null &&
       urlProductValue !== undefined
     ) {
-      await page.goto(`https://www.apprinting.com/en/${urlProductValue}`, {
+      try {
+        await page.goto(`https://www.apprinting.com/en/${urlProductValue}`, {
         timeout: 300000,
       });
       const priceSpan = await page.$("#disp_product_price");
       const priceSpanValue = await priceSpan.innerText();
       price = await priceSpanValue.replace("$", "");
+      } catch (error) {
+        
+      }
+      
     }
     const report = `\`{"@context":"https://schema.org/","@type":"Product","name":"${productNameValue}","image": [${images}],"description":"${productNameValue}. A high-quality product offered by AP PRINTING. Our design team ensures that every detail is perfect to meet our customers' needs.","sku":"${productSkuValue}","brand":{"@type":"Brand","name":"AP PRINTING"},"review":{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue":"4","bestRating":"5"},"author":{"@type":"Person","name":"AP PRINTING DESIGN TEAM"}},"aggregateRating":{"@type":"AggregateRating","ratingValue":"${(
       Math.random() * (5 - 4.1) +

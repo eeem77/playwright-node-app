@@ -154,8 +154,8 @@ const updateRow = async () => {
   //   ""
   // );
   // await auditSeoData(page);
-  await getMarkUpSchemaProducts(page);
-  // await setMarkUpData(page);
+  // await getMarkUpSchemaProducts(page);
+  await setMarkUpData(page);
   // await changedSeoData(page);
   // await getTitleAndChangedTitleImagesGallery(page);
   // await getTitleTitleImagesGallery(page);
