@@ -26,6 +26,7 @@ import {
   getTotalModelPricesProducts,
   getAssociatedCategoryProduct,
   changedSeoData,
+  getAuditRulesReport,
 } from "./function_list.js";
 // import { proxies } from './data.js'
 // import fs from 'fs'
@@ -143,8 +144,20 @@ const updateRow = async () => {
   // await getAssociatedCategoryProduct(page);
   // await changeAssociatedCategoryProduct(page);
 
-  // SEO
+  // AUDIT RULES
   await login(page);
+  // await getIdProducts(
+  //   page,
+  //   ""
+  // );
+  // await getIdProductsAdmin(
+  //   page,
+  //   ""
+  // );
+  await getAuditRulesReport(page);
+
+  // SEO
+  // await login(page);
   // await getIdProducts(
   //   page,
   //   ""
@@ -155,7 +168,7 @@ const updateRow = async () => {
   // );
   // await auditSeoData(page);
   // await getMarkUpSchemaProducts(page);
-  await setMarkUpData(page);
+  // await setMarkUpData(page);
   // await changedSeoData(page);
   // await getTitleAndChangedTitleImagesGallery(page);
   // await getTitleTitleImagesGallery(page);

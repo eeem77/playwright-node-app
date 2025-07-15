@@ -600,15 +600,12 @@ export const getMarkUpSchemaProducts = async (page) => {
     ) {
       try {
         await page.goto(`https://www.apprinting.com/en/${urlProductValue}`, {
-        timeout: 300000,
-      });
-      const priceSpan = await page.$("#disp_product_price");
-      const priceSpanValue = await priceSpan.innerText();
-      price = await priceSpanValue.replace("$", "");
-      } catch (error) {
-        
-      }
-      
+          timeout: 300000,
+        });
+        const priceSpan = await page.$("#disp_product_price");
+        const priceSpanValue = await priceSpan.innerText();
+        price = await priceSpanValue.replace("$", "");
+      } catch (error) {}
     }
     const report = `\`{"@context":"https://schema.org/","@type":"Product","name":"${productNameValue}","image": [${images}],"description":"${productNameValue}. A high-quality product offered by AP PRINTING. Our design team ensures that every detail is perfect to meet our customers' needs.","sku":"${productSkuValue}","brand":{"@type":"Brand","name":"AP PRINTING"},"review":{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue":"4","bestRating":"5"},"author":{"@type":"Person","name":"AP PRINTING DESIGN TEAM"}},"aggregateRating":{"@type":"AggregateRating","ratingValue":"${(
       Math.random() * (5 - 4.1) +
@@ -1258,12 +1255,12 @@ export const getXmlProducts = async (page) => {
     //   "&nbsp;"
     // );
 
-      await page.goto(`https://www.apprinting.com/en/${urlProductValue}`, {
-        timeout: 300000,
-      });
-      const priceSpan = await page.$("#disp_product_price");
-      const priceSpanValue = await priceSpan.innerText();
-      const price = await priceSpanValue.replace("$","");
+    await page.goto(`https://www.apprinting.com/en/${urlProductValue}`, {
+      timeout: 300000,
+    });
+    const priceSpan = await page.$("#disp_product_price");
+    const priceSpanValue = await priceSpan.innerText();
+    const price = await priceSpanValue.replace("$", "");
 
     // await page.goto(
     //   `https://www.apprinting.com/admin/product_price.php?product_id=${id}`,
@@ -1781,7 +1778,10 @@ export const getPricesProducts = async (page) => {
     }
     // let report = totalSumPrice + pricesTotal;
     let report = pricesModel.toString();
-    fs.appendFileSync("list-audit-prices-vietnamese-english.txt", `${report}\n`);
+    fs.appendFileSync(
+      "list-audit-prices-vietnamese-english.txt",
+      `${report}\n`
+    );
     // fs.appendFileSync("model-check-simple-flat.txt", `\n`);
   }
 };
@@ -1851,7 +1851,10 @@ export const getModelPricesProducts = async (page) => {
       }
     }
     let report = pricesModel.toString();
-    fs.appendFileSync("list-audit-prices-vietnamese-english.txt", `${report}\n`);
+    fs.appendFileSync(
+      "list-audit-prices-vietnamese-english.txt",
+      `${report}\n`
+    );
   }
 };
 
@@ -1938,7 +1941,28 @@ export const getTotalModelPricesProducts = async (page) => {
       }
     }
     let report = totalSumPrice + pricesTotal;
-    fs.appendFileSync("list-audit-prices-vietnamese-english.txt", `${report}\n`);
+    fs.appendFileSync(
+      "list-audit-prices-vietnamese-english.txt",
+      `${report}\n`
+    );
+  }
+};
+
+export const getAuditRulesReport = async (page) => {
+  for await (const id of idProducts) {
+    await page.goto(
+      `https://www.apprinting.com/admin/product_additionalrules_list.php?product_id=${id}`,
+      { timeout: 300000 }
+    );
+    await page.waitForSelector("#ops-table");
+    const tableRules = await page.$("tbody");
+    const col = await tableRules.$$eval("tr", node => node.map(n => n.innerText));
+    let auditElement = [];
+    for await (const element of col) {
+      auditElement.push(element.length)      
+    }
+    fs.appendFileSync("list.txt", `${id} ---> ${auditElement}\n`);
+    console.log("Working ---> ", id);
   }
 };
 
@@ -1951,7 +1975,10 @@ export const getAttributes = async (page) => {
     await page.waitForSelector(".table-responsive");
     const table = await page.$(".table-responsive");
     const blocks = await table.$$('[id^="prod_add_opt_id"]');
-    fs.appendFileSync("list-audit-prices-vietnamese-english.txt", `${id} ---> `);
+    fs.appendFileSync(
+      "list-audit-prices-vietnamese-english.txt",
+      `${id} ---> `
+    );
     for await (const block of blocks) {
       const attributes = await block.$$("span.badge.badge-info");
       const attributesLen = attributes.length;
