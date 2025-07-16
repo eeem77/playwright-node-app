@@ -1956,11 +1956,26 @@ export const getAuditRulesReport = async (page) => {
     );
     await page.waitForSelector("#ops-table");
     const tableRules = await page.$("tbody");
-    const col = await tableRules.$$eval("tr", node => node.map(n => n.innerText));
+    const btnEdit = await tableRules.$$('[data-original-title="Edit"]');
     let auditElement = [];
-    for await (const element of col) {
-      auditElement.push(element.length)      
+    let urlsEdit = [];
+    for await (const element of btnEdit) {
+      urlsEdit.push(await element.getAttribute("href"));
     }
+    for await (const element of urlsEdit) {
+      await page.goto(`https://www.apprinting.com/admin/${element}`, {
+        timeout: 300000,
+      });
+      // await page.waitForTimeout(3000);
+      const checkboxes = await page.$$('[type = "checkbox"]');
+      let checkboxesCheckedTrue = 0;
+      for await (const element of checkboxes) {
+        const checkBox = await element.isChecked();
+        if (checkBox === true) checkboxesCheckedTrue++;
+      }
+      auditElement.push(checkboxesCheckedTrue);
+    }
+     
     fs.appendFileSync("list.txt", `${id} ---> ${auditElement}\n`);
     console.log("Working ---> ", id);
   }
