@@ -30,6 +30,7 @@ import {
   getRedirectionLinksAdmin,
   getLinksActiveClient,
   cleanLinksActiveClient,
+  createXmlSiteMap,
 } from "./function_list.js";
 // import { proxies } from './data.js'
 // import fs from 'fs'
@@ -164,7 +165,8 @@ const updateRow = async () => {
   //   page,
   //   "https://www.apprinting.com/en/offsite-albums/products/"
   // );
-  await cleanLinksActiveClient();
+  // await cleanLinksActiveClient();
+  await createXmlSiteMap();
 
   //SEO GET URL REDIRECTION
   // await getRedirectionLinksAdmin(

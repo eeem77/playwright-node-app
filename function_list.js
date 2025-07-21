@@ -224,6 +224,57 @@ export const cleanLinksActiveClient = async () => {
   console.log(links);
 }
 
+function getLocalISOStringWithOffset(date) {
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, "0"); // Meses son 0-indexados
+  const day = String(date.getDate()).padStart(2, "0");
+  const hours = String(date.getHours()).padStart(2, "0");
+  const minutes = String(date.getMinutes()).padStart(2, "0");
+  const seconds = String(date.getSeconds()).padStart(2, "0");
+
+  const timezoneOffsetMinutes = date.getTimezoneOffset(); // Devuelve el offset en minutos desde UTC
+  const offsetSign = timezoneOffsetMinutes > 0 ? "-" : "+";
+  const offsetHours = String(
+    Math.floor(Math.abs(timezoneOffsetMinutes) / 60)
+  ).padStart(2, "0");
+  const offsetMinutes = String(Math.abs(timezoneOffsetMinutes) % 60).padStart(
+    2,
+    "0"
+  );
+
+  return `${year}-${month}-${day}T${hours}:${minutes}:${seconds}${offsetSign}${offsetHours}:${offsetMinutes}`;
+}
+
+export const createXmlSiteMap = async () => {
+  const header = `
+    <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://www.apprinting.com/sitemap.xsl"?>
+    <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  `;
+  let body = '';
+  const now = new Date();
+  const formattedDate = getLocalISOStringWithOffset(now);
+  for await (const link of dataLinks) {
+    body =
+      body +
+      `
+      <url>
+          <loc>${link}</loc>
+          <lastmod>${formattedDate}</lastmod>
+          <priority>1</priority>
+          <changefreq>always</changefreq>
+      </url>
+    `;
+  }
+  const footer = `</urlset>`;
+  fs.appendFileSync(
+    "list-link-active-client.xml",
+    `${header}${body}${footer}\n`
+  );
+  // console.log(links);
+};
+
 export const getRedirectionLinksAdmin = async (page, url) => {
   await page.goto(url, {
     timeout: 300000,
