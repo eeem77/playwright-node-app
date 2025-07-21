@@ -1,5 +1,4 @@
-export const dataLinks = [
-    "https://www.apprinting.com/en/real-estate-product-category/products/",
+"https://www.apprinting.com/en/real-estate-product-category/products/",
 "https://www.apprinting.com/en/auto-repair-smog-check/products/",
 "https://www.apprinting.com/en/hair-nails/products/",
 "https://www.apprinting.com/en/doctors-dental-offices/products/",
@@ -3940,5 +3939,5 @@ export const dataLinks = [
 "https://www.apprinting.com/en/lined-envelope-colors.html",
 "https://www.apprinting.com/en/ribbon-colors.html",
 "https://www.apprinting.com/quote_create.php",
-"https://www.apprinting.com/",
-]
+"https://www.apprinting.com/.toString()",
+"

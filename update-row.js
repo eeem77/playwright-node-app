@@ -29,6 +29,7 @@ import {
   getAuditRulesReport,
   getRedirectionLinksAdmin,
   getLinksActiveClient,
+  cleanLinksActiveClient,
 } from "./function_list.js";
 // import { proxies } from './data.js'
 // import fs from 'fs'
@@ -159,10 +160,11 @@ const updateRow = async () => {
   // await getAuditRulesReport(page);
 
   //SEO GET URL'S ACTIVE CLIENT WEB
-  await getLinksActiveClient(
-    page,
-    "https://www.apprinting.com/en/offsite-albums/products/"
-  );
+  // await getLinksActiveClient(
+  //   page,
+  //   "https://www.apprinting.com/en/offsite-albums/products/"
+  // );
+  await cleanLinksActiveClient();
 
   //SEO GET URL REDIRECTION
   // await getRedirectionLinksAdmin(

@@ -3,6 +3,7 @@ import * as dotenv from "dotenv";
 import listPrice from "./listPrice.js";
 import dataProducts from "./list.js";
 import seoData from "./seo-data.js";
+import {dataLinks} from "./data-links.js";
 import {
   idProducts,
   urlsProducts,
@@ -216,6 +217,12 @@ export const getLinksActiveClient = async (page, url) => {
     console.log(linkValue);
   }
 };
+
+export const cleanLinksActiveClient = async () => {
+  const links =  [...new Set(dataLinks)]
+  fs.appendFileSync("list-link-active-client-clean.txt", `${links}\n`);
+  console.log(links);
+}
 
 export const getRedirectionLinksAdmin = async (page, url) => {
   await page.goto(url, {
