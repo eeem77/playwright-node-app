@@ -27,6 +27,7 @@ import {
   getAssociatedCategoryProduct,
   changedSeoData,
   getAuditRulesReport,
+  getRedirectionLinksAdmin,
 } from "./function_list.js";
 // import { proxies } from './data.js'
 // import fs from 'fs'
@@ -154,7 +155,13 @@ const updateRow = async () => {
   //   page,
   //   ""
   // );
-  await getAuditRulesReport(page);
+  // await getAuditRulesReport(page);
+
+  //SEO GET URL REDIRECTION
+  await getRedirectionLinksAdmin(
+    page,
+    "https://www.apprinting.com/admin/url_redirection_listing.php"
+  );
 
   // SEO
   // await login(page);

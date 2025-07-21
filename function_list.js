@@ -176,6 +176,79 @@ const extractId = async (page, index) => {
   }
 };
 
+const extractDataTable = async (page, index) => {
+  await page.waitForSelector("tbody");
+  const table = await page.$("tbody");
+  const tr = await table.$$("tr");
+  for await (const element of tr) {
+    const data = await element.innerText();
+    const dataClean = data.replace(/\s+/g, ",");   
+    console.log(dataClean);
+
+    fs.appendFileSync("list-id-admin.txt", `${dataClean}\n`);
+
+    // const id = await element.getAttribute("id");
+    // const idSplit = await id.split(":");
+    // const nameElement = await element.$(".text-primary");
+    // const name = await nameElement.innerText();
+    // const statusElement = await element.$(".change_status");
+    // const status = await statusElement.getAttribute("value");
+    // fs.appendFileSync(
+    //   "list-id-admin.txt",
+    //   `${idSplit[1].toString()}, ${name}, ${status}\n`
+    // );
+  }
+  if (index) {
+    console.log(index);
+  }
+};
+
+export const getRedirectionLinksAdmin = async (page, url) => {
+  await page.goto(url, {
+    timeout: 300000,
+  });
+  await page.waitForSelector(".pagination");
+  // const nextBtnPagination = await page.$("#ops-table_next");
+
+  for (let index = 0; index < 24; index++) {
+    await extractDataTable(page, index);
+    const nextBtnPagination = await page.$("#ops-table_next");
+    await nextBtnPagination.click();
+    await page.waitForTimeout(2000);
+  }
+
+
+  // await nextBtnPagination.click()
+  // const opsPagination = await page.$$(".paginate_button.page-item");
+  // console.log(opsPagination.length);
+
+  // if (opsPagination.length > 3) {
+  //   const numberRepeat = opsPagination.length - 1;
+  //   for (let index = 1; index < numberRepeat; index++) {
+  //     if (index > 1) {
+  //       try {
+  //         await page.waitForSelector(".pagination");
+  //         const opsPagination = await page.$$(".paginate_button.page-item");
+  //         await opsPagination[index].click();
+  //         await page.waitForSelector("tbody");
+  //       } catch (error) {
+  //         await page.waitForSelector(".pagination");
+  //         const opsPagination = await page.$$(".paginate_button.page-item");
+  //         const tablePagination = await page.$(".table_pagination");
+  //         await tablePagination.scrollIntoViewIfNeeded();
+  //         await opsPagination[index].click();
+  //         await page.waitForSelector("tbody");
+  //       }
+  //       // await extractId(page, index);
+  //       await extractDataTable(page, index);
+  //     }
+  //   }
+  //   await extractId(page);
+  // } else {
+  //   await extractId(page);
+  // }
+};
+
 export const getIdProductsAdmin = async (page, url) => {
   await page.goto(url, {
     timeout: 300000,
@@ -202,6 +275,7 @@ export const getIdProductsAdmin = async (page, url) => {
           await page.waitForSelector("tbody");
         }
         await extractId(page, index);
+        // await extractDataTable(page, index);
       }
     }
     await extractId(page);
