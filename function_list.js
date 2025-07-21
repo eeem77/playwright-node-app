@@ -203,6 +203,20 @@ const extractDataTable = async (page, index) => {
   }
 };
 
+export const getLinksActiveClient = async (page, url) => {
+  await page.goto(url, {
+    timeout: 300000,
+  });
+  const section = await page.$("#main-content");
+  await page.waitForSelector("#main-content");
+  const links = await section.$$(".stretched-link");
+  for await (const link of links) {
+    const linkValue = await link.getAttribute("href");
+    fs.appendFileSync("list-link-active-client.txt", `${linkValue}\n`);
+    console.log(linkValue);
+  }
+};
+
 export const getRedirectionLinksAdmin = async (page, url) => {
   await page.goto(url, {
     timeout: 300000,
@@ -217,36 +231,6 @@ export const getRedirectionLinksAdmin = async (page, url) => {
     await page.waitForTimeout(2000);
   }
 
-
-  // await nextBtnPagination.click()
-  // const opsPagination = await page.$$(".paginate_button.page-item");
-  // console.log(opsPagination.length);
-
-  // if (opsPagination.length > 3) {
-  //   const numberRepeat = opsPagination.length - 1;
-  //   for (let index = 1; index < numberRepeat; index++) {
-  //     if (index > 1) {
-  //       try {
-  //         await page.waitForSelector(".pagination");
-  //         const opsPagination = await page.$$(".paginate_button.page-item");
-  //         await opsPagination[index].click();
-  //         await page.waitForSelector("tbody");
-  //       } catch (error) {
-  //         await page.waitForSelector(".pagination");
-  //         const opsPagination = await page.$$(".paginate_button.page-item");
-  //         const tablePagination = await page.$(".table_pagination");
-  //         await tablePagination.scrollIntoViewIfNeeded();
-  //         await opsPagination[index].click();
-  //         await page.waitForSelector("tbody");
-  //       }
-  //       // await extractId(page, index);
-  //       await extractDataTable(page, index);
-  //     }
-  //   }
-  //   await extractId(page);
-  // } else {
-  //   await extractId(page);
-  // }
 };
 
 export const getIdProductsAdmin = async (page, url) => {

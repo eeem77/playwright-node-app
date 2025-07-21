@@ -28,6 +28,7 @@ import {
   changedSeoData,
   getAuditRulesReport,
   getRedirectionLinksAdmin,
+  getLinksActiveClient,
 } from "./function_list.js";
 // import { proxies } from './data.js'
 // import fs from 'fs'
@@ -146,7 +147,7 @@ const updateRow = async () => {
   // await changeAssociatedCategoryProduct(page);
 
   // AUDIT RULES
-  await login(page);
+  // await login(page);
   // await getIdProducts(
   //   page,
   //   ""
@@ -157,11 +158,17 @@ const updateRow = async () => {
   // );
   // await getAuditRulesReport(page);
 
-  //SEO GET URL REDIRECTION
-  await getRedirectionLinksAdmin(
+  //SEO GET URL'S ACTIVE CLIENT WEB
+  await getLinksActiveClient(
     page,
-    "https://www.apprinting.com/admin/url_redirection_listing.php"
+    "https://www.apprinting.com/en/offsite-albums/products/"
   );
+
+  //SEO GET URL REDIRECTION
+  // await getRedirectionLinksAdmin(
+  //   page,
+  //   "https://www.apprinting.com/admin/url_redirection_listing.php"
+  // );
 
   // SEO
   // await login(page);
