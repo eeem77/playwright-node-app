@@ -31,6 +31,8 @@ import {
   getLinksActiveClient,
   cleanLinksActiveClient,
   createXmlSiteMap,
+  getSizesImages,
+  getSizesImagesFinal,
 } from "./function_list.js";
 // import { proxies } from './data.js'
 // import fs from 'fs'
@@ -148,6 +150,10 @@ const updateRow = async () => {
   // await getAssociatedCategoryProduct(page);
   // await changeAssociatedCategoryProduct(page);
 
+  // AUDIT IMAGES SIZES
+  // await getSizesImages(page, "https://www.apprinting.com/");
+  await getSizesImagesFinal(page);
+
   // AUDIT RULES
   // await login(page);
   // await getIdProducts(
@@ -166,7 +172,7 @@ const updateRow = async () => {
   //   "https://www.apprinting.com/en/offsite-albums/products/"
   // );
   // await cleanLinksActiveClient();
-  await createXmlSiteMap();
+  // await createXmlSiteMap();
 
   //SEO GET URL REDIRECTION
   // await getRedirectionLinksAdmin(

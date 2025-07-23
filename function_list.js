@@ -3,7 +3,8 @@ import * as dotenv from "dotenv";
 import listPrice from "./listPrice.js";
 import dataProducts from "./list.js";
 import seoData from "./seo-data.js";
-import {dataLinks} from "./data-links.js";
+import { dataLinks } from "./data-links.js";
+import { dataLinksImages } from "./data-links-imgs.js";
 import {
   idProducts,
   urlsProducts,
@@ -183,7 +184,7 @@ const extractDataTable = async (page, index) => {
   const tr = await table.$$("tr");
   for await (const element of tr) {
     const data = await element.innerText();
-    const dataClean = data.replace(/\s+/g, ",");   
+    const dataClean = data.replace(/\s+/g, ",");
     console.log(dataClean);
 
     fs.appendFileSync("list-id-admin.txt", `${dataClean}\n`);
@@ -219,10 +220,10 @@ export const getLinksActiveClient = async (page, url) => {
 };
 
 export const cleanLinksActiveClient = async () => {
-  const links =  [...new Set(dataLinks)]
+  const links = [...new Set(dataLinks)];
   fs.appendFileSync("list-link-active-client-clean.txt", `${links}\n`);
   console.log(links);
-}
+};
 
 function getLocalISOStringWithOffset(date) {
   const year = date.getFullYear();
@@ -252,7 +253,7 @@ export const createXmlSiteMap = async () => {
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   `;
-  let body = '';
+  let body = "";
   const now = new Date();
   const formattedDate = getLocalISOStringWithOffset(now);
   for await (const link of dataLinks) {
@@ -288,7 +289,26 @@ export const getRedirectionLinksAdmin = async (page, url) => {
     await nextBtnPagination.click();
     await page.waitForTimeout(2000);
   }
+};
 
+export const getSizesImages = async (page, url) => {
+  await page.goto(url);
+  const images = await page.$$("img");
+  for await (const image of images) {
+    const src = await image.getAttribute("src");
+    fs.appendFileSync("list-src-img.txt", `"${src}",\n`);
+  }
+};
+
+export const getSizesImagesFinal = async (page) => {
+  for await (const image of dataLinksImages) {
+    const response = await page.goto(image);
+    const buffer = await response.body();
+    const sizeInBytes = buffer.length;
+    const sizeInKB = sizeInBytes / 1024;
+    fs.appendFileSync("list-size-img.txt", `"${image} ---> ${sizeInKB}",\n`);
+    console.log(`the image size is: ${sizeInKB.toFixed(2)} KB`);
+  }
 };
 
 export const getIdProductsAdmin = async (page, url) => {
@@ -2091,7 +2111,7 @@ export const getAuditRulesReport = async (page) => {
       }
       auditElement.push(checkboxesCheckedTrue);
     }
-     
+
     fs.appendFileSync("list.txt", `${id} ---> ${auditElement}\n`);
     console.log("Working ---> ", id);
   }
