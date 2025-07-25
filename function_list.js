@@ -304,11 +304,11 @@ export const getSizesImagesFinal = async (page) => {
   for await (const image of dataLinksImages) {
     const response = await page.goto(image);
     const buffer = await response.body();
-    const sizeInBytes = buffer.length;
+    const sizeInBytes = Number(buffer.length);
     const sizeInKB = sizeInBytes / 1024;
     fs.appendFileSync(
       "list-size-img.txt",
-      `"${image} ---> ${sizeInKB.toFixed(2)} KB",\n`
+      `${image},${(sizeInKB).toFixed(2)}\n`
     );
     console.log(`the image size is: ${sizeInKB.toFixed(2)} KB`);
   }
