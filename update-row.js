@@ -151,7 +151,10 @@ const updateRow = async () => {
   // await changeAssociatedCategoryProduct(page);
 
   // AUDIT IMAGES SIZES
-  // await getSizesImages(page, "https://www.apprinting.com/");
+  // await getSizesImages(
+  //   page,
+  //   "https://www.apprinting.com/en/real-estate-product-category/products/"
+  // );
   await getSizesImagesFinal(page);
 
   // AUDIT RULES
