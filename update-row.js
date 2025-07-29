@@ -152,7 +152,10 @@ const updateRow = async () => {
   // await changeAssociatedCategoryProduct(page);
 
   // AUDIT IMAGES SIZES
-  // await getSizesImages(page, "https://www.apprinting.com/en/booklet/products/");
+  // await getSizesImages(
+  //   page,
+  //   "https://www.apprinting.com/en/unique-style-wedding-invitation/products/"
+  // );
   await getSizesImagesFinal(page);
 
   // AUDIT RULES
