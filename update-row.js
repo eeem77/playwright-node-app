@@ -153,7 +153,7 @@ const updateRow = async () => {
   // AUDIT IMAGES SIZES
   // await getSizesImages(
   //   page,
-  //   "https://www.apprinting.com/en/restaurants-shop-by-business/products/"
+  //   "https://www.apprinting.com/en/landscaping-contractors/products/"
   // );
   await getSizesImagesFinal(page);
 
