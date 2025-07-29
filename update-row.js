@@ -152,11 +152,8 @@ const updateRow = async () => {
   // await changeAssociatedCategoryProduct(page);
 
   // AUDIT IMAGES SIZES
-  await getSizesImages(
-    page,
-    "https://www.apprinting.com/en/law-office-178/products/"
-  );
-  // await getSizesImagesFinal(page);
+  // await getSizesImages(page, "https://www.apprinting.com/en/booklet/products/");
+  await getSizesImagesFinal(page);
 
   // AUDIT RULES
   // await login(page);
