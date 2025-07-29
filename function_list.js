@@ -296,20 +296,25 @@ export const getSizesImages = async (page, url) => {
   const images = await page.$$("img");
   for await (const image of images) {
     const src = await image.getAttribute("src");
-    fs.appendFileSync("list-src-img.txt", `"${src}",\n`);
+    const alt = await image.getAttribute("alt");
+    fs.appendFileSync("list-src-img.txt", `["${src}","${alt}"],\n`);
   }
 };
 
 export const getSizesImagesFinal = async (page) => {
   for await (const image of dataLinksImages) {
-    const response = await page.goto(image);
+    const response = await page.goto(image[0]);
     const buffer = await response.body();
     const sizeInBytes = Number(buffer.length);
     const sizeInKB = sizeInBytes / 1024;
-    fs.appendFileSync(
-      "list-size-img.txt",
-      `${image},${(sizeInKB).toFixed(2)}\n`
-    );
+
+    if (sizeInKB >= 250) {
+      fs.appendFileSync(
+        "list-size-img.txt",
+        `${image[0]},${image[1]},${sizeInKB.toFixed(2)}\n`
+      );
+    }
+
     console.log(`the image size is: ${sizeInKB.toFixed(2)} KB`);
   }
 };

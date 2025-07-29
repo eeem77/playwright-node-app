@@ -56,6 +56,7 @@ const updateRow = async () => {
     headless: false, // Cambia a true si no quieres que se muestre la ventana
     // executablePath: "C:\\Program Files\\Google\\Chrome\\Application",
     // viewport: { width: 1440, height: 870 },
+    // acceptDownloads: true,
   });
 
   // const browser = await chromium.launch();
@@ -151,11 +152,11 @@ const updateRow = async () => {
   // await changeAssociatedCategoryProduct(page);
 
   // AUDIT IMAGES SIZES
-  // await getSizesImages(
-  //   page,
-  //   "https://www.apprinting.com/en/landscaping-contractors/products/"
-  // );
-  await getSizesImagesFinal(page);
+  await getSizesImages(
+    page,
+    "https://www.apprinting.com/en/law-office-178/products/"
+  );
+  // await getSizesImagesFinal(page);
 
   // AUDIT RULES
   // await login(page);
