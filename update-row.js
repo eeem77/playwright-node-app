@@ -152,11 +152,11 @@ const updateRow = async () => {
   // await changeAssociatedCategoryProduct(page);
 
   // AUDIT IMAGES SIZES
-  await getSizesImages(
-    page,
-    "https://www.apprinting.com/en/6-14-square-himalaya-pockets-wedding-invitation/products/"
-  );
-  // await getSizesImagesFinal(page);
+  // await getSizesImages(
+  //   page,
+  //   "https://www.apprinting.com/en/simple-elegant-wedding-invitations/products/"
+  // );
+  await getSizesImagesFinal(page);
 
   // AUDIT RULES
   // await login(page);
