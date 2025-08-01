@@ -297,7 +297,7 @@ export const getSizesImages = async (page, url) => {
   for await (const image of images) {
     const src = await image.getAttribute("src");
     const alt = await image.getAttribute("alt");
-    fs.appendFileSync("list-src-img.txt", `["${src}","${alt}"],\n`);
+    fs.appendFileSync("list-src-img.txt", `['${src}','${alt}'],\n`);
   }
 };
 
