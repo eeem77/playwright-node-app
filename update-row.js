@@ -152,10 +152,7 @@ const updateRow = async () => {
   // await changeAssociatedCategoryProduct(page);
 
   // AUDIT IMAGES SIZES
-  // await getSizesImages(
-  //   page,
-  //   "https://www.apprinting.com/en/welcome-signs/products/"
-  // );
+  // await getSizesImages(page, "https://www.apprinting.com/en/posters/products/");
   await getSizesImagesFinal(page);
 
   // AUDIT RULES
