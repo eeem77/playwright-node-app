@@ -955,6 +955,26 @@ export const getUrlProducts = async (page) => {
   }
 };
 
+export const getUrlClientProducts = async (page, url) => {
+  await page.goto(url);
+  const productsElementDom = page.$$(".product-box");
+  for await (const productElementDom of productsElementDom) {
+    const titleElementDom = await productElementDom.$(".card-title.text-info");
+    const titleValue = await titleElementDom.innerText();
+    const linkValue = await productElementDom.getAttribute("href");
+    // await page.goto(
+    //   `https://www.apprinting.com/admin/product_action.php?product_id=${id}`,
+    //   { timeout: 300000 }
+    // );
+    // const url = await page.$("#product_url_1");
+    // const urlInput = await url.inputValue();
+    // const report = `{id:${id},url:"https://www.apprinting.com/${urlInput}/"},\n`;
+    const report = `[${titleValue},${linkValue}]\n`;
+    fs.appendFileSync("list.txt", report);
+    console.log(`working ---> ${report}`);
+  }
+};
+
 export const getTitleProduct = async (page) => {
   for await (const id of idProducts) {
     await page.goto(

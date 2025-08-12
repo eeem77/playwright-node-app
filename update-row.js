@@ -33,6 +33,8 @@ import {
   createXmlSiteMap,
   getSizesImages,
   getSizesImagesFinal,
+  getUrlProducts,
+  getUrlClientProducts,
 } from "./function_list.js";
 // import { proxies } from './data.js'
 // import fs from 'fs'
@@ -153,7 +155,8 @@ const updateRow = async () => {
 
   // AUDIT IMAGES SIZES
   // await getSizesImages(page, "https://www.apprinting.com/en/posters/products/");
-  await getSizesImagesFinal(page);
+  // await getSizesImagesFinal(page);
+  await getUrlClientProducts(page);
 
   // AUDIT RULES
   // await login(page);
