@@ -5,6 +5,57 @@ export const idProducts = [
   3707, 3365, 3375, 3372, 3420, 3622, 3621,
 ];
 
+export const urlProducts = [
+  [
+    "Beautiful Gold Leaves Foil Wedding Invitation",
+    "https://www.apprinting.com/en/beautiful-gold-leaves-foil-wedding-invitation/",
+  ],
+  [
+    "Chinese Foil Wedding Invitation",
+    "https://www.apprinting.com/en/chinese-foil-wedding-invitation/",
+  ],
+  [
+    "Elegant Pink Foil Wedding Invitation",
+    "https://www.apprinting.com/en/elegant-pink-foil-wedding-invitation/",
+  ],
+  [
+    "Enviable Galactic Pink Foil Wedding Invitation",
+    "https://www.apprinting.com/en/enviable-galactic-pink-foil-wedding-invitation/",
+  ],
+  [
+    "Gold Sheet Foil Wedding Invitation",
+    "https://www.apprinting.com/en/gold-sheet-foil-wedding-invitation/",
+  ],
+  [
+    "Golden Floral Design Foil Wedding Invitation",
+    "https://www.apprinting.com/en/golden-floral-design-foil-wedding-invitation/",
+  ],
+  [
+    "Leaves Frame Foil Wedding Invitation",
+    "https://www.apprinting.com/en/leaves-frame-foil-wedding-invitation/",
+  ],
+  [
+    "Red Letter Foil Wedding Invitation",
+    "https://www.apprinting.com/en/red-letter-foil-wedding-invitation/",
+  ],
+  [
+    "Red Rings Foil Wedding Invitation",
+    "https://www.apprinting.com/en/red-rings-foil-wedding-invitation/",
+  ],
+  [
+    "Shiny Golden Bamboo Foil Wedding Invitation",
+    "https://www.apprinting.com/en/shiny-golden-bamboo-foil-wedding-invitation/",
+  ],
+  [
+    "Simple Fram Leaves Foil Wedding Invitation",
+    "https://www.apprinting.com/en/simple-fram-leaves-foil-wedding-invitation/",
+  ],
+  [
+    "Simplicity And Elegance Foil Wedding Invitation",
+    "https://www.apprinting.com/en/simplicity-and-elegance-foil-wedding-invitation/",
+  ],
+];
+
 export const urlProductUpdatePrice =
   "https://www.apprinting.com/bilingual-wedding-invitations/products/#category_product_list";
 
@@ -764,32 +815,6 @@ export const newPrices = [
   0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 ];
 
-export const urlProducts = [
-  "https://www.apprinting.com/en/vintage-floral-wedding-invitation/",
-  "https://www.apprinting.com/en/delicate-leaves-wedding-invitation/",
-  "https://www.apprinting.com/en/invitation-rings-wedding-invitation/",
-  "https://www.apprinting.com/en/white-flower-lineart-wedding-invitation/",
-  "https://www.apprinting.com/en/luxurious-golden-mandala-wedding-invitation/",
-  "https://www.apprinting.com/en/cover-picture-wedding-invitation/",
-  "https://www.apprinting.com/en/soft-rose-bouquet-wedding-invitation/",
-  "https://www.apprinting.com/en/photo-covered-wedding-invitation/",
-  "https://www.apprinting.com/en/soft-pink-roses-wedding-invitation/",
-  "https://www.apprinting.com/en/turquoise-foliage-wedding-invitation/",
-  "https://www.apprinting.com/en/rose-decor-wedding-invitation/",
-  "https://www.apprinting.com/en/small-glimpses-wedding-invitation/",
-  "https://www.apprinting.com/en/refined-sunset-silhouette-wedding-invitation/",
-  "https://www.apprinting.com/en/soft-pink-gate-fold-wedding-invitation/",
-  "https://www.apprinting.com/en/linear-art-wedding-invitation/",
-  "https://www.apprinting.com/en/small-golden-flowers-wedding-invitation/",
-  "https://www.apprinting.com/en/sunflowers-and-leaves-wedding-invitation/",
-  "https://www.apprinting.com/en/autumn-leaf-pattern-gate-fold-wedding-invitation/",
-  "https://www.apprinting.com/en/ashen-roses-gate-fold-wedding-invitation/",
-  "https://www.apprinting.com/en/delicate-emerald-leaves-gate-fold-wedding-invitation/",
-  "https://www.apprinting.com/en/roses-in-different-blues-gate-fold-wedding-invitation/",
-  "https://www.apprinting.com/en/winter-storm-gate-fold-wedding-invitation/",
-  "https://www.apprinting.com/en/mountain-peaks-gate-fold-wedding-invitation/",
-  "https://www.apprinting.com/en/elegant-couple-s-photo-gate-fold-wedding-invitation/",
-];
 
 export const designerAddBulk = [
   `

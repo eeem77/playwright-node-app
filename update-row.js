@@ -35,6 +35,7 @@ import {
   getSizesImagesFinal,
   getUrlProducts,
   getUrlClientProducts,
+  getSizesImagesArray,
 } from "./function_list.js";
 // import { proxies } from './data.js'
 // import fs from 'fs'
@@ -118,8 +119,8 @@ const updateRow = async () => {
 
   // GET XML PRODUCTS
   // await getIdProducts(page);
-  await login(page);
-  await getXmlProducts(page);
+  // await login(page);
+  // await getXmlProducts(page);
 
   // GET ID URL'S CLIENT
   // await getIdUrlClient(page);
@@ -155,8 +156,13 @@ const updateRow = async () => {
 
   // AUDIT IMAGES SIZES
   // await getSizesImages(page, "https://www.apprinting.com/en/posters/products/");
-  // await getSizesImagesFinal(page);
-  // await getUrlClientProducts(page);
+  await getSizesImagesFinal(page);
+  // await getUrlClientProducts(
+  //   page,
+  //   "https://www.apprinting.com/en/foil-wedding-invitations/products/"
+  // );
+  // await getSizesImagesArray(page);
+
 
   // AUDIT RULES
   // await login(page);

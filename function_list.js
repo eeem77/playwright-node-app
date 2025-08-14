@@ -301,9 +301,23 @@ export const getSizesImages = async (page, url) => {
   }
 };
 
+export const getSizesImagesArray = async (page, urls) => {
+  for await (const url of urlProducts) {
+    await page.goto(url[1]);
+    const images = await page.$$("img");
+    for await (const image of images) {
+      const src = await image.getAttribute("src");
+      const alt = await image.getAttribute("alt");
+      fs.appendFileSync("list-src-img.txt", `['${src}','${alt}'],\n`);
+    }
+  }
+};
+
 export const getSizesImagesFinal = async (page) => {
   for await (const image of dataLinksImages) {
-    const response = await page.goto(image[0]);
+    const response = await page.goto(image[0],{
+    timeout: 600000,
+  });
     const buffer = await response.body();
     const sizeInBytes = Number(buffer.length);
     const sizeInKB = sizeInBytes / 1024;
@@ -315,7 +329,9 @@ export const getSizesImagesFinal = async (page) => {
       );
     }
 
-    console.log(`the image size is: ${sizeInKB.toFixed(2)} KB`);
+    console.log(
+      `${image[0]} ---> the image size is: ${sizeInKB.toFixed(2)} KB`
+    );
   }
 };
 
@@ -957,11 +973,12 @@ export const getUrlProducts = async (page) => {
 
 export const getUrlClientProducts = async (page, url) => {
   await page.goto(url);
-  const productsElementDom = page.$$(".product-box");
+  const productsElementDom = await page.$$(".product-box");
   for await (const productElementDom of productsElementDom) {
     const titleElementDom = await productElementDom.$(".card-title.text-info");
+    const linkElementDom = await productElementDom.$("a");
     const titleValue = await titleElementDom.innerText();
-    const linkValue = await productElementDom.getAttribute("href");
+    const linkValue = await linkElementDom.getAttribute("href");
     // await page.goto(
     //   `https://www.apprinting.com/admin/product_action.php?product_id=${id}`,
     //   { timeout: 300000 }
@@ -969,8 +986,8 @@ export const getUrlClientProducts = async (page, url) => {
     // const url = await page.$("#product_url_1");
     // const urlInput = await url.inputValue();
     // const report = `{id:${id},url:"https://www.apprinting.com/${urlInput}/"},\n`;
-    const report = `[${titleValue},${linkValue}]\n`;
-    fs.appendFileSync("list.txt", report);
+    const report = `["${titleValue}","${linkValue}"],\n`;
+    fs.appendFileSync("report-url-products.txt", report);
     console.log(`working ---> ${report}`);
   }
 };
