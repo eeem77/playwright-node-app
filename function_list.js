@@ -301,14 +301,31 @@ export const getSizesImages = async (page, url) => {
   }
 };
 
-export const getSizesImagesArray = async (page, urls) => {
+export const getSizesImagesArray = async (page) => {
   for await (const url of urlProducts) {
     await page.goto(url[1]);
     const images = await page.$$("img");
     for await (const image of images) {
       const src = await image.getAttribute("src");
       const alt = await image.getAttribute("alt");
-      fs.appendFileSync("list-src-img.txt", `['${src}','${alt}'],\n`);
+      
+      // if (src.includes("dl.dropboxusercontent.com")){
+      //   fs.appendFileSync(
+      //     "list-src-img.txt",
+      //     `['${src}','${alt}','${url[0]}'],\n`
+      //   );
+      // }
+      try {
+        if (!alt.includes("illustrator") && !alt.includes("acrobat")) {
+          fs.appendFileSync(
+            "list-src-img.txt",
+            `['${src}','${alt}','${url[0]}'],\n`
+          );
+        }
+      } catch (error) {
+        
+      }
+        
     }
   }
 };
