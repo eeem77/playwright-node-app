@@ -308,47 +308,52 @@ export const getSizesImagesArray = async (page) => {
     for await (const image of images) {
       const src = await image.getAttribute("src");
       const alt = await image.getAttribute("alt");
-      
-      // if (src.includes("dl.dropboxusercontent.com")){
-      //   fs.appendFileSync(
-      //     "list-src-img.txt",
-      //     `['${src}','${alt}','${url[0]}'],\n`
-      //   );
-      // }
+
+      // image in the dropbox server
+      if (src.includes("dl.dropboxusercontent.com")){
+        fs.appendFileSync(
+          "list-src-img.txt",
+          `["${src}","${alt}","${url[0]}"],\n`
+        );
+      }
+
+      // extract image data
       try {
         if (!alt.includes("illustrator") && !alt.includes("acrobat")) {
           fs.appendFileSync(
             "list-src-img.txt",
-            `['${src}','${alt}','${url[0]}'],\n`
+            `["${src}","${alt}","${url[0]}"],\n`
           );
         }
       } catch (error) {
-        
+
       }
-        
+
     }
   }
 };
 
 export const getSizesImagesFinal = async (page) => {
   for await (const image of dataLinksImages) {
-    const response = await page.goto(image[0],{
-    timeout: 600000,
-  });
-    const buffer = await response.body();
-    const sizeInBytes = Number(buffer.length);
-    const sizeInKB = sizeInBytes / 1024;
+    if (image[0] !== "") {
+      const response = await page.goto(image[0], {
+        timeout: 600000,
+      });
+      const buffer = await response.body();
+      const sizeInBytes = Number(buffer.length);
+      const sizeInKB = sizeInBytes / 1024;
 
-    if (sizeInKB >= 250) {
-      fs.appendFileSync(
-        "list-size-img.txt",
-        `${image[0]},${image[1]},${sizeInKB.toFixed(2)}\n`
+      if (sizeInKB >= 250) {
+        fs.appendFileSync(
+          "list-size-img.txt",
+          `${image[0]},${image[1]},${sizeInKB.toFixed(2)}\n`
+        );
+      }
+
+      console.log(
+        `${image[0]} ---> the image size is: ${sizeInKB.toFixed(2)} KB`
       );
     }
-
-    console.log(
-      `${image[0]} ---> the image size is: ${sizeInKB.toFixed(2)} KB`
-    );
   }
 };
 

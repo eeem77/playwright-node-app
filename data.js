@@ -7,136 +7,308 @@ export const idProducts = [
 
 export const urlProducts = [
   [
-    "Elegant Fuchsia Unique Style Wedding Invitations",
-    "https://www.apprinting.com/en/elegant-fuchsia-unique-style-wedding-invitations/",
+    "Floral Image With Green Half Fold Vietnamese & English Wedding Invitation",
+    "https://www.apprinting.com/en/floral-image-with-green-half-fold-ve/",
   ],
   [
-    "Cappuccino Flowers Unique Style Wedding Invitations",
-    "https://www.apprinting.com/en/cappuccino-flowers-unique-style-wedding-invitations/",
+    "Peach Watercolor And Golden Half Fold Vietnamese & English Wedding Invitation",
+    "https://www.apprinting.com/en/peach-watercolor-and-golden-half-fold-wedding-invitation/",
   ],
   [
-    "Sophisticated White Unique Style Wedding Invitations",
-    "https://www.apprinting.com/en/sophisticated-white-unique-style-wedding-invitations/",
+    "Dark Watercolor And Flowers Half Fold Vietnamese & English Wedding Invitation",
+    "https://www.apprinting.com/en/dark-watercolor-and-flowers-half-fold-wedding-invitation/",
   ],
   [
-    "Old West Wedding Unique Style Wedding Invitations",
-    "https://www.apprinting.com/en/old-west-wedding-unique-style-wedding-invitations/",
+    "Drawn Autumn Blooms Half Fold Vietnamese & English Wedding Invitation",
+    "https://www.apprinting.com/en/drawn-autumn-blooms-half-fold-wedding-invitation/",
   ],
   [
-    "Video Game Wedding A7 Himalaya Pocket Unique Style Wedding Invitations",
-    "https://www.apprinting.com/en/video-game-wedding-a7-himalaya-pocket-unique-style-wedding-invitations/",
+    "Bright Mosaic Pattern Half Fold Vietnamese & English Wedding Invitation",
+    "https://www.apprinting.com/en/bright-mosaic-pattern-half-fold-wedding-invitation/",
   ],
   [
-    "Kraft and Color 5x7 Gate Fold Unique Style Wedding Invitations",
-    "https://www.apprinting.com/en/kraft-and-color-5x7-gate-fold-unique-style-wedding-invitations/",
+    "Forest Green Leaves Half Fold Vietnamese & English Wedding Invitation",
+    "https://www.apprinting.com/en/half-fold-wedding-invitation-template-3181/",
   ],
   [
-    "Elegant Olive Unique Style Wedding Invitations",
-    "https://www.apprinting.com/en/elegant-olive-unique-style-wedding-invitations/",
+    "Blue With Peacock Pattern Half Fold Vietnamese & English Wedding Invitation",
+    "https://www.apprinting.com/en/blue-with-peacock-pattern-half-fold-wedding-invitation/",
   ],
   [
-    "Brown and White Unique Style Wedding Invitations",
-    "https://www.apprinting.com/en/brown-and-white-unique-style-wedding-invitations/",
+    "Saturated Summer Beach Half Fold Vietnamese & English Wedding Invitation",
+    "https://www.apprinting.com/en/saturated-summer-beach-half-fold-wedding-invitation/",
   ],
   [
-    "Classic Curves Unique Style Wedding Invitations",
-    "https://www.apprinting.com/en/classic-curves-unique-style-wedding-invitations/",
+    "Chalk Writing Half Fold Vietnamese & English Wedding Invitation",
+    "https://www.apprinting.com/en/chalk-writing-half-fold-wedding-invitation/",
   ],
   [
-    "Curved Elegance Unique Style Wedding Invitations",
-    "https://www.apprinting.com/en/curved-elegance-unique-style-wedding-invitations/",
+    "Luxurious Golden Motif Half Fold Vietnamese & English Wedding Invitation",
+    "https://www.apprinting.com/en/luxurious-golden-motif-half-fold-wedding-invitation/",
   ],
   [
-    "Elegant Botanical Unique Style Wedding Invitations",
-    "https://www.apprinting.com/en/elegant-botanical-unique-style-wedding-invitations/",
+    "Teal With Gusts Of Wind Half Fold Vietnamese & English Wedding Invitation",
+    "https://www.apprinting.com/en/teal-with-gusts-of-wind-half-fold-wedding-invitation/",
   ],
   [
-    "Eternal Elegance Unique Style Wedding Invitations",
-    "https://www.apprinting.com/en/eternal-elegance-unique-style-wedding-invitations/",
+    "Golden Wreath Half Fold Vietnamese & English Wedding Invitation",
+    "https://www.apprinting.com/en/golden-wreath-half-fold-wedding-invitation/",
   ],
   [
-    "Floral Harmony Unique Style Wedding Invitations",
-    "https://www.apprinting.com/en/floral-harmony-unique-style-wedding-invitations/",
+    "Purple With Golden Pattern Half Fold Vietnamese & English Wedding Invitation",
+    "https://www.apprinting.com/en/purple-with-golden-pattern-half-fold-wedding-invitation/",
   ],
   [
-    "Flying Love Unique Style Wedding Invitations",
-    "https://www.apprinting.com/en/flying-love-unique-style-wedding-invitations/",
+    "Cute Calendar Invitation Half Fold Vietnamese & English Wedding Invitation",
+    "https://www.apprinting.com/en/cute-calendar-invitation-half-fold-wedding-invitation/",
   ],
   [
-    "Green Serenity Unique Style Wedding Invitations",
-    "https://www.apprinting.com/en/green-serenity-unique-style-wedding-invitations/",
+    "Geometric Heart And Leaves Half Fold Vietnamese & English Wedding Invitation",
+    "https://www.apprinting.com/en/geometric-heart-and-leaves-half-fold-wedding-invitation/",
   ],
   [
-    "Love in Bloom Unique Style Wedding Invitations",
-    "https://www.apprinting.com/en/love-in-bloom-unique-style-wedding-invitations/",
+    "Soft Pink Flowers Half Fold Vietnamese & English Wedding Invitation",
+    "https://www.apprinting.com/en/soft-pink-flowers-half-fold-wedding-invitation/",
   ],
   [
-    "Love Ritual Unique Style Wedding Invitations",
-    "https://www.apprinting.com/en/single-sheets-unique-style-wedding-invitations-5990/",
+    "Pink And White Motif Half Fold Vietnamese & English Wedding Invitation",
+    "https://www.apprinting.com/en/pink-and-white-motif-half-fold-wedding-invitation/",
   ],
   [
-    "Single Sheets Unique Style Wedding Invitations",
-    "https://www.apprinting.com/en/single-sheets-unique-style-wedding-invitations-5986/",
+    "Blue And Yellow Flowers Half Fold Vietnamese & English Wedding Invitation",
+    "https://www.apprinting.com/en/blue-and-yellow-flowers-half-fold-wedding-invitation/",
   ],
   [
-    "Soft Lines Unique Style Wedding Invitations",
-    "https://www.apprinting.com/en/soft-lines-unique-style-wedding-invitations/",
+    "Simple Couple Collage Half Fold Vietnamese & English Wedding Invitation",
+    "https://www.apprinting.com/en/simple-couple-collage-half-fold-wedding-invitation/",
   ],
   [
-    "Unique Style Square Wedding Invitations template",
-    "https://www.apprinting.com/en/unique-style-square-wedding-invitations-template/",
+    "Vibrant Asian Celebratory Half Fold Vietnamese & English Wedding Invitation",
+    "https://www.apprinting.com/en/vibrant-asian-celebratory-half-fold-wedding-invitation/",
   ],
   [
-    "Creative Wedding Simple Flat 5x7 Unique Style Wedding Invitations",
-    "https://www.apprinting.com/en/creative-wedding-simple-flat-5x7-unique-style-wedding-invitations/",
+    "Hanging Festive Lanterns Half Fold Vietnamese & English Wedding Invitation",
+    "https://www.apprinting.com/en/hanging-festive-lanterns-half-fold-wedding-invitation/",
   ],
   [
-    "Elegant Burgundy Unique Style Wedding Invitations",
-    "https://www.apprinting.com/en/elegant-burgundy-unique-style-wedding-invitations/",
+    "Minimalistic Leaves And Trees Half Fold Vietnamese & English Wedding Invitation",
+    "https://www.apprinting.com/en/minimalistic-leaves-and-trees-half-fold-wedding-invitation/",
   ],
   [
-    "Elegant Gold Unique Style Wedding Invitations",
-    "https://www.apprinting.com/en/elegant-gold-unique-style-wedding-invitations/",
+    "Simple Nude Invitation Half Fold Vietnamese & English Wedding Invitation",
+    "https://www.apprinting.com/en/simple-nude-invitation-half-fold-wedding-invitation/",
   ],
   [
-    "Elegant Photo Simple Flat 5x7 Unique Style Wedding Invitation",
-    "https://www.apprinting.com/en/elegant-photo-simple-flat-5x7-unique-style-wedding-invitation/",
+    "Beautiful Spring Flower Half Fold Vietnamese & English Wedding Invitation",
+    "https://www.apprinting.com/en/beautiful-spring-flower-half-fold-wedding-invitation/",
   ],
   [
-    "Dreamy Pink Flowers 5x7 Gate Fold Unique Style Wedding Invitation",
-    "https://www.apprinting.com/en/dreamy-pink-flowers-5x7-gate-fold-unique-style-wedding-invitation/",
+    "Golden Floral Corners Half Fold Vietnamese & English Wedding Invitation",
+    "https://www.apprinting.com/en/golden-floral-corners-half-fold-wedding-invitation/",
   ],
   [
-    "Lego love Unique Style Wedding Invitations",
-    "https://www.apprinting.com/en/lego-love-unique-style-wedding-invitations/",
+    "Gentle Autumn Blooms Half Fold Vietnamese & English Wedding Invitation",
+    "https://www.apprinting.com/en/gentle-autumn-blooms-half-fold-wedding-invitation/",
   ],
   [
-    "Star Wedding Simple Flat 5x7 Unique Style Wedding Invitation",
-    "https://www.apprinting.com/en/star-wedding-simple-flat-5x7-unique-style-wedding-invitation/",
+    "Dull Emerald Drawn Half Fold Vietnamese & English Wedding Invitation",
+    "https://www.apprinting.com/en/dull-emerald-drawn-half-fold-wedding-invitation/",
   ],
   [
-    "Ctrl Wedding Unique Style Wedding Invitations",
-    "https://www.apprinting.com/en/ctrl-wedding-unique-style-wedding-invitations/",
+    "Detailed Pink Spring Half Fold Vietnamese & English Wedding Invitation",
+    "https://www.apprinting.com/en/detailed-pink-spring-half-fold-wedding-invitation/",
   ],
   [
-    "Curved Romance Wedding Unique Style Wedding Invitations",
-    "https://www.apprinting.com/en/curved-romance-wedding-unique-style-wedding-invitations/",
+    "Tuxedo And Wedding Dress Half Fold Vietnamese & English Wedding Invitation",
+    "https://www.apprinting.com/en/tuxedo-and-wedding-dress-half-fold-wedding-invitation/",
   ],
   [
-    "Ethereal Garden Wedding Unique Style Wedding Invitations",
-    "https://www.apprinting.com/en/ethereal-garden-wedding-unique-style-wedding-invitations/",
+    "Simple Design With Photo Half Fold Vietnamese & English Wedding Invitation",
+    "https://www.apprinting.com/en/simple-design-with-photo-half-fold-wedding-invitation/",
   ],
   [
-    "Gingham Bloom Wedding Unique Style Wedding Invitations",
-    "https://www.apprinting.com/en/gingham-bloom-wedding-unique-style-wedding-invitations/",
+    "Colorful Floral Bouquet Half Fold Vietnamese & English Wedding Invitation",
+    "https://www.apprinting.com/en/colorful-floral-bouquet-half-fold-wedding-invitation/",
   ],
   [
-    "Sweet Nature Wedding Unique Style Wedding Invitations",
-    "https://www.apprinting.com/en/sweet-nature-wedding-unique-style-wedding-invitations/",
+    "Deep Red Roses Half Fold Vietnamese & English Wedding Invitation",
+    "https://www.apprinting.com/en/deep-red-roses-half-fold-wedding-invitation/",
   ],
   [
-    "Creative Illustration Unique Style Wedding Invitations",
-    "https://www.apprinting.com/en/creative-illustration-unique-style-wedding-invitations/",
+    "Fanned Peacock Feathers Half Fold Vietnamese & English Wedding Invitation",
+    "https://www.apprinting.com/en/fanned-peacock-feathers-half-fold-wedding-invitation/",
+  ],
+  [
+    "Purple With Golden Accents Half Fold Vietnamese & English Wedding Invitation",
+    "https://www.apprinting.com/en/purple-with-golden-accents-half-fold-wedding-invitation/",
+  ],
+  [
+    "Drawn Humming Bird Half Fold Vietnamese & English Wedding Invitation",
+    "https://www.apprinting.com/en/drawn-humming-bird-half-fold-wedding-invitation/",
+  ],
+  [
+    "Realistic Shaded Flower Half Fold Vietnamese & English Wedding Invitation",
+    "https://www.apprinting.com/en/realistic-shaded-flower-half-fold-wedding-invitation/",
+  ],
+  [
+    "Pretty Golden Floral Half Fold Vietnamese & English Wedding Invitation",
+    "https://www.apprinting.com/en/pretty-golden-floral-half-fold-wedding-invitation/",
+  ],
+  [
+    "Colorful Dark Bouquet Half Fold Vietnamese & English Wedding Invitation",
+    "https://www.apprinting.com/en/colorful-dark-bouquet-half-fold-wedding-invitation/",
+  ],
+  [
+    "Rough Peach Brushstrokes Half Fold Vietnamese & English Wedding Invitation",
+    "https://www.apprinting.com/en/rough-peach-brushstrokes-half-fold-wedding-invitation/",
+  ],
+  [
+    "Flowers In A Watering Can Half Fold Vietnamese & English Wedding Invitation",
+    "https://www.apprinting.com/en/flowers-in-a-watering-can-half-fold-wedding-invitation/",
+  ],
+  [
+    "Minimalist White Invitation Half Fold Vietnamese & English Wedding Invitation",
+    "https://www.apprinting.com/en/minimalist-white-invitation-half-fold-wedding-invitation/",
+  ],
+  [
+    "Deep Blue Invitation Half Fold Vietnamese & English Wedding Invitation",
+    "https://www.apprinting.com/en/deep-blue-invitation-half-fold-wedding-invitation/",
+  ],
+  [
+    "Simple Invitation With Map Half Fold Vietnamese & English Wedding Invitation",
+    "https://www.apprinting.com/en/simple-invitation-with-map-half-fold-wedding-invitation/",
+  ],
+  [
+    "Single-line Couple Half Fold Vietnamese & English Wedding Invitation",
+    "https://www.apprinting.com/en/single-line-couple-half-fold-wedding-invitation/",
+  ],
+  [
+    "Dark Brown Invitation Half Fold Vietnamese & English Wedding Invitation",
+    "https://www.apprinting.com/en/dark-brown-invitation-half-fold-wedding-invitation/",
+  ],
+  [
+    "Intricate White Mandala Half Fold Vietnamese & English Wedding Invitation",
+    "https://www.apprinting.com/en/intricate-white-mandala-half-fold-wedding-invitation/",
+  ],
+  [
+    "Line Couple Embrace Half Fold Vietnamese & English Wedding Invitation",
+    "https://www.apprinting.com/en/line-couple-embrace-half-fold-wedding-invitation/",
+  ],
+  [
+    "Dark Green Writing Half Fold Vietnamese & English Wedding Invitation",
+    "https://www.apprinting.com/en/dark-green-writing-half-fold-wedding-invitation/",
+  ],
+  [
+    "Cute Couple On A Bike Half Fold Vietnamese & English Wedding Invitation",
+    "https://www.apprinting.com/en/cute-couple-on-a-bike-half-fold-wedding-invitation/",
+  ],
+  [
+    "Couple Wedding Day Half Fold Vietnamese & English Wedding Invitation",
+    "https://www.apprinting.com/en/couple-wedding-day-half-fold-wedding-invitation/",
+  ],
+  [
+    "Purple Floral Indian Half Fold Wedding Invitation",
+    "https://www.apprinting.com/en/purple-floral-indian-half-fold-wedding-invitation/",
+  ],
+  [
+    "Elegant Abstract Indian Half Fold Wedding Invitation",
+    "https://www.apprinting.com/en/elegant-abstract-indian-half-fold-wedding-invitation/",
+  ],
+  [
+    "Golden Elephant and Peacocks Half Fold Wedding Invitation",
+    "https://www.apprinting.com/en/golden-elephant-and-peacocks-half-fold-wedding-invitation/",
+  ],
+  [
+    "Red Luxurious Pattern Half Fold Wedding Invitation",
+    "https://www.apprinting.com/en/red-luxurious-pattern-half-fold-wedding-invitation/",
+  ],
+  [
+    "Sprightly Golden Pattern Half Fold Wedding Invitation",
+    "https://www.apprinting.com/en/sprightly-golden-pattern-half-fold-wedding-invitation/",
+  ],
+  [
+    "Wedded Couple Indian Half Fold Wedding Invitation",
+    "https://www.apprinting.com/en/wedded-couple-indian-half-fold-wedding-invitation/",
+  ],
+  [
+    "Elegantly Jeweled Golden Half Fold Wedding Invitation",
+    "https://www.apprinting.com/en/elegantly-jeweled-golden-half-fold-wedding-invitation/",
+  ],
+  [
+    "Jeweled Floral Paisley Half Fold Wedding Invitation",
+    "https://www.apprinting.com/en/jeweled-floral-paisley-half-fold-wedding-invitation/",
+  ],
+  [
+    "Pair of Glimmering Peacocks Half Fold Wedding Invitation",
+    "https://www.apprinting.com/en/pair-of-glimmering-peacocks-half-fold-wedding-invitation/",
+  ],
+  [
+    "Golden Crystalline Paisley Half Fold Wedding Invitation",
+    "https://www.apprinting.com/en/golden-crystalline-paisley-half-fold-wedding-invitation/",
+  ],
+  [
+    "Extravagant Peacock Feathers Half Fold Wedding Invitation",
+    "https://www.apprinting.com/en/extravagant-peacock-feathers-half-fold-wedding-invitation/",
+  ],
+  [
+    "Symmetrical Fanned Jeweled Half Fold Wedding Invitation",
+    "https://www.apprinting.com/en/symmetrical-fanned-jeweled-half-fold-wedding-invitation/",
+  ],
+  [
+    "Peacock and Crystal Flowers Half Fold Wedding Invitation",
+    "https://www.apprinting.com/en/peacock-and-crystal-flowers-half-fold-wedding-invitation/",
+  ],
+  [
+    "Flowers Around Palace Half Fold Wedding Invitation",
+    "https://www.apprinting.com/en/flowers-around-palace-half-fold-wedding-invitation/",
+  ],
+  [
+    "India Festive Purple Half Fold Wedding Invitation",
+    "https://www.apprinting.com/en/india-festive-purple-half-fold-wedding-invitation/",
+  ],
+  [
+    "Invitation Trumpets and Fire Half Fold Wedding Invitation",
+    "https://www.apprinting.com/en/invitation-trumpets-and-fire-half-fold-wedding-invitation/",
+  ],
+  [
+    "Faint Purple Mandala Half Fold Wedding Invitation",
+    "https://www.apprinting.com/en/faint-purple-mandala-half-fold-wedding-invitation/",
+  ],
+  [
+    "Original Oriental Pattern Half Fold Wedding Invitation",
+    "https://www.apprinting.com/en/original-oriental-pattern-half-fold-wedding-invitation/",
+  ],
+  [
+    "Luxury with Elephant Symbol Half Fold Wedding Invitation",
+    "https://www.apprinting.com/en/luxury-with-elephant-symbol-half-fold-wedding-invitation/",
+  ],
+  [
+    "Ornamental Indian Red Half Fold Wedding Invitation",
+    "https://www.apprinting.com/en/ornamental-indian-red-half-fold-wedding-invitation/",
+  ],
+  [
+    "Mandala Beautiful Gold Half Fold Wedding Invitation",
+    "https://www.apprinting.com/en/mandala-beautiful-gold-half-fold-wedding-invitation/",
+  ],
+  [
+    "Delicate Gold Edge Half Fold Wedding Invitation",
+    "https://www.apprinting.com/en/delicate-gold-edge-half-fold-wedding-invitation/",
+  ],
+  [
+    "Gold Frame Photo Half Fold Spanish & English Wedding Invitation",
+    "https://www.apprinting.com/en/gold-frame-photo-half-fold-wedding-invitation/",
+  ],
+  [
+    "Decorations & Couple's Photo Half Fold Spanish & English Wedding Invitation",
+    "https://www.apprinting.com/en/decorations-and-couple-s-photo-half-fold-wedding-invitation/",
+  ],
+  [
+    "Geometric Black & Beige Half Fold Spanish & English Wedding Invitation",
+    "https://www.apprinting.com/en/geometric-black-and-beige-half-fold-wedding-invitation/",
+  ],
+  [
+    "Lace Wedding Dress Half Fold Spanish & English Wedding Invitation",
+    "https://www.apprinting.com/en/lace-wedding-dress-half-fold-wedding-invitation/",
   ],
 ];
 
