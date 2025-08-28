@@ -159,7 +159,7 @@ const updateRow = async () => {
   await getSizesImagesFinal(page);
   // await getUrlClientProducts(
   //   page,
-  //   "https://www.apprinting.com/en/laser-cut-wedding-invitations/products/"
+  //   "https://www.apprinting.com/en/fancy-luxury-wedding-invitations/products/"
   // );
   // await getSizesImagesArray(page);
 
