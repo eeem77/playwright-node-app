@@ -7,1584 +7,360 @@ export const idProducts = [
 
 export const urlProducts = [
   [
-    "Floral Image With Green Half Fold Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/floral-image-with-green-half-fold-ve/",
+    "DRRD2-DB-V [V-L-01] Radiant Harmony Wedding Entourage",
+    "https://www.apprinting.com/en/drrd2-db-v/",
   ],
   [
-    "Basic Colors 6 1/4 Square Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/basic-colors-pocket-wedding-invitation/",
+    "DRRD2-HT-V [V-L-01] Golden Aura Wedding Entourage",
+    "https://www.apprinting.com/en/drrd2-ht-v/",
   ],
   [
-    "Basic Red Feather A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/basic-red-feather-pocket-wedding-invitation/",
+    "DRRD2-RPL-V [V-L-01] Aurum Amore Wedding Entourage",
+    "https://www.apprinting.com/en/drrd2-rpl-v/",
   ],
   [
-    "Green Gradient A7 Denali Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/green-gradient-pocket-wedding-invitation/",
+    "DRRD2-TSB-V [V-L-01] Elysian Nuptials Wedding Entourage",
+    "https://www.apprinting.com/en/drrd2-tsb-v/",
   ],
   [
-    "Leaves Gold Frames Vellum Wrapped Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/leaves-gold-frames-vellum-wrapped-wedding-invitation/",
+    "DRRD2-TT-V [V-L-01] Serenade d'Or Wedding Entourage",
+    "https://www.apprinting.com/en/drrd2-tt-v/",
   ],
   [
-    "Orange and Pink Flowers A7 Atlas Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/orange-and-pink-flowers-pocket-wedding-invitation/",
+    "RD4-TT-V-SHT [V-L-01] Crimson & Gold Wedding Entourage",
+    "https://www.apprinting.com/en/rd4-tt-v-sht/",
   ],
   [
-    "Peach Watercolor And Golden Half Fold Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/peach-watercolor-and-golden-half-fold-wedding-invitation/",
+    "RD4-DB-V-SHT-HB [V-L-01] Crimson Elegance Wedding Entourage",
+    "https://www.apprinting.com/en/rd4-db-v-sht-hb/",
   ],
   [
-    "Simple Blue A7 Cascade Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/simple-blue-pocket-wedding-invitation/",
+    "RD4-TT-S-SHV-HB [V-L-01] Rosé & Rouge Wedding Entourage",
+    "https://www.apprinting.com/en/rd4-tt-s-shv-hb_[v-l-01]/",
   ],
   [
-    "Succulent Green 6 1/4 Square Denali Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/succulent-green-pocket-wedding-invitation/",
+    "RD4-TT-V-SHV-HB [V-L-01] Golden Elysium Wedding Entourage",
+    "https://www.apprinting.com/en/rd4-tt-v-shv-hb/",
   ],
   [
-    "Animated Colors 6 1/4 Square Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/animated-colors-pocket-wedding-invitation/",
+    "RD4-VT-V-SHT-HB [V-L-01] Golden Affinity Wedding Entourage",
+    "https://www.apprinting.com/en/rd4-vt-v-sht-hb/",
   ],
   [
-    "Dark Watercolor And Flowers Half Fold Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/dark-watercolor-and-flowers-half-fold-wedding-invitation/",
+    "RD6-HT-V-SHV [V-L-01] Golden Rose Affair Wedding Entourage",
+    "https://www.apprinting.com/en/rd6-ht-v-shv/",
   ],
   [
-    "Elegant Floral Elements A7 Atlas Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/elegant-floral-elements-pocket-wedding-invitation/",
+    "RD6-HT-V-SHV-NB [V-L-01] Champagne Harmony Wedding Entourage",
+    "https://www.apprinting.com/en/rd6-ht-v-shv-nb/",
   ],
   [
-    "Golden Mandalas A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/golden-mandalas-pocket-wedding-invitation/",
+    "RD6-PL-S-SHT [V-L-01] Opaline Opulence Wedding Entourage",
+    "https://www.apprinting.com/en/rd6-pl-s-sht/",
   ],
   [
-    "Green Vintage Damask A7 Denali Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/green-vintage-damask-pocket-wedding-invitation/",
+    "RD6-VT-V-SHV [V-L-01] Golden Petals Affair Wedding Entourage",
+    "https://www.apprinting.com/en/rd6-vt-v-shv/",
   ],
   [
-    "Lovely Marble Pink 6 1/4 Square Denali Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/lovely-marble-pink-denali-pocket-wedding-invitation/",
+    "RD7-DB-V [V-L-01] Ruby Radiance Wedding Entourage",
+    "https://www.apprinting.com/en/rd7-db-v/",
   ],
   [
-    "Plain Watercolor A7.5 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/plain-watercolor-pocket-wedding-invitation/",
+    "RD7-TT-S [V-L-01] Silvershine Serenity Wedding Entourage",
+    "https://www.apprinting.com/en/rd7-tt-s/",
   ],
   [
-    "Realistic Luxury A7 Cascade Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/realistic-luxury-pocket-wedding-invitation/",
+    "RD8-DB-S [V-L-01] Scarlet Opulence Wedding Entourage",
+    "https://www.apprinting.com/en/rd8-db-s-[v-l-01]/",
   ],
   [
-    "Violet Leaves Vellum Wrapped Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/violet-leaves-vellum-wrapped-wedding-invitation/",
+    "RD8-DB-V [V-L-01] Crimson Harmony Wedding Entourage",
+    "https://www.apprinting.com/en/rd8-db-v/",
   ],
   [
-    "Blue Green Algae Design A7 Atlas Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/blue-green-algae-design/",
+    "RD8-HT-S [V-L-01] Rose Silver Serenity Wedding Entourage",
+    "https://www.apprinting.com/en/rd8-ht-s/",
   ],
   [
-    "Drawn Autumn Blooms Half Fold Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/drawn-autumn-blooms-half-fold-wedding-invitation/",
+    "RD8-HT-V [V-L-01] Rose Gold Serenity Wedding Entourage",
+    "https://www.apprinting.com/en/rd8-ht-v/",
   ],
   [
-    "Earth Colors A7 Denali Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/earth-colors-pocket-wedding-invitation/",
+    "RD8-RPL2-S [V-L-01] Scarlet Noir Affair Wedding Entourage",
+    "https://www.apprinting.com/en/rd8-rpl2-s/",
   ],
   [
-    "Gold Letters With Purple A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/gold-letters-with-purple-pocket-wedding-invitation/",
+    "RD8-RPL2-V [V-L-01] Golden Ember Affair Wedding Entourage",
+    "https://www.apprinting.com/en/rd8-rpl2-v/",
   ],
   [
-    "Minimal Leaves and Stripes A7 Cascade Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/minimal-leaves-and-stripes-pocket-wedding-invitation/",
+    "RD8-TT-V [V-L-01] Golden Harmony Wedding Entourage",
+    "https://www.apprinting.com/en/rd8-tt-v/",
   ],
   [
-    "Purple Text and Leaves Vellum Wrapped Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/purple-text-and-leaves-vellum-wrapped-wedding-invitation/",
+    "RD8-WE-D [V-L-01] Ruby Reverie Wedding Entourage",
+    "https://www.apprinting.com/en/rd8-we-d/",
   ],
   [
-    "Roses on Shades of Blue 6 1/4 Square Denali Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/roses-on-shades-of-blue-pocket-wedding-invitation/",
+    "RD4-DB-V [V-L-01] Celestial Radiance Wedding Entourage",
+    "https://www.apprinting.com/en/rd4-db-v/",
   ],
   [
-    "Solid Color and Lines 6 1/4 Square Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/solid-color-and-lines-pocket-wedding-invitation/",
+    "RDDP-DB-V [V-L-01] Ivory Radiance Wedding Entourage",
+    "https://www.apprinting.com/en/rddp-db-v/",
   ],
   [
-    "Bright Mosaic Pattern Half Fold Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/bright-mosaic-pattern-half-fold-wedding-invitation/",
+    "RDDP-DC-V [V-L-01] Radiant Rouge Wedding Entourage",
+    "https://www.apprinting.com/en/rddp-dc-v/",
   ],
   [
-    "Handmade Hearts Pink A7 Cascade Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/handmade-hearts-pink-pocket-wedding-invitation/",
+    "RDDP-HT-S [V-L-01] Ivory Charm Wedding Entourage",
+    "https://www.apprinting.com/en/rddp-ht-s/",
   ],
   [
-    "Invitation Butterflies Vellum Wrapped Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/invitation-butterflies-vellum-wrapped-wedding-invitation/",
+    "RDDP-HT-S-HB [V-L-01] Rosewood Elegance Wedding Entourage",
+    "https://www.apprinting.com/en/rddp-ht-s-hb/",
   ],
   [
-    "Minimalist Purple Letters A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/minimalist-purple-letters-pocket-wedding-invitation/",
+    "RDDP-HT-V [V-L-01] Gilded Blush Wedding Entourage",
+    "https://www.apprinting.com/en/rddp-ht-v/",
   ],
   [
-    "Purple Elegant Design 6 1/4 Square Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/purple-elegant-design-pocket-wedding-invitation/",
+    "RDDP-HTD-V [V-L-01] Coral Glow Wedding Entourage",
+    "https://www.apprinting.com/en/rddp-htd-v/",
   ],
   [
-    "Red Roses 6 1/4 Square Denali Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/red-roses-pocket-wedding-invitation/",
+    "RDDP-HTD-V-HB [V-L-01] Amber Radiance Wedding Entourage",
+    "https://www.apprinting.com/en/rddp-htd-v-hb/",
   ],
   [
-    "Solid Richard A7 Atlas Pocket Wedding Invitation",
-    "https://www.apprinting.com/en/beautiful-pine-station-pocket-wedding-invitation/",
+    "RDDP-RPL-S-HB [V-L-01] Gilded Rose Petal Wedding Entourage",
+    "https://www.apprinting.com/en/rddp-rpl-s-hb/",
   ],
   [
-    "Forest Green Leaves Half Fold Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/half-fold-wedding-invitation-template-3181/",
+    "RDDP-TT-S [V-L-01] Opulent Ruby Wedding Entourage",
+    "https://www.apprinting.com/en/rddp-tt-s/",
   ],
   [
-    "Invitation Birds Vellum Wrapped Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/invitation-birds-vellum-wrapped-wedding-invitation/",
+    "RDDP-TT-V [V-L-01] Amber Twilight Celebration Wedding Entourage",
+    "https://www.apprinting.com/en/rddp-tt-v/",
   ],
   [
-    "Luxury Ornamental Mandala 6 1/4 Square Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/luxury-ornamental-mandala-pocket-wedding-invitation/",
+    "RDDP-TT-V-HB [V-L-01] Amber Twilight Symphony Wedding Entourage",
+    "https://www.apprinting.com/en/rddp-tt-v-hb/",
   ],
   [
-    "Palette of Solid Greens A7 Cascade Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/palette-of-solid-greens-pocket-wedding-invitation/",
+    "DRRD2-DB-RF [V-L-02] Silver Orchid Dream Wedding Entourage",
+    "https://www.apprinting.com/en/drrd2-db-rf/",
   ],
   [
-    "Pink Floral Frame 6 1/4 Square Denali Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/pink-floral-frame-pocket-wedding-invitation/",
+    "DRRD2-DVS2-RF [V-L-02] Ruby Sunset Serenade Wedding Entourage",
+    "https://www.apprinting.com/en/drrd2-dvs2-rf/",
   ],
   [
-    "Purple Letters Flowers A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/purple-letters-flowers-pocket-wedding-invitation/",
+    "DRRD2-HT-V2 [V-L-02] Champagne Sunset Soiree Wedding Entourage",
+    "https://www.apprinting.com/en/drrd2-ht-v2/",
   ],
   [
-    "Solid Edith A7 Atlas Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/solid-edith-pocket-wedding-invitation/",
+    "DRRD2-RPD-RF [V-L-02] Opaline Elegance Affair Wedding Entourage",
+    "https://www.apprinting.com/en/drrd2-rpd-rf/",
   ],
   [
-    "Animal and Floral Invitation Vellum Wrapped Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/animal-and-floral-invitation-vellum-wrapped-wedding-invitation/",
+    "DRRD2-RPL-RF [V-L-02] Topaz Opulence Celebration Wedding Entourage",
+    "https://www.apprinting.com/en/drrd2-rpl-rf/",
   ],
   [
-    "Blue With Peacock Pattern Half Fold Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/blue-with-peacock-pattern-half-fold-wedding-invitation/",
+    "DRRD2-TBC-V [V-L-02] Gold Moonlight Serenade Wedding Entourage",
+    "https://www.apprinting.com/en/drrd2-tbc-v/",
   ],
   [
-    "Degraded Red Hearts 6 1/4 Square Denali Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/degraded-red-hearts-pocket-wedding-invitation/",
+    "DRRD2-TT-RF [V-L-02] Silken Azure Affair Wedding Entourage",
+    "https://www.apprinting.com/en/drrd2-tt-rf/",
   ],
   [
-    "Earthy Colors A7 Denali Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/earthy-colors-pocket-wedding-invitation/",
+    "RD4-DT-V-SHV [V-L-02] Golden Ember Soirée Wedding Entourage",
+    "https://www.apprinting.com/en/rd4-dt-v-shv/",
   ],
   [
-    "Emerald and Gold Lines 6 1/4 Square Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/esmerald-and-gold-lines-pocket-wedding-invitation/",
+    "RD4-TBC-V-SHV-HB [V-L-02] Champagne Opulence Affair Wedding Entourage",
+    "https://www.apprinting.com/en/rd4-tbc-v-shv-hb/",
   ],
   [
-    "Geometric Strips White A7 Cascade Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/geometric-strips-white-pocket-wedding-invitation/",
+    "RD4-TV-V-SHT-HB [V-L-02] Champagne Glow Gathering Wedding Entourage",
+    "https://www.apprinting.com/en/rd4-tv-v-sht-hb/",
   ],
   [
-    "Pastel Floral Frame A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/pastel-floral-frame-pocket-wedding-invitation/",
+    "RD6-HBC-V-SHV-HB [V-L-02] Gilded Harmony Collective Wedding Entourage",
+    "https://www.apprinting.com/en/rd6-hbc-v-shv-hb/",
   ],
   [
-    "Watercolor and Golden Leaves A7 Atlas Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/watercolor-and-golden-leaves-pocket-wedding-invitation/",
+    "RD6-HL-V-SHV-HB [V-L-02] Elegant Sunset Radiance Wedding Entourage",
+    "https://www.apprinting.com/en/rd6-hl-v-shv-hb/",
   ],
   [
-    "Design Autumn Flowers A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/design-autumn-flowers-pocket-wedding-invitation/",
+    "RD6-TSB-S-SHV [V-L-02] Sunset Opulence Affinity Wedding Entourage",
+    "https://www.apprinting.com/en/rd6-tsb-s-shv/",
   ],
   [
-    "Hand Drawn Rustic A7 Denali Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/hand-drawn-rustic-pocket-wedding-invitation/",
+    "RD6-TT-H-SHT [V-L-02] Silken Silver Affair Wedding Entourage",
+    "https://www.apprinting.com/en/rd6-tt-h-sht/",
   ],
   [
-    "Mint Watercolor Floral 6 1/4 Square Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/mint-watercolor-floral-pocket-wedding-invitation/",
+    "RD6-TT-L-SHT [V-L-02] Crimson Orchid Ensemble Wedding Entourage",
+    "https://www.apprinting.com/en/rd6-tt-l-sht/",
   ],
   [
-    "Pastel Colors Invitation Vellum Wrapped Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/pastel-colors-invitation-vellum-wrapped-wedding-invitation/",
+    "RD7-DB-RF [V-L-02] Sunset Bliss Ensemble Wedding Entourage",
+    "https://www.apprinting.com/en/rd7-db-rf/",
   ],
   [
-    "Saturated Summer Beach Half Fold Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/saturated-summer-beach-half-fold-wedding-invitation/",
+    "RD7-HT-V2 [V-L-02] Golden Harmony Collective Wedding Entourage",
+    "https://www.apprinting.com/en/rd7-ht-v2/",
   ],
   [
-    "Snowy Pine Forest A7 Cascade Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/snowy-pine-forest-pocket-wedding-invitation/",
+    "RD7-RPD2-S [V-L-02] Radiant Aura Ensemble Wedding Entourage",
+    "https://www.apprinting.com/en/rd7-rpd2-s/",
   ],
   [
-    "Solid Kimberly A7 Atlas Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/solid-kimberly-pocket-wedding-invitation/",
+    "RD7-RPL2-V [V-L-02] Celestial Radiance Entourage Wedding Entourage",
+    "https://www.apprinting.com/en/rd7-rpl2-v/",
   ],
   [
-    "Vintage Silhouette Flowers 6 1/4 Square Denali Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/vintage-silhouette-flowers-pocket-wedding-invitation/",
+    "RD7-RPL2-V2 [V-L-02] Luminous Gold Affair Wedding Entourage",
+    "https://www.apprinting.com/en/rd7-rpl2-v2/",
   ],
   [
-    "Chalk Writing Half Fold Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/chalk-writing-half-fold-wedding-invitation/",
+    "RD8-HT-RF [V-L-02] Radiant Harmony Bridal Party Wedding Entourage",
+    "https://www.apprinting.com/en/rd8-ht-rf/",
   ],
   [
-    "Design Winter Flowers A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/design-winter-flowers-pocket-wedding-invitation/",
+    "RD8-TBC-RF [V-L-02] Aurum Blue Ensemble Wedding Entourage",
+    "https://www.apprinting.com/en/rd8-tbc-rf/",
   ],
   [
-    "Floral Hand Watercolor A7 Atlas Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/floral-hand-watercolor-pocket-wedding-invitation/",
+    "RD8-TBC-V2 [V-L-02] Aurum Aura Collective Wedding Entourage",
+    "https://www.apprinting.com/en/rd8-tbc-v2/",
   ],
   [
-    "Golden Hearts A7 Denali Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/golden-hearts-pocket-wedding-invitation/",
+    "RD8-TT-D [V-L-02] Amber Glow Bridal Affair Wedding Entourage",
+    "https://www.apprinting.com/en/rd8-tt-d/",
   ],
   [
-    "Minimalist Dark Blue A7 Cascade Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/minimalist-dark-blue-pocket-wedding-invitation/",
+    "RDDP-DB-RF [V-L-02] Radiant Gold Affinity Wedding Entourage",
+    "https://www.apprinting.com/en/rddp-db-rf/",
   ],
   [
-    "Simple Color Design A7.5 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/simple-color-design-pocket-wedding-invitation/",
+    "RDDP-DB-V2 [V-L-02] Amaranth Elegance Bridal Party Wedding Entourage",
+    "https://www.apprinting.com/en/rddp-db-v2/",
   ],
   [
-    "Simple Silhouette Flowers 6 1/4 Square Denali Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/simple-silhouette-flowers-pocket-wedding-invitation/",
+    "RDDP-DR-RF [V-L-02] Scarlet Serenity Affair Wedding Entourage",
+    "https://www.apprinting.com/en/rddp-dr-rf/",
   ],
   [
-    "Watercolor Hand Drawn Vellum Wrapped Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/watercolor-hand-drawn-vellum-wrapped-wedding-invitation/",
+    "RDDP-DR-V [V-L-02] Crimson Opulence Bridal Celebration Wedding Entourage",
+    "https://www.apprinting.com/en/rddp-dr-v/",
   ],
   [
-    "White Floral 6 1/4 Square Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/white-floral-pocket-wedding-invitation/",
+    "RDDP-DR-V2 [V-L-02] Ethereal Sunset Bridal Celebration Wedding Entourage",
+    "https://www.apprinting.com/en/rddp-dr-v2/",
   ],
   [
-    "Elegant Marble 6 1/4 Square Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/elegant-marble-pocket-wedding-invitation/",
+    "RDDP-DVS2-V [V-L-02] Radiant Orchid Nuptial Gala Wedding Entourage",
+    "https://www.apprinting.com/en/rddp-dvs2-v/",
   ],
   [
-    "Hearts and Pink Flamingos A7 Atlas Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/hearts-and-pink-flamingos-pocket-wedding-invitation/",
+    "RDDP-DVS2-V2-HB [V-L-02] Rosewood Royalty Wedding Entourage",
+    "https://www.apprinting.com/en/rddp-dvs2-v2-hb/",
   ],
   [
-    "Luxurious Golden Motif Half Fold Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/luxurious-golden-motif-half-fold-wedding-invitation/",
+    "RDDP-HL-V [V-L-02] Lavender Luxe Collective Wedding Entourage",
+    "https://www.apprinting.com/en/rddp-hl-v/",
   ],
   [
-    "Magnificent Lavender Flowers A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/magnificent-lavender-flowers-pocket-wedding-invitation/",
+    "RDDP-HT-RF [V-L-02] Rosewood Radiance Wedding Entourage",
+    "https://www.apprinting.com/en/rddp-ht-rf/",
   ],
   [
-    "Red Roses Simple 6 1/4 Square Denali Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/red-roses-simple-pocket-wedding-invitation/",
+    "RDDP-HT-V2 [V-L-02] Rose Quartz Affair Wedding Entourage",
+    "https://www.apprinting.com/en/rddp-ht-v2/",
   ],
   [
-    "Simple Blue Cement A7 Denali Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/simple-blue-cement-pocket-wedding-invitation/",
+    "RDDP-HTD-RF [V-L-02] Serenity Blush Wedding Entourage",
+    "https://www.apprinting.com/en/rddp-htd-rf/",
   ],
   [
-    "Watercolor Celestial Stars A7 Cascade Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/watercolor-celestial-stars-pocket-wedding-invitation/",
+    "RDDP-RPD-RF [V-L-02] Coral Radiance Wedding Entourage",
+    "https://www.apprinting.com/en/rddp-rpd-rf/",
   ],
   [
-    "Watercolor Celestial Vellum Wrapped Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/watercolor-celestial-vellum-wrapped-wedding-invitation/",
+    "RDDP-RPD2-V2-HB [V-L-02] Harmony Gilded Affairs Wedding Entourage",
+    "https://www.apprinting.com/en/rddp-rpd2-v2-hb/",
   ],
   [
-    "Blue Marble A7 Cascade Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/blue-marble-pocket-wedding-invitation/",
+    "RDDP-RPL-RF [V-L-02] Aurelian Bliss Wedding Entourage",
+    "https://www.apprinting.com/en/rddp-rpl-rf/",
   ],
   [
-    "Different Solid Shades 6 1/4 Square Denali Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/different-solid-shades-pocket-wedding-invitation/",
+    "RDDP-RPL-V [V-L-02] Aurum Rouge Wedding Entourage",
+    "https://www.apprinting.com/en/rddp-rpl-v/",
   ],
   [
-    "Geometric Gatsby Design A7 Denali Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/geometric-gatsy-design-pocket-wedding-invitation/",
+    "RDDP-RPL-V2-HB [V-L-02] Aurum Rosso Wedding Entourage",
+    "https://www.apprinting.com/en/rddp-rpl-v2-hb/",
   ],
   [
-    "Magnificent Red Roses A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/magnificent-red-roses-pocket-wedding-invitation/",
+    "RDDP-TBC-RF [V-L-02] Harmonia Aurea Wedding Entourage",
+    "https://www.apprinting.com/en/rddp-tbc-rf/",
   ],
   [
-    "Solid Dark Purple A7.5 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/solid-dark-purple-pocket-wedding-invitation-a75/",
+    "RDDP-TBC-V2 [V-L-02] Stellar Sparkle Wedding Entourage",
+    "https://www.apprinting.com/en/rddp-tbc-v2/",
   ],
   [
-    "Teal With Gusts Of Wind Half Fold Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/teal-with-gusts-of-wind-half-fold-wedding-invitation/",
+    "RDDP-TT-L [V-L-02] Opal Glow Wedding Entourage",
+    "https://www.apprinting.com/en/rddp-tt-l/",
   ],
   [
-    "Watercolor Beach Design Vellum Wrapped Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/watercolor-beach-design-vellum-wrapped-wedding-invitation/",
+    "RDDP-TT-RF [V-L-02] Radiant Union Wedding Entourage",
+    "https://www.apprinting.com/en/rddp-tt-rf/",
   ],
   [
-    "Watercolor Boho 6 1/4 Square Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/watercolor-boho-6-14-square-himalaya-pocket-vietnamese-english-wedding-invitation/",
+    "RDDP-TT-RF-HB [V-L-02] Radiant Elegance Wedding Entourage",
+    "https://www.apprinting.com/en/rddp-tt-rf-hb/",
   ],
   [
-    "Watercolor Jeffery A7 Atlas Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/watercolor-jeffery-pocket-wedding-invitation/",
+    "RDDP-TT-V2 [V-L-02] Pearlescent Harmony Wedding Entourage",
+    "https://www.apprinting.com/en/rddp-tt-v2/",
   ],
   [
-    "Colorful Mandalas 6 1/4 Square Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/colorful-mandalas-pocket-wedding-invitation/",
+    "RDDP-TT-V2-HB [V-L-02] Ivory Opulence Wedding Entourage",
+    "https://www.apprinting.com/en/rddp-tt-v2-hb/",
   ],
   [
-    "Geometric Black and Gold 6 1/4 Square Denali Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/geometric-black-and-gold-pocket-wedding-invitation/",
+    "RDDP-TT-V2-NB [V-L-02] Velvet Twilight Wedding Entourage",
+    "https://www.apprinting.com/en/rddp-tt-v2-nb/",
   ],
   [
-    "Golden Wreath Half Fold Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/golden-wreath-half-fold-wedding-invitation/",
+    "RDDP-TV-V2 [V-L-02] Luminous Elegance Wedding Entourage",
+    "https://www.apprinting.com/en/rddp-tv-v2/",
   ],
   [
-    "Green Floral Arrangement A7 Cascade Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/green-floral-arrangement-pocket-wedding-invitation/",
+    "RDDP-TVS2-V2 [V-L-02] Enchanted Radiance Wedding Entourage",
+    "https://www.apprinting.com/en/rddp-tvs2-v2/",
   ],
   [
-    "Palette Colorfully A7 Denali Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/palette-colorfuly-pocket-wedding-invitation/",
+    "RDDP-TVS2-V2-HB [V-L-02] Sunrise Splendor Wedding Entourage",
+    "https://www.apprinting.com/en/rddp-tvs2-v2-hb/",
   ],
   [
-    "Simple Motif In The Corners A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/simple-motif-in-the-corners-pocket-wedding-invitation/",
+    "RDDP-GT-V [V-L-02] Metallic Luxurious Luster Wedding Entourage",
+    "https://www.apprinting.com/en/rddp-gt-v/",
   ],
   [
-    "Unicolor Varied A7 Sleeve Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/unicolor-varied-pocket-wedding-invitation/",
-  ],
-  [
-    "Watercolor Palm Trees Vellum Wrapped Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/watercolor-palm-trees-vellum-wrapped-wedding-invitation/",
-  ],
-  [
-    "Winter and Snowflakes A7 Atlas Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/winter-and-snowflakes-pocket-wedding-invitation/",
-  ],
-  [
-    "Cold Tones A7 Denali Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/cold-tones-pocket-wedding-invitation/",
-  ],
-  [
-    "Different Colors 6 1/4 Square Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/different-colors-pocket-wedding-invitation/",
-  ],
-  [
-    "Hearts and Couple Birds A7 Cascade Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/hearts-and-couple-birds-pocket-wedding-invitation/",
-  ],
-  [
-    "Minimalist Hearts & Beige A7 Sleeve Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/minimalist-hearts-and-beige-pocket-wedding-invitation/",
-  ],
-  [
-    "Ocean View Vellum Wrapped Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/ocean-view-vellum-wrapped-wedding-invitation/",
-  ],
-  [
-    "Pink Beautiful Flowers A7.5 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/pink-beautiful-flowers-pocket-wedding-invitation/",
-  ],
-  [
-    "Purple and Gray Shades 6 1/4 Square Denali Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/purple-and-gray-shades-pocket-wedding-invitation/",
-  ],
-  [
-    "Purple With Golden Pattern Half Fold Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/purple-with-golden-pattern-half-fold-wedding-invitation/",
-  ],
-  [
-    "Red Wine Tree A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/red-wine-tree-pocket-wedding-invitation/",
-  ],
-  [
-    "Winter Design Jeanne A7 Atlas Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/winter-design-jeanne-pocket-wedding-invitation/",
-  ],
-  [
-    "Abstract Geometric 6 1/4 Square Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/abstract-geometric-pocket-wedding-invitation/",
-  ],
-  [
-    "Blue Winter and Snow A7 Cascade Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/blue-winter-and-snow-pocket-wedding-invitation/",
-  ],
-  [
-    "Cute Calendar Invitation Half Fold Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/cute-calendar-invitation-half-fold-wedding-invitation/",
-  ],
-  [
-    "Dark Gray and Leaves 6 1/4 Square Denali Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/dark-gray-and-leaves-pocket-wedding-invitation/",
-  ],
-  [
-    "Designs many hearts A7 Sleeve Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/designs-many-hearts-pocket-wedding-invitation/",
-  ],
-  [
-    "Elegant Watercolor Roses A7 Atlas Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/elegant-watercolor-roses-pocket-wedding-invitation/",
-  ],
-  [
-    "Leaves Orange Flowers A7 Denali Pocket Template Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/leaves-orange-flowers-pocket-wedding-invitation-template/",
-  ],
-  [
-    "Magnificent Yellow Flowers A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/magnificent-yellow-flowers-pocket-wedding-invitation/",
-  ],
-  [
-    "Summer Umbrellas Vellum Wrapped Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/summer-umbrellas-vellum-wrapped-wedding-invitation/",
-  ],
-  [
-    "Beautiful Doves Vellum Wrapped Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/beautiful-doves-vellum-wrapped-wedding-invitation/",
-  ],
-  [
-    "Floral Theme Green Frame A7 Atlas Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/floral-theme-green-frame-pocket-wedding-invitation/",
-  ],
-  [
-    "Geometric Heart And Leaves Half Fold Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/geometric-heart-and-leaves-half-fold-wedding-invitation/",
-  ],
-  [
-    "Hand Drawn Minimal A7 Denali Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/hand-drawn-minimal-pocket-wedding-invitation/",
-  ],
-  [
-    "Magnificent Blue Flowers A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/magnificent-blue-flowers-pocket-wedding-invitation/",
-  ],
-  [
-    "Simple Design White 6 1/4 Square Denali Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/simple-design-white-pocket-wedding-invitation/",
-  ],
-  [
-    "Watercolor Celestial 6 1/4 Square Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/watercolor-celestial-pocket-wedding-invitation/",
-  ],
-  [
-    "Watercolor Winter Degraded A7 Cascade Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/watercolor-winter-degraded-pocket-wedding-invitation/",
-  ],
-  [
-    "Birds and Chinese Flowers Vellum Wrapped Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/birds-and-chinese-flowers-vellum-wrapped-wedding-invitation/",
-  ],
-  [
-    "Different Blues and Pinks 6 1/4 Square Denali Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/different-blues-and-pinks-pocket-wedding-invitation/",
-  ],
-  [
-    "Hand Drawn Minimal 6 1/4 Square Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/hand-drawn-minimal-pocket-wedding-invitation-2214/",
-  ],
-  [
-    "Harold's Simple Design A7 Atlas Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/harold-s-simple-design-pocket-wedding-invitation/",
-  ],
-  [
-    "Leaves in Earth Tones A7 Cascade Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/leaves-in-earth-tones-pocket-wedding-invitation/",
-  ],
-  [
-    "Minimalist Red Letters A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/minimalist-red-letters-pocket-wedding-invitation/",
-  ],
-  [
-    "Multi Color Watercolor A7 Sleeve Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/multi-color-watercolor-pocket-wedding-invitation/",
-  ],
-  [
-    "Opaque Sky A7 Denali Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/opaque-sky-pocket-wedding-invitation/",
-  ],
-  [
-    "Soft Pink Flowers Half Fold Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/soft-pink-flowers-half-fold-wedding-invitation/",
-  ],
-  [
-    "Boot Arrangement A7 Denali Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/boot-arragement-pocket-wedding-invitation/",
-  ],
-  [
-    "Pink And White Motif Half Fold Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/pink-and-white-motif-half-fold-wedding-invitation/",
-  ],
-  [
-    "Simple Autumn Theme A7 Atlas Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/simple-autumn-theme-pocket-wedding-invitation/",
-  ],
-  [
-    "Solid Yellow and Blue 6 1/4 Square Denali Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/solid-yellow-and-blue-pocket-wedding-invitation/",
-  ],
-  [
-    "Sublime Blue Roses A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/sublime-blue-roses-pocket-wedding-invitation/",
-  ],
-  [
-    "Vellum Wrapped Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/chinese-wedding-invitation-vellum-wrapped-wedding-invitation/",
-  ],
-  [
-    "Watercolor Green Spring A7 Cascade Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/watercolor-green-spring-pocket-wedding-invitation/",
-  ],
-  [
-    "Winter 6 1/4 Square Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/winter-pocket-wedding-invitation/",
-  ],
-  [
-    "Blue And Yellow Flowers Half Fold Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/blue-and-yellow-flowers-half-fold-wedding-invitation/",
-  ],
-  [
-    "Different Solid Colors 6 1/4 Square Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/diferent-solid-colors-pocket-wedding-invitation/",
-  ],
-  [
-    "Gold and Black Leaves A7 Denali Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/gold-and-black-leaves-pocket-wedding-invitation/",
-  ],
-  [
-    "Golden Sublime Flowers A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/golden-sublime-flowers-pocket-wedding-invitation/",
-  ],
-  [
-    "Magnified Golden Gatsby 6 1/4 Square Denali Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/magnified-golden-gastby-pocket-wedding-invitation/",
-  ],
-  [
-    "Spring Daisies A7 Cascade Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/spring-daisies-pocket-wedding-invitation/",
-  ],
-  [
-    "Watercolor Boho Leaves A7 Sleeve Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/watercolor-boho-leaves-pocket-wedding-invitation/",
-  ],
-  [
-    "White and Red Flowers Vellum Wrapped Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/white-and-red-flowers-vellum-wrapped-wedding-invitation/",
-  ],
-  [
-    "Aquamarine Palette A7 Denali Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/aquamarine-palette-pocket-wedding-invitation/",
-  ],
-  [
-    "Floral Vintage Style Design Vellum Wrapped Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/floral-vintage-style-design-vellum-wrapped-wedding-invitation/",
-  ],
-  [
-    "Gold and Turquoise Oil A7 Cascade Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/gold-and-turquoise-oil-pocket-wedding-invitation/",
-  ],
-  [
-    "Golden Gatsby Abstracts 6 1/4 Square Denali Pocket Template Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/golden-gastby-abstracts-pocket-wedding-invitation-template/",
-  ],
-  [
-    "Hand Drawn 6 1/4 Square Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/hand-drawn-pocket-wedding-invitation/",
-  ],
-  [
-    "Painted Watercolor Floral A7 Sleeve Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/painted-watercolor-floral-pocket-wedding-invitation/",
-  ],
-  [
-    "Pink Letters Blue A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/pink-letters-blue-pocket-wedding-invitation/",
-  ],
-  [
-    "Simple Couple Collage Half Fold Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/simple-couple-collage-half-fold-wedding-invitation/",
-  ],
-  [
-    "Abstract Stripes and dots 6 1/4 Square Denali Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/abstract-stripes-and-dots-pocket-wedding-invitation/",
-  ],
-  [
-    "Autumn 6 1/4 Square Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/autumn-pocket-wedding-invitation/",
-  ],
-  [
-    "Boho Watercolor Design Vellum Wrapped Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/boho-watercolor-design-vellum-wrapped-wedding-invitation/",
-  ],
-  [
-    "Fresh Leaves and Flowers A7.5 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/fresh-leaves-and-flowers-pocket-wedding-invitation/",
-  ],
-  [
-    "Gold Leaf Frame A7 Atlas Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/gold-leaf-frame-pocket-wedding-invitation/",
-  ],
-  [
-    "Green Watercolors Leaves A7 Sleeve Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/green-watercolors-leaves-pocket-wedding-invitation/",
-  ],
-  [
-    "Halloween Colors A7 Denali Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/halloween-colors-pocket-wedding-invitation/",
-  ],
-  [
-    "Opaque Red Flowers A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/opaque-red-flowers-pocket-wedding-invitation/",
-  ],
-  [
-    "Retro Design Lace A7 Cascade Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/retro-design-lace-pocket-wedding-invitation/",
-  ],
-  [
-    "Vibrant Asian Celebratory Half Fold Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/vibrant-asian-celebratory-half-fold-wedding-invitation/",
-  ],
-  [
-    "Black Gradient Design 6 1/4 Square Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/black-gradient-design-pocket-wedding-invitation/",
-  ],
-  [
-    "Blue and Green 6 1/4 Square Denali Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/blue-and-green-pocket-wedding-invitation/",
-  ],
-  [
-    "Boho with Feathers Vellum Wrapped Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/boho-with-feathers-vellum-wrapped-wedding-invitation/",
-  ],
-  [
-    "Elegant Marble Flowers A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/elegant-marble-flowers-pocket-wedding-invitation/",
-  ],
-  [
-    "Hand Magnolia Flowers A7 Cascade Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/hand-magnolia-flowers-pocket-wedding-invitation/",
-  ],
-  [
-    "Hanging Festive Lanterns Half Fold Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/hanging-festive-lanterns-half-fold-wedding-invitation/",
-  ],
-  [
-    "Roses in Different Blues Gate Fold 5x7 Gate Fold Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/roses-in-different-blues-gate-fold-wedding-invitation/",
-  ],
-  [
-    "Chinese Ornamental Mandala A7 Cascade Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/chinese-ornamental-mandala-pocket-wedding-invitation/",
-  ],
-  [
-    "Detailed Boho Invitation Vellum Wrapped Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/detailed-boho-invitation-vellum-wrapped-wedding-invitation/",
-  ],
-  [
-    "Minimalistic Leaves And Trees Half Fold Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/minimalistic-leaves-and-trees-half-fold-wedding-invitation/",
-  ],
-  [
-    "Simple Gold Lettering A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/simple-gold-lettering-pocket-wedding-invitation/",
-  ],
-  [
-    "Watercolor Burgundy and Gold 6 1/4 Square Denali Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/watercolor-burgundy-and-gold-pocket-wedding-invitation/",
-  ],
-  [
-    "Boho Brown Branches Vellum Wrapped Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/boho-brown-branches-vellum-wrapped-wedding-invitation/",
-  ],
-  [
-    "Design A Lot Of Turquoise A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/design-a-lot-of-turquoise-pocket-wedding-invitation/",
-  ],
-  [
-    "Garden Party and Daisies 6 1/4 Square Denali Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/garden-party-and-daisies-pocket-wedding-invitation/",
-  ],
-  [
-    "Minimalist Drawing Leaves A7 Sleeve Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/minimalist-drawing-leaves-pocket-wedding-invitation/",
-  ],
-  [
-    "Minimalist Leaves and Algae 6 1/4 Square Denali Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/minimalist-leaves-and-algae-pocket-wedding-invitation/",
-  ],
-  [
-    "Simple Nude Invitation Half Fold Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/simple-nude-invitation-half-fold-wedding-invitation/",
-  ],
-  [
-    "Solid Earth Tones A7 Cascade Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/solid-earth-tones-pocket-wedding-invitation/",
-  ],
-  [
-    "Beautiful Spring Flower Half Fold Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/beautiful-spring-flower-half-fold-wedding-invitation/",
-  ],
-  [
-    "Beautiful Succulents Vellum Wrapped Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/beautiful-succulents-vellum-wrapped-wedding-invitation/",
-  ],
-  [
-    "Boho 6 1/4 Square Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/boho-pocket-wedding-invitation/",
-  ],
-  [
-    "Colors Earth Tones A7 Cascade Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/colors-earth-tones-pocket-wedding-invitation/",
-  ],
-  [
-    "Vibrant Blue Letter A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/vibrant-blue-letter-pocket-wedding-invitation/",
-  ],
-  [
-    "Beautiful Aquatic Flower Vellum Wrapped Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/beautiful-aquatic-flower-vellum-wrapped-wedding-invitation/",
-  ],
-  [
-    "Blue vintage Design A7 Sleeve Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/blue-vintage-design-pocket-wedding-invitation/",
-  ],
-  [
-    "Dull Purple Leaves A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/dull-purple-leaves-pocket-wedding-invitation/",
-  ],
-  [
-    "Garden Party and Pennants 6 1/4 Square Denali Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/garden-party-and-pennants-pocket-wedding-invitation/",
-  ],
-  [
-    "Golden Floral Corners Half Fold Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/golden-floral-corners-half-fold-wedding-invitation/",
-  ],
-  [
-    "Arid Colors A7.5 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/arid-colors-pocket-wedding-invitation/",
-  ],
-  [
-    "Elegant Green Watercolor Vellum Wrapped Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/elegant-green-watercolor-vellum-wrapped-wedding-invitation/",
-  ],
-  [
-    "Gentle Autumn Blooms Half Fold Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/gentle-autumn-blooms-half-fold-wedding-invitation/",
-  ],
-  [
-    "Watercolor Garnet Flowers A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/watercolor-garnet-flowers-pocket-wedding-invitation/",
-  ],
-  [
-    "Dull Emerald Drawn Half Fold Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/dull-emerald-drawn-half-fold-wedding-invitation/",
-  ],
-  [
-    "Elegant and Simple 6 1/4 Square Denali Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/elegant-and-simple-pocket-wedding-invitation/",
-  ],
-  [
-    "Flowers Light Green A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/flowers-light-green-pocket-wedding-invitation/",
-  ],
-  [
-    "Hand Drawn Newlywed Vellum Wrapped Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/hand-drawn-newlywed-vellum-wrapped-wedding-invitation/",
-  ],
-  [
-    "Design of a Couple Vellum Wrapped Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/design-of-a-couple-vellum-wrapped-wedding-invitation/",
-  ],
-  [
-    "Detailed Pink Spring Half Fold Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/detailed-pink-spring-half-fold-wedding-invitation/",
-  ],
-  [
-    "Gold Letters Lilium A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/gold-letters-lilium-pocket-wedding-invitation/",
-  ],
-  [
-    "Green Simple Watercolor A7 Sleeve Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/green-simple-watercolor-pocket-wedding-invitation/",
-  ],
-  [
-    "Subtle and Beautiful Leaves A7 Denali Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/subtle-and-beautiful-leaves-pocket-wedding-invitation/",
-  ],
-  [
-    "Tuxedo And Wedding Dress Half Fold Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/tuxedo-and-wedding-dress-half-fold-wedding-invitation/",
-  ],
-  [
-    "Watercolor Peach Pink A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/watercolor-peach-pink-pocket-wedding-invitation/",
-  ],
-  [
-    "Wedding Dress and Suit Vellum Wrapped Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/wedding-dress-and-suit-vellum-wrapped-wedding-invitation/",
-  ],
-  [
-    "Elegant Engagement A7 Atlas Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/elegant-engagement-pocket-wedding-invitation/",
-  ],
-  [
-    "Gold Frame And Leaf A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/gold-frame-and-leaf-pocket-wedding-invitation/",
-  ],
-  [
-    "Purple Floral Arrangement 6 1/4 Square Denali Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/purple-floral-arrangement-pocket-wedding-invitation/",
-  ],
-  [
-    "Simple Design With Photo Half Fold Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/simple-design-with-photo-half-fold-wedding-invitation/",
-  ],
-  [
-    "Wheat Leaves Vellum Wrapped Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/wheat-leaves-vellum-wrapped-wedding-invitation/",
-  ],
-  [
-    "Burlap Texture Vellum Wrapped Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/burlap-texture-vellum-wrapped-wedding-invitation/",
-  ],
-  [
-    "Colorful Floral Bouquet Half Fold Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/colorful-floral-bouquet-half-fold-wedding-invitation/",
-  ],
-  [
-    "Teal Tropical Design A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/teal-tropical-design-pocket-wedding-invitation/",
-  ],
-  [
-    "Beautiful Burlap Texture Vellum Wrapped Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/beautiful-burlap-texture-vellum-wrapped-wedding-invitation/",
-  ],
-  [
-    "Deep Red Roses Half Fold Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/deep-red-roses-half-fold-wedding-invitation/",
-  ],
-  [
-    "Simple Leaves Outline A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/simple-leavest-outline-pocket-wedding-invitation/",
-  ],
-  [
-    "Drawn floral Yellow A7 Sleeve Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/drawn-floral-yellow-pocket-wedding-invitation/",
-  ],
-  [
-    "Fanned Peacock Feathers Half Fold Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/fanned-peacock-feathers-half-fold-wedding-invitation/",
-  ],
-  [
-    "Minimalist Teal Leaves A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/minimalist-teal-leaves-pocket-wedding-invitation/",
-  ],
-  [
-    "Vintage Celestial Sky Vellum Wrapped Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/vintage-celestial-sky-vellum-wrapped-wedding-invitation/",
-  ],
-  [
-    "Constellations Design Vellum Wrapped Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/constellations-design-vellum-wrapped-wedding-invitation/",
-  ],
-  [
-    "Purple With Golden Accents Half Fold Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/purple-with-golden-accents-half-fold-wedding-invitation/",
-  ],
-  [
-    "Simple Olive Letters A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/simple-olive-letters-pocket-wedding-invitation/",
-  ],
-  [
-    "Blue Gray Watercolor A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/blue-gray-watercolor-pocket-wedding-invitation/",
-  ],
-  [
-    "Drawn Humming Bird Half Fold Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/drawn-humming-bird-half-fold-wedding-invitation/",
-  ],
-  [
-    "Flower Frames 6 1/4 Square Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/flower-frames-pocket-wedding-invitation/",
-  ],
-  [
-    "Gold Constellations Space Vellum Wrapped Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/gold-constellations-space-vellum-wrapped-wedding-invitation/",
-  ],
-  [
-    "Showy Yellow Flowers A7 Sleeve Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/showy-yellow-flowers-pocket-wedding-invitation/",
-  ],
-  [
-    "Elegant Floral Green A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/elegant-floral-green-pocket-wedding-invitation/",
-  ],
-  [
-    "Luxury Gold Design A7 Atlas Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/luxury-gold-design-pocket-wedding-invitation/",
-  ],
-  [
-    "Pastel Colors A7.5 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/pastel-colors-pocket-wedding-invitation/",
-  ],
-  [
-    "Realistic Shaded Flower Half Fold Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/realistic-shaded-flower-half-fold-wedding-invitation/",
-  ],
-  [
-    "Vintage Slate Invitation Vellum Wrapped Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/vintage-slate-invitation-vellum-wrapped-wedding-invitation/",
-  ],
-  [
-    "Beautiful Vintage Slate Vellum Wrapped Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/beautiful-vintage-slate-vellum-wrapped-wedding-invitation/",
-  ],
-  [
-    "Intense Violet Flowers A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/intense-violet-flowers-pocket-wedding-invitation/",
-  ],
-  [
-    "Leaves Green Oval A7 Sleeve Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/leaves-green-oval-pocket-wedding-invitation/",
-  ],
-  [
-    "Pretty Golden Floral Half Fold Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/pretty-golden-floral-half-fold-wedding-invitation/",
-  ],
-  [
-    "Solid Colors Gold A7.5 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/solid-colors-gold-pocket-wedding-invitation/",
-  ],
-  [
-    "Colorful Dark Bouquet Half Fold Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/colorful-dark-bouquet-half-fold-wedding-invitation/",
-  ],
-  [
-    "Vintage Vellum Wrapped Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/vintage-vellum-wrapped-wedding-invitation/",
-  ],
-  [
-    "Beautiful Blooming Flower A7.5 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/beautiful-blooming-flower-pocket-wedding-invitation/",
-  ],
-  [
-    "Moon in the City Vellum Wrapped Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/moon-in-the-city-vellum-wrapped-wedding-invitation/",
-  ],
-  [
-    "Plum Flowers A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/plum-flowers-pocket-wedding-invitation/",
-  ],
-  [
-    "Rough Peach Brushstrokes Half Fold Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/rough-peach-brushstrokes-half-fold-wedding-invitation/",
-  ],
-  [
-    "City Buildings Vellum Wrapped Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/city-buildings-vellum-wrapped-wedding-invitation/",
-  ],
-  [
-    "Flowers In A Watering Can Half Fold Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/flowers-in-a-watering-can-half-fold-wedding-invitation/",
-  ],
-  [
-    "Spring Flowers Tan A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/spring-flowers-tan-pocket-wedding-invitation/",
-  ],
-  [
-    "Minimalist White Invitation Half Fold Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/minimalist-white-invitation-half-fold-wedding-invitation/",
-  ],
-  [
-    "Peach White Letters A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/peach-white-letters-pocket-wedding-invitation/",
-  ],
-  [
-    "Taiwan City Buildings Vellum Wrapped Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/taiwan-city-buildings-vellum-wrapped-wedding-invitation/",
-  ],
-  [
-    "Deep Blue Invitation Half Fold Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/deep-blue-invitation-half-fold-wedding-invitation/",
-  ],
-  [
-    "Formal Vellum Wrapped Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/formal-vellum-wrapped-wedding-invitation/",
-  ],
-  [
-    "Green And Pink Leaves A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/green-and-pink-leaves-pocket-wedding-invitation/",
-  ],
-  [
-    "Ornamental A7 Denali Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/ornamental-pocket-wedding-invitation/",
-  ],
-  [
-    "Delicate Pink Watercolor A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/delicate-pink-watercolor-pocket-wedding-invitation/",
-  ],
-  [
-    "Elegant Frame A7 Atlas Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/elegant-frame-pocket-wedding-invitation/",
-  ],
-  [
-    "Formal Frame Invitation Vellum Wrapped Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/formal-frame-invitation-vellum-wrapped-wedding-invitation/",
-  ],
-  [
-    "Simple Invitation With Map Half Fold Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/simple-invitation-with-map-half-fold-wedding-invitation/",
-  ],
-  [
-    "Simple Solid Color Design 6 1/4 Square Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/simple-solid-color-design-pocket-wedding-invitation/",
-  ],
-  [
-    "Simple and Elegant Invitation Vellum Wrapped Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/simple-and-elegant-invitation-vellum-wrapped-wedding-invitation/",
-  ],
-  [
-    "Single-line Couple Half Fold Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/single-line-couple-half-fold-wedding-invitation/",
-  ],
-  [
-    "Vibrant Colorful Flowers A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/vibrant-colorful-flowers-pocket-wedding-invitation/",
-  ],
-  [
-    "Classic Pink Roses 6 1/4 Square Denali Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/classic-pink-roses-pocket-wedding-invitation/",
-  ],
-  [
-    "Dark Brown Invitation Half Fold Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/dark-brown-invitation-half-fold-wedding-invitation/",
-  ],
-  [
-    "Gold Frame And Jungle A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/gold-frame-and-jungle-pocket-wedding-invitation/",
-  ],
-  [
-    "Unicolor Of Dark Greens A7 Sleeve Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/unicolor-of-dark-greens-pocket-wedding-invitation/",
-  ],
-  [
-    "Elegant Simple Gold A7 Sleeve Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/elegant-simple-gold-pocket-wedding-invitation/",
-  ],
-  [
-    "Floral and Colorful Vellum Wrapped Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/floral-and-colorful-vellum-wrapped-wedding-invitation/",
-  ],
-  [
-    "Intricate White Mandala Half Fold Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/intricate-white-mandala-half-fold-wedding-invitation/",
-  ],
-  [
-    "Marble Full Of Leaves A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/marble-full-of-leaves-pocket-wedding-invitation/",
-  ],
-  [
-    "Geometric Abstract Design Vellum Wrapped Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/geometric-abstract-design-vellum-wrapped-wedding-invitation/",
-  ],
-  [
-    "Line Couple Embrace Half Fold Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/line-couple-embrace-half-fold-wedding-invitation/",
-  ],
-  [
-    "Orange Roses In The Corners A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/orange-roses-in-the-corners-pocket-wedding-invitation/",
-  ],
-  [
-    "Solid Dark Purple A7 Sleeve Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/solid-dark-purple-pocket-wedding-invitation/",
-  ],
-  [
-    "Dark Green Writing Half Fold Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/dark-green-writing-half-fold-wedding-invitation/",
-  ],
-  [
-    "Flowers And Leaves Brown A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/flowers-and-leaves-brown-pocket-wedding-invitation/",
-  ],
-  [
-    "Geometric Art Deco Vellum Wrapped Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/geometric-art-deco-vellum-wrapped-wedding-invitation/",
-  ],
-  [
-    "Old Paper and Leaves A7.5 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/old-paper-and-leaves-pocket-wedding-invitation/",
-  ],
-  [
-    "Cute Couple On A Bike Half Fold Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/cute-couple-on-a-bike-half-fold-wedding-invitation/",
-  ],
-  [
-    "Golden Japanese Theme Vellum Wrapped Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/golden-japanese-theme-vellum-wrapped-wedding-invitation/",
-  ],
-  [
-    "Gray Frame And Flowers A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/gray-frame-and-flowers-pocket-wedding-invitation/",
-  ],
-  [
-    "Nautical Jellyfish A7 Cascade Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/nautical-jellyfish-pocket-wedding-invitation/",
-  ],
-  [
-    "Blue Frame Flowers A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/blue-frame-flowers-pocket-wedding-invitation/",
-  ],
-  [
-    "Couple Wedding Day Half Fold Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/couple-wedding-day-half-fold-wedding-invitation/",
-  ],
-  [
-    "Tropical Leaves Vellum Wrapped Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/tropical-leaves-vellum-wrapped-wedding-invitation/",
-  ],
-  [
-    "Brown Paper Leaves A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/brown-paper-leaves-pocket-wedding-invitation/",
-  ],
-  [
-    "Watercolor Floral A7.5 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/watercolor-floral-pocket-wedding-invitation/",
-  ],
-  [
-    "Warm Fall Flowers A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/warm-fall-flowers-pocket-wedding-invitation/",
-  ],
-  [
-    "Beautiful Flowers Painting A7 Himalaya Pocket Template Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/beautiful-flowers-painting-pocket-wedding-invitation-template/",
-  ],
-  [
-    "Simple Solid Color 6 1/4 Square Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/simple-solid-color-pocket-wedding-invitation/",
-  ],
-  [
-    "Solid Warm Colors A7 Sleeve Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/solid-warm-colors-pocket-wedding-invitation/",
-  ],
-  [
-    "Red Colorful Leaves A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/red-colorful-leaves-pocket-wedding-invitation/",
-  ],
-  [
-    "Flowers Vintage A7 Denali Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/flowers-vintage-pocket-wedding-invitation/",
-  ],
-  [
-    "Tricolor Solid Design 6 1/4 Square Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/tricolor-solid-design-pocket-wedding-invitation/",
-  ],
-  [
-    "Vintage with Trees A7.5 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/vintage-with-trees-pocket-wedding-invitation/",
-  ],
-  [
-    "Winter Watercolor Flowers A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/winter-watercolor-flowers-pocket-wedding-invitation/",
-  ],
-  [
-    "Beige Roses Leaves A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/beige-roses-leaves-pocket-wedding-invitation/",
-  ],
-  [
-    "Gradient Golden Leaves A7.5 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/gradient-golden-leaves-pocket-wedding-invitation/",
-  ],
-  [
-    "Lots of Blue Watercolor A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/lots-of-blue-watercolor-pocket-wedding-invitation-template/",
-  ],
-  [
-    "Purple Flower Burst A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/purple-flower-burst-pocket-wedding-invitation/",
-  ],
-  [
-    "Tricolors Simple Designs A7.5 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/tricolors-simple-designs-pocket-wedding-invitation/",
-  ],
-  [
-    "Black Frame Flowers A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/black-frame-flowers-pocket-wedding-invitation/",
-  ],
-  [
-    "Black Striped Border A7 Atlas Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/black-striped-border-pocket-wedding-invitation/",
-  ],
-  [
-    "Classic Serious Roses 6 1/4 Square Denali Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/classic-serious-roses-pocket-wedding-invitation/",
-  ],
-  [
-    "Pink Flower Burst A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/pink-flower-burst-pocket-wedding-invitation/",
-  ],
-  [
-    "Watercolor 6 1/4 Square Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/watercolor-pocket-wedding-invitation-2561/",
-  ],
-  [
-    "Watercolor Floral Motif A7 Sleeve Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/watercolor-floral-motif-pocket-wedding-invitation/",
-  ],
-  [
-    "Abstract Modern Design A7 Denali Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/abstract-modern-design-pocket-wedding-invitation/",
-  ],
-  [
-    "Flowers Cool Colors A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/flowers-cool-colors-pocket-wedding-invitation/",
-  ],
-  [
-    "Perfect Blue Shades 6 1/4 Square Denali Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/perfect-blue-shades-pocket-wedding-invitation/",
-  ],
-  [
-    "Abstract Gray and Pink A7.5 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/abstract-gray-and-pink-pocket-wedding-invitation/",
-  ],
-  [
-    "Leaves and Abstract Watercolor 6 1/4 Square Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/leaves-and-abstract-watercolor-pocket-wedding-invitation/",
-  ],
-  [
-    "Olive Watercolor Design A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/olive-watercolor-design-pocket-wedding-invitation/",
-  ],
-  [
-    "Captivating Royal Blue A7 Sleeve Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/captivating-royal-blue-pocket-wedding-invitation/",
-  ],
-  [
-    "Delicate Peach Watercolor 6 1/4 Square Denali Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/6-14-square-denali-pocket-wedding-invitation-template-giuliana/",
-  ],
-  [
-    "Marble Texture with Frame A7 Cascade Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/marble-texture-with-frame-pocket-wedding-invitation/",
-  ],
-  [
-    "Watercolor Leaves A7 Atlas Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/watercolor-leaves-pocket-wedding-invitation/",
-  ],
-  [
-    "Watercolor Leaves Ronald A7 Atlas Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/watercolor-leaves-ronald-pocket-wedding-invitation/",
-  ],
-  [
-    "Watercolors Intense Blue A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/watercolors-intense-blue-pocket-wedding-invitation/",
-  ],
-  [
-    "Abstract Orange A7.5 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/abstract-orange-pocket-wedding-invitation/",
-  ],
-  [
-    "Colorful Garden Party A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/colorful-garden-party-pocket-wedding-invitation/",
-  ],
-  [
-    "Ochre And Olive Color 6 1/4 Square Denali Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/ochre-and-olive-color-pocket-wedding-invitation/",
-  ],
-  [
-    "Brown Marble And Flowers A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/brown-marble-and-flowers-pocket-wedding-invitation/",
-  ],
-  [
-    "Boho Brown Tones A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/boho-brown-tones-pocket-wedding-invitation/",
-  ],
-  [
-    "Orange Summer Palms A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/orange-summer-palms-pocket-wedding-invitation/",
-  ],
-  [
-    "Sweet Adorable Colors 6 1/4 Square Denali Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/sweet-adorable-colors-pocket-wedding-invitation/",
-  ],
-  [
-    "White Hearts Strips A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/white-hearts-strips-pocket-wedding-invitation/",
-  ],
-  [
-    "Elegant Geometric Design A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/elegant-geometric-design-pocket-wedding-invitation/",
-  ],
-  [
-    "Brown Boho Feathers A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/brown-boho-feathers-pocket-wedding-invitation/",
-  ],
-  [
-    "Realistic Golden Luxury A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/realistic-golden-luxury-pocket-wedding-invitation/",
-  ],
-  [
-    "Japanese Bamboo Leaves A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/japanese-bamboo-leaves-pocket-wedding-invitation/",
-  ],
-  [
-    "Vintage Elegant Frame A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/vitage-elegant-frame-pocket-wedding-invitation/",
-  ],
-  [
-    "Elegant Style Marble A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/elegant-style-marmol-pocket-wedding-invitation/",
-  ],
-  [
-    "Geometric Design Watercolor A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/geometric-design-watercolor-pocket-wedding-invitation/",
-  ],
-  [
-    "Single Uncontoured Flowers A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/single-uncontoured-flowers-pocket-wedding-invitation/",
-  ],
-  [
-    "Realistic Golden Flowers A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/realistic-golden-flowers-pocket-wedding-invitation/",
-  ],
-  [
-    "Elegant Minimalist Gold A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/elegant-minimalist-gold-pocket-wedding-invitation/",
-  ],
-  [
-    "Indian Golden Edges A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/indian-golden-edges-pocket-wedding-invitation/",
-  ],
-  [
-    "Beautiful Borders A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/beautiful-borders-pocket-wedding-invitation/",
-  ],
-  [
-    "Geometric Orange Borders A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/geometric-orange-borders-pocket-wedding-invitation/",
-  ],
-  [
-    "Minimalist Theme Circles A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/minimalist-theme-circles-pocket-wedding-invitation/",
-  ],
-  [
-    "Simple Gold Details A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/simple-gold-details-pocket-wedding-invitation/",
-  ],
-  [
-    "Ochre Minimalist Curves A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/ochre-minimalist-curves-pocket-wedding-invitation/",
-  ],
-  [
-    "Shiny Golden Mandala Wedding Invitation",
-    "https://www.apprinting.com/en/shiny-golden-mandala-wedding-invitation/",
-  ],
-  [
-    "Tropical Uncontoured Leaves A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/tropical-uncontoured-leaves-pocket-wedding-invitation/",
-  ],
-  [
-    "Colorful Garden Design A7 Himalaya Pocket Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/colorful-garden-design-pocket-wedding-invitation/",
-  ],
-  [
-    "Blue Snow Simple Flat 5x7 Wedding Invitation",
-    "https://www.apprinting.com/en/blue-snow-wedding-invitation/",
-  ],
-  [
-    "Pink Christmas Simple Flat 5x7 Wedding Invitation",
-    "https://www.apprinting.com/en/pink-christmas-wedding-invitation/",
-  ],
-  [
-    "Christmas Pineapple Design Simple Flat 5x7 Wedding Invitation",
-    "https://www.apprinting.com/en/christmas-pineapple-design-wedding-invitation/",
-  ],
-  [
-    "Floral Winter Simple Flat 5x7 Wedding Invitation",
-    "https://www.apprinting.com/en/floral-winter-wedding-invitation/",
-  ],
-  [
-    "Delicate Snow Debris Simple Flat 5x7 Wedding Invitation",
-    "https://www.apprinting.com/en/delicate-snow-debris-wedding-invitation/",
-  ],
-  [
-    "Christmas Pine Branches Simple Flat 5x7 Wedding Invitation",
-    "https://www.apprinting.com/en/christmas-pine-branches-wedding-invitation/",
-  ],
-  [
-    "Winter Forest Simple Flat 5x7 Wedding Invitation",
-    "https://www.apprinting.com/en/winter-forest-wedding-invitation/",
-  ],
-  [
-    "Christmas Brown Branches Simple Flat 5x7 Wedding Invitation",
-    "https://www.apprinting.com/en/christmas-brown-branches-wedding-invitation/",
-  ],
-  [
-    "Cold and Tender Flowers Simple Flat 5x7 Wedding Invitation",
-    "https://www.apprinting.com/en/cold-and-tender-flowers-wedding-invitation/",
-  ],
-  [
-    "Frame Snowflakes Simple Flat 5x7 Wedding Invitation",
-    "https://www.apprinting.com/en/frame-snowflakes-wedding-invitation/",
-  ],
-  [
-    "Elegant Simple Simple Flat 5x7 Wedding Invitation",
-    "https://www.apprinting.com/en/elegant-simple-wedding-invitation/",
-  ],
-  [
-    "Beach Laser Cut Wedding Invitation",
-    "https://www.apprinting.com/en/cl-slider-58-m-n-gold-peony-tall-slider/",
-  ],
-  [
-    "Blush Lace Crown Laser Cut Wedding Invitation",
-    "https://www.apprinting.com/en/cl-wrap-66-m-m-white-variety-of-flowers/",
-  ],
-  [
-    "Blush Laser Cut Envelope with Glittery Border Wedding Invitation",
-    "https://www.apprinting.com/en/cl-wrap-66-m-n-gold-french-fleur-de-lis/",
-  ],
-  [
-    "Blush Rose Laser Cut Wedding Invitation",
-    "https://www.apprinting.com/en/cl-bf-66-mmm-white-bride-and-groom-in-garden/",
-  ],
-  [
-    "Blush Rose with Silver Glitter Laser Cut Wedding Invitation",
-    "https://www.apprinting.com/en/cl-wrap-66-mmm-black-sunflower-and-leaves/",
-  ],
-  [
-    "Blush Semicircle Floral Laser Cut Wedding Invitation",
-    "https://www.apprinting.com/en/cl-wrap-66-mnm-gold-sunflower-and-leaves/",
-  ],
-  [
-    "Bride and Groom under Heart Tree Laser Cut Wedding Invitation",
-    "https://www.apprinting.com/en/cl-wrap-66-mmm-ecru-sunflower-and-leaves/",
-  ],
-  [
-    "Bride and Groom under Tree Laser Cut Wedding Invitation",
-    "https://www.apprinting.com/en/cl-wrap-66-mpm-white-fleur-de-lis-4-peel/",
-  ],
-  [
-    "Burgundy and Gold Vine Laser Cut Wrap Wedding Invitation",
-    "https://www.apprinting.com/en/cl-slider-66-n-n-white-flowers-with-pearl-center/",
-  ],
-  [
-    "Burgundy Lace Tri-Fold Laser Cut Pocket Wedding Invitation",
-    "https://www.apprinting.com/en/cl-slider-66-m-m-white-variety-of-flowers/",
-  ],
-  [
-    "CL-BF-57 M-M Bronze Tree of Love Laser Cut Wedding Invitation",
-    "https://www.apprinting.com/en/cl-wrap-57-m-m-white-flower-wrap/",
-  ],
-  [
-    "CL-PF-57 M-M Gold Heart Diamond Drop Laser Cut Wedding Invitation",
-    "https://www.apprinting.com/en/cl-wrap-57-m-n-black-flower-wrap/",
-  ],
-  [
-    "CL-PF-57 M-M White Heart Flourish Pocket Laser Cut Wedding Invitation",
-    "https://www.apprinting.com/en/cl-slider-57-m-m-quartz-ribbon-like-and-flowers/",
-  ],
-  [
-    "CL-SLIDER-57 N-M White Flowers, Lace Trims Laser Cut Wedding Invitation",
-    "https://www.apprinting.com/en/laser-cut-gold-heart-flourish-pocket-wedding-invitation/",
-  ],
-  [
-    "CL-SLIDER-58 M-M Red Peony Tall Slider Laser Cut Wedding Invitation",
-    "https://www.apprinting.com/en/cl-pf-57-m-m-black-peacock-feather-pocket/",
-  ],
-  [
-    "CL-SLIDER-66 MMM White Fleur De Lis Laser Cut Wedding Invitation",
-    "https://www.apprinting.com/en/cl-bf-57-mmn-white-centered-heart/",
-  ],
-  [
-    "CL-WRAP-57 M-M Gold Flowers and Butterfly Wrap Laser Cut Wedding Invitation",
-    "https://www.apprinting.com/en/cl-bf-57-n-n-gray-peony-leaves/",
-  ],
-  [
-    "CL-WRAP-57 M-N White Flourish Wrap with Ribbon Laser Cut Wedding Invitation",
-    "https://www.apprinting.com/en/cl-slider-57-n-m-white-flowers-on-vine-band/",
-  ],
-  [
-    "CL-WRAP-57 N-N White Embossed Peony Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/cl-wrap-57-n-n-white-embossed-peony/",
-  ],
-  [
-    "CL-WRAP-66 M-M Midnight Variety of Flowers Laser Cut Wedding Invitation",
-    "https://www.apprinting.com/en/cl-slider-57-m-m-white-centered-heart-band/",
-  ],
-  [
-    "CL-WRAP-66 M-N White Brush Leaves Wrap Laser Cut Wedding Invitation",
-    "https://www.apprinting.com/en/cl-wrap-57-mmn-midnight-french-window/",
-  ],
-  [
-    "CL-WRAP-66 N-M Ecru Hearts and Cog Circles Laser Cut Wedding Invitation",
-    "https://www.apprinting.com/en/cl-wrap-57-mmn-white-flowers-and-butterfly-wrap/",
-  ],
-  [
-    "Elegant Lace Laser Cut Pocket Wedding Invitation",
-    "https://www.apprinting.com/en/cl-wrap-66-mpmn-black-fleur-de-lis-4-peel/",
-  ],
-  [
-    "Elegant Tree Laser Cut Wedding Invitation",
-    "https://www.apprinting.com/en/cl-wrap-66-mmn-gold-fleur-de-lis-4-peel/",
-  ],
-  [
-    "Exquisite Lace Vine Tri-Fold Laser Cut Pocket Wedding Invitation",
-    "https://www.apprinting.com/en/cl-slider-66-mmm-gold-fleur-de-lis/",
-  ],
-  [
-    "Fancy Pearl Border Overlay [CC-25] Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/fancy-pearl-border-overlay/",
-  ],
-  [
-    "Fancy Pearl Border [CC-25] Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/fancy-pearl-border/",
-  ],
-  [
-    "Flower Square Laser Cut Wedding Invitation",
-    "https://www.apprinting.com/en/cl-wrap-66-mmm-gold-lace-star-4-peel/",
-  ],
-  [
-    "Glittering Navy Lace Laser Cut Wedding Invitation",
-    "https://www.apprinting.com/en/cl-wrap-66-m-m-ecru-variety-of-flowers/",
-  ],
-  [
-    "Glittery Lace Laser Cut Pocket Wedding Invitation",
-    "https://www.apprinting.com/en/cl-wrap-66-m-m-ecru-french-fleur-de-lis/",
-  ],
-  [
-    "Gorgeous Lace Laser Cut Wedding Invitation",
-    "https://www.apprinting.com/en/cl-slider-58-m-m-white-peony-tall-slider/",
-  ],
-  [
-    "K7532 [I-11] Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/k7532/",
-  ],
-  [
-    "K778-Overlay [I-12] Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/k778-overlay/",
-  ],
-  [
-    "K781 [I-10] Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/k781/",
-  ],
-  [
-    "K8107 [I-12] Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/k8107/",
-  ],
-  [
-    "K8434 [I-10] Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/k8434/",
-  ],
-  [
-    "K778-Wrap [I-12] Vietnamese & English Wedding Invitation",
-    "https://www.apprinting.com/en/k778-wrap/",
+    "DRRD2-HL-V [V-L-02] Peach Blossom Radiance Wedding Entourage",
+    "https://www.apprinting.com/en/drrd2-hl-v/",
   ],
 ];
 
