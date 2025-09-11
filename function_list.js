@@ -1,4 +1,6 @@
 import fs from "fs";
+import path from "path";
+import https from "https";
 import * as dotenv from "dotenv";
 import listPrice from "./listPrice.js";
 import dataProducts from "./list.js";
@@ -34,6 +36,8 @@ import {
   envelopePrice,
   envelopePrice2,
   newPrices,
+  dataPaperMore,
+  imageUrls,
 } from "./data.js";
 import { log } from "console";
 dotenv.config();
@@ -51,6 +55,10 @@ export const login = async (page, ipProxy) => {
   // const report = `${ipProxy}\n`
   // fs.appendFileSync('proxies-secundary.txt', report)
   console.log("login: OK");
+};
+
+export const filterDataPaperMore = async () => {
+  dataPaperMore.forEach((element) => console.log(`"${element.path}",`));
 };
 
 export const inputFillToPrice = async (page) => {
@@ -2353,3 +2361,72 @@ export const auditArtwork = async (page) => {
     console.log(`${id} ---> ${verifyArtwork}`);
   }
 };
+
+
+
+
+
+async function downloadImage(url, filepath) {
+  return new Promise((resolve, reject) => {
+    https
+      .get(url, (res) => {
+        // Manejar el caso de redirección (código de estado 301, 302, etc.)
+        if (
+          res.statusCode >= 300 &&
+          res.statusCode < 400 &&
+          res.headers.location
+        ) {
+          return downloadImage(res.headers.location, filepath)
+            .then(resolve)
+            .catch(reject);
+        }
+
+        if (res.statusCode !== 200) {
+          return reject(
+            new Error(
+              `Falló la descarga de la imagen. Código de estado: ${res.statusCode}`
+            )
+          );
+        }
+
+        const fileStream = fs.createWriteStream(filepath);
+        res.pipe(fileStream);
+
+        fileStream.on("finish", () => {
+          fileStream.close();
+          console.log(`✅ Descargada: ${filepath}`);
+          resolve();
+        });
+
+        fileStream.on("error", (err) => {
+          fs.unlink(filepath, () => {}); // Eliminar el archivo incompleto
+          reject(err);
+        });
+      })
+      .on("error", (err) => {
+        reject(err);
+      });
+  });
+}
+
+const downloadDir = ".";
+
+// Función principal para procesar la lista de imágenes
+export async function downloadImagesFromList() {
+  console.log("Iniciando la descarga de imágenes...");
+  
+  // // Asegurarse de que el directorio exista
+  // if (!fs.existsSync(downloadDir)) {
+  //   fs.mkdirSync(downloadDir);
+  // }
+  for (const url of imageUrls) {
+    try {
+      const filename = path.basename(url);
+      const filepath = path.join(downloadDir, filename);
+      await downloadImage(url, filepath);
+    } catch (err) {
+      console.error(`❌ Error al descargar ${url}: ${err.message}`);
+    }
+  }
+  console.log("Descarga de imágenes completada.");
+}

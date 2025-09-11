@@ -36,6 +36,8 @@ import {
   getUrlProducts,
   getUrlClientProducts,
   getSizesImagesArray,
+  filterDataPaperMore,
+  downloadImagesFromList,
 } from "./function_list.js";
 // import { proxies } from './data.js'
 // import fs from 'fs'
@@ -154,6 +156,10 @@ const updateRow = async () => {
   // await getAssociatedCategoryProduct(page);
   // await changeAssociatedCategoryProduct(page);
 
+  //FILTER DATA
+  await filterDataPaperMore();
+  // await downloadImagesFromList();
+
   // AUDIT IMAGES SIZES
   // await getSizesImages(page, "https://www.apprinting.com/en/posters/products/");
   // await getSizesImagesFinal(page);
@@ -161,7 +167,7 @@ const updateRow = async () => {
   //   page,
   //   "https://www.apprinting.com/en/pockets-and-folds-wedding-invitations/products/"
   // );
-  await getSizesImagesArray(page);
+  // await getSizesImagesArray(page);
 
 
   // AUDIT RULES
