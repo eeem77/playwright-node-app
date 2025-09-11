@@ -5644,7 +5644,7 @@ export const dataPaperMore = [
   //dl.dropboxusercontent.com
 ];
 
-export const imageUrls = [
+export const images = [
   "https://dl.dropboxusercontent.com/s/g10gd9c0y0jdyc9/tr_w-320.png?dl=0",
   "https://dl.dropboxusercontent.com/s/3kwhoxj7ixafsef/tr_w-320.png?dl=0",
   "https://dl.dropboxusercontent.com/s/380vb5zoa5v9i44/tr_w-320.png?dl=0",

@@ -1,5 +1,6 @@
 import fs from "fs";
 import path from "path";
+import axios from "axios";
 import https from "https";
 import * as dotenv from "dotenv";
 import listPrice from "./listPrice.js";
@@ -37,7 +38,7 @@ import {
   envelopePrice2,
   newPrices,
   dataPaperMore,
-  imageUrls,
+  images,
 } from "./data.js";
 import { log } from "console";
 dotenv.config();
@@ -2366,67 +2367,63 @@ export const auditArtwork = async (page) => {
 
 
 
-async function downloadImage(url, filepath) {
-  return new Promise((resolve, reject) => {
-    https
-      .get(url, (res) => {
-        // Manejar el caso de redirección (código de estado 301, 302, etc.)
-        if (
-          res.statusCode >= 300 &&
-          res.statusCode < 400 &&
-          res.headers.location
-        ) {
-          return downloadImage(res.headers.location, filepath)
-            .then(resolve)
-            .catch(reject);
-        }
+const downloadFolder = "./download-images";
 
-        if (res.statusCode !== 200) {
-          return reject(
-            new Error(
-              `Falló la descarga de la imagen. Código de estado: ${res.statusCode}`
-            )
-          );
-        }
-
-        const fileStream = fs.createWriteStream(filepath);
-        res.pipe(fileStream);
-
-        fileStream.on("finish", () => {
-          fileStream.close();
-          console.log(`✅ Descargada: ${filepath}`);
-          resolve();
-        });
-
-        fileStream.on("error", (err) => {
-          fs.unlink(filepath, () => {}); // Eliminar el archivo incompleto
-          reject(err);
-        });
-      })
-      .on("error", (err) => {
-        reject(err);
-      });
-  });
+// Crear directorio si no existe
+if (!fs.existsSync(downloadFolder)) {
+  fs.mkdirSync(downloadFolder, { recursive: true });
 }
 
-const downloadDir = ".";
+// Función para obtener el nombre de archivo
+function getFileName(url, index) {
+  try {
+    const urlObj = new URL(url);
+    const pathname = urlObj.pathname;
+    let extension = path.extname(pathname);
+    // Si no hay extensión, usamos .jpg por defecto
+    if (!extension) {
+      extension = ".jpg";
+    }
+    return `${index}${extension}`;
+  } catch (error) {
+    return `${index}.jpg`;
+  }
+}
 
-// Función principal para procesar la lista de imágenes
-export async function downloadImagesFromList() {
-  console.log("Iniciando la descarga de imágenes...");
-  
-  // // Asegurarse de que el directorio exista
-  // if (!fs.existsSync(downloadDir)) {
-  //   fs.mkdirSync(downloadDir);
-  // }
-  for (const url of imageUrls) {
+// Función para descargar una imagen individual
+async function downloadImage(url, filename) {
+  try {
+    const response = await axios({
+      url,
+      method: "GET",
+      responseType: "stream",
+    });
+
+    const writer = fs.createWriteStream(filename);
+    response.data.pipe(writer);
+
+    return new Promise((resolve, reject) => {
+      writer.on("finish", resolve);
+      writer.on("error", reject);
+    });
+  } catch (error) {
+    throw new Error(`Error al descargar ${url}: ${error.message}`);
+  }
+}
+
+// Función principal de descarga en lote
+export async function downloadAllImages() {
+  for (let i = 0; i < images.length; i++) {
+    const url = images[i];
+    const filename = path.join(downloadFolder, getFileName(url, i + 1));
+
+    console.log(`Descargando: ${url}`);
+
     try {
-      const filename = path.basename(url);
-      const filepath = path.join(downloadDir, filename);
-      await downloadImage(url, filepath);
-    } catch (err) {
-      console.error(`❌ Error al descargar ${url}: ${err.message}`);
+      await downloadImage(url, filename);
+      console.log(`✓ Descargada: ${filename}`);
+    } catch (error) {
+      console.error(`✗ Error: ${error.message}`);
     }
   }
-  console.log("Descarga de imágenes completada.");
 }
