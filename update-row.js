@@ -38,6 +38,7 @@ import {
   getSizesImagesArray,
   filterDataPaperMore,
   downloadAllImages,
+  modifyStringRecursiveFiles,
 } from "./function_list.js";
 // import { proxies } from './data.js'
 // import fs from 'fs'
@@ -160,9 +161,11 @@ const updateRow = async () => {
   // await filterDataPaperMore();
 
   // Download Images URL'S
-  downloadAllImages()
-    .then(() => console.log("Proceso completado"))
-    .catch((error) => console.error("Error general:", error));
+  // downloadAllImages()
+  //   .then(() => console.log("Proceso completado"))
+  //   .catch((error) => console.error("Error general:", error));
+
+  modifyStringRecursiveFiles().catch(console.error);
 
   // AUDIT IMAGES SIZES
   // await getSizesImages(page, "https://www.apprinting.com/en/posters/products/");

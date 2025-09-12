@@ -2427,3 +2427,170 @@ export async function downloadAllImages() {
     }
   }
 }
+
+
+
+/**
+ * Función principal para buscar y modificar hipervínculos
+ */
+async function modifyHyperlinksInFolders(rootDir, targetFileName, searchWord, newHref) {
+    try {
+        console.log(`🔍 Buscando en: ${rootDir}`);
+        
+        // Leer el directorio raíz
+        const items = await readDir(rootDir);
+        
+        for (const item of items) {
+            const itemPath = path.join(rootDir, item.name);
+            
+            if (item.isDirectory()) {
+                try {
+                    // Verificar si el archivo objetivo existe en esta carpeta
+                    const targetFilePath = path.join(itemPath, targetFileName);
+                    await accessFile(targetFilePath);
+                    
+                    console.log(`📁 Procesando carpeta: ${item.name}`);
+                    
+                    // Modificar el archivo
+                    await modifyFileHyperlinks(targetFilePath, searchWord, newHref);
+                    
+                } catch (error) {
+                    // El archivo no existe en esta carpeta, continuar
+                    continue;
+                }
+            }
+        }
+        
+        console.log('✅ Proceso completado');
+        
+    } catch (error) {
+        console.error('❌ Error:', error.message);
+    }
+}
+
+/**
+ * Lee un directorio (versión promisificada)
+ */
+function readDir(dirPath) {
+    return new Promise((resolve, reject) => {
+        fs.readdir(dirPath, { withFileTypes: true }, (err, files) => {
+            if (err) reject(err);
+            else resolve(files);
+        });
+    });
+}
+
+/**
+ * Verifica si un archivo existe (versión promisificada)
+ */
+function accessFile(filePath) {
+    return new Promise((resolve, reject) => {
+        fs.access(filePath, fs.constants.F_OK, (err) => {
+            if (err) reject(err);
+            else resolve();
+        });
+    });
+}
+
+/**
+ * Lee un archivo (versión promisificada)
+ */
+function readFile(filePath) {
+    return new Promise((resolve, reject) => {
+        fs.readFile(filePath, 'utf8', (err, data) => {
+            if (err) reject(err);
+            else resolve(data);
+        });
+    });
+}
+
+/**
+ * Escribe en un archivo (versión promisificada)
+ */
+function writeFile(filePath, content) {
+    return new Promise((resolve, reject) => {
+        fs.writeFile(filePath, content, 'utf8', (err) => {
+            if (err) reject(err);
+            else resolve();
+        });
+    });
+}
+
+/**
+ * Modifica hipervínculos en un archivo específico
+ */
+async function modifyFileHyperlinks(filePath, searchWord, newHref) {
+    try {
+        // Leer el contenido del archivo
+        let content = await readFile(filePath);
+        
+        // Expresión regular para buscar hipervínculos que contengan la palabra
+        const regex = new RegExp(
+          `(src=["'][^"']*${searchWord}[^"']*["'])`,
+          "gi"
+        );
+        
+        // Reemplazar los hipervínculos encontrados
+        const newContent = content.replace(regex, `src="${newHref}"`);
+        
+        // Si hubo cambios, guardar el archivo
+        if (newContent !== content) {
+            await writeFile(filePath, newContent);
+            console.log(`✅ Modificado: ${filePath}`);
+        } else {
+            console.log(`ℹ️  No se encontraron coincidencias en: ${filePath}`);
+        }
+        
+    } catch (error) {
+        console.error(`❌ Error procesando ${filePath}:`, error.message);
+    }
+}
+
+/**
+ * Función alternativa con mejor manejo de diferentes patrones de href
+ */
+async function modifySpecificHyperlinks(filePath, searchWord, newHref) {
+    try {
+        let content = await readFile(filePath);
+        const originalContent = content;
+        
+        // Diferentes patrones para buscar hipervínculos
+        const patterns = [
+          // Para src="...palabra..."
+          new RegExp(`(src=["'])([^"']*${searchWord}[^"']*)(["'])`, "gi"),
+          // Para src='...palabra...'
+          new RegExp(`(src=['])([^']*${searchWord}[^']*)(['])`, "gi"),
+        ];
+        
+        let modified = false;
+        
+        for (const pattern of patterns) {
+            if (pattern.test(content)) {
+                content = content.replace(pattern, `$1${newHref}$3`);
+                modified = true;
+            }
+        }
+        
+        if (modified) {
+            await writeFile(filePath, content);
+            console.log(`✅ Hipervínculos modificados en: ${filePath}`);
+        } else {
+            console.log(`ℹ️  No se encontró "${searchWord}" en: ${filePath}`);
+        }
+        
+    } catch (error) {
+        console.error(`❌ Error en ${filePath}:`, error.message);
+    }
+}
+
+// Ejemplo de uso
+export async function modifyStringRecursiveFiles() {
+  const rootDirectory =
+    "/home/eeem77/Dropbox/AP Team/Web2.0/HTML_APprinting/A7_Atlas_Pockets";
+  const fileName = "index.html";
+  const keyword = "index.js";
+  const newLink =
+    "https://scanme4menu.com/web-apprinting-resources/HTML_APprinting/A7_Atlas_Pockets/js_css_globals/index.js";
+
+  await modifyHyperlinksInFolders(rootDirectory, fileName, keyword, newLink);
+}
