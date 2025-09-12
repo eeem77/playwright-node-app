@@ -2585,12 +2585,11 @@ async function modifySpecificHyperlinks(filePath, searchWord, newHref) {
 
 // Ejemplo de uso
 export async function modifyStringRecursiveFiles() {
-  const rootDirectory =
-    "/home/eeem77/Dropbox/AP Team/Web2.0/HTML_APprinting/A7_Atlas_Pockets";
+  const rootDirectory = "/home/eeem77/Documents/A7_Cascade_Pockets/";
   const fileName = "index.html";
-  const keyword = "index.js";
+  const keyword = "envelope_a1_euro.png";
   const newLink =
-    "https://scanme4menu.com/web-apprinting-resources/HTML_APprinting/A7_Atlas_Pockets/js_css_globals/index.js";
+    "https://scanme4menu.com/web-apprinting-resources/HTML_APprinting/A7_Cascade_Pockets/img_globals/envelopes/envelope_a1_euro.png";
 
   await modifyHyperlinksInFolders(rootDirectory, fileName, keyword, newLink);
 }
