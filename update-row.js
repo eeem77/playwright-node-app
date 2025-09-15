@@ -165,11 +165,11 @@ const updateRow = async () => {
   //   .then(() => console.log("Proceso completado"))
   //   .catch((error) => console.error("Error general:", error));
 
-  modifyStringRecursiveFiles().catch(console.error);
+  // modifyStringRecursiveFiles().catch(console.error);
 
   // AUDIT IMAGES SIZES
   // await getSizesImages(page, "https://www.apprinting.com/en/posters/products/");
-  // await getSizesImagesFinal(page);
+  await getSizesImagesFinal(page);
   // await getUrlClientProducts(
   //   page,
   //   "https://www.apprinting.com/en/pockets-and-folds-wedding-invitations/products/"

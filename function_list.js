@@ -2433,7 +2433,7 @@ export async function downloadAllImages() {
 /**
  * Función principal para buscar y modificar hipervínculos
  */
-async function modifyHyperlinksInFolders(rootDir, targetFileName, searchWord, newHref) {
+async function modifyHyperlinksInFolders(rootDir, targetFileName, searchWord, newHref, newSection) {
     try {
         console.log(`🔍 Buscando en: ${rootDir}`);
         
@@ -2452,7 +2452,12 @@ async function modifyHyperlinksInFolders(rootDir, targetFileName, searchWord, ne
                     console.log(`📁 Procesando carpeta: ${item.name}`);
                     
                     // Modificar el archivo
-                    await modifyFileHyperlinks(targetFilePath, searchWord, newHref);
+                    await modifyFileHyperlinks(
+                      targetFilePath,
+                      searchWord,
+                      newHref,
+                      newSection
+                    );
                     
                 } catch (error) {
                     // El archivo no existe en esta carpeta, continuar
@@ -2519,31 +2524,34 @@ function writeFile(filePath, content) {
 /**
  * Modifica hipervínculos en un archivo específico
  */
-async function modifyFileHyperlinks(filePath, searchWord, newHref) {
-    try {
-        // Leer el contenido del archivo
-        let content = await readFile(filePath);
-        
-        // Expresión regular para buscar hipervínculos que contengan la palabra
-        const regex = new RegExp(
-          `(src=["'][^"']*${searchWord}[^"']*["'])`,
-          "gi"
-        );
-        
-        // Reemplazar los hipervínculos encontrados
-        const newContent = content.replace(regex, `src="${newHref}"`);
-        
-        // Si hubo cambios, guardar el archivo
-        if (newContent !== content) {
-            await writeFile(filePath, newContent);
-            console.log(`✅ Modificado: ${filePath}`);
-        } else {
-            console.log(`ℹ️  No se encontraron coincidencias en: ${filePath}`);
-        }
-        
-    } catch (error) {
-        console.error(`❌ Error procesando ${filePath}:`, error.message);
+async function modifyFileHyperlinks(filePath, searchWord, newHref, newSection) {
+  try {
+    // Leer el contenido del archivo
+    let content = await readFile(filePath);
+
+    // Expresión regular para buscar hipervínculos que contengan la palabra
+    let regex = new RegExp(`(src=["'][^"']*${searchWord}[^"']*["'])`, "gi");
+
+    // Reemplazar los hipervínculos encontrados
+    let newContent = content.replace(regex, `src="${newHref}"`);
+
+    // Reemplazar parrafo encontrados
+    // if (content.search(regex) === -1) {
+    //   regex =
+    //     /<p class="mt-4">The product can be optionally paired with the items below\.<\/p>/;
+    //   newContent = content.replace(regex, `${newSection}`);
+    // }
+
+    // Si hubo cambios, guardar el archivo
+    if (newContent !== content) {
+      await writeFile(filePath, newContent);
+      console.log(`✅ Modificado: ${filePath}`);
+    } else {
+      console.log(`ℹ️  No se encontraron coincidencias en: ${filePath}`);
     }
+  } catch (error) {
+    console.error(`❌ Error procesando ${filePath}:`, error.message);
+  }
 }
 
 /**
@@ -2585,11 +2593,35 @@ async function modifySpecificHyperlinks(filePath, searchWord, newHref) {
 
 // Ejemplo de uso
 export async function modifyStringRecursiveFiles() {
-  const rootDirectory = "/home/eeem77/Documents/A7_Cascade_Pockets/";
+  const rootDirectory =
+    "C:\\Users\\eeem77\\Dropbox\\AP Team\\Web2.0\\HTML_APprinting\\A7.5_Himalaya_Pockets";
   const fileName = "index.html";
-  const keyword = "envelope_a1_euro.png";
-  const newLink =
-    "https://scanme4menu.com/web-apprinting-resources/HTML_APprinting/A7_Cascade_Pockets/img_globals/envelopes/envelope_a1_euro.png";
+  const keyword = "index.js";
+  const newLink = `https://scanme4menu.com/web-apprinting-resources/HTML_APprinting/A7.5_Himalaya_Pockets/js_css_globals/index.js`;
+  const newSection = `
+  <p class="mt-4">The product can be optionally paired with the items below.</p>
+        
+        <h3 class="mt-4" style="color: #2A70A9; font-weight: bold;">Envelopes</h3>
+        <ul>
+            <li style="padding-top: 1rem; list-style: none;"><img
+                    src="https://scanme4menu.com/web-apprinting-resources/HTML_APprinting/A7_Cascade_Pockets/img_globals/envelopes/envelope_a1_euro.png" alt="">A1 (RSVP) Euro Felt Envelopes</li>
+            <li style="padding-top: 1rem; list-style: none;"><img
+                    src="https://scanme4menu.com/web-apprinting-resources/HTML_APprinting/A7_Cascade_Pockets/img_globals/envelopes/envelope_a7_euro.png" alt="">A7 Euro Felt Envelopes</li>
+            <li style="padding-top: 1rem; list-style: none;"><img
+                    src="https://scanme4menu.com/web-apprinting-resources/HTML_APprinting/A7_Cascade_Pockets/img_globals/envelopes/envelope_a7_5_euro.png" alt="">A7.5 Outer Euro Felt Envelopes</li>
+            <li style="padding-top: 1rem; list-style: none;"><img
+                    src="https://scanme4menu.com/web-apprinting-resources/HTML_APprinting/A7_Cascade_Pockets/img_globals/envelopes/envelope_a1_square.png" alt="">A1 (RSVP) Straight Felt Envelopes</li>
+            <li style="padding-top: 1rem; list-style: none;"><img
+                    src="https://scanme4menu.com/web-apprinting-resources/HTML_APprinting/A7_Cascade_Pockets/img_globals/envelopes/envelope_a7_square.png" alt="">A7 Straight Felt Envelopes</li>
+        </ul>
+        <h3 class="mt-4" style="color: #2A70A9; font-weight: bold;">Paper</h3>
+        <ul class="mb-4">
+            <li style="padding-top: 1rem; list-style: none;"><img
+                    src="https://scanme4menu.com/web-apprinting-resources/HTML_APprinting/A7_Cascade_Pockets/img_globals/paper/paper_8_1_2_x_11.png" alt="">8 1/2" x 11" Felt Cardstock</li>
+            <li style="padding-top: 1rem; list-style: none;"><img
+                    src="https://scanme4menu.com/web-apprinting-resources/HTML_APprinting/A7_Cascade_Pockets/img_globals/paper/paper_8_1_2_x_11.png" alt="">8 1/2" x 11" Felt Text Paper</li>
+        </ul>
+  `;
 
-  await modifyHyperlinksInFolders(rootDirectory, fileName, keyword, newLink);
+  await modifyHyperlinksInFolders(rootDirectory, fileName, keyword, newLink, newSection);
 }
