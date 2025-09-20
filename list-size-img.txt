@@ -173,6 +173,12 @@ https://dv12lc9eedkje.cloudfront.net/apprinting/images/products_gallery_images/I
 https://dv12lc9eedkje.cloudfront.net/apprinting/images/product/IMG_6544-DR1-DB-V_bao.jpg,DR1-DB-V [V-L-01] Golden Promise Bride & Groom Wedding Invitation,265.52
 https://dv12lc9eedkje.cloudfront.net/apprinting/images/products_gallery_images/IMG_6532-DR1-VT-V_bao_zoom.jpg,DR1-VT-V [V-L-01] Serenity Unveiled Bride & Groom Wedding Invitation,303.65
 https://dv12lc9eedkje.cloudfront.net/apprinting/images/product/IMG_6532-DR1-VT-V_bao_zoom73.jpg,DR1-VT-V [V-L-01] Serenity Unveiled Bride & Groom Wedding Invitation,303.65
+
+
+
+
+
+
 https://dv12lc9eedkje.cloudfront.net/apprinting/images/product/IMG_6593_USE-DR12-DB-V_bao.jpg,DR12-DB-V [V-L-01] Radiant Matrimony Bride & Groom Wedding Invitation,275.92
 https://dv12lc9eedkje.cloudfront.net/apprinting/images/products_gallery_images/IMG_5191-DR7-DC-V_bao47.jpg,DR7-DC-V [V-L-01] Harmony in Red Bride & Groom Wedding Invitation,292.92
 https://dv12lc9eedkje.cloudfront.net/apprinting/images/products_gallery_images/IMG_5192-DR7-DC-V_bao.jpg,DR7-DC-V [V-L-01] Harmony in Red Bride & Groom Wedding Invitation,302.49
@@ -205,6 +211,12 @@ https://dv12lc9eedkje.cloudfront.net/apprinting/images/product/IMG_5935_USE-DRBH
 https://dv12lc9eedkje.cloudfront.net/apprinting/images/products_gallery_images/IMG_6274-DRBH-TT-Lavendar_bao16.jpg,DRBH-TT-LILAC [V-L-01] Eternal Romance Bride & Groom Wedding Invitation,376.65
 https://dv12lc9eedkje.cloudfront.net/apprinting/images/products_gallery_images/IMG_6269-DRBH-TT-Lavendar_bao_moi.jpg,DRBH-TT-LILAC [V-L-01] Eternal Romance Bride & Groom Wedding Invitation,252.01
 https://dv12lc9eedkje.cloudfront.net/apprinting/images/product/IMG_6274-DRBH-TT-Lavendar_bao.jpg,DRBH-TT-LILAC [V-L-01] Eternal Romance Bride & Groom Wedding Invitation,376.65
+
+
+
+
+
+
 https://dv12lc9eedkje.cloudfront.net/apprinting/images/products_gallery_images/IMG_6288-DRBH-TT-V_bao52.jpg,DRBH-TT-V [V-L-01] Sacred Vows Bride & Groom Wedding Invitation,313.39
 https://dv12lc9eedkje.cloudfront.net/apprinting/images/product/IMG_6288-DRBH-TT-V_bao.jpg,DRBH-TT-V [V-L-01] Sacred Vows Bride & Groom Wedding Invitation,313.39
 https://dv12lc9eedkje.cloudfront.net/apprinting/images/products_gallery_images/IMG_5820-DRBH-VT-V_bao96.jpg,DRBH-VT-V [V-L-01] Ornate Romance Bride & Groom Wedding Invitation,268.26
@@ -225,11 +237,22 @@ https://dv12lc9eedkje.cloudfront.net/apprinting/images/product/IMG_6669_USE-DRTG
 https://dv12lc9eedkje.cloudfront.net/apprinting/images/products_gallery_images/IMG_5139-CHINDR-DB-V_bao31.jpg,CHINDR-DB-V [V-L-01] Forever Yours Bride & Groom Wedding Invitation,293.78
 https://dv12lc9eedkje.cloudfront.net/apprinting/images/product/IMG_5139-CHINDR-DB-V_bao.jpg,CHINDR-DB-V [V-L-01] Forever Yours Bride & Groom Wedding Invitation,293.78
 https://dv12lc9eedkje.cloudfront.net/apprinting/images/products_gallery_images/IMG_6629_USE-DR2-DT-V_bao.jpg,DR2-DT-V [V-L-02] Tranquil Vows Bride & Groom Wedding Invitation,267.40
-https://dv12lc9eedkje.cloudfront.net/apprinting/images/products_gallery_images/IMG_6626_USE-DR2-DT-V_bao_moi.jpg,DR2-DT-V [V-L-02] Tranquil Vows Bride & Groom Wedding Invitation,259.60
+https://dv12lc9eedkje.cloudfront.net/apprinting/images/products_gallery_images/IMG_6626_USE-DR2-DT-V_bao_moi.jpg,DR2-DT-V [V-L-02] Tranquil Vows Bride & Groom Wedding Invitation,259.6
+
+
+
+
+
+
 https://dv12lc9eedkje.cloudfront.net/apprinting/images/products_gallery_images/IMG_5361-DR7-DR-RF_bao80.jpg,DR7-DR-RF [V-L-02] Charm of Love Bride & Groom Wedding Invitation,327.00
 https://dv12lc9eedkje.cloudfront.net/apprinting/images/products_gallery_images/IMG_5359-DR7-DR-RF_bao_moi.jpg,DR7-DR-RF [V-L-02] Charm of Love Bride & Groom Wedding Invitation,257.79
 https://dv12lc9eedkje.cloudfront.net/apprinting/images/products_gallery_images/IMG_5360-DR7-DR-RF_bao.jpg,DR7-DR-RF [V-L-02] Charm of Love Bride & Groom Wedding Invitation,316.14
 https://dv12lc9eedkje.cloudfront.net/apprinting/images/product/IMG_5361-DR7-DR-RF_bao.jpg,DR7-DR-RF [V-L-02] Charm of Love Bride & Groom Wedding Invitation,327.00
+
+
+
+
+
 https://dv12lc9eedkje.cloudfront.net/apprinting/images/products_gallery_images/IMG_5364-DR7-DR-V_bao20.jpg,DR7-DR-V [V-L-02] Harmony's Embrace Bride & Groom Wedding Invitation,298.03
 https://dv12lc9eedkje.cloudfront.net/apprinting/images/products_gallery_images/IMG_5363-DR7-DR-V_bao.jpg,DR7-DR-V [V-L-02] Harmony's Embrace Bride & Groom Wedding Invitation,289.90
 https://dv12lc9eedkje.cloudfront.net/apprinting/images/product/IMG_5364-DR7-DR-V_bao.jpg,DR7-DR-V [V-L-02] Harmony's Embrace Bride & Groom Wedding Invitation,298.03
