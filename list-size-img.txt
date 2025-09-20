@@ -103,6 +103,11 @@ https://dv12lc9eedkje.cloudfront.net/apprinting/images/products_gallery_images/I
 https://dv12lc9eedkje.cloudfront.net/apprinting/images/products_gallery_images/IMG_1792-K8717.jpg,K8717 [I-11] Celestial Promise Bride & Groom Wedding Invitation,323.00
 https://dv12lc9eedkje.cloudfront.net/apprinting/images/products_gallery_images/IMG_1793-K8717.jpg,K8717 [I-11] Celestial Promise Bride & Groom Wedding Invitation,321.29
 https://dv12lc9eedkje.cloudfront.net/apprinting/images/product/IMG_2114-K8717.jpg,K8717 [I-11] Celestial Promise Bride & Groom Wedding Invitation,472.63
+
+
+
+
+
 https://dv12lc9eedkje.cloudfront.net/apprinting/images/products_gallery_images/IMG_2098-K871861.jpg,K8718 [I-11] Dreamy Vows Bride & Groom Wedding Invitation,470.88
 https://dv12lc9eedkje.cloudfront.net/apprinting/images/products_gallery_images/IMG_2096-K8718.jpg,K8718 [I-11] Dreamy Vows Bride & Groom Wedding Invitation,363.92
 https://dv12lc9eedkje.cloudfront.net/apprinting/images/products_gallery_images/IMG_2097-K8718.jpg,K8718 [I-11] Dreamy Vows Bride & Groom Wedding Invitation,486.76
@@ -147,7 +152,13 @@ https://dv12lc9eedkje.cloudfront.net/apprinting/images/products_gallery_images/I
 https://dv12lc9eedkje.cloudfront.net/apprinting/images/products_gallery_images/IMG_6622_USE-DR2-ND-V_bao.jpg,DR2-ND-V [V-L-03] Zen Harmony Bride & Groom Wedding Invitation,264.99
 https://dv12lc9eedkje.cloudfront.net/apprinting/images/products_gallery_images/IMG_6623_USE-DR2-ND-V_bao.jpg,DR2-ND-V [V-L-03] Zen Harmony Bride & Groom Wedding Invitation,264.21
 https://dv12lc9eedkje.cloudfront.net/apprinting/images/products_gallery_images/IMG_6621_USE-DR2-ND-V_bao_moi.jpg,DR2-ND-V [V-L-03] Zen Harmony Bride & Groom Wedding Invitation,286.50
-https://dv12lc9eedkje.cloudfront.net/apprinting/images/product/IMG_6624_USE-DR2-ND-V_bao_zoom.jpg,DR2-ND-V [V-L-03] Zen Harmony Bride & Groom Wedding Invitation,391.51
+https://dv12lc9eedkje.cloudfront.net/apprinting/images/product/IMG_6624_USE-DR2-ND-V_bao_zoom.jpg,DR2-ND-V [V-L-03] Zen Harmony Bride & Groom Wedding Invitation,391.5
+
+
+
+
+
+
 https://dv12lc9eedkje.cloudfront.net/apprinting/images/products_gallery_images/IMG_6690-DR1-TV-V_bao_zoom49.jpg,DR1-TV-V [V-L-02] Opulent Bliss Bride & Groom Wedding Invitation,519.77
 https://dv12lc9eedkje.cloudfront.net/apprinting/images/products_gallery_images/IMG_6682-DR1-TV-V_bao_moi.jpg,DR1-TV-V [V-L-02] Opulent Bliss Bride & Groom Wedding Invitation,389.48
 https://dv12lc9eedkje.cloudfront.net/apprinting/images/products_gallery_images/IMG_6686-DR1-TV-V_bao.jpg,DR1-TV-V [V-L-02] Opulent Bliss Bride & Groom Wedding Invitation,345.12
