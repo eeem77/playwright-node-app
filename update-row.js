@@ -169,12 +169,12 @@ const updateRow = async () => {
 
   // AUDIT IMAGES SIZES
   // await getSizesImages(page, "https://www.apprinting.com/en/posters/products/");
-  // await getSizesImagesFinal(page);
+  await getSizesImagesFinal(page);
   // await getUrlClientProducts(
   //   page,
-  //   "https://www.apprinting.com/bilingual-wedding-invitations/products/"
+  //   "https://www.apprinting.com/bride-and-groom/products/"
   // );
-  await getSizesImagesArray(page);
+  // await getSizesImagesArray(page);
 
   // AUDIT RULES
   // await login(page);
