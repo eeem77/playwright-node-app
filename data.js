@@ -7,344 +7,176 @@ export const idProducts = [
 
 export const urlProducts = [
   [
-    "K3315 [I-10] Chic Wedding Bliss Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/k3315/",
+    "RP1-ND-S [V-L-03] Imperial Elegance Dragon & Phoenix Wedding Invitation",
+    "https://www.apprinting.com/rp1-nd-s/",
   ],
   [
-    "K3317 [I-11] Celestial Love Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/k3317/",
+    "RP1-ND-V [V-L-03] Regal Flames Dragon & Phoenix Wedding Invitation",
+    "https://www.apprinting.com/rp1-nd-v/",
   ],
   [
-    "K3318 [I-11] Forever Together Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/k3318/",
+    "RP1-DC-V [V-L-01] Serene Power Dragon & Phoenix Wedding Invitation",
+    "https://www.apprinting.com/rp1-dc-v/",
   ],
   [
-    "K625 [I-10] Whispering Skies Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/k625/",
+    "RP1-HT-D [V-L-01] Timeless Dragon & Phoenix Wedding Invitation",
+    "https://www.apprinting.com/rp1-ht-d/",
   ],
   [
-    "K631 [I-10] Enchanted Fairytale Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/k631/",
+    "RP1-HT-S [V-L-01] Mystical Grace Dragon & Phoenix Wedding Invitation",
+    "https://www.apprinting.com/rp1-ht-s/",
   ],
   [
-    "K8255 [I-10] Sophisticated Vows Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/k8255/",
+    "RP1-HT-V [V-L-01] Heart of the Dragon & Phoenix Wedding Invitation",
+    "https://www.apprinting.com/rp1-ht-v/",
   ],
   [
-    "K8257 [I-11] Cherished Union Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/k8257/",
+    "RP1-TT-D [V-L-01] Gilded Legend Dragon & Phoenix Wedding Invitation",
+    "https://www.apprinting.com/rp1-tt-d/",
   ],
   [
-    "K8263 [I-12] Cherished Moments Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/k8263/",
+    "RP1-TT-S [V-L-01] Eternal Grace Dragon & Phoenix Wedding Invitation",
+    "https://www.apprinting.com/rp1-tt-s/",
   ],
   [
-    "K8401 [I-12] Eternal Bliss Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/k8401/",
+    "RP1-TT-V [V-L-01] Noble Fusion Dragon & Phoenix Wedding Invitation",
+    "https://www.apprinting.com/rp1-tt-v/",
   ],
   [
-    "K8701 [I-11] Forever Entwined Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/k8701/",
+    "RP1-VT-V [V-L-01] Golden Dragon & Phoenix Essence Wedding Invitation",
+    "https://www.apprinting.com/rp1-vt-v/",
   ],
   [
-    "K8707 [I-11] Serenade of Love Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/k8707/",
+    "RP2-DB-V [V-L-01] Dragon's & Phoenix Delight Wedding Invitation",
+    "https://www.apprinting.com/rp2-db-v/",
   ],
   [
-    "K8714 [I-11] Bridal Serenity Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/k8714/",
+    "RP2-DB-V-B [V-L-01] Golden Dragon & Phoenix Wedding Invitation",
+    "https://www.apprinting.com/rp2-db-v-b/",
   ],
   [
-    "K8717 [I-11] Celestial Promise Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/k8717/",
+    "RP2-HT-V [V-L-01] Harmony of the Orient Dragon & Phoenix Wedding Invitation",
+    "https://www.apprinting.com/rp2-ht-v/",
   ],
   [
-    "K8718 [I-11] Dreamy Vows Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/k8718/",
+    "RP2-HT-V-B [V-L-01] Celestial Dragons & Phoenix Wedding Invitation",
+    "https://www.apprinting.com/rp2-ht-v-b/",
   ],
   [
-    "K8719 [I-11] Garden of Love Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/k8719/",
+    "RP2-HTD-V [V-L-01] Moonlit Dragon & Phoenix Dance Wedding Invitation",
+    "https://www.apprinting.com/rp2-htd-v/",
   ],
   [
-    "K8754 [I-11] Enchanted Nuptials Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/k8754/",
+    "RP2-TT-S-B [V-L-01] Eastern Enchantment Dragon & Phoenix Wedding Invitation",
+    "https://www.apprinting.com/rp2-tt-s-b/",
   ],
   [
-    "K8757 [I-11] Bridal Symphony Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/k8757/",
+    "RP2-TT-V [V-L-01] Dragon & Phoenix Elegance Wedding Invitation",
+    "https://www.apprinting.com/rp2-tt-v/",
   ],
   [
-    "K8763 [I-11] Graceful Union Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/k8763/",
+    "RP2-TT-V-B [V-L-01] Dynastic Splendor Dragon & Phoenix Wedding Invitation",
+    "https://www.apprinting.com/rp2-tt-v-b/",
   ],
   [
-    "K8720 [I-11] Harmony of Hearts Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/k8720/",
+    "RP2-VT-V [V-L-01] Silken Harmony Dragon & Phoenix Reverie Wedding Invitation",
+    "https://www.apprinting.com/rp2-vt-v/",
   ],
   [
-    "DR2-ND-V [V-L-03] Zen Harmony Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/dr2-nd-v/",
+    "RP3-DC-V [V-L-01] Elegant Legends Dragon & Phoenix Wedding Invitation",
+    "https://www.apprinting.com/rp3-dc-v/",
   ],
   [
-    "DR1-DVS-V [V-L-02] Silken Romance Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/dr1-dvs-v/",
+    "RP4-DB-V [V-L-01] Celestial Guardians Dragon & Phoenix Wedding Invitation",
+    "https://www.apprinting.com/rp4-db-v/",
   ],
   [
-    "DR1-TV-V [V-L-02] Opulent Bliss Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/dr1-tv-v/",
+    "RP4-HT-V [V-L-01] Divine Firebirds Dragon & Phoenix Wedding Invitation",
+    "https://www.apprinting.com/rp4-ht-v/",
   ],
   [
-    "RD4-ND-V-SHV [V-L-03] Golden Bliss Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/rd4-nd-v-shv/",
+    "RP5-DC-V [V-L-01] Legends Unveiled Dragon & Phoenix Wedding Invitation",
+    "https://www.apprinting.com/rp5-dc-v/",
   ],
   [
-    "DR1-DB-V [V-L-01] Golden Promise Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/dr1-db-v/",
+    "RP6-DB-V [V-L-01] Harmony in Flight Dragon & Phoenix Wedding Invitation",
+    "https://www.apprinting.com/rp6-db-v/",
   ],
   [
-    "DR1-VT-V [V-L-01] Serenity Unveiled Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/dr1-vt-v/",
+    "RP8-DB-V [V-L-01] Dragon & Phoenix Tapestry Wedding Invitation",
+    "https://www.apprinting.com/rp8-db-v/",
   ],
   [
-    "DR12-DB-V [V-L-01] Radiant Matrimony Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/dr12-db-v/",
+    "RP9-DB-V [V-L-01] Dynasty Reverie Dragon & Phoenix Wedding Invitation",
+    "https://www.apprinting.com/rp9-db-v/",
   ],
   [
-    "DR12-RPL2-S [V-L-01] Serenity in Unity Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/dr12-rpl2-s/",
+    "RP9-HT-V [V-L-01] Silken Spirits Dragon & Phoenix Wedding Invitation",
+    "https://www.apprinting.com/rp9-ht-v/",
   ],
   [
-    "DR2-DB-V [V-L-01] Regal Matrimony Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/dr2-db-v/",
+    "RP1-DB-V [V-L-01] Asian Splendor Dragon & Phoenix Wedding Invitation",
+    "https://www.apprinting.com/rp1-db-v/",
   ],
   [
-    "DR7-DC-V [V-L-01] Harmony in Red Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/dr7-dc-v/",
+    "RP1-DR-V [V-L-02] Timeless Mythos Dragon & Phoenix Wedding Invitation",
+    "https://www.apprinting.com/rp1-dr-v/",
   ],
   [
-    "DR7-HT-V [V-L-01] Simplicity in Love Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/dr7-ht-v/",
+    "RP1-DT-V [V-L-02] Divine Radiance Dragon & Phoenix Wedding Invitation",
+    "https://www.apprinting.com/rp1-dt-v/",
   ],
   [
-    "DR8-TT-V [V-L-01] Celestial Connection Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/dr8-tt-v/",
+    "RP1-RPD-V [V-L-02] Mythical Grace Dragon & Phoenix Wedding Invitation",
+    "https://www.apprinting.com/rp1-rpd-v/",
   ],
   [
-    "DR9-HT-V [V-L-01] Love's Embrace Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/dr9-ht-v/",
+    "RP1-TBC-S [V-L-02] Regal Embrace Dragon & Phoenix Wedding Invitation",
+    "https://www.apprinting.com/rp1-tbc-s/",
   ],
   [
-    "DR7-TT-D [V-L-01] Harmony in Union Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/dr7-tt-d/",
+    "RP1-TVS2-V [V-L-02] Opulent Myth Dragon & Phoenix Wedding Invitation",
+    "https://www.apprinting.com/rp1-tvs2-v/",
   ],
   [
-    "DR9-TT-S [V-L-01] Serenity in Love Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/dr9-tt-s/",
+    "RP2-DVS2-V [V-L-02] Whispers of the Orient Dragon & Phoenix Wedding Invitation",
+    "https://www.apprinting.com/rp2-dvs2-v/",
   ],
   [
-    "DR8-DB-V [V-L-01] Whispering Love Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/dr8-db-v/",
+    "RP2-DVS2-V-B [V-L-02] Divine Duo Dragon & Phoenix Wedding Invitation",
+    "https://www.apprinting.com/rp2-dvs2-v-b/",
   ],
   [
-    "DR8-DC-V [V-L-01] Blissful Unity Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/dr8-dc-v/",
+    "RP2-HT-RF-B [V-L-02] Harmonious Mythos Dragon & Phoenix Wedding Invitation",
+    "https://www.apprinting.com/rp2-ht-rf-b/",
   ],
   [
-    "DRBH-HT-V [V-L-01] Sophisticated Bliss Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/drbh-ht-v/",
+    "RP2-TBC-S-B [V-L-02] Divine Union Dragon & Phoenix Wedding Invitation",
+    "https://www.apprinting.com/rp2-tbc-s-b/",
   ],
   [
-    "DR8-HT-V [V-L-01] Serenity Knot Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/dr8-ht-v/",
+    "RP2-TT-D-B [V-L-02] Cultural Splendor Dragon & Phoenix Wedding Invitation",
+    "https://www.apprinting.com/rp2-tt-d-b/",
   ],
   [
-    "DR8-TT-D [V-L-01] Ethereal Bond Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/dr8-tt-d/",
+    "RP2-TT-V2-B [V-L-02] Eternal Dance Dragon & Phoenix Wedding Invitation",
+    "https://www.apprinting.com/rp2-tt-v2-b/",
   ],
   [
-    "DRBH-DB-V [V-L-01] Golden Eternity Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/drbh-db-v/",
+    "RP3-DT-V [V-L-02] Golden Dynasty Dragon & Phoenix Wedding Invitation",
+    "https://www.apprinting.com/rp3-dt-v/",
   ],
   [
-    "DRBH-TT-LILAC [V-L-01] Eternal Romance Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/drbh-tt-lilac/",
+    "RP5-DT-V [V-L-02] Aurora of Asia Dragon & Phoenix Wedding Invitation",
+    "https://www.apprinting.com/rp5-dt-v/",
   ],
   [
-    "DRBH-TT-V [V-L-01] Sacred Vows Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/drbh-tt-v/",
+    "RP6-DVS2-V [V-L-02] Aesthetic Ascendance Dragon & Phoenix Wedding Invitation",
+    "https://www.apprinting.com/rp6-dvs2-v/",
   ],
   [
-    "DRBH-VT-V [V-L-01] Ornate Romance Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/drbh-vt-v/",
-  ],
-  [
-    "DRCM-HT-V [V-L-01] Eternal Blossom Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/drcm-ht-v/",
-  ],
-  [
-    "DRCM-RPL2-D [V-L-01] Blush Elegance Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/drcm-rpl2-d/",
-  ],
-  [
-    "DRRP1-DB-S [V-L-01] Ornate Serenity Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/drrp1-db-s/",
-  ],
-  [
-    "DRRP1-DC-V [V-L-01] Timeless Connection Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/drrp1-dc-v/",
-  ],
-  [
-    "DRRP2-DB-S [V-L-01] Cherry Blossom Joy Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/drrp2-db-s/",
-  ],
-  [
-    "DRTG-DB-V [V-L-01] Forever Linked Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/drtg-db-v/",
-  ],
-  [
-    "DRTG-DC-V [V-L-01] Infinite Love Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/drtg-dc-v/",
-  ],
-  [
-    "CHINDR-DB-V [V-L-01] Forever Yours Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/chindr-db-v/",
-  ],
-  [
-    "DR2-DT-V [V-L-02] Tranquil Vows Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/dr2-dt-v/",
-  ],
-  [
-    "DR7-DR-RF [V-L-02] Charm of Love Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/dr7-dr-rf/",
-  ],
-  [
-    "DR7-DR-V [V-L-02] Harmony's Embrace Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/dr7-dr-v/",
-  ],
-  [
-    "DR7-HL-V [V-L-02] Silk & Satin Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/dr7-hl-v/",
-  ],
-  [
-    "DR7-RPL-RF [V-L-02] Jade Elegance Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/dr7-rpl-rf/",
-  ],
-  [
-    "DR8-DVS2-V [V-L-02] Blissful Elegance Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/dr8-dvs2-v/",
-  ],
-  [
-    "DR8-HT-RF [V-L-02] Azure Romance Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/dr8-ht-rf/",
-  ],
-  [
-    "DR8-RPL-RF [V-L-02] Ornate Affection Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/dr8-rpl-rf/",
-  ],
-  [
-    "DR8-TBC-RF [V-L-02] Enchanted Affection Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/dr8-tbc-rf/",
-  ],
-  [
-    "DR8-TBC-V2 [V-L-02] Divine Harmony Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/dr8-tbc-v2/",
-  ],
-  [
-    "DR8-TL-V [V-L-02] Graceful Romance Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/dr8-tl-v/",
-  ],
-  [
-    "DR8-TT-RF [V-L-02] Luminous Love Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/dr8-tt-rf/",
-  ],
-  [
-    "DR9-DB-RF [V-L-02] Sophisticated Love Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/dr9-db-rf/",
-  ],
-  [
-    "DR9-HT-RF [V-L-02] Blushing Bliss Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/dr9-ht-rf/",
-  ],
-  [
-    "DRBH-TT-H [V-L-02] Forever in Bloom Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/drbh-tt-h/",
-  ],
-  [
-    "DRBH-TV-V [V-L-02] Moonlit Romance Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/drbh-tv-v/",
-  ],
-  [
-    "DRCB-DB-RF [V-L-02] Gilded Love Story Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/drcb-db-rf/",
-  ],
-  [
-    "DRCB-HBC-RF [V-L-02] Romantic Reverie Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/drcb-hbc-rf/",
-  ],
-  [
-    "DRCB-HT-RF [V-L-02] Love's Tapestry Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/drcb-ht-rf/",
-  ],
-  [
-    "DRCB-RPL2-RF [V-L-02] Blissful Bonds Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/drcb-rpl2-rf/",
-  ],
-  [
-    "DRCM-DB-RF [V-L-02] Roses in Bloom Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/drcm-db-rf/",
-  ],
-  [
-    "DRCM-DB-V2 [V-L-02] Sophisticated Petals Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/drcm-db-v2/",
-  ],
-  [
-    "DRCM-DT-V [V-L-02] Luxury Bloom Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/drcm-dt-v/",
-  ],
-  [
-    "DRCM-HT-RF [V-L-02] Divine Rose Flourish Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/drcm-ht-rf/",
-  ],
-  [
-    "DRCM-PVS-RF [V-L-02] Serene Blossoms Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/drcm-pvs-rf/",
-  ],
-  [
-    "DRCM-RPD2-RF [V-L-02] Rose Petal Harmony Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/drcm-rpd2-rf/",
-  ],
-  [
-    "DRCM-RPL2-RF [V-L-02] Floral Reverie Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/drcm-rpl2-rf/",
-  ],
-  [
-    "DRCM-RPL2-V [V-L-02] Enchanted Rose Garden Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/drcm-rpl2-v/",
-  ],
-  [
-    "DRCM-TT-RF [V-L-02] Regal Floral Symphony Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/drcm-tt-rf/",
-  ],
-  [
-    "DRCM-TVS2-D [V-L-02] Floral Majesty Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/drcm-tvs2-d/",
-  ],
-  [
-    "DRCM-TVS2-RF [V-L-02] Ornate Floral Radiance Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/drcm-tvs2-rf/",
-  ],
-  [
-    "DRRP1-DT-V [V-L-02] Blooming Splendor Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/drrp1-dt-v/",
-  ],
-  [
-    "DRRP1-DVS-V2 [V-L-02] Radiant Rosettes Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/drrp1-dvs-v2/",
-  ],
-  [
-    "CHINDR-RPL2-RF [V-L-02] Pastel Serenade Bride & Groom Wedding Invitation",
-    "https://www.apprinting.com/chindr-rpl2-rf/",
+    "RP7-DVS2-V [V-L-02] Chromatic Dynasty Dragon & Phoenix Wedding Invitation",
+    "https://www.apprinting.com/rp7-dvs2-v/",
   ],
 ];
 
