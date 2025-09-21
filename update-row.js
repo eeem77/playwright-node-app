@@ -172,7 +172,7 @@ const updateRow = async () => {
   await getSizesImagesFinal(page);
   // await getUrlClientProducts(
   //   page,
-  //   "https://www.apprinting.com/hearts/products/"
+  //   "https://www.apprinting.com/flowers/products/"
   // );
   // await getSizesImagesArray(page);
 
