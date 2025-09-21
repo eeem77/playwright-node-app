@@ -59,6 +59,14 @@ https://dv12lc9eedkje.cloudfront.net/apprinting/images/products_gallery_images/I
 https://dv12lc9eedkje.cloudfront.net/apprinting/images/products_gallery_images/IMG_6678_USE-RP2-VT-V_bao_zoom.jpg,RP2-VT-V [V-L-01] Silken Harmony Dragon & Phoenix Reverie Wedding Invitation,263.17
 https://dv12lc9eedkje.cloudfront.net/apprinting/images/products_gallery_images/IMG_6424_v2-RP2-VT-V_bao_moi.jpg,RP2-VT-V [V-L-01] Silken Harmony Dragon & Phoenix Reverie Wedding Invitation,261.28
 https://dv12lc9eedkje.cloudfront.net/apprinting/images/product/IMG_6431_USE-RP2-VT-V_bao_zoom.jpg,RP2-VT-V [V-L-01] Silken Harmony Dragon & Phoenix Reverie Wedding Invitation,344.14
+
+
+
+
+
+
+
+
 https://dv12lc9eedkje.cloudfront.net/apprinting/images/products_gallery_images/IMG_6757-RP3-DC-V_bao30.jpg,RP3-DC-V [V-L-01] Elegant Legends Dragon & Phoenix Wedding Invitation,515.57
 https://dv12lc9eedkje.cloudfront.net/apprinting/images/products_gallery_images/IMG_6750-RP3-DC-V_bao_moi.jpg,RP3-DC-V [V-L-01] Elegant Legends Dragon & Phoenix Wedding Invitation,676.66
 https://dv12lc9eedkje.cloudfront.net/apprinting/images/products_gallery_images/IMG_6753-RP3-DC-V_bao.jpg,RP3-DC-V [V-L-01] Elegant Legends Dragon & Phoenix Wedding Invitation,1092.75
