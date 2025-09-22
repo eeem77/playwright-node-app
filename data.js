@@ -7,156 +7,58 @@ export const idProducts = [
 
 export const urlProducts = [
   [
-    "AP-[I-14] Subtle Sophistication Flowers Wedding Invitation",
-    "https://www.apprinting.com/ap-callalily2-white/",
+    "Flower Ornament with Cross Sign Obituary",
+    "https://www.apprinting.com/flower-ornament-with-cross-sign/",
   ],
   [
-    "K778 [I-12] Whispers of Elegance Flowers Wedding Invitation",
-    "https://www.apprinting.com/k778/",
+    "Simple White with Frame Sign Obituary",
+    "https://www.apprinting.com/simple-white-with-frame-sign/",
+  ],
+  ["Sky Blue Sign", "https://www.apprinting.com/sky-blue-sign/"],
+  ["Sky with Photo Sign", "https://www.apprinting.com/sky-with-photo-sign/"],
+  [
+    "Traditional with Black Frame Sign",
+    "https://www.apprinting.com/traditional-with-black-frame-sign/",
   ],
   [
-    "ART-08250 [I-10] Delicate Elegance Flowers Wedding Invitation",
-    "https://www.apprinting.com/art-08250/",
+    "Beautiful Beige Funeral Booklet",
+    "https://www.apprinting.com/beautiful-beige-funeral-booklet/",
   ],
   [
-    "ART-44995 [I-11] Blossom Bells & Flowers Wedding Invitation",
-    "https://www.apprinting.com/art-44995/",
+    "Beautiful Sky Funeral Booklet",
+    "https://www.apprinting.com/beautiful-sky-funeral-booklet/",
   ],
   [
-    "ART-41009 [I-11] Charming Bellflowers Wedding Invitation",
-    "https://www.apprinting.com/art-41009/",
+    "Brown Border Funeral Booklet",
+    "https://www.apprinting.com/brown-border-funeral-booklet/",
   ],
   [
-    "ART-80494 [I-09] Flowers Wedding Invitation",
-    "https://www.apprinting.com/art-80494/",
+    "Classic Black Funeral Booklet",
+    "https://www.apprinting.com/classic-black-funeral-booklet/",
   ],
   [
-    "ART-84044 [I-11] Flowers Wedding Invitation",
-    "https://www.apprinting.com/art-84044/",
+    "Classic Funeral Booklet",
+    "https://www.apprinting.com/classic-funeral-booklet/",
   ],
   [
-    "K1618 [I-11] Timeless Elegance Flowers Wedding Invitation",
-    "https://www.apprinting.com/k1618/",
+    "Elegant Flower Funeral Booklet",
+    "https://www.apprinting.com/elegant-flower-funeral-booklet/",
   ],
   [
-    "K2615 [I-10] Flowers Sophistication Wedding Invitation",
-    "https://www.apprinting.com/k2615/",
+    "Elegant Gray Funeral Booklet",
+    "https://www.apprinting.com/elegant-gray-funeral-booklet/",
   ],
   [
-    "K8358 [I-12] Lavender Love Flowers Wedding Invitation",
-    "https://www.apprinting.com/k8358/",
+    "Elegant Photo Frame Flyers",
+    "https://www.apprinting.com/elegant-photo-frame-flyers/",
   ],
   [
-    "K8455 [I-11] Serenade of Flowers Wedding Invitation",
-    "https://www.apprinting.com/k8455/",
+    "Simple Fine Line Flyers",
+    "https://www.apprinting.com/simple-fine-line-flyers/",
   ],
   [
-    "Olive Garden Flowers Wedding Invitation",
-    "https://www.apprinting.com/olive-garden-wedding-invitation/",
-  ],
-  [
-    "Olive Garden RSVP Cards Flowers Wedding Invitation",
-    "https://www.apprinting.com/olive_garden_rsvp_cards/",
-  ],
-  [
-    "Olive Garden Enclosure Cards Flowers Wedding Invitation",
-    "https://www.apprinting.com/olive_garden_enclosure_cards/",
-  ],
-  [
-    "K8536 [I-11] Graceful Garden Flowers Wedding Invitation",
-    "https://www.apprinting.com/k8536/",
-  ],
-  [
-    "Olive Garden Seals Flowers Wedding Invitation",
-    "https://www.apprinting.com/olive_garden_seals/",
-  ],
-  [
-    "K8631 [I-11] Blushing Blooms Flowers Wedding Invitation",
-    "https://www.apprinting.com/k8631/",
-  ],
-  [
-    "K8781 [I-11] Celebration in Flowers Wedding Invitation",
-    "https://www.apprinting.com/k8781/",
-  ],
-  [
-    "K8784 [I-11] Spring Harmony Flowers Wedding Invitation",
-    "https://www.apprinting.com/k8784/",
-  ],
-  [
-    "K9152 [I-11] Harmony in Bloom Flowers Wedding Invitation",
-    "https://www.apprinting.com/k9152/",
-  ],
-  [
-    "K9649 [I-11] Enchanted Petals & Flowers Wedding Invitation",
-    "https://www.apprinting.com/k9649/",
-  ],
-  [
-    "K9659 [I-11] Soulful Blooms Flowers Wedding Invitation",
-    "https://www.apprinting.com/k9659/",
-  ],
-  [
-    "K9995 [I-10] Botanical Elegance Flowers Wedding Invitation",
-    "https://www.apprinting.com/k9995/",
-  ],
-  [
-    "T1402 [I-15] Silk Flowers Beauty Wedding Invitation",
-    "https://www.apprinting.com/t1402/",
-  ],
-  [
-    "K8071 [I-10] Flowers Symphony Wedding Invitation",
-    "https://www.apprinting.com/k8071/",
-  ],
-  [
-    "Deco Art [CC-55] Romantic Petal Cascade Flowers Wedding Invitation",
-    "https://www.apprinting.com/deco-art/",
-  ],
-  [
-    "Delicate Blossoms [CC-35] Fresh Flowers Wedding Invitation",
-    "https://www.apprinting.com/delicate-blossoms/",
-  ],
-  [
-    "[CC-20] Figured Letters Flowers Wedding Invitation",
-    "https://www.apprinting.com/figree-letters/",
-  ],
-  [
-    "[CC-25] Naturally Sweet Flowers Wedding Invitation",
-    "https://www.apprinting.com/naturally-sweet/",
-  ],
-  [
-    "[CC-05] Pearlized Filigree Border Floral Wedding Invitation",
-    "https://www.apprinting.com/pearlized-filigree-border/",
-  ],
-  [
-    "[CC-25] Swirling Romance Flowers Wedding Invitation",
-    "https://www.apprinting.com/swirling-romance/",
-  ],
-  [
-    "[CC-20] Swirled in Silver Flowers Wedding Invitation",
-    "https://www.apprinting.com/swirled-in-silver/",
-  ],
-  [
-    "[CC-15] Bright White Calla Lily Floral Wedding Invitation",
-    "https://www.apprinting.com/bright-white-calla-lilies/",
-  ],
-  [
-    "[CC-20] Filigree Splash Flowers Wedding Invitation",
-    "https://www.apprinting.com/filigree-splash/",
-  ],
-  [
-    "[CC-26] Exquisite Poetry Flowers Wedding Invitation",
-    "https://www.apprinting.com/exquisite-poetry/",
-  ],
-  [
-    "[CC-26] Lace Shimmers Flowers Wedding Invitation",
-    "https://www.apprinting.com/lace-shimmers/",
-  ],
-  [
-    "[CC-26] Swirl of Gold Flowers Wedding Invitation",
-    "https://www.apprinting.com/swirl-of-gold/",
-  ],
-  [
-    "Floral and Geometric Spanish & English Elegant Flowers",
-    "https://www.apprinting.com/floral-and-geometric-wedding-invitations/",
+    "Simple with Photography Flyers Obituary",
+    "https://www.apprinting.com/simple-with-photography-flyers/",
   ],
 ];
 

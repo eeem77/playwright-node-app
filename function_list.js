@@ -1007,7 +1007,8 @@ export const getUrlProducts = async (page) => {
 
 export const getUrlClientProducts = async (page, url) => {
   await page.goto(url);
-  const productsElementDom = await page.$$(".product-box");
+  // const productsElementDom = await page.$$(".product-box");
+  const productsElementDom = await page.$$(".splide__slide");
   for await (const productElementDom of productsElementDom) {
     const titleElementDom = await productElementDom.$(".card-title.text-info");
     const linkElementDom = await productElementDom.$("a");
