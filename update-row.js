@@ -39,6 +39,8 @@ import {
   filterDataPaperMore,
   downloadAllImages,
   modifyStringRecursiveFiles,
+  addSetupProductPageDesigner,
+  setLongDescriptionTwo,
 } from "./function_list.js";
 // import { proxies } from './data.js'
 // import fs from 'fs'
@@ -173,8 +175,16 @@ const updateRow = async () => {
   //   page,
   //   "https://www.apprinting.com/wedding-programs/products/"
   // );
-  await getSizesImagesArray(page);
+  // await getSizesImagesArray(page);
   // await getSizesImagesFinal(page);
+
+  // CHANGE PRODUCT PAGE LONG DESCRIPTION 2
+  // await getIdProducts(
+  //   page,
+  //   "https://www.apprinting.com/wedding-programs/products/"
+  // );
+  await login(page);
+  await setLongDescriptionTwo (page);
 
   // AUDIT RULES
   // await login(page);

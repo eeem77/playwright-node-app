@@ -8,6 +8,7 @@ import dataProducts from "./list.js";
 import seoData from "./seo-data.js";
 import { dataLinks } from "./data-links.js";
 import { dataLinksImages } from "./data-links-imgs.js";
+import { dataLongDescriptionTwo } from "./data-long-description-two.js";
 import {
   idProducts,
   urlsProducts,
@@ -1004,6 +1005,29 @@ export const getUrlProducts = async (page) => {
     console.log(`working ---> ${report}`);
   }
 };
+
+export const setLongDescriptionTwo = async (page) => {
+  for await (const id of idProducts) {
+    await page.goto(
+      `https://www.apprinting.com/admin/product_description.php?product_id=${id}`
+    );
+    const codeViewBtn = await page.$("#html-3");
+    await codeViewBtn.click();
+    await page.keyboard.press("Control+a");
+    await page.keyboard.press("Control+v");
+    // await page.waitForTimeout(2000);
+    // const longDescriptionTwoTextArea = await page.$(
+    //   "#orig_long_description_two_1"
+    // );
+    // await page.waitForSelector(longDescriptionTwoTextArea);
+    // await longDescriptionTwoTextArea.setAttribute("value",dataLongDescriptionTwo);
+    const btnSave = await page.$("#btn-action-save");
+    await btnSave.click();
+    await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
+      state: "visible",
+    });
+  }
+}
 
 export const getUrlClientProducts = async (page, url) => {
   await page.goto(url);
