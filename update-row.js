@@ -171,17 +171,17 @@ const updateRow = async () => {
 
   // AUDIT IMAGES SIZES
   // await getSizesImages(page, "https://www.apprinting.com/en/posters/products/");
-  // await getUrlClientProducts(
-  //   page,
-  //   "https://www.apprinting.com/seating-charts/products/"
-  // );
-  await getSizesImagesArray(page);
+  await getUrlClientProducts(
+    page,
+    "https://www.apprinting.com/a-frame-sign/products/"
+  );
+  // await getSizesImagesArray(page);
   // await getSizesImagesFinal(page);
 
   // CHANGE PRODUCT PAGE LONG DESCRIPTION 2
   // await getIdProducts(
   //   page,
-  //   "https://www.apprinting.com/seating-charts/products/"
+  //   "https://www.apprinting.com/a-frame-sign/products/"
   // );
   // await login(page);
   // await setLongDescriptionTwo (page);
