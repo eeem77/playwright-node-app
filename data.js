@@ -1,21 +1,88 @@
 export const url = "https://www.apprinting.com/admin/";
 
 export const idProducts = [
-  3169, 3171, 3203, 3206, 3220, 3223, 3245, 3316, 3318, 3332, 3338, 3381, 3408,
-  3429, 3439, 3453, 3489, 3490, 3499, 3508, 3512, 3513, 3514, 3517, 5612, 3528,
-  3542, 3547, 3564, 3565, 3566, 3567, 3568, 3570, 3571, 3572, 3573, 3610, 3613,
-  3615, 3618, 3635, 3638, 3643, 3647, 3650, 3653, 3655, 3656, 3659, 3563, 3562,
-  3561, 3559, 3558, 3557, 3554, 3536, 3533, 3530, 3523, 3521, 3518, 3515, 3511,
-  3509, 3506, 3505, 3503, 3502, 3501, 3497, 3485, 3483, 3476, 3474, 3473, 3471,
-  3468, 3452, 3449, 3445, 3441, 3435, 3431, 3427, 3421, 3417, 3414, 3405, 3401,
-  3398, 3395, 3392, 3388, 3385, 3383, 3380, 3376, 3374,
+  5614, 5511, 5515, 5519, 5521, 5510, 5512, 5528, 5514, 5516, 5513, 5524, 5526,
+  5517, 5527, 5525, 5523, 5518, 5522, 5520,
 ];
 
 export const urlProducts = [
-  ["You Design - We Print 5\" x 7\" Card","https://www.apprinting.com/you-design-we-print-5x7-card/"],
-["You Design - We Print 4.25\" x 5.5\" Card","https://www.apprinting.com/print-your-own-design-4-25x5-5-card/"],
-["You Design - We Print 3.5\" x 5\" Card","https://www.apprinting.com/print-your-own-design-3-5x5-card/"],
-
+  ["Standard Brochure", "https://www.apprinting.com/standard-brochure/"],
+  [
+    "Aqua Spa & Nails Brochure",
+    "https://www.apprinting.com/aqua-spa-nails-brochure/",
+  ],
+  [
+    "Artistic Gold Brush Spa & Nails Brochure",
+    "https://www.apprinting.com/artistic-gold-brush-spa-nails-brochure/",
+  ],
+  [
+    "Delicate Blue and Pink Waves Spa Brochure",
+    "https://www.apprinting.com/delicate-blue-and-pink-waves-spa-brochure/",
+  ],
+  [
+    "Delicate Petals Nail & Spa Brochure",
+    "https://www.apprinting.com/delicate-petals-nail-spa-brochure/",
+  ],
+  [
+    "Elegant Nail Care Red Circle Brochure",
+    "https://www.apprinting.com/elegant-nail-care-red-circle-brochure/",
+  ],
+  [
+    "Elegant Wine Flower Spa & Nails Brochure",
+    "https://www.apprinting.com/elegant-wine-flower-spa-nails-brochure/",
+  ],
+  [
+    "Glamorous Pink Potion Nail & Spa Brochure",
+    "https://www.apprinting.com/glamorous-pink-potion-nail-spa-brochure/",
+  ],
+  [
+    "Gorgeous Purple Waves Spa & Nails Brochure",
+    "https://www.apprinting.com/gorgeous-purple-waves-spa-nails-brochure/",
+  ],
+  [
+    "Green Nature Spa Center Brochure",
+    "https://www.apprinting.com/green-nature-spa-center-brochure/",
+  ],
+  [
+    "Luxurious Wine Spa & Nails Brochure",
+    "https://www.apprinting.com/luxurious-wine-spa-nails-brochure/",
+  ],
+  [
+    "Nature and Lotus Nail & Spa Brochure",
+    "https://www.apprinting.com/nature-and-lotus-nail-spa-brochure/",
+  ],
+  [
+    "Pink Meditation Nail & Spa Brochure",
+    "https://www.apprinting.com/pink-meditation-nail-spa-brochure/",
+  ],
+  [
+    "Professional Purple Flowers Spa Brochure",
+    "https://www.apprinting.com/professional-purple-flowers-spa-brochure/",
+  ],
+  [
+    "Pure Joy Nail Salon Brochure",
+    "https://www.apprinting.com/pure-joy-nail-salon-brochure/",
+  ],
+  [
+    "Relaxing Time Nail & Spa Brochure",
+    "https://www.apprinting.com/relaxing-time-nail-spa-brochure/",
+  ],
+  [
+    "Serene Green Cream Nail & Spa Brochure",
+    "https://www.apprinting.com/serene-green-cream-nail-spa-brochure/",
+  ],
+  [
+    "Silver & Purple Gradient Spa Brochure",
+    "https://www.apprinting.com/silver-purple-gradient-spa-brochure/",
+  ],
+  [
+    "Spiritual Lotus Nail & Spa Brochure",
+    "https://www.apprinting.com/spiritual-lotus-nail-spa-brochure/",
+  ],
+  [
+    "Wine Flourish Nail & Spa Brochure",
+    "https://www.apprinting.com/wine-flourish-nail-spa-brochure/",
+  ],
 ];
 
 export const urlProductUpdatePrice =
