@@ -173,18 +173,18 @@ const updateRow = async () => {
   // await getSizesImages(page, "https://www.apprinting.com/en/posters/products/");
   // await getUrlClientProducts(
   //   page,
-  //   "https://www.apprinting.com/wedding-programs/products/"
+  //   "https://www.apprinting.com/seating-charts/products/"
   // );
-  // await getSizesImagesArray(page);
+  await getSizesImagesArray(page);
   // await getSizesImagesFinal(page);
 
   // CHANGE PRODUCT PAGE LONG DESCRIPTION 2
   // await getIdProducts(
   //   page,
-  //   "https://www.apprinting.com/wedding-programs/products/"
+  //   "https://www.apprinting.com/seating-charts/products/"
   // );
-  await login(page);
-  await setLongDescriptionTwo (page);
+  // await login(page);
+  // await setLongDescriptionTwo (page);
 
   // AUDIT RULES
   // await login(page);
