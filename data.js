@@ -1,87 +1,39 @@
 export const url = "https://www.apprinting.com/admin/";
 
-export const idProducts = [
-  5614, 5511, 5515, 5519, 5521, 5510, 5512, 5528, 5514, 5516, 5513, 5524, 5526,
-  5517, 5527, 5525, 5523, 5518, 5522, 5520,
-];
+export const idProducts = [5617, 5586, 5769, 5587, 5588, 5585, 5773, 5777];
 
 export const urlProducts = [
-  ["Standard Brochure", "https://www.apprinting.com/standard-brochure/"],
   [
-    "Aqua Spa & Nails Brochure",
-    "https://www.apprinting.com/aqua-spa-nails-brochure/",
+    "Standard Presentation Folders",
+    "https://www.apprinting.com/standard-presentation-folders/",
   ],
   [
-    "Artistic Gold Brush Spa & Nails Brochure",
-    "https://www.apprinting.com/artistic-gold-brush-spa-nails-brochure/",
+    "Aquamarine Life Real State Presentation Folders",
+    "https://www.apprinting.com/aquamarine-life-real-state-presentation-folders/",
   ],
   [
-    "Delicate Blue and Pink Waves Spa Brochure",
-    "https://www.apprinting.com/delicate-blue-and-pink-waves-spa-brochure/",
+    "Aquamarine Ocean Presentation Folders",
+    "https://www.apprinting.com/aquamarine-ocean-presentation-folders/",
   ],
   [
-    "Delicate Petals Nail & Spa Brochure",
-    "https://www.apprinting.com/delicate-petals-nail-spa-brochure/",
+    "Black Real State Presentation Folders",
+    "https://www.apprinting.com/black-real-state-presentation-folders/",
   ],
   [
-    "Elegant Nail Care Red Circle Brochure",
-    "https://www.apprinting.com/elegant-nail-care-red-circle-brochure/",
+    "Dark Blue Real State Presentation Folders",
+    "https://www.apprinting.com/dark-blue-real-state-presentation-folders/",
   ],
   [
-    "Elegant Wine Flower Spa & Nails Brochure",
-    "https://www.apprinting.com/elegant-wine-flower-spa-nails-brochure/",
+    "Modern Gray Real State Presentation Folders",
+    "https://www.apprinting.com/modern-gray-real-state-presentation-folders/",
   ],
   [
-    "Glamorous Pink Potion Nail & Spa Brochure",
-    "https://www.apprinting.com/glamorous-pink-potion-nail-spa-brochure/",
+    "Modern Noir Presentation Folders",
+    "https://www.apprinting.com/modern-noir-presentation-folders/",
   ],
   [
-    "Gorgeous Purple Waves Spa & Nails Brochure",
-    "https://www.apprinting.com/gorgeous-purple-waves-spa-nails-brochure/",
-  ],
-  [
-    "Green Nature Spa Center Brochure",
-    "https://www.apprinting.com/green-nature-spa-center-brochure/",
-  ],
-  [
-    "Luxurious Wine Spa & Nails Brochure",
-    "https://www.apprinting.com/luxurious-wine-spa-nails-brochure/",
-  ],
-  [
-    "Nature and Lotus Nail & Spa Brochure",
-    "https://www.apprinting.com/nature-and-lotus-nail-spa-brochure/",
-  ],
-  [
-    "Pink Meditation Nail & Spa Brochure",
-    "https://www.apprinting.com/pink-meditation-nail-spa-brochure/",
-  ],
-  [
-    "Professional Purple Flowers Spa Brochure",
-    "https://www.apprinting.com/professional-purple-flowers-spa-brochure/",
-  ],
-  [
-    "Pure Joy Nail Salon Brochure",
-    "https://www.apprinting.com/pure-joy-nail-salon-brochure/",
-  ],
-  [
-    "Relaxing Time Nail & Spa Brochure",
-    "https://www.apprinting.com/relaxing-time-nail-spa-brochure/",
-  ],
-  [
-    "Serene Green Cream Nail & Spa Brochure",
-    "https://www.apprinting.com/serene-green-cream-nail-spa-brochure/",
-  ],
-  [
-    "Silver & Purple Gradient Spa Brochure",
-    "https://www.apprinting.com/silver-purple-gradient-spa-brochure/",
-  ],
-  [
-    "Spiritual Lotus Nail & Spa Brochure",
-    "https://www.apprinting.com/spiritual-lotus-nail-spa-brochure/",
-  ],
-  [
-    "Wine Flourish Nail & Spa Brochure",
-    "https://www.apprinting.com/wine-flourish-nail-spa-brochure/",
+    "Orange Sunset Presentation Folders",
+    "https://www.apprinting.com/orange-sunset-presentation-folders/",
   ],
 ];
 
