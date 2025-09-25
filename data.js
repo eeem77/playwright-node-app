@@ -1,13 +1,134 @@
 export const url = "https://www.apprinting.com/admin/";
 
-export const idProducts = [3150, 1640];
-
-export const urlProducts = [
-  ["Standard Booklet Printing", "https://www.apprinting.com/booklet-printing/"],
+export const idProducts = [
+  3976, 3977, 3978, 3980, 3981, 3982, 3983, 3984, 3985, 3986, 3987, 3988, 3989,
+  3990, 3991, 3992, 3993, 3994, 3995, 3996,
 ];
 
-export const urlProductUpdatePrice =
-  "https://www.apprinting.com/bilingual-wedding-invitations/products/#category_product_list";
+export const urlProducts = [
+  ["Red & Gold Label", "https://www.apprinting.com/red-gold-label/"],
+  [
+    "Green & Red Festivities",
+    "https://www.apprinting.com/green-red-festivities/",
+  ],
+  [
+    "Snowman's Winter Greetings",
+    "https://www.apprinting.com/snowman-s-winter-greetings/",
+  ],
+  [
+    "Deer and Bough Elegance",
+    "https://www.apprinting.com/deer-and-bough-elegance/",
+  ],
+  [
+    "Santa's Sleigh Elegance",
+    "https://www.apprinting.com/santa-s-sleigh-elegance/",
+  ],
+  [
+    "Village Winter Greetings",
+    "https://www.apprinting.com/village-winter-greetings/",
+  ],
+  [
+    "Dark Elegance Striped Ornaments",
+    "https://www.apprinting.com/dark-elegance-striped-ornaments/",
+  ],
+  [
+    "Red Stripe Festive Greetings",
+    "https://www.apprinting.com/red-stripe-festive-greetings/",
+  ],
+  [
+    "Enchanted Winter Forest",
+    "https://www.apprinting.com/enchanted-winter-forest/",
+  ],
+  [
+    "Dark Gray Festive Elegance",
+    "https://www.apprinting.com/dark-gray-festive-elegance/",
+  ],
+  ["White Pine Boughs", "https://www.apprinting.com/white-pine-boughs/"],
+  [
+    "Christmas Green Elegance",
+    "https://www.apprinting.com/christmas-green-elegance/",
+  ],
+  [
+    "Green and Gold Circle",
+    "https://www.apprinting.com/green-and-gold-circle/",
+  ],
+  [
+    "Watercolor Ornament Elegance",
+    "https://www.apprinting.com/watercolor-ornament-elegance/",
+  ],
+  [
+    "Pearl White Festive Greetings",
+    "https://www.apprinting.com/pearl-white-festive-greetings/",
+  ],
+  ["Merry & Bright", "https://www.apprinting.com/merry-bright/"],
+  ["Golden Glow", "https://www.apprinting.com/golden-glow/"],
+  ["Holiday Blossom", "https://www.apprinting.com/holiday-blossom/"],
+  ["Rustic Snowflakes", "https://www.apprinting.com/rustic-snowflakes/"],
+  ["Festive Flourish", "https://www.apprinting.com/festive-flourish/"],
+];
+
+export const urlProductUpdatePrice = [
+  ["Red & Gold Label", "https://www.apprinting.com/red-gold-label/"],
+  [
+    "Green & Red Festivities",
+    "https://www.apprinting.com/green-red-festivities/",
+  ],
+  [
+    "Snowman's Winter Greetings",
+    "https://www.apprinting.com/snowman-s-winter-greetings/",
+  ],
+  [
+    "Deer and Bough Elegance",
+    "https://www.apprinting.com/deer-and-bough-elegance/",
+  ],
+  [
+    "Santa's Sleigh Elegance",
+    "https://www.apprinting.com/santa-s-sleigh-elegance/",
+  ],
+  [
+    "Village Winter Greetings",
+    "https://www.apprinting.com/village-winter-greetings/",
+  ],
+  [
+    "Dark Elegance Striped Ornaments",
+    "https://www.apprinting.com/dark-elegance-striped-ornaments/",
+  ],
+  [
+    "Red Stripe Festive Greetings",
+    "https://www.apprinting.com/red-stripe-festive-greetings/",
+  ],
+  [
+    "Enchanted Winter Forest",
+    "https://www.apprinting.com/enchanted-winter-forest/",
+  ],
+  [
+    "Dark Gray Festive Elegance",
+    "https://www.apprinting.com/dark-gray-festive-elegance/",
+  ],
+  ["White Pine Boughs", "https://www.apprinting.com/white-pine-boughs/"],
+  [
+    "Christmas Green Elegance",
+    "https://www.apprinting.com/christmas-green-elegance/",
+  ],
+  [
+    "Green and Gold Circle",
+    "https://www.apprinting.com/green-and-gold-circle/",
+  ],
+  [
+    "Watercolor Ornament Elegance",
+    "https://www.apprinting.com/watercolor-ornament-elegance/",
+  ],
+  [
+    "Pearl White Festive Greetings",
+    "https://www.apprinting.com/pearl-white-festive-greetings/",
+  ],
+  ["Merry & Bright", "https://www.apprinting.com/merry-bright/"],
+  ["Golden Glow", "https://www.apprinting.com/golden-glow/"],
+  ["Holiday Blossom", "https://www.apprinting.com/holiday-blossom/"],
+  ["Rustic Snowflakes", "https://www.apprinting.com/rustic-snowflakes/"],
+  ["Festive Flourish", "https://www.apprinting.com/festive-flourish/"],
+];
+  
 
 export const qtys = [250, 500, 1000, 2500, 5000, 10000, 15000, 20000, 25000];
 

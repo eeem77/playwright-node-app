@@ -173,7 +173,7 @@ const updateRow = async () => {
   // await getSizesImages(page, "https://www.apprinting.com/en/posters/products/");
   // await getUrlClientProducts(
   //   page,
-  //   "https://www.apprinting.com/booklet/products/"
+  //   "https://www.apprinting.com/greeting-cards/products/"
   // );
   // await getSizesImagesArray(page);
   await getSizesImagesFinal(page);
@@ -181,7 +181,7 @@ const updateRow = async () => {
   // CHANGE PRODUCT PAGE LONG DESCRIPTION 2
   // await getIdProducts(
   //   page,
-  //   "https://www.apprinting.com/booklet/products/"
+  //   "https://www.apprinting.com/greeting-cards/products/"
   // );
   // await login(page);
   // await setLongDescriptionTwo (page);
