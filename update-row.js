@@ -171,17 +171,17 @@ const updateRow = async () => {
 
   // AUDIT IMAGES SIZES
   // await getSizesImages(page, "https://www.apprinting.com/en/posters/products/");
-  // await getUrlClientProducts(
-  //   page,
-  //   "https://www.apprinting.com/presentation-folders-147/products/"
-  // );
+  await getUrlClientProducts(
+    page,
+    "https://www.apprinting.com/magnets/products/"
+  );
   // await getSizesImagesArray(page);
-  await getSizesImagesFinal(page);
+  // await getSizesImagesFinal(page);
 
   // CHANGE PRODUCT PAGE LONG DESCRIPTION 2
   // await getIdProducts(
   //   page,
-  //   "https://www.apprinting.com/presentation-folders-147/products/"
+  //   "https://www.apprinting.com/magnets/products/"
   // );
   // await login(page);
   // await setLongDescriptionTwo (page);

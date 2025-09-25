@@ -1,39 +1,117 @@
 export const url = "https://www.apprinting.com/admin/";
 
-export const idProducts = [5617, 5586, 5769, 5587, 5588, 5585, 5773, 5777];
+export const idProducts = [
+  5623, 5622, 5621, 5561, 5549, 5557, 5555, 5556, 5563, 5565, 5564, 5566, 5560,
+  5551, 5554, 5567, 5569, 5571, 5568, 5570, 5547, 5548, 5550, 5552, 5553, 5562,
+  5558, 5559,
+];
 
 export const urlProducts = [
+  ["Standard Flyer", "https://www.apprinting.com/standard-flyer/"],
+  ["Gym & Sports Flyer", "https://www.apprinting.com/gym-sports-flyer/"],
   [
-    "Standard Presentation Folders",
-    "https://www.apprinting.com/standard-presentation-folders/",
+    "Travel & Airlines Flyer",
+    "https://www.apprinting.com/travel-airlines-flyer/",
   ],
   [
-    "Aquamarine Life Real State Presentation Folders",
-    "https://www.apprinting.com/aquamarine-life-real-state-presentation-folders/",
+    "Modern Under Construction House Repair Services Flyer",
+    "https://www.apprinting.com/modern-under-construction-house-repair-services-flyer/",
   ],
   [
-    "Aquamarine Ocean Presentation Folders",
-    "https://www.apprinting.com/aquamarine-ocean-presentation-folders/",
+    "Working Orange & Black Home Renovation Services Flyer",
+    "https://www.apprinting.com/working-orange-black-home-renovation-services-flyer/",
   ],
   [
-    "Black Real State Presentation Folders",
-    "https://www.apprinting.com/black-real-state-presentation-folders/",
+    "Yellow Mustard Handyman Services Flyer",
+    "https://www.apprinting.com/yellow-mustard-handyman-services-flyer/",
   ],
   [
-    "Dark Blue Real State Presentation Folders",
-    "https://www.apprinting.com/dark-blue-real-state-presentation-folders/",
+    "Black & Brown Handyman Builder Services Flyer",
+    "https://www.apprinting.com/black-brown-handyman-builder-services-flyer/",
   ],
   [
-    "Modern Gray Real State Presentation Folders",
-    "https://www.apprinting.com/modern-gray-real-state-presentation-folders/",
+    "Olive Green Contractors Services Flyer",
+    "https://www.apprinting.com/olive-green-contractors-services-flyer/",
   ],
   [
-    "Modern Noir Presentation Folders",
-    "https://www.apprinting.com/modern-noir-presentation-folders/",
+    "Blue & Gold Law Firm Flyer",
+    "https://www.apprinting.com/blue-gold-law-firm-flyer/",
   ],
   [
-    "Orange Sunset Presentation Folders",
-    "https://www.apprinting.com/orange-sunset-presentation-folders/",
+    "Blue Justice Law Firm Flyer",
+    "https://www.apprinting.com/blue-justice-law-firm-flyer/",
+  ],
+  [
+    "Elegant Burgundy Color Law Firm Flyer",
+    "https://www.apprinting.com/elegant-burgundy-color-law-firm-flyer/",
+  ],
+  [
+    "Elegant Gold Justice Law Firm Flyer",
+    "https://www.apprinting.com/elegant-gold-justice-law-firm-flyer/",
+  ],
+  [
+    "Modern Black & Red Law Firm Flyer",
+    "https://www.apprinting.com/modern-black-red-law-firm-flyer/",
+  ],
+  [
+    "Modern Blue Jurisdiction Law Firm Flyer",
+    "https://www.apprinting.com/modern-blue-jurisdiction-law-firm-flyer/",
+  ],
+  [
+    "Simple Blue Law Firm Flyer",
+    "https://www.apprinting.com/simple-blue-law-firm-flyer/",
+  ],
+  [
+    "Elegant Lyla Home Real State Flyer",
+    "https://www.apprinting.com/elegant-lyla-home-real-state-flyer/",
+  ],
+  [
+    "Comfortable Green Real State Flyer",
+    "https://www.apprinting.com/comfortable-green-real-state-flyer/",
+  ],
+  [
+    "Elegant Vertical Black & White Real State Flyer",
+    "https://www.apprinting.com/elegant-vertical-black-white-real-state-flyer/",
+  ],
+  [
+    "Yellow & Blue Real State Flyer",
+    "https://www.apprinting.com/yellow-blue-real-state-flyer/",
+  ],
+  [
+    "Sky Blue Real State Flyer",
+    "https://www.apprinting.com/sky-blue-real-state-flyer/",
+  ],
+  [
+    "Green Garden Landscaping Services Flyer",
+    "https://www.apprinting.com/green-garden-landscaping-services-flyer/",
+  ],
+  [
+    "Garden House Landscaping Services Flyer",
+    "https://www.apprinting.com/garden-house-landscaping-services-flyer/",
+  ],
+  [
+    "Lawn Waves Landscaping Services Flyer",
+    "https://www.apprinting.com/lawn-waves-landscaping-services-flyer/",
+  ],
+  [
+    "Green Villa Lawn Care & Gardening Services Flyer",
+    "https://www.apprinting.com/green-villa-lawn-care-gardening-services-flyer/",
+  ],
+  [
+    "Sunny Villa Lawn Care & Gardening Services Flyer",
+    "https://www.apprinting.com/sunny-villa-lawn-care-gardening-services-flyer/",
+  ],
+  [
+    "Tulip Garden Landscaping Services Flyer",
+    "https://www.apprinting.com/tulip-garden-landscaping-services-flyer/",
+  ],
+  [
+    "Beautiful Garden Landscaping Services Flyer",
+    "https://www.apprinting.com/beautiful-garden-landscaping-services-flyer/",
+  ],
+  [
+    "Backyard Version Landscaping Services Flyer",
+    "https://www.apprinting.com/backyard-version-landscaping-services-flyer/",
   ],
 ];
 
