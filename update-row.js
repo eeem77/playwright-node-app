@@ -173,15 +173,20 @@ const updateRow = async () => {
   // await getSizesImages(page, "https://www.apprinting.com/en/posters/products/");
   // await getUrlClientProducts(
   //   page,
-  //   "https://www.apprinting.com/greeting-cards/products/"
+  //   "https://www.apprinting.com/real-estate-product-category/products/"
   // );
   // await getSizesImagesArray(page);
   await getSizesImagesFinal(page);
 
   // CHANGE PRODUCT PAGE LONG DESCRIPTION 2
+  // await login(page);
+  // await getIdProductsAdmin(
+  //   page,
+  //   ""
+  // );
   // await getIdProducts(
   //   page,
-  //   "https://www.apprinting.com/greeting-cards/products/"
+  //   "https://www.apprinting.com/real-estate-product-category/products/"
   // );
   // await login(page);
   // await setLongDescriptionTwo (page);

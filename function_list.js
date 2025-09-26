@@ -1031,6 +1031,7 @@ export const setLongDescriptionTwo = async (page) => {
 
 export const getUrlClientProducts = async (page, url) => {
   await page.goto(url);
+  await page.waitForTimeout(7000);
   const productsElementDom = await page.$$(".product-box");
   // const productsElementDom = await page.$$(".splide__slide");
   for await (const productElementDom of productsElementDom) {
