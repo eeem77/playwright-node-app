@@ -109,62 +109,101 @@ export const inputFillToRow = async (page) => {
 };
 
 export const categoryDefaultSelect = async (page) => {
-  for await (const id of idProducts) {
-    await page.goto(
-      `https://www.apprinting.com/admin/product_action.php?product_id=${id}`,
-      { timeout: 300000 }
-    );
+  // for await (const id of idProducts) {
+  //   await page.goto(
+  //     `https://www.apprinting.com/admin/product_action.php?product_id=${id}`
+  //   );
     await page.waitForTimeout(3000);
     const btnCategory = await page.$('[data-id="category_id_1"]');
     await btnCategory.click();
     await page.waitForTimeout(3000);
-    const btnCategorySelect = await page.$("#bs-select-2-142");
+    const btnCategorySelect = await page.$("#bs-select-2-158");
     await btnCategorySelect.click();
     await page.waitForTimeout(3000);
+    
     const btnSave = await page.$("#btn-action-save");
     await btnSave.click();
-    await page.waitForTimeout(3000);
-    console.log("Working ---> ", id);
-    fs.appendFileSync("list.txt", id.toString() + "\n");
-  }
+    await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
+      state: "visible",
+    });
+
+    // console.log("Working ---> ", id);
+    // fs.appendFileSync("list.txt", id.toString() + "\n");
+  // }
 };
+
+export const changeDefaultAndAssociatedCategoryProduct = async (page) => {
+  for await (const id of idProducts) {
+    await page.goto(
+      `https://www.apprinting.com/admin/product_action.php?product_id=${id}`
+    );
+    const categoryMap = {
+      "Compass Real Estate": "248",
+      "Exp Realty Real Estate": "250",
+      "Berkshire Real Estate": "252",
+      "Keller Williams Realty Real Estate": "271",
+      "Century 21 Real Estate": "307",
+      "REMAX Real Estate": "316",
+      "COLDWELL BANKER Real Estate": "325",
+      "ERA Real Estate": "334",
+      "EXIT REALTY Real Estate": "343",
+      "BHGRE Real Estate": "352",
+    };
+
+    const defaultCategory = await page.$('[data-id="category_id_1"]');
+    const defaultCategoryValue = await defaultCategory.getAttribute("title");
+
+    await categoryDefaultSelect(page);
+
+    await changeAssociatedCategoryProduct(
+      page,
+      "160"
+    );
+    await changeAssociatedCategoryProduct(page, categoryMap[defaultCategoryValue]);
+  }
+}
 
 export const getAssociatedCategoryProduct = async (page) => {
   for await (const id of idProducts) {
     await page.goto(
-      `https://www.apprinting.com/admin/product_action.php?product_id=${id}`,
-      { timeout: 300000 }
+      `https://www.apprinting.com/admin/product_action.php?product_id=${id}`
     );
-    // const associatedCategorySelected = await page.$('[id="category_ids_1"]');
-    // const innerTextAssociatedCategory = await associatedCategorySelected.innerText();
+    const associatedCategorySelectedValue = await page.$eval(
+      "#category_ids_1",
+      (select) => select.value
+    );
+
     const defaultCategory = await page.$('[data-id="category_id_1"]');
     const defaultCategoryValue = await defaultCategory.getAttribute("title");
-    const report = `Working ---> ${id} ---> ${defaultCategoryValue} \n`;
+
+    const report = `Working ---> ${id} ---> ${defaultCategoryValue} ---> ${associatedCategorySelectedValue} \n`;
     fs.appendFileSync("list.txt", report);
   }
 };
 
-export const changeAssociatedCategoryProduct = async (page) => {
-  for await (const id of idProducts) {
-    await page.goto(
-      `https://www.apprinting.com/admin/product_action.php?product_id=${id}`,
-      { timeout: 300000 }
-    );
+export const changeAssociatedCategoryProduct = async (page, category) => {
+  // for await (const id of idProducts) {
+  //   await page.goto(
+  //     `https://www.apprinting.com/admin/product_action.php?product_id=${id}`,
+  //     { timeout: 300000 }
+  //   );
     const associatedCategorySelected = await page.$(
       ".multiselect.dropdown-toggle"
     );
     await associatedCategorySelected.click();
     const list = await page.$(".multiselect-container.dropdown-menu.show");
-    await page.waitForTimeout(2000);
-    const valueCheckList = await list.$('[title="Real Estate"]');
+    await page.waitForTimeout(3000);
+    const valueCheckList = await list.$(`[value="${category}"]`);
     await valueCheckList.click();
-    await page.waitForTimeout(2000);
+    await page.waitForTimeout(3000);
     const btnSave = await page.$("#btn-action-save");
     await btnSave.click();
-    await page.waitForTimeout(3000);
-    fs.appendFileSync("list.txt", id + "\n");
-    console.log("Working ---> ", id);
-  }
+    await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
+      state: "visible",
+    });
+    // fs.appendFileSync("list.txt", id + "\n");
+    // console.log("Working ---> ", id);
+  // }
 };
 
 const extractId = async (page, index) => {
@@ -320,7 +359,7 @@ export const getSizesImagesArray = async (page) => {
       const alt = await image.getAttribute("alt");
 
       // image in the dropbox server
-      if (src.includes("dl.dropboxusercontent.com")){
+      if (src.includes("dl.dropboxusercontent.com")) {
         fs.appendFileSync(
           "list-src-img.txt",
           `["${src}","${alt}","${url[0]}"],\n`
@@ -335,16 +374,13 @@ export const getSizesImagesArray = async (page) => {
             `["${src}","${alt}","${url[0]}"],\n`
           );
         }
-      } catch (error) {
-
-      }
-
+      } catch (error) {}
     }
   }
 };
 
 export const getSizesImagesFinal = async (page) => {
-  let flag = 0
+  let flag = 0;
   for await (const image of dataLinksImages) {
     if (image[0] !== "") {
       const response = await page.goto(image[0], {
@@ -1027,7 +1063,7 @@ export const setLongDescriptionTwo = async (page) => {
       state: "visible",
     });
   }
-}
+};
 
 export const getUrlClientProducts = async (page, url) => {
   await page.goto(url);
@@ -2392,10 +2428,6 @@ export const auditArtwork = async (page) => {
   }
 };
 
-
-
-
-
 const downloadFolder = "./download-images";
 
 // Crear directorio si no existe
@@ -2457,97 +2489,99 @@ export async function downloadAllImages() {
   }
 }
 
-
-
 /**
  * Función principal para buscar y modificar hipervínculos
  */
-async function modifyHyperlinksInFolders(rootDir, targetFileName, searchWord, newHref, newSection) {
-    try {
-        console.log(`🔍 Buscando en: ${rootDir}`);
-        
-        // Leer el directorio raíz
-        const items = await readDir(rootDir);
-        
-        for (const item of items) {
-            const itemPath = path.join(rootDir, item.name);
-            
-            if (item.isDirectory()) {
-                try {
-                    // Verificar si el archivo objetivo existe en esta carpeta
-                    const targetFilePath = path.join(itemPath, targetFileName);
-                    await accessFile(targetFilePath);
-                    
-                    console.log(`📁 Procesando carpeta: ${item.name}`);
-                    
-                    // Modificar el archivo
-                    await modifyFileHyperlinks(
-                      targetFilePath,
-                      searchWord,
-                      newHref,
-                      newSection
-                    );
-                    
-                } catch (error) {
-                    // El archivo no existe en esta carpeta, continuar
-                    continue;
-                }
-            }
+async function modifyHyperlinksInFolders(
+  rootDir,
+  targetFileName,
+  searchWord,
+  newHref,
+  newSection
+) {
+  try {
+    console.log(`🔍 Buscando en: ${rootDir}`);
+
+    // Leer el directorio raíz
+    const items = await readDir(rootDir);
+
+    for (const item of items) {
+      const itemPath = path.join(rootDir, item.name);
+
+      if (item.isDirectory()) {
+        try {
+          // Verificar si el archivo objetivo existe en esta carpeta
+          const targetFilePath = path.join(itemPath, targetFileName);
+          await accessFile(targetFilePath);
+
+          console.log(`📁 Procesando carpeta: ${item.name}`);
+
+          // Modificar el archivo
+          await modifyFileHyperlinks(
+            targetFilePath,
+            searchWord,
+            newHref,
+            newSection
+          );
+        } catch (error) {
+          // El archivo no existe en esta carpeta, continuar
+          continue;
         }
-        
-        console.log('✅ Proceso completado');
-        
-    } catch (error) {
-        console.error('❌ Error:', error.message);
+      }
     }
+
+    console.log("✅ Proceso completado");
+  } catch (error) {
+    console.error("❌ Error:", error.message);
+  }
 }
 
 /**
  * Lee un directorio (versión promisificada)
  */
 function readDir(dirPath) {
-    return new Promise((resolve, reject) => {
-        fs.readdir(dirPath, { withFileTypes: true }, (err, files) => {
-            if (err) reject(err);
-            else resolve(files);
-        });
+  return new Promise((resolve, reject) => {
+    fs.readdir(dirPath, { withFileTypes: true }, (err, files) => {
+      if (err) reject(err);
+      else resolve(files);
     });
+  });
 }
 
 /**
  * Verifica si un archivo existe (versión promisificada)
  */
 function accessFile(filePath) {
-    return new Promise((resolve, reject) => {
-        fs.access(filePath, fs.constants.F_OK, (err) => {
-            if (err) reject(err);
-            else resolve();
-        });
+  return new Promise((resolve, reject) => {
+    fs.access(filePath, fs.constants.F_OK, (err) => {
+      if (err) reject(err);
+      else resolve();
     });
+  });
 }
 
 /**
  * Lee un archivo (versión promisificada)
  */
 function readFile(filePath) {
-    return new Promise((resolve, reject) => {
-        fs.readFile(filePath, 'utf8', (err, data) => {
-            if (err) reject(err);
-            else resolve(data);
-        });
+  return new Promise((resolve, reject) => {
+    fs.readFile(filePath, "utf8", (err, data) => {
+      if (err) reject(err);
+      else resolve(data);
     });
+  });
 }
 
 /**
  * Escribe en un archivo (versión promisificada)
  */
 function writeFile(filePath, content) {
-    return new Promise((resolve, reject) => {
-        fs.writeFile(filePath, content, 'utf8', (err) => {
-            if (err) reject(err);
-            else resolve();
-        });
+  return new Promise((resolve, reject) => {
+    fs.writeFile(filePath, content, "utf8", (err) => {
+      if (err) reject(err);
+      else resolve();
     });
+  });
 }
 
 /**
@@ -2587,37 +2621,36 @@ async function modifyFileHyperlinks(filePath, searchWord, newHref, newSection) {
  * Función alternativa con mejor manejo de diferentes patrones de href
  */
 async function modifySpecificHyperlinks(filePath, searchWord, newHref) {
-    try {
-        let content = await readFile(filePath);
-        const originalContent = content;
-        
-        // Diferentes patrones para buscar hipervínculos
-        const patterns = [
-          // Para src="...palabra..."
-          new RegExp(`(src=["'])([^"']*${searchWord}[^"']*)(["'])`, "gi"),
-          // Para src='...palabra...'
-          new RegExp(`(src=['])([^']*${searchWord}[^']*)(['])`, "gi"),
-        ];
-        
-        let modified = false;
-        
-        for (const pattern of patterns) {
-            if (pattern.test(content)) {
-                content = content.replace(pattern, `$1${newHref}$3`);
-                modified = true;
-            }
-        }
-        
-        if (modified) {
-            await writeFile(filePath, content);
-            console.log(`✅ Hipervínculos modificados en: ${filePath}`);
-        } else {
-            console.log(`ℹ️  No se encontró "${searchWord}" en: ${filePath}`);
-        }
-        
-    } catch (error) {
-        console.error(`❌ Error en ${filePath}:`, error.message);
+  try {
+    let content = await readFile(filePath);
+    const originalContent = content;
+
+    // Diferentes patrones para buscar hipervínculos
+    const patterns = [
+      // Para src="...palabra..."
+      new RegExp(`(src=["'])([^"']*${searchWord}[^"']*)(["'])`, "gi"),
+      // Para src='...palabra...'
+      new RegExp(`(src=['])([^']*${searchWord}[^']*)(['])`, "gi"),
+    ];
+
+    let modified = false;
+
+    for (const pattern of patterns) {
+      if (pattern.test(content)) {
+        content = content.replace(pattern, `$1${newHref}$3`);
+        modified = true;
+      }
     }
+
+    if (modified) {
+      await writeFile(filePath, content);
+      console.log(`✅ Hipervínculos modificados en: ${filePath}`);
+    } else {
+      console.log(`ℹ️  No se encontró "${searchWord}" en: ${filePath}`);
+    }
+  } catch (error) {
+    console.error(`❌ Error en ${filePath}:`, error.message);
+  }
 }
 
 // Ejemplo de uso
@@ -2652,5 +2685,11 @@ export async function modifyStringRecursiveFiles() {
         </ul>
   `;
 
-  await modifyHyperlinksInFolders(rootDirectory, fileName, keyword, newLink, newSection);
+  await modifyHyperlinksInFolders(
+    rootDirectory,
+    fileName,
+    keyword,
+    newLink,
+    newSection
+  );
 }
