@@ -105,8 +105,8 @@ const updateRow = async () => {
   //   page,
   //   ""
   // );
-  await getAssociatedCategoryProduct(page);
-  // await changeDefaultAndAssociatedCategoryProduct(page);
+  // await getAssociatedCategoryProduct(page);
+  await changeDefaultAndAssociatedCategoryProduct(page, "bs-select-2-47");
 
   // await getPricesProducts(page); ---> old version
   // await getModelPricesProducts(page);

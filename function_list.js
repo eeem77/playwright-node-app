@@ -108,31 +108,34 @@ export const inputFillToRow = async (page) => {
   // await page.waitForTimeout(5000);
 };
 
-export const categoryDefaultSelect = async (page) => {
+export const categoryDefaultSelect = async (page, option) => {
   // for await (const id of idProducts) {
   //   await page.goto(
   //     `https://www.apprinting.com/admin/product_action.php?product_id=${id}`
   //   );
-    await page.waitForTimeout(3000);
-    const btnCategory = await page.$('[data-id="category_id_1"]');
-    await btnCategory.click();
-    await page.waitForTimeout(3000);
-    const btnCategorySelect = await page.$("#bs-select-2-158");
-    await btnCategorySelect.click();
-    await page.waitForTimeout(3000);
-    
-    const btnSave = await page.$("#btn-action-save");
-    await btnSave.click();
-    await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
-      state: "visible",
-    });
+  await page.waitForTimeout(3000);
+  const btnCategory = await page.$('[data-id="category_id_1"]');
+  await btnCategory.click();
+  await page.waitForTimeout(3000);
+  const btnCategorySelect = await page.$(`#${option}`);
+  await btnCategorySelect.click();
+  await page.waitForTimeout(3000);
 
-    // console.log("Working ---> ", id);
-    // fs.appendFileSync("list.txt", id.toString() + "\n");
+  const btnSave = await page.$("#btn-action-save");
+  await btnSave.click();
+  await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
+    state: "visible",
+  });
+
+  // console.log("Working ---> ", id);
+  // fs.appendFileSync("list.txt", id.toString() + "\n");
   // }
 };
 
-export const changeDefaultAndAssociatedCategoryProduct = async (page) => {
+export const changeDefaultAndAssociatedCategoryProduct = async (
+  page,
+  paramDefaultCategory
+) => {
   for await (const id of idProducts) {
     await page.goto(
       `https://www.apprinting.com/admin/product_action.php?product_id=${id}`
@@ -153,15 +156,18 @@ export const changeDefaultAndAssociatedCategoryProduct = async (page) => {
     const defaultCategory = await page.$('[data-id="category_id_1"]');
     const defaultCategoryValue = await defaultCategory.getAttribute("title");
 
-    await categoryDefaultSelect(page);
+    const associatedCategory = categoryMap[defaultCategoryValue];
 
-    await changeAssociatedCategoryProduct(
-      page,
-      "160"
-    );
-    await changeAssociatedCategoryProduct(page, categoryMap[defaultCategoryValue]);
+    await categoryDefaultSelect(page, paramDefaultCategory);
+
+    if (associatedCategory) {
+      await changeAssociatedCategoryProduct(page, "160");
+      await changeAssociatedCategoryProduct(page, associatedCategory);
+    } else {
+      // await changeAssociatedCategoryProduct(page, "160");
+    }
   }
-}
+};
 
 export const getAssociatedCategoryProduct = async (page) => {
   for await (const id of idProducts) {
@@ -187,22 +193,22 @@ export const changeAssociatedCategoryProduct = async (page, category) => {
   //     `https://www.apprinting.com/admin/product_action.php?product_id=${id}`,
   //     { timeout: 300000 }
   //   );
-    const associatedCategorySelected = await page.$(
-      ".multiselect.dropdown-toggle"
-    );
-    await associatedCategorySelected.click();
-    const list = await page.$(".multiselect-container.dropdown-menu.show");
-    await page.waitForTimeout(3000);
-    const valueCheckList = await list.$(`[value="${category}"]`);
-    await valueCheckList.click();
-    await page.waitForTimeout(3000);
-    const btnSave = await page.$("#btn-action-save");
-    await btnSave.click();
-    await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
-      state: "visible",
-    });
-    // fs.appendFileSync("list.txt", id + "\n");
-    // console.log("Working ---> ", id);
+  const associatedCategorySelected = await page.$(
+    ".multiselect.dropdown-toggle"
+  );
+  await associatedCategorySelected.click();
+  const list = await page.$(".multiselect-container.dropdown-menu.show");
+  await page.waitForTimeout(3000);
+  const valueCheckList = await list.$(`[value="${category}"]`);
+  await valueCheckList.click();
+  await page.waitForTimeout(3000);
+  const btnSave = await page.$("#btn-action-save");
+  await btnSave.click();
+  await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
+    state: "visible",
+  });
+  // fs.appendFileSync("list.txt", id + "\n");
+  // console.log("Working ---> ", id);
   // }
 };
 
