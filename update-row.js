@@ -42,6 +42,8 @@ import {
   addSetupProductPageDesigner,
   setLongDescriptionTwo,
   changeDefaultAndAssociatedCategoryProduct,
+  changeProductWeight,
+  changeProductShippingMethod,
 } from "./function_list.js";
 // import { proxies } from './data.js'
 // import fs from 'fs'
@@ -88,6 +90,14 @@ const updateRow = async () => {
   //   }
   // }
 
+  // Changue Product Weight
+  await login(page);
+  // await getIdProductsAdmin(
+  //   page,
+  //   ""
+  // );
+  // await changeProductWeight(page);
+  await changeProductShippingMethod(page);
   // GET ID PRODUCTS
   // const table = document.querySelector("tbody");
   // const tr = table.querySelectorAll("tr");
@@ -100,13 +110,13 @@ const updateRow = async () => {
   // );
 
   // GET PRICES PRODUCTS
-  await login(page);
+  // await login(page);
   // await getIdProductsAdmin(
   //   page,
   //   ""
   // );
   // await getAssociatedCategoryProduct(page);
-  await changeDefaultAndAssociatedCategoryProduct(page, "bs-select-2-47");
+  // await changeDefaultAndAssociatedCategoryProduct(page, "bs-select-2-97");
 
   // await getPricesProducts(page); ---> old version
   // await getModelPricesProducts(page);

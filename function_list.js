@@ -40,6 +40,11 @@ import {
   newPrices,
   dataPaperMore,
   images,
+  productWeightConfigurationCustomHeight,
+  productWeightConfigurationCustomWidth,
+  productWeightConfigurationLength,
+  productWeightConfigurationBoxWeight,
+  productWeightConfiguration,
 } from "./data.js";
 import { log } from "console";
 dotenv.config();
@@ -409,6 +414,121 @@ export const getSizesImagesFinal = async (page) => {
         )} KB`
       );
     }
+  }
+};
+
+export const changeProductWeight = async (page) => {
+  for await (const id of idProducts) {
+    let count = 0;
+    await page.goto(
+      `https://www.apprinting.com/admin/product_weight.php?product_id=${id}`
+    );
+    // await page.waitForTimeout(6000);
+    const table = await page.waitForSelector(".table-responsive");
+    const boxes = await table.$$('[name^="addnoptweight"]');
+    for await (const box of boxes) {
+      await box.fill(productWeightConfiguration[count]);
+
+      count++;
+    }
+    const saveBtn = await page.$("#btn-action-save");
+    await saveBtn.click();
+    await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
+      state: "visible",
+    });
+  }
+};
+
+export const changeProductShippingMethod = async (page) => {
+  for await (const id of idProducts) {
+    let count = 0;
+    let index = 0;
+    await page.goto(
+      `https://www.apprinting.com/admin/shipping_package.php?product_id=${id}`
+    );
+    // await page.waitForTimeout(6000);
+    const table = await page.waitForSelector("#ops-table");
+    const boxes = await table.$$('[type="checkbox"]');
+    const selects = await table.$$(".package_select");
+    const inputsMaxWeight = await table.$$('[placeholder="Max Weight"]');
+    const inputsBoxWeight = await table.$$('[placeholder="Box Weight"]');
+    const inputsLength = await table.$$('[placeholder="Length"]');
+    const inputsCustomWidth = await table.$$('[placeholder="Custom Width"]');
+    const inputsCustomHeight = await table.$$('[placeholder="Custom Height"]');
+    for await (const box of boxes) {
+      if (count > 0) {
+        const status = await box.isChecked();
+        if (status === false) {
+          await box.click();
+        }
+        // console.log(status);
+      }
+
+      count++;
+    }
+    for await (const select of selects) {
+      if (count > 0) {
+        await select.selectOption("0");
+        // console.log(status);
+      }
+
+      count++;
+    }
+    count = 0;
+    index = 0;
+    for await (const input of inputsMaxWeight) {
+      if (count > 0) {
+        await input.fill("150");
+        // console.log(status);
+      }
+
+      count++;
+    }
+    count = 0;
+    index = 0;
+    for await (const input of inputsBoxWeight) {
+      if (count > 0) {
+        await input.fill(productWeightConfigurationBoxWeight[index]);
+        // console.log(status);
+      }
+      index++;
+      count++;
+    }
+    count = 0;
+    index = 0;
+    for await (const input of inputsLength) {
+      if (count > 0) {
+        await input.fill(productWeightConfigurationLength[index]);
+        // console.log(status);
+      }
+      index++;
+      count++;
+    }
+    count = 0;
+    index = 0;
+    for await (const input of inputsCustomWidth) {
+      if (count > 0) {
+        await input.fill(productWeightConfigurationCustomWidth[index]);
+        // console.log(status);
+      }
+      index++;
+      count++;
+    }
+    count = 0;
+    index = 0;
+    for await (const input of inputsCustomHeight) {
+      if (count > 0) {
+        await input.fill(productWeightConfigurationCustomHeight[index]);
+        // console.log(status);
+      }
+      index++;
+      count++;
+    }
+    // const saveBtn = await page.$("#btn-action-save");
+    // await saveBtn.click();
+    // await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
+    //   state: "visible",
+    // });
   }
 };
 
