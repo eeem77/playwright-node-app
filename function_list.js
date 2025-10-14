@@ -439,14 +439,61 @@ export const changeProductWeight = async (page) => {
   }
 };
 
+const actionschangeProductShippingMethod = async (
+  options,
+  isBoxes,
+  isSelect,
+  isInput,
+  isInputX,
+  data
+) => {
+  let count = 0;
+  let index = 0;
+  if (isBoxes) {
+    for await (const option of options) {
+      if (count > 0) {
+        const status = await option.isChecked();
+        if (status === false) {
+          await option.click();
+        }
+      }
+      count++;
+    }
+  }
+  if (isSelect) {
+    for await (const select of options) {
+      if (count > 0) {
+        await select.selectOption("0");
+      }
+      count++;
+    }
+  }
+  if (isInput) {
+    for await (const input of options) {
+      if (count > 0) {
+        await input.fill("150");
+      }
+      count++;
+    }
+  }
+  if (isInputX) {
+    for await (const input of options) {
+      if (count > 0) {
+        await input.fill(data[index] ?? "");
+        index++;
+      }
+      
+      count++;
+    }
+  }
+};
+
 export const changeProductShippingMethod = async (page) => {
   for await (const id of idProducts) {
-    let count = 0;
-    let index = 0;
     await page.goto(
       `https://www.apprinting.com/admin/shipping_package.php?product_id=${id}`
     );
-    // await page.waitForTimeout(6000);
+    await page.waitForTimeout(3000);
     const table = await page.waitForSelector("#ops-table");
     const boxes = await table.$$('[type="checkbox"]');
     const selects = await table.$$(".package_select");
@@ -455,80 +502,54 @@ export const changeProductShippingMethod = async (page) => {
     const inputsLength = await table.$$('[placeholder="Length"]');
     const inputsCustomWidth = await table.$$('[placeholder="Custom Width"]');
     const inputsCustomHeight = await table.$$('[placeholder="Custom Height"]');
-    for await (const box of boxes) {
-      if (count > 0) {
-        const status = await box.isChecked();
-        if (status === false) {
-          await box.click();
-        }
-        // console.log(status);
-      }
 
-      count++;
-    }
-    for await (const select of selects) {
-      if (count > 0) {
-        await select.selectOption("0");
-        // console.log(status);
-      }
-
-      count++;
-    }
-    count = 0;
-    index = 0;
-    for await (const input of inputsMaxWeight) {
-      if (count > 0) {
-        await input.fill("150");
-        // console.log(status);
-      }
-
-      count++;
-    }
-    count = 0;
-    index = 0;
-    for await (const input of inputsBoxWeight) {
-      if (count > 0) {
-        await input.fill(productWeightConfigurationBoxWeight[index]);
-        // console.log(status);
-      }
-      index++;
-      count++;
-    }
-    count = 0;
-    index = 0;
-    for await (const input of inputsLength) {
-      if (count > 0) {
-        await input.fill(productWeightConfigurationLength[index]);
-        // console.log(status);
-      }
-      index++;
-      count++;
-    }
-    count = 0;
-    index = 0;
-    for await (const input of inputsCustomWidth) {
-      if (count > 0) {
-        await input.fill(productWeightConfigurationCustomWidth[index]);
-        // console.log(status);
-      }
-      index++;
-      count++;
-    }
-    count = 0;
-    index = 0;
-    for await (const input of inputsCustomHeight) {
-      if (count > 0) {
-        await input.fill(productWeightConfigurationCustomHeight[index]);
-        // console.log(status);
-      }
-      index++;
-      count++;
-    }
-    // const saveBtn = await page.$("#btn-action-save");
-    // await saveBtn.click();
-    // await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
-    //   state: "visible",
-    // });
+    await actionschangeProductShippingMethod(boxes, true, false, false, false, "");
+    await actionschangeProductShippingMethod(selects, false, true, false, false, "");
+    await actionschangeProductShippingMethod(
+      inputsMaxWeight,
+      false,
+      false,
+      true,
+      false,
+      "150"
+    );
+    await actionschangeProductShippingMethod(
+      inputsBoxWeight,
+      false,
+      false,
+      false,
+      true,
+      productWeightConfigurationBoxWeight
+    );
+    await actionschangeProductShippingMethod(
+      inputsLength,
+      false,
+      false,
+      false,
+      true,
+      productWeightConfigurationLength
+    );
+    await actionschangeProductShippingMethod(
+      inputsCustomWidth,
+      false,
+      false,
+      false,
+      true,
+      productWeightConfigurationCustomWidth
+    );
+    await actionschangeProductShippingMethod(
+      inputsCustomHeight,
+      false,
+      false,
+      false,
+      true,
+      productWeightConfigurationCustomHeight
+    );
+    const saveBtn = await page.$("#btn-action-save");
+    await saveBtn.click();
+    await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
+      state: "visible",
+    });
   }
 };
 
