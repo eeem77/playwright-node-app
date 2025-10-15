@@ -98,6 +98,8 @@ const updateRow = async () => {
   // );
   // await changeProductWeight(page);
   await changeProductShippingMethod(page);
+
+
   // GET ID PRODUCTS
   // const table = document.querySelector("tbody");
   // const tr = table.querySelectorAll("tr");

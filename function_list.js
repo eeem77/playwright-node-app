@@ -423,7 +423,7 @@ export const changeProductWeight = async (page) => {
     await page.goto(
       `https://www.apprinting.com/admin/product_weight.php?product_id=${id}`
     );
-    // await page.waitForTimeout(6000);
+    await page.waitForTimeout(3000);
     const table = await page.waitForSelector(".table-responsive");
     const boxes = await table.$$('[name^="addnoptweight"]');
     for await (const box of boxes) {
@@ -436,6 +436,8 @@ export const changeProductWeight = async (page) => {
     await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
       state: "visible",
     });
+    console.log(`working in product with id ${id}`);   
+    fs.appendFileSync("list.txt", `working in product with id ${id}\n`); 
   }
 };
 
@@ -550,6 +552,8 @@ export const changeProductShippingMethod = async (page) => {
     await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
       state: "visible",
     });
+    console.log(`working in product with id ${id}`);
+    fs.appendFileSync("list.txt", `working in product with id ${id}\n`); 
   }
 };
 
