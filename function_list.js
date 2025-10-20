@@ -45,6 +45,7 @@ import {
   productWeightConfigurationLength,
   productWeightConfigurationBoxWeight,
   productWeightConfiguration,
+  productWeightConfigurationWithOption,
 } from "./data.js";
 import { log } from "console";
 dotenv.config();
@@ -417,6 +418,38 @@ export const getSizesImagesFinal = async (page) => {
   }
 };
 
+export const changeProductWeightWithOptions = async (page) => {
+  for await (const id of idProducts) {
+    let count = 0;
+    await page.goto(
+      `https://www.apprinting.com/admin/product_weight.php?product_id=${id}`
+    );
+    await page.waitForTimeout(3000);
+    const selectOptions = await page.$("#weight_type");
+    await selectOptions.selectOption("1");
+    const checkboxes = await page.$$('[name^="addnoption"]');
+    await checkboxes[0].click();
+
+    const setConfigSelectOption = await page.$('[name="submitoption"]');
+    // await waitForSelector(setConfigSelectOption);
+    await setConfigSelectOption.click();
+    const table = await page.waitForSelector("#page_table");
+    const boxes = await table.$$('[name^="addnoptweight"]');
+    for await (const box of boxes) {
+      await box.fill(productWeightConfigurationWithOption[count]);
+
+      count++;
+    }
+    const saveBtn = await page.$("#btn-action-save");
+    await saveBtn.click();
+    await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
+      state: "visible",
+    });
+    console.log(`working in product with id ${id}`);
+    fs.appendFileSync("list.txt", `working in product with id ${id}\n`);
+  }
+};
+
 export const changeProductWeight = async (page) => {
   for await (const id of idProducts) {
     let count = 0;
@@ -436,8 +469,8 @@ export const changeProductWeight = async (page) => {
     await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
       state: "visible",
     });
-    console.log(`working in product with id ${id}`);   
-    fs.appendFileSync("list.txt", `working in product with id ${id}\n`); 
+    console.log(`working in product with id ${id}`);
+    fs.appendFileSync("list.txt", `working in product with id ${id}\n`);
   }
 };
 
@@ -484,7 +517,7 @@ const actionschangeProductShippingMethod = async (
         await input.fill(data[index] ?? "");
         index++;
       }
-      
+
       count++;
     }
   }
@@ -505,8 +538,22 @@ export const changeProductShippingMethod = async (page) => {
     const inputsCustomWidth = await table.$$('[placeholder="Custom Width"]');
     const inputsCustomHeight = await table.$$('[placeholder="Custom Height"]');
 
-    await actionschangeProductShippingMethod(boxes, true, false, false, false, "");
-    await actionschangeProductShippingMethod(selects, false, true, false, false, "");
+    await actionschangeProductShippingMethod(
+      boxes,
+      true,
+      false,
+      false,
+      false,
+      ""
+    );
+    await actionschangeProductShippingMethod(
+      selects,
+      false,
+      true,
+      false,
+      false,
+      ""
+    );
     await actionschangeProductShippingMethod(
       inputsMaxWeight,
       false,
@@ -553,7 +600,7 @@ export const changeProductShippingMethod = async (page) => {
       state: "visible",
     });
     console.log(`working in product with id ${id}`);
-    fs.appendFileSync("list.txt", `working in product with id ${id}\n`); 
+    fs.appendFileSync("list.txt", `working in product with id ${id}\n`);
   }
 };
 
@@ -1461,11 +1508,49 @@ const checkPrice = async (tdInputs, price) => {
   }
   for await (const inputTextPrice of inputPrice) {
     const value = await inputTextPrice.inputValue();
-    if (value !== price) {
-      return false;
-    }
+    console.log(value);
   }
-  return true;
+  //   if (value !== price) {
+  //     return false;
+  //   }
+  // }
+  // return true;
+};
+
+export const updateSetupAttributesOptions = async (page) => {
+  for await (const id of idProducts) {
+    await page.goto(
+      `https://www.apprinting.com/admin/product_additionalinfo_list.php?product_id=${id}`
+    );
+    const tbody = await page.$("tbody");
+    const tr = await tbody.$$("tr");
+    for await (const element of tr) {
+      const titleOption = await element.$(".text-primary");
+      const titleOptionValue = await titleOption.innerText();
+      if (titleOptionValue === "Printing Time") {
+        const links = await element.$$("a");
+        for await (const link of links) {
+          const linkAttribute = await link.getAttribute("href");
+          if (linkAttribute.includes("product_additionalinfo_action.php")) {
+            await page.goto(
+              `https://www.apprinting.com/admin/${linkAttribute}`
+            );
+            await page.waitForTimeout(3000);
+            // await page.waitForSelector('[name^="attr_label"]');
+            const table = await page.$("#attribute_table");
+            const inputs = await table.$$('[name^="attr_label"]');
+            // console.log(inputs[0]);
+
+            for await (const input of inputs) {
+              const inputValue = await input.innerText({ timeout: 6000 });
+              console.log(inputValue);
+            }
+          }
+        }
+      }
+    }
+    // console.log(tr.length);
+  }
 };
 
 const deleteArtworkOption = async (page, tr) => {
@@ -1495,19 +1580,30 @@ const auditCheckArtworkOptions = async (page, tr) => {
 
   await page.waitForSelector(".table-responsive");
   const attributePriceTable = await page.$$("tbody");
-  try {
-    const tdInputsOne = await attributePriceTable[2].$$("input");
-    const tdInputsTwo = await attributePriceTable[3].$$("input");
-
-    const checkPrice30 = await checkPrice(tdInputsOne, "30");
-    const checkPrice75 = await checkPrice(tdInputsTwo, "75");
-
-    if (checkPrice30 === true && checkPrice75 === true) {
-      return true;
-    }
-  } catch (error) {
-    return false;
+  for await (const element of attributePriceTable) {
+    const inputs = await element.$$eval('[name^="txtprice"]', node => node.map( n => n.innerText));
+    console.log(inputs);
+    
+      // const checkPrice = await checkPrice(inputs, "");
+      // for await (const input of inputs) {
+      //   const value = await input.innerHTML();
+      //   console.log(value);
+      // }
   }
+
+  // try {
+  //   const tdInputsOne = await attributePriceTable[2].$$("input");
+  //   const tdInputsTwo = await attributePriceTable[3].$$("input");
+
+  //   const checkPrice30 = await checkPrice(tdInputsOne, "30");
+  //   const checkPrice75 = await checkPrice(tdInputsTwo, "75");
+
+  //   if (checkPrice30 === true && checkPrice75 === true) {
+  //     return true;
+  //   }
+  // } catch (error) {
+  //   return false;
+  // }
 };
 
 const checkArtworkOptions = async (page) => {
@@ -1536,18 +1632,18 @@ const checkArtworkOptionsAudit = async (page) => {
   for await (const tr of additionalOptionsTrTable) {
     const trHtml = await tr.innerHTML();
     if (
-      trHtml.includes("Artwork") === true ||
-      trHtml.includes("ARTWORK") === true ||
-      trHtml.includes("artwork") === true
+      trHtml.includes("PRINTING TIME") === true ||
+      trHtml.includes("Printing Time") === true ||
+      trHtml.includes("printing time") === true
     ) {
       artworkLen++;
-      // const auditOptionsArtwork = await auditCheckArtworkOptions(page, tr)
-      // if (auditOptionsArtwork === true) {
-      //   return true
-      // } else {
-      //   return false
-      // }
-      return artworkLen;
+      const auditOptionsArtwork = await auditCheckArtworkOptions(page, tr)
+      if (auditOptionsArtwork === true) {
+        return true
+      } else {
+        return false
+      }
+      // return artworkLen;
     }
   }
   return artworkLen;
@@ -1594,7 +1690,7 @@ const createArtworkOption = async (page, id) => {
   const btnActionSave = await page.$("#btn-action-save");
   await btnActionSave.click();
 
-  await page.waitForTimeout(20000);
+  await page.waitForTimeout(7000);
 
   // await page.waitForSelector('.float-right.action_area')
   // const attributePrice = await page.$('.float-right.action_area')
@@ -2574,7 +2670,7 @@ export const auditArtwork = async (page) => {
       artwork = true;
     }
     const report = `${id} ---> ${artwork} ---> ${verifyArtwork}\n`;
-    fs.appendFileSync("report-audit-artwork-bad-good.txt", report);
+    fs.appendFileSync("list.txt", report);
     console.log(`${id} ---> ${verifyArtwork}`);
   }
 };

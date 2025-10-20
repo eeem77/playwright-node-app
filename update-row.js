@@ -44,6 +44,8 @@ import {
   changeDefaultAndAssociatedCategoryProduct,
   changeProductWeight,
   changeProductShippingMethod,
+  changeProductWeightWithOptions,
+  updateSetupAttributesOptions,
 } from "./function_list.js";
 // import { proxies } from './data.js'
 // import fs from 'fs'
@@ -91,14 +93,14 @@ const updateRow = async () => {
   // }
 
   // Changue Product Weight
-  await login(page);
+  // await login(page);
   // await getIdProductsAdmin(
   //   page,
   //   ""
   // );
   // await changeProductWeight(page);
-  await changeProductShippingMethod(page);
-
+  // await changeProductWeightWithOptions(page);
+  // await changeProductShippingMethod(page);
 
   // GET ID PRODUCTS
   // const table = document.querySelector("tbody");
@@ -166,8 +168,8 @@ const updateRow = async () => {
   // }
 
   // AUDIT ARTWORK OPTIONS
-  // await login(page);
-  // await auditArtwork(page);
+  await login(page);
+  await auditArtwork(page);
 
   // FUNCTIONS GROUPS
   // await getTitleProduct(page);
@@ -238,6 +240,10 @@ const updateRow = async () => {
   //   page,
   //   "https://www.apprinting.com/admin/url_redirection_listing.php"
   // );
+
+  //UPDATE SETUP ATTRIBUTES OPTIONS PRODUCT
+  // await login(page);
+  // await updateSetupAttributesOptions(page);
 
   // SEO
   // await login(page);
