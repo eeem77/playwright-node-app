@@ -1565,7 +1565,7 @@ const deleteArtworkOption = async (page, tr) => {
   const buttonAccept = await modalAcceptDelete.$(".bootbox-accept");
   await buttonAccept.click();
   // await page.waitForSelector(".modal-open", { state: "hidden" });
-  await page.waitForTimeout(20000);
+  await page.waitForTimeout(7000);
 };
 
 const auditCheckArtworkOptions = async (page, tr) => {
@@ -1597,8 +1597,10 @@ const auditCheckArtworkOptions = async (page, tr) => {
 
         const inputs = await element.$$('[name^="txtprice"]');
         for await (const element of inputs) {
-          const inpuvalue = await element.inputValue();
-          console.log(inpuvalue);
+          let inputValue = await element.inputValue();
+          if (inputValue === "") inputValue = "0";
+          fs.appendFileSync("list.txt", `${inputValue}\n`);
+          // console.log(inputValue);
         }
 
         // const checkPrice = await checkPrice(inputs, "");
@@ -1679,18 +1681,18 @@ const createArtworkOption = async (page, id) => {
   await page.waitForSelector("#frmqadditionalfieldaction");
   // await page.waitForTimeout(7000)
   const titleInput = await page.$("#title1");
-  await titleInput.fill("Artwork");
+  await titleInput.fill("Printing Time");
   const dropDownRadio = await page.$("#radio_combo");
   await dropDownRadio.click();
   const sortInput = await page.$("#addition_sort_order");
-  await sortInput.fill("1700");
+  await sortInput.fill("70");
   const addBulkData = await page.$("#addbulkitem");
   await addBulkData.click();
   const addBulkDataContainer = await page.$(".fancybox__container");
   await addBulkDataContainer.waitForSelector("#bulktext_1");
   const addBulkDataInput = await addBulkDataContainer.$("#bulktext_1");
   await addBulkDataInput.fill(
-    "Upload Print Ready PDF Files,10,0\nDesign online,20,0\nWe check & adjust your art,30,30\nWe design it,40,75",
+    "4 - 5 Business Day,10,0\n3 Business Days,20,0\n2 Business Days,30,0",
   );
   const addBulkDataButton = await addBulkDataContainer.$(
     '[data-textarea="bulktext_1"]',
@@ -1705,18 +1707,61 @@ const createArtworkOption = async (page, id) => {
   }
 
   await page.waitForSelector("#btn-action-save");
+  const saveBtn = await page.$("#btn-action-save");
+  await saveBtn.click();
+  await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
+    state: "visible",
+  });
+  // const btnActionSave = await page.$("#btn-action-save");
+  // await btnActionSave.click();
 
-  const btnActionSave = await page.$("#btn-action-save");
-  await btnActionSave.click();
+  // await page.waitForTimeout(7000);
 
-  await page.waitForTimeout(7000);
+  await page.waitForSelector(".float-right.action_area");
+  const attributePrice = await page.$(".float-right.action_area");
+  await attributePrice.click();
 
-  // await page.waitForSelector('.float-right.action_area')
-  // const attributePrice = await page.$('.float-right.action_area')
-  // await attributePrice.click()
-
-  // await page.waitForSelector('.table-responsive')
+  await page.waitForSelector(".table-responsive");
   // const attributePriceTable = await page.$$('tbody')
+
+  let selectProductSize = await page.$("#sel_product_size");
+  const selectProductSizeOptions = await selectProductSize.$$eval(
+    "option",
+    (node) => node.map((n) => n.getAttribute("value")),
+  );
+
+  for await (const selectOption of selectProductSizeOptions) {
+    // const optionValue = await selectOption.getAttribute("value");
+    selectProductSize = await page.$("#sel_product_size");
+    await selectProductSize.selectOption(selectOption);
+    await page.waitForSelector(".table-responsive");
+    if (selectOption !== "0") {
+      const attributePriceTable = await page.$$("tbody");
+
+      for await (const element of attributePriceTable) {
+        // const inputs = await element.$$eval('[name^="txtprice"]', node => node.map( n => n.innerText));
+
+        const inputs = await element.$$('[name^="txtprice"]');
+        for await (const element of inputs) {
+          await element.fill("777");
+          // if (inputValue === "") inputValue = "0";
+          // fs.appendFileSync("list.txt", `${inputValue}\n`);
+          // console.log(inputValue);
+        }
+
+        // const checkPrice = await checkPrice(inputs, "");
+        // for await (const input of inputs) {
+        //   const value = await input.innerHTML();
+        //   console.log(value);
+        // }
+      }
+    }
+    const saveBtn = await page.$("#btn-action-save");
+    await saveBtn.click();
+    await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
+      state: "visible",
+    });
+  }
 
   // const tdInputsOne = await attributePriceTable[2].$$('input')
   // const tdInputsTwo = await attributePriceTable[3].$$('input')
@@ -1724,10 +1769,10 @@ const createArtworkOption = async (page, id) => {
   // await insertPrice(page, tdInputsOne, '30')
   // await insertPrice(page, tdInputsTwo, '75')
 
-  // const btnActionSaveTwo = await page.$('#btn-action-save')
-  // await btnActionSaveTwo.click()
-  // await page.waitForSelector('#frmadditionalprice')
-  // return true
+  // const btnActionSaveTwo = await page.$("#btn-action-save");
+  // await btnActionSaveTwo.click();
+  // await page.waitForSelector("#frmadditionalprice");
+  // return true;
 };
 
 export const getXmlProducts = async (page) => {
