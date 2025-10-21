@@ -100,3 +100,6 @@ working in product with id 5559
 3667 ---> false ---> false
 3667 ---> false ---> false
 3667 ---> false ---> false
+3667 ---> false ---> false
+3667 ---> false ---> false
+3667 ---> false ---> false

@@ -154,7 +154,7 @@ const updateRow = async () => {
   // CHECK AND DELETE ARTWORK
   // try {
   //   await login(page);
-  //   await checkAndDeleteArtwork(page);
+  // await checkAndDeleteArtwork(page);
   // } catch (error) {
   //   console.log("Error ---> ", error);
   // }
@@ -162,7 +162,7 @@ const updateRow = async () => {
   // CREATE AND UPDATE ARTWORK
   // try {
   //   // await login(page);
-  //   await updateAndCreateArtwork(page);
+  // await updateAndCreateArtwork(page);
   // } catch (error) {
   //   console.log("Error ---> ", error);
   // }
