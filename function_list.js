@@ -1737,18 +1737,20 @@ const createArtworkOption = async (page, id) => {
     await page.waitForSelector(".table-responsive");
     if (selectOption !== "0") {
       const attributePriceTable = await page.$$("tbody");
-
+      let tablePrices = 0;
       for await (const element of attributePriceTable) {
         // const inputs = await element.$$eval('[name^="txtprice"]', node => node.map( n => n.innerText));
 
-        const inputs = await element.$$('[name^="txtprice"]');
+        const inputs = await element.$$('[name^="txtattributmarkupprice"]');
         for await (const element of inputs) {
-          await element.fill("777");
+          tablePrices !== 0 && tablePrices === 1
+            ? await element.fill("12.85")
+            : await element.fill("13.85");
           // if (inputValue === "") inputValue = "0";
           // fs.appendFileSync("list.txt", `${inputValue}\n`);
           // console.log(inputValue);
         }
-
+        tablePrices++;
         // const checkPrice = await checkPrice(inputs, "");
         // for await (const input of inputs) {
         //   const value = await input.innerHTML();
