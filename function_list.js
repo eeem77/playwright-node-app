@@ -46,6 +46,7 @@ import {
   productWeightConfigurationBoxWeight,
   productWeightConfiguration,
   productWeightConfigurationWithOption,
+  newPricesOption,
 } from "./data.js";
 import { log } from "console";
 dotenv.config();
@@ -1679,7 +1680,6 @@ const createArtworkOption = async (page, id) => {
   );
   await page.once("load", () => console.log("Page loaded!"));
   await page.waitForSelector("#frmqadditionalfieldaction");
-  // await page.waitForTimeout(7000)
   const titleInput = await page.$("#title1");
   await titleInput.fill("Printing Time");
   const dropDownRadio = await page.$("#radio_combo");
@@ -1692,7 +1692,7 @@ const createArtworkOption = async (page, id) => {
   await addBulkDataContainer.waitForSelector("#bulktext_1");
   const addBulkDataInput = await addBulkDataContainer.$("#bulktext_1");
   await addBulkDataInput.fill(
-    "4 - 5 Business Day,10,0\n3 Business Days,20,0\n2 Business Days,30,0",
+    "4 to 5 Business Days,10,0\n3 Business Days,20,0\n2 Business Days,30,0",
   );
   const addBulkDataButton = await addBulkDataContainer.$(
     '[data-textarea="bulktext_1"]',
@@ -1712,26 +1712,20 @@ const createArtworkOption = async (page, id) => {
   await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
     state: "visible",
   });
-  // const btnActionSave = await page.$("#btn-action-save");
-  // await btnActionSave.click();
-
-  // await page.waitForTimeout(7000);
 
   await page.waitForSelector(".float-right.action_area");
   const attributePrice = await page.$(".float-right.action_area");
   await attributePrice.click();
 
   await page.waitForSelector(".table-responsive");
-  // const attributePriceTable = await page.$$('tbody')
 
   let selectProductSize = await page.$("#sel_product_size");
   const selectProductSizeOptions = await selectProductSize.$$eval(
     "option",
     (node) => node.map((n) => n.getAttribute("value")),
   );
-
+  let index = 0;
   for await (const selectOption of selectProductSizeOptions) {
-    // const optionValue = await selectOption.getAttribute("value");
     selectProductSize = await page.$("#sel_product_size");
     await selectProductSize.selectOption(selectOption);
     await page.waitForSelector(".table-responsive");
@@ -1741,11 +1735,10 @@ const createArtworkOption = async (page, id) => {
       for await (const element of attributePriceTable) {
         // const inputs = await element.$$eval('[name^="txtprice"]', node => node.map( n => n.innerText));
 
-        const inputs = await element.$$('[name^="txtattributmarkupprice"]');
+        const inputs = await element.$$('[name^="txtprice"]');
         for await (const element of inputs) {
-          tablePrices !== 0 && tablePrices === 1
-            ? await element.fill("12.85")
-            : await element.fill("13.85");
+          await element.fill(newPricesOption[index]);
+          index++;
           // if (inputValue === "") inputValue = "0";
           // fs.appendFileSync("list.txt", `${inputValue}\n`);
           // console.log(inputValue);
@@ -2708,7 +2701,7 @@ export const updateAndCreateArtwork = async (page, ipProxy) => {
     );
     const report = `${id}`;
     await createArtworkOption(page, id);
-    fs.appendFileSync("artwork-created-list-id.txt", `${report}\n`);
+    fs.appendFileSync("list.txt", `${report}\n`);
     console.log(report);
   }
 };
@@ -2720,7 +2713,7 @@ export const checkAndDeleteArtwork = async (page, ipProxy) => {
     );
     const report = `${id}`;
     await checkArtworkOptions(page, id);
-    fs.appendFileSync("artwork-deleted.txt", `${report}\n`);
+    fs.appendFileSync("list.txt", `${report}\n`);
     console.log(report);
   }
 };

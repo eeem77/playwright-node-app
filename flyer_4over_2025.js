@@ -36,10 +36,10 @@ const web = async () => {
   });
 
   await login(page);
-  await page.waitForSelector("#product-options-wrapper");
-  // await page.waitForTimeout(7000);
+  await page.waitForSelector("#project_name");
   const nameProject = await page.$("#project_name");
   await nameProject.fill("movie");
+  await page.waitForTimeout(3000);
 
   const sizeOptions = [
     "458",
@@ -57,30 +57,87 @@ const web = async () => {
   ];
 
   for await (const option of sizeOptions) {
+    await page.waitForTimeout(3000);
     const sizeSelect = await page.$("#attribute211");
-    await sizeSelect.selectOption(option);
-
     const paperStock = await page.$("#attribute197");
-    await paperStock.selectOption("111");
-
     const colorspec = await page.$("#attribute204");
-    await colorspec.selectOption("18");
-
     const coating = await page.$("#attribute199");
-    await coating.selectOption("19");
-
     const folding = await page.$("#attribute205");
+    // await page.waitForSelector("#attribute216");
+    await sizeSelect.selectOption(option);
+    await page.waitForTimeout(3000);
+
+    await paperStock.selectOption("111");
+    await page.waitForTimeout(3000);
+
+    await colorspec.selectOption("18");
+    await page.waitForTimeout(3000);
+
+    await coating.selectOption("19");
+    await page.waitForTimeout(3000);
+
     await folding.selectOption("465");
+    await page.waitForTimeout(3000);
 
-    const drillHole = await page.$("#attribute216");
-    await drillHole.selectOption("486");
+    // const drillHole = await page.$("#attribute216");
+    // await drillHole.selectOption("486");
 
-    const rows = await page.$$("li .runsizes_row");
+    const qty = [
+      "100",
+      "150",
+      "200",
+      "250",
+      "500",
+      "1000",
+      "2000",
+      "2500",
+      "3000",
+      "4000",
+      "5000",
+      "6000",
+      "7000",
+      "8000",
+      "9000",
+      "10000",
+      "15000",
+      "20000",
+      "25000",
+      "30000",
+      "35000",
+      "40000",
+      "45000",
+      "50000",
+      "55000",
+      "60000",
+      "65000",
+      "70000",
+      "75000",
+      "80000",
+      "85000",
+      "90000",
+      "95000",
+      "100000",
+    ];
+
+    await page.waitForSelector(".runsizes_row");
+    const rows = await page.$$(".runsizes_row");
     for await (const row of rows) {
-      const rowSize = await row.$eval(".runsize", (node) =>
-        node.map((n) => n.innerText),
-      );
-      const tirnaroundTime = await page.$(".turnaround-time-container");
+      const rowSize = await row.$(".runsize");
+      const rowSizeValue = await rowSize.innerText();
+      console.log(rowSizeValue);
+      if (qty.includes(rowSizeValue)) {
+        await row.click();
+        // await page.waitForSelector(".turnaround-time-containe");
+        const turnaroundTime = await page.$(".turnaround-time-container");
+        const twoBusinessDays = await turnaroundTime.$("#tat-2");
+        const nextBusinessDay = await turnaroundTime.$("#tat-1");
+        const twoBusinessDaysValue = await twoBusinessDays.innerText();
+        const nextBusinessDayValue = await nextBusinessDay.innerText();
+        fs.appendFileSync(
+          "list.txt",
+          `${option} ---> ${rowSizeValue} ---> ${twoBusinessDaysValue} ---> ${nextBusinessDayValue}\n`,
+        );
+      }
     }
   }
 

@@ -93,13 +93,13 @@ const updateRow = async () => {
   // }
 
   // Changue Product Weight
-  // await login(page);
+  await login(page);
   // await getIdProductsAdmin(
   //   page,
-  //   ""
+  //   "https://www.apprinting.com/admin/product_listing.php?qfs=eyJzdGFydCI6MCwibGVuZ3RoIjoxMDAsIm9yZGVyIjpbWzQsImFzYyJdXSwic2VhcmNoIjp7InNlYXJjaCI6IiIsInNtYXJ0Ijp0cnVlLCJyZWdleCI6ZmFsc2UsImNhc2VJbnNlbnNpdGl2ZSI6dHJ1ZX0sImNvbHVtbnMiOlt7InZpc2libGUiOnRydWUsInNlYXJjaCI6eyJzZWFyY2giOiJrZXl3b3JkPWJhbm5lciZjaWQ9JnByaWNlX2RlZmluaW5nX21ldGhvZD0tMSZwcmVkZWZpbmVkX3Byb2R1Y3RfdHlwZT0wIiwic21hcnQiOnRydWUsInJlZ2V4IjpmYWxzZSwiY2FzZUluc2Vuc2l0aXZlIjp0cnVlfX1dfQ%3D%3D",
   // );
   // await changeProductWeight(page);
-  // await changeProductWeightWithOptions(page);
+  await changeProductWeightWithOptions(page);
   // await changeProductShippingMethod(page);
 
   // GET ID PRODUCTS
@@ -160,12 +160,12 @@ const updateRow = async () => {
   // }
 
   // CREATE AND UPDATE ARTWORK
-  try {
-    await login(page);
-    await updateAndCreateArtwork(page);
-  } catch (error) {
-    console.log("Error ---> ", error);
-  }
+  // try {
+  //   await login(page);
+  //   await updateAndCreateArtwork(page);
+  // } catch (error) {
+  //   console.log("Error ---> ", error);
+  // }
 
   // AUDIT ARTWORK OPTIONS
   // await login(page);
