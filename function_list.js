@@ -529,8 +529,9 @@ export const changeProductShippingMethod = async (page) => {
     await page.goto(
       `https://www.apprinting.com/admin/shipping_package.php?product_id=${id}`,
     );
-    await page.waitForTimeout(3000);
-    const table = await page.waitForSelector("#ops-table");
+    // await page.waitForTimeout(3000);
+    await page.waitForSelector("#ops-table");
+    const table = await page.$("#ops-table");
     const boxes = await table.$$('[type="checkbox"]');
     const selects = await table.$$(".package_select");
     const inputsMaxWeight = await table.$$('[placeholder="Max Weight"]');
