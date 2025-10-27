@@ -1,40 +1,25 @@
-working in product with id 5616
-working in product with id 1631
-working in product with id 3917
-working in product with id 5451
-working in product with id 3918
-working in product with id 3919
-working in product with id 3920
-working in product with id 3921
-working in product with id 3922
-working in product with id 3923
-working in product with id 3924
-working in product with id 3925
-working in product with id 3926
-working in product with id 3927
-working in product with id 3928
-working in product with id 3929
-working in product with id 3930
-working in product with id 3931
-working in product with id 3932
-working in product with id 3933
-working in product with id 3934
-working in product with id 3935
-working in product with id 3936
-working in product with id 3937
-working in product with id 3979
-working in product with id 3997
-working in product with id 3998
-working in product with id 3999
-working in product with id 4000
-working in product with id 4002
-working in product with id 4003
-working in product with id 4004
-working in product with id 4005
-working in product with id 4006
-working in product with id 4007
-working in product with id 4008
-working in product with id 4009
-working in product with id 4011
-working in product with id 4012
-working in product with id 4013
+working in product with id 5615 with 6 boxes or rows
+working in product with id 4023 with 6 boxes or rows
+working in product with id 4904 with 6 boxes or rows
+working in product with id 4905 with 6 boxes or rows
+working in product with id 4906 with 6 boxes or rows
+working in product with id 4907 with 6 boxes or rows
+working in product with id 4908 with 6 boxes or rows
+working in product with id 4909 with 6 boxes or rows
+working in product with id 4910 with 6 boxes or rows
+working in product with id 4911 with 6 boxes or rows
+working in product with id 4912 with 6 boxes or rows
+working in product with id 4913 with 6 boxes or rows
+working in product with id 4914 with 6 boxes or rows
+working in product with id 4915 with 6 boxes or rows
+working in product with id 5572 with 6 boxes or rows
+working in product with id 5573 with 6 boxes or rows
+working in product with id 5574 with 6 boxes or rows
+working in product with id 5575 with 6 boxes or rows
+working in product with id 5576 with 6 boxes or rows
+working in product with id 5577 with 6 boxes or rows
+working in product with id 5579 with 6 boxes or rows
+working in product with id 5580 with 6 boxes or rows
+working in product with id 5581 with 6 boxes or rows
+working in product with id 5582 with 6 boxes or rows
+working in product with id 5583 with 6 boxes or rows

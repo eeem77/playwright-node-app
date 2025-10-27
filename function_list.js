@@ -447,7 +447,10 @@ export const changeProductWeightWithOptions = async (page) => {
       state: "visible",
     });
     console.log(`working in product with id ${id}`);
-    fs.appendFileSync("list.txt", `working in product with id ${id}\n`);
+    fs.appendFileSync(
+      "list.txt",
+      `working in product with id ${id} with ${boxes.length} boxes or inputs\n`,
+    );
   }
 };
 
@@ -602,7 +605,10 @@ export const changeProductShippingMethod = async (page) => {
       state: "visible",
     });
     console.log(`working in product with id ${id}`);
-    fs.appendFileSync("list.txt", `working in product with id ${id}\n`);
+    fs.appendFileSync(
+      "list.txt",
+      `working in product with id ${id} with ${boxes.length} boxes or rows\n`,
+    );
   }
 };
 
