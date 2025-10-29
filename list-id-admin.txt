@@ -1,25 +1,22 @@
-5615, Standard Letterhead [ Standard Letterhead ], 1
-4023, Letterhead, 1
-4904, Green and Gold Letterhead, 1
-4905, Waves and Blue Letterhead, 1
-4906, Degraded Line Letterhead, 1
-4907, Blue and Red Corners Letterhead, 1
-4908, Blue Circles and Corners Letterhead, 1
-4909, Blue Geometric Figures Letterhead, 1
-4910, Turquoise and Brown Letterhead, 1
-4911, Blue and Black Letterhead, 1
-4912, Orange and Brown Letterhead, 1
-4913, Green and Gray Circular Corners Letterhead, 1
-4914, Yellow, Blue and Orange Letterhead, 1
-4915, Triangles in the Corners Letterhead, 1
-5572, Luxury Gold Law Firm Letterhead, 1
-5573, Blue Label Law Firm Letterhead, 1
-5574, Modern CEO Tech Company Letterhead, 1
-5575, Modern Red & Blue CEO Tech Company Letterhead, 1
-5576, Blue Office Law Firm Letterhead, 1
-5577, Purple Justice Law Firm Letterhead, 1
-5579, Navy Blue Law Firm Letterhead, 1
-5580, Orange Patent Law Firm Letterhead, 1
-5581, Modern Green Patent Law Firm Letterhead, 1
-5582, Simple Blue & Yellow Law Firm Letterhead, 1
-5583, Black & Red Patent Law Firm Letterhead, 1
+20, Greeting Cards, 1
+3967, Christmas Tree Greeting Card, 1
+3976, Red & Gold Label, 1
+3977, Green & Red Festivities, 1
+3978, Snowman's Winter Greetings, 1
+3980, Deer and Bough Elegance, 1
+3981, Santa's Sleigh Elegance, 1
+3982, Village Winter Greetings, 1
+3983, Dark Elegance Striped Ornaments, 1
+3984, Red Stripe Festive Greetings, 1
+3985, Enchanted Winter Forest, 1
+3986, Dark Gray Festive Elegance, 1
+3987, White Pine Boughs, 1
+3988, Christmas Green Elegance, 1
+3989, Green and Gold Circle, 1
+3990, Watercolor Ornament Elegance, 1
+3991, Pearl White Festive Greetings, 1
+3992, Merry & Bright, 1
+3993, Golden Glow, 1
+3994, Holiday Blossom, 1
+3995, Rustic Snowflakes, 1
+3996, Festive Flourish, 1

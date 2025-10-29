@@ -454,6 +454,23 @@ export const changeProductWeightWithOptions = async (page) => {
   }
 };
 
+export const getProductWeight = async (page) => {
+  for await (const id of idProducts) {
+    await page.goto(
+      `https://www.apprinting.com/admin/product_weight.php?product_id=${id}`,
+    );
+    await page.waitForTimeout(3000);
+    const table = await page.waitForSelector(".table-responsive");
+    const boxes = await table.$$('[name^="addnoptweight"]');
+    let productWeight = [];
+    for await (const box of boxes) {
+      productWeight.push(await box.inputValue());
+    }
+    console.log(`working in product with id ${id}`);
+    fs.appendFileSync("list.txt", `${productWeight}\n`);
+  }
+};
+
 export const changeProductWeight = async (page) => {
   for await (const id of idProducts) {
     let count = 0;

@@ -46,6 +46,7 @@ import {
   changeProductShippingMethod,
   changeProductWeightWithOptions,
   updateSetupAttributesOptions,
+  getProductWeight,
 } from "./function_list.js";
 // import { proxies } from './data.js'
 // import fs from 'fs'
@@ -95,9 +96,10 @@ const updateRow = async () => {
   // Changue Product Weight
   await login(page);
   // await getIdProductsAdmin(page, "");
-  // await changeProductWeight(page);
+  // await getProductWeight(page);
+  await changeProductWeight(page);
   // await changeProductWeightWithOptions(page);
-  await changeProductShippingMethod(page);
+  // await changeProductShippingMethod(page);
 
   // GET ID PRODUCTS
   // const table = document.querySelector("tbody");
