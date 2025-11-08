@@ -97,9 +97,9 @@ const updateRow = async () => {
   await login(page);
   // await getIdProductsAdmin(page, "");
   // await getProductWeight(page);
-  await changeProductWeight(page);
+  // await changeProductWeight(page);
   // await changeProductWeightWithOptions(page);
-  // await changeProductShippingMethod(page);
+  await changeProductShippingMethod(page);
 
   // GET ID PRODUCTS
   // const table = document.querySelector("tbody");

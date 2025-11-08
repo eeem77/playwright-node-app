@@ -467,7 +467,10 @@ export const getProductWeight = async (page) => {
       productWeight.push(await box.inputValue());
     }
     console.log(`working in product with id ${id}`);
-    fs.appendFileSync("list.txt", `${productWeight}\n`);
+    fs.appendFileSync(
+      "list.txt",
+      `${id} ---> ${productWeight} ---> ${boxes.length}\n`,
+    );
   }
 };
 
