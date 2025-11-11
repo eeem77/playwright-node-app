@@ -430,15 +430,24 @@ export const changeProductWeightWithOptions = async (page) => {
     await selectOptions.selectOption("1");
     const checkboxes = await page.$$('[name^="addnoption"]');
     await checkboxes[0].click();
-
+    await checkboxes[4].click();
     const setConfigSelectOption = await page.$('[name="submitoption"]');
     // await waitForSelector(setConfigSelectOption);
     await setConfigSelectOption.click();
+    await page.waitForTimeout(3000);
     const table = await page.waitForSelector("#page_table");
-    const boxes = await table.$$('[name^="addnoptweight"]');
+    let boxes = await table.$$('[name^="addnoptweight"]');
     for await (const box of boxes) {
       await box.fill(productWeightConfigurationWithOption[count]);
 
+      count++;
+    }
+    const pagination = await page.$$(".page-item");
+    await pagination[2].click();
+    await page.waitForTimeout(3000);
+    boxes = await table.$$('[name^="addnoptweight"]');
+    for await (const box of boxes) {
+      await box.fill(productWeightConfigurationWithOption[count]);
       count++;
     }
     const saveBtn = await page.$("#btn-action-save");
@@ -461,8 +470,15 @@ export const getProductWeight = async (page) => {
     );
     await page.waitForTimeout(3000);
     const table = await page.waitForSelector(".table-responsive");
-    const boxes = await table.$$('[name^="addnoptweight"]');
+    let boxes = await table.$$('[name^="addnoptweight"]');
     let productWeight = [];
+    for await (const box of boxes) {
+      productWeight.push(await box.inputValue());
+    }
+    const pagination = await page.$$(".page-item");
+    await pagination[2].click();
+    await page.waitForTimeout(3000);
+    boxes = await table.$$('[name^="addnoptweight"]');
     for await (const box of boxes) {
       productWeight.push(await box.inputValue());
     }
