@@ -47,6 +47,8 @@ import {
   changeProductWeightWithOptions,
   updateSetupAttributesOptions,
   getProductWeight,
+  getPrices4overProduct,
+  desactiveDesignerOption,
 } from "./function_list.js";
 // import { proxies } from './data.js'
 // import fs from 'fs'
@@ -92,6 +94,13 @@ const updateRow = async () => {
   //     await updateRow()
   //   }
   // }
+
+  // GET PRICES PRODUCT 4OVER
+  // await getPrices4overProduct(page);
+
+  // CHANGE EDIT DESIGNER OPTIONS
+  // await login(page);
+  // await desactiveDesignerOption(page);
 
   // Changue Product Weight
   await login(page);

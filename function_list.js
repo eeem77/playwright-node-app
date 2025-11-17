@@ -66,6 +66,109 @@ export const login = async (page, ipProxy) => {
   console.log("login: OK");
 };
 
+const login4over = async (page) => {
+  const email = await page.$("#pdp-login-customer-email");
+  const pass = await page.$("#pdp-login-pass");
+  const btn = await page.$("#send4");
+
+  await email.fill(process.env.LOGIN_USER_4OVER);
+  await pass.fill(process.env.LOGIN_KEY_4OVER);
+  await btn.click();
+
+  await page.waitForSelector("#attribute211", { state: "visible" });
+
+  console.log("LOGIN TRUE");
+};
+
+export const getPrices4overProduct = async (page) => {
+  await page.goto("https://4over.com/standard-magnets-uv-coating");
+  await page.waitForSelector(".block.block-login-dropdown", {
+    state: "attached",
+  });
+  await login4over(page);
+  await page.waitForSelector(".super-attribute-select");
+  const selects = await page.$$(".super-attribute-select");
+  const sizeOptions = await selects[0].$$("option");
+  for await (const option of sizeOptions) {
+    const valueOption = await option.innerText();
+    if (valueOption !== "Choose an Option...") {
+      fs.appendFileSync("list.txt", `${valueOption} \n`);
+
+      try {
+        await selects[0].selectOption(valueOption);
+
+        valueOption === '6" x 6"'
+          ? await selects[1].selectOption("Square")
+          : await selects[1].selectOption("Rectangle");
+
+        await selects[3].selectOption("17PT Magnet");
+        await selects[4].selectOption("4/0 (4 color front)");
+        await selects[5].selectOption("UV Coating Front Only");
+        await selects[6].selectOption("No Blank Envelopes");
+      } catch (error) {
+        await selects[0].selectOption(valueOption);
+
+        valueOption === '6" x 6"'
+          ? await selects[1].selectOption("Square")
+          : await selects[1].selectOption("Rectangle");
+
+        await selects[3].selectOption("17PT Magnet");
+        await selects[4].selectOption("4/0 (4 color front)");
+        await selects[5].selectOption("UV Coating Front Only");
+      }
+
+      await page.waitForSelector(".product-4over-input");
+      const markupPrice = await page.$(".product-4over-input");
+      await markupPrice.fill("110");
+      const markupPriceSection = await page.$(".markup-price");
+      await markupPriceSection.click();
+      const rows = await page.$$(".runsizes_row");
+      for await (const row of rows) {
+        const rowSpan = await row.$$("span");
+        let value = [];
+        for await (const span of rowSpan) {
+          const spanValue = await span.innerText();
+          const cleanSpanValue = await spanValue
+            .replaceAll("$", "")
+            .replaceAll(",", "");
+          value.push(cleanSpanValue);
+        }
+        fs.appendFileSync("list.txt", `${value} \n`);
+        console.log(value);
+      }
+      fs.appendFileSync("list.txt", `\n\n`);
+    }
+  }
+};
+
+export const desactiveDesignerOption = async (page) => {
+  for await (const id of idProducts) {
+    await page.goto(
+      `https://www.apprinting.com/admin/product_designer_action.php?product_id=${id}`,
+    );
+    await page.waitForTimeout(3000);
+    const table = await page.$("#size_table");
+    const tbody = await table.$("tbody");
+    const options = await tbody.$$("tr");
+    for await (const option of options) {
+      const sizeTitle = await option.$('[data-label="Size Title"]');
+      const activeCheck = await option.$(".ace-switch-check");
+      const sizeTitleValue = await sizeTitle.getAttribute("value");
+      if (sizeTitleValue !== '4.25" x 5.5"') {
+        // await option.waitForSelector(".ace-switch-check");
+        // const activeCheck = await page.$(".ace-switch-check");
+        await activeCheck.click();
+      }
+    }
+    const btnSave = await page.$("#btn-action-save");
+    await btnSave.click();
+    await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
+      state: "visible",
+    });
+    fs.appendFileSync("list.txt", `${id} \n`);
+  }
+};
+
 export const filterDataPaperMore = async () => {
   dataPaperMore.forEach((element) => console.log(`"${element.path}",`));
 };
@@ -430,7 +533,7 @@ export const changeProductWeightWithOptions = async (page) => {
     await selectOptions.selectOption("1");
     const checkboxes = await page.$$('[name^="addnoption"]');
     await checkboxes[0].click();
-    await checkboxes[4].click();
+    await checkboxes[3].click();
     const setConfigSelectOption = await page.$('[name="submitoption"]');
     // await waitForSelector(setConfigSelectOption);
     await setConfigSelectOption.click();
@@ -442,14 +545,15 @@ export const changeProductWeightWithOptions = async (page) => {
 
       count++;
     }
-    const pagination = await page.$$(".page-item");
-    await pagination[2].click();
-    await page.waitForTimeout(3000);
-    boxes = await table.$$('[name^="addnoptweight"]');
-    for await (const box of boxes) {
-      await box.fill(productWeightConfigurationWithOption[count]);
-      count++;
-    }
+    // block for pagination
+    // const pagination = await page.$$(".page-item");
+    // await pagination[2].click();
+    // await page.waitForTimeout(3000);
+    // boxes = await table.$$('[name^="addnoptweight"]');
+    // for await (const box of boxes) {
+    //   await box.fill(productWeightConfigurationWithOption[count]);
+    //   count++;
+    // }
     const saveBtn = await page.$("#btn-action-save");
     await saveBtn.click();
     await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
