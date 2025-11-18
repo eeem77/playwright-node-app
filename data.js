@@ -1,8 +1,9 @@
 export const url = "https://www.apprinting.com/admin/";
 
 export const idProducts = [
-  5617, 4244, 4245, 4246, 4247, 4248, 4250, 4251, 4254, 4255, 4256, 5585, 5586,
-  5587, 5588, 5769, 5773, 5777,
+  5641, 5646, 4079, 4081, 4082, 4083, 4084, 4086, 4087, 4088, 4089, 4091, 4092,
+  4094, 5529, 5530, 5531, 5532, 5533, 5534, 5535, 5536, 5537, 5538, 5539, 5540,
+  5541, 5542, 5543, 5544, 5545, 5546,
 ];
 
 export const newPricesOption = [
@@ -1241,20 +1242,23 @@ export const productWeightConfiguration = [
 ];
 
 export const productWeightConfigurationWithOption = [
-  "0.26",
-  "0.25",
+  "0.02",
+  "0",
+  "0.01",
+  "0.015",
   "0.03",
-  "0.02",
-  "0.02",
+  "0",
+  "0.01",
+  "0.015",
 ];
 
-export const productWeightConfigurationBoxWeight = ["1.20"];
+export const productWeightConfigurationBoxWeight = ["0.50", "0.60"];
 
-export const productWeightConfigurationLength = ["12"];
+export const productWeightConfigurationLength = ["7.0", "8.5"];
 
-export const productWeightConfigurationCustomWidth = ["9"];
+export const productWeightConfigurationCustomWidth = ["3.0", "3.5"];
 
-export const productWeightConfigurationCustomHeight = ["2"];
+export const productWeightConfigurationCustomHeight = ["1.0", "1.0"];
 
 export const urlProducts = [
   [

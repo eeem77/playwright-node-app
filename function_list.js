@@ -532,8 +532,20 @@ export const changeProductWeightWithOptions = async (page) => {
     const selectOptions = await page.$("#weight_type");
     await selectOptions.selectOption("1");
     const checkboxes = await page.$$('[name^="addnoption"]');
-    await checkboxes[0].click();
-    await checkboxes[3].click();
+    const checkboxesLabel = await page.$$(".checkbox-inline");
+    let flag = [];
+    let index = 0;
+    for await (const checkbox of checkboxesLabel) {
+      const span = await checkbox.$("span");
+      const spanValue = await span.innerText();
+      if (spanValue.includes("Paper Type") || spanValue.includes("Envelopes")) {
+        flag.push(index);
+      }
+      index++;
+    }
+    await checkboxes[flag[0]].click();
+    await checkboxes[flag[1]].click();
+
     const setConfigSelectOption = await page.$('[name="submitoption"]');
     // await waitForSelector(setConfigSelectOption);
     await setConfigSelectOption.click();
@@ -545,6 +557,7 @@ export const changeProductWeightWithOptions = async (page) => {
 
       count++;
     }
+
     // block for pagination
     // const pagination = await page.$$(".page-item");
     // await pagination[2].click();
@@ -554,6 +567,7 @@ export const changeProductWeightWithOptions = async (page) => {
     //   await box.fill(productWeightConfigurationWithOption[count]);
     //   count++;
     // }
+
     const saveBtn = await page.$("#btn-action-save");
     await saveBtn.click();
     await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
@@ -579,13 +593,14 @@ export const getProductWeight = async (page) => {
     for await (const box of boxes) {
       productWeight.push(await box.inputValue());
     }
-    const pagination = await page.$$(".page-item");
-    await pagination[2].click();
-    await page.waitForTimeout(3000);
-    boxes = await table.$$('[name^="addnoptweight"]');
-    for await (const box of boxes) {
-      productWeight.push(await box.inputValue());
-    }
+    // With pagination
+    // const pagination = await page.$$(".page-item");
+    // await pagination[2].click();
+    // await page.waitForTimeout(3000);
+    // boxes = await table.$$('[name^="addnoptweight"]');
+    // for await (const box of boxes) {
+    //   productWeight.push(await box.inputValue());
+    // }
     console.log(`working in product with id ${id}`);
     fs.appendFileSync(
       "list.txt",
