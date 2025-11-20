@@ -538,7 +538,10 @@ export const changeProductWeightWithOptions = async (page) => {
     for await (const checkbox of checkboxesLabel) {
       const span = await checkbox.$("span");
       const spanValue = await span.innerText();
-      if (spanValue.includes("Paper Type") || spanValue.includes("Envelopes")) {
+      if (
+        spanValue.includes("Number of Parts") ||
+        spanValue.includes("Padding")
+      ) {
         flag.push(index);
       }
       index++;

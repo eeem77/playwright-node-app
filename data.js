@@ -1,9 +1,9 @@
 export const url = "https://www.apprinting.com/admin/";
 
 export const idProducts = [
-  5641, 5646, 4079, 4081, 4082, 4083, 4084, 4086, 4087, 4088, 4089, 4091, 4092,
-  4094, 5529, 5530, 5531, 5532, 5533, 5534, 5535, 5536, 5537, 5538, 5539, 5540,
-  5541, 5542, 5543, 5544, 5545, 5546,
+  3711, 4520, 4551, 4553, 4554, 4556, 4557, 4559, 4560, 4561, 4562, 4564, 4566,
+  4892, 4893, 4894, 4895, 4896, 4897, 4898, 4899, 4900, 4901, 4902, 4903, 5647,
+  5648, 5649, 5670, 5650, 5651,
 ];
 
 export const newPricesOption = [
@@ -1242,23 +1242,79 @@ export const productWeightConfiguration = [
 ];
 
 export const productWeightConfigurationWithOption = [
-  "0.02",
-  "0",
-  "0.01",
-  "0.015",
-  "0.03",
-  "0",
-  "0.01",
-  "0.015",
+  "0.050000",
+  "0.070000",
+  "0.090000",
+  "0.000000",
+  "0.010000",
+  "0.020000",
+  "0.050000",
+  "0.070000",
+  "0.090000",
+  "0.000000",
+  "0.010000",
+  "0.020000",
+  "0.040000",
+  "0.060000",
+  "0.080000",
+  "0.000000",
+  "0.010000",
+  "0.020000",
+  "0.060000",
+  "0.090000",
+  "0.120000",
+  "0.000000",
+  "0.010000",
+  "0.020000",
+  "0.100000",
+  "0.140000",
+  "0.180000",
+  "0.000000",
+  "0.010000",
+  "0.020000",
+  "0.120000",
+  "0.160000",
+  "0.200000",
+  "0.000000",
+  "0.010000",
+  "0.020000",
 ];
 
-export const productWeightConfigurationBoxWeight = ["0.50", "0.60"];
+export const productWeightConfigurationBoxWeight = [
+  "1.0",
+  "1.0",
+  "0.8",
+  "1.2",
+  "2.0",
+  "2.5",
+];
 
-export const productWeightConfigurationLength = ["7.0", "8.5"];
+export const productWeightConfigurationLength = [
+  "8",
+  "8",
+  "7",
+  "9",
+  "12",
+  "15",
+];
 
-export const productWeightConfigurationCustomWidth = ["3.0", "3.5"];
+export const productWeightConfigurationCustomWidth = [
+  "6",
+  "6",
+  "5",
+  "6",
+  "9",
+  "9",
+];
 
-export const productWeightConfigurationCustomHeight = ["1.0", "1.0"];
+export const productWeightConfigurationCustomHeight = [
+  "2",
+  "2",
+  "2",
+  "2",
+  "3",
+  "3",
+];
 
 export const urlProducts = [
   [
