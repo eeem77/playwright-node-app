@@ -571,6 +571,7 @@ export const changeProductWeightWithOptions = async (page) => {
 
     const setConfigSelectOption = await page.$('[name="submitoption"]');
     // await waitForSelector(setConfigSelectOption);
+    count = 0;
     await setConfigSelectOption.click();
     await page.waitForTimeout(3000);
     const table = await page.waitForSelector("#page_table");
@@ -582,12 +583,12 @@ export const changeProductWeightWithOptions = async (page) => {
     }
 
     // block for pagination
-    await blockWhitPagination(page, 2);
-    await blockWhitPagination(page, 3);
-    await blockWhitPagination(page, 4);
-    await blockWhitPagination(page, 5);
-    await blockWhitPagination(page, 6);
-    await blockWhitPagination(page, 7);
+    // await blockWhitPagination(page, 2);
+    // await blockWhitPagination(page, 3);
+    // await blockWhitPagination(page, 4);
+    // await blockWhitPagination(page, 5);
+    // await blockWhitPagination(page, 6);
+    // await blockWhitPagination(page, 7);
 
     const saveBtn = await page.$("#btn-action-save");
     await saveBtn.click();
@@ -623,18 +624,18 @@ export const getProductWeight = async (page) => {
     await page.waitForTimeout(3000);
     const table = await page.waitForSelector(".table-responsive");
     let boxes = await table.$$('[name^="addnoptweight"]');
-
+    productWeight = [];
     for await (const box of boxes) {
       productWeight.push(await box.inputValue());
     }
     // With pagination
-    await whitPagination(page, 2);
-    await whitPagination(page, 3);
-    await whitPagination(page, 4);
-    await whitPagination(page, 5);
-    await whitPagination(page, 6);
-    await whitPagination(page, 7);
-
+    // await whitPagination(page, 2);
+    // await whitPagination(page, 3);
+    // await whitPagination(page, 4);
+    // await whitPagination(page, 5);
+    // await whitPagination(page, 6);
+    // await whitPagination(page, 7);
+    
     console.log(`working in product with id ${id}`);
     fs.appendFileSync(
       "list.txt",
@@ -663,7 +664,7 @@ export const changeProductWeight = async (page) => {
       state: "visible",
     });
     console.log(`working in product with id ${id}`);
-    fs.appendFileSync("list.txt", `working in product with id ${id}\n`);
+    fs.appendFileSync("list.txt", `working in product with id ${id} ---> with Boxes ---> ${boxes.length}\n`);
   }
 };
 
