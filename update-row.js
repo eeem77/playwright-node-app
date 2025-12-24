@@ -113,10 +113,10 @@ const updateRow = async () => {
   // await changeProductShippingMethod(page);
 
   // GET AND UPDATE PRICES IN DYNAMIC SIZE PRODUCT
-  await login(page);
+  // await login(page);
   // await getIdProductsAdmin(page, "");
   // await getQuantityBasedPriceAndProductPrice(page);
-  await updateQuantityBasedPriceAndProductPrice(page);
+  // await updateQuantityBasedPriceAndProductPrice(page);
 
   // GET ID PRODUCTS
   // const table = document.querySelector("tbody");
@@ -176,12 +176,12 @@ const updateRow = async () => {
   // }
 
   // CREATE AND UPDATE ARTWORK
-  // try {
-  //   await login(page);
-  //   await updateAndCreateArtwork(page);
-  // } catch (error) {
-  //   console.log("Error ---> ", error);
-  // }
+  try {
+    await login(page);
+    await updateAndCreateArtwork(page);
+  } catch (error) {
+    console.log("Error ---> ", error);
+  }
 
   // AUDIT ARTWORK OPTIONS
   // await login(page);

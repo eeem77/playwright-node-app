@@ -1960,14 +1960,15 @@ const createArtworkOption = async (page, id) => {
   const dropDownRadio = await page.$("#radio_combo");
   await dropDownRadio.click();
   const sortInput = await page.$("#addition_sort_order");
-  await sortInput.fill("70");
+  await sortInput.fill("800");
   const addBulkData = await page.$("#addbulkitem");
   await addBulkData.click();
   const addBulkDataContainer = await page.$(".fancybox__container");
   await addBulkDataContainer.waitForSelector("#bulktext_1");
   const addBulkDataInput = await addBulkDataContainer.$("#bulktext_1");
   await addBulkDataInput.fill(
-    "4 to 5 Business Days,10,0\n3 Business Days,20,0\n2 Business Days,30,0"
+    "1 Business Day,10,0"
+    // "4 to 5 Business Days,10,0\n3 Business Days,20,0\n2 Business Days,30,0"
   );
   const addBulkDataButton = await addBulkDataContainer.$(
     '[data-textarea="bulktext_1"]'
@@ -1988,50 +1989,51 @@ const createArtworkOption = async (page, id) => {
     state: "visible",
   });
 
-  await page.waitForSelector(".float-right.action_area");
-  const attributePrice = await page.$(".float-right.action_area");
-  await attributePrice.click();
+  // WHIT PRICES
+  // await page.waitForSelector(".float-right.action_area");
+  // const attributePrice = await page.$(".float-right.action_area");
+  // await attributePrice.click();
 
-  await page.waitForSelector(".table-responsive");
+  // await page.waitForSelector(".table-responsive");
 
-  let selectProductSize = await page.$("#sel_product_size");
-  const selectProductSizeOptions = await selectProductSize.$$eval(
-    "option",
-    (node) => node.map((n) => n.getAttribute("value"))
-  );
-  let index = 0;
-  for await (const selectOption of selectProductSizeOptions) {
-    selectProductSize = await page.$("#sel_product_size");
-    await selectProductSize.selectOption(selectOption);
-    await page.waitForSelector(".table-responsive");
-    if (selectOption !== "0") {
-      const attributePriceTable = await page.$$("tbody");
-      let tablePrices = 0;
-      for await (const element of attributePriceTable) {
-        // const inputs = await element.$$eval('[name^="txtprice"]', node => node.map( n => n.innerText));
+  // let selectProductSize = await page.$("#sel_product_size");
+  // const selectProductSizeOptions = await selectProductSize.$$eval(
+  //   "option",
+  //   (node) => node.map((n) => n.getAttribute("value"))
+  // );
+  // let index = 0;
+  // for await (const selectOption of selectProductSizeOptions) {
+  //   selectProductSize = await page.$("#sel_product_size");
+  //   await selectProductSize.selectOption(selectOption);
+  //   await page.waitForSelector(".table-responsive");
+  //   if (selectOption !== "0") {
+  //     const attributePriceTable = await page.$$("tbody");
+  //     let tablePrices = 0;
+  //     for await (const element of attributePriceTable) {
+  //       // const inputs = await element.$$eval('[name^="txtprice"]', node => node.map( n => n.innerText));
 
-        const inputs = await element.$$('[name^="txtprice"]');
-        for await (const element of inputs) {
-          await element.fill(newPricesOption[index]);
-          index++;
-          // if (inputValue === "") inputValue = "0";
-          // fs.appendFileSync("list.txt", `${inputValue}\n`);
-          // console.log(inputValue);
-        }
-        tablePrices++;
-        // const checkPrice = await checkPrice(inputs, "");
-        // for await (const input of inputs) {
-        //   const value = await input.innerHTML();
-        //   console.log(value);
-        // }
-      }
-    }
-    const saveBtn = await page.$("#btn-action-save");
-    await saveBtn.click();
-    await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
-      state: "visible",
-    });
-  }
+  //       const inputs = await element.$$('[name^="txtprice"]');
+  //       for await (const element of inputs) {
+  //         await element.fill(newPricesOption[index]);
+  //         index++;
+  //         // if (inputValue === "") inputValue = "0";
+  //         // fs.appendFileSync("list.txt", `${inputValue}\n`);
+  //         // console.log(inputValue);
+  //       }
+  //       tablePrices++;
+  //       // const checkPrice = await checkPrice(inputs, "");
+  //       // for await (const input of inputs) {
+  //       //   const value = await input.innerHTML();
+  //       //   console.log(value);
+  //       // }
+  //     }
+  //   }
+  //   const saveBtn = await page.$("#btn-action-save");
+  //   await saveBtn.click();
+  //   await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
+  //     state: "visible",
+  //   });
+  // }
 
   // const tdInputsOne = await attributePriceTable[2].$$('input')
   // const tdInputsTwo = await attributePriceTable[3].$$('input')
