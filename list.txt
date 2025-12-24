@@ -1,68 +1,70 @@
-working in product with id 4121 with 2 boxes or rows
-working in product with id 4122 with 2 boxes or rows
-working in product with id 4123 with 2 boxes or rows
-working in product with id 4124 with 2 boxes or rows
-working in product with id 4125 with 2 boxes or rows
-working in product with id 4126 with 2 boxes or rows
-working in product with id 4127 with 2 boxes or rows
-working in product with id 4128 with 2 boxes or rows
-working in product with id 4129 with 2 boxes or rows
-working in product with id 4130 with 2 boxes or rows
-working in product with id 4131 with 2 boxes or rows
-working in product with id 4132 with 2 boxes or rows
-working in product with id 4230 with 2 boxes or rows
-working in product with id 4231 with 2 boxes or rows
-working in product with id 4232 with 2 boxes or rows
-working in product with id 4233 with 2 boxes or rows
-working in product with id 4234 with 2 boxes or rows
-working in product with id 4235 with 2 boxes or rows
-working in product with id 4236 with 2 boxes or rows
-working in product with id 4237 with 2 boxes or rows
-working in product with id 4239 with 2 boxes or rows
-working in product with id 4240 with 2 boxes or rows
-working in product with id 4242 with 2 boxes or rows
-working in product with id 4243 with 2 boxes or rows
-working in product with id 4419 with 2 boxes or rows
-working in product with id 4425 with 2 boxes or rows
-working in product with id 4434 with 2 boxes or rows
-working in product with id 4437 with 2 boxes or rows
-working in product with id 4438 with 2 boxes or rows
-working in product with id 4470 with 2 boxes or rows
-working in product with id 4473 with 2 boxes or rows
-working in product with id 4572 with 2 boxes or rows
-working in product with id 4575 with 2 boxes or rows
-working in product with id 4599 with 2 boxes or rows
-working in product with id 4602 with 2 boxes or rows
-working in product with id 4662 with 2 boxes or rows
-working in product with id 4663 with 2 boxes or rows
-working in product with id 4702 with 2 boxes or rows
-working in product with id 4703 with 2 boxes or rows
-working in product with id 4728 with 2 boxes or rows
-working in product with id 4729 with 2 boxes or rows
-working in product with id 4751 with 2 boxes or rows
-working in product with id 4754 with 2 boxes or rows
-working in product with id 4790 with 2 boxes or rows
-working in product with id 4793 with 2 boxes or rows
-working in product with id 5671 with 2 boxes or rows
-working in product with id 5686 with 2 boxes or rows
-working in product with id 5687 with 2 boxes or rows
-working in product with id 5701 with 2 boxes or rows
-working in product with id 5702 with 2 boxes or rows
-working in product with id 5721 with 2 boxes or rows
-working in product with id 5723 with 2 boxes or rows
-working in product with id 5731 with 2 boxes or rows
-working in product with id 5732 with 2 boxes or rows
-working in product with id 5734 with 2 boxes or rows
-working in product with id 5761 with 2 boxes or rows
-working in product with id 5766 with 2 boxes or rows
-working in product with id 5779 with 2 boxes or rows
-working in product with id 5780 with 2 boxes or rows
-working in product with id 5798 with 2 boxes or rows
-working in product with id 5799 with 2 boxes or rows
-working in product with id 5809 with 2 boxes or rows
-working in product with id 5810 with 2 boxes or rows
-working in product with id 5653 with 2 boxes or rows
-working in product with id 5655 with 2 boxes or rows
-working in product with id 5756 with 2 boxes or rows
-working in product with id 5757 with 2 boxes or rows
-working in product with id 5758 with 2 boxes or rows
+4052, 
+4053, 
+4054, 
+4056, 
+4057, 
+4058, 
+4059, 
+4060, 
+4061, 
+4064, 
+4065, 
+4070, 
+4076, 
+6319, 
+4814, 
+4815, 
+4816, 
+4817, 
+4818, 
+4819, 
+4820, 
+4821, 
+4822, 
+4823, 
+4824, 
+4825, 
+4354, 
+4355, 
+4356, 
+4357, 
+4358, 
+4359, 
+4360, 
+4361, 
+4362, 
+4363, 
+4364, 
+4365, 
+6317, 
+6320, 
+6325, 
+5613, 
+3721, 
+3722, 
+3723, 
+3724, 
+5446, 
+3725, 
+3726, 
+3727, 
+3728, 
+3729, 
+6315, 
+6316, 
+6324, 
+6326, 
+4341, 
+4345, 
+4347, 
+4343, 
+4344, 
+4346, 
+4348, 
+4349, 
+4350, 
+4351, 
+4352, 
+4353, 
+6318, 
+6321, 

@@ -47,6 +47,8 @@ import {
   productWeightConfiguration,
   productWeightConfigurationWithOption,
   newPricesOption,
+  quantityBasedPrice,
+  dynamicSizePrices,
 } from "./data.js";
 import { log } from "console";
 dotenv.config();
@@ -538,7 +540,6 @@ const blockWhitPagination = async (page, numberPage) => {
 
 export const changeProductWeightWithOptions = async (page) => {
   for await (const id of idProducts) {
-    
     await page.goto(
       `https://www.apprinting.com/admin/product_weight.php?product_id=${id}`
     );
@@ -553,21 +554,21 @@ export const changeProductWeightWithOptions = async (page) => {
       const span = await checkbox.$("span");
       const spanValue = await span.innerText();
       if (
-        spanValue.includes("Pages") ||
-        spanValue.includes("Cover Paper") ||
-        spanValue.includes("Inside Paper") ||
-        spanValue.includes("Cover Finish") ||
-        spanValue.includes("Cover Vinyl")
+        spanValue.includes("Material")
+        // spanValue.includes("Cover Paper") ||
+        // spanValue.includes("Inside Paper") ||
+        // spanValue.includes("Cover Finish") ||
+        // spanValue.includes("Cover Vinyl")
       ) {
         flag.push(index);
       }
       index++;
     }
     await checkboxes[flag[0]].click();
-    await checkboxes[flag[1]].click();
-    await checkboxes[flag[2]].click();
-    await checkboxes[flag[3]].click();
-    await checkboxes[flag[4]].click();
+    // await checkboxes[flag[1]].click();
+    // await checkboxes[flag[2]].click();
+    // await checkboxes[flag[3]].click();
+    // await checkboxes[flag[4]].click();
 
     const setConfigSelectOption = await page.$('[name="submitoption"]');
     // await waitForSelector(setConfigSelectOption);
@@ -635,7 +636,7 @@ export const getProductWeight = async (page) => {
     // await whitPagination(page, 5);
     // await whitPagination(page, 6);
     // await whitPagination(page, 7);
-    
+
     console.log(`working in product with id ${id}`);
     fs.appendFileSync(
       "list.txt",
@@ -664,7 +665,10 @@ export const changeProductWeight = async (page) => {
       state: "visible",
     });
     console.log(`working in product with id ${id}`);
-    fs.appendFileSync("list.txt", `working in product with id ${id} ---> with Boxes ---> ${boxes.length}\n`);
+    fs.appendFileSync(
+      "list.txt",
+      `working in product with id ${id} ---> with Boxes ---> ${boxes.length}\n`
+    );
   }
 };
 
@@ -799,6 +803,79 @@ export const changeProductShippingMethod = async (page) => {
       "list.txt",
       `working in product with id ${id} with ${boxes.length} boxes or rows\n`
     );
+  }
+};
+
+export const getQuantityBasedPriceAndProductPrice = async (page) => {
+  for await (const id of idProducts) {
+    await page.goto(
+      `https://www.apprinting.com/admin/product_price.php?product_id=${id}`
+    );
+    await page.waitForSelector("#frmprice");
+    const quantityBasedPriceBtn = await page.$("a.btn-purple");
+    const quantityBasedPriceHref = await quantityBasedPriceBtn.getAttribute(
+      "href"
+    );
+    await page.goto(
+      `https://www.apprinting.com/admin/${quantityBasedPriceHref}`
+    );
+    await page.waitForSelector("#frmprice");
+    const quantityBasedPrices = await page.$$('[name^="txtprice"]');
+    for await (const price of quantityBasedPrices) {
+      const value = await price.inputValue();
+      fs.appendFileSync("list.txt", `${value}\n`);
+    }
+    fs.appendFileSync("list.txt", `\n\n`);
+    await page.goto(
+      `https://www.apprinting.com/admin/product_price.php?product_id=${id}`
+    );
+    await page.waitForSelector("#frmprice");
+    const prices = await page.$$('[name^="txtprice"]');
+    for await (const price of prices) {
+      const value = await price.inputValue();
+      fs.appendFileSync("list.txt", `${value}\n`);
+    }
+  }
+};
+
+export const updateQuantityBasedPriceAndProductPrice = async (page) => {
+  for await (const id of idProducts) {
+    await page.goto(
+      `https://www.apprinting.com/admin/product_price.php?product_id=${id}`
+    );
+    await page.waitForSelector("#frmprice");
+    const quantityBasedPriceBtn = await page.$("a.btn-purple");
+    const quantityBasedPriceHref = await quantityBasedPriceBtn.getAttribute(
+      "href"
+    );
+    await page.goto(
+      `https://www.apprinting.com/admin/${quantityBasedPriceHref}`
+    );
+    await page.waitForSelector("#frmprice");
+    const quantityBasedPrices = await page.$$('[name^="txtprice"]');
+    let quantityBasedPriceIndex = 0;
+    for await (const price of quantityBasedPrices) {
+      await price.fill(quantityBasedPrice[quantityBasedPriceIndex]);
+      quantityBasedPriceIndex++;
+    }
+    const saveBackBtn = await page.$("#btn-action-saveback");
+    await saveBackBtn.click();
+    // await page.goto(
+    //   `https://www.apprinting.com/admin/product_price.php?product_id=${id}`
+    // );
+    await page.waitForSelector("#frmprice");
+    const prices = await page.$$('[name^="txtprice"]');
+    let dynamicSizePricesIndex = 0;
+    for await (const price of prices) {
+      await price.fill(dynamicSizePrices[dynamicSizePricesIndex]);
+      dynamicSizePricesIndex++;
+    }
+    const saveBtn = await page.$("#btn-action-save");
+    await saveBtn.click();
+    await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
+      state: "visible",
+    });
+    fs.appendFileSync("list.txt", `${id}, \n`);
   }
 };
 

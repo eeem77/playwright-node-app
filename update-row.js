@@ -49,6 +49,8 @@ import {
   getProductWeight,
   getPrices4overProduct,
   desactiveDesignerOption,
+  getQuantityBasedPriceAndProductPrice,
+  updateQuantityBasedPriceAndProductPrice,
 } from "./function_list.js";
 // import { proxies } from './data.js'
 // import fs from 'fs'
@@ -103,12 +105,18 @@ const updateRow = async () => {
   // await desactiveDesignerOption(page);
 
   // Changue Product Weight
-  await login(page);
+  // await login(page);
   // await getIdProductsAdmin(page, "");
   // await getProductWeight(page);
   // await changeProductWeight(page);
-  await changeProductWeightWithOptions(page);
+  // await changeProductWeightWithOptions(page);
   // await changeProductShippingMethod(page);
+
+  // GET AND UPDATE PRICES IN DYNAMIC SIZE PRODUCT
+  await login(page);
+  // await getIdProductsAdmin(page, "");
+  // await getQuantityBasedPriceAndProductPrice(page);
+  await updateQuantityBasedPriceAndProductPrice(page);
 
   // GET ID PRODUCTS
   // const table = document.querySelector("tbody");
