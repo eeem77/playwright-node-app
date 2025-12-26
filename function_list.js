@@ -1220,10 +1220,14 @@ export const setMarkUpData = async (page) => {
     const responsePromise = page.waitForResponse(
       `https://www.apprinting.com/admin/product_metatags.php?product_id=${id}`
     );
-    const btnSave = await page.$("#btn-action-save");
+    // const btnSave = await page.$("#btn-action-save");
     const markUp = await page.$("#schema_markup_1");
     await markUp.fill(seoData[i]);
-    await btnSave.click();
+    const saveBtn = await page.$("#btn-action-save");
+    await saveBtn.click();
+    await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
+      state: "visible",
+    });
     await responsePromise;
     fs.appendFileSync("list.txt", id + "\n");
     i = i + 1;
@@ -1316,7 +1320,7 @@ export const getMarkUpSchemaProducts = async (page) => {
       4.1
     ).toFixed(1)}","reviewCount":"${Math.floor(
       Math.random() * (9000 - 15000) + 9000
-    )}"},"offers": {"@type": "Offer","url": "https://www.apprinting.com/blue-flowers-and-leaves-wedding-invitation/","priceCurrency": "USD","price": ${price},"priceValidUntil": "2025-12-25","itemCondition": "https://schema.org/UsedCondition","availability": "https://schema.org/InStock"}}\`,`;
+    )}"},"offers": {"@type": "Offer","url": "https://www.apprinting.com/blue-flowers-and-leaves-wedding-invitation/","priceCurrency": "USD","price": ${price},"priceValidUntil": "2026-12-31","itemCondition": "https://schema.org/UsedCondition","availability": "https://schema.org/InStock"}}\`,`;
 
     fs.appendFileSync("list.txt", report + "\n");
     console.log(`working ---> ${id}`);
@@ -2188,6 +2192,28 @@ export const getIdUrlClient = async (page) => {
     const attributeClass = await element.getAttribute("class");
     fs.appendFileSync("list-id-client.txt", `${attributeClass}\n`);
     console.log(attributeClass);
+  }
+};
+
+export const changeAllowFreeShippingProduct = async (page) => {
+  for await (const id of idProducts) {
+    await page.goto(
+      `https://www.apprinting.com/admin/product_settings.php?product_id=${id}`
+    );
+    await page.waitForSelector("#TabContent_generalsettings");
+    const checkbox = await page.$$(
+      '[data-name="setting[ALLOW_FREE_SHIPPING]"]'
+    );
+    const isChecked = await checkbox[1].isChecked();
+    if (isChecked === false) {
+      await checkbox[1].check();
+      const saveBtn = await page.$("#btn-action-save");
+      await saveBtn.click();
+      await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
+        state: "visible",
+      });
+      fs.appendFileSync("list.txt", `${id}\n`);
+    }
   }
 };
 

@@ -51,6 +51,7 @@ import {
   desactiveDesignerOption,
   getQuantityBasedPriceAndProductPrice,
   updateQuantityBasedPriceAndProductPrice,
+  changeAllowFreeShippingProduct,
 } from "./function_list.js";
 // import { proxies } from './data.js'
 // import fs from 'fs'
@@ -96,6 +97,10 @@ const updateRow = async () => {
   //     await updateRow()
   //   }
   // }
+
+  // CHANGE ALLOW FREE SHIPPING PRODUCT
+  // await login(page);
+  // await changeAllowFreeShippingProduct(page);
 
   // GET PRICES PRODUCT 4OVER
   // await getPrices4overProduct(page);
@@ -176,12 +181,12 @@ const updateRow = async () => {
   // }
 
   // CREATE AND UPDATE ARTWORK
-  try {
-    await login(page);
-    await updateAndCreateArtwork(page);
-  } catch (error) {
-    console.log("Error ---> ", error);
-  }
+  // try {
+  //   await login(page);
+  //   await updateAndCreateArtwork(page);
+  // } catch (error) {
+  //   console.log("Error ---> ", error);
+  // }
 
   // AUDIT ARTWORK OPTIONS
   // await login(page);
@@ -262,7 +267,7 @@ const updateRow = async () => {
   // await updateSetupAttributesOptions(page);
 
   // SEO
-  // await login(page);
+  await login(page);
   // await getIdProducts(
   //   page,
   //   ""
@@ -273,7 +278,7 @@ const updateRow = async () => {
   // );
   // await auditSeoData(page);
   // await getMarkUpSchemaProducts(page);
-  // await setMarkUpData(page);
+  await setMarkUpData(page);
   // await changedSeoData(page);
   // await getTitleAndChangedTitleImagesGallery(page);
   // await getTitleTitleImagesGallery(page);
