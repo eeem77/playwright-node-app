@@ -554,8 +554,8 @@ export const changeProductWeightWithOptions = async (page) => {
       const span = await checkbox.$("span");
       const spanValue = await span.innerText();
       if (
-        spanValue.includes("Material")
-        // spanValue.includes("Cover Paper") ||
+        spanValue.includes("HARDWARE") ||
+        spanValue.includes("GROMMETS") 
         // spanValue.includes("Inside Paper") ||
         // spanValue.includes("Cover Finish") ||
         // spanValue.includes("Cover Vinyl")
@@ -565,7 +565,7 @@ export const changeProductWeightWithOptions = async (page) => {
       index++;
     }
     await checkboxes[flag[0]].click();
-    // await checkboxes[flag[1]].click();
+    await checkboxes[flag[1]].click();
     // await checkboxes[flag[2]].click();
     // await checkboxes[flag[3]].click();
     // await checkboxes[flag[4]].click();
