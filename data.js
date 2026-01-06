@@ -1,10 +1,12 @@
 export const url = "https://www.apprinting.com/admin/";
 
 export const idProducts = [
-  4541, 4542, 4543, 4544, 4545, 4546, 4593, 4595, 4598, 4601, 4653, 4654, 4704,
-  4705, 4731, 4732, 4755, 4757, 4794, 4796, 5656, 5660, 5678, 5680, 5688, 5689,
-  5703, 5704, 5726, 5727, 5748, 5749, 5763, 5764, 5781, 5782, 5800, 5801, 5807,
-  5808,
+  5359, 
+  5361, 5363, 5376, 5378, 5381, 5384, 5388, 5390, 5392, 5394, 5397, 5399,
+  5403, 5404, 5405, 5406, 5407, 5408, 5409, 5410, 5411, 5412, 5413, 5414, 5415,
+  5416, 5417, 5418, 5419, 5420, 5421, 5422, 5423, 5426, 5427, 5428, 5429, 5430,
+  5431, 5432, 5433, 5434, 5435, 5436, 5437, 5438, 5439, 5441, 5440, 5442, 5443,
+  5444,
 ];
 
 export const quantityBasedPrice = ["12.92", "12.82", "12.72"];
@@ -1255,15 +1257,30 @@ export const newPricesOption = [
 
 export const productWeightConfiguration = ["2.1"];
 
-export const productWeightConfigurationWithOption = ["15.9", "0.9", "0.07"];
+export const productWeightConfigurationWithOption = [
+  "0.028000",
+  "0.029000",
+  "0.030000",
+  "0.031000",
+  "0.013000",
+  "0.014000",
+  "0.015000",
+  "0.015000",
+  "0.016000",
+  "0.017000",
+  "0.019000",
+  "0.014000",
+  "0.015000",
+  "0.016000",
+];
 
-export const productWeightConfigurationBoxWeight = ["17.9"];
+export const productWeightConfigurationBoxWeight = ["1.40"];
 
-export const productWeightConfigurationLength = ["28"];
+export const productWeightConfigurationLength = ["11"];
 
-export const productWeightConfigurationCustomWidth = ["22"];
+export const productWeightConfigurationCustomWidth = ["5"];
 
-export const productWeightConfigurationCustomHeight = ["4"];
+export const productWeightConfigurationCustomHeight = ["2"];
 
 export const urlProducts = [
   [

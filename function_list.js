@@ -554,11 +554,13 @@ export const changeProductWeightWithOptions = async (page) => {
       const span = await checkbox.$("span");
       const spanValue = await span.innerText();
       if (
-        spanValue.includes("Display Options") ||
-        spanValue.includes("Grommets")
-        // spanValue.includes("Inside Paper") ||
-        // spanValue.includes("Cover Finish") ||
-        // spanValue.includes("Cover Vinyl")
+        spanValue.includes("Paper Type") ||
+        spanValue.includes("Printed Sides/Color")
+        // spanValue.includes("Reception Card") ||
+        // spanValue.includes("Response Card") ||
+        // spanValue.includes("Outside Envelopes") ||
+        // spanValue.includes("RSVP Envelopes") ||
+        // spanValue.includes("Upgrade: Belly Band")
       ) {
         flag.push(index);
       }
@@ -569,6 +571,8 @@ export const changeProductWeightWithOptions = async (page) => {
     // await checkboxes[flag[2]].click();
     // await checkboxes[flag[3]].click();
     // await checkboxes[flag[4]].click();
+    // await checkboxes[flag[5]].click();
+    // await checkboxes[flag[6]].click();
 
     const setConfigSelectOption = await page.$('[name="submitoption"]');
     // await waitForSelector(setConfigSelectOption);
@@ -600,6 +604,29 @@ export const changeProductWeightWithOptions = async (page) => {
     fs.appendFileSync(
       "list.txt",
       `working in product with id ${id} with ${boxes.length} boxes or inputs\n`
+    );
+  }
+};
+
+export const getcheckboxesLabelProductWeightWithOptions = async (page) => {
+  for await (const id of idProducts) {
+    await page.goto(
+      `https://www.apprinting.com/admin/product_weight.php?product_id=${id}`
+    );
+    await page.waitForTimeout(3000);
+    const selectOptions = await page.$("#weight_type");
+    await selectOptions.selectOption("1");
+    const checkboxesLabel = await page.$$(".checkbox-inline");
+    let flag = [];
+    for await (const checkbox of checkboxesLabel) {
+      const span = await checkbox.$("span");
+      const spanValue = await span.innerText();
+      flag.push(spanValue);
+    }    
+    console.log(`working in product with id ${id}`);
+    fs.appendFileSync(
+      "list.txt",
+      `working in product with id ${id} ---> ${flag}\n`
     );
   }
 };

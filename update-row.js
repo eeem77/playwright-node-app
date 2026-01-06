@@ -52,6 +52,7 @@ import {
   getQuantityBasedPriceAndProductPrice,
   updateQuantityBasedPriceAndProductPrice,
   changeAllowFreeShippingProduct,
+  getcheckboxesLabelProductWeightWithOptions,
 } from "./function_list.js";
 // import { proxies } from './data.js'
 // import fs from 'fs'
@@ -112,6 +113,7 @@ const updateRow = async () => {
   // Changue Product Weight
   await login(page);
   // await getIdProductsAdmin(page, "");
+  // await getcheckboxesLabelProductWeightWithOptions(page);
   // await getProductWeight(page);
   // await changeProductWeight(page);
   // await changeProductWeightWithOptions(page);
