@@ -1,10 +1,14 @@
 export const url = "https://www.apprinting.com/admin/";
 
 export const idProducts = [
-  3361, 3363, 3364, 3365, 3366, 3367, 3368, 3369, 3370, 3372, 3375, 3384, 3378,
-  3406, 3411, 3418, 3420, 3434, 3477, 3534, 3539, 3548, 3555, 3583, 3588, 3591,
-  3600, 3606, 3612, 3707, 3621, 3622, 3581, 3628, 3630, 3637, 3641, 3644, 3645,
-  3648, 3652, 3658, 3633, 3631, 3629, 3626, 3620, 3608, 3602, 3709,
+  658, 1654, 1655, 1656, 1668, 1670, 1671, 1672, 1675, 1677, 1678, 1679, 1681,
+  1683, 1684, 1686, 1688, 1691, 1693, 1695, 1697, 1719, 1721, 1724, 1729, 1731,
+  1734, 1736, 1739, 1741, 1835, 1838, 1839, 1840, 1841, 1843, 1844, 1846, 1848,
+  1850, 1851, 1854, 1856, 1858, 1859, 1860, 1862, 1863, 1864, 1865, 1866, 1867,
+  1868, 1871, 1872, 1873, 1874, 1875, 1876, 1877, 1879, 1881, 1882, 1883, 1885,
+  1887, 1888, 1890, 1898, 1901, 1904, 1905, 1908, 1912, 1914, 1915, 1918, 1925,
+  1927, 1929, 1934, 1937, 1940, 3082, 3083, 3084, 3085, 3086, 3087, 3097, 3684,
+  3685, 3687, 6156, 6163,
 ];
 
 export const quantityBasedPrice = ["12.92", "12.82", "12.72"];
@@ -1256,38 +1260,35 @@ export const newPricesOption = [
 export const productWeightConfiguration = ["2.1"];
 
 export const productWeightConfigurationWithOption = [
-  "0.006000",
-  "0.006500",
-  "0.045000",
-  "0.050000",
-  "0.055000",
+  "0.028000",
+  "0.027000",
+  "0.031000",
+  "0.000500",
+  "0.001200",
   "0.002000",
-  "0.004000",
-  "0.006000",
-  "0.005000",
-  "0.020000",
   "0.000000",
   "0.018000",
   "0.000000",
-  "0.025000",
-  "0.030000",
-  "0.035000",
-  "0.040000",
+  "0.012000",
+  "0.015000",
   "0.018000",
   "0.022000",
-  "0.000000",
+  "0.025000",
   "0.010000",
   "0.012000",
+  "0.000000",
+  "0.004000",
+  "0.004500",
   "0.015000",
 ];
 
-export const productWeightConfigurationBoxWeight = ["2.20"];
+export const productWeightConfigurationBoxWeight = ["0.85"];
 
-export const productWeightConfigurationLength = ["9"];
+export const productWeightConfigurationLength = ["12.00"];
 
-export const productWeightConfigurationCustomWidth = ["11"];
+export const productWeightConfigurationCustomWidth = ["10.00"];
 
-export const productWeightConfigurationCustomHeight = ["4"];
+export const productWeightConfigurationCustomHeight = ["6.00"];
 
 export const urlProducts = [
   [
