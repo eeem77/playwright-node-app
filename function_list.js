@@ -546,6 +546,7 @@ export const changeProductWeightWithOptions = async (page) => {
     await page.waitForTimeout(3000);
     const selectOptions = await page.$("#weight_type");
     await selectOptions.selectOption("1");
+    await page.waitForSelector("#frmweight");
     const checkboxes = await page.$$('[name^="addnoption"]');
     const checkboxesLabel = await page.$$(".checkbox-inline");
     let flag = [];
@@ -554,14 +555,13 @@ export const changeProductWeightWithOptions = async (page) => {
       const span = await checkbox.$("span");
       const spanValue = await span.innerText();
       if (
-        spanValue.includes("Paper Type") ||
-        spanValue.includes("Printing Type") ||
-        spanValue.includes("Reception Card") ||
-        spanValue.includes("Response Card") ||
-        spanValue.includes("Outside Envelopes") ||
-        spanValue.includes("RSVP Envelopes") ||
-        spanValue.includes("Upgrade: Belly Band")
-        // spanValue.includes("Vellum Jackets")
+        spanValue === " Paper Type" ||
+        spanValue === " Printing Type" ||
+        spanValue === " Reception Card" ||
+        spanValue === " Response Card" ||
+        spanValue === " Outside Envelopes" ||
+        spanValue === " RSVP Envelopes" ||
+        spanValue === " Upgrade: Additional Insert"
       ) {
         flag.push(index);
       }
@@ -574,7 +574,6 @@ export const changeProductWeightWithOptions = async (page) => {
     await checkboxes[flag[4]].click();
     await checkboxes[flag[5]].click();
     await checkboxes[flag[6]].click();
-    // await checkboxes[flag[7]].click();
 
     const setConfigSelectOption = await page.$('[name="submitoption"]');
     // await waitForSelector(setConfigSelectOption);
@@ -584,7 +583,7 @@ export const changeProductWeightWithOptions = async (page) => {
     const table = await page.waitForSelector("#page_table");
     let boxes = await table.$$('[name^="addnoptweight"]');
     for await (const box of boxes) {
-      await box.fill(productWeightConfigurationWithOption[count]);
+      await box.fill(`${productWeightConfigurationWithOption[count]}`);
 
       count++;
     }
@@ -610,14 +609,45 @@ export const changeProductWeightWithOptions = async (page) => {
   }
 };
 
+export const cleanProductWeightWithOptions = async (page) => {
+  for await (const id of idProducts) {
+    await page.goto(
+      `https://www.apprinting.com/admin/product_weight.php?product_id=${id}`,
+    );
+    await page.waitForTimeout(3000);
+    const selectOptions = await page.$("#weight_type");
+    await selectOptions.selectOption("0");
+    
+    const setConfigSelectOption = await page.$('[name="submitoption"]');
+    await setConfigSelectOption.click();
+    await page.waitForTimeout(3000);
+    
+
+    const saveBtn = await page.$("#btn-action-save");
+    await saveBtn.click();
+    await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
+      state: "visible",
+    });
+
+    console.log(`working in product with id ${id}`);
+
+    fs.appendFileSync(
+      "list.txt",
+      `working in product with id ${id} \n`,
+    );
+  }
+};
+
 export const getcheckboxesLabelProductWeightWithOptions = async (page) => {
   for await (const id of idProducts) {
     await page.goto(
       `https://www.apprinting.com/admin/product_weight.php?product_id=${id}`
     );
     await page.waitForTimeout(3000);
-    const selectOptions = await page.$("#weight_type");
-    await selectOptions.selectOption("1");
+
+    // const selectOptions = await page.$("#weight_type");
+    // await selectOptions.selectOption("1");
+
     const checkboxesLabel = await page.$$(".checkbox-inline");
     let flag = [];
     for await (const checkbox of checkboxesLabel) {
