@@ -561,7 +561,11 @@ export const changeProductWeightWithOptions = async (page) => {
         spanValue === " Response Card" ||
         spanValue === " Outside Envelopes" ||
         spanValue === " RSVP Envelopes" ||
-        spanValue === " Upgrade: Additional Insert"
+        spanValue === " Upgrade: Base Trim/Backer" ||
+        spanValue === " Upgrade: Assemble Layers" ||
+        spanValue === " Upgrade: Additional Insert" ||
+        spanValue === " Upgrade: Belly Band"
+        // spanValue === " Photo Card"
       ) {
         flag.push(index);
       }
@@ -574,6 +578,10 @@ export const changeProductWeightWithOptions = async (page) => {
     await checkboxes[flag[4]].click();
     await checkboxes[flag[5]].click();
     await checkboxes[flag[6]].click();
+    await checkboxes[flag[7]].click();
+    await checkboxes[flag[8]].click();
+    await checkboxes[flag[9]].click();
+    // await checkboxes[flag[10]].click();
 
     const setConfigSelectOption = await page.$('[name="submitoption"]');
     // await waitForSelector(setConfigSelectOption);
