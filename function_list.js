@@ -557,15 +557,16 @@ export const changeProductWeightWithOptions = async (page) => {
       if (
         spanValue === " Paper Type" ||
         spanValue === " Printing Type" ||
+        spanValue === " Chinese Card" ||
         spanValue === " Reception Card" ||
         spanValue === " Response Card" ||
         spanValue === " Outside Envelopes" ||
         spanValue === " RSVP Envelopes" ||
         spanValue === " Upgrade: Base Trim/Backer" ||
         spanValue === " Upgrade: Assemble Layers" ||
-        spanValue === " Upgrade: Additional Insert" ||
-        spanValue === " Upgrade: Belly Band"
-        // spanValue === " Photo Card"
+        spanValue === " Upgrade: Additional Insert"
+        // spanValue === " Upgrade: Belly Band"
+        // spanValue === " Upgrade: Ribbons"
       ) {
         flag.push(index);
       }
@@ -582,6 +583,7 @@ export const changeProductWeightWithOptions = async (page) => {
     await checkboxes[flag[8]].click();
     await checkboxes[flag[9]].click();
     // await checkboxes[flag[10]].click();
+    // await checkboxes[flag[11]].click();
 
     const setConfigSelectOption = await page.$('[name="submitoption"]');
     // await waitForSelector(setConfigSelectOption);
@@ -653,8 +655,8 @@ export const getcheckboxesLabelProductWeightWithOptions = async (page) => {
     );
     await page.waitForTimeout(3000);
 
-    // const selectOptions = await page.$("#weight_type");
-    // await selectOptions.selectOption("1");
+    const selectOptions = await page.$("#weight_type");
+    await selectOptions.selectOption("1");
 
     const checkboxesLabel = await page.$$(".checkbox-inline");
     let flag = [];
