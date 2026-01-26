@@ -1,11 +1,12 @@
 export const url = "https://www.apprinting.com/admin/";
 
 export const idProducts = [
-  1791, 1793, 1796, 1798, 1799, 1816, 1821, 1823, 1825, 1826, 1827, 1828, 1988,
-  1992, 1994, 2001, 2008, 2012, 2014, 2022, 2024, 2033, 2034, 2037, 2045, 2048,
-  2054, 2055, 2057, 2061, 2065, 2070, 2076, 2080, 2082, 2085, 2087, 2090, 2093,
-  2098, 2117, 2120, 2123, 2124, 2125, 2212, 2215, 2217, 3688, 2234, 2235, 2238,
-  2240, 2241, 2242, 2243, 2245, 2249, 2252, 2256, 2258,
+  1790, 1792, 1795, 1797, 1800, 1801, 1803, 1806, 1808, 1811, 1812, 1814, 2269,
+  2270, 2273, 2276, 2293, 2294, 2295, 2296, 2298, 2299, 2304, 2307, 2312, 2333,
+  2335, 2336, 2353, 2356, 2364, 2372, 2375, 2390, 2394, 2396, 2397, 2400, 2401,
+  2418, 2435, 2438, 2441, 2457, 2466, 2469, 2470, 2473, 2487, 2493, 2505, 2507,
+  2536, 2542, 2591, 2594, 2665, 2666, 2673, 2689, 2690, 2691, 2692, 2693, 2702,
+  2706, 4987, 4988, 4990, 6170,
 ];
 
 export const quantityBasedPrice = ["12.92", "12.82", "12.72"];
@@ -1257,39 +1258,39 @@ export const newPricesOption = [
 export const productWeightConfiguration = ["2.1"];
 
 export const productWeightConfigurationWithOption = [
-  "0.035000",
-  "0.038000",
-  "0.040000",
-  "0.001000",
+  "0.022000",
+  "0.024000",
+  "0.028000",
   "0.003000",
-  "0.005000",
+  "0.006000",
+  "0.008000",
   "0.000000",
-  "0.040000",
+  "0.015000",
   "0.000000",
-  "0.021000",
+  "0.028000",
   "0.000000",
-  "0.016000",
-  "0.020000",
-  "0.025000",
-  "0.030000",
-  "0.035000",
   "0.015000",
   "0.020000",
+  "0.024000",
   "0.030000",
+  "0.034000",
+  "0.016000",
+  "0.021000",
+  "0.032000",
   "0.000000",
   "0.000000",
-  "0.002000",
+  "0.011000",
   "0.000000",
-  "0.018000",
+  "0.013000",
 ];
 
-export const productWeightConfigurationBoxWeight = ["0.20"];
+export const productWeightConfigurationBoxWeight = ["0.50"];
 
 export const productWeightConfigurationLength = ["8"];
 
-export const productWeightConfigurationCustomWidth = ["6"];
+export const productWeightConfigurationCustomWidth = ["8"];
 
-export const productWeightConfigurationCustomHeight = ["1"];
+export const productWeightConfigurationCustomHeight = ["3"];
 
 export const urlProducts = [
   [

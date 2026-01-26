@@ -1,210 +1,234 @@
-working in product with id 1791 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 1793 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 1796 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 1798 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 1799 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 1816 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 1821 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 1823 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 1825 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 1826 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 1827 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 1828 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 1988 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 1992 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 1994 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 2001 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 2008 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 2012 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 2014 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 2022 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 2024 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 2033 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 2034 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 2037 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 2045 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 2048 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 2054 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 2057 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 2061 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 2065 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 2070 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 2076 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 2080 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 2082 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 2085 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 2087 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 2090 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 2093 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 2098 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 2117 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 2120 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 2123 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 2124 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 2125 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 2212 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 2215 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 2217 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 3688 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 2234 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 2235 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 2238 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 2241 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 2242 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 2243 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 2249 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 2252 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 2256 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 2258 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 2261 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 2263 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 1790 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 1792 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 1795 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 1797 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 1800 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 1801 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 1803 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 1806 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 1808 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 1811 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 1812 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 1814 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 2269 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 2270 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 2273 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 2276 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 2293 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 2294 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 2295 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 2296 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 2298 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 2299 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 2304 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 2307 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 2312 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 2333 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 2335 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 2336 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 2353 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 2356 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 2364 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 2372 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 2375 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 2394 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 2396 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 2400 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 2401 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 2418 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 2438 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 2441 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 2457 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 2466 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 2469 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 2470 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 2473 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 2487 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 2493 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 2505 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 2507 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 2536 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 2542 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 2594 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 2665 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 2666 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 2673 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 2689 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 2691 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 2692 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 2693 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 2702 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 2706 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 4987 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 4988 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 4990 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 6170 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
 
 
 
 
-working in product with id 2055 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Chinese Card, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 2240 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Chinese Card, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-working in product with id 2245 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Chinese Card, Reception Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
-
-2055, 2240, 2245
 
 
-1791 ---> 0.035000,0.038000,0.040000,0.001000,0.003000,0.005000,0.000000,0.021000,0.000000,0.016000,0.020000,0.025000,0.030000,0.035000,0.015000,0.020000,0.030000,0.000000,0.000000,0.002000,0.000000,0.018000 ---> 22
-
-
-
-
-working in product with id 1793 with 22 boxes or inputs
-working in product with id 1796 with 22 boxes or inputs
-working in product with id 1798 with 22 boxes or inputs
-working in product with id 1799 with 22 boxes or inputs
-working in product with id 1816 with 22 boxes or inputs
-working in product with id 1821 with 22 boxes or inputs
-working in product with id 1823 with 22 boxes or inputs
-working in product with id 1825 with 22 boxes or inputs
-working in product with id 1826 with 22 boxes or inputs
-working in product with id 1827 with 22 boxes or inputs
-working in product with id 1828 with 22 boxes or inputs
-working in product with id 1988 with 22 boxes or inputs
-working in product with id 1992 with 22 boxes or inputs
-working in product with id 1994 with 22 boxes or inputs
-working in product with id 2001 with 22 boxes or inputs
-working in product with id 2008 with 22 boxes or inputs
-working in product with id 2012 with 22 boxes or inputs
-working in product with id 2014 with 22 boxes or inputs
-working in product with id 2022 with 22 boxes or inputs
-working in product with id 2024 with 22 boxes or inputs
-working in product with id 2033 with 22 boxes or inputs
-working in product with id 2034 with 22 boxes or inputs
-working in product with id 2037 with 22 boxes or inputs
-working in product with id 2045 with 22 boxes or inputs
-working in product with id 2048 with 22 boxes or inputs
-working in product with id 2054 with 22 boxes or inputs
-working in product with id 2057 with 22 boxes or inputs
-working in product with id 2061 with 22 boxes or inputs
-working in product with id 2065 with 22 boxes or inputs
-working in product with id 2070 with 22 boxes or inputs
-working in product with id 2076 with 22 boxes or inputs
-working in product with id 2080 with 22 boxes or inputs
-working in product with id 2082 with 22 boxes or inputs
-working in product with id 2085 with 22 boxes or inputs
-working in product with id 2087 with 22 boxes or inputs
-working in product with id 2090 with 22 boxes or inputs
-working in product with id 2093 with 22 boxes or inputs
-working in product with id 2098 with 22 boxes or inputs
-working in product with id 2117 with 22 boxes or inputs
-working in product with id 2120 with 22 boxes or inputs
-working in product with id 2123 with 22 boxes or inputs
-working in product with id 2124 with 22 boxes or inputs
-working in product with id 2125 with 22 boxes or inputs
-working in product with id 2212 with 22 boxes or inputs
-working in product with id 2215 with 22 boxes or inputs
-working in product with id 2217 with 22 boxes or inputs
-working in product with id 3688 with 22 boxes or inputs
-working in product with id 2234 with 22 boxes or inputs
-working in product with id 2235 with 22 boxes or inputs
-working in product with id 2238 with 22 boxes or inputs
-working in product with id 2241 with 22 boxes or inputs
-working in product with id 2242 with 22 boxes or inputs
-working in product with id 2243 with 22 boxes or inputs
-working in product with id 2249 with 22 boxes or inputs
-working in product with id 2252 with 22 boxes or inputs
-working in product with id 2256 with 22 boxes or inputs
-working in product with id 2258 with 22 boxes or inputs
-working in product with id 2261 with 10 boxes or inputs
-working in product with id 2263 with 11 boxes or inputs
-
-
-
-2055 ---> 0.035000,0.038000,0.040000,0.001000,0.003000,0.005000,0.000000,0.040000,0.000000,0.021000,0.000000,0.016000,0.020000,0.025000,0.030000,0.035000,0.015000,0.020000,0.030000,0.000000,0.000000,0.002000,0.000000,0.018000 ---> 24
+working in product with id 2390 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Chinese Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 2397 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Chinese Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 2435 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Chinese Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 2591 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Chinese Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
+working in product with id 2690 --->  Pocket Color, Paper Type, Paper Color, Printing Type, Side, Reception Card, Chinese Card, Response Card, Languages, Outside Envelopes, RSVP Envelopes, Envelope Color, Upgrade: Print Envelopes, Upgrade: Invitation Card - Print 2nd Side, Upgrade: Base Trim/Backer, Base Trim / Backer Color, Upgrade: Assemble Layers, Upgrade: Additional Insert, Upgrade: Belly Band, Belly Band Color, Upgrade: Response Card - Print Envelopes, Artwork
 
 
 
 
-working in product with id 2240 with 24 boxes or inputs
-working in product with id 2245 with 24 boxes or inputs
+1790 ---> 0.022000,0.024000,0.028000,0.003000,0.006000,0.008000,0.000000,0.015000,0.000000,0.015000,0.020000,0.024000,0.030000,0.034000,0.016000,0.021000,0.032000,0.000000,0.000000,0.011000,0.000000,0.013000 ---> 22
 
 
 
 
-working in product with id 1791 with 2 boxes or rows
-working in product with id 1793 with 2 boxes or rows
-working in product with id 1796 with 2 boxes or rows
-working in product with id 1798 with 2 boxes or rows
-working in product with id 1799 with 2 boxes or rows
-working in product with id 1816 with 2 boxes or rows
-working in product with id 1821 with 2 boxes or rows
-working in product with id 1823 with 2 boxes or rows
-working in product with id 1825 with 2 boxes or rows
-working in product with id 1826 with 2 boxes or rows
-working in product with id 1827 with 2 boxes or rows
-working in product with id 1828 with 2 boxes or rows
-working in product with id 1988 with 2 boxes or rows
-working in product with id 1992 with 2 boxes or rows
-working in product with id 1994 with 2 boxes or rows
-working in product with id 2001 with 2 boxes or rows
-working in product with id 2008 with 2 boxes or rows
-working in product with id 2012 with 2 boxes or rows
-working in product with id 2014 with 2 boxes or rows
-working in product with id 2022 with 2 boxes or rows
-working in product with id 2024 with 2 boxes or rows
-working in product with id 2033 with 2 boxes or rows
-working in product with id 2034 with 2 boxes or rows
-working in product with id 2037 with 2 boxes or rows
-working in product with id 2045 with 2 boxes or rows
-working in product with id 2048 with 2 boxes or rows
-working in product with id 2054 with 2 boxes or rows
-working in product with id 2055 with 2 boxes or rows
-working in product with id 2057 with 2 boxes or rows
-working in product with id 2061 with 2 boxes or rows
-working in product with id 2065 with 2 boxes or rows
-working in product with id 2070 with 2 boxes or rows
-working in product with id 2076 with 2 boxes or rows
-working in product with id 2080 with 2 boxes or rows
-working in product with id 2082 with 2 boxes or rows
-working in product with id 2085 with 2 boxes or rows
-working in product with id 2087 with 2 boxes or rows
-working in product with id 2090 with 2 boxes or rows
-working in product with id 2093 with 2 boxes or rows
-working in product with id 2098 with 2 boxes or rows
-working in product with id 2117 with 2 boxes or rows
-working in product with id 2120 with 2 boxes or rows
-working in product with id 2123 with 2 boxes or rows
-working in product with id 2124 with 2 boxes or rows
-working in product with id 2125 with 2 boxes or rows
-working in product with id 2212 with 2 boxes or rows
-working in product with id 2215 with 2 boxes or rows
-working in product with id 2217 with 2 boxes or rows
-working in product with id 3688 with 2 boxes or rows
-working in product with id 2234 with 2 boxes or rows
-working in product with id 2235 with 2 boxes or rows
-working in product with id 2238 with 2 boxes or rows
-working in product with id 2240 with 2 boxes or rows
-working in product with id 2241 with 2 boxes or rows
-working in product with id 2242 with 2 boxes or rows
-working in product with id 2243 with 2 boxes or rows
-working in product with id 2245 with 2 boxes or rows
-working in product with id 2249 with 2 boxes or rows
-working in product with id 2252 with 2 boxes or rows
-working in product with id 2256 with 2 boxes or rows
-working in product with id 2258 with 2 boxes or rows
+working in product with id 1792 with 22 boxes or inputs
+working in product with id 1795 with 22 boxes or inputs
+working in product with id 1797 with 22 boxes or inputs
+working in product with id 1800 with 22 boxes or inputs
+working in product with id 1801 with 22 boxes or inputs
+working in product with id 1803 with 22 boxes or inputs
+working in product with id 1806 with 22 boxes or inputs
+working in product with id 1808 with 22 boxes or inputs
+working in product with id 1811 with 22 boxes or inputs
+working in product with id 1812 with 22 boxes or inputs
+working in product with id 1814 with 22 boxes or inputs
+working in product with id 2269 with 22 boxes or inputs
+working in product with id 2270 with 22 boxes or inputs
+working in product with id 2273 with 22 boxes or inputs
+working in product with id 2276 with 22 boxes or inputs
+working in product with id 2293 with 22 boxes or inputs
+working in product with id 2294 with 22 boxes or inputs
+working in product with id 2295 with 22 boxes or inputs
+working in product with id 2296 with 22 boxes or inputs
+working in product with id 2298 with 22 boxes or inputs
+working in product with id 2299 with 22 boxes or inputs
+working in product with id 2304 with 22 boxes or inputs
+working in product with id 2307 with 22 boxes or inputs
+working in product with id 2312 with 22 boxes or inputs
+working in product with id 2333 with 22 boxes or inputs
+working in product with id 2335 with 22 boxes or inputs
+working in product with id 2336 with 22 boxes or inputs
+working in product with id 2353 with 22 boxes or inputs
+working in product with id 2356 with 22 boxes or inputs
+working in product with id 2364 with 22 boxes or inputs
+working in product with id 2372 with 22 boxes or inputs
+working in product with id 2375 with 22 boxes or inputs
+working in product with id 2394 with 22 boxes or inputs
+working in product with id 2396 with 22 boxes or inputs
+working in product with id 2400 with 22 boxes or inputs
+working in product with id 2401 with 22 boxes or inputs
+working in product with id 2418 with 22 boxes or inputs
+working in product with id 2438 with 22 boxes or inputs
+working in product with id 2441 with 22 boxes or inputs
+working in product with id 2457 with 22 boxes or inputs
+working in product with id 2466 with 22 boxes or inputs
+working in product with id 2469 with 22 boxes or inputs
+working in product with id 2470 with 22 boxes or inputs
+working in product with id 2473 with 22 boxes or inputs
+working in product with id 2487 with 22 boxes or inputs
+working in product with id 2493 with 22 boxes or inputs
+working in product with id 2505 with 22 boxes or inputs
+working in product with id 2507 with 22 boxes or inputs
+working in product with id 2536 with 22 boxes or inputs
+working in product with id 2542 with 22 boxes or inputs
+working in product with id 2594 with 22 boxes or inputs
+working in product with id 2665 with 22 boxes or inputs
+working in product with id 2666 with 22 boxes or inputs
+working in product with id 2673 with 22 boxes or inputs
+working in product with id 2689 with 22 boxes or inputs
+working in product with id 2691 with 22 boxes or inputs
+working in product with id 2692 with 22 boxes or inputs
+working in product with id 2693 with 22 boxes or inputs
+working in product with id 2702 with 22 boxes or inputs
+working in product with id 2706 with 22 boxes or inputs
+working in product with id 4987 with 22 boxes or inputs
+working in product with id 4988 with 22 boxes or inputs
+working in product with id 4990 with 22 boxes or inputs
+working in product with id 6170 with 22 boxes or inputs
+
+
+
+
+2390 ---> 0.022000,0.024000,0.028000,0.003000,0.006000,0.008000,0.000000,0.015000,0.000000,0.028000,0.000000,0.015000,0.020000,0.024000,0.030000,0.034000,0.016000,0.021000,0.032000,0.000000,0.000000,0.011000,0.000000,0.013000 ---> 24
+
+
+
+working in product with id 2397 with 24 boxes or inputs
+working in product with id 2435 with 24 boxes or inputs
+working in product with id 2591 with 24 boxes or inputs
+working in product with id 2690 with 24 boxes or inputs
+
+
+
+working in product with id 1790 with 2 boxes or rows
+working in product with id 1792 with 2 boxes or rows
+working in product with id 1795 with 2 boxes or rows
+working in product with id 1797 with 2 boxes or rows
+working in product with id 1800 with 2 boxes or rows
+working in product with id 1801 with 2 boxes or rows
+working in product with id 1803 with 2 boxes or rows
+working in product with id 1806 with 2 boxes or rows
+working in product with id 1808 with 2 boxes or rows
+working in product with id 1811 with 2 boxes or rows
+working in product with id 1812 with 2 boxes or rows
+working in product with id 1814 with 2 boxes or rows
+working in product with id 2269 with 2 boxes or rows
+working in product with id 2270 with 2 boxes or rows
+working in product with id 2273 with 2 boxes or rows
+working in product with id 2276 with 2 boxes or rows
+working in product with id 2293 with 2 boxes or rows
+working in product with id 2294 with 2 boxes or rows
+working in product with id 2295 with 2 boxes or rows
+working in product with id 2296 with 2 boxes or rows
+working in product with id 2298 with 2 boxes or rows
+working in product with id 2299 with 2 boxes or rows
+working in product with id 2304 with 2 boxes or rows
+working in product with id 2307 with 2 boxes or rows
+working in product with id 2312 with 2 boxes or rows
+working in product with id 2333 with 2 boxes or rows
+working in product with id 2335 with 2 boxes or rows
+working in product with id 2336 with 2 boxes or rows
+working in product with id 2353 with 2 boxes or rows
+working in product with id 2356 with 2 boxes or rows
+working in product with id 2364 with 2 boxes or rows
+working in product with id 2372 with 2 boxes or rows
+working in product with id 2375 with 2 boxes or rows
+working in product with id 2390 with 2 boxes or rows
+working in product with id 2394 with 2 boxes or rows
+working in product with id 2396 with 2 boxes or rows
+working in product with id 2397 with 2 boxes or rows
+working in product with id 2400 with 2 boxes or rows
+working in product with id 2401 with 2 boxes or rows
+working in product with id 2418 with 2 boxes or rows
+working in product with id 2435 with 2 boxes or rows
+working in product with id 2438 with 2 boxes or rows
+working in product with id 2441 with 2 boxes or rows
+working in product with id 2457 with 2 boxes or rows
+working in product with id 2466 with 2 boxes or rows
+working in product with id 2469 with 2 boxes or rows
+working in product with id 2470 with 2 boxes or rows
+working in product with id 2473 with 2 boxes or rows
+working in product with id 2487 with 2 boxes or rows
+working in product with id 2493 with 2 boxes or rows
+working in product with id 2505 with 2 boxes or rows
+working in product with id 2507 with 2 boxes or rows
+working in product with id 2536 with 2 boxes or rows
+working in product with id 2542 with 2 boxes or rows
+working in product with id 2591 with 2 boxes or rows
+working in product with id 2594 with 2 boxes or rows
+working in product with id 2665 with 2 boxes or rows
+working in product with id 2666 with 2 boxes or rows
+working in product with id 2673 with 2 boxes or rows
+working in product with id 2689 with 2 boxes or rows
+working in product with id 2690 with 2 boxes or rows
+working in product with id 2691 with 2 boxes or rows
+working in product with id 2692 with 2 boxes or rows
+working in product with id 2693 with 2 boxes or rows
+working in product with id 2702 with 2 boxes or rows
+working in product with id 2706 with 2 boxes or rows
+working in product with id 4987 with 2 boxes or rows
+working in product with id 4988 with 2 boxes or rows
+working in product with id 4990 with 2 boxes or rows
+working in product with id 6170 with 2 boxes or rows

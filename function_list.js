@@ -565,7 +565,7 @@ export const changeProductWeightWithOptions = async (page) => {
         spanValue === " Upgrade: Base Trim/Backer" ||
         spanValue === " Upgrade: Assemble Layers" ||
         spanValue === " Upgrade: Additional Insert"
-        // spanValue === " Upgrade: Belly Band"
+        // spanValue === " Upgrade: Belly Band" ||
         // spanValue === " Upgrade: Ribbons"
       ) {
         flag.push(index);
