@@ -555,17 +555,28 @@ export const changeProductWeightWithOptions = async (page) => {
       const span = await checkbox.$("span");
       const spanValue = await span.innerText();
       if (
-        spanValue === " Paper Type" ||
-        spanValue === " Printing Type" ||
-        spanValue === " Chinese Card" ||
+        // spanValue === " Matching Reception Card" ||
+        // spanValue === " Paper Type" ||
+        // spanValue === " Printing Type" ||
+        // spanValue === " Chinese Card" ||
         spanValue === " Reception Card" ||
         spanValue === " Response Card" ||
-        spanValue === " Outside Envelopes" ||
-        spanValue === " RSVP Envelopes" ||
-        spanValue === " Upgrade: Base Trim/Backer" ||
-        spanValue === " Upgrade: Assemble Layers" ||
-        spanValue === " Upgrade: Additional Insert"
-        // spanValue === " Upgrade: Belly Band" ||
+        spanValue === " Upgrade: Invitation Card - Print Envelopes" ||
+        spanValue === " Upgrade: Invitation Card - Insert Paper" ||
+        spanValue === " Upgrade: Invitation Card - Assemble Layers" ||
+        spanValue === " Upgrade: Response Card - Print Envelopes" ||
+        spanValue === " Additional Accessory: Accommodation Card" ||
+        spanValue === " Additional Accessory: Information Card" ||
+        spanValue === " Additional Accessory: Direction Card"
+        // spanValue === " Insert Paper" ||
+        // spanValue === " Print Envelopes - Invitation Card" ||
+        // spanValue === " Print Envelopes - Response Card"
+        // spanValue === " Outside Envelopes" ||
+        // spanValue === " RSVP Envelopes" ||
+        // spanValue === " Upgrade: Base Trim/Backer" ||
+        // spanValue === " Upgrade: Assemble Layers" ||
+        // spanValue === " Upgrade: Additional Insert" ||
+        // spanValue === " Upgrade: Belly Band"
         // spanValue === " Upgrade: Ribbons"
       ) {
         flag.push(index);
@@ -581,7 +592,7 @@ export const changeProductWeightWithOptions = async (page) => {
     await checkboxes[flag[6]].click();
     await checkboxes[flag[7]].click();
     await checkboxes[flag[8]].click();
-    await checkboxes[flag[9]].click();
+    // await checkboxes[flag[9]].click();
     // await checkboxes[flag[10]].click();
     // await checkboxes[flag[11]].click();
 
