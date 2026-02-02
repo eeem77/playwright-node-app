@@ -1,62 +1,13 @@
-589, CHASE-SQ-ECRU-AI [I-12] Pocket & Folder Invitation, 1
-742, PSQ-77-MMM-2WL Botanic, Lime, Poison Ivory Pocket & Folder Invitation, 1
-751, O2P-57-M-M Midnight Blue, Ice Silver Pocket & Folder Invitation, 1
-754, PAL-BL-57-MMN Crystal, Bronze, Coral Pocket & Folder Invitation, 1
-796, PSQ-77-MNM-EF-RD6 Gold, Fizz, Poison Ivory Pocket & Folder Invitation, 1
-719, Paneled Heart [CC-35] Pocket & Folder Invitation, 1
-744, PSQ-77-NNN-2WL Coral, Cotton Candy, Bubblegum Pocket & Folder Invitation, 1
-654, PAL-57-MMM Sapphire, Mandarin, White Gold Pocket & Folder Invitation, 1
-677, Slider 57 MMN Onyx, Gold Linen, Natural Linen Pocket & Folder Invitation, 1
-745, PSQ-77-MMM-2WL Silver, Mars, Poison Ivory Pocket & Folder Invitation, 1
-743, PSQ-77-MMM-2WL Fairway, Kunzite, Quartz Pocket & Folder Invitation, 1
-797, PSQ-77-MMM-EF-RD6 Mars, Gold, Quartz Pocket & Folder Invitation, 1
-711, Happily Ever After [CC-15] Pocket & Folder Invitation, 1
-732, CHASE-SQ-ECRU-DR2 [I-12] Pocket & Folder Invitation, 1
-655, PAL-57-MMM Ruby, Silver, Silk Pocket & Folder Invitation, 1
-679, SLIDER-57-NMN Blue, Gold Linen, Natural Linen Pocket & Folder Invitation, 1
-717, Love Grows [CC-15] Pocket & Folder Invitation, 1
-749, O2P-57-N-N Red, Natural, Gold Leaf Pocket & Folder Invitation, 1
-728, Wrapped in Gold [CC-65] Pocket & Folder Invitation, 1
-803, Baroque Brilliance [CC-88] Pocket & Folder Invitation, 1
-656, PAL-57-MMM Silver, Amethyst, Ice Silver Pocket & Folder Invitation, 1
-682, SLIDER-66-NMM Black, Amethyst, Silk Pocket & Folder Invitation, 1
-657, PAL-57-MMN Gold Leaf, Bronze, White Linen Pocket & Folder Invitation, 1
-791, CTF-58-MMM Azalea, Gold, Quartz Pocket & Folder Invitation, 1
-805, Joyful Details [CC-81] Pocket & Folder Invitation, 1
-792, CTF-58-N-N Blue, White Pocket & Folder Invitation, 1
-752, PAL-BL-57-MMM Crystal, Azalea, White Gold Pocket & Folder Invitation, 1
-793, CTF-58-M-M Mars, Quartz Pocket & Folder Invitation, 1
-755, PAL-BL-57-MMM Crystal, Ionised, Crystal Pocket & Folder Invitation, 1
-794, CTF-68-N-N Red, Natural Pocket & Folder Invitation, 1
-660, PAL-66-MMM Crystal, Ionised, Quartz Pocket & Folder Invitation, 1
-847, Monogram Flourish, Black Pocket, White Shimmer [CC-81] Pocket & Folder Invitation, 1
-810, Butterfly Wishes [CC-15] Pocket & Folder Invitation, 1
-663, PAL-66-MMM Onyx, Flame, Quartz Pocket & Folder Invitation, 1
-884, Leaf Swirl Seal & Send [CC-50] Pocket & Folder Invitation, 1
-756, PAL-BL-57-MMM Jupiter, Ionised, Crystal Pocket & Folder Invitation, 1
-873, Typography Inspiration [CC-75] Pocket & Folder Invitation, 1
-664, PAL-66-MMM Quartz, Ruby, Gold Leaf Pocket & Folder Invitation, 1
-845, Lovely Sophisticate [CC-20] Pocket & Folder Invitation, 1
-886, Marriage Celebration Seal & Send [CC-30] Pocket & Folder Invitation, 1
-665, PAL-66-MMM Quartz, Violette, Serpentine Pocket & Folder Invitation, 1
-869, Traditional Grace [CC-02] Pocket & Folder Invitation, 1
-870, Traditional Panel Grace [CC-02] Pocket & Folder Invitation, 1
-887, Retro Typography Seal & Send [CC-30] Pocket & Folder Invitation, 1
-871, Tropical Sunset [CC-15] Pocket & Folder Invitation, 1
-667, PAL-66-MNN Amethyst, Purple, White Linen Pocket & Folder Invitation, 1
-888, Simply Perfect Seal & Send [CC-04] Pocket & Folder Invitation, 1
-889, Sophisticated Style Ecru Seal & Send [CC-20] Pocket & Folder Invitation, 1
-669, PAL-66-NMM Dark Grey, Purple, Silk Pocket & Folder Invitation, 1
-671, PAL-R-57-MMM-Band Azalea, Gold, Opal Pocket & Folder Invitation, 1
-672, PAL-R-57-MMM Azalea, Ionised, Ice Silver Pocket & Folder Invitation, 1
-673, PAL-R-57-MMM Rose Quartz, Azalea, Ice Silver Pocket & Folder Invitation, 1
-675, PAL-V-57-MMM Gold, Red Lacquer, Ice Gold Pocket & Folder Invitation, 1
-684, PAL-57-MNN-Overlay Serpentine, Salmon, Linen Pocket & Folder Invitation, 1
-703, Bright Spirit [CC-70] Pocket & Folder Invitation, 1
-706, Distinctive Dots [CC-70] Pocket & Folder Invitation, 1
-726, Treasured Love [CC-65] Pocket & Folder Invitation, 1
+605, K7017 [I-10] Bilingual Wedding Invitation, 1
+610, K7105-Overlay [I-13] Vietnamese & English Wedding Invitation [ White Elegant Vietnamese Invitation card ], 1
+648, T511LT [I-17] Vietnamese & English Wedding Invitation, 1
+905, CL-SLIDER-57 M-N White Lotus with Ribbon Laser Cut Wedding Invitation, 1
+907, CL-PF-57 MMM White Peacock Feather Pocket Laser Cut Wedding Invitation, 1
+926, Swirl Leaf Gate Laser Cut Wedding Invitation, 1
 195, PAL-57-MMM Amethyst, Gold Leaf Pocket & Folder Invitation, 1
-588, CHASE-SQ-SH-HEART [I-12] Pocket & Folder Invitation, 1
+662, PAL-66-MMM Jupiter, Onyx, Ice Silver Bilingual Wedding Invitation, 1
+741, PSQ-77-NMM-2WL Overlay Coral, Gold, White Gold Bilingual Wedding Invitation, 1
+748, O2P-57-N-N-Band Red, Natural, Gold Leaf Bilingual Wedding Invitation, 1
 1148, Lavender Metallic Pocket & Folder Invitation Card, A7 Atlas, 1
 1149, A7 Atlas Classic Avalanche White Felt Pocket & Folder Invitation, 1
 1150, A7 Atlas Warm White Felt Pocket & Folder Invitation, 1
@@ -452,19 +403,35 @@
 1606, Chocolate 100 lb Brown Solid Pocket & Folder Invitation Card, A2 Sierra, 1
 1607, Dark Purple 80 lb Solid Pocket & Folder Invitation Card, A2 Sierra, 1
 1608, Razzle Pink 100 lb Solid Pocket & Folder Invitation Card, A2 Sierra, 1
-1061, White Laser Cut Wrap with Ribbon Wedding Invitation, 1
-1062, White Heart Diamond Drop Laser Cut Wedding Invitation, 1
-1063, Gold Foil Damask Laser Cut Pocket Wedding Invitation, 1
-1064, Gorgeous Lace Foil Laser Cut Wedding Invitation, 1
-1065, Purple Laser Cut Pattern Wedding Invitation, 1
-1066, Lace Tri-Fold Embossing and Laser Cut Pocket Wedding Invitation, 1
-1067, Luxurious Gold Floral Laser Cut Wedding Invitation, 1
-1068, Silver & Floral Tri-Fold Laser Cut Pocket Wedding Invitations [ Silver & Floral Tri-Fold Laser Cut Pocket Wedding Invitations ], 1
-1069, Pearl White Laser Cut Pocket Wedding Invitation, 1
-1070, Ivory Floral Laser Cut Wrap Wedding Invitation, 1
-1071, Gold Heart Flourish Pocket Laser Cut Vietnamese & English Wedding Invitation, 1
-1072, CL-WRAP-66 N-M Ecru Hearts and Cog Circles Laser Cut Wedding Invitation, 1
-1073, CL-WRAP-66 MPM White Table Setting Lace Laser Cut Wedding Invitation, 1
-1074, Ivory Lace Vine Laser Cut Wedding Invitation, 1
-1075, Rustic Brown Laser Cut Wedding Invitation, 1
 1354, A7 Cascade Classic Avalanche White Felt Pocket & Folder Invitation, 1
+1105, Burgundy and White Peony Spanish & English Wedding Invitation, 1
+606, K781 [I-10] Vietnamese & English Wedding Invitation, 1
+611, K7532 [I-11] Vietnamese & English Wedding Invitation, 1
+620, K8107 [I-12] Vietnamese & English Wedding Invitation, 1
+731, Fancy Pearl Border [CC-25] Vietnamese & English Wedding Invitation, 1
+800, K778-Overlay [I-12] Vietnamese & English Wedding Invitation, 1
+885, Fancy Pearl Border Overlay [CC-25] Vietnamese & English Wedding Invitation, 1
+901, CL-PF-57 M-M White Heart Flourish Pocket Laser Cut Wedding Invitation, 1
+903, CL-SLIDER-57 N-M White Flowers, Lace Trims Laser Cut Wedding Invitation, 1
+908, CL-WRAP-57 M-N White Flourish Wrap with Ribbon Laser Cut Wedding Invitation, 1
+910, CL-WRAP-57 M-M Gold Flowers and Butterfly Wrap Laser Cut Wedding Invitation, 1
+911, CL-PF-57 M-M Gold Heart Diamond Drop Laser Cut Wedding Invitation, 1
+916, CL-WRAP-66 M-N White Brush Leaves Wrap Laser Cut Wedding Invitation, 1
+920, CL-SLIDER-66 MMM White Fleur De Lis Laser Cut Wedding Invitation, 1
+921, CL-WRAP-66 M-M Midnight Variety of Flowers Laser Cut Wedding Invitation, 1
+931, Blush Lace Crown Laser Cut Wedding Invitation, 1
+932, Blush Laser Cut Envelope with Glittery Border Wedding Invitation, 1
+933, Blush Rose Laser Cut Wedding Invitation, 1
+935, Blush Rose with Silver Glitter Laser Cut Wedding Invitation, 1
+936, Blush Semicircle Floral Laser Cut Wedding Invitation, 1
+937, Bride and Groom under Heart Tree Laser Cut Wedding Invitation, 1
+938, Bride and Groom under Tree Laser Cut Wedding Invitation, 1
+939, Burgundy and Gold Vine Laser Cut Wrap Wedding Invitation, 1
+940, Burgundy Lace Tri-Fold Laser Cut Pocket Wedding Invitation, 1
+947, Elegant Lace Laser Cut Pocket Wedding Invitation, 1
+948, Elegant Tree Laser Cut Wedding Invitation, 1
+950, Exquisite Lace Vine Tri-Fold Laser Cut Pocket Wedding Invitation, 1
+951, Flower Square Laser Cut Wedding Invitation, 1
+952, Glittering Navy Lace Laser Cut Wedding Invitation, 1
+953, Glittery Lace Laser Cut Pocket Wedding Invitation, 1
+801, K778-Wrap [I-12] Vietnamese & English Wedding Invitation, 1

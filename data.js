@@ -1,9 +1,6 @@
 export const url = "https://www.apprinting.com/admin/";
 
-export const idProducts = [
-  751, 
-  749, 791, 792, 793, 794
-];
+export const idProducts = [605, 610, 648, 662, 741, 748];
 
 export const quantityBasedPrice = ["12.92", "12.82", "12.72"];
 
