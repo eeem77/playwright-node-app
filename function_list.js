@@ -561,6 +561,7 @@ export const changeProductWeightWithOptions = async (page) => {
         // spanValue === " Chinese Card" ||
         spanValue === " Reception Card" ||
         spanValue === " Response Card" ||
+        spanValue === " Upgrade: Invitation Card - Base Trim Inside Card" ||
         spanValue === " Upgrade: Invitation Card - Print Envelopes" ||
         spanValue === " Upgrade: Invitation Card - Insert Paper" ||
         spanValue === " Upgrade: Invitation Card - Assemble Layers" ||
@@ -592,7 +593,7 @@ export const changeProductWeightWithOptions = async (page) => {
     await checkboxes[flag[6]].click();
     await checkboxes[flag[7]].click();
     await checkboxes[flag[8]].click();
-    // await checkboxes[flag[9]].click();
+    await checkboxes[flag[9]].click();
     // await checkboxes[flag[10]].click();
     // await checkboxes[flag[11]].click();
 
