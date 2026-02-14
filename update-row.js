@@ -114,8 +114,8 @@ const updateRow = async () => {
   // Changue Product Weight
   await login(page);
   // await getIdProductsAdmin(page, "");
-  await getcheckboxesLabelProductWeightWithOptions(page);
-  // await getProductWeight(page);
+  // await getcheckboxesLabelProductWeightWithOptions(page);
+  await getProductWeight(page);
   // await changeProductWeight(page);
   // await cleanProductWeightWithOptions(page);
   // await changeProductWeightWithOptions(page);

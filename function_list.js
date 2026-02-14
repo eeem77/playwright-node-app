@@ -555,23 +555,32 @@ export const changeProductWeightWithOptions = async (page) => {
       const span = await checkbox.$("span");
       const spanValue = await span.innerText();
       if (
+        spanValue === " Reception Card [M2]" ||
+        spanValue === " Response Card" ||
+        spanValue === " Upgrade: Invitation Card - Wrap 7x7" ||
+        spanValue === " Upgrade: Invitation Card - Wrap 6x6" ||
+        spanValue === " Upgrade: Invitation Card - Overlay 5x7" ||
+        spanValue === " Upgrade: Invitation Card - Overlay 6x6 7x7" ||
+        spanValue === " Upgrade: Invitation Card - Ribbons for Overlay" ||
+        spanValue ===
+          " Upgrade: Invitation Card - Ribbons for 5x5 Fold Cards" ||
+        spanValue === " Upgrade: Invitation Card - Assemble Layers" ||
+        spanValue === " Upgrade: Invitation Card - Assemble Ribbon" ||
+        spanValue === " Upgrade: Invitation Card - Print Envelopes" ||
+        spanValue === " Upgrade: Response Card - Print Envelopes"
         // spanValue === " Matching Reception Card" ||
         // spanValue === " Paper Type" ||
         // spanValue === " Printing Type" ||
         // spanValue === " Chinese Card" ||
-        spanValue === " Reception Card" ||
-        spanValue === " Response Card" ||
-        spanValue === " Upgrade: Invitation Card - Base Trim Inside Card" ||
-        spanValue === " Upgrade: Invitation Card - Print Envelopes" ||
-        spanValue === " Upgrade: Invitation Card - Insert Paper" ||
-        spanValue === " Upgrade: Invitation Card - Assemble Layers" ||
-        spanValue === " Upgrade: Response Card - Print Envelopes" ||
-        spanValue === " Additional Accessory: Accommodation Card" ||
-        spanValue === " Additional Accessory: Information Card" ||
-        spanValue === " Additional Accessory: Direction Card"
+        // spanValue === " Reception Card" ||
         // spanValue === " Insert Paper" ||
         // spanValue === " Print Envelopes - Invitation Card" ||
         // spanValue === " Print Envelopes - Response Card"
+        // spanValue === " Upgrade: Invitation Card - Base Trim Inside Card" ||
+        // spanValue === " Upgrade: Invitation Card - Insert Paper" ||
+        // spanValue === " Additional Accessory: Accommodation Card" ||
+        // spanValue === " Additional Accessory: Information Card" ||
+        // spanValue === " Additional Accessory: Direction Card"
         // spanValue === " Outside Envelopes" ||
         // spanValue === " RSVP Envelopes" ||
         // spanValue === " Upgrade: Base Trim/Backer" ||
@@ -594,8 +603,8 @@ export const changeProductWeightWithOptions = async (page) => {
     await checkboxes[flag[7]].click();
     await checkboxes[flag[8]].click();
     await checkboxes[flag[9]].click();
-    // await checkboxes[flag[10]].click();
-    // await checkboxes[flag[11]].click();
+    await checkboxes[flag[10]].click();
+    await checkboxes[flag[11]].click();
 
     const setConfigSelectOption = await page.$('[name="submitoption"]');
     // await waitForSelector(setConfigSelectOption);
