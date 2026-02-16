@@ -6,7 +6,6 @@
 585, ART-80494 [I-09] Flowers Wedding Invitation, 1
 587, ART-84044 [I-11] Flowers Wedding Invitation, 1
 598, K1618 [I-11] Timeless Elegance Flowers Wedding Invitation, 1
-609, K2615 [I-10] Flowers Sophistication Wedding Invitation, 1
 624, K8358 [I-12] Lavender Love Flowers Wedding Invitation, 1
 627, K8455 [I-11] Serenade of Flowers Wedding Invitation, 1
 977, Olive Garden Flowers Wedding Invitation, 1
@@ -21,18 +20,22 @@
 643, K9649 [I-11] Enchanted Petals & Flowers Wedding Invitation, 1
 644, K9659 [I-11] Soulful Blooms Flowers Wedding Invitation, 1
 647, K9995 [I-10] Botanical Elegance Flowers Wedding Invitation, 1
-651, T1402 [I-15] Silk Flowers Beauty Wedding Invitation, 1
-652, K8071 [I-10] Flowers Symphony Wedding Invitation, 1
 704, Deco Art [CC-55] Romantic Petal Cascade Flowers Wedding Invitation, 1
 705, Delicate Blossoms [CC-35] Fresh Flowers Wedding Invitation, 1
 708, [CC-20] Figured Letters Flowers Wedding Invitation, 1
 718, [CC-25] Naturally Sweet Flowers Wedding Invitation, 1
-720, [CC-05] Pearlized Filigree Border Floral Wedding Invitation, 1
 724, [CC-25] Swirling Romance Flowers Wedding Invitation, 1
 730, [CC-20] Swirled in Silver Flowers Wedding Invitation, 1
-809, [CC-15] Bright White Calla Lily Floral Wedding Invitation, 1
 822, [CC-26] Exquisite Poetry Flowers Wedding Invitation, 1
 828, [CC-20] Filigree Splash Flowers Wedding Invitation, 1
 840, [CC-26] Lace Shimmers Flowers Wedding Invitation, 1
 865, [CC-26] Swirl of Gold Flowers Wedding Invitation, 1
+
+
+
+609, K2615 [I-10] Flowers Sophistication Wedding Invitation, 1
+651, T1402 [I-15] Silk Flowers Beauty Wedding Invitation, 1
+652, K8071 [I-10] Flowers Symphony Wedding Invitation, 1
+720, [CC-05] Pearlized Filigree Border Floral Wedding Invitation, 1
+809, [CC-15] Bright White Calla Lily Floral Wedding Invitation, 1
 1083, Floral and Geometric Spanish & English Elegant Flowers, 1

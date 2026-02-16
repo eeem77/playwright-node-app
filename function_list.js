@@ -563,11 +563,19 @@ export const changeProductWeightWithOptions = async (page) => {
         spanValue === " Upgrade: Invitation Card - Overlay 6x6 7x7" ||
         spanValue === " Upgrade: Invitation Card - Ribbons for Overlay" ||
         spanValue ===
-          " Upgrade: Invitation Card - Ribbons for 5x5 Fold Cards" ||
+        " Upgrade: Invitation Card - Ribbons for 5x5 Fold Cards" ||
         spanValue === " Upgrade: Invitation Card - Assemble Layers" ||
         spanValue === " Upgrade: Invitation Card - Assemble Ribbon" ||
         spanValue === " Upgrade: Invitation Card - Print Envelopes" ||
         spanValue === " Upgrade: Response Card - Print Envelopes"
+
+        // spanValue === " Upgrade: Invitation Card - Insert Paper" ||
+        // spanValue === " Upgrade: Invitation Card - Print on Wrap" ||
+        // spanValue === " Upgrade: Invitation Card - Ribbons for Wrap" ||
+        // spanValue === " Upgrade: Invitation Card - Overlay 7x7 Bend" ||
+        // spanValue === " Upgrade: Invitation Card - Overlay 7x7" ||
+        // spanValue === " Upgrade: Invitation Card - Print on Overlay" ||
+
         // spanValue === " Matching Reception Card" ||
         // spanValue === " Paper Type" ||
         // spanValue === " Printing Type" ||
@@ -577,7 +585,6 @@ export const changeProductWeightWithOptions = async (page) => {
         // spanValue === " Print Envelopes - Invitation Card" ||
         // spanValue === " Print Envelopes - Response Card"
         // spanValue === " Upgrade: Invitation Card - Base Trim Inside Card" ||
-        // spanValue === " Upgrade: Invitation Card - Insert Paper" ||
         // spanValue === " Additional Accessory: Accommodation Card" ||
         // spanValue === " Additional Accessory: Information Card" ||
         // spanValue === " Additional Accessory: Direction Card"
@@ -605,6 +612,10 @@ export const changeProductWeightWithOptions = async (page) => {
     await checkboxes[flag[9]].click();
     await checkboxes[flag[10]].click();
     await checkboxes[flag[11]].click();
+    // await checkboxes[flag[12]].click();
+    // await checkboxes[flag[13]].click();
+    // await checkboxes[flag[14]].click();
+    // await checkboxes[flag[15]].click();
 
     const setConfigSelectOption = await page.$('[name="submitoption"]');
     // await waitForSelector(setConfigSelectOption);
