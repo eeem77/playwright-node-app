@@ -3003,38 +3003,39 @@ export const updateOptionsPricesProducts = async (page) => {
 
     const sectionGroup = await page.$('[id^="prod_add_opt_id:"]');
     if (sectionGroup) await btnMenuAction(page, sectionGroup, 1);
-    await page.waitForTimeout(3000);
+    await page.waitForTimeout(5000);
 
-    let selectSize = await page.$("#sel_product_size");
-    const optionsSize = await selectSize.$$("option");
+    // let selectSize = await page.$("#sel_product_size");
+    // const optionsSize = await selectSize.$$("option");
 
-    let optionsSizeValue = [];
-    for await (const size of optionsSize) {
-      const value = await size.getAttribute("value");
-      if (value !== "Common Price For All Size") {
-        optionsSizeValue.push(value);
-      }
-    }
+    // let optionsSizeValue = ["Common Price For All Size"];
+    // for await (const size of optionsSize) {
+    //   const value = await size.getAttribute("value");
+    //   if (value === "Common Price For All Size") {
+    //     optionsSizeValue.push(value);
+    //   }
+    // }
 
     let selectOptions = await page.$("#product_view_options");
     const options = await selectOptions.$$("option");
     let optionsValue = [];
     for await (const option of options) {
-      const value = await option.getAttribute("value");
+      const value = await option.getAttribute("title");
       optionsValue.push(value);
     }
-    console.log(optionsSizeValue, optionsValue);
+    console.log(optionsValue);
 
-    for (let index = 0; index < optionsSizeValue.length; index++) {
-      selectSize = await page.$("#sel_product_size");
-      await selectSize.selectOption(optionsSizeValue[index]);
-      await page.waitForTimeout(3000);
+    // for (let index = 0; index < optionsSizeValue.length; index++) {
+      // selectSize = await page.$("#sel_product_size");
+      // await selectSize.selectOption(optionsSizeValue[index]);
+      // await page.waitForTimeout(3000);
       for await (const element of optionsValue) {
         try {
-          await page.waitForSelector("#product_view_options");
-          selectSize = await page.$("#product_view_options");
+          // await page.waitForSelector("#product_view_options");
+          await page.waitForTimeout(5000);
+          selectOptions = await page.$("#product_view_options");
 
-          await selectSize.selectOption(element);
+          await selectOptions.selectOption(element);
           await page.waitForSelector(".table-responsive");
           await page.waitForTimeout(3000);
 
@@ -3055,7 +3056,7 @@ export const updateOptionsPricesProducts = async (page) => {
           console.log("ERROR PRODUCT OPTIONS");
         }
       }
-    }
+    // }
     // let report = pricesModel.toString();
     fs.appendFileSync("list-update-prices.txt", `${id}\n`);
   }
