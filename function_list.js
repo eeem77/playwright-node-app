@@ -3005,34 +3005,34 @@ export const updateOptionsPricesProducts = async (page) => {
     if (sectionGroup) await btnMenuAction(page, sectionGroup, 1);
     await page.waitForTimeout(5000);
 
-    // let selectSize = await page.$("#sel_product_size");
-    // const optionsSize = await selectSize.$$("option");
+    let selectSize = await page.$("#sel_product_size");
+    const optionsSize = await selectSize.$$("option");
 
-    // let optionsSizeValue = ["Common Price For All Size"];
-    // for await (const size of optionsSize) {
-    //   const value = await size.getAttribute("value");
-    //   if (value === "Common Price For All Size") {
-    //     optionsSizeValue.push(value);
-    //   }
-    // }
+    let optionsSizeValue = [];
+    for await (const size of optionsSize) {
+      const value = await size.getAttribute("value");
+      // if (value === "Common Price For All Size") {
+        optionsSizeValue.push(value);
+      // }
+    }
 
     let selectOptions = await page.$("#product_view_options");
     const options = await selectOptions.$$("option");
     let optionsValue = [];
     for await (const option of options) {
-      const value = await option.getAttribute("title");
+      const value = await option.getAttribute("value");
       optionsValue.push(value);
     }
-    console.log(optionsValue);
+    console.log("Working in product: ",id);
 
-    // for (let index = 0; index < optionsSizeValue.length; index++) {
-      // selectSize = await page.$("#sel_product_size");
-      // await selectSize.selectOption(optionsSizeValue[index]);
-      // await page.waitForTimeout(3000);
+    for (let index = 0; index < optionsSizeValue.length; index++) {
+      selectSize = await page.$("#sel_product_size");
+      await selectSize.selectOption(optionsSizeValue[index]);
+      await page.waitForTimeout(3000);
       for await (const element of optionsValue) {
         try {
           // await page.waitForSelector("#product_view_options");
-          await page.waitForTimeout(5000);
+          await page.waitForTimeout(3000);
           selectOptions = await page.$("#product_view_options");
 
           await selectOptions.selectOption(element);
@@ -3041,10 +3041,17 @@ export const updateOptionsPricesProducts = async (page) => {
 
           const prices = await page.$$('[id^="txtprice"]');
 
-          for await (const element of prices) {
-            await element.fill(newPrices[newPriceIndex].toString());
-            newPriceIndex++;
+          if (optionsSizeValue[index] === "0"){
+            for await (const element of prices) {
+              await element.fill(newPrices[newPriceIndex].toString());
+              newPriceIndex++;
+            }
+          } else {
+            for await (const element of prices) {
+              await element.fill("0");
+            }
           }
+            
           const saveBtn = await page.$("#btn-action-save");
           await saveBtn.click();
           await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
@@ -3056,7 +3063,7 @@ export const updateOptionsPricesProducts = async (page) => {
           console.log("ERROR PRODUCT OPTIONS");
         }
       }
-    // }
+    }
     // let report = pricesModel.toString();
     fs.appendFileSync("list-update-prices.txt", `${id}\n`);
   }

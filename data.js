@@ -1,6 +1,13 @@
 export const url = "https://www.apprinting.com/admin/";
 
-export const idProducts = [4025, 4302, 4307, 4308, 4615, 1124, 5607];
+export const idProducts = [
+  //Painted Edge Business Cards (Secundary)
+  4318, 
+  4027, 4418, 4457, 4458, 4539, 4284, 3694, 3860,
+  
+  //Painted Edge Business Cards (Primary)
+  4025, 4302, 4307, 4308, 4615, 1124, 5607
+];
 
 export const quantityBasedPrice = ["12.92", "12.82", "12.72"];
 
