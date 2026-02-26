@@ -140,7 +140,9 @@ const updateRow = async () => {
   
   // GET & UPDATE PRICES PRODUCTS
   await login(page);
-  await getUrlProducts(page);
+  // await getUrlProducts(page);
+  // await updatePricesProducts(page)
+  await updateOptionsPricesProducts(page);
   // await getIdProductsAdmin(
   //   page,
   //   ""
@@ -152,8 +154,6 @@ const updateRow = async () => {
   // await getModelPricesProducts(page);
   // await getTotalModelPricesProducts(page);
   // await getAttributes(page);
-  // await updatePricesProducts(page)
-  // await updateOptionsPricesProducts(page);
   // await getIdProducts(page);
   // await getIdProductsAdmin(
   //   page,

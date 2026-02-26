@@ -3020,7 +3020,7 @@ export const updateOptionsPricesProducts = async (page) => {
     const options = await selectOptions.$$("option");
     let optionsValue = [];
     for await (const option of options) {
-      const value = await option.getAttribute("value");
+      const value = await option.getAttribute("title");
       optionsValue.push(value);
     }
     console.log("Working in product: ",id);
@@ -3041,7 +3041,13 @@ export const updateOptionsPricesProducts = async (page) => {
 
           const prices = await page.$$('[id^="txtprice"]');
 
-          if (optionsSizeValue[index] === "0"){
+          if (
+            optionsSizeValue[index] === "0" &&
+            (element === "Paper Type" ||
+              element === "Printed Side" ||
+              element === "Rounded Corners" ||
+              element === "Artwork")
+          ) {
             for await (const element of prices) {
               await element.fill(newPrices[newPriceIndex].toString());
               newPriceIndex++;
@@ -3075,6 +3081,8 @@ export const updatePricesProducts = async (page) => {
       `https://www.apprinting.com/admin/product_price.php?product_id=${id}`,
       { timeout: 300000 }
     );
+
+    // ADD PRICE UNIQUE TABLE
     const table = await page.$(".table-responsive");
     const prices = await table.$$('[data-label="Price"]');
     let index = 0;
@@ -3082,6 +3090,19 @@ export const updatePricesProducts = async (page) => {
       await inputPrice.fill(indexPrincipalNewPrices[index].toString());
       index++;
     }
+
+    // ADD BULK DATA SECTION
+    const addBulkData = await page.$$("#addbulkitem");
+    await addBulkData[1].click();
+    await page.waitForSelector("#fancyboxHelpContent");
+    const addBulkArea = await page.$("#fancyboxHelpContent");
+    const addBulkAreaText = await addBulkArea.$("textarea");
+    await addBulkAreaText.fill("100,0,0,6.99\n250,0,0,15.67\n500,0,0,22.07\n1000,0,0,29.08\n2500,0,0,72.7\n5000,0,0,145.4");
+    const addButton = await addBulkArea.$("button");
+    await addButton.click();
+    await page.waitForTimeout(3000);
+
+    // SAVE SECTION
     const saveBtn = await page.$("#btn-action-save");
     await saveBtn.click();
     await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
