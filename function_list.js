@@ -2017,7 +2017,10 @@ const checkArtworkOptions = async (page) => {
     if (
       trHtml.includes("PRINTING TIME") === true ||
       trHtml.includes("Printing Time") === true ||
-      trHtml.includes("printing time") === true
+      trHtml.includes("printing time") === true ||
+      trHtml.includes("PRODUCTION TIME") === true ||
+      trHtml.includes("Production Time") === true ||
+      trHtml.includes("production time") === true
     ) {
       await deleteArtworkOption(page, tr);
       await checkArtworkOptions(page);
@@ -2056,7 +2059,7 @@ const checkArtworkOptionsAudit = async (page) => {
 
 const createArtworkOption = async (page, id) => {
   await page.goto(
-    `https://www.apprinting.com/admin/product_additionalinfo_action.php?product_id=${id}`
+    `https://www.apprinting.com/admin/product_additionalinfo_action.php?product_id=${id}`,
   );
   await page.once("load", () => console.log("Page loaded!"));
   await page.waitForSelector("#frmqadditionalfieldaction");
@@ -2072,11 +2075,11 @@ const createArtworkOption = async (page, id) => {
   await addBulkDataContainer.waitForSelector("#bulktext_1");
   const addBulkDataInput = await addBulkDataContainer.$("#bulktext_1");
   await addBulkDataInput.fill(
-    "1 Business Day,10,0"
+    "1 Business Day,10,0",
     // "4 to 5 Business Days,10,0\n3 Business Days,20,0\n2 Business Days,30,0"
   );
   const addBulkDataButton = await addBulkDataContainer.$(
-    '[data-textarea="bulktext_1"]'
+    '[data-textarea="bulktext_1"]',
   );
   await addBulkDataButton.click();
 
@@ -2088,67 +2091,30 @@ const createArtworkOption = async (page, id) => {
   }
 
   await page.waitForSelector("#btn-action-save");
-  const saveBtn = await page.$("#btn-action-save");
+  let saveBtn = await page.$("#btn-action-save");
   await saveBtn.click();
   await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
     state: "visible",
   });
 
-  // WHIT PRICES
-  // await page.waitForSelector(".float-right.action_area");
-  // const attributePrice = await page.$(".float-right.action_area");
-  // await attributePrice.click();
+  // WHIT PRICES (Additional Options Price)
+  await page.waitForSelector(".float-right.action_area");
+  const attributePrice = await page.$(".float-right.action_area");
+  await attributePrice.click();
 
-  // await page.waitForSelector(".table-responsive");
+  await page.waitForSelector(".table-responsive");
+  let newPriceIndex = 0;
+  const prices = await page.$$('[id^="txtprice"]');
+  for await (const element of prices) {
+    await element.fill(newPrices[newPriceIndex].toString());
+    newPriceIndex++;
+  }
+  saveBtn = await page.$("#btn-action-save");
+  await saveBtn.click();
+  await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
+    state: "visible",
+  });
 
-  // let selectProductSize = await page.$("#sel_product_size");
-  // const selectProductSizeOptions = await selectProductSize.$$eval(
-  //   "option",
-  //   (node) => node.map((n) => n.getAttribute("value"))
-  // );
-  // let index = 0;
-  // for await (const selectOption of selectProductSizeOptions) {
-  //   selectProductSize = await page.$("#sel_product_size");
-  //   await selectProductSize.selectOption(selectOption);
-  //   await page.waitForSelector(".table-responsive");
-  //   if (selectOption !== "0") {
-  //     const attributePriceTable = await page.$$("tbody");
-  //     let tablePrices = 0;
-  //     for await (const element of attributePriceTable) {
-  //       // const inputs = await element.$$eval('[name^="txtprice"]', node => node.map( n => n.innerText));
-
-  //       const inputs = await element.$$('[name^="txtprice"]');
-  //       for await (const element of inputs) {
-  //         await element.fill(newPricesOption[index]);
-  //         index++;
-  //         // if (inputValue === "") inputValue = "0";
-  //         // fs.appendFileSync("list.txt", `${inputValue}\n`);
-  //         // console.log(inputValue);
-  //       }
-  //       tablePrices++;
-  //       // const checkPrice = await checkPrice(inputs, "");
-  //       // for await (const input of inputs) {
-  //       //   const value = await input.innerHTML();
-  //       //   console.log(value);
-  //       // }
-  //     }
-  //   }
-  //   const saveBtn = await page.$("#btn-action-save");
-  //   await saveBtn.click();
-  //   await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
-  //     state: "visible",
-  //   });
-  // }
-
-  // const tdInputsOne = await attributePriceTable[2].$$('input')
-  // const tdInputsTwo = await attributePriceTable[3].$$('input')
-
-  // await insertPrice(page, tdInputsOne, '30')
-  // await insertPrice(page, tdInputsTwo, '75')
-
-  // const btnActionSaveTwo = await page.$("#btn-action-save");
-  // await btnActionSaveTwo.click();
-  // await page.waitForSelector("#frmadditionalprice");
   // return true;
 };
 
@@ -3043,10 +3009,12 @@ export const updateOptionsPricesProducts = async (page) => {
 
           if (
             optionsSizeValue[index] === "0" &&
-            (element === "Paper Type" ||
+            (
+              // element === "Paper Type" ||
               element === "Printed Side" ||
-              element === "Rounded Corners" ||
-              element === "Artwork")
+              // element === "Rounded Corners" ||
+              element === "Artwork"
+            )
           ) {
             for await (const element of prices) {
               await element.fill(newPrices[newPriceIndex].toString());
@@ -3092,15 +3060,15 @@ export const updatePricesProducts = async (page) => {
     }
 
     // ADD BULK DATA SECTION
-    const addBulkData = await page.$$("#addbulkitem");
-    await addBulkData[1].click();
-    await page.waitForSelector("#fancyboxHelpContent");
-    const addBulkArea = await page.$("#fancyboxHelpContent");
-    const addBulkAreaText = await addBulkArea.$("textarea");
-    await addBulkAreaText.fill("100,0,0,6.99\n250,0,0,15.67\n500,0,0,22.07\n1000,0,0,29.08\n2500,0,0,72.7\n5000,0,0,145.4");
-    const addButton = await addBulkArea.$("button");
-    await addButton.click();
-    await page.waitForTimeout(3000);
+    // const addBulkData = await page.$$("#addbulkitem");
+    // await addBulkData[1].click();
+    // await page.waitForSelector("#fancyboxHelpContent");
+    // const addBulkArea = await page.$("#fancyboxHelpContent");
+    // const addBulkAreaText = await addBulkArea.$("textarea");
+    // await addBulkAreaText.fill("100,0,0,6.99\n250,0,0,15.67\n500,0,0,22.07\n1000,0,0,29.08\n2500,0,0,72.7\n5000,0,0,145.4");
+    // const addButton = await addBulkArea.$("button");
+    // await addButton.click();
+    // await page.waitForTimeout(3000);
 
     // SAVE SECTION
     const saveBtn = await page.$("#btn-action-save");
@@ -3127,7 +3095,7 @@ const removeHtmlTags = (str) => {
   return strClean;
 };
 
-export const updateAndCreateArtwork = async (page, ipProxy) => {
+export const updateAndCreateArtwork = async (page) => {
   for await (const id of idProducts) {
     await page.goto(
       `https://www.apprinting.com/admin/product_additionalinfo_list.php?product_id=${id}`
@@ -3148,6 +3116,30 @@ export const checkAndDeleteArtwork = async (page, ipProxy) => {
     await checkArtworkOptions(page, id);
     fs.appendFileSync("list.txt", `${report}\n`);
     console.log(report);
+  }
+};
+
+export const auditAdditionalOptions = async (page) => {
+  for await (const id of idProducts) {
+    await page.goto(
+      `https://www.apprinting.com/admin/product_additionalinfo_list.php?product_id=${id}`,
+    );
+    
+    await page.waitForSelector(".table-responsive");
+    const table = await page.$("#ops-table");
+    const tbody = await table.$("tbody");
+    const rows = await tbody.$$("tr");
+    let report = [];
+    for await (const row of rows){
+      const title = await row.$(".text-primary");
+      const titleValue = await title.innerText();
+      const sort = await row.$(".edit_sort");
+      const sortValue = await sort.innerText();
+      report.push(`{"title": "${titleValue}", "sort": ${sortValue}}`);
+    }
+
+    fs.appendFileSync("list.txt", `{"id": ${id}, "options": [${report}]},`);
+    console.log(`${id} ---> Working`);
   }
 };
 

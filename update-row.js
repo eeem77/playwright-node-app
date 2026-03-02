@@ -54,6 +54,7 @@ import {
   changeAllowFreeShippingProduct,
   getcheckboxesLabelProductWeightWithOptions,
   cleanProductWeightWithOptions,
+  auditAdditionalOptions,
 } from "./function_list.js";
 // import { proxies } from './data.js'
 // import fs from 'fs'
@@ -137,12 +138,12 @@ const updateRow = async () => {
   //   page,
   //   "https://www.apprinting.com/admin/product_listing.php?qfs=eyJzdGFydCI6MCwibGVuZ3RoIjoxMDAsIm9yZGVyIjpbWzQsImFzYyJdXSwic2VhcmNoIjp7InNlYXJjaCI6IiIsInNtYXJ0Ijp0cnVlLCJyZWdleCI6ZmFsc2UsImNhc2VJbnNlbnNpdGl2ZSI6dHJ1ZX0sImNvbHVtbnMiOlt7InZpc2libGUiOnRydWUsInNlYXJjaCI6eyJzZWFyY2giOiJrZXl3b3JkPSZjaWQ9ODgmcHJpY2VfZGVmaW5pbmdfbWV0aG9kPS0xJnByZWRlZmluZWRfcHJvZHVjdF90eXBlPTAiLCJzbWFydCI6dHJ1ZSwicmVnZXgiOmZhbHNlLCJjYXNlSW5zZW5zaXRpdmUiOnRydWV9fV19"
   // );
-  
+
   // GET & UPDATE PRICES PRODUCTS
-  await login(page);
+  // await login(page);
   // await getUrlProducts(page);
   // await updatePricesProducts(page)
-  await updateOptionsPricesProducts(page);
+  // await updateOptionsPricesProducts(page);
   // await getIdProductsAdmin(
   //   page,
   //   ""
@@ -176,6 +177,10 @@ const updateRow = async () => {
 
   // GET ID URL'S CLIENT
   // await getIdUrlClient(page);
+
+  // AUDIT OPTIONS PRODUCTS (TITLE & SORT)
+  await login(page);
+  await auditAdditionalOptions(page);
 
   // CHECK AND DELETE ARTWORK
   // try {
