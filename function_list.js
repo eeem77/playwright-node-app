@@ -746,6 +746,39 @@ export const getProductWeight = async (page) => {
   }
 };
 
+export const getProductWeightTableInfo = async (page) => {
+  for await (const id of idProducts) {
+    await page.goto(
+      `https://www.apprinting.com/admin/product_weight.php?product_id=${id}`,
+    );
+    await page.waitForTimeout(3000);
+    await page.waitForSelector(".table-responsive");
+    const table = await page.$("#page_table");
+    const tbody = await table.$("tbody")
+    const rows = await tbody.$$("tr")
+    
+    let productWeightTableInfo = [];
+    for await (const row of rows) {
+      const cols = await row.$$("td");
+      
+      const size = await cols[0].innerText();
+      const option = await cols[1].innerText();
+      // console.log(size, option);
+      productWeightTableInfo.push(size, option);
+    }
+    // With pagination
+    // await whitPagination(page, 2);
+    // await whitPagination(page, 3);
+    // await whitPagination(page, 4);
+    // await whitPagination(page, 5);
+    // await whitPagination(page, 6);
+    // await whitPagination(page, 7);
+
+    console.log(`working in product with id ${id}`);
+    fs.appendFileSync("list.txt", `${id} | ${productWeightTableInfo}\n`);
+  }
+};
+
 export const changeProductWeight = async (page) => {
   for await (const id of idProducts) {
     let count = 0;

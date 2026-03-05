@@ -56,6 +56,8 @@ import {
   cleanProductWeightWithOptions,
   auditAdditionalOptions,
   getChangedTitleProductWithArray,
+  getProductWeightTableInfo,
+  getTitleProduct,
 } from "./function_list.js";
 // import { proxies } from './data.js'
 // import fs from 'fs'
@@ -118,6 +120,7 @@ const updateRow = async () => {
   // await getIdProductsAdmin(page, "");
   // await getcheckboxesLabelProductWeightWithOptions(page);
   // await getProductWeight(page);
+  // await getProductWeightTableInfo(page);
   // await changeProductWeight(page);
   // await cleanProductWeightWithOptions(page);
   // await changeProductWeightWithOptions(page);
@@ -141,8 +144,8 @@ const updateRow = async () => {
   // );
 
   // GET & UPDATE PRICES PRODUCTS
-  // await login(page);
-  // await getUrlProducts(page);
+  await login(page);
+  await getUrlProducts(page);
   // await updatePricesProducts(page)
   // await updateOptionsPricesProducts(page);
   // await getIdProductsAdmin(
