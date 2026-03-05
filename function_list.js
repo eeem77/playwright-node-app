@@ -1052,18 +1052,23 @@ export const getChangedTitleProductWithArray = async (page) => {
       `https://www.apprinting.com/admin/product_action.php?product_id=${id}`,
       { timeout: 300000 }
     );
-    const responsePromise = page.waitForResponse(
-      `https://www.apprinting.com/admin/product_action.php?product_id=${id}`
-    );
-    const btnSave = await page.$("#btn-action-save");
+
+    await page.waitForSelector("#frmproduct");
+    await page.waitForSelector("#btn-action-save");
+    
     const title = await page.$("#products_title_1");
     const valueInput = await title.inputValue();
     const newTitle = titlesProducts[indexTitle];
     await title.fill(newTitle);
+    
+    const btnSave = await page.$("#btn-action-save");
     await btnSave.click();
-    // await page.waitForTimeout(3000);
-    await responsePromise;
+    await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
+      state: "visible",
+    });
+
     indexTitle++;
+    
     const report = `Working ---> ${id} Old Title ---> ${valueInput} New Title ---> ${newTitle} index title -----> ${indexTitle}`;
     fs.appendFileSync("list.txt", report + "\n");
     console.log(report);
@@ -1937,6 +1942,10 @@ const deleteArtworkOption = async (page, tr) => {
   const actionButton = await tr.$(".dropdown-action-btn");
   await actionButton.click();
   await tr.waitForSelector(".dropdown-menu");
+
+  // await tr.$(".dropdown-menu").scrollIntoViewIfNeeded();
+  await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
+
   const dropdownMenu = await tr.$(".dropdown-menu");
   await dropdownMenu.waitForSelector("a.delete.ajax");
   const buttonDelete = await dropdownMenu.$("a.delete.ajax");
@@ -2026,7 +2035,7 @@ const checkArtworkOptions = async (page) => {
       await checkArtworkOptions(page);
     }
   }
-  return false;
+  // return false;
 };
 
 const checkArtworkOptionsAudit = async (page) => {
@@ -2064,7 +2073,7 @@ const createArtworkOption = async (page, id) => {
   await page.once("load", () => console.log("Page loaded!"));
   await page.waitForSelector("#frmqadditionalfieldaction");
   const titleInput = await page.$("#title1");
-  await titleInput.fill("Printing Time");
+  await titleInput.fill("Turnaround Time");
   const dropDownRadio = await page.$("#radio_combo");
   await dropDownRadio.click();
   const sortInput = await page.$("#addition_sort_order");
@@ -2075,7 +2084,7 @@ const createArtworkOption = async (page, id) => {
   await addBulkDataContainer.waitForSelector("#bulktext_1");
   const addBulkDataInput = await addBulkDataContainer.$("#bulktext_1");
   await addBulkDataInput.fill(
-    "1 Business Day,10,0",
+    "5 Business Day,10,0",
     // "4 to 5 Business Days,10,0\n3 Business Days,20,0\n2 Business Days,30,0"
   );
   const addBulkDataButton = await addBulkDataContainer.$(
@@ -2098,22 +2107,22 @@ const createArtworkOption = async (page, id) => {
   });
 
   // WHIT PRICES (Additional Options Price)
-  await page.waitForSelector(".float-right.action_area");
-  const attributePrice = await page.$(".float-right.action_area");
-  await attributePrice.click();
+  // await page.waitForSelector(".float-right.action_area");
+  // const attributePrice = await page.$(".float-right.action_area");
+  // await attributePrice.click();
 
-  await page.waitForSelector(".table-responsive");
-  let newPriceIndex = 0;
-  const prices = await page.$$('[id^="txtprice"]');
-  for await (const element of prices) {
-    await element.fill(newPrices[newPriceIndex].toString());
-    newPriceIndex++;
-  }
-  saveBtn = await page.$("#btn-action-save");
-  await saveBtn.click();
-  await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
-    state: "visible",
-  });
+  // await page.waitForSelector(".table-responsive");
+  // let newPriceIndex = 0;
+  // const prices = await page.$$('[id^="txtprice"]');
+  // for await (const element of prices) {
+  //   await element.fill(newPrices[newPriceIndex].toString());
+  //   newPriceIndex++;
+  // }
+  // saveBtn = await page.$("#btn-action-save");
+  // await saveBtn.click();
+  // await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
+  //   state: "visible",
+  // });
 
   // return true;
 };

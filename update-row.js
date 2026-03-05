@@ -55,6 +55,7 @@ import {
   getcheckboxesLabelProductWeightWithOptions,
   cleanProductWeightWithOptions,
   auditAdditionalOptions,
+  getChangedTitleProductWithArray,
 } from "./function_list.js";
 // import { proxies } from './data.js'
 // import fs from 'fs'
@@ -179,8 +180,8 @@ const updateRow = async () => {
   // await getIdUrlClient(page);
 
   // AUDIT OPTIONS PRODUCTS (TITLE & SORT)
-  await login(page);
-  await auditAdditionalOptions(page);
+  // await login(page);
+  // await auditAdditionalOptions(page);
 
   // CHECK AND DELETE ARTWORK
   // try {
@@ -203,6 +204,7 @@ const updateRow = async () => {
   // await auditArtwork(page);
 
   // FUNCTIONS GROUPS
+  // await login(page);
   // await getTitleProduct(page);
   // filterDataListArray("Simple Flat 5x7"); // FUNCTION FILTER DATA LIST.JS
 
