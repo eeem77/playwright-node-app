@@ -555,19 +555,23 @@ export const changeProductWeightWithOptions = async (page) => {
       const span = await checkbox.$("span");
       const spanValue = await span.innerText();
       if (
-        spanValue === " Reception Card [M2]" ||
-        spanValue === " Response Card" ||
-        spanValue === " Upgrade: Invitation Card - Wrap 7x7" ||
-        spanValue === " Upgrade: Invitation Card - Wrap 6x6" ||
-        spanValue === " Upgrade: Invitation Card - Overlay 5x7" ||
-        spanValue === " Upgrade: Invitation Card - Overlay 6x6 7x7" ||
-        spanValue === " Upgrade: Invitation Card - Ribbons for Overlay" ||
-        spanValue ===
-        " Upgrade: Invitation Card - Ribbons for 5x5 Fold Cards" ||
-        spanValue === " Upgrade: Invitation Card - Assemble Layers" ||
-        spanValue === " Upgrade: Invitation Card - Assemble Ribbon" ||
-        spanValue === " Upgrade: Invitation Card - Print Envelopes" ||
-        spanValue === " Upgrade: Response Card - Print Envelopes"
+        spanValue === " Material" ||
+        spanValue === " Grommets" ||
+        spanValue === " Hemming" ||
+        spanValue === " Pole Pocket"
+        // spanValue === " Reception Card [M2]" ||
+        // spanValue === " Response Card" ||
+        // spanValue === " Upgrade: Invitation Card - Wrap 7x7" ||
+        // spanValue === " Upgrade: Invitation Card - Wrap 6x6" ||
+        // spanValue === " Upgrade: Invitation Card - Overlay 5x7" ||
+        // spanValue === " Upgrade: Invitation Card - Overlay 6x6 7x7" ||
+        // spanValue === " Upgrade: Invitation Card - Ribbons for Overlay" ||
+        // spanValue ===
+        // " Upgrade: Invitation Card - Ribbons for 5x5 Fold Cards" ||
+        // spanValue === " Upgrade: Invitation Card - Assemble Layers" ||
+        // spanValue === " Upgrade: Invitation Card - Assemble Ribbon" ||
+        // spanValue === " Upgrade: Invitation Card - Print Envelopes" ||
+        // spanValue === " Upgrade: Response Card - Print Envelopes"
 
         // spanValue === " Upgrade: Invitation Card - Insert Paper" ||
         // spanValue === " Upgrade: Invitation Card - Print on Wrap" ||
@@ -604,14 +608,14 @@ export const changeProductWeightWithOptions = async (page) => {
     await checkboxes[flag[1]].click();
     await checkboxes[flag[2]].click();
     await checkboxes[flag[3]].click();
-    await checkboxes[flag[4]].click();
-    await checkboxes[flag[5]].click();
-    await checkboxes[flag[6]].click();
-    await checkboxes[flag[7]].click();
-    await checkboxes[flag[8]].click();
-    await checkboxes[flag[9]].click();
-    await checkboxes[flag[10]].click();
-    await checkboxes[flag[11]].click();
+    // await checkboxes[flag[4]].click();
+    // await checkboxes[flag[5]].click();
+    // await checkboxes[flag[6]].click();
+    // await checkboxes[flag[7]].click();
+    // await checkboxes[flag[8]].click();
+    // await checkboxes[flag[9]].click();
+    // await checkboxes[flag[10]].click();
+    // await checkboxes[flag[11]].click();
     // await checkboxes[flag[12]].click();
     // await checkboxes[flag[13]].click();
     // await checkboxes[flag[14]].click();
@@ -818,7 +822,7 @@ const actionschangeProductShippingMethod = async (
   let index = 0;
   if (isBoxes) {
     for await (const option of options) {
-      if (count > 0) {
+      if (count === 0) {
         const status = await option.isChecked();
         if (status === false) {
           await option.click();
@@ -829,7 +833,7 @@ const actionschangeProductShippingMethod = async (
   }
   if (isSelect) {
     for await (const select of options) {
-      if (count > 0) {
+      if (count === 0) {
         await select.selectOption("0");
       }
       count++;
@@ -837,7 +841,7 @@ const actionschangeProductShippingMethod = async (
   }
   if (isInput) {
     for await (const input of options) {
-      if (count > 0) {
+      if (count === 0) {
         await input.fill("150");
       }
       count++;
@@ -845,7 +849,7 @@ const actionschangeProductShippingMethod = async (
   }
   if (isInputX) {
     for await (const input of options) {
-      if (count > 0) {
+      if (count === 0) {
         await input.fill(data[index] ?? "");
         index++;
       }
@@ -2314,8 +2318,9 @@ export const changeAllowFreeShippingProduct = async (page) => {
       '[data-name="setting[ALLOW_FREE_SHIPPING]"]'
     );
     const isChecked = await checkbox[1].isChecked();
-    if (isChecked === false) {
-      await checkbox[1].check();
+    if (isChecked === true) {
+      // await checkbox[1].check();
+      await checkbox[1].uncheck();
       const saveBtn = await page.$("#btn-action-save");
       await saveBtn.click();
       await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
@@ -2696,6 +2701,21 @@ export const auditProductOptions = async (page) => {
   }
 };
 
+export const getPrincipalPricesProducts = async (page) => {
+  for await (const id of idProducts) {
+    await page.goto(
+      `https://www.apprinting.com/admin/product_price.php?product_id=${id}`,
+      { timeout: 300000 }
+    );
+    await page.waitForSelector("#frmprice");
+    const formTable = await page.$("#frmprice");
+    const inputPrices = await formTable.$$('[data-label="Price"]');
+    const report = `Working in ID ${id} inputs prices ${inputPrices.length}\n`;
+    fs.appendFileSync("list.txt", report);
+    console.log(report);
+  }
+};
+
 export const getPricesProducts = async (page) => {
   for await (const id of idProducts) {
     // await page.goto(
@@ -2719,6 +2739,8 @@ export const getPricesProducts = async (page) => {
     //   // fs.appendFileSync("list-audit-prices-foil.txt", report);
     //   // console.log(report);
     // }
+
+
     await page.goto(
       `https://www.apprinting.com/admin/product_additionalinfo_list.php?product_id=${id}`,
       { timeout: 300000 }
@@ -3089,17 +3111,28 @@ export const updatePricesProducts = async (page) => {
   for await (const id of idProducts) {
     await page.goto(
       `https://www.apprinting.com/admin/product_price.php?product_id=${id}`,
-      { timeout: 300000 }
+      { timeout: 300000 },
     );
 
-    // ADD PRICE UNIQUE TABLE
-    const table = await page.$(".table-responsive");
-    const prices = await table.$$('[data-label="Price"]');
+
+    // ADD PRICES ALL TABLES
+    await page.waitForSelector("#frmprice");
+    const formTable = await page.$("#frmprice");
+    const inputPrices = await formTable.$$('[data-label="Price"]');
     let index = 0;
-    for await (const inputPrice of prices) {
+    for await (const inputPrice of inputPrices) {
       await inputPrice.fill(indexPrincipalNewPrices[index].toString());
       index++;
     }
+
+    // ADD PRICE UNIQUE TABLE
+    // const table = await page.$(".table-responsive");
+    // const prices = await table.$$('[data-label="Price"]');
+    // let index = 0;
+    // for await (const inputPrice of prices) {
+    //   await inputPrice.fill(indexPrincipalNewPrices[index].toString());
+    //   index++;
+    // }
 
     // ADD BULK DATA SECTION
     // const addBulkData = await page.$$("#addbulkitem");

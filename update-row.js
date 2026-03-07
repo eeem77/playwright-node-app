@@ -58,6 +58,7 @@ import {
   getChangedTitleProductWithArray,
   getProductWeightTableInfo,
   getTitleProduct,
+  getPrincipalPricesProducts,
 } from "./function_list.js";
 // import { proxies } from './data.js'
 // import fs from 'fs'
@@ -145,8 +146,9 @@ const updateRow = async () => {
 
   // GET & UPDATE PRICES PRODUCTS
   await login(page);
-  await getUrlProducts(page);
-  // await updatePricesProducts(page)
+  // await getUrlProducts(page);
+  // await getPrincipalPricesProducts(page);
+  await updatePricesProducts(page)
   // await updateOptionsPricesProducts(page);
   // await getIdProductsAdmin(
   //   page,
