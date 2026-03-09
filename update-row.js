@@ -59,6 +59,7 @@ import {
   getProductWeightTableInfo,
   getTitleProduct,
   getPrincipalPricesProducts,
+  changeCustomSizeProduct,
 } from "./function_list.js";
 // import { proxies } from './data.js'
 // import fs from 'fs'
@@ -109,6 +110,10 @@ const updateRow = async () => {
   // await login(page);
   // await changeAllowFreeShippingProduct(page);
 
+  // CHANGE CUSTOM SIZE IN SETTINGS PRODUCT
+  await login(page);
+  await changeCustomSizeProduct(page);
+
   // GET PRICES PRODUCT 4OVER
   // await getPrices4overProduct(page);
 
@@ -145,10 +150,10 @@ const updateRow = async () => {
   // );
 
   // GET & UPDATE PRICES PRODUCTS
-  await login(page);
+  // await login(page);
   // await getUrlProducts(page);
   // await getPrincipalPricesProducts(page);
-  await updatePricesProducts(page)
+  // await updatePricesProducts(page)
   // await updateOptionsPricesProducts(page);
   // await getIdProductsAdmin(
   //   page,
@@ -330,6 +335,6 @@ const updateRow = async () => {
   // player().play("./alarm.mp3", (err) => {
   //   if (err) throw err;
   // });
-};
+};;
 
 updateRow();

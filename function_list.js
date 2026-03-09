@@ -49,6 +49,8 @@ import {
   newPricesOption,
   quantityBasedPrice,
   dynamicSizePrices,
+  dynamicSizeFrom,
+  dynamicSizeTo,
 } from "./data.js";
 import { log } from "console";
 dotenv.config();
@@ -1002,7 +1004,20 @@ export const updateQuantityBasedPriceAndProductPrice = async (page) => {
     //   `https://www.apprinting.com/admin/product_price.php?product_id=${id}`
     // );
     await page.waitForSelector("#frmprice");
-    const prices = await page.$$('[name^="txtprice"]');
+    const table = await page.$("#frmprice");
+    const prices = await table.$$('[data-label="Price"]');
+    const sizeFrom = await table.$$('[data-label="Size From"]');
+    const sizeTo = await table.$$('[data-label="Size To (Ft)"]');
+    let dynamicSizeFromIndex = 0;
+    for await (const size of sizeFrom) {
+      await size.fill(dynamicSizeFrom[dynamicSizeFromIndex]);
+      dynamicSizeFromIndex++;
+    }
+    let dynamicSizeToIndex = 0;
+    for await (const size of sizeTo) {
+      await size.fill(dynamicSizeTo[dynamicSizeToIndex]);
+      dynamicSizeToIndex++;
+    }
     let dynamicSizePricesIndex = 0;
     for await (const price of prices) {
       await price.fill(dynamicSizePrices[dynamicSizePricesIndex]);
@@ -2308,6 +2323,35 @@ export const getIdUrlClient = async (page) => {
   }
 };
 
+export const changeCustomSizeProduct = async (page) => {
+  for await (const id of idProducts) {
+    await page.goto(
+      `https://www.apprinting.com/admin/product_settings.php?product_id=${id}`,
+    );
+
+    await page.waitForSelector("#tab_customsettings");
+
+    const tabCustomSettings = await page.$("#tab_customsettings");
+    await tabCustomSettings.click();
+
+    await page.waitForSelector("#TabContent_customsettings");
+
+    const maxWidth = await page.$("#MAX_WIDTH");
+    await maxWidth.fill("30");
+
+    const maxHeight = await page.$("#MAX_HEIGHT");
+    await maxHeight.fill("5");
+    
+    const saveBtn = await page.$("#btn-action-save");
+    await saveBtn.click();
+    await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
+      state: "visible",
+    });
+    fs.appendFileSync("list.txt", `${id}\n`);
+    
+  }
+};
+
 export const changeAllowFreeShippingProduct = async (page) => {
   for await (const id of idProducts) {
     await page.goto(
@@ -2318,9 +2362,9 @@ export const changeAllowFreeShippingProduct = async (page) => {
       '[data-name="setting[ALLOW_FREE_SHIPPING]"]'
     );
     const isChecked = await checkbox[1].isChecked();
-    if (isChecked === true) {
-      // await checkbox[1].check();
-      await checkbox[1].uncheck();
+    if (isChecked === false) {
+      await checkbox[1].check();
+      // await checkbox[1].uncheck();
       const saveBtn = await page.$("#btn-action-save");
       await saveBtn.click();
       await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
