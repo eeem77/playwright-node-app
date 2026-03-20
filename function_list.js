@@ -557,10 +557,11 @@ export const changeProductWeightWithOptions = async (page) => {
       const span = await checkbox.$("span");
       const spanValue = await span.innerText();
       if (
-        spanValue === " Material" ||
-        spanValue === " Grommets" ||
-        spanValue === " Hemming" ||
-        spanValue === " Pole Pocket"
+        spanValue === " Type Of Display"
+        // spanValue === " Material" ||
+        // spanValue === " Grommets" ||
+        // spanValue === " Hemming" ||
+        // spanValue === " Pole Pocket"
         // spanValue === " Reception Card [M2]" ||
         // spanValue === " Response Card" ||
         // spanValue === " Upgrade: Invitation Card - Wrap 7x7" ||
@@ -607,9 +608,9 @@ export const changeProductWeightWithOptions = async (page) => {
       index++;
     }
     await checkboxes[flag[0]].click();
-    await checkboxes[flag[1]].click();
-    await checkboxes[flag[2]].click();
-    await checkboxes[flag[3]].click();
+    // await checkboxes[flag[1]].click();
+    // await checkboxes[flag[2]].click();
+    // await checkboxes[flag[3]].click();
     // await checkboxes[flag[4]].click();
     // await checkboxes[flag[5]].click();
     // await checkboxes[flag[6]].click();
@@ -824,7 +825,7 @@ const actionschangeProductShippingMethod = async (
   let index = 0;
   if (isBoxes) {
     for await (const option of options) {
-      if (count === 0) {
+      if (count > 0) {
         const status = await option.isChecked();
         if (status === false) {
           await option.click();
@@ -835,7 +836,7 @@ const actionschangeProductShippingMethod = async (
   }
   if (isSelect) {
     for await (const select of options) {
-      if (count === 0) {
+      if (count > 0) {
         await select.selectOption("0");
       }
       count++;
@@ -843,7 +844,7 @@ const actionschangeProductShippingMethod = async (
   }
   if (isInput) {
     for await (const input of options) {
-      if (count === 0) {
+      if (count > 0) {
         await input.fill("150");
       }
       count++;
@@ -851,7 +852,7 @@ const actionschangeProductShippingMethod = async (
   }
   if (isInputX) {
     for await (const input of options) {
-      if (count === 0) {
+      if (count > 0) {
         await input.fill(data[index] ?? "");
         index++;
       }
@@ -2075,14 +2076,7 @@ const checkArtworkOptions = async (page) => {
   const additionalOptionsTrTable = await tbody.$$("tr");
   for await (const tr of additionalOptionsTrTable) {
     const trHtml = await tr.innerHTML();
-    if (
-      trHtml.includes("PRINTING TIME") === true ||
-      trHtml.includes("Printing Time") === true ||
-      trHtml.includes("printing time") === true ||
-      trHtml.includes("PRODUCTION TIME") === true ||
-      trHtml.includes("Production Time") === true ||
-      trHtml.includes("production time") === true
-    ) {
+    if (trHtml.includes("Type Of Display") === true) {
       await deleteArtworkOption(page, tr);
       await checkArtworkOptions(page);
     }
@@ -2125,19 +2119,20 @@ const createArtworkOption = async (page, id) => {
   await page.once("load", () => console.log("Page loaded!"));
   await page.waitForSelector("#frmqadditionalfieldaction");
   const titleInput = await page.$("#title1");
-  await titleInput.fill("Turnaround Time");
+  await titleInput.fill("Type Of Display");
   const dropDownRadio = await page.$("#radio_combo");
   await dropDownRadio.click();
   const sortInput = await page.$("#addition_sort_order");
-  await sortInput.fill("800");
+  await sortInput.fill("10");
   const addBulkData = await page.$("#addbulkitem");
   await addBulkData.click();
   const addBulkDataContainer = await page.$(".fancybox__container");
   await addBulkDataContainer.waitForSelector("#bulktext_1");
   const addBulkDataInput = await addBulkDataContainer.$("#bulktext_1");
   await addBulkDataInput.fill(
-    "5 Business Day,10,0",
-    // "4 to 5 Business Days,10,0\n3 Business Days,20,0\n2 Business Days,30,0"
+    // "5 Business Day,10,0",
+    "A‐Frame 24x24 + 2 Signs,10,0\nA‐Frame 24x24 + 2 Signs + Rider,20,0"
+    // "3 Business Days,10,0\n2 Business Days,20,0"
   );
   const addBulkDataButton = await addBulkDataContainer.$(
     '[data-textarea="bulktext_1"]',
@@ -3117,12 +3112,11 @@ export const updateOptionsPricesProducts = async (page) => {
 
           if (
             optionsSizeValue[index] === "0" &&
-            (
-              // element === "Paper Type" ||
-              element === "Printed Side" ||
-              // element === "Rounded Corners" ||
-              element === "Artwork"
-            )
+            // element === "Paper Type" ||
+            (element === "Type Of Display" ||
+              element === "Proofing" ||
+              element === "Artwork" ||
+              element === "Turnaround Time")
           ) {
             for await (const element of prices) {
               await element.fill(newPrices[newPriceIndex].toString());

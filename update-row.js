@@ -111,8 +111,8 @@ const updateRow = async () => {
   // await changeAllowFreeShippingProduct(page);
 
   // CHANGE CUSTOM SIZE IN SETTINGS PRODUCT
-  await login(page);
-  await changeCustomSizeProduct(page);
+  // await login(page);
+  // await changeCustomSizeProduct(page);
 
   // GET PRICES PRODUCT 4OVER
   // await getPrices4overProduct(page);
@@ -150,15 +150,15 @@ const updateRow = async () => {
   // );
 
   // GET & UPDATE PRICES PRODUCTS
-  // await login(page);
+  await login(page);
+  await getIdProductsAdmin(
+    page,
+    "https://www.apprinting.com/admin/product_listing.php?qfs=eyJzdGFydCI6MCwibGVuZ3RoIjoxMDAsIm9yZGVyIjpbWzQsImFzYyJdXSwic2VhcmNoIjp7InNlYXJjaCI6IiIsInNtYXJ0Ijp0cnVlLCJyZWdleCI6ZmFsc2UsImNhc2VJbnNlbnNpdGl2ZSI6dHJ1ZX0sImNvbHVtbnMiOlt7InZpc2libGUiOnRydWUsInNlYXJjaCI6eyJzZWFyY2giOiJrZXl3b3JkPUElMjBGcmFtZSUyMFNpZ24mY2lkPSZwcmljZV9kZWZpbmluZ19tZXRob2Q9LTEmcHJlZGVmaW5lZF9wcm9kdWN0X3R5cGU9MCIsInNtYXJ0Ijp0cnVlLCJyZWdleCI6ZmFsc2UsImNhc2VJbnNlbnNpdGl2ZSI6dHJ1ZX19XX0%3D",
+  );
   // await getUrlProducts(page);
   // await getPrincipalPricesProducts(page);
   // await updatePricesProducts(page)
   // await updateOptionsPricesProducts(page);
-  // await getIdProductsAdmin(
-  //   page,
-  //   ""
-  // );
   // await getAssociatedCategoryProduct(page);
   // await changeDefaultAndAssociatedCategoryProduct(page, "bs-select-2-97");
 
