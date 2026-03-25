@@ -60,6 +60,7 @@ import {
   getTitleProduct,
   getPrincipalPricesProducts,
   changeCustomSizeProduct,
+  getPricesPrintPapaProduct,
 } from "./function_list.js";
 // import { proxies } from './data.js'
 // import fs from 'fs'
@@ -89,6 +90,9 @@ const updateRow = async () => {
   // const browser = await chromium.launch();
 
   const page = await browser.newPage();
+
+  // GET PRICES PRINTPAPA BANNER
+  await getPricesPrintPapaProduct(page);
 
   // LOGIN APP
   // CREATE AND UPDATE ARTWORK WITH PROXIES LIST
@@ -150,11 +154,11 @@ const updateRow = async () => {
   // );
 
   // GET & UPDATE PRICES PRODUCTS
-  await login(page);
-  await getIdProductsAdmin(
-    page,
-    "https://www.apprinting.com/admin/product_listing.php?qfs=eyJzdGFydCI6MCwibGVuZ3RoIjoxMDAsIm9yZGVyIjpbWzQsImFzYyJdXSwic2VhcmNoIjp7InNlYXJjaCI6IiIsInNtYXJ0Ijp0cnVlLCJyZWdleCI6ZmFsc2UsImNhc2VJbnNlbnNpdGl2ZSI6dHJ1ZX0sImNvbHVtbnMiOlt7InZpc2libGUiOnRydWUsInNlYXJjaCI6eyJzZWFyY2giOiJrZXl3b3JkPUElMjBGcmFtZSUyMFNpZ24mY2lkPSZwcmljZV9kZWZpbmluZ19tZXRob2Q9LTEmcHJlZGVmaW5lZF9wcm9kdWN0X3R5cGU9MCIsInNtYXJ0Ijp0cnVlLCJyZWdleCI6ZmFsc2UsImNhc2VJbnNlbnNpdGl2ZSI6dHJ1ZX19XX0%3D",
-  );
+  // await login(page);
+  // await getIdProductsAdmin(
+  //   page,
+  //   ""
+  // );
   // await getUrlProducts(page);
   // await getPrincipalPricesProducts(page);
   // await updatePricesProducts(page)

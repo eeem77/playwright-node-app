@@ -145,10 +145,90 @@ export const getPrices4overProduct = async (page) => {
   }
 };
 
+export const getPricesPrintPapaProduct = async (page) => {
+  await page.goto(
+    `https://www.printpapa.com/eshop/pc/13oz-Standard-Vinyl-Banner-793p20126.htm`,
+  );
+
+  await page.waitForSelector(".pcBTOmainTableC");
+  // const table = await page.$("pcBTOmainTableC");
+  const size = await page.$("#CAG20");
+  await size.selectOption("20127_0_0_0_0_0_0");
+  await page.waitForSelector("#custboxholdr_20");
+
+  const proofing = await page.$("#CAG45");
+  await proofing.selectOption("1042_-7_0_0_1_0_0");
+
+  const turnaroundTimeValues = [
+    "599_0.00_0_0_0_5_1",
+    "10895_0_0_0_0_3_1",
+    "552_0_0_0_0_2_1",
+  ];
+
+  const quantity = await page.$('[name="quantity"]');
+  const quantityOptions = await quantity.$$("option");
+
+  const sizesWidthHeight = [
+    [36, 24],
+    [48, 24],
+    [72, 24],
+    [96, 24],
+    [60, 36],
+    [72, 36],
+    [96, 36],
+    [120, 36],
+    [72, 48],
+    [120, 48],
+    [12, 12],
+    [24, 12],
+    [36, 12],
+    [48, 12],
+    [60, 12],
+    [72, 12],
+    [84, 12],
+    [96, 12],
+    [108, 12],
+    [120, 12],
+    [180, 12],
+    [240, 12],
+    [300, 12],
+  ];
+
+  for await (const sizeWidthHeight of sizesWidthHeight) {
+    const customSizeSection = await page.$("#custboxholdr_20");
+    const width = await customSizeSection.$("#SPLINPDROP_PPLabelWidth_X_in");
+    const height = await customSizeSection.$("#SPLINPDROP_PPLabelHeight_X_in");
+    await width.fill(sizeWidthHeight[0].toString());
+    await height.fill(sizeWidthHeight[1].toString());
+
+    const section = await page.$("#quantitySectiontr");
+    await section.click();
+    
+    for await (const quantityOption of quantityOptions) {
+      const valueOption = await quantityOption.getAttribute("value");
+      await quantity.selectOption(valueOption);
+      let pricesBusinessDays = [];
+      for await (const turnaroundTimeValue of turnaroundTimeValues) {
+        const turnaroundTime = await page.$("#CAG15");
+        await turnaroundTime.selectOption(turnaroundTimeValue);
+        await page.waitForSelector("#txtTotalAfterShip");
+        const subTotal = await page.$("#txtTotalAfterShip");
+        const subTotalValue = await subTotal.inputValue();
+        pricesBusinessDays.push(subTotalValue);
+        // console.log(subTotalValue);
+      }
+      fs.appendFileSync(
+        "list.txt",
+        `${sizeWidthHeight},${valueOption},${pricesBusinessDays} \n`,
+      );
+    }
+  }
+};
+
 export const desactiveDesignerOption = async (page) => {
   for await (const id of idProducts) {
     await page.goto(
-      `https://www.apprinting.com/admin/product_designer_action.php?product_id=${id}`
+      `https://www.apprinting.com/admin/product_designer_action.php?product_id=${id}`,
     );
     await page.waitForTimeout(3000);
     const table = await page.$("#size_table");
@@ -203,7 +283,7 @@ export const inputFillToRow = async (page) => {
   for await (const id of idProducts) {
     await page.goto(
       `https://www.apprinting.com/admin/product_action.php?product_id=${id}`,
-      { timeout: 300000 }
+      { timeout: 300000 },
     );
     const btn = await page.$("#sort_order");
     await btn.fill("300");
@@ -248,11 +328,11 @@ export const categoryDefaultSelect = async (page, option) => {
 
 export const changeDefaultAndAssociatedCategoryProduct = async (
   page,
-  paramDefaultCategory
+  paramDefaultCategory,
 ) => {
   for await (const id of idProducts) {
     await page.goto(
-      `https://www.apprinting.com/admin/product_action.php?product_id=${id}`
+      `https://www.apprinting.com/admin/product_action.php?product_id=${id}`,
     );
     const categoryMap = {
       "Compass Real Estate": "248",
@@ -286,11 +366,11 @@ export const changeDefaultAndAssociatedCategoryProduct = async (
 export const getAssociatedCategoryProduct = async (page) => {
   for await (const id of idProducts) {
     await page.goto(
-      `https://www.apprinting.com/admin/product_action.php?product_id=${id}`
+      `https://www.apprinting.com/admin/product_action.php?product_id=${id}`,
     );
     const associatedCategorySelectedValue = await page.$eval(
       "#category_ids_1",
-      (select) => select.value
+      (select) => select.value,
     );
 
     const defaultCategory = await page.$('[data-id="category_id_1"]');
@@ -308,7 +388,7 @@ export const changeAssociatedCategoryProduct = async (page, category) => {
   //     { timeout: 300000 }
   //   );
   const associatedCategorySelected = await page.$(
-    ".multiselect.dropdown-toggle"
+    ".multiselect.dropdown-toggle",
   );
   await associatedCategorySelected.click();
   const list = await page.$(".multiselect-container.dropdown-menu.show");
@@ -339,7 +419,7 @@ const extractId = async (page, index) => {
     const status = await statusElement.getAttribute("value");
     fs.appendFileSync(
       "list-id-admin.txt",
-      `${idSplit[1].toString()}, ${name}, ${status}\n`
+      `${idSplit[1].toString()}, ${name}, ${status}\n`,
     );
   }
   if (index) {
@@ -405,11 +485,11 @@ function getLocalISOStringWithOffset(date) {
   const timezoneOffsetMinutes = date.getTimezoneOffset(); // Devuelve el offset en minutos desde UTC
   const offsetSign = timezoneOffsetMinutes > 0 ? "-" : "+";
   const offsetHours = String(
-    Math.floor(Math.abs(timezoneOffsetMinutes) / 60)
+    Math.floor(Math.abs(timezoneOffsetMinutes) / 60),
   ).padStart(2, "0");
   const offsetMinutes = String(Math.abs(timezoneOffsetMinutes) % 60).padStart(
     2,
-    "0"
+    "0",
   );
 
   return `${year}-${month}-${day}T${hours}:${minutes}:${seconds}${offsetSign}${offsetHours}:${offsetMinutes}`;
@@ -440,7 +520,7 @@ export const createXmlSiteMap = async () => {
   const footer = `</urlset>`;
   fs.appendFileSync(
     "list-link-active-client.xml",
-    `${header}${body}${footer}\n`
+    `${header}${body}${footer}\n`,
   );
   // console.log(links);
 };
@@ -482,7 +562,7 @@ export const getSizesImagesArray = async (page) => {
       if (src.includes("dl.dropboxusercontent.com")) {
         fs.appendFileSync(
           "list-src-img.txt",
-          `["${src}","${alt}","${url[0]}"],\n`
+          `["${src}","${alt}","${url[0]}"],\n`,
         );
       }
 
@@ -491,7 +571,7 @@ export const getSizesImagesArray = async (page) => {
         if (!alt.includes("illustrator") && !alt.includes("acrobat")) {
           fs.appendFileSync(
             "list-src-img.txt",
-            `["${src}","${alt}","${url[0]}"],\n`
+            `["${src}","${alt}","${url[0]}"],\n`,
           );
         }
       } catch (error) {}
@@ -513,14 +593,14 @@ export const getSizesImagesFinal = async (page) => {
       if (sizeInKB >= 250) {
         fs.appendFileSync(
           "list-size-img.txt",
-          `${image[0]},${image[1]},${sizeInKB.toFixed(2)}\n`
+          `${image[0]},${image[1]},${sizeInKB.toFixed(2)}\n`,
         );
       }
 
       console.log(
         `${image[0]} ---> ${flag} ---> the image size is: ${sizeInKB.toFixed(
-          2
-        )} KB`
+          2,
+        )} KB`,
       );
     }
   }
@@ -543,7 +623,7 @@ const blockWhitPagination = async (page, numberPage) => {
 export const changeProductWeightWithOptions = async (page) => {
   for await (const id of idProducts) {
     await page.goto(
-      `https://www.apprinting.com/admin/product_weight.php?product_id=${id}`
+      `https://www.apprinting.com/admin/product_weight.php?product_id=${id}`,
     );
     await page.waitForTimeout(3000);
     const selectOptions = await page.$("#weight_type");
@@ -653,7 +733,7 @@ export const changeProductWeightWithOptions = async (page) => {
     console.log(`working in product with id ${id}`);
     fs.appendFileSync(
       "list.txt",
-      `working in product with id ${id} with ${boxes.length} boxes or inputs\n`
+      `working in product with id ${id} with ${boxes.length} boxes or inputs\n`,
     );
   }
 };
@@ -666,11 +746,10 @@ export const cleanProductWeightWithOptions = async (page) => {
     await page.waitForTimeout(3000);
     const selectOptions = await page.$("#weight_type");
     await selectOptions.selectOption("0");
-    
+
     const setConfigSelectOption = await page.$('[name="submitoption"]');
     await setConfigSelectOption.click();
     await page.waitForTimeout(3000);
-    
 
     const saveBtn = await page.$("#btn-action-save");
     await saveBtn.click();
@@ -680,17 +759,14 @@ export const cleanProductWeightWithOptions = async (page) => {
 
     console.log(`working in product with id ${id}`);
 
-    fs.appendFileSync(
-      "list.txt",
-      `working in product with id ${id} \n`,
-    );
+    fs.appendFileSync("list.txt", `working in product with id ${id} \n`);
   }
 };
 
 export const getcheckboxesLabelProductWeightWithOptions = async (page) => {
   for await (const id of idProducts) {
     await page.goto(
-      `https://www.apprinting.com/admin/product_weight.php?product_id=${id}`
+      `https://www.apprinting.com/admin/product_weight.php?product_id=${id}`,
     );
     await page.waitForTimeout(3000);
 
@@ -703,11 +779,11 @@ export const getcheckboxesLabelProductWeightWithOptions = async (page) => {
       const span = await checkbox.$("span");
       const spanValue = await span.innerText();
       flag.push(spanValue);
-    }    
+    }
     console.log(`working in product with id ${id}`);
     fs.appendFileSync(
       "list.txt",
-      `working in product with id ${id} ---> ${flag}\n`
+      `working in product with id ${id} ---> ${flag}\n`,
     );
   }
 };
@@ -728,7 +804,7 @@ const whitPagination = async (page, numberPage) => {
 export const getProductWeight = async (page) => {
   for await (const id of idProducts) {
     await page.goto(
-      `https://www.apprinting.com/admin/product_weight.php?product_id=${id}`
+      `https://www.apprinting.com/admin/product_weight.php?product_id=${id}`,
     );
     await page.waitForTimeout(3000);
     const table = await page.waitForSelector(".table-responsive");
@@ -748,7 +824,7 @@ export const getProductWeight = async (page) => {
     console.log(`working in product with id ${id}`);
     fs.appendFileSync(
       "list.txt",
-      `${id} ---> ${productWeight} ---> ${boxes.length}\n`
+      `${id} ---> ${productWeight} ---> ${boxes.length}\n`,
     );
   }
 };
@@ -761,13 +837,13 @@ export const getProductWeightTableInfo = async (page) => {
     await page.waitForTimeout(3000);
     await page.waitForSelector(".table-responsive");
     const table = await page.$("#page_table");
-    const tbody = await table.$("tbody")
-    const rows = await tbody.$$("tr")
-    
+    const tbody = await table.$("tbody");
+    const rows = await tbody.$$("tr");
+
     let productWeightTableInfo = [];
     for await (const row of rows) {
       const cols = await row.$$("td");
-      
+
       const size = await cols[0].innerText();
       const option = await cols[1].innerText();
       // console.log(size, option);
@@ -790,7 +866,7 @@ export const changeProductWeight = async (page) => {
   for await (const id of idProducts) {
     let count = 0;
     await page.goto(
-      `https://www.apprinting.com/admin/product_weight.php?product_id=${id}`
+      `https://www.apprinting.com/admin/product_weight.php?product_id=${id}`,
     );
     await page.waitForTimeout(3000);
     const table = await page.waitForSelector(".table-responsive");
@@ -808,7 +884,7 @@ export const changeProductWeight = async (page) => {
     console.log(`working in product with id ${id}`);
     fs.appendFileSync(
       "list.txt",
-      `working in product with id ${id} ---> with Boxes ---> ${boxes.length}\n`
+      `working in product with id ${id} ---> with Boxes ---> ${boxes.length}\n`,
     );
   }
 };
@@ -819,7 +895,7 @@ const actionschangeProductShippingMethod = async (
   isSelect,
   isInput,
   isInputX,
-  data
+  data,
 ) => {
   let count = 0;
   let index = 0;
@@ -865,7 +941,7 @@ const actionschangeProductShippingMethod = async (
 export const changeProductShippingMethod = async (page) => {
   for await (const id of idProducts) {
     await page.goto(
-      `https://www.apprinting.com/admin/shipping_package.php?product_id=${id}`
+      `https://www.apprinting.com/admin/shipping_package.php?product_id=${id}`,
     );
     // await page.waitForTimeout(3000);
     await page.waitForSelector("#ops-table");
@@ -884,7 +960,7 @@ export const changeProductShippingMethod = async (page) => {
       false,
       false,
       false,
-      ""
+      "",
     );
     await actionschangeProductShippingMethod(
       selects,
@@ -892,7 +968,7 @@ export const changeProductShippingMethod = async (page) => {
       true,
       false,
       false,
-      ""
+      "",
     );
     await actionschangeProductShippingMethod(
       inputsMaxWeight,
@@ -900,7 +976,7 @@ export const changeProductShippingMethod = async (page) => {
       false,
       true,
       false,
-      "150"
+      "150",
     );
     await actionschangeProductShippingMethod(
       inputsBoxWeight,
@@ -908,7 +984,7 @@ export const changeProductShippingMethod = async (page) => {
       false,
       false,
       true,
-      productWeightConfigurationBoxWeight
+      productWeightConfigurationBoxWeight,
     );
     await actionschangeProductShippingMethod(
       inputsLength,
@@ -916,7 +992,7 @@ export const changeProductShippingMethod = async (page) => {
       false,
       false,
       true,
-      productWeightConfigurationLength
+      productWeightConfigurationLength,
     );
     await actionschangeProductShippingMethod(
       inputsCustomWidth,
@@ -924,7 +1000,7 @@ export const changeProductShippingMethod = async (page) => {
       false,
       false,
       true,
-      productWeightConfigurationCustomWidth
+      productWeightConfigurationCustomWidth,
     );
     await actionschangeProductShippingMethod(
       inputsCustomHeight,
@@ -932,7 +1008,7 @@ export const changeProductShippingMethod = async (page) => {
       false,
       false,
       true,
-      productWeightConfigurationCustomHeight
+      productWeightConfigurationCustomHeight,
     );
     const saveBtn = await page.$("#btn-action-save");
     await saveBtn.click();
@@ -942,7 +1018,7 @@ export const changeProductShippingMethod = async (page) => {
     console.log(`working in product with id ${id}`);
     fs.appendFileSync(
       "list.txt",
-      `working in product with id ${id} with ${boxes.length} boxes or rows\n`
+      `working in product with id ${id} with ${boxes.length} boxes or rows\n`,
     );
   }
 };
@@ -950,15 +1026,14 @@ export const changeProductShippingMethod = async (page) => {
 export const getQuantityBasedPriceAndProductPrice = async (page) => {
   for await (const id of idProducts) {
     await page.goto(
-      `https://www.apprinting.com/admin/product_price.php?product_id=${id}`
+      `https://www.apprinting.com/admin/product_price.php?product_id=${id}`,
     );
     await page.waitForSelector("#frmprice");
     const quantityBasedPriceBtn = await page.$("a.btn-purple");
-    const quantityBasedPriceHref = await quantityBasedPriceBtn.getAttribute(
-      "href"
-    );
+    const quantityBasedPriceHref =
+      await quantityBasedPriceBtn.getAttribute("href");
     await page.goto(
-      `https://www.apprinting.com/admin/${quantityBasedPriceHref}`
+      `https://www.apprinting.com/admin/${quantityBasedPriceHref}`,
     );
     await page.waitForSelector("#frmprice");
     const quantityBasedPrices = await page.$$('[name^="txtprice"]');
@@ -968,7 +1043,7 @@ export const getQuantityBasedPriceAndProductPrice = async (page) => {
     }
     fs.appendFileSync("list.txt", `\n\n`);
     await page.goto(
-      `https://www.apprinting.com/admin/product_price.php?product_id=${id}`
+      `https://www.apprinting.com/admin/product_price.php?product_id=${id}`,
     );
     await page.waitForSelector("#frmprice");
     const prices = await page.$$('[name^="txtprice"]');
@@ -982,15 +1057,14 @@ export const getQuantityBasedPriceAndProductPrice = async (page) => {
 export const updateQuantityBasedPriceAndProductPrice = async (page) => {
   for await (const id of idProducts) {
     await page.goto(
-      `https://www.apprinting.com/admin/product_price.php?product_id=${id}`
+      `https://www.apprinting.com/admin/product_price.php?product_id=${id}`,
     );
     await page.waitForSelector("#frmprice");
     const quantityBasedPriceBtn = await page.$("a.btn-purple");
-    const quantityBasedPriceHref = await quantityBasedPriceBtn.getAttribute(
-      "href"
-    );
+    const quantityBasedPriceHref =
+      await quantityBasedPriceBtn.getAttribute("href");
     await page.goto(
-      `https://www.apprinting.com/admin/${quantityBasedPriceHref}`
+      `https://www.apprinting.com/admin/${quantityBasedPriceHref}`,
     );
     await page.waitForSelector("#frmprice");
     const quantityBasedPrices = await page.$$('[name^="txtprice"]');
@@ -1073,7 +1147,7 @@ export const getIdProducts = async (page, url) => {
     timeout: 300000,
   });
   const products = await page.$$eval(".product-box", (node) =>
-    node.map((n) => n.className)
+    node.map((n) => n.className),
   );
   fs.appendFileSync("list.txt", products.toString() + ",\n");
   console.log(products);
@@ -1083,7 +1157,7 @@ export const redirectionUrl = async (page) => {
   for await (const urlProduct of urlsProducts) {
     await page.goto(
       "https://www.apprinting.com/admin/url_redirection_action.php",
-      { timeout: 300000 }
+      { timeout: 300000 },
     );
 
     const oldUrlInput = await page.$("#old_url");
@@ -1103,17 +1177,17 @@ export const getChangedTitleProductWithArray = async (page) => {
   for await (const id of idProducts) {
     await page.goto(
       `https://www.apprinting.com/admin/product_action.php?product_id=${id}`,
-      { timeout: 300000 }
+      { timeout: 300000 },
     );
 
     await page.waitForSelector("#frmproduct");
     await page.waitForSelector("#btn-action-save");
-    
+
     const title = await page.$("#products_title_1");
     const valueInput = await title.inputValue();
     const newTitle = titlesProducts[indexTitle];
     await title.fill(newTitle);
-    
+
     const btnSave = await page.$("#btn-action-save");
     await btnSave.click();
     await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
@@ -1121,7 +1195,7 @@ export const getChangedTitleProductWithArray = async (page) => {
     });
 
     indexTitle++;
-    
+
     const report = `Working ---> ${id} Old Title ---> ${valueInput} New Title ---> ${newTitle} index title -----> ${indexTitle}`;
     fs.appendFileSync("list.txt", report + "\n");
     console.log(report);
@@ -1132,7 +1206,7 @@ export const auditSeoData = async (page) => {
   for await (const id of idProducts) {
     await page.goto(
       `https://www.apprinting.com/admin/product_metatags.php?product_id=${id}`,
-      { timeout: 300000 }
+      { timeout: 300000 },
     );
 
     await page.waitForSelector(".page-header");
@@ -1181,7 +1255,7 @@ export const auditSeoData = async (page) => {
     ) {
       fs.appendFileSync(
         "list.txt",
-        `${data[0]};${productTitle};${data[1]}; \n`
+        `${data[0]};${productTitle};${data[1]}; \n`,
       );
     }
 
@@ -1193,7 +1267,7 @@ export const auditUploadArtworkLaterOption = async (page) => {
   for await (const id of idProducts) {
     await page.goto(
       `https://www.apprinting.com/admin/product_settings.php?product_id=${id}`,
-      { timeout: 300000 }
+      { timeout: 300000 },
     );
     await page.waitForSelector("#tab_uploadsettings");
     const uploadSettingsBtn = await page.$("#tab_uploadsettings");
@@ -1205,12 +1279,12 @@ export const auditUploadArtworkLaterOption = async (page) => {
     if (uploadArtworkLaterOption === false) {
       fs.appendFileSync(
         "list.txt",
-        `${id} ---> ${uploadArtworkLaterOption} \n`
+        `${id} ---> ${uploadArtworkLaterOption} \n`,
       );
     } else {
       fs.appendFileSync(
         "list-power-off-backup.txt",
-        `${id} ---> ${uploadArtworkLaterOption} \n`
+        `${id} ---> ${uploadArtworkLaterOption} \n`,
       );
     }
     console.log(`${id} ---> ${uploadArtworkLaterOption}`);
@@ -1221,7 +1295,7 @@ export const setUploadArtworkLaterOption = async (page) => {
   for await (const id of idProducts) {
     await page.goto(
       `https://www.apprinting.com/admin/product_settings.php?product_id=${id}`,
-      { timeout: 300000 }
+      { timeout: 300000 },
     );
     await page.waitForSelector("#tab_uploadsettings");
     const uploadSettingsBtn = await page.$("#tab_uploadsettings");
@@ -1244,13 +1318,13 @@ export const auditProductPageDesign = async (page) => {
   for await (const id of idProducts) {
     await page.goto(
       `https://www.apprinting.com/admin/product_view_details.php?product_id=${id}`,
-      { timeout: 300000 }
+      { timeout: 300000 },
     );
     await page.waitForSelector(".profile-user-info.profile-user-info-striped", {
       state: "visible",
     });
     const container = await page.$$(
-      ".profile-user-info.profile-user-info-striped"
+      ".profile-user-info.profile-user-info-striped",
     );
     const spanEditable = await container[0].$$(".editable");
     const url = await spanEditable[1].innerText();
@@ -1264,12 +1338,12 @@ export const auditProductPageDesign = async (page) => {
     if (productDetailSection) {
       fs.appendFileSync(
         "list-product-page-design-true.txt",
-        `${id} ---> ${true} \n`
+        `${id} ---> ${true} \n`,
       );
     } else {
       fs.appendFileSync(
         "list-product-page-design-false.txt",
-        `${id} ---> ${false} \n`
+        `${id} ---> ${false} \n`,
       );
     }
     console.log(`${id} ---> Working`);
@@ -1280,48 +1354,47 @@ export const backupProductPageDesign = async (page) => {
   for await (const id of idProducts) {
     await page.goto(
       `https://www.apprinting.com/admin/product_action.php?product_id=${id}`,
-      { timeout: 300000 }
+      { timeout: 300000 },
     );
     await page.waitForSelector("#product_details", {
       state: "visible",
     });
     const productDetailsContainer = await page.$("#product_details");
-    const productNameElement = await productDetailsContainer.$(
-      "#products_title_1"
-    );
+    const productNameElement =
+      await productDetailsContainer.$("#products_title_1");
     const productName = await productNameElement.inputValue();
     const urlProductElement = await productDetailsContainer.$("#product_url_1");
     const urlProduct = await urlProductElement.inputValue();
     const defaultCategoryProductElement = await productDetailsContainer.$(
-      ".filter-option-inner-inner"
+      ".filter-option-inner-inner",
     );
     const defaultCategoryProduct =
       await defaultCategoryProductElement.innerText();
     const associatedCategorySelectedElement = await productDetailsContainer.$(
-      ".multiselect-selected-text"
+      ".multiselect-selected-text",
     );
     const associatedCategorySelected =
       await associatedCategorySelectedElement.innerText();
     await page.goto(
       `https://www.apprinting.com/admin/product_description.php?product_id=${id}`,
-      { timeout: 300000 }
+      { timeout: 300000 },
     );
     await page.waitForSelector(".form-horizontal", {
       state: "visible",
     });
     const formHorizontalContainer = await page.$(".form-horizontal");
     const shortDescriptionElementTextArea = await formHorizontalContainer.$(
-      "#product_description_1"
+      "#product_description_1",
     );
     const shortDescriptionTextArea =
       await shortDescriptionElementTextArea.innerText();
     const longDescriptionElementTextArea = await formHorizontalContainer.$(
-      "#long_description_1"
+      "#long_description_1",
     );
     const longDescriptionTextArea =
       await longDescriptionElementTextArea.innerText();
     const longDescriptionTwoElementTextArea = await formHorizontalContainer.$(
-      "#long_description_two_1"
+      "#long_description_two_1",
     );
     const longDescriptionTwoTextArea =
       await longDescriptionTwoElementTextArea.innerText();
@@ -1335,7 +1408,7 @@ export const backupProductPageDesign = async (page) => {
       await browseDesignDescriptionElementTextArea.innerText();
     fs.appendFileSync(
       "list-backup-product-false-design.txt",
-      `${id} *** ${productName} *** ${urlProduct} *** ${defaultCategoryProduct} *** ${associatedCategorySelected} *** ${shortDescriptionTextArea} *** ${longDescriptionTextArea} *** ${longDescriptionTwoTextArea} *** ${uploadCenterDescriptionTextArea} *** ${browseDesignDescriptionTextArea} \n`
+      `${id} *** ${productName} *** ${urlProduct} *** ${defaultCategoryProduct} *** ${associatedCategorySelected} *** ${shortDescriptionTextArea} *** ${longDescriptionTextArea} *** ${longDescriptionTwoTextArea} *** ${uploadCenterDescriptionTextArea} *** ${browseDesignDescriptionTextArea} \n`,
     );
     console.log(`${id}`);
   }
@@ -1346,10 +1419,10 @@ export const changedSeoData = async (page) => {
   for await (const id of idProducts) {
     await page.goto(
       `https://www.apprinting.com/admin/product_metatags.php?product_id=${id}`,
-      { timeout: 300000 }
+      { timeout: 300000 },
     );
     const responsePromise = page.waitForResponse(
-      `https://www.apprinting.com/admin/product_metatags.php?product_id=${id}`
+      `https://www.apprinting.com/admin/product_metatags.php?product_id=${id}`,
     );
     const btnSave = await page.$("#btn-action-save");
     const pageTitle = await page.$("#seo_page_title_1");
@@ -1374,10 +1447,10 @@ export const setMarkUpData = async (page) => {
   for await (const id of idProducts) {
     await page.goto(
       `https://www.apprinting.com/admin/product_metatags.php?product_id=${id}`,
-      { timeout: 300000 }
+      { timeout: 300000 },
     );
     const responsePromise = page.waitForResponse(
-      `https://www.apprinting.com/admin/product_metatags.php?product_id=${id}`
+      `https://www.apprinting.com/admin/product_metatags.php?product_id=${id}`,
     );
     // const btnSave = await page.$("#btn-action-save");
     const markUp = await page.$("#schema_markup_1");
@@ -1399,10 +1472,10 @@ export const setAdditionalMetaTag = async (page) => {
   for await (const id of idProducts) {
     await page.goto(
       `https://www.apprinting.com/admin/product_metatags.php?product_id=${id}`,
-      { timeout: 300000 }
+      { timeout: 300000 },
     );
     const responsePromise = page.waitForResponse(
-      `https://www.apprinting.com/admin/product_metatags.php?product_id=${id}`
+      `https://www.apprinting.com/admin/product_metatags.php?product_id=${id}`,
     );
     const btnSave = await page.$("#btn-action-save");
     const metaAdditional = await page.$("#seo_page_metatags1");
@@ -1419,7 +1492,7 @@ export const getMarkUpSchemaProducts = async (page) => {
   for await (const id of idProducts) {
     await page.goto(
       `https://www.apprinting.com/admin/product_action.php?product_id=${id}`,
-      { timeout: 300000 }
+      { timeout: 300000 },
     );
 
     const urlProduct = await page.$("#product_url_1");
@@ -1433,7 +1506,7 @@ export const getMarkUpSchemaProducts = async (page) => {
 
     await page.goto(
       `https://www.apprinting.com/admin/product_image_gallery_listing.php?product_id=${id}`,
-      { timeout: 300000 }
+      { timeout: 300000 },
     );
 
     const imageSection = await page.$("#ops-table_wrapper");
@@ -1447,7 +1520,7 @@ export const getMarkUpSchemaProducts = async (page) => {
     } else {
       await page.goto(
         `https://www.apprinting.com/admin/product_description.php?product_id=${id}`,
-        { timeout: 300000 }
+        { timeout: 300000 },
       );
       const imageSectionEdit = await page.$(".res-img.res-img-old");
       if (imageSectionEdit !== null) {
@@ -1478,7 +1551,7 @@ export const getMarkUpSchemaProducts = async (page) => {
       Math.random() * (5 - 4.1) +
       4.1
     ).toFixed(1)}","reviewCount":"${Math.floor(
-      Math.random() * (9000 - 15000) + 9000
+      Math.random() * (9000 - 15000) + 9000,
     )}"},"offers": {"@type": "Offer","url": "https://www.apprinting.com/blue-flowers-and-leaves-wedding-invitation/","priceCurrency": "USD","price": ${price},"priceValidUntil": "2026-12-31","itemCondition": "https://schema.org/UsedCondition","availability": "https://schema.org/InStock"}}\`,`;
 
     fs.appendFileSync("list.txt", report + "\n");
@@ -1491,7 +1564,7 @@ export const getTitleTitleImagesGallery = async (page) => {
   for await (const id of idProducts) {
     await page.goto(
       `https://www.apprinting.com/admin/product_image_gallery_listing.php?product_id=${id}`,
-      { timeout: 300000 }
+      { timeout: 300000 },
     );
 
     const imageSection = await page.$("#ops-table_wrapper");
@@ -1516,10 +1589,10 @@ export const getTitleAndChangedTitleImagesGallery = async (page) => {
   for await (const id of idProducts) {
     await page.goto(
       `https://www.apprinting.com/admin/product_image_gallery_listing.php?product_id=${id}`,
-      { timeout: 300000 }
+      { timeout: 300000 },
     );
     const responsePromise = page.waitForResponse(
-      `https://www.apprinting.com/admin/product_image_gallery_listing.php?product_id=${id}`
+      `https://www.apprinting.com/admin/product_image_gallery_listing.php?product_id=${id}`,
     );
     // const response = await responsePromise;
 
@@ -1548,7 +1621,7 @@ export const getChangedTitleProduct = async (page) => {
   for await (const id of idProducts) {
     await page.goto(
       `https://www.apprinting.com/admin/product_action.php?product_id=${id}`,
-      { timeout: 300000 }
+      { timeout: 300000 },
     );
     const btnSave = await page.$("#btn-action-save");
     const title = await page.$("#products_title_1");
@@ -1567,7 +1640,7 @@ export const getChangedTitleProduct = async (page) => {
       " Old Title ---> ",
       valueInput,
       " New Title ---> ",
-      newTitle
+      newTitle,
     );
     // console.log(newTitle);
   }
@@ -1614,7 +1687,7 @@ export const filtersDataListArray = (filterString) => {
       fs.appendFileSync(
         "list.txt",
         // product.id.toString() + `---> ${product.title}` + ",\n"
-        product.id.toString() + ",\n"
+        product.id.toString() + ",\n",
       );
     }
     console.log(product);
@@ -1625,7 +1698,7 @@ export const getTitleFilterProduct = async (page, filterString) => {
   for await (const id of idProducts) {
     await page.goto(
       `https://www.apprinting.com/admin/product_action.php?product_id=${id}`,
-      { timeout: 300000 }
+      { timeout: 300000 },
     );
     const title = await page.$("#products_title_1");
     const valueInput = await title.inputValue();
@@ -1640,12 +1713,12 @@ export const getStatusCheckboxes = async (page) => {
   for await (const id of idProducts) {
     await page.goto(
       `https://www.apprinting.com/admin/product_action.php?product_id=${id}`,
-      { timeout: 300000 }
+      { timeout: 300000 },
     );
     // await page.waitForTimeout(3000)
     const productType = await page.$eval(
       "#product_type_3",
-      (node) => node.inputValue
+      (node) => node.inputValue,
     );
     // const checkBox = await productType.evaluate((element) => {
     // window.getComputedStyle(element).getPropertyValue("background-image")
@@ -1667,7 +1740,7 @@ export const getUrlProducts = async (page) => {
   for await (const id of idProducts) {
     await page.goto(
       `https://www.apprinting.com/admin/product_action.php?product_id=${id}`,
-      { timeout: 300000 }
+      { timeout: 300000 },
     );
     const url = await page.$("#product_url_1");
     const urlInput = await url.inputValue();
@@ -1681,7 +1754,7 @@ export const getUrlProducts = async (page) => {
 export const setLongDescriptionTwo = async (page) => {
   for await (const id of idProducts) {
     await page.goto(
-      `https://www.apprinting.com/admin/product_description.php?product_id=${id}`
+      `https://www.apprinting.com/admin/product_description.php?product_id=${id}`,
     );
     const codeViewBtn = await page.$("#html-3");
     await codeViewBtn.click();
@@ -1728,7 +1801,7 @@ export const getTitleProduct = async (page) => {
   for await (const id of idProducts) {
     await page.goto(
       `https://www.apprinting.com/admin/product_action.php?product_id=${id}`,
-      { timeout: 300000 }
+      { timeout: 300000 },
     );
     const title = await page.$("#products_title_1");
     const valueInput = await title.inputValue();
@@ -1743,7 +1816,7 @@ export const addSetupProductPageDesigner = async (page) => {
   for await (const id of idProducts) {
     await page.goto(
       `https://www.apprinting.com/admin/product_designer_action.php?product_id=${id}`,
-      { timeout: 300000 }
+      { timeout: 300000 },
     );
     const pageName1 = await page.$("#pagename_0");
     await pageName1.fill("English Card");
@@ -1773,7 +1846,7 @@ export const auditActionBtv = async (page) => {
     // await page.waitForTimeout(3000);
     const actionsButtons = await page.$("#action-btn");
     const actions = await actionsButtons.$$eval("a", (node) =>
-      node.map((n) => n.innerText)
+      node.map((n) => n.innerText),
     );
     for await (const action of actions) {
       if (action === "Personalize") {
@@ -1816,7 +1889,7 @@ export const StatusActionsBtn = async (page) => {
   for await (const id of idProducts) {
     await page.goto(
       `https://www.apprinting.com/admin/product_action.php?product_id=${id}`,
-      { timeout: 300000 }
+      { timeout: 300000 },
     );
     const productTypeBrowseDesign = await page.$("#product_type_3");
     const inputBrowseDesign = await productTypeBrowseDesign.$("input");
@@ -1834,10 +1907,10 @@ export const changeActionsBtn = async (page) => {
   for await (const id of idProducts) {
     await page.goto(
       `https://www.apprinting.com/admin/product_action.php?product_id=${id}`,
-      { timeout: 300000 }
+      { timeout: 300000 },
     );
     const responsePromise = page.waitForResponse(
-      `https://www.apprinting.com/admin/product_action.php?product_id=${id}`
+      `https://www.apprinting.com/admin/product_action.php?product_id=${id}`,
     );
     const btnSave = await page.$("#btn-action-save");
     const productTypeBrowseDesign = await page.$("#product_type_3");
@@ -1859,7 +1932,7 @@ export const checkedAndSetOnUploadArtworkLaterOption = async (page) => {
   for await (const id of idProducts) {
     await page.goto(
       `https://www.apprinting.com/admin/product_settings.php?product_id=${id}`,
-      { timeout: 300000 }
+      { timeout: 300000 },
     );
 
     const btnSave = await page.$("#btn-action-save");
@@ -1875,7 +1948,7 @@ export const checkedAndSetOnUploadArtworkLaterOption = async (page) => {
 
     if (uploadArtworkLaterOptionChecked === -1) {
       const responsePromise = page.waitForResponse(
-        `https://www.apprinting.com/admin/product_settings.php?product_id=${id}`
+        `https://www.apprinting.com/admin/product_settings.php?product_id=${id}`,
       );
       await options[10].click();
       await btnSave.click();
@@ -1892,7 +1965,7 @@ export const checkedUploadArtworkLaterOption = async (page) => {
   for await (const id of idProducts) {
     await page.goto(
       `https://www.apprinting.com/admin/product_settings.php?product_id=${id}`,
-      { timeout: 300000 }
+      { timeout: 300000 },
     );
     const report = `${id}\n`;
     const uploadTabContent = await page.$("#tab_uploadsettings");
@@ -1958,7 +2031,7 @@ const checkPrice = async (tdInputs, price) => {
 export const updateSetupAttributesOptions = async (page) => {
   for await (const id of idProducts) {
     await page.goto(
-      `https://www.apprinting.com/admin/product_additionalinfo_list.php?product_id=${id}`
+      `https://www.apprinting.com/admin/product_additionalinfo_list.php?product_id=${id}`,
     );
     const tbody = await page.$("tbody");
     const tr = await tbody.$$("tr");
@@ -1971,7 +2044,7 @@ export const updateSetupAttributesOptions = async (page) => {
           const linkAttribute = await link.getAttribute("href");
           if (linkAttribute.includes("product_additionalinfo_action.php")) {
             await page.goto(
-              `https://www.apprinting.com/admin/${linkAttribute}`
+              `https://www.apprinting.com/admin/${linkAttribute}`,
             );
             await page.waitForTimeout(3000);
             // await page.waitForSelector('[name^="attr_label"]');
@@ -2024,7 +2097,7 @@ const auditCheckArtworkOptions = async (page, tr) => {
   let selectProductSize = await page.$("#sel_product_size");
   const selectProductSizeOptions = await selectProductSize.$$eval(
     "option",
-    (node) => node.map((n) => n.getAttribute("value"))
+    (node) => node.map((n) => n.getAttribute("value")),
   );
 
   for await (const selectOption of selectProductSizeOptions) {
@@ -2076,7 +2149,7 @@ const checkArtworkOptions = async (page) => {
   const additionalOptionsTrTable = await tbody.$$("tr");
   for await (const tr of additionalOptionsTrTable) {
     const trHtml = await tr.innerHTML();
-    if (trHtml.includes("Type Of Display") === true) {
+    if (trHtml.includes("Printing Time") === true) {
       await deleteArtworkOption(page, tr);
       await checkArtworkOptions(page);
     }
@@ -2119,11 +2192,11 @@ const createArtworkOption = async (page, id) => {
   await page.once("load", () => console.log("Page loaded!"));
   await page.waitForSelector("#frmqadditionalfieldaction");
   const titleInput = await page.$("#title1");
-  await titleInput.fill("Type Of Display");
+  await titleInput.fill("Turnaround Time");
   const dropDownRadio = await page.$("#radio_combo");
   await dropDownRadio.click();
   const sortInput = await page.$("#addition_sort_order");
-  await sortInput.fill("10");
+  await sortInput.fill("710");
   const addBulkData = await page.$("#addbulkitem");
   await addBulkData.click();
   const addBulkDataContainer = await page.$(".fancybox__container");
@@ -2131,8 +2204,8 @@ const createArtworkOption = async (page, id) => {
   const addBulkDataInput = await addBulkDataContainer.$("#bulktext_1");
   await addBulkDataInput.fill(
     // "5 Business Day,10,0",
-    "A‐Frame 24x24 + 2 Signs,10,0\nA‐Frame 24x24 + 2 Signs + Rider,20,0"
-    // "3 Business Days,10,0\n2 Business Days,20,0"
+    // "A‐Frame 24x24 + 2 Signs,10,0\nA‐Frame 24x24 + 2 Signs + Rider,20,0"
+    "5 Business Days,10,0\n3 Business Days,20,0.4\n2 Business Days,30,0.2",
   );
   const addBulkDataButton = await addBulkDataContainer.$(
     '[data-textarea="bulktext_1"]',
@@ -2178,7 +2251,7 @@ export const getXmlProducts = async (page) => {
   for await (const id of idProducts) {
     await page.goto(
       `https://www.apprinting.com/admin/product_action.php?product_id=${id}`,
-      { timeout: 300000 }
+      { timeout: 300000 },
     );
 
     await page.waitForSelector("#frmproduct");
@@ -2198,7 +2271,7 @@ export const getXmlProducts = async (page) => {
 
     await page.goto(
       `https://www.apprinting.com/admin/product_description.php?product_id=${id}`,
-      { timeout: 300000 }
+      { timeout: 300000 },
     );
     let image = "";
     try {
@@ -2212,7 +2285,7 @@ export const getXmlProducts = async (page) => {
 
     await page.goto(
       `https://www.apprinting.com/admin/product_image_gallery_listing.php?product_id=${id}`,
-      { timeout: 300000 }
+      { timeout: 300000 },
     );
 
     await page.waitForSelector(".page-content");
@@ -2336,25 +2409,24 @@ export const changeCustomSizeProduct = async (page) => {
 
     const maxHeight = await page.$("#MAX_HEIGHT");
     await maxHeight.fill("5");
-    
+
     const saveBtn = await page.$("#btn-action-save");
     await saveBtn.click();
     await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
       state: "visible",
     });
     fs.appendFileSync("list.txt", `${id}\n`);
-    
   }
 };
 
 export const changeAllowFreeShippingProduct = async (page) => {
   for await (const id of idProducts) {
     await page.goto(
-      `https://www.apprinting.com/admin/product_settings.php?product_id=${id}`
+      `https://www.apprinting.com/admin/product_settings.php?product_id=${id}`,
     );
     await page.waitForSelector("#TabContent_generalsettings");
     const checkbox = await page.$$(
-      '[data-name="setting[ALLOW_FREE_SHIPPING]"]'
+      '[data-name="setting[ALLOW_FREE_SHIPPING]"]',
     );
     const isChecked = await checkbox[1].isChecked();
     if (isChecked === false) {
@@ -2427,7 +2499,7 @@ export const changeProductConfig = async (page) => {
     // while (clean === false) {
     await page.goto(
       `https://www.apprinting.com/admin/product_designer_action.php?product_id=${id}`,
-      { timeout: 300000 }
+      { timeout: 300000 },
     );
     // try {
     await page.waitForSelector("#size_table");
@@ -2702,7 +2774,7 @@ export const auditProductOptions = async (page) => {
   for await (const id of idProducts) {
     await page.goto(
       `https://www.apprinting.com/admin/product_additionalinfo_list.php?product_id=${id}`,
-      { timeout: 300000 }
+      { timeout: 300000 },
     );
     await page.waitForSelector("#ops-table");
     const options = await page.$$('[id^="prod_add_opt_id"]');
@@ -2744,7 +2816,7 @@ export const getPrincipalPricesProducts = async (page) => {
   for await (const id of idProducts) {
     await page.goto(
       `https://www.apprinting.com/admin/product_price.php?product_id=${id}`,
-      { timeout: 300000 }
+      { timeout: 300000 },
     );
     await page.waitForSelector("#frmprice");
     const formTable = await page.$("#frmprice");
@@ -2779,10 +2851,9 @@ export const getPricesProducts = async (page) => {
     //   // console.log(report);
     // }
 
-
     await page.goto(
       `https://www.apprinting.com/admin/product_additionalinfo_list.php?product_id=${id}`,
-      { timeout: 300000 }
+      { timeout: 300000 },
     );
 
     const sectionGroup = await page.$('[id^="prod_add_opt_id:"]');
@@ -2826,7 +2897,7 @@ export const getPricesProducts = async (page) => {
       } catch (error) {
         fs.appendFileSync(
           "list-audit-prices-vietnamese-english.txt",
-          "ERROR PRODUCT OPTIONS"
+          "ERROR PRODUCT OPTIONS",
         );
         // fs.appendFileSync("model-check-simple-flat.txt", "ERROR PRODUCT OPTIONS");
         console.log("ERROR PRODUCT OPTIONS");
@@ -2836,7 +2907,7 @@ export const getPricesProducts = async (page) => {
     let report = pricesModel.toString();
     fs.appendFileSync(
       "list-audit-prices-vietnamese-english.txt",
-      `${report}\n`
+      `${report}\n`,
     );
     // fs.appendFileSync("model-check-simple-flat.txt", `\n`);
   }
@@ -2847,7 +2918,7 @@ export const getModelPricesProducts = async (page) => {
     let pricesModel = [];
     await page.goto(
       `https://www.apprinting.com/admin/product_additionalinfo_list.php?product_id=${id}`,
-      { timeout: 300000 }
+      { timeout: 300000 },
     );
 
     const sectionGroup = await page.$('[id^="prod_add_opt_id:"]');
@@ -2900,7 +2971,7 @@ export const getModelPricesProducts = async (page) => {
         } catch (error) {
           fs.appendFileSync(
             "list-audit-prices-vietnamese-english.txt",
-            "ERROR PRODUCT OPTIONS"
+            "ERROR PRODUCT OPTIONS",
           );
           console.log("ERROR PRODUCT OPTIONS");
         }
@@ -2909,7 +2980,7 @@ export const getModelPricesProducts = async (page) => {
     let report = pricesModel.toString();
     fs.appendFileSync(
       "list-audit-prices-vietnamese-english.txt",
-      `${report}\n`
+      `${report}\n`,
     );
   }
 };
@@ -2918,7 +2989,7 @@ export const getTotalModelPricesProducts = async (page) => {
   for await (const id of idProducts) {
     await page.goto(
       `https://www.apprinting.com/admin/product_price.php?product_id=${id}`,
-      { timeout: 300000 }
+      { timeout: 300000 },
     );
     const table = await page.$(".table-responsive");
     const qtyFromInputs = await table.$$('[data-label="Quantity From"]');
@@ -2936,7 +3007,7 @@ export const getTotalModelPricesProducts = async (page) => {
     }
     await page.goto(
       `https://www.apprinting.com/admin/product_additionalinfo_list.php?product_id=${id}`,
-      { timeout: 300000 }
+      { timeout: 300000 },
     );
 
     const sectionGroup = await page.$('[id^="prod_add_opt_id:"]');
@@ -2990,7 +3061,7 @@ export const getTotalModelPricesProducts = async (page) => {
         } catch (error) {
           fs.appendFileSync(
             "list-audit-prices-vietnamese-english.txt",
-            "ERROR PRODUCT OPTIONS"
+            "ERROR PRODUCT OPTIONS",
           );
           console.log("ERROR PRODUCT OPTIONS");
         }
@@ -2999,7 +3070,7 @@ export const getTotalModelPricesProducts = async (page) => {
     let report = totalSumPrice + pricesTotal;
     fs.appendFileSync(
       "list-audit-prices-vietnamese-english.txt",
-      `${report}\n`
+      `${report}\n`,
     );
   }
 };
@@ -3008,7 +3079,7 @@ export const getAuditRulesReport = async (page) => {
   for await (const id of idProducts) {
     await page.goto(
       `https://www.apprinting.com/admin/product_additionalrules_list.php?product_id=${id}`,
-      { timeout: 300000 }
+      { timeout: 300000 },
     );
     await page.waitForSelector("#ops-table");
     const tableRules = await page.$("tbody");
@@ -3041,21 +3112,21 @@ export const getAttributes = async (page) => {
   for await (const id of idProducts) {
     await page.goto(
       `https://www.apprinting.com/admin/product_additionalinfo_list.php?product_id=${id}`,
-      { timeout: 300000 }
+      { timeout: 300000 },
     );
     await page.waitForSelector(".table-responsive");
     const table = await page.$(".table-responsive");
     const blocks = await table.$$('[id^="prod_add_opt_id"]');
     fs.appendFileSync(
       "list-audit-prices-vietnamese-english.txt",
-      `${id} ---> `
+      `${id} ---> `,
     );
     for await (const block of blocks) {
       const attributes = await block.$$("span.badge.badge-info");
       const attributesLen = attributes.length;
       fs.appendFileSync(
         "list-audit-prices-vietnamese-english.txt",
-        `${attributesLen},`
+        `${attributesLen},`,
       );
     }
     fs.appendFileSync("list-audit-prices-vietnamese-english.txt", `\n`);
@@ -3067,7 +3138,7 @@ export const updateOptionsPricesProducts = async (page) => {
     let newPriceIndex = 0;
     await page.goto(
       `https://www.apprinting.com/admin/product_additionalinfo_list.php?product_id=${id}`,
-      { timeout: 300000 }
+      { timeout: 300000 },
     );
 
     const sectionGroup = await page.$('[id^="prod_add_opt_id:"]');
@@ -3081,7 +3152,7 @@ export const updateOptionsPricesProducts = async (page) => {
     for await (const size of optionsSize) {
       const value = await size.getAttribute("value");
       // if (value === "Common Price For All Size") {
-        optionsSizeValue.push(value);
+      optionsSizeValue.push(value);
       // }
     }
 
@@ -3092,7 +3163,7 @@ export const updateOptionsPricesProducts = async (page) => {
       const value = await option.getAttribute("title");
       optionsValue.push(value);
     }
-    console.log("Working in product: ",id);
+    console.log("Working in product: ", id);
 
     for (let index = 0; index < optionsSizeValue.length; index++) {
       selectSize = await page.$("#sel_product_size");
@@ -3127,7 +3198,7 @@ export const updateOptionsPricesProducts = async (page) => {
               await element.fill("0");
             }
           }
-            
+
           const saveBtn = await page.$("#btn-action-save");
           await saveBtn.click();
           await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
@@ -3151,7 +3222,6 @@ export const updatePricesProducts = async (page) => {
       `https://www.apprinting.com/admin/product_price.php?product_id=${id}`,
       { timeout: 300000 },
     );
-
 
     // ADD PRICES ALL TABLES
     await page.waitForSelector("#frmprice");
@@ -3211,7 +3281,7 @@ const removeHtmlTags = (str) => {
 export const updateAndCreateArtwork = async (page) => {
   for await (const id of idProducts) {
     await page.goto(
-      `https://www.apprinting.com/admin/product_additionalinfo_list.php?product_id=${id}`
+      `https://www.apprinting.com/admin/product_additionalinfo_list.php?product_id=${id}`,
     );
     const report = `${id}`;
     await createArtworkOption(page, id);
@@ -3223,7 +3293,7 @@ export const updateAndCreateArtwork = async (page) => {
 export const checkAndDeleteArtwork = async (page, ipProxy) => {
   for await (const id of idProducts) {
     await page.goto(
-      `https://www.apprinting.com/admin/product_additionalinfo_list.php?product_id=${id}`
+      `https://www.apprinting.com/admin/product_additionalinfo_list.php?product_id=${id}`,
     );
     const report = `${id}`;
     await checkArtworkOptions(page, id);
@@ -3237,13 +3307,13 @@ export const auditAdditionalOptions = async (page) => {
     await page.goto(
       `https://www.apprinting.com/admin/product_additionalinfo_list.php?product_id=${id}`,
     );
-    
+
     await page.waitForSelector(".table-responsive");
     const table = await page.$("#ops-table");
     const tbody = await table.$("tbody");
     const rows = await tbody.$$("tr");
     let report = [];
-    for await (const row of rows){
+    for await (const row of rows) {
       const title = await row.$(".text-primary");
       const titleValue = await title.innerText();
       const sort = await row.$(".edit_sort");
@@ -3259,7 +3329,7 @@ export const auditAdditionalOptions = async (page) => {
 export const auditArtwork = async (page) => {
   for await (const id of idProducts) {
     await page.goto(
-      `https://www.apprinting.com/admin/product_additionalinfo_list.php?product_id=${id}`
+      `https://www.apprinting.com/admin/product_additionalinfo_list.php?product_id=${id}`,
     );
     const verifyArtwork = await checkArtworkOptionsAudit(page);
     let artwork = false;
@@ -3341,7 +3411,7 @@ async function modifyHyperlinksInFolders(
   targetFileName,
   searchWord,
   newHref,
-  newSection
+  newSection,
 ) {
   try {
     console.log(`🔍 Buscando en: ${rootDir}`);
@@ -3365,7 +3435,7 @@ async function modifyHyperlinksInFolders(
             targetFilePath,
             searchWord,
             newHref,
-            newSection
+            newSection,
           );
         } catch (error) {
           // El archivo no existe en esta carpeta, continuar
@@ -3534,6 +3604,6 @@ export async function modifyStringRecursiveFiles() {
     fileName,
     keyword,
     newLink,
-    newSection
+    newSection,
   );
 }
