@@ -92,7 +92,7 @@ const updateRow = async () => {
   const page = await browser.newPage();
 
   // GET PRICES PRINTPAPA BANNER
-  await getPricesPrintPapaProduct(page);
+  // await getPricesPrintPapaProduct(page);
 
   // LOGIN APP
   // CREATE AND UPDATE ARTWORK WITH PROXIES LIST
@@ -137,9 +137,9 @@ const updateRow = async () => {
   // await changeProductShippingMethod(page);
 
   // GET AND UPDATE PRICES IN DYNAMIC SIZE PRODUCT
-  // await login(page);
+  await login(page);
   // await getIdProductsAdmin(page, "");
-  // await getQuantityBasedPriceAndProductPrice(page);
+  await getQuantityBasedPriceAndProductPrice(page);
   // await updateQuantityBasedPriceAndProductPrice(page);
 
   // GET ID PRODUCTS
