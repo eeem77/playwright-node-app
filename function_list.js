@@ -64,8 +64,28 @@ import {
   ninePrice,
   tenPrice,
   fifteenPrice,
+  twentyPrice,
   twentyfivePrice,
+  thirtyPrice,
+ 
 } from "./data.js";
+import {
+  onePriceOption,
+  twoPriceOption,
+  threePriceOption,
+  fourPriceOption,
+  fivePriceOption,
+  sixPriceOption,
+  sevenPriceOption,
+  eightPriceOption,
+  ninePriceOption,
+  tenPriceOption,
+  fifteenPriceOption,
+  twentyPriceOption,
+  twentyfivePriceOption,
+  thirtyPriceOption,
+  customSizePricePrincipalOption,
+} from "./data-dinamyc.js";
 import { log } from "console";
 dotenv.config();
 
@@ -1146,6 +1166,123 @@ export const getQuantityBasedPriceAndProductPrice = async (page) => {
   }
 };
 
+export const getQuantityBasedPriceAndProductPriceOptions = async (page) => {
+  for await (const id of idProducts) {
+    await page.goto(
+      `https://www.apprinting.com/admin/product_additionalinfo_list.php?product_id=${id}`,
+    );
+
+    const sectionGroup = await page.$('[id^="prod_add_opt_id:"]');
+    if (sectionGroup) await btnMenuAction(page, sectionGroup, 1);
+    await page.waitForTimeout(5000);
+
+    const productViewOptions = await page.$("#product_view_options");
+    await productViewOptions.selectOption("Turnaround Time");
+
+    await page.waitForSelector(".table-responsive");
+    const quantityBasedPriceBtn = await page.$("a.btn-purple");
+    const quantityBasedPriceHref =
+      await quantityBasedPriceBtn.getAttribute("href");
+    await page.goto(
+      `https://www.apprinting.com/admin/${quantityBasedPriceHref}`,
+    );
+    await page.waitForSelector(".table-responsive");
+
+    let titlesOptions = [
+      "1 to 1 (Ft)",
+      "2 to 2 (Ft)",
+      "3 to 3 (Ft)",
+      "4 to 4 (Ft)",
+      "5 to 5 (Ft)",
+      "6 to 6 (Ft)",
+      "7 to 7 (Ft)",
+      "8 to 8 (Ft)",
+      "9 to 9 (Ft)",
+      "10 to 14 (Ft)",
+      "15 to 19 (Ft)",
+      "20 to 24 (Ft)",
+      "25 to 29 (Ft)",
+      "30 to 30 (Ft)",
+    ];
+
+    // const customSizeOptions = await customSize.$$("option")
+    for await (const option of titlesOptions) {
+      const customSize = await page.$("#custom_size");
+      await customSize.selectOption(option);
+
+      await page.waitForSelector(".table-responsive");
+
+      let pricesInputsValues = [];
+      // let quantityInputsValues = [];
+      // let quantityToInputsValues = [];
+
+      // const quantityBasedQuantity = await page.$$('[name^="txtqty"]');
+      // const quantityBasedQuantityTo = await page.$$('[name^="totxtqty"]');
+      const quantityBasedPrices = await page.$$('[name^="txtprice"]');
+
+      // for await (const quantity of quantityBasedQuantityTo) {
+      //   const value = await quantity.inputValue();
+      //   quantityToInputsValues.push(value);
+      //   // fs.appendFileSync("list.txt", `${value}\n`);
+      // }
+
+      // for await (const quantity of quantityBasedQuantity) {
+      //   const value = await quantity.inputValue();
+      //   quantityInputsValues.push(value);
+      //   // fs.appendFileSync("list.txt", `${value}\n`);
+      // }
+      for await (const price of quantityBasedPrices) {
+        const value = await price.inputValue();
+        pricesInputsValues.push(value);
+        // fs.appendFileSync("list.txt", `${value}\n`);
+      }
+
+      fs.appendFileSync(
+        "list.txt",
+        `${option}\n\n ${pricesInputsValues}\n\n @@@@@@@@@@@@@@@@@@ \n\n`,
+      );
+    }
+
+    // fs.appendFileSync(
+    //   "list.txt",
+    //   `$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ \n\n`,
+    // );
+
+    // await page.goto(
+    //   `https://www.apprinting.com/admin/product_price.php?product_id=${id}`,
+    // );
+    // await page.waitForSelector("#frmprice");
+
+    // let pricesInputsValues = [];
+    // let quantityInputsValues = [];
+    // let quantityToInputsValues = [];
+
+    // const prices = await page.$$('[name^="txtprice"]');
+    // const customSizeFrom = await page.$$('[name^="txtqty"]');
+    // const customSizeTo = await page.$$('[name^="totxtqty"]');
+
+    // for await (const price of prices) {
+    //   const value = await price.inputValue();
+    //   pricesInputsValues.push(value);
+    //   // fs.appendFileSync("list.txt", `${value}\n`);
+    // }
+    // for await (const size of customSizeFrom) {
+    //   const value = await size.inputValue();
+    //   quantityInputsValues.push(value);
+    //   // fs.appendFileSync("list.txt", `${value}\n`);
+    // }
+    // for await (const size of customSizeTo) {
+    //   const value = await size.inputValue();
+    //   quantityToInputsValues.push(value);
+    //   // fs.appendFileSync("list.txt", `${value}\n`);
+    // }
+    // fs.appendFileSync(
+    //   "list.txt",
+    //   `${quantityToInputsValues}\n\n ${quantityInputsValues}\n\n ${pricesInputsValues}\n\n @@@@@@@@@@@@@@@@@@ \n\n`,
+    // );
+  }
+};
+
 export const updateQuantityBasedPriceAndProductPrice = async (page) => {
   for await (const id of idProducts) {
     await page.goto(
@@ -1177,158 +1314,360 @@ export const updateQuantityBasedPriceAndProductPrice = async (page) => {
       "30 to 30 (Ft)",
     ];
 
-    const quantityBasedQuantity = await page.$$('[name^="txtqty"]');
-    const quantityBasedQuantityLength = await quantityBasedQuantity.length;
+    
 
-    if (quantityBasedQuantityLength !== 10) {
-      const addPrice = page.$('[data-tableaddrow^="TblProductPrice"]');
-      const countClick = 10 - quantityBasedQuantityLength;
-      for await (const count of countClick) {
-        await addPrice.click();
-        await page.waitForTimeout(1000);
-      }
-    };
+    
 
-    // const customSizeOptions = await customSize.$$("option")
+    await page.waitForSelector("#frmprice");
+
     for await (const option of titlesOptions) {
       const customSize = await page.$("#custom_size");
       await customSize.selectOption(option);
 
       await page.waitForSelector("#frmprice");
 
+      let quantityBasedQuantity = await page.$$('[name^="txtqty"]');
+      const quantityBasedQuantityLength = await quantityBasedQuantity.length;
+
+      if (quantityBasedQuantityLength < 10) {
+        const addPrice = await page.$('[data-tableaddrow^="TblProductPrice"]');
+        const countClick = 10 - quantityBasedQuantityLength;
+        const myArray = Array.from({ length: countClick }, (_, i) => i + 1);
+        // console.log(countClick);
+
+        for await (const count of myArray) {
+          await addPrice.click();
+          await page.waitForTimeout(1000);
+        }
+      }
+
       let pricesInputsValues = 0;
       let quantityInputsValues = 0;
       let quantityToInputsValues = 0;
 
-      const quantityBasedQuantity = await page.$$('[name^="txtqty"]');
+      quantityBasedQuantity = await page.$$('[name^="txtqty"]');
       const quantityBasedQuantityTo = await page.$$('[name^="totxtqty"]');
       const quantityBasedPrices = await page.$$('[name^="txtprice"]');
 
       for await (const quantity of quantityBasedQuantityTo) {
         await quantity.fill(quantityFromTo[quantityToInputsValues].toString());
         quantityToInputsValues++;
-        // quantityToInputsValues.push(value);
-        // fs.appendFileSync("list.txt", `${value}\n`);
       }
 
       for await (const quantity of quantityBasedQuantity) {
         await quantity.fill(quantityFrom[quantityInputsValues].toString());
         quantityInputsValues++;
-        // fs.appendFileSync("list.txt", `${value}\n`);
       }
       for await (const price of quantityBasedPrices) {
         switch (option) {
           case "1 to 1 (Ft)":
-            await quantity.fill(onePrice[pricesInputsValues].toString());
+            await price.fill(onePrice[pricesInputsValues].toString());
             pricesInputsValues++;
             break;
           case "2 to 2 (Ft)":
-            await quantity.fill(twoPrice[pricesInputsValues].toString());
+            await price.fill(twoPrice[pricesInputsValues].toString());
             pricesInputsValues++;
             break;
           case "3 to 3 (Ft)":
-            await quantity.fill(threePrice[pricesInputsValues].toString());
+            await price.fill(threePrice[pricesInputsValues].toString());
             pricesInputsValues++;
             break;
           case "4 to 4 (Ft)":
-            await quantity.fill(fourPrice[pricesInputsValues].toString());
+            await price.fill(fourPrice[pricesInputsValues].toString());
             pricesInputsValues++;
             break;
           case "5 to 5 (Ft)":
-            await quantity.fill(fivePrice[pricesInputsValues].toString());
+            await price.fill(fivePrice[pricesInputsValues].toString());
             pricesInputsValues++;
             break;
           case "6 to 6 (Ft)":
-            await quantity.fill(sixPrice[pricesInputsValues].toString());
+            await price.fill(sixPrice[pricesInputsValues].toString());
             pricesInputsValues++;
             break;
           case "7 to 7 (Ft)":
-            await quantity.fill(sevenPrice[pricesInputsValues].toString());
+            await price.fill(sevenPrice[pricesInputsValues].toString());
             pricesInputsValues++;
             break;
           case "8 to 8 (Ft)":
-            await quantity.fill(eightPrice[pricesInputsValues].toString());
+            await price.fill(eightPrice[pricesInputsValues].toString());
             pricesInputsValues++;
             break;
           case "8 to 8 (Ft)":
-            await quantity.fill(eightPrice[pricesInputsValues].toString());
+            await price.fill(eightPrice[pricesInputsValues].toString());
             pricesInputsValues++;
             break;
           case "9 to 9 (Ft)":
-            await quantity.fill(ninePrice[pricesInputsValues].toString());
+            await price.fill(ninePrice[pricesInputsValues].toString());
             pricesInputsValues++;
             break;
           case "10 to 14 (Ft)":
-            await quantity.fill(tenPrice[pricesInputsValues].toString());
+            await price.fill(tenPrice[pricesInputsValues].toString());
             pricesInputsValues++;
             break;
           case "15 to 19 (Ft)":
-            await quantity.fill(fifteenPrice[pricesInputsValues].toString());
+            await price.fill(fifteenPrice[pricesInputsValues].toString());
             pricesInputsValues++;
             break;
           case "20 to 24 (Ft)":
-            await quantity.fill(twentyPrice[pricesInputsValues].toString());
-            pricesInputsValues++;
-            break;
-          case "20 to 24 (Ft)":
-            await quantity.fill(twentyPrice[pricesInputsValues].toString());
+            await price.fill(twentyPrice[pricesInputsValues].toString());
             pricesInputsValues++;
             break;
           case "25 to 29 (Ft)":
-            await quantity.fill(twentyfivePrice[pricesInputsValues].toString());
+            await price.fill(twentyfivePrice[pricesInputsValues].toString());
             pricesInputsValues++;
             break;
           case "30 to 30 (Ft)":
-            await quantity.fill(twentyfivePrice[pricesInputsValues].toString());
+            await price.fill(thirtyPrice[pricesInputsValues].toString());
             pricesInputsValues++;
             break;
         }
-        // fs.appendFileSync("list.txt", `${value}\n`);
       }
 
-      fs.appendFileSync(
-        "list.txt",
-        `${option}\n\n ${quantityToInputsValues}\n\n ${quantityInputsValues}\n\n ${pricesInputsValues}\n\n @@@@@@@@@@@@@@@@@@ \n\n`,
-      );
-    }
-
-    fs.appendFileSync(
-      "list.txt",
-      `$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ \n\n`,
-    );
+      const saveBtn = await page.$("#btn-action-save");
+      await saveBtn.click();
+      await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
+        state: "visible",
+      });
+    }   
 
     await page.goto(
       `https://www.apprinting.com/admin/product_price.php?product_id=${id}`,
     );
     await page.waitForSelector("#frmprice");
 
-    let pricesInputsValues = [];
-    let quantityInputsValues = [];
-    let quantityToInputsValues = [];
+    let pricesInputsValues = 0;
+    let quantityInputsValues = 0;
+    let quantityToInputsValues = 0;
 
     const prices = await page.$$('[name^="txtprice"]');
     const customSizeFrom = await page.$$('[name^="txtqty"]');
     const customSizeTo = await page.$$('[name^="totxtqty"]');
 
-    for await (const price of prices) {
-      const value = await price.inputValue();
-      pricesInputsValues.push(value);
-      // fs.appendFileSync("list.txt", `${value}\n`);
-    }
     for await (const size of customSizeFrom) {
-      const value = await size.inputValue();
-      quantityInputsValues.push(value);
-      // fs.appendFileSync("list.txt", `${value}\n`);
+      await size.fill(customSizeFromPrincipal[quantityInputsValues].toString());
+      quantityInputsValues++;
     }
     for await (const size of customSizeTo) {
-      const value = await size.inputValue();
-      quantityToInputsValues.push(value);
-      // fs.appendFileSync("list.txt", `${value}\n`);
+      await size.fill(customSizeToPrincipal[quantityToInputsValues].toString());
+      quantityToInputsValues++;
     }
+    for await (const price of prices) {
+      await price.fill(customSizePricePrincipal[pricesInputsValues].toString());
+      pricesInputsValues++;
+    }
+
+    const saveBtn = await page.$("#btn-action-save");
+    await saveBtn.click();
+    await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
+      state: "visible",
+    });
+
     fs.appendFileSync(
       "list.txt",
-      `${quantityToInputsValues}\n\n ${quantityInputsValues}\n\n ${pricesInputsValues}\n\n @@@@@@@@@@@@@@@@@@ \n\n`,
+      `${id}\n`,
     );
+  }
+};
+
+export const updateQuantityBasedPriceAndProductPriceOption = async (page) => {
+  for await (const id of idProducts) {
+    await page.goto(
+      `https://www.apprinting.com/admin/product_additionalinfo_list.php?product_id=${id}`,
+    );
+
+    const sectionGroup = await page.$('[id^="prod_add_opt_id:"]');
+    if (sectionGroup) await btnMenuAction(page, sectionGroup, 1);
+    await page.waitForTimeout(5000);
+    
+    await page.waitForSelector(".table-responsive");
+    
+    const selectOption = await page.$("#product_view_options");
+    await selectOption.selectOption("Turnaround Time");
+    await page.waitForTimeout(5000);
+    // await page.waitForSelector(".table-responsive");
+
+    let pricesInputsValues = 0;
+    const prices = await page.$$('[name^="txtprice"]');
+    // console.log(prices.length);
+    
+    for await (const price of prices) {
+      // if (customSizePricePrincipalOption[pricesInputsValues]) {
+        await price.fill(
+          customSizePricePrincipalOption[pricesInputsValues].toString(),
+        );
+        pricesInputsValues++;
+      // }
+    }
+
+    const saveBtn = await page.$("#btn-action-save");
+    await saveBtn.click();
+    await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
+      state: "visible",
+    });
+
+    const quantityBasedPriceBtn = await page.$("a.btn-purple");
+    const quantityBasedPriceHref =
+      await quantityBasedPriceBtn.getAttribute("href");
+    await page.goto(
+      `https://www.apprinting.com/admin/${quantityBasedPriceHref}`,
+    );
+    
+    await page.waitForSelector(".table-responsive");
+
+
+    let titlesOptions = [
+      "1 to 1 (Ft)",
+      "2 to 2 (Ft)",
+      "3 to 3 (Ft)",
+      "4 to 4 (Ft)",
+      "5 to 5 (Ft)",
+      "6 to 6 (Ft)",
+      "7 to 7 (Ft)",
+      "8 to 8 (Ft)",
+      "9 to 9 (Ft)",
+      "10 to 14 (Ft)",
+      "15 to 19 (Ft)",
+      "20 to 24 (Ft)",
+      "25 to 29 (Ft)",
+      "30 to 30 (Ft)",
+    ];
+
+
+    for await (const option of titlesOptions) {
+      const customSize = await page.$("#custom_size");
+      await customSize.selectOption(option);
+
+      await page.waitForSelector(".table-responsive");
+      let pricesInputsValues = 0;
+      const quantityBasedPrices = await page.$$('[name^="txtprice"]');
+      for await (const price of quantityBasedPrices) {
+        switch (option) {
+          case "1 to 1 (Ft)":
+            await price.fill(
+              onePriceOption[pricesInputsValues] 
+              ? onePriceOption[pricesInputsValues].toString()
+              :"0"
+            );
+            pricesInputsValues++;
+            break;
+          case "2 to 2 (Ft)":
+            await price.fill(
+              twoPriceOption[pricesInputsValues]
+                ? twoPriceOption[pricesInputsValues].toString()
+                : "0",
+            );
+            pricesInputsValues++;
+            break;
+          case "3 to 3 (Ft)":
+            await price.fill(
+              threePriceOption[pricesInputsValues]
+                ? threePriceOption[pricesInputsValues].toString()
+                : "0",
+            );
+            pricesInputsValues++;
+            break;
+          case "4 to 4 (Ft)":
+            await price.fill(
+              fourPriceOption[pricesInputsValues]
+                ? fourPriceOption[pricesInputsValues].toString()
+                : "0",
+            );
+            pricesInputsValues++;
+            break;
+          case "5 to 5 (Ft)":
+            await price.fill(
+              fivePriceOption[pricesInputsValues]
+                ? fivePriceOption[pricesInputsValues].toString()
+                : "0",
+            );
+            pricesInputsValues++;
+            break;
+          case "6 to 6 (Ft)":
+            await price.fill(
+              sixPriceOption[pricesInputsValues]
+                ? sixPriceOption[pricesInputsValues].toString()
+                : "0",
+            );
+            pricesInputsValues++;
+            break;
+          case "7 to 7 (Ft)":
+            await price.fill(
+              sevenPriceOption[pricesInputsValues]
+                ? sevenPriceOption[pricesInputsValues].toString()
+                : "0",
+            );
+            pricesInputsValues++;
+            break;
+          case "8 to 8 (Ft)":
+            await price.fill(
+              eightPriceOption[pricesInputsValues]
+                ? eightPriceOption[pricesInputsValues].toString()
+                : "0",
+            );
+            pricesInputsValues++;
+            break;
+          case "9 to 9 (Ft)":
+            await price.fill(
+              ninePriceOption[pricesInputsValues]
+                ? ninePriceOption[pricesInputsValues].toString()
+                : "0",
+            );
+            pricesInputsValues++;
+            break;
+          case "10 to 14 (Ft)":
+            await price.fill(
+              tenPriceOption[pricesInputsValues]
+                ? tenPriceOption[pricesInputsValues].toString()
+                : "0",
+            );
+            pricesInputsValues++;
+            break;
+          case "15 to 19 (Ft)":
+            await price.fill(
+              fifteenPriceOption[pricesInputsValues]
+                ? fifteenPriceOption[pricesInputsValues].toString()
+                : "0",
+            );
+            pricesInputsValues++;
+            break;
+          case "20 to 24 (Ft)":
+            await price.fill(
+              twentyPriceOption[pricesInputsValues]
+                ? twentyPriceOption[pricesInputsValues].toString()
+                : "0",
+            );
+            pricesInputsValues++;
+            break;
+          case "25 to 29 (Ft)":
+            await price.fill(
+              twentyfivePriceOption[pricesInputsValues]
+                ? twentyfivePriceOption[pricesInputsValues].toString()
+                : "0",
+            );
+            pricesInputsValues++;
+            break;
+          case "30 to 30 (Ft)":
+            await price.fill(
+              thirtyPriceOption[pricesInputsValues]
+                ? thirtyPriceOption[pricesInputsValues].toString()
+                : "0",
+            );
+            pricesInputsValues++;
+            break;
+        }
+      }
+
+      const saveBtn = await page.$("#btn-action-save");
+      await saveBtn.click();
+      await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
+        state: "visible",
+      });
+    }
+
+   
+    
+
+    fs.appendFileSync("list.txt", `${id}\n`);
   }
 };
 

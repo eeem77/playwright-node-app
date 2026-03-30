@@ -61,6 +61,8 @@ import {
   getPrincipalPricesProducts,
   changeCustomSizeProduct,
   getPricesPrintPapaProduct,
+  getQuantityBasedPriceAndProductPriceOptions,
+  updateQuantityBasedPriceAndProductPriceOption,
 } from "./function_list.js";
 // import { proxies } from './data.js'
 // import fs from 'fs'
@@ -138,9 +140,11 @@ const updateRow = async () => {
 
   // GET AND UPDATE PRICES IN DYNAMIC SIZE PRODUCT
   await login(page);
-  // await getIdProductsAdmin(page, "");
-  await getQuantityBasedPriceAndProductPrice(page);
+  // // await getIdProductsAdmin(page, "");
+  // // await getQuantityBasedPriceAndProductPrice(page);
+  // await getQuantityBasedPriceAndProductPriceOptions(page);
   // await updateQuantityBasedPriceAndProductPrice(page);
+  await updateQuantityBasedPriceAndProductPriceOption(page);
 
   // GET ID PRODUCTS
   // const table = document.querySelector("tbody");
