@@ -4,9 +4,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -16,9 +16,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -28,9 +28,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -40,9 +40,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -52,9 +52,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -64,9 +64,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -76,9 +76,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -88,9 +88,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -100,9 +100,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -112,9 +112,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -124,9 +124,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -136,9 +136,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -148,9 +148,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -160,9 +160,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -172,9 +172,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -184,9 +184,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -196,9 +196,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -208,9 +208,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -220,9 +220,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -232,9 +232,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -244,9 +244,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -256,9 +256,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -268,9 +268,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -280,9 +280,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -292,9 +292,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -304,9 +304,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -316,9 +316,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -328,9 +328,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -340,9 +340,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -352,9 +352,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -364,9 +364,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -376,9 +376,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -388,9 +388,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -400,9 +400,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -412,9 +412,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -424,9 +424,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -436,9 +436,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -448,9 +448,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -460,9 +460,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -472,9 +472,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 50 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -484,9 +484,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -496,9 +496,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -508,9 +508,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -520,9 +520,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -532,9 +532,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -544,9 +544,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -556,9 +556,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -568,9 +568,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -580,9 +580,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -592,9 +592,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -604,9 +604,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -616,9 +616,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -628,9 +628,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -640,9 +640,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -652,9 +652,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -664,9 +664,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -676,9 +676,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -688,9 +688,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -700,9 +700,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -712,9 +712,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -724,9 +724,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -736,9 +736,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -748,9 +748,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -760,9 +760,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -772,9 +772,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -784,9 +784,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -796,9 +796,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -808,9 +808,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -820,9 +820,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -832,9 +832,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -844,9 +844,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]
@@ -856,9 +856,9 @@
     "options": [
       { "title": "Material", "sort": 10 },
       { "title": "Printed Side", "sort": 15 },
+      { "title": "Hemming", "sort": 19 },
       { "title": "Grommets", "sort": 20 },
-      { "title": "Hemming", "sort": 30 },
-      { "title": "Pole Pocket", "sort": 40 },
+      { "title": "Pole Pocket", "sort": 30 },
       { "title": "Artwork", "sort": 700 },
       { "title": "Turnaround Time", "sort": 710 }
     ]

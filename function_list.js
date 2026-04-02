@@ -1482,7 +1482,7 @@ export const updateQuantityBasedPriceAndProductPriceOption = async (page) => {
     await page.waitForSelector(".table-responsive");
     
     const selectOption = await page.$("#product_view_options");
-    await selectOption.selectOption("Turnaround Time");
+    await selectOption.selectOption("Grommets");
     await page.waitForTimeout(5000);
     // await page.waitForSelector(".table-responsive");
 
@@ -2766,7 +2766,7 @@ const checkArtworkOptions = async (page) => {
   const additionalOptionsTrTable = await tbody.$$("tr");
   for await (const tr of additionalOptionsTrTable) {
     const trHtml = await tr.innerHTML();
-    if (trHtml.includes("Printing Time") === true) {
+    if (trHtml.includes("Grommets") === true) {
       await deleteArtworkOption(page, tr);
       await checkArtworkOptions(page);
     }
@@ -2809,11 +2809,11 @@ const createArtworkOption = async (page, id) => {
   await page.once("load", () => console.log("Page loaded!"));
   await page.waitForSelector("#frmqadditionalfieldaction");
   const titleInput = await page.$("#title1");
-  await titleInput.fill("Turnaround Time");
+  await titleInput.fill("Grommets");
   const dropDownRadio = await page.$("#radio_combo");
   await dropDownRadio.click();
   const sortInput = await page.$("#addition_sort_order");
-  await sortInput.fill("710");
+  await sortInput.fill("40");
   const addBulkData = await page.$("#addbulkitem");
   await addBulkData.click();
   const addBulkDataContainer = await page.$(".fancybox__container");
@@ -2822,7 +2822,8 @@ const createArtworkOption = async (page, id) => {
   await addBulkDataInput.fill(
     // "5 Business Day,10,0",
     // "A‐Frame 24x24 + 2 Signs,10,0\nA‐Frame 24x24 + 2 Signs + Rider,20,0"
-    "5 Business Days,10,0\n3 Business Days,20,0.4\n2 Business Days,30,0.2",
+    // "None,10,0\nYes,20,0\n"
+    "None,10,0\nGrommet every 2 feet,20,0\nGrommet on each corner,30,0\n",
   );
   const addBulkDataButton = await addBulkDataContainer.$(
     '[data-textarea="bulktext_1"]',
