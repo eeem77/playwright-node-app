@@ -1671,6 +1671,83 @@ export const updateQuantityBasedPriceAndProductPriceOption = async (page) => {
   }
 };
 
+export const additionalOptionRules = async (page) => {
+  for await (const id of idProducts) {
+    await page.goto(
+      `https://www.apprinting.com/admin/product_additionalrules_action.php?product_id=${id}`,
+    );
+
+    await page.waitForSelector("#frmadditionalrulesaction");
+
+    const ruleName = await page.$("#rules_name");
+    await ruleName.fill("Pole Pocket | Grommets");
+
+    const ruleType = await page.$("#rules_type");
+    await ruleType.selectOption("additional_option_based");
+
+    // await page.waitForTimeout(7000);
+
+    const selectOptionButton = await page.$(
+      "button.multiselect.dropdown-toggle",
+    );
+    await selectOptionButton.click();
+
+    await page.waitForSelector("ul.multiselect-container.dropdown-menu.show");
+
+    const selectOptionButtonMenu = await page.$(
+      "ul.multiselect-container.dropdown-menu.show",
+    );
+
+    const labels = await selectOptionButtonMenu.$$("label");
+
+    for await (const label of labels) {
+      if (
+        (await label.getAttribute("title")) === "Top & Bottom" ||
+        (await label.getAttribute("title")) === "Left & Right"
+      ) {
+        await label.click();
+      }
+      // console.log(await label.getAttribute("title"));
+      
+    }
+    await selectOptionButton.click();
+    // await page.waitForTimeout(5000);
+    // await page.waitForSelector("#size_quantity_based1");
+    // const additionalOptions = await page.$("#size_quantity_based1");
+    // await additionalOptions.click();
+    const additionalOptionsTitle = await page.$$(".additional-checkbox");
+    console.log(additionalOptionsTitle.length);
+
+    
+    
+    for await (const title of additionalOptionsTitle) {
+      const html = await title.innerHTML();
+      // const regex = /(value)="([^"]+)"/;
+      // const coincidencia = html.match(regex);
+      // const value = coincidencia[2];
+      
+      if (html.includes("Grommets")) {
+        const cardBody = await title.$$(".size_opt_chk");
+        // const checkboxCardBody = await cardBody.$$('[type="checkbox"]');
+        for await (const checkbox of cardBody) {
+          await checkbox.click();
+        }
+      }
+    }
+
+    const sortAdditionalOptionRules = await page.$("#rules_sort_order");
+    await sortAdditionalOptionRules.fill("20");
+
+    const saveBtn = await page.$("#btn-action-save");
+    await saveBtn.click();
+    await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
+      state: "visible",
+    });
+    fs.appendFileSync("list.txt", `${id}, \n`);
+  }
+
+}
+
 export const updateQuantityBasedPriceAndProductPriceOld = async (page) => {
   for await (const id of idProducts) {
     await page.goto(
