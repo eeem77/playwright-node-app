@@ -2886,21 +2886,21 @@ const createArtworkOption = async (page, id) => {
   await page.once("load", () => console.log("Page loaded!"));
   await page.waitForSelector("#frmqadditionalfieldaction");
   const titleInput = await page.$("#title1");
-  await titleInput.fill("Grommets");
+  await titleInput.fill("Turnaround Time");
   const dropDownRadio = await page.$("#radio_combo");
   await dropDownRadio.click();
   const sortInput = await page.$("#addition_sort_order");
-  await sortInput.fill("40");
+  await sortInput.fill("710");
   const addBulkData = await page.$("#addbulkitem");
   await addBulkData.click();
   const addBulkDataContainer = await page.$(".fancybox__container");
   await addBulkDataContainer.waitForSelector("#bulktext_1");
   const addBulkDataInput = await addBulkDataContainer.$("#bulktext_1");
   await addBulkDataInput.fill(
-    // "5 Business Day,10,0",
+    "3 Business Days,10,0\n2 Business Days,20,0"
     // "A‐Frame 24x24 + 2 Signs,10,0\nA‐Frame 24x24 + 2 Signs + Rider,20,0"
     // "None,10,0\nYes,20,0\n"
-    "None,10,0\nGrommet every 2 feet,20,0\nGrommet on each corner,30,0\n",
+    // "None,10,0\nGrommet every 2 feet,20,0\nGrommet on each corner,30,0\n",
   );
   const addBulkDataButton = await addBulkDataContainer.$(
     '[data-textarea="bulktext_1"]',
@@ -3879,27 +3879,28 @@ export const updateOptionsPricesProducts = async (page) => {
           if (
             optionsSizeValue[index] === "0" &&
             // element === "Paper Type" ||
-            (element === "Type Of Display" ||
-              element === "Proofing" ||
-              element === "Artwork" ||
+            (element === "Material" ||
+              // element === "Proofing" ||
+              // element === "Artwork" ||
               element === "Turnaround Time")
           ) {
             for await (const element of prices) {
               await element.fill(newPrices[newPriceIndex].toString());
               newPriceIndex++;
             }
-          } else {
-            for await (const element of prices) {
-              await element.fill("0");
-            }
-          }
+            const saveBtn = await page.$("#btn-action-save");
+            await saveBtn.click();
+            await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
+              state: "visible",
+            });
+            await page.waitForTimeout(3000);
+          } 
+          // else {
+          //   for await (const element of prices) {
+          //     await element.fill("0");
+          //   }
+          // }
 
-          const saveBtn = await page.$("#btn-action-save");
-          await saveBtn.click();
-          await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
-            state: "visible",
-          });
-          await page.waitForTimeout(3000);
         } catch (error) {
           fs.appendFileSync("list-update-prices.txt", "ERROR PRODUCT OPTIONS");
           console.log("ERROR PRODUCT OPTIONS");
@@ -4011,9 +4012,24 @@ export const auditAdditionalOptions = async (page) => {
     for await (const row of rows) {
       const title = await row.$(".text-primary");
       const titleValue = await title.innerText();
+      const attributes = await row.$$(".badge.badge-info");
+      let attributesRow = [];
+      let flag = 0;
+      for await (const attribute of attributes) {
+        const attributeValue = `{"${flag}" : "${await attribute.innerText()}"}`
+        attributesRow.push(attributeValue);
+        flag++
+      }
+
       const sort = await row.$(".edit_sort");
       const sortValue = await sort.innerText();
-      report.push(`{"title": "${titleValue}", "sort": ${sortValue}}`);
+
+      const status = await row.$('[name="status"]');
+      const statusValue = await status.isChecked();
+
+      report.push(
+        `{"title": "${titleValue}", "attributes": [${attributesRow}], "sort": ${sortValue}, "status": ${statusValue}}`,
+      );
     }
 
     fs.appendFileSync("list.txt", `{"id": ${id}, "options": [${report}]},`);
