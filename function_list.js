@@ -119,13 +119,20 @@ const login4over = async (page) => {
 };
 
 export const getPrices4overProduct = async (page) => {
-  await page.goto("https://4over.com/standard-magnets-uv-coating");
+  // await page.goto("https://4over.com/standard-magnets-uv-coating");
+  await page.goto("https://4over.com/16pt-postcards");
   await page.waitForSelector(".block.block-login-dropdown", {
     state: "attached",
   });
   await login4over(page);
-  await page.waitForSelector(".super-attribute-select");
-  const selects = await page.$$(".super-attribute-select");
+  await page.waitForSelector("#product-options-wrapper");
+  const section = await page.$("#product-options-wrapper");
+  const selects = await section.$$(".super-attribute-select");
+  console.log(selects.length);
+  for await (const select of selects) {
+    console.log(await select.getAttribute("data-attribute-id"));
+    
+  }
   const sizeOptions = await selects[0].$$("option");
   for await (const option of sizeOptions) {
     const valueOption = await option.innerText();
@@ -135,31 +142,63 @@ export const getPrices4overProduct = async (page) => {
       try {
         await selects[0].selectOption(valueOption);
 
-        valueOption === '6" x 6"'
+        valueOption === '3" x 3"' ||
+        valueOption === '3.5" x 3.5"' ||
+        valueOption === '4" x 4"' ||
+        valueOption === '4.75" x 4.75"' ||
+        valueOption === '5" x 5"'
           ? await selects[1].selectOption("Square")
           : await selects[1].selectOption("Rectangle");
+        
+        await selects[3].selectOption("16PT C2S");
 
-        await selects[3].selectOption("17PT Magnet");
-        await selects[4].selectOption("4/0 (4 color front)");
-        await selects[5].selectOption("UV Coating Front Only");
-        await selects[6].selectOption("No Blank Envelopes");
+        await selects[4].selectOption("18");
+
+        // const colorspec = await page.$('[data-attribute-id="204"]');
+
+        // await colorspec.selectOption("18");
+
+        try {
+          await selects[5].selectOption("UV Coating Front Only");
+          
+        } catch (error) {
+          
+        }
+
+        // valueOption === '2.5" x 8.5"'
+        //   ? await selects[4].selectOption("No Coating")
+
+        //  valueOption === '2.75" x 4.25"'
+        //    ? await selects[4].selectOption("Satin Aqueous")
+        //    : await selects[4].selectOption("UV Coating Front Only");
+        // await selects[3].selectOption("17PT Magnet");
+        // await selects[6].selectOption("No Blank Envelopes");
       } catch (error) {
-        await selects[0].selectOption(valueOption);
+        // await selects[0].selectOption(valueOption);
 
-        valueOption === '6" x 6"'
-          ? await selects[1].selectOption("Square")
-          : await selects[1].selectOption("Rectangle");
+        // valueOption === '6" x 6"'
+        //   ? await selects[1].selectOption("Square")
+        //   : await selects[1].selectOption("Rectangle");
 
-        await selects[3].selectOption("17PT Magnet");
-        await selects[4].selectOption("4/0 (4 color front)");
-        await selects[5].selectOption("UV Coating Front Only");
+        // await selects[3].selectOption("17PT Magnet");
+        // await selects[4].selectOption("4/0 (4 color front)");
+        // await selects[5].selectOption("UV Coating Front Only");
       }
 
       await page.waitForSelector(".product-4over-input");
-      const markupPrice = await page.$(".product-4over-input");
-      await markupPrice.fill("110");
       const markupPriceSection = await page.$(".markup-price");
+      const markupPrice = await markupPriceSection.$(".product-4over-input");
+      await markupPrice.fill("100");
       await markupPriceSection.click();
+
+      try {
+        const actionShowMore = await page.$(".runsizes-table_actions");
+        await actionShowMore.click();
+      } catch (error) {
+        
+      }
+      
+
       const rows = await page.$$(".runsizes_row");
       for await (const row of rows) {
         const rowSpan = await row.$$("span");
@@ -2108,33 +2147,80 @@ export const backupProductPageDesign = async (page) => {
   }
 };
 
+// export const changedSeoData = async (page) => {
+//   let i = 0;
+//   for await (const id of idProducts) {
+//     await page.goto(
+//       `https://www.apprinting.com/admin/product_metatags.php?product_id=${id}`,
+//       { timeout: 300000 },
+//     );
+    
+//     const pageTitle = await page.$("#seo_page_title_1");
+//     const metaDescription = await page.$("#seo_page_description_1");
+//     const metaAdditional = await page.$("#seo_page_metatags1");
+//     await pageTitle.fill(seoData[i][0]);
+//     await metaDescription.fill(seoData[i][1]);
+//     await metaAdditional.fill("");
+//     const btnSave = await page.$("#btn-action-save");
+//     await btnSave.click();
+//     await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
+//       state: "visible",
+//     });
+//     fs.appendFileSync("list.txt", id + "\n");
+//     i = i + 1;
+//     console.log(`Working ---> ${i}`);
+//   }
+// };
+
+
 export const changedSeoData = async (page) => {
-  let i = 0;
-  for await (const id of idProducts) {
-    await page.goto(
-      `https://www.apprinting.com/admin/product_metatags.php?product_id=${id}`,
-      { timeout: 300000 },
-    );
-    const responsePromise = page.waitForResponse(
-      `https://www.apprinting.com/admin/product_metatags.php?product_id=${id}`,
-    );
-    const btnSave = await page.$("#btn-action-save");
-    const pageTitle = await page.$("#seo_page_title_1");
-    const metaDescription = await page.$("#seo_page_description_1");
-    const markUp = await page.$("#schema_markup_1");
-    const metaAdditional = await page.$("#seo_page_metatags1");
-    await pageTitle.fill(seoData[i][0]);
-    await metaDescription.fill(seoData[i][1]);
-    await markUp.fill(seoData[i][2]);
-    await metaAdditional.fill("");
-    await btnSave.click();
-    await responsePromise;
-    // await page.waitForTimeout(3000);
-    fs.appendFileSync("list.txt", id + "\n");
-    i = i + 1;
-    console.log(`Working ---> ${i}`);
+  // 1. Leer y parsear el archivo JSON
+  const rawData = fs.readFileSync("seo-metadata-report.json");
+  const seoData = JSON.parse(rawData);
+  const products = seoData.products;
+
+  let count = 0;
+
+  for (const product of products) {
+    const { id, pageTitle, metaDescription, additionalMetaTagsHtml } = product;
+
+    try {
+      // Navegar a la página del producto usando su ID
+      await page.goto(
+        `https://www.apprinting.com/admin/product_metatags.php?product_id=${id}`,
+        { timeout: 300000, waitUntil: "networkidle" },
+      );
+
+      // 2. Llenado de los campos solicitados
+      // Page Title
+      await page.fill("#seo_page_title_1", pageTitle);
+
+      // Meta Description
+      await page.fill("#seo_page_description_1", metaDescription);
+
+      // Additional Meta Tags (ahora usa additionalMetaTagsHtml)
+      await page.fill("#seo_page_metatags1", additionalMetaTagsHtml);
+
+      // 3. Guardar cambios
+      const btnSave = await page.$("#btn-action-save");
+      await btnSave.click();
+
+      // Esperar a que aparezca el mensaje de éxito
+      await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
+        state: "visible",
+        timeout: 10000,
+      });
+
+      // Registro de progreso
+      fs.appendFileSync("list.txt", id + "\n");
+      count++;
+      console.log(`Procesado [${count}/${products.length}]: ID ${id} ---> OK`);
+    } catch (error) {
+      console.error(`Error procesando ID ${id}:`, error.message);
+    }
   }
 };
+
 
 export const setMarkUpData = async (page) => {
   let i = 0;
@@ -2143,18 +2229,16 @@ export const setMarkUpData = async (page) => {
       `https://www.apprinting.com/admin/product_metatags.php?product_id=${id}`,
       { timeout: 300000 },
     );
-    const responsePromise = page.waitForResponse(
-      `https://www.apprinting.com/admin/product_metatags.php?product_id=${id}`,
-    );
-    // const btnSave = await page.$("#btn-action-save");
+
     const markUp = await page.$("#schema_markup_1");
     await markUp.fill(seoData[i]);
+    
     const saveBtn = await page.$("#btn-action-save");
     await saveBtn.click();
     await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
       state: "visible",
     });
-    await responsePromise;
+
     fs.appendFileSync("list.txt", id + "\n");
     i = i + 1;
     console.log(`Working ---> ${i}`);
@@ -2246,7 +2330,7 @@ export const getMarkUpSchemaProducts = async (page) => {
       4.1
     ).toFixed(1)}","reviewCount":"${Math.floor(
       Math.random() * (9000 - 15000) + 9000,
-    )}"},"offers": {"@type": "Offer","url": "https://www.apprinting.com/blue-flowers-and-leaves-wedding-invitation/","priceCurrency": "USD","price": ${price},"priceValidUntil": "2026-12-31","itemCondition": "https://schema.org/UsedCondition","availability": "https://schema.org/InStock"}}\`,`;
+    )}"},"offers": {"@type": "Offer","url": "https://www.apprinting.com/blue-flowers-and-leaves-wedding-invitation/","priceCurrency": "USD","price": ${price},"priceValidUntil": "2027-12-12","itemCondition": "https://schema.org/UsedCondition","availability": "https://schema.org/InStock"}}\`,`;
 
     fs.appendFileSync("list.txt", report + "\n");
     console.log(`working ---> ${id}`);

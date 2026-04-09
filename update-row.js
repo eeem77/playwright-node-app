@@ -122,7 +122,7 @@ const updateRow = async () => {
   // await changeCustomSizeProduct(page);
 
   // GET PRICES PRODUCT 4OVER
-  await getPrices4overProduct(page);
+  // await getPrices4overProduct(page);
 
   // CHANGE EDIT DESIGNER OPTIONS
   // await login(page);
@@ -302,7 +302,7 @@ const updateRow = async () => {
   // await updateSetupAttributesOptions(page);
 
   // SEO
-  // await login(page);
+  await login(page);
   // await getIdProducts(
   //   page,
   //   ""
@@ -313,7 +313,7 @@ const updateRow = async () => {
   // );
   // await auditSeoData(page);
   // await getMarkUpSchemaProducts(page);
-  // await setMarkUpData(page);
+  await setMarkUpData(page);
   // await changedSeoData(page);
   // await getTitleAndChangedTitleImagesGallery(page);
   // await getTitleTitleImagesGallery(page);
