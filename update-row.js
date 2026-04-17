@@ -203,8 +203,8 @@ const updateRow = async () => {
   // await getIdUrlClient(page);
 
   // AUDIT OPTIONS PRODUCTS (TITLE | ATTIBUTES | SORT | STATUS)
-  // await login(page);
-  // await auditAdditionalOptions(page);
+  await login(page);
+  await auditAdditionalOptions(page);
 
   // CHECK AND DELETE ARTWORK
   // try {
@@ -302,7 +302,7 @@ const updateRow = async () => {
   // await updateSetupAttributesOptions(page);
 
   // SEO
-  await login(page);
+  // await login(page);
   // await getIdProducts(
   //   page,
   //   ""
@@ -313,7 +313,7 @@ const updateRow = async () => {
   // );
   // await auditSeoData(page);
   // await getMarkUpSchemaProducts(page);
-  await setMarkUpData(page);
+  // await setMarkUpData(page);
   // await changedSeoData(page);
   // await getTitleAndChangedTitleImagesGallery(page);
   // await getTitleTitleImagesGallery(page);
