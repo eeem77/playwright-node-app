@@ -710,9 +710,11 @@ export const changeProductWeightWithOptions = async (page) => {
       const span = await checkbox.$("span");
       const spanValue = await span.innerText();
       if (
-        spanValue === " Type Of Display"
+        spanValue === " Display Options" ||
+        // spanValue === " Materials" ||
+        spanValue === " Printed Side" ||
+        spanValue === " Grommets" 
         // spanValue === " Material" ||
-        // spanValue === " Grommets" ||
         // spanValue === " Hemming" ||
         // spanValue === " Pole Pocket"
         // spanValue === " Reception Card [M2]" ||
@@ -761,8 +763,8 @@ export const changeProductWeightWithOptions = async (page) => {
       index++;
     }
     await checkboxes[flag[0]].click();
-    // await checkboxes[flag[1]].click();
-    // await checkboxes[flag[2]].click();
+    await checkboxes[flag[1]].click();
+    await checkboxes[flag[2]].click();
     // await checkboxes[flag[3]].click();
     // await checkboxes[flag[4]].click();
     // await checkboxes[flag[5]].click();
@@ -2927,9 +2929,9 @@ const checkArtworkOptions = async (page) => {
   const additionalOptionsTrTable = await tbody.$$("tr");
   for await (const tr of additionalOptionsTrTable) {
     const trHtml = await tr.innerHTML();
-    if (trHtml.includes("Grommets") === true) {
+    if (trHtml.includes("Turnaround Time") === true) {
       await deleteArtworkOption(page, tr);
-      await checkArtworkOptions(page);
+      // await checkArtworkOptions(page);
     }
   }
   // return false;
@@ -2974,13 +2976,15 @@ const createArtworkOption = async (page, id) => {
   const dropDownRadio = await page.$("#radio_combo");
   await dropDownRadio.click();
   const sortInput = await page.$("#addition_sort_order");
-  await sortInput.fill("710");
+  await sortInput.fill("1710");
   const addBulkData = await page.$("#addbulkitem");
   await addBulkData.click();
   const addBulkDataContainer = await page.$(".fancybox__container");
   await addBulkDataContainer.waitForSelector("#bulktext_1");
   const addBulkDataInput = await addBulkDataContainer.$("#bulktext_1");
   await addBulkDataInput.fill(
+    // "3/16\" Corrugated Plastic,10,0\n",
+    // "Front Only,10,0\nFront and Back,20,0",
     "3 Business Days,10,0\n2 Business Days,20,0"
     // "A‐Frame 24x24 + 2 Signs,10,0\nA‐Frame 24x24 + 2 Signs + Rider,20,0"
     // "None,10,0\nYes,20,0\n"
@@ -3600,7 +3604,12 @@ export const getPrincipalPricesProducts = async (page) => {
     await page.waitForSelector("#frmprice");
     const formTable = await page.$("#frmprice");
     const inputPrices = await formTable.$$('[data-label="Price"]');
-    const report = `Working in ID ${id} inputs prices ${inputPrices.length}\n`;
+    let prices = [];
+    for await (const input of inputPrices) {
+      const price = await input.inputValue();
+      prices.push(price);
+    }
+    const report = `Working in ID ${id} inputs prices ${inputPrices.length} prices ${prices}\n`;
     fs.appendFileSync("list.txt", report);
     console.log(report);
   }
@@ -3961,11 +3970,12 @@ export const updateOptionsPricesProducts = async (page) => {
           const prices = await page.$$('[id^="txtprice"]');
 
           if (
-            optionsSizeValue[index] === "0" &&
+            optionsSizeValue[index] !== "0" &&
             // element === "Paper Type" ||
-            (element === "Material" ||
-              // element === "Proofing" ||
-              // element === "Artwork" ||
+            (element === "Display Options" ||
+              element === "Printed Side" ||
+              element === "Grommets" ||
+              element === "Artwork" ||
               element === "Turnaround Time")
           ) {
             for await (const element of prices) {
@@ -3978,12 +3988,17 @@ export const updateOptionsPricesProducts = async (page) => {
               state: "visible",
             });
             await page.waitForTimeout(3000);
-          } 
-          // else {
-          //   for await (const element of prices) {
-          //     await element.fill("0");
-          //   }
-          // }
+          } else {
+            for await (const element of prices) {
+              await element.fill("0");
+            }
+            const saveBtn = await page.$("#btn-action-save");
+            await saveBtn.click();
+            await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
+              state: "visible",
+            });
+            await page.waitForTimeout(3000);
+          }
 
         } catch (error) {
           fs.appendFileSync("list-update-prices.txt", "ERROR PRODUCT OPTIONS");
@@ -4100,7 +4115,11 @@ export const auditAdditionalOptions = async (page) => {
       let attributesRow = [];
       let flag = 0;
       for await (const attribute of attributes) {
-        const attributeValue = `{"${flag}" : "${await attribute.innerText()}"}`
+        const attributeInnerText = await attribute.innerText();
+        const attributeInnerTextClean = attributeInnerText
+          .replaceAll("/", "\\/")
+          .replaceAll('"', '\\"');
+        const attributeValue = `{"${flag}" : "${attributeInnerTextClean}"}`;
         attributesRow.push(attributeValue);
         flag++
       }

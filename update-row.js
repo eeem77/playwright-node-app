@@ -163,7 +163,7 @@ const updateRow = async () => {
   // );
 
   // GET & UPDATE PRICES PRODUCTS
-  // await login(page);
+  await login(page);
   // await getIdProductsAdmin(
   //   page,
   //   ""
@@ -171,7 +171,7 @@ const updateRow = async () => {
   // await getUrlProducts(page);
   // await getPrincipalPricesProducts(page);
   // await updatePricesProducts(page)
-  // await updateOptionsPricesProducts(page);
+  await updateOptionsPricesProducts(page);
   // await getAssociatedCategoryProduct(page);
   // await changeDefaultAndAssociatedCategoryProduct(page, "bs-select-2-97");
 
@@ -203,8 +203,8 @@ const updateRow = async () => {
   // await getIdUrlClient(page);
 
   // AUDIT OPTIONS PRODUCTS (TITLE | ATTIBUTES | SORT | STATUS)
-  await login(page);
-  await auditAdditionalOptions(page);
+  // await login(page);
+  // await auditAdditionalOptions(page);
 
   // CHECK AND DELETE ARTWORK
   // try {
