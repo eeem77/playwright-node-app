@@ -129,10 +129,10 @@ const updateRow = async () => {
   // await desactiveDesignerOption(page);
 
   // Changue Product Weight
-  // await login(page);
+  await login(page);
   // await getIdProductsAdmin(page, "");
   // await getcheckboxesLabelProductWeightWithOptions(page);
-  // await getProductWeight(page);
+  await getProductWeight(page);
   // await getProductWeightTableInfo(page);
   // await changeProductWeight(page);
   // await cleanProductWeightWithOptions(page);
@@ -163,7 +163,7 @@ const updateRow = async () => {
   // );
 
   // GET & UPDATE PRICES PRODUCTS
-  await login(page);
+  // await login(page);
   // await getIdProductsAdmin(
   //   page,
   //   ""
@@ -171,7 +171,7 @@ const updateRow = async () => {
   // await getUrlProducts(page);
   // await getPrincipalPricesProducts(page);
   // await updatePricesProducts(page)
-  await updateOptionsPricesProducts(page);
+  // await updateOptionsPricesProducts(page);
   // await getAssociatedCategoryProduct(page);
   // await changeDefaultAndAssociatedCategoryProduct(page, "bs-select-2-97");
 
