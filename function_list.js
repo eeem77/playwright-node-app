@@ -711,8 +711,8 @@ export const changeProductWeightWithOptions = async (page) => {
       const spanValue = await span.innerText();
       if (
         spanValue === " Display Options" ||
-        // spanValue === " Materials" ||
         spanValue === " Printed Side" ||
+        spanValue === " Material" ||
         spanValue === " Grommets" 
         // spanValue === " Material" ||
         // spanValue === " Hemming" ||
@@ -765,7 +765,7 @@ export const changeProductWeightWithOptions = async (page) => {
     await checkboxes[flag[0]].click();
     await checkboxes[flag[1]].click();
     await checkboxes[flag[2]].click();
-    // await checkboxes[flag[3]].click();
+    await checkboxes[flag[3]].click();
     // await checkboxes[flag[4]].click();
     // await checkboxes[flag[5]].click();
     // await checkboxes[flag[6]].click();

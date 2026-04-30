@@ -1,40 +1,82 @@
-6432 ---> 0.200000, ---> 2
-4436 ---> 0.200000, ---> 2
-4441 ---> 0.200000, ---> 2
-4443 ---> 0.200000, ---> 2
-4449 ---> 0.200000, ---> 2
-4450 ---> 0.200000, ---> 2
-4452 ---> 0.200000, ---> 2
-4465 ---> 0.200000, ---> 2
-4467 ---> 0.200000, ---> 2
-4584 ---> 0.200000, ---> 2
-4586 ---> 0.200000, ---> 2
-4605 ---> 0.200000, ---> 2
-4606 ---> 0.200000, ---> 2
-4608 ---> 0.200000, ---> 2
-4611 ---> 0.200000, ---> 2
-4660 ---> 0.200000, ---> 2
-4666 ---> 0.200000, ---> 2
-4667 ---> 0.200000, ---> 2
-4714 ---> 0.200000, ---> 2
-4715 ---> 0.200000, ---> 2
-4723 ---> 0.200000, ---> 2
-4724 ---> 0.200000, ---> 2
-4735 ---> 0.200000, ---> 2
-4736 ---> 0.200000, ---> 2
-4739 ---> 0.200000, ---> 2
-4740 ---> 0.200000, ---> 2
-4765 ---> 0.200000, ---> 2
-4766 ---> 0.200000, ---> 2
-4768 ---> 0.200000, ---> 2
-4795 ---> 0.200000, ---> 2
-4797 ---> 0.200000, ---> 2
-4805 ---> 0.200000, ---> 2
-4807 ---> 0.200000, ---> 2
-5663 ---> 0.200000, ---> 2
-5664 ---> 0.200000, ---> 2
-5669 ---> 0.200000, ---> 2
-5685 ---> 0.200000, ---> 2
-5707 ---> 0.200000, ---> 2
-5725 ---> 0.200000, ---> 2
-5811 ---> 0.200000, ---> 2
+working in product with id 4436 with 16 boxes or inputs
+working in product with id 4441 with 16 boxes or inputs
+working in product with id 4443 with 16 boxes or inputs
+working in product with id 4449 with 16 boxes or inputs
+working in product with id 4450 with 16 boxes or inputs
+working in product with id 4452 with 16 boxes or inputs
+working in product with id 4465 with 16 boxes or inputs
+working in product with id 4467 with 16 boxes or inputs
+working in product with id 4584 with 16 boxes or inputs
+working in product with id 4586 with 16 boxes or inputs
+working in product with id 4605 with 16 boxes or inputs
+working in product with id 4606 with 16 boxes or inputs
+working in product with id 4608 with 16 boxes or inputs
+working in product with id 4611 with 16 boxes or inputs
+working in product with id 4660 with 16 boxes or inputs
+working in product with id 4666 with 16 boxes or inputs
+working in product with id 4667 with 16 boxes or inputs
+working in product with id 4714 with 16 boxes or inputs
+working in product with id 4715 with 16 boxes or inputs
+working in product with id 4723 with 16 boxes or inputs
+working in product with id 4724 with 16 boxes or inputs
+working in product with id 4735 with 16 boxes or inputs
+working in product with id 4736 with 16 boxes or inputs
+working in product with id 4739 with 16 boxes or inputs
+working in product with id 4740 with 16 boxes or inputs
+working in product with id 4765 with 16 boxes or inputs
+working in product with id 4766 with 16 boxes or inputs
+working in product with id 4768 with 16 boxes or inputs
+working in product with id 4795 with 16 boxes or inputs
+working in product with id 4797 with 16 boxes or inputs
+working in product with id 4805 with 16 boxes or inputs
+working in product with id 4807 with 16 boxes or inputs
+working in product with id 5663 with 16 boxes or inputs
+working in product with id 5664 with 16 boxes or inputs
+working in product with id 5669 with 16 boxes or inputs
+working in product with id 5685 with 16 boxes or inputs
+working in product with id 5707 with 16 boxes or inputs
+working in product with id 5725 with 16 boxes or inputs
+working in product with id 5811 with 16 boxes or inputs
+
+
+
+
+working in product with id 4436 with 3 boxes or rows
+working in product with id 4441 with 3 boxes or rows
+working in product with id 4443 with 3 boxes or rows
+working in product with id 4449 with 3 boxes or rows
+working in product with id 4450 with 3 boxes or rows
+working in product with id 4452 with 3 boxes or rows
+working in product with id 4465 with 3 boxes or rows
+working in product with id 4467 with 3 boxes or rows
+working in product with id 4584 with 3 boxes or rows
+working in product with id 4586 with 3 boxes or rows
+working in product with id 4605 with 3 boxes or rows
+working in product with id 4606 with 3 boxes or rows
+working in product with id 4608 with 3 boxes or rows
+working in product with id 4611 with 3 boxes or rows
+working in product with id 4660 with 3 boxes or rows
+working in product with id 4666 with 3 boxes or rows
+working in product with id 4667 with 3 boxes or rows
+working in product with id 4714 with 3 boxes or rows
+working in product with id 4715 with 3 boxes or rows
+working in product with id 4723 with 3 boxes or rows
+working in product with id 4724 with 3 boxes or rows
+working in product with id 4735 with 3 boxes or rows
+working in product with id 4736 with 3 boxes or rows
+working in product with id 4739 with 3 boxes or rows
+working in product with id 4740 with 3 boxes or rows
+working in product with id 4765 with 3 boxes or rows
+working in product with id 4766 with 3 boxes or rows
+working in product with id 4768 with 3 boxes or rows
+working in product with id 4795 with 3 boxes or rows
+working in product with id 4797 with 3 boxes or rows
+working in product with id 4805 with 3 boxes or rows
+working in product with id 4807 with 3 boxes or rows
+working in product with id 5663 with 3 boxes or rows
+working in product with id 5664 with 3 boxes or rows
+working in product with id 5669 with 3 boxes or rows
+working in product with id 5685 with 3 boxes or rows
+working in product with id 5707 with 3 boxes or rows
+working in product with id 5725 with 3 boxes or rows
+working in product with id 5811 with 3 boxes or rows

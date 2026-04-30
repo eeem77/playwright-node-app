@@ -2,7 +2,8 @@ export const url = "https://www.apprinting.com/admin/";
 
 export const idProducts = [
   //Arrow Shape Sign
-  6432, 4436, 4441, 4443, 4449, 4450, 4452, 4465, 4467, 4584, 4586, 4605, 4606,
+  // 6432, 
+  4436, 4441, 4443, 4449, 4450, 4452, 4465, 4467, 4584, 4586, 4605, 4606,
   4608, 4611, 4660, 4666, 4667, 4714, 4715, 4723, 4724, 4735, 4736, 4739, 4740,
   4765, 4766, 4768, 4795, 4797, 4805, 4807, 5663, 5664, 5669, 5685, 5707, 5725,
   5811,
@@ -1311,22 +1312,31 @@ export const newPricesOption = [
 export const productWeightConfiguration = ["0.20"];
 
 export const productWeightConfigurationWithOption = [
+  "0.400000",
+  "1.050000",
+  "0.400000",
+  "0.410000",
+  "0.400000",
+  "0.400000",
+  "0.410000",
+  "0.420000",
   "0.480000",
   "1.130000",
   "0.480000",
   "0.490000",
   "0.480000",
+  "0.480000",
   "0.490000",
   "0.500000",
 ];
 
-export const productWeightConfigurationBoxWeight = ["1.45"];
+export const productWeightConfigurationBoxWeight = ["1.25", "1.45"];
 
-export const productWeightConfigurationLength = ["25"];
+export const productWeightConfigurationLength = ["23","25"];
 
-export const productWeightConfigurationCustomWidth = ["19"];
+export const productWeightConfigurationCustomWidth = ["17", "19"];
 
-export const productWeightConfigurationCustomHeight = ["2"];
+export const productWeightConfigurationCustomHeight = ["2","2"];
 
 export const urlProducts = [
   [
