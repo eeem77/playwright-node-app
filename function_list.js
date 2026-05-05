@@ -710,10 +710,11 @@ export const changeProductWeightWithOptions = async (page) => {
       const span = await checkbox.$("span");
       const spanValue = await span.innerText();
       if (
-        spanValue === " Display Options" ||
-        spanValue === " Printed Side" ||
+        // spanValue === " Display Options" ||
+        // spanValue === " Printed Side" ||
         spanValue === " Material" ||
-        spanValue === " Grommets" 
+        spanValue === " Hardware" 
+        // spanValue === " Grommets" 
         // spanValue === " Material" ||
         // spanValue === " Hemming" ||
         // spanValue === " Pole Pocket"
@@ -764,8 +765,8 @@ export const changeProductWeightWithOptions = async (page) => {
     }
     await checkboxes[flag[0]].click();
     await checkboxes[flag[1]].click();
-    await checkboxes[flag[2]].click();
-    await checkboxes[flag[3]].click();
+    // await checkboxes[flag[2]].click();
+    // await checkboxes[flag[3]].click();
     // await checkboxes[flag[4]].click();
     // await checkboxes[flag[5]].click();
     // await checkboxes[flag[6]].click();
@@ -2929,7 +2930,7 @@ const checkArtworkOptions = async (page) => {
   const additionalOptionsTrTable = await tbody.$$("tr");
   for await (const tr of additionalOptionsTrTable) {
     const trHtml = await tr.innerHTML();
-    if (trHtml.includes("Turnaround Time") === true) {
+    if (trHtml.includes("HARDWARE") === true) {
       await deleteArtworkOption(page, tr);
       // await checkArtworkOptions(page);
     }
@@ -2972,11 +2973,11 @@ const createArtworkOption = async (page, id) => {
   await page.once("load", () => console.log("Page loaded!"));
   await page.waitForSelector("#frmqadditionalfieldaction");
   const titleInput = await page.$("#title1");
-  await titleInput.fill("Turnaround Time");
+  await titleInput.fill("Hardware");
   const dropDownRadio = await page.$("#radio_combo");
   await dropDownRadio.click();
   const sortInput = await page.$("#addition_sort_order");
-  await sortInput.fill("1710");
+  await sortInput.fill("50");
   const addBulkData = await page.$("#addbulkitem");
   await addBulkData.click();
   const addBulkDataContainer = await page.$(".fancybox__container");
@@ -2985,7 +2986,8 @@ const createArtworkOption = async (page, id) => {
   await addBulkDataInput.fill(
     // "3/16\" Corrugated Plastic,10,0\n",
     // "Front Only,10,0\nFront and Back,20,0",
-    "3 Business Days,10,0\n2 Business Days,20,0"
+    "None,10,0\nWhite 6ft Post (Gothic Cap) +$108.00,20,0",
+    // "3 Business Days,10,0\n2 Business Days,20,0"
     // "A‐Frame 24x24 + 2 Signs,10,0\nA‐Frame 24x24 + 2 Signs + Rider,20,0"
     // "None,10,0\nYes,20,0\n"
     // "None,10,0\nGrommet every 2 feet,20,0\nGrommet on each corner,30,0\n",
@@ -3972,11 +3974,11 @@ export const updateOptionsPricesProducts = async (page) => {
           if (
             optionsSizeValue[index] !== "0" &&
             // element === "Paper Type" ||
-            (element === "Display Options" ||
-              element === "Printed Side" ||
-              element === "Grommets" ||
-              element === "Artwork" ||
-              element === "Turnaround Time")
+            (element === "Material" ||
+              element === "Rounded Corners" ||
+              element === "Hardware" ||
+              element === "Artwork")
+            // element === "Turnaround Time")
           ) {
             for await (const element of prices) {
               await element.fill(newPrices[newPriceIndex].toString());
@@ -3990,7 +3992,7 @@ export const updateOptionsPricesProducts = async (page) => {
             await page.waitForTimeout(3000);
           } else {
             for await (const element of prices) {
-              await element.fill("0");
+              await element.fill("");
             }
             const saveBtn = await page.$("#btn-action-save");
             await saveBtn.click();

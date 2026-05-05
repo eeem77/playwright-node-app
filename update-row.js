@@ -129,7 +129,7 @@ const updateRow = async () => {
   // await desactiveDesignerOption(page);
 
   // Changue Product Weight
-  await login(page);
+  // await login(page);
   // await getIdProductsAdmin(page, "");
   // await getcheckboxesLabelProductWeightWithOptions(page);
   // await getProductWeight(page);
@@ -137,7 +137,7 @@ const updateRow = async () => {
   // await changeProductWeight(page);
   // await cleanProductWeightWithOptions(page);
   // await changeProductWeightWithOptions(page);
-  await changeProductShippingMethod(page);
+  // await changeProductShippingMethod(page);
 
   // GET AND UPDATE PRICES IN DYNAMIC SIZE PRODUCT
   // await login(page);
@@ -302,7 +302,7 @@ const updateRow = async () => {
   // await updateSetupAttributesOptions(page);
 
   // SEO
-  // await login(page);
+  await login(page);
   // await getIdProducts(
   //   page,
   //   ""
@@ -313,7 +313,7 @@ const updateRow = async () => {
   // );
   // await auditSeoData(page);
   // await getMarkUpSchemaProducts(page);
-  // await setMarkUpData(page);
+  await setMarkUpData(page);
   // await changedSeoData(page);
   // await getTitleAndChangedTitleImagesGallery(page);
   // await getTitleTitleImagesGallery(page);
