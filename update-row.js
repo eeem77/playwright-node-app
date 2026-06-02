@@ -259,17 +259,17 @@ const updateRow = async () => {
   // await getSizesImagesFinal(page);
 
   // CHANGE PRODUCT PAGE LONG DESCRIPTION 2
-  // await login(page);
+  await login(page);
   // await getIdProductsAdmin(
-  //   page,
-  //   ""
+  //    page,
+  //    ""
   // );
   // await getIdProducts(
   //   page,
   //   "https://www.apprinting.com/law-office-178/products/"
   // );
   // await login(page);
-  // await setLongDescriptionTwo (page);
+  await setLongDescriptionTwo (page);
 
   // AUDIT RULES
   // await login(page);
@@ -302,7 +302,7 @@ const updateRow = async () => {
   // await updateSetupAttributesOptions(page);
 
   // SEO
-  await login(page);
+  // await login(page);
   // await getIdProducts(
   //   page,
   //   ""
@@ -313,7 +313,7 @@ const updateRow = async () => {
   // );
   // await auditSeoData(page);
   // await getMarkUpSchemaProducts(page);
-  await setMarkUpData(page);
+  // await setMarkUpData(page);
   // await changedSeoData(page);
   // await getTitleAndChangedTitleImagesGallery(page);
   // await getTitleTitleImagesGallery(page);

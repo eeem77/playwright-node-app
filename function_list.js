@@ -1843,39 +1843,26 @@ export const updateQuantityBasedPriceAndProductPriceOld = async (page) => {
   }
 };
 
+export const getIdProductsAdminPageGo = async (page, numberPage) => {
+  await page.waitForSelector(".custom-goto");
+  const inputPage = await page.$(".custom-goto");
+  await inputPage.fill(numberPage);
+  const btnGo = await page.$(".custom-goto-btn");
+  await btnGo.click();
+  await page.waitForTimeout(3000);
+  await extractId(page);
+}
+
 export const getIdProductsAdmin = async (page, url) => {
   await page.goto(url, {
     timeout: 300000,
   });
-  await page.waitForSelector(".pagination");
-  const opsPagination = await page.$$(".paginate_button.page-item");
-  console.log(opsPagination.length);
+  await extractId(page);
 
-  if (opsPagination.length > 3) {
-    const numberRepeat = opsPagination.length - 1;
-    for (let index = 1; index < numberRepeat; index++) {
-      if (index > 1) {
-        try {
-          await page.waitForSelector(".pagination");
-          const opsPagination = await page.$$(".paginate_button.page-item");
-          await opsPagination[index].click();
-          await page.waitForSelector("tbody");
-        } catch (error) {
-          await page.waitForSelector(".pagination");
-          const opsPagination = await page.$$(".paginate_button.page-item");
-          const tablePagination = await page.$(".table_pagination");
-          await tablePagination.scrollIntoViewIfNeeded();
-          await opsPagination[index].click();
-          await page.waitForSelector("tbody");
-        }
-        await extractId(page, index);
-        // await extractDataTable(page, index);
-      }
-    }
-    await extractId(page);
-  } else {
-    await extractId(page);
-  }
+  await getIdProductsAdminPageGo(page, "2");
+  await getIdProductsAdminPageGo(page, "3");
+  await getIdProductsAdminPageGo(page, "4");
+  
 };
 
 export const getIdProducts = async (page, url) => {
@@ -2537,21 +2524,39 @@ export const setLongDescriptionTwo = async (page) => {
     await page.goto(
       `https://www.apprinting.com/admin/product_description.php?product_id=${id}`,
     );
+
+    //  Clean Short Description
+    // const shortDescriptionCodeViewBtn = await page.$("#html-1");
+    // await shortDescriptionCodeViewBtn.click();
+    // await page.keyboard.press("Control+a");
+    // await page.keyboard.press("Backspace");
+
+    //  Clean Long Description
+    const LongDescriptionCodeViewBtn = await page.$("#html-2");
+    await LongDescriptionCodeViewBtn.click();
+    await page.keyboard.press("Control+a");
+    await page.keyboard.press("Backspace");
+
+    await page.waitForTimeout(2000);
+
+    //  Set Long Description 2
     const codeViewBtn = await page.$("#html-3");
     await codeViewBtn.click();
     await page.keyboard.press("Control+a");
     await page.keyboard.press("Control+v");
-    // await page.waitForTimeout(2000);
-    // const longDescriptionTwoTextArea = await page.$(
-    //   "#orig_long_description_two_1"
-    // );
-    // await page.waitForSelector(longDescriptionTwoTextArea);
-    // await longDescriptionTwoTextArea.setAttribute("value",dataLongDescriptionTwo);
+
+    await page.waitForTimeout(2000);
+
     const btnSave = await page.$("#btn-action-save");
     await btnSave.click();
     await page.waitForSelector(".bootstrap-growl.alert.alert-success", {
       state: "visible",
     });
+
+    await page.waitForTimeout(1000);
+
+    fs.appendFileSync("list.txt", `${id}\n`);
+    console.log(`working ---> ${id}`);
   }
 };
 
