@@ -148,8 +148,8 @@ const updateRow = async () => {
   // await updateQuantityBasedPriceAndProductPriceOption(page);
 
   // ADDITIONAL OPTION RULES PRODUCT
-    // await login(page);
-    // await additionalOptionRules(page);
+  // await login(page);
+  // await additionalOptionRules(page);
 
   // GET ID PRODUCTS
   // const table = document.querySelector("tbody");
@@ -259,17 +259,21 @@ const updateRow = async () => {
   // await getSizesImagesFinal(page);
 
   // CHANGE PRODUCT PAGE LONG DESCRIPTION 2
+  // await getUrlClientProducts(
+  //   page,
+  //   "https://www.apprinting.com/fancy-luxury-wedding-invitations/products/",
+  // );
   await login(page);
   // await getIdProductsAdmin(
-  //    page,
-  //    ""
+  //   page,
+  //   "",
   // );
   // await getIdProducts(
   //   page,
   //   "https://www.apprinting.com/law-office-178/products/"
   // );
   // await login(page);
-  await setLongDescriptionTwo (page);
+  await setLongDescriptionTwo(page);
 
   // AUDIT RULES
   // await login(page);

@@ -1859,9 +1859,9 @@ export const getIdProductsAdmin = async (page, url) => {
   });
   await extractId(page);
 
-  await getIdProductsAdminPageGo(page, "2");
-  await getIdProductsAdminPageGo(page, "3");
-  await getIdProductsAdminPageGo(page, "4");
+  // await getIdProductsAdminPageGo(page, "2");
+  // await getIdProductsAdminPageGo(page, "3");
+  // await getIdProductsAdminPageGo(page, "4");
   
 };
 
